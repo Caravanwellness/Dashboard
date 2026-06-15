@@ -13,9 +13,9 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; f
 header { background: #1a1a2e; color: white; padding: 10px 18px; display: flex; align-items: center; gap: 14px; flex-shrink: 0; }
 header h1 { font-size: 16px; font-weight: 700; white-space: nowrap; letter-spacing: -.3px; }
 .ai-search-wrap { flex: 1; display: flex; gap: 7px; max-width: 640px; }
-.ai-search-input { flex: 1; padding: 7px 14px; border-radius: 20px; border: none; font-size: 13px; background: rgba(255,255,255,.14); color: white; outline: none; }
-.ai-search-input::placeholder { color: rgba(255,255,255,.45); }
-.ai-search-input:focus { background: rgba(255,255,255,.22); }
+.ai-search-input { flex: 1; padding: 7px 14px; border-radius: 20px; border: none; font-size: 13px; background: white; color: #1a1a2e; outline: none; }
+.ai-search-input::placeholder { color: #aaa; }
+.ai-search-input:focus { background: white; box-shadow: 0 0 0 2px rgba(255,255,255,.4); }
 .ai-search-btn { padding: 7px 15px; border-radius: 20px; border: none; background: #e63946; color: white; cursor: pointer; font-size: 12px; font-weight: 700; white-space: nowrap; letter-spacing: .3px; }
 .ai-search-btn:hover { background: #c1121f; }
 .ai-search-btn:disabled { opacity: .5; cursor: default; }
@@ -161,20 +161,27 @@ textarea.field-edit { resize: vertical; }
 .contrib-item .ci-tags { margin-top: 5px; display: flex; gap: 4px; }
 
 /* ── Client Licensing Tab ── */
-.license-page { flex: 1; display: flex; flex-direction: column; overflow: hidden; background: #f0f2f5; }
-.client-bar { background: white; border-bottom: 1px solid #e8e8e8; padding: 10px 16px; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; flex-shrink: 0; }
-.client-bar-label { font-size: 12px; font-weight: 700; color: #666; text-transform: uppercase; letter-spacing: .4px; white-space: nowrap; }
-.bubbles-wrap { display: flex; gap: 6px; flex-wrap: wrap; flex: 1; }
-.client-bubble { display: inline-flex; align-items: center; gap: 4px; padding: 5px 11px; border-radius: 16px; background: #e8ecf8; color: #2c3e8c; font-size: 12px; font-weight: 600; cursor: pointer; border: 2px solid transparent; transition: .15s; user-select: none; }
-.client-bubble:hover { background: #d4dcf5; }
-.client-bubble.active { border-color: #1a1a2e; background: #1a1a2e; color: white; }
-.client-bubble .bx { opacity: .4; font-size: 13px; line-height: 1; margin-left: 2px; }
-.client-bubble:hover .bx { opacity: .8; }
-.add-client-row { display: flex; gap: 6px; flex-shrink: 0; }
-.add-client-input { padding: 5px 11px; border: 1px solid #ddd; border-radius: 16px; font-size: 12px; outline: none; width: 160px; }
+.license-page { flex: 1; display: flex; overflow: hidden; background: #f0f2f5; }
+.client-sidebar { width: 260px; background: white; border-right: 1px solid #e8e8e8; display: flex; flex-direction: column; flex-shrink: 0; overflow: hidden; }
+.client-sidebar-head { padding: 14px 14px 10px; border-bottom: 1px solid #eee; flex-shrink: 0; }
+.client-sidebar-head h3 { font-size: 11px; text-transform: uppercase; letter-spacing: .6px; color: #aaa; font-weight: 700; margin-bottom: 10px; }
+.add-client-row { display: flex; flex-direction: column; gap: 6px; }
+.add-client-input { padding: 7px 10px; border: 1px solid #ddd; border-radius: 6px; font-size: 13px; outline: none; width: 100%; }
 .add-client-input:focus { border-color: #1a1a2e; }
-.add-client-btn { padding: 5px 12px; border-radius: 16px; border: none; background: #1a1a2e; color: white; cursor: pointer; font-size: 12px; font-weight: 600; }
+.add-client-btn { padding: 7px; border-radius: 6px; border: none; background: #1a1a2e; color: white; cursor: pointer; font-size: 13px; font-weight: 600; width: 100%; }
 .add-client-btn:hover { background: #2d2d4e; }
+.client-list { flex: 1; overflow-y: auto; padding: 8px; }
+.client-row { display: flex; align-items: center; justify-content: space-between; padding: 9px 10px; border-radius: 6px; cursor: pointer; margin-bottom: 3px; border: 2px solid transparent; transition: .15s; }
+.client-row:hover { background: #f5f5f5; }
+.client-row.active { background: #1a1a2e; border-color: #1a1a2e; }
+.client-row-name { font-size: 13px; font-weight: 600; color: #1a1a2e; }
+.client-row.active .client-row-name { color: white; }
+.client-row-count { font-size: 11px; color: #aaa; }
+.client-row.active .client-row-count { color: rgba(255,255,255,.6); }
+.client-row-remove { font-size: 15px; color: #ccc; cursor: pointer; line-height: 1; padding: 2px 4px; border-radius: 3px; }
+.client-row-remove:hover { color: #e63946; background: rgba(230,57,70,.1); }
+.client-row.active .client-row-remove { color: rgba(255,255,255,.4); }
+.client-row.active .client-row-remove:hover { color: white; background: rgba(255,255,255,.15); }
 .client-content-area { flex: 1; overflow-y: auto; }
 .client-welcome { text-align: center; padding: 70px 20px; color: #ccc; font-size: 15px; }
 .client-detail { padding: 18px; }
@@ -269,16 +276,18 @@ textarea.field-edit { resize: vertical; }
 <!-- Licensing view -->
 <div id="licenseView" style="display:none; flex:1; overflow:hidden; flex-direction:column;">
   <div class="license-page">
-    <div class="client-bar">
-      <span class="client-bar-label">Clients</span>
-      <div class="bubbles-wrap" id="bubblesWrap"></div>
-      <div class="add-client-row">
-        <input class="add-client-input" id="newClientInput" type="text" placeholder="New client name…">
-        <button class="add-client-btn" onclick="addClient()">+ Add</button>
+    <div class="client-sidebar">
+      <div class="client-sidebar-head">
+        <h3>Clients</h3>
+        <div class="add-client-row">
+          <input class="add-client-input" id="newClientInput" type="text" placeholder="Client name…">
+          <button class="add-client-btn" onclick="addClient()">+ Add Client</button>
+        </div>
       </div>
+      <div class="client-list" id="clientList"></div>
     </div>
     <div class="client-content-area" id="clientArea">
-      <div class="client-welcome">Select a client to view their licensed content, or add a new one above.</div>
+      <div class="client-welcome">Select a client from the list to view their licensed content.</div>
     </div>
   </div>
 </div>
@@ -893,6 +902,650 @@ function renderClientBubbles() {
       <span onclick="selectClient('${esc(c)}')">${esc(c)}</span>
       <span class="bx" onclick="removeClient('${esc(c)}')">×</span>
     </div>`).join('');
+  if (activeClient) renderClientDetail(activeClient);
+}
+
+function addClient() {
+  const input = document.getElementById('newClientInput');
+  const name  = input.value.trim();
+  if (!name || clients.includes(name)) return;
+  clients.push(name);
+  saveC();
+  input.value = '';
+  activeClient = name;
+  renderClientBubbles();
+}
+document.getElementById('newClientInput').addEventListener('keydown', e=>{ if(e.key==='Enter') addClient(); });
+
+function removeClient(name) {
+  clients = clients.filter(c=>c!==name);
+  saveC();
+  if (activeClient===name) {
+    activeClient = null;
+    document.getElementById('clientArea').innerHTML = '<div class="client-welcome">Select a client above to view their licensed content.</div>';
+  }
+  renderClientBubbles();
+}
+
+function selectClient(name) {
+  activeClient = name;
+  renderClientBubbles();
+}
+
+function renderClientDetail(name) {
+  if (!clientMeta[name]) clientMeta[name] = {delivery:'',notes:''};
+const CHANGE_LOG = {};
+
+// ── localStorage ──────────────────────────────────────────────────────────────
+const EDITS_KEY   = 'cw_edits_v3';
+const CLIENTS_KEY = 'cw_clients_v2';
+const CMETA_KEY   = 'cw_cmeta_v2';
+
+let edits     = {};
+let clients   = [];
+let clientMeta= {};
+
+try { edits      = JSON.parse(localStorage.getItem(EDITS_KEY)   || '{}'); } catch(e){}
+try { clients    = JSON.parse(localStorage.getItem(CLIENTS_KEY) || '[]'); } catch(e){}
+try { clientMeta = JSON.parse(localStorage.getItem(CMETA_KEY)   || '{}'); } catch(e){}
+
+const save = () => localStorage.setItem(EDITS_KEY, JSON.stringify(edits));
+const saveC = () => localStorage.setItem(CLIENTS_KEY, JSON.stringify(clients));
+const saveCM= () => localStorage.setItem(CMETA_KEY, JSON.stringify(clientMeta));
+
+function gE(id, f, def) { return (edits[id]&&edits[id][f]!==undefined) ? edits[id][f] : def; }
+function sE(id, f, v)   {
+  if (!edits[id]) edits[id]={};
+  edits[id][f] = v;
+  edits[id]._at = new Date().toISOString();
+  save();
+}
+function lv(item, f) {
+  const v = gE(item.id, f, undefined);
+  return v !== undefined ? v : (item[f] !== undefined ? item[f] : '');
+}
+
+// ── Data ──────────────────────────────────────────────────────────────────────
+const ALL = [
+  ...DATA.articles, ...DATA.infographics, ...DATA.videos,
+  ...DATA.video_library, ...DATA.infographic_library, ...DATA.article_library,
+];
+const BY_ID = {};
+ALL.forEach(i => BY_ID[i.id] = i);
+
+document.getElementById('totalCount').textContent = ALL.length.toLocaleString();
+
+const REVIEW_SET  = new Set(['Article','Infographic','Video']);
+const LIBRARY_SET = new Set(['Video Library','Infographic Library','Article Library']);
+const ALL_TYPES   = ['Article','Infographic','Video','Video Library','Infographic Library','Article Library'];
+const ALL_CATS    = [...new Set(ALL.map(i=>i.category))].sort();
+
+// ── Colors ────────────────────────────────────────────────────────────────────
+const BG_COLORS = [
+  {hex:'#fde8e8',lbl:'Red'},{hex:'#fef3e2',lbl:'Orange'},{hex:'#fffde7',lbl:'Yellow'},
+  {hex:'#e8f8f0',lbl:'Green'},{hex:'#e8f4f8',lbl:'Blue'},{hex:'#f0e8f8',lbl:'Purple'},
+  {hex:'#f5f5f5',lbl:'Grey'},{hex:'#1a1a2e',lbl:'Dark'},
+];
+const FG_COLORS = [
+  {hex:'#1a1a2e',lbl:'Dark'},{hex:'#c0392b',lbl:'Red'},{hex:'#d68910',lbl:'Orange'},
+  {hex:'#27ae60',lbl:'Green'},{hex:'#1a6eb5',lbl:'Blue'},{hex:'#7d3c98',lbl:'Purple'},
+  {hex:'#888888',lbl:'Grey'},{hex:'#ffffff',lbl:'White'},
+];
+
+function swatchHtml(colors, key, cur) {
+  const cl = `<div class="swatch swatch-clear${!cur?' active':''}" data-k="${key}" data-c="" title="Clear">✕</div>`;
+  return '<div class="swatch-row">'+cl+colors.map(c=>
+    `<div class="swatch${cur===c.hex?' active':''}" data-k="${key}" data-c="${c.hex}" style="background:${c.hex}" title="${c.lbl}"></div>`
+  ).join('')+'</div>';
+}
+
+// ── State ─────────────────────────────────────────────────────────────────────
+let activeTab  = 'review';
+let visibleItems = [];
+let sortKey    = null;
+let sortDir    = 1;
+let selectedId = null;
+let aiIds      = null;
+let activeClient = null;
+
+// ── Tabs ──────────────────────────────────────────────────────────────────────
+document.querySelectorAll('.tab').forEach(t => t.addEventListener('click', () => {
+  document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));
+  t.classList.add('active');
+  activeTab = t.dataset.tab;
+  const isLic = activeTab === 'licensing';
+  document.getElementById('mainView').style.display    = isLic ? 'none' : 'flex';
+  document.getElementById('licenseView').style.display = isLic ? 'flex' : 'none';
+  if (isLic) renderClientBubbles();
+  else { seedFilters(); applyFilters(); }
+}));
+
+// ── AI Search ─────────────────────────────────────────────────────────────────
+document.getElementById('aiInput').addEventListener('keydown', e => { if(e.key==='Enter') doAiSearch(); });
+
+async function doAiSearch() {
+  const query = document.getElementById('aiInput').value.trim();
+  if (!query) return;
+  const btn = document.getElementById('aiBtn');
+  btn.disabled = true;
+  btn.innerHTML = '<span class="spinner"></span>Searching…';
+
+  try {
+    const res = await fetch('/api/search', {
+      method: 'POST',
+      headers: {'Content-Type':'application/json'},
+      body: JSON.stringify({query})
+    });
+    if (!res.ok) throw new Error('API error');
+    const d = await res.json();
+
+    const kws  = (d.keywords  || []).map(k => k.toLowerCase());
+    const cats = new Set(d.categories || []);
+    const types= new Set(d.types || []);
+
+    const matched = ALL.filter(item => {
+      const title = lv(item,'title').toLowerCase();
+      if (types.size && types.has(lv(item,'type'))) return true;
+      if (cats.size  && cats.has(lv(item,'category'))) return true;
+      if (kws.length && kws.some(k => title.includes(k))) return true;
+      return false;
+    });
+
+    aiIds = new Set(matched.map(i=>i.id));
+    const bar = document.getElementById('aiBar');
+    bar.classList.add('show');
+    document.getElementById('aiExpl').textContent  = d.explanation || '';
+    document.getElementById('aiCount').textContent = matched.length + ' results';
+    applyFilters();
+  } catch(e) {
+    // Fallback: keyword search
+    const q = query.toLowerCase();
+    const matched = ALL.filter(i => lv(i,'title').toLowerCase().includes(q));
+    aiIds = new Set(matched.map(i=>i.id));
+    document.getElementById('aiBar').classList.add('show');
+    document.getElementById('aiExpl').textContent  = `Keyword match for "${query}"`;
+    document.getElementById('aiCount').textContent = matched.length + ' results';
+    applyFilters();
+  } finally {
+    btn.disabled = false;
+    btn.textContent = 'Search';
+  }
+}
+
+function clearAi() {
+  aiIds = null;
+  document.getElementById('aiInput').value = '';
+  document.getElementById('aiBar').classList.remove('show');
+  applyFilters();
+}
+
+// ── Filters ───────────────────────────────────────────────────────────────────
+function baseItems() {
+  if (activeTab==='review')  return ALL.filter(i=>REVIEW_SET.has(i.type));
+  if (activeTab==='library') return ALL.filter(i=>LIBRARY_SET.has(i.type));
+  return ALL;
+}
+
+function seedFilters() {
+  const base = baseItems();
+  const mk = (arr, sel='') => '<option value="">All</option>'+arr.map(v=>`<option${v===sel?' selected':''}>${v}</option>`).join('');
+  document.getElementById('typeFilter').innerHTML   = mk([...new Set(base.map(i=>lv(i,'type')))].sort());
+  document.getElementById('catFilter').innerHTML    = mk([...new Set(base.map(i=>lv(i,'category')))].sort());
+  document.getElementById('authorFilter').innerHTML = mk([...new Set(base.map(i=>lv(i,'author')).filter(Boolean))].sort());
+  document.getElementById('langFilter').innerHTML   = mk([...new Set(base.map(i=>lv(i,'language')).filter(Boolean))].sort());
+  const rv = activeTab==='review';
+  document.getElementById('prioGroup').style.display   = rv ? '' : 'none';
+  document.getElementById('authorGroup').style.display  = rv ? '' : 'none';
+  document.getElementById('langGroup').style.display    = activeTab==='library' ? '' : 'none';
+}
+
+['titleFilter','typeFilter','catFilter','prioFilter','authorFilter','langFilter'].forEach(id=>{
+  const el = document.getElementById(id);
+  el.addEventListener('input',  applyFilters);
+  el.addEventListener('change', applyFilters);
+});
+
+function applyFilters() {
+  const title  = document.getElementById('titleFilter').value.toLowerCase();
+  const type   = document.getElementById('typeFilter').value;
+  const cat    = document.getElementById('catFilter').value;
+  const prio   = document.getElementById('prioFilter').value;
+  const author = document.getElementById('authorFilter').value;
+  const lang   = document.getElementById('langFilter').value;
+
+  visibleItems = baseItems().filter(item => {
+    if (aiIds && !aiIds.has(item.id)) return false;
+    if (title  && !lv(item,'title').toLowerCase().includes(title)) return false;
+    if (type   && lv(item,'type')   !== type)   return false;
+    if (cat    && lv(item,'category') !== cat)  return false;
+    if (prio   && lv(item,'review_priority') !== prio) return false;
+    if (author && lv(item,'author') !== author) return false;
+    if (lang   && lv(item,'language') !== lang) return false;
+    return true;
+  });
+
+  if (sortKey) visibleItems.sort((a,b)=>lv(a,sortKey).localeCompare(lv(b,sortKey))*sortDir);
+  renderTable();
+  document.getElementById('shownCount').textContent = visibleItems.length.toLocaleString();
+}
+
+// ── Table ─────────────────────────────────────────────────────────────────────
+function getCols() {
+  if (activeTab==='review') return [
+    {k:'id',l:'ID'},{k:'type',l:'Type'},{k:'title',l:'Title'},{k:'category',l:'Category'},
+    {k:'review_priority',l:'Priority'},{k:'author',l:'Author'},
+    {k:'version',l:'Ver.'},{k:'date_created',l:'Created'},{k:'date_revised',l:'Revised'},
+  ];
+  return [
+    {k:'id',l:'ID'},{k:'type',l:'Type'},{k:'title',l:'Title'},{k:'category',l:'Category'},
+    {k:'language',l:'Language'},{k:'teacher',l:'Teacher/Reviewer'},
+  ];
+}
+
+function renderTable() {
+  const cols = getCols();
+  document.getElementById('thead').innerHTML = '<tr>'+cols.map(c=>{
+    const cls = sortKey===c.k ? (sortDir===1?'sort-asc':'sort-desc') : '';
+    return `<th class="${cls}" data-k="${c.k}">${c.l}</th>`;
+  }).join('')+'</tr>';
+  document.querySelectorAll('#thead th').forEach(th=>th.addEventListener('click',()=>{
+    if(sortKey===th.dataset.k) sortDir*=-1; else{sortKey=th.dataset.k;sortDir=1;}
+    visibleItems.sort((a,b)=>lv(a,sortKey).localeCompare(lv(b,sortKey))*sortDir);
+    renderTable();
+  }));
+
+  const body  = document.getElementById('tbody');
+  const empty = document.getElementById('emptyState');
+  if (!visibleItems.length) { body.innerHTML=''; empty.style.display=''; return; }
+  empty.style.display = 'none';
+
+  body.innerHTML = visibleItems.map(item => {
+    const bg  = gE(item.id,'row_bg','');
+    const fg  = gE(item.id,'row_text','');
+    const lic = gE(item.id,'licenses',item.client_licenses||[]);
+    const mod = !!(edits[item.id]&&edits[item.id]._at);
+    const sel = item.id===selectedId;
+    const tdS = bg||fg ? `style="${bg?'background:'+bg+';':''}${fg?'color:'+fg:''}"` : '';
+
+    return '<tr'+(sel?' class="selected"':'')+` data-id="${item.id}">`+cols.map(c=>{
+      const s = c.k==='id' ? '' : tdS;
+      if (c.k==='id')   return `<td class="id-cell">${item.id}</td>`;
+      if (c.k==='title') {
+        const licTxt = lic.length ? `<span style="font-size:10px;opacity:.5;margin-left:3px">[${lic.join(', ')}]</span>` : '';
+        const dot    = mod ? '<span class="edited-dot" title="Edited"></span>' : '';
+        return `<td class="title-cell" ${s}><div class="title-text">${esc(lv(item,'title'))}${licTxt}${dot}</div></td>`;
+      }
+      if (c.k==='type') return `<td ${s}><span class="badge badge-type">${esc(lv(item,'type'))}</span></td>`;
+      if (c.k==='review_priority') {
+        const p=lv(item,'review_priority');
+        return `<td ${s}>${p?`<span class="badge badge-${p}">${p}</span>`:''}</td>`;
+      }
+      const v = c.k==='teacher' ? (lv(item,'teacher')||lv(item,'peer_reviewer')||'') : lv(item,c.k);
+      return `<td ${s}>${esc(v)}</td>`;
+    }).join('')+'</tr>';
+  }).join('');
+
+  document.querySelectorAll('#tbody tr').forEach(row=>
+    row.addEventListener('click', ()=>{ const i=BY_ID[row.dataset.id]; if(i) showDetail(i); })
+  );
+}
+
+function esc(s){ return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+
+// ── Detail Panel ──────────────────────────────────────────────────────────────
+function showDetail(item) {
+  selectedId = item.id;
+  document.querySelectorAll('#tbody tr').forEach(r=>r.classList.remove('selected'));
+  const row = document.querySelector(`#tbody tr[data-id="${item.id}"]`);
+  if (row) row.classList.add('selected');
+
+  const panel = document.getElementById('detailPanel');
+  panel.classList.add('open');
+
+  // Gather values
+  const T    = (f,d='')=>lv(item,f)||d;
+  const bg   = gE(item.id,'row_bg','');
+  const fg   = gE(item.id,'row_text','');
+  const lic  = gE(item.id,'licenses',item.client_licenses||[]);
+  const notes= gE(item.id,'notes',item.notes||'');
+  const at   = edits[item.id]&&edits[item.id]._at;
+  const atStr= at ? (() => {
+    const d=new Date(at);
+    return d.toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'})
+      +' at '+d.toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit'});
+  })() : '';
+
+  const fType    = T('type');
+  const fTitle   = T('title');
+  const fCat     = T('category');
+  const fPrio    = T('review_priority');
+  const fAuthor  = T('author') || T('teacher');
+  const fCreds   = T('author_creds');
+  const fReviewer= T('peer_reviewer');
+  const fVer     = T('version');
+  const fLang    = T('language');
+  const fLink    = T('link');
+  const fVimeo   = T('vimeo_link');
+  const fDesc    = T('description');
+  const fCreated = T('date_created');
+  const fRevised = T('date_revised');
+  const fReviewDate = gE(item.id,'review_date','');
+  const fReviewedBy = gE(item.id,'reviewed_by','');
+  const fRefs    = gE(item.id,'references', item.references||'');
+  const fTransOn = gE(item.id,'transcript_available','');
+  const fTransLk = gE(item.id,'transcript_link','');
+  const fSubOn   = gE(item.id,'subtitles_available','');
+  const fSubLangs= gE(item.id,'subtitle_languages','');
+
+  const typeOpts = ALL_TYPES.map(t=>`<option${fType===t?' selected':''}>${t}</option>`).join('');
+  const catOpts  = ALL_CATS.map(c=>`<option${fCat===c?' selected':''}>${c}</option>`).join('');
+  const prioOpts = ['','High','Moderate','Low'].map(p=>`<option value="${p}"${fPrio===p?' selected':''}>${p||'—'}</option>`).join('');
+
+  function toggler(key, val) {
+    const on = val==='yes';
+    return `<div class="toggle-row" onclick="toggleF('${item.id}','${key}')">
+      <div class="toggle${on?' on':''}"></div>
+      <span class="toggle-label">${on?'Available':'Not available'}</span>
+    </div>`;
+  }
+
+  function profileBtn(name) {
+    if (!name) return '';
+    return `<span class="contrib-link" onclick="showContrib('${esc(name)}')">👤 Profile</span>`;
+  }
+
+  // Change log
+  const allChanges = [
+    ...(CHANGE_LOG[item.id]||[]),
+    ...(gE(item.id,'local_changes',[]))
+  ].sort((a,b)=>b.date.localeCompare(a.date));
+
+  const changeHtml = allChanges.length
+    ? allChanges.map(e=>`<div class="change-entry">
+        <span class="change-date">${esc(e.date)}</span>
+        <span class="change-desc">${esc(e.description)}</span>
+        <span class="change-by">${esc(e.changed_by||'')}</span>
+      </div>`).join('')
+    : '<div style="color:#ccc;font-size:12px;padding:4px 0">No changes logged yet.</div>';
+
+  // Tags html
+  const tagsHtml = `<div class="tag-wrap" id="tagWrap">
+    ${lic.map(l=>`<span class="tag">${esc(l)}<span class="tag-x" data-t="${esc(l)}">×</span></span>`).join('')}
+    <input type="text" placeholder="Add client…" id="tagInput">
+  </div>`;
+
+  panel.innerHTML = `
+    <div class="detail-header">
+      <button class="detail-close" onclick="closeDetail()">×</button>
+      <div class="title-box" style="background:${bg||'#f0f2f5'};color:${fg||'#1a1a2e'}">
+        <h2 id="titleBoxH2">${esc(fTitle)}</h2>
+      </div>
+      <div class="detail-id">${item.id}${atStr?` &nbsp;·&nbsp; <span class="edited-stamp">Edited ${atStr}</span>`:''}</div>
+    </div>
+    <div class="detail-body">
+
+      <div class="detail-section">Appearance</div>
+      <div class="color-pair">
+        <div><label>Row Color</label>${swatchHtml(BG_COLORS,'row_bg',bg)}</div>
+        <div><label>Text Color</label>${swatchHtml(FG_COLORS,'row_text',fg)}</div>
+      </div>
+
+      <div class="detail-section">Content</div>
+      <div class="detail-field"><label>Title</label>
+        <input class="field-edit" data-f="title" value="${esc(fTitle)}">
+      </div>
+      <div class="detail-field"><label>Type</label>
+        <select class="field-edit" data-f="type">${typeOpts}</select>
+      </div>
+      <div class="detail-field"><label>Category</label>
+        <select class="field-edit" data-f="category">${catOpts}</select>
+      </div>
+      ${REVIEW_SET.has(fType)?`<div class="detail-field"><label>Review Priority</label>
+        <select class="field-edit" data-f="review_priority">${prioOpts}</select>
+      </div>`:''}
+      <div class="detail-field"><label>Author / Teacher</label>
+        <div style="display:flex;align-items:center;gap:7px">
+          <input class="field-edit" data-f="author" value="${esc(fAuthor)}" style="flex:1">
+          ${profileBtn(fAuthor)}
+        </div>
+      </div>
+      <div class="detail-field"><label>Credentials</label>
+        <input class="field-edit" data-f="author_creds" value="${esc(fCreds)}" placeholder="e.g. Registered Nurse">
+      </div>
+      <div class="detail-field"><label>Peer Reviewer</label>
+        <div style="display:flex;align-items:center;gap:7px">
+          <input class="field-edit" data-f="peer_reviewer" value="${esc(fReviewer)}" style="flex:1">
+          ${profileBtn(fReviewer)}
+        </div>
+      </div>
+      <div class="detail-field"><label>Version</label>
+        <input class="field-edit" data-f="version" value="${esc(fVer)}" style="width:70px">
+      </div>
+      ${fLang!==undefined&&fLang!==''||item.language!==undefined?`<div class="detail-field"><label>Language</label>
+        <input class="field-edit" data-f="language" value="${esc(fLang)}">
+      </div>`:''}
+
+      <div class="detail-section">Links</div>
+      <div class="detail-field"><label>Content / Article Link</label>
+        <div class="link-row">
+          <input class="field-edit" data-f="link" value="${esc(fLink)}" placeholder="https://…">
+          ${fLink?`<button class="open-btn" onclick="window.open(${JSON.stringify(fLink)},'_blank')">Open ↗</button>`:''}
+        </div>
+      </div>
+      <div class="detail-field"><label>Vimeo Link</label>
+        <div class="link-row">
+          <input class="field-edit" data-f="vimeo_link" value="${esc(fVimeo)}" placeholder="https://vimeo.com/…">
+          ${fVimeo?`<button class="open-btn" onclick="window.open(${JSON.stringify(fVimeo)},'_blank')">Open ↗</button>`:''}
+        </div>
+      </div>
+
+      <div class="detail-section">Availability</div>
+      <div class="detail-field"><label>Transcripts</label>
+        ${toggler('transcript_available', fTransOn)}
+        ${fTransOn==='yes'?`<input class="field-edit" data-f="transcript_link" value="${esc(fTransLk)}" placeholder="Transcript link…" style="margin-top:6px">`:''}
+      </div>
+      <div class="detail-field"><label>Subtitles / Captions</label>
+        ${toggler('subtitles_available', fSubOn)}
+        ${fSubOn==='yes'?`<input class="field-edit" data-f="subtitle_languages" value="${esc(fSubLangs)}" placeholder="e.g. English, Spanish, French" style="margin-top:6px">`:''}
+      </div>
+
+      <div class="detail-section">Review & Dates</div>
+      <div class="detail-field"><label>Date Created</label>
+        <input class="field-edit" data-f="date_created" value="${esc(fCreated)}" placeholder="MM/DD/YYYY">
+      </div>
+      <div class="detail-field"><label>Date Revised</label>
+        <input class="field-edit" data-f="date_revised" value="${esc(fRevised)}" placeholder="MM/DD/YYYY">
+      </div>
+      <div class="detail-field"><label>Review Date</label>
+        <input class="field-edit" data-f="review_date" value="${esc(fReviewDate)}" placeholder="MM/DD/YYYY">
+      </div>
+      <div class="detail-field"><label>Reviewed By</label>
+        <input class="field-edit" data-f="reviewed_by" value="${esc(fReviewedBy)}" placeholder="Reviewer name">
+      </div>
+
+      <div class="detail-section">References</div>
+      <div class="detail-field">
+        <textarea class="field-edit" data-f="references" rows="3" placeholder="List sources and references…">${esc(fRefs)}</textarea>
+      </div>
+
+      ${fDesc?`<div class="detail-section">Description</div>
+      <div class="detail-field">
+        <textarea class="field-edit" data-f="description" rows="3">${esc(fDesc)}</textarea>
+      </div>`:''}
+
+      <div class="detail-section">Change History</div>
+      <div id="changeLog">${changeHtml}</div>
+      <button class="log-add-btn" id="logAddBtn" onclick="document.getElementById('logForm').style.display='block';this.style.display='none'">+ Log a change</button>
+      <div class="log-form" id="logForm" style="display:none">
+        <input id="logDesc" placeholder="What changed…">
+        <div class="row2">
+          <input id="logBy" placeholder="Your name">
+          <input id="logDate" placeholder="Date (MM/DD/YYYY)">
+        </div>
+        <button class="save-btn" onclick="saveLog('${item.id}')">Save</button>
+      </div>
+
+      <div class="detail-section">Licensing & Notes</div>
+      <div class="detail-field"><label>Client Licenses</label>${tagsHtml}</div>
+      <div class="detail-field"><label>Internal Notes</label>
+        <textarea class="field-edit" data-f="notes" rows="3" style="resize:vertical">${esc(notes)}</textarea>
+      </div>
+
+    </div>
+  `;
+
+  // Swatch events
+  panel.querySelectorAll('.swatch').forEach(sw=>sw.addEventListener('click',()=>{
+    sE(item.id, sw.dataset.k, sw.dataset.c);
+    reRow(item.id);
+    showDetail(item);
+  }));
+
+  // Field edit events (debounced)
+  panel.querySelectorAll('.field-edit').forEach(el=>{
+    let t;
+    const fn = () => {
+      clearTimeout(t);
+      t = setTimeout(()=>{
+        sE(item.id, el.dataset.f, el.value);
+        reRow(item.id);
+        if (el.dataset.f==='title') { const h=document.getElementById('titleBoxH2'); if(h) h.textContent=el.value; }
+      }, 280);
+    };
+    el.addEventListener('input', fn);
+    el.addEventListener('change', fn);
+  });
+
+  // Tag events
+  document.getElementById('tagInput').addEventListener('keydown', e=>{
+    if ((e.key==='Enter'||e.key===',') && e.target.value.trim()) {
+      e.preventDefault();
+      const tag = e.target.value.trim().replace(/,/g,'');
+      if (tag && !lic.includes(tag)) { lic.push(tag); sE(item.id,'licenses',lic); showDetail(item); }
+    }
+  });
+  panel.querySelectorAll('.tag-x').forEach(x=>x.addEventListener('click',()=>{
+    const t=x.dataset.t; const i=lic.indexOf(t);
+    if(i>-1){ lic.splice(i,1); sE(item.id,'licenses',lic); showDetail(item); }
+  }));
+}
+
+function toggleF(id, field) {
+  const cur = gE(id, field, '');
+  sE(id, field, cur==='yes' ? '' : 'yes');
+  const item = BY_ID[id];
+  if (item) showDetail(item);
+}
+
+function saveLog(id) {
+  const desc = document.getElementById('logDesc').value.trim();
+  const by   = document.getElementById('logBy').value.trim();
+  const date = document.getElementById('logDate').value.trim() ||
+    new Date().toLocaleDateString('en-US',{month:'2-digit',day:'2-digit',year:'numeric'});
+  if (!desc) return;
+  const list = gE(id,'local_changes',[]);
+  list.unshift({date, description:desc, changed_by:by});
+  sE(id,'local_changes',list);
+  const item = BY_ID[id];
+  if (item) showDetail(item);
+}
+
+function reRow(id) {
+  const row = document.querySelector(`#tbody tr[data-id="${id}"]`);
+  if (!row) return;
+  const item = BY_ID[id];
+  if (!item) return;
+  const cols = getCols();
+  const bg  = gE(id,'row_bg','');
+  const fg  = gE(id,'row_text','');
+  const lic = gE(id,'licenses',item.client_licenses||[]);
+  const mod = !!(edits[id]&&edits[id]._at);
+  const tdS = bg||fg ? `style="${bg?'background:'+bg+';':''}${fg?'color:'+fg:''}"` : '';
+
+  row.innerHTML = cols.map(c=>{
+    const s = c.k==='id' ? '' : tdS;
+    if (c.k==='id') return `<td class="id-cell">${id}</td>`;
+    if (c.k==='title') {
+      const licT = lic.length?`<span style="font-size:10px;opacity:.5;margin-left:3px">[${lic.join(', ')}]</span>`:'';
+      return `<td class="title-cell" ${s}><div class="title-text">${esc(lv(item,'title'))}${licT}${mod?'<span class="edited-dot"></span>':''}</div></td>`;
+    }
+    if (c.k==='type') return `<td ${s}><span class="badge badge-type">${esc(lv(item,'type'))}</span></td>`;
+    if (c.k==='review_priority'){const p=lv(item,'review_priority');return `<td ${s}>${p?`<span class="badge badge-${p}">${p}</span>`:''}</td>`;}
+    const v = c.k==='teacher'?(lv(item,'teacher')||lv(item,'peer_reviewer')||''):lv(item,c.k);
+    return `<td ${s}>${esc(v)}</td>`;
+  }).join('');
+
+  row.addEventListener('click',()=>{ const i=BY_ID[id]; if(i) showDetail(i); });
+  if (id===selectedId) row.classList.add('selected');
+}
+
+function closeDetail() {
+  selectedId = null;
+  document.getElementById('detailPanel').classList.remove('open');
+  document.querySelectorAll('#tbody tr').forEach(r=>r.classList.remove('selected'));
+}
+
+// ── Contributor Profile ────────────────────────────────────────────────────────
+function showContrib(name) {
+  if (!name) return;
+  const authored = ALL.filter(i=>(lv(i,'author')||lv(i,'teacher'))===name);
+  const reviewed = ALL.filter(i=>lv(i,'peer_reviewer')===name);
+  const creds    = authored.length ? lv(authored[0],'author_creds') : '';
+
+  document.getElementById('contribHead').innerHTML = `
+    <button class="contrib-close" onclick="closeContrib()">×</button>
+    <h2>${esc(name)}</h2>
+    ${creds?`<div class="sub">${esc(creds)}</div>`:''}
+    <div class="stats">${authored.length} authored &nbsp;·&nbsp; ${reviewed.length} reviewed</div>
+  `;
+
+  function cards(items) {
+    if (!items.length) return '<div style="color:#bbb;font-size:13px">None found.</div>';
+    return items.map(i=>{
+      const p=lv(i,'review_priority');
+      return `<div class="contrib-item" onclick="closeContrib();showDetail(BY_ID['${i.id}'])">
+        <div class="ci-id">${i.id}</div>
+        <div class="ci-title">${esc(lv(i,'title'))}</div>
+        <div class="ci-tags">${p?`<span class="badge badge-${p}">${p}</span> `:''}
+          <span class="badge badge-type">${esc(lv(i,'type'))}</span>
+        </div>
+      </div>`;
+    }).join('');
+  }
+
+  document.getElementById('contribBody').innerHTML = `
+    <div class="contrib-section"><h3>Authored / Created (${authored.length})</h3>${cards(authored)}</div>
+    ${reviewed.length?`<div class="contrib-section"><h3>Peer Reviewed (${reviewed.length})</h3>${cards(reviewed)}</div>`:''}
+  `;
+
+  document.getElementById('contribOverlay').classList.add('open');
+  document.getElementById('contribPanel').style.display = 'flex';
+}
+
+function closeContrib() {
+  document.getElementById('contribOverlay').classList.remove('open');
+  document.getElementById('contribPanel').style.display = 'none';
+}
+function maybeCloseContrib(e) { if(e.target===document.getElementById('contribOverlay')) closeContrib(); }
+
+// ── Client Licensing ──────────────────────────────────────────────────────────
+function renderClientBubbles() {
+  const counts = {};
+  ALL.forEach(item => {
+    gE(item.id,'licenses',item.client_licenses||[]).forEach(c => {
+      counts[c] = (counts[c]||0) + 1;
+    });
+  });
+
+  document.getElementById('clientList').innerHTML = clients.length
+    ? clients.map(c=>`
+      <div class="client-row${activeClient===c?' active':''}" onclick="selectClient('${esc(c)}')">
+        <span class="client-row-name">${esc(c)}</span>
+        <span class="client-row-count">${counts[c]||0} items</span>
+        <span class="client-row-remove" onclick="event.stopPropagation();removeClient('${esc(c)}')">×</span>
+      </div>`).join('')
+    : '<div style="padding:12px;color:#ccc;font-size:13px">No clients yet. Add one above.</div>';
+
   if (activeClient) renderClientDetail(activeClient);
 }
 
