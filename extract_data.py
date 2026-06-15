@@ -316,7 +316,7 @@ def extract_infographic_library(path):
     return items
 
 
-HTML_TEMPLATE = r"""<!DOCTYPE html>
+_UNUSED = r"""<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -1072,38 +1072,63 @@ applyFilters();
 
 
 def main():
-    print("Extracting content from PDFs...")
-    all_data = {}
+    # If PDFs are available, re-extract; otherwise reuse data from existing index.html
+    pdfs_available = all(os.path.exists(p) for p in PDFS.values())
 
-    print("  → Articles review tracker")
-    all_data["articles"] = extract_review_tracker(PDFS["articles_review"], "Article", "ART")
+    if pdfs_available:
+        print("Extracting content from PDFs...")
+        all_data = {}
+        print("  → Articles review tracker")
+        all_data["articles"] = extract_review_tracker(PDFS["articles_review"], "Article", "ART")
+        print("  → Infographics review tracker")
+        all_data["infographics"] = extract_review_tracker(PDFS["infographics_review"], "Infographic", "INF")
+        print("  → Videos review tracker")
+        all_data["videos"] = extract_review_tracker(PDFS["videos_review"], "Video", "VID")
+        print("  → Video Library catalog")
+        all_data["video_library"] = extract_video_library(PDFS["video_library"])
+        print("  → Infographic Library catalog")
+        all_data["infographic_library"] = extract_infographic_library(PDFS["infographic_library"])
+        print("  → Article Library catalog")
+        all_data["article_library"] = extract_article_library(PDFS["article_library"])
+        for key, items in all_data.items():
+            print(f"    {key}: {len(items)} items")
+        total = sum(len(v) for v in all_data.values())
+        print(f"    TOTAL: {total} items")
+    else:
+        print("PDFs not found — reusing data from existing index.html...")
+        existing = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'index.html')
+        with open(existing, encoding='utf-8') as f:
+            content = f.read()
+        m = re.search(r'const DATA = (\{.*?\});', content, re.DOTALL)
+        if not m:
+            print("ERROR: Could not find data in index.html. Please provide the PDFs.")
+            return
+        all_data = json.loads(m.group(1))
+        total = sum(len(v) for v in all_data.values())
+        print(f"  Loaded {total} items from existing index.html")
 
-    print("  → Infographics review tracker")
-    all_data["infographics"] = extract_review_tracker(PDFS["infographics_review"], "Infographic", "INF")
+    # Load change log
+    log_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'change_log.json')
+    try:
+        with open(log_file) as f:
+            change_log = json.load(f)
+        total_logs = sum(len(v) for v in change_log.values())
+        print(f"  Loaded {total_logs} change log entries")
+    except:
+        change_log = {}
 
-    print("  → Videos review tracker")
-    all_data["videos"] = extract_review_tracker(PDFS["videos_review"], "Video", "VID")
+    # Load template and inject data
+    template_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'template.html')
+    with open(template_file, encoding='utf-8') as f:
+        html = f.read()
 
-    print("  → Video Library catalog")
-    all_data["video_library"] = extract_video_library(PDFS["video_library"])
-
-    print("  → Infographic Library catalog")
-    all_data["infographic_library"] = extract_infographic_library(PDFS["infographic_library"])
-
-    print("  → Article Library catalog")
-    all_data["article_library"] = extract_article_library(PDFS["article_library"])
-
-    for key, items in all_data.items():
-        print(f"    {key}: {len(items)} items")
-
-    total = sum(len(v) for v in all_data.values())
-    print(f"    TOTAL: {total} items")
-
-    data_json = json.dumps(all_data, separators=(',', ':'))
+    data_json      = json.dumps(all_data,    separators=(',', ':'))
+    changelog_json = json.dumps(change_log,  separators=(',', ':'))
     extracted_date = date.today().strftime("%B %d, %Y")
 
-    html = HTML_TEMPLATE.replace("__DATA_PLACEHOLDER__", data_json)
-    html = html.replace("__EXTRACTED__", extracted_date)
+    html = html.replace("__DATA_PLACEHOLDER__",      data_json)
+    html = html.replace("__CHANGELOG_PLACEHOLDER__", changelog_json)
+    html = html.replace("__EXTRACTED__",             extracted_date)
 
     with open(OUT, "w", encoding="utf-8") as f:
         f.write(html)
