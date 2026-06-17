@@ -327,6 +327,10 @@ try { edits      = JSON.parse(localStorage.getItem(EDITS_KEY)   || '{}'); } catc
 try { clients    = JSON.parse(localStorage.getItem(CLIENTS_KEY) || '[]'); } catch(e){}
 try { clientMeta = JSON.parse(localStorage.getItem(CMETA_KEY)   || '{}'); } catch(e){}
 
+const save = () => localStorage.setItem(EDITS_KEY, JSON.stringify(edits));
+const saveC = () => localStorage.setItem(CLIENTS_KEY, JSON.stringify(clients));
+const saveCM= () => localStorage.setItem(CMETA_KEY, JSON.stringify(clientMeta));
+
 // Seed clients from embedded data if not already present
 (function seedClients() {
   let changed = false;
@@ -340,10 +344,6 @@ try { clientMeta = JSON.parse(localStorage.getItem(CMETA_KEY)   || '{}'); } catc
   }
   if (changed) { saveC(); saveCM(); }
 })();
-
-const save = () => localStorage.setItem(EDITS_KEY, JSON.stringify(edits));
-const saveC = () => localStorage.setItem(CLIENTS_KEY, JSON.stringify(clients));
-const saveCM= () => localStorage.setItem(CMETA_KEY, JSON.stringify(clientMeta));
 
 function gE(id, f, def) { return (edits[id]&&edits[id][f]!==undefined) ? edits[id][f] : def; }
 function sE(id, f, v)   {
