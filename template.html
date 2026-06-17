@@ -146,24 +146,27 @@ textarea.field-edit { resize: vertical; }
 .contrib-link { color: #1a6eb5; cursor: pointer; font-size: 11px; white-space: nowrap; text-decoration: underline dotted; }
 .contrib-link:hover { text-decoration: underline; }
 
-/* ── Contributor Modal ── */
-.overlay { position: fixed; inset: 0; background: rgba(0,0,0,.38); z-index: 200; display: none; }
-.overlay.open { display: block; }
-.contrib-panel { position: fixed; top: 0; right: 0; width: 460px; height: 100vh; background: white; box-shadow: -6px 0 24px rgba(0,0,0,.13); display: flex; flex-direction: column; z-index: 201; overflow: hidden; }
-.contrib-head { background: #1a1a2e; color: white; padding: 18px 18px 14px; flex-shrink: 0; position: relative; }
-.contrib-head h2 { font-size: 18px; font-weight: 600; }
-.contrib-head .sub { color: #aaa; font-size: 13px; margin-top: 3px; }
-.contrib-head .stats { color: #888; font-size: 12px; margin-top: 8px; }
-.contrib-close { position: absolute; top: 13px; right: 13px; border: none; background: rgba(255,255,255,.12); color: white; font-size: 16px; cursor: pointer; width: 28px; height: 28px; border-radius: 50%; }
-.contrib-close:hover { background: rgba(255,255,255,.25); }
-.contrib-body { flex: 1; overflow-y: auto; padding: 16px; }
-.contrib-section { margin-bottom: 18px; }
-.contrib-section h3 { font-size: 11px; text-transform: uppercase; letter-spacing: .5px; color: #bbb; font-weight: 700; margin-bottom: 9px; }
-.contrib-item { padding: 8px 10px; border-radius: 6px; background: #f9f9f9; margin-bottom: 5px; cursor: pointer; border: 1px solid transparent; }
-.contrib-item:hover { background: #f0f0f0; border-color: #e0e0e0; }
+/* ── Contributor Full Page ── */
+.overlay { display: none; } /* kept for compat but unused */
+.contrib-page { position: fixed; inset: 0; background: #f0f2f5; z-index: 300; display: none; flex-direction: column; overflow: hidden; }
+.contrib-page.open { display: flex; }
+.contrib-head { background: #1a1a2e; color: white; padding: 16px 24px 14px; flex-shrink: 0; display: flex; align-items: flex-start; gap: 18px; }
+.contrib-head-back { border: none; background: rgba(255,255,255,.12); color: white; font-size: 13px; cursor: pointer; padding: 6px 14px; border-radius: 20px; white-space: nowrap; flex-shrink: 0; margin-top: 2px; }
+.contrib-head-back:hover { background: rgba(255,255,255,.22); }
+.contrib-head-info { flex: 1; }
+.contrib-head-info h2 { font-size: 22px; font-weight: 700; }
+.contrib-head-info .sub { color: #bbb; font-size: 13px; margin-top: 4px; }
+.contrib-head-info .stats { color: #aaa; font-size: 12px; margin-top: 8px; display: flex; gap: 16px; }
+.contrib-head-info .stats span { background: rgba(255,255,255,.08); padding: 3px 10px; border-radius: 10px; }
+.contrib-body { flex: 1; overflow-y: auto; padding: 24px; max-width: 1100px; width: 100%; margin: 0 auto; }
+.contrib-section { margin-bottom: 28px; }
+.contrib-section h3 { font-size: 11px; text-transform: uppercase; letter-spacing: .5px; color: #bbb; font-weight: 700; margin-bottom: 12px; }
+.contrib-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 10px; }
+.contrib-item { padding: 10px 13px; border-radius: 8px; background: white; margin-bottom: 0; cursor: pointer; border: 1px solid #e8e8e8; box-shadow: 0 1px 3px rgba(0,0,0,.04); }
+.contrib-item:hover { border-color: #aaa; box-shadow: 0 2px 8px rgba(0,0,0,.08); }
 .contrib-item .ci-id { font-family: monospace; font-size: 11px; color: #bbb; }
-.contrib-item .ci-title { font-size: 13px; font-weight: 500; margin-top: 2px; line-height: 1.35; }
-.contrib-item .ci-tags { margin-top: 5px; display: flex; gap: 4px; }
+.contrib-item .ci-title { font-size: 13px; font-weight: 500; margin-top: 3px; line-height: 1.4; }
+.contrib-item .ci-tags { margin-top: 6px; display: flex; gap: 4px; flex-wrap: wrap; }
 
 /* ── Client Licensing Tab ── */
 .license-page { flex: 1; display: flex; overflow: hidden; background: #f0f2f5; }
@@ -297,16 +300,19 @@ textarea.field-edit { resize: vertical; }
   </div>
 </div>
 
-<!-- Contributor overlay -->
-<div class="overlay" id="contribOverlay" onclick="maybeCloseContrib(event)"></div>
-<div class="contrib-panel" id="contribPanel" style="display:none">
-  <div class="contrib-head" id="contribHead"></div>
+<!-- Contributor full page -->
+<div class="contrib-page" id="contribPage">
+  <div class="contrib-head" id="contribHead">
+    <button class="contrib-head-back" onclick="closeContrib()">← Back</button>
+    <div class="contrib-head-info" id="contribHeadInfo"></div>
+  </div>
   <div class="contrib-body" id="contribBody"></div>
 </div>
 
 <script>
-const DATA       = __DATA_PLACEHOLDER__;
-const CHANGE_LOG = __CHANGELOG_PLACEHOLDER__;
+const DATA         = __DATA_PLACEHOLDER__;
+const CHANGE_LOG   = __CHANGELOG_PLACEHOLDER__;
+const SEEDED_CLIENTS = __CLIENTS_PLACEHOLDER__;
 
 // ── localStorage ──────────────────────────────────────────────────────────────
 const EDITS_KEY   = 'cw_edits_v3';
@@ -320,6 +326,20 @@ let clientMeta= {};
 try { edits      = JSON.parse(localStorage.getItem(EDITS_KEY)   || '{}'); } catch(e){}
 try { clients    = JSON.parse(localStorage.getItem(CLIENTS_KEY) || '[]'); } catch(e){}
 try { clientMeta = JSON.parse(localStorage.getItem(CMETA_KEY)   || '{}'); } catch(e){}
+
+// Seed clients from embedded data if not already present
+(function seedClients() {
+  let changed = false;
+  for (const name of Object.keys(SEEDED_CLIENTS)) {
+    if (!clients.includes(name)) { clients.push(name); changed = true; }
+    if (!clientMeta[name]) {
+      const s = SEEDED_CLIENTS[name];
+      clientMeta[name] = { delivery: s.delivery||'', notes: s.notes||'' };
+      changed = true;
+    }
+  }
+  if (changed) { saveC(); saveCM(); }
+})();
 
 const save = () => localStorage.setItem(EDITS_KEY, JSON.stringify(edits));
 const saveC = () => localStorage.setItem(CLIENTS_KEY, JSON.stringify(clients));
@@ -867,48 +887,54 @@ function closeDetail() {
   document.querySelectorAll('#tbody tr').forEach(r=>r.classList.remove('selected'));
 }
 
-// ── Contributor Profile ────────────────────────────────────────────────────────
+// ── Contributor Profile (full page) ──────────────────────────────────────────
 function showContrib(name) {
   if (!name) return;
   const authored = ALL.filter(i=>(lv(i,'author')||lv(i,'teacher'))===name);
   const reviewed = ALL.filter(i=>lv(i,'peer_reviewer')===name);
   const creds    = authored.length ? lv(authored[0],'author_creds') : '';
 
-  document.getElementById('contribHead').innerHTML = `
-    <button class="contrib-close" onclick="closeContrib()">×</button>
+  document.getElementById('contribHeadInfo').innerHTML = `
     <h2>${esc(name)}</h2>
     ${creds?`<div class="sub">${esc(creds)}</div>`:''}
-    <div class="stats">${authored.length} authored &nbsp;·&nbsp; ${reviewed.length} reviewed</div>
+    <div class="stats">
+      <span>${authored.length} authored</span>
+      <span>${reviewed.length} peer reviewed</span>
+    </div>
   `;
 
   function cards(items) {
-    if (!items.length) return '<div style="color:#bbb;font-size:13px">None found.</div>';
-    return items.map(i=>{
+    if (!items.length) return '<div style="color:#bbb;font-size:13px;padding:12px 0">None found.</div>';
+    return `<div class="contrib-grid">${items.map(i=>{
       const p=lv(i,'review_priority');
       return `<div class="contrib-item" onclick="closeContrib();showDetail(BY_ID['${i.id}'])">
         <div class="ci-id">${i.id}</div>
         <div class="ci-title">${esc(lv(i,'title'))}</div>
-        <div class="ci-tags">${p?`<span class="badge badge-${p}">${p}</span> `:''}
+        <div class="ci-tags">${p?`<span class="badge badge-${p}">${p}</span>`:''}
           <span class="badge badge-type">${esc(lv(i,'type'))}</span>
         </div>
       </div>`;
-    }).join('');
+    }).join('')}</div>`;
   }
 
   document.getElementById('contribBody').innerHTML = `
-    <div class="contrib-section"><h3>Authored / Created (${authored.length})</h3>${cards(authored)}</div>
-    ${reviewed.length?`<div class="contrib-section"><h3>Peer Reviewed (${reviewed.length})</h3>${cards(reviewed)}</div>`:''}
+    <div class="contrib-section">
+      <h3>Authored / Created (${authored.length})</h3>
+      ${cards(authored)}
+    </div>
+    ${reviewed.length?`<div class="contrib-section">
+      <h3>Peer Reviewed (${reviewed.length})</h3>
+      ${cards(reviewed)}
+    </div>`:''}
   `;
 
-  document.getElementById('contribOverlay').classList.add('open');
-  document.getElementById('contribPanel').style.display = 'flex';
+  document.getElementById('contribPage').classList.add('open');
 }
 
 function closeContrib() {
-  document.getElementById('contribOverlay').classList.remove('open');
-  document.getElementById('contribPanel').style.display = 'none';
+  document.getElementById('contribPage').classList.remove('open');
 }
-function maybeCloseContrib(e) { if(e.target===document.getElementById('contribOverlay')) closeContrib(); }
+function maybeCloseContrib() {}
 
 // ── Client Licensing ──────────────────────────────────────────────────────────
 function renderClientBubbles() {
@@ -960,12 +986,52 @@ function selectClient(name) {
 
 function renderClientDetail(name) {
   if (!clientMeta[name]) clientMeta[name] = {delivery:'',notes:''};
-  const meta  = clientMeta[name];
-  const items = ALL.filter(i => gE(i.id,'licenses',i.client_licenses||[]).includes(name));
+  const meta   = clientMeta[name];
+  const items  = ALL.filter(i => gE(i.id,'licenses',i.client_licenses||[]).includes(name));
+  const seeded = SEEDED_CLIENTS[name] || null;
+
+  // Build seeded content table rows
+  function seededTable(list, label) {
+    if (!list || !list.length) return '';
+    const rows = list.map(v => `
+      <tr>
+        <td style="font-weight:500">${esc(v.title)}</td>
+        <td style="color:#777">${esc(v.category||v.language||'')}</td>
+        <td style="color:#777">${esc(v.teacher||'')}</td>
+        <td style="color:#777;white-space:nowrap">${v.length?v.length+' min':''}</td>
+        <td>${v.url?`<a href="${esc(v.url)}" target="_blank" style="color:#1a6eb5;text-decoration:none">↗ Watch</a>`:''}</td>
+      </tr>`).join('');
+    return `
+      <div class="client-section-label" style="margin-top:22px">${label} (${list.length})</div>
+      <table style="width:100%;border-collapse:collapse;font-size:13px;background:white;border-radius:8px;overflow:hidden;box-shadow:0 1px 4px rgba(0,0,0,.06)">
+        <thead><tr style="background:#f5f5f5;font-size:11px;text-transform:uppercase;letter-spacing:.4px;color:#999">
+          <th style="padding:8px 12px;text-align:left;font-weight:700">Title</th>
+          <th style="padding:8px 12px;text-align:left;font-weight:700">Category</th>
+          <th style="padding:8px 12px;text-align:left;font-weight:700">Teacher</th>
+          <th style="padding:8px 12px;text-align:left;font-weight:700">Length</th>
+          <th style="padding:8px 12px;text-align:left;font-weight:700">Link</th>
+        </tr></thead>
+        <tbody>${rows}</tbody>
+      </table>`;
+  }
+
+  const seededHtml = seeded ? `
+    ${seededTable(seeded.content, seeded.requested ? 'Currently Licensed' : 'Licensed Content')}
+    ${seeded.requested ? seededTable(seeded.requested, 'Requested Content') : ''}
+  ` : '';
+
+  const dashboardItemsHtml = items.length
+    ? `<div class="client-grid">${items.map(i=>`
+        <div class="client-card" onclick="jumpToItem('${i.id}')">
+          <div class="cc-id">${i.id}</div>
+          <div class="cc-title">${esc(lv(i,'title'))}</div>
+          <div class="cc-badge"><span class="badge badge-type">${esc(lv(i,'type'))}</span></div>
+        </div>`).join('')}</div>`
+    : '';
 
   document.getElementById('clientArea').innerHTML = `
     <div class="client-detail">
-      <h2>${esc(name)} <span style="font-size:14px;font-weight:400;color:#999">${items.length} licensed items</span></h2>
+      <h2>${esc(name)}</h2>
       <div class="client-meta">
         <div class="client-meta-field">
           <label>Delivery Method</label>
@@ -976,16 +1042,8 @@ function renderClientDetail(name) {
           <input class="field-edit" id="cNotes" value="${esc(meta.notes)}" placeholder="Any notes…">
         </div>
       </div>
-      <div class="client-section-label">Licensed Content</div>
-      ${items.length
-        ? `<div class="client-grid">${items.map(i=>`
-            <div class="client-card" onclick="jumpToItem('${i.id}')">
-              <div class="cc-id">${i.id}</div>
-              <div class="cc-title">${esc(lv(i,'title'))}</div>
-              <div class="cc-badge"><span class="badge badge-type">${esc(lv(i,'type'))}</span></div>
-            </div>`).join('')}</div>`
-        : `<div class="no-content">No content licensed to ${esc(name)} yet.<br>Open any content item and add "${esc(name)}" to its Client Licenses.</div>`
-      }
+      ${seededHtml}
+      ${dashboardItemsHtml ? `<div class="client-section-label" style="margin-top:22px">Dashboard Items Tagged to ${esc(name)}</div>${dashboardItemsHtml}` : ''}
     </div>
   `;
 

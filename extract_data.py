@@ -1099,7 +1099,7 @@ def main():
         existing = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'index.html')
         with open(existing, encoding='utf-8') as f:
             content = f.read()
-        m = re.search(r'const DATA = (\{.*?\});', content, re.DOTALL)
+        m = re.search(r'const DATA\s+=\s+(\{.+?\});', content, re.DOTALL)
         if not m:
             print("ERROR: Could not find data in index.html. Please provide the PDFs.")
             return
@@ -1117,6 +1117,39 @@ def main():
     except:
         change_log = {}
 
+    # Load content enrichments (date created, reviewed, references, links) from Google Sheet
+    enrichments = {}
+    enrich_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'content_enrichments.json')
+    if os.path.exists(enrich_file):
+        with open(enrich_file) as f:
+            enrichments = json.load(f)
+        print(f"  Loaded {len(enrichments)} content enrichments")
+
+    # Apply enrichments to data items (match by title, case-insensitive)
+    import re as _re
+    def _clean_title(t):
+        return _re.sub(r'\s+', ' ', (t or '').rstrip('*').strip()).lower()
+
+    for section_items in all_data.values():
+        for item in section_items:
+            key = _clean_title(item.get('title', ''))
+            e = enrichments.get(key)
+            if e:
+                # Only fill in fields that are empty or missing
+                for field in ('link', 'date_created', 'date_reviewed', 'references',
+                              'author', 'author_creds', 'peer_reviewer', 'peer_reviewer_creds',
+                              'description'):
+                    if field in e and e[field] and not item.get(field):
+                        item[field] = e[field]
+
+    # Load seeded client data (YuLife, Hapstar, etc.)
+    client_data = {}
+    client_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'seeded_clients.json')
+    if os.path.exists(client_file):
+        with open(client_file) as f:
+            client_data = json.load(f)
+        print(f"  Loaded seeded client data: {list(client_data.keys())}")
+
     # Load template and inject data
     template_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'template.html')
     with open(template_file, encoding='utf-8') as f:
@@ -1124,10 +1157,12 @@ def main():
 
     data_json      = json.dumps(all_data,    separators=(',', ':'))
     changelog_json = json.dumps(change_log,  separators=(',', ':'))
+    clients_json   = json.dumps(client_data, separators=(',', ':'))
     extracted_date = date.today().strftime("%B %d, %Y")
 
     html = html.replace("__DATA_PLACEHOLDER__",      data_json)
     html = html.replace("__CHANGELOG_PLACEHOLDER__", changelog_json)
+    html = html.replace("__CLIENTS_PLACEHOLDER__",   clients_json)
     html = html.replace("__EXTRACTED__",             extracted_date)
 
     with open(OUT, "w", encoding="utf-8") as f:
