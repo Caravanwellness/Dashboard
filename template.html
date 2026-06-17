@@ -265,6 +265,10 @@ textarea.field-edit { resize: vertical; }
       <h3>Language</h3>
       <select id="langFilter"><option value="">All</option></select>
     </div>
+    <div class="filter-group" id="clientGroup" style="display:none">
+      <h3>Client</h3>
+      <select id="clientFilter"><option value="">All Clients</option></select>
+    </div>
     <div class="sidebar-count">Showing <strong id="shownCount">0</strong> items</div>
   </div>
 
@@ -485,13 +489,16 @@ function seedFilters() {
   document.getElementById('catFilter').innerHTML    = mk([...new Set(base.map(i=>lv(i,'category')))].sort());
   document.getElementById('authorFilter').innerHTML = mk([...new Set(base.map(i=>lv(i,'author')).filter(Boolean))].sort());
   document.getElementById('langFilter').innerHTML   = mk([...new Set(base.map(i=>lv(i,'language')).filter(Boolean))].sort());
+  const allClients = [...new Set(base.flatMap(i=>gE(i.id,'licenses',i.client_licenses||[])))].sort();
+  document.getElementById('clientFilter').innerHTML = '<option value="">All Clients</option>'+allClients.map(c=>`<option>${c}</option>`).join('');
   const rv = activeTab==='review';
   document.getElementById('prioGroup').style.display   = rv ? '' : 'none';
   document.getElementById('authorGroup').style.display  = rv ? '' : 'none';
   document.getElementById('langGroup').style.display    = activeTab==='library' ? '' : 'none';
+  document.getElementById('clientGroup').style.display  = activeTab==='library' ? '' : 'none';
 }
 
-['titleFilter','typeFilter','catFilter','prioFilter','authorFilter','langFilter'].forEach(id=>{
+['titleFilter','typeFilter','catFilter','prioFilter','authorFilter','langFilter','clientFilter'].forEach(id=>{
   const el = document.getElementById(id);
   el.addEventListener('input',  applyFilters);
   el.addEventListener('change', applyFilters);
@@ -504,6 +511,7 @@ function applyFilters() {
   const prio   = document.getElementById('prioFilter').value;
   const author = document.getElementById('authorFilter').value;
   const lang   = document.getElementById('langFilter').value;
+  const client = document.getElementById('clientFilter').value;
 
   visibleItems = baseItems().filter(item => {
     if (aiIds && !aiIds.has(item.id)) return false;
@@ -513,6 +521,7 @@ function applyFilters() {
     if (prio   && lv(item,'review_priority') !== prio) return false;
     if (author && lv(item,'author') !== author) return false;
     if (lang   && lv(item,'language') !== lang) return false;
+    if (client && !gE(item.id,'licenses',item.client_licenses||[]).includes(client)) return false;
     return true;
   });
 
@@ -529,8 +538,8 @@ function getCols() {
     {k:'version',l:'Ver.'},{k:'date_revised',l:'Revised'},
   ];
   return [
-    {k:'id',l:'ID'},{k:'type',l:'Type'},{k:'title',l:'Title'},{k:'category',l:'Category'},
-    {k:'language',l:'Language'},{k:'teacher',l:'Teacher/Reviewer'},{k:'_clients',l:'Clients'},
+    {k:'_clients',l:'Clients'},{k:'id',l:'ID'},{k:'type',l:'Type'},{k:'title',l:'Title'},{k:'category',l:'Category'},
+    {k:'language',l:'Language'},{k:'teacher',l:'Teacher/Reviewer'},
   ];
 }
 
