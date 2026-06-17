@@ -530,7 +530,7 @@ function getCols() {
   ];
   return [
     {k:'id',l:'ID'},{k:'type',l:'Type'},{k:'title',l:'Title'},{k:'category',l:'Category'},
-    {k:'language',l:'Language'},{k:'teacher',l:'Teacher/Reviewer'},
+    {k:'language',l:'Language'},{k:'teacher',l:'Teacher/Reviewer'},{k:'_clients',l:'Clients'},
   ];
 }
 
@@ -571,6 +571,9 @@ function renderTable() {
       if (c.k==='review_priority') {
         const p=lv(item,'review_priority');
         return `<td ${s}>${p?`<span class="badge badge-${p}">${p}</span>`:''}</td>`;
+      }
+      if (c.k==='_clients') {
+        return `<td ${s}>${lic.map(c=>`<span class="badge badge-type" style="margin:1px 2px;font-size:10px">${esc(c)}</span>`).join('')}</td>`;
       }
       const v = c.k==='teacher' ? (lv(item,'teacher')||lv(item,'peer_reviewer')||'') : lv(item,c.k);
       return `<td ${s}>${esc(v)}</td>`;
