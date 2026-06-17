@@ -1150,6 +1150,33 @@ def main():
             client_data = json.load(f)
         print(f"  Loaded seeded client data: {list(client_data.keys())}")
 
+    # Match client content to dashboard items by title and stamp client_licenses
+    # Build title → item lookup
+    title_index = {}
+    for section_items in all_data.values():
+        for item in section_items:
+            key = _clean_title(item.get('title', ''))
+            if key:
+                title_index[key] = item
+
+    matched_total = 0
+    for client_name, client_info in client_data.items():
+        all_client_videos = list(client_info.get('content', []))
+        all_client_videos += list(client_info.get('requested', []))
+        matched = 0
+        for video in all_client_videos:
+            key = _clean_title(video.get('title', ''))
+            item = title_index.get(key)
+            if item:
+                if 'client_licenses' not in item:
+                    item['client_licenses'] = []
+                if client_name not in item['client_licenses']:
+                    item['client_licenses'].append(client_name)
+                matched += 1
+        print(f"  {client_name}: matched {matched}/{len(all_client_videos)} videos to dashboard items")
+        matched_total += matched
+    print(f"  Total client-licensed items stamped: {matched_total}")
+
     # Load template and inject data
     template_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'template.html')
     with open(template_file, encoding='utf-8') as f:
