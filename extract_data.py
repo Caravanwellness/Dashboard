@@ -1184,20 +1184,30 @@ def main():
         matched_total += matched
     print(f"  Total client-licensed items stamped: {matched_total}")
 
+    # Load transcripts
+    transcripts = {}
+    transcripts_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'transcripts.json')
+    if os.path.exists(transcripts_file):
+        with open(transcripts_file) as f:
+            transcripts = json.load(f)
+        print(f"  Loaded {len(transcripts)} video transcripts")
+
     # Load template and inject data
     template_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'template.html')
     with open(template_file, encoding='utf-8') as f:
         html = f.read()
 
-    data_json      = json.dumps(all_data,    separators=(',', ':'))
-    changelog_json = json.dumps(change_log,  separators=(',', ':'))
-    clients_json   = json.dumps(client_data, separators=(',', ':'))
-    extracted_date = date.today().strftime("%B %d, %Y")
+    data_json        = json.dumps(all_data,     separators=(',', ':'))
+    changelog_json   = json.dumps(change_log,   separators=(',', ':'))
+    clients_json     = json.dumps(client_data,  separators=(',', ':'))
+    transcripts_json = json.dumps(transcripts,  separators=(',', ':'))
+    extracted_date   = date.today().strftime("%B %d, %Y")
 
-    html = html.replace("__DATA_PLACEHOLDER__",      data_json)
-    html = html.replace("__CHANGELOG_PLACEHOLDER__", changelog_json)
-    html = html.replace("__CLIENTS_PLACEHOLDER__",   clients_json)
-    html = html.replace("__EXTRACTED__",             extracted_date)
+    html = html.replace("__DATA_PLACEHOLDER__",        data_json)
+    html = html.replace("__CHANGELOG_PLACEHOLDER__",   changelog_json)
+    html = html.replace("__CLIENTS_PLACEHOLDER__",     clients_json)
+    html = html.replace("__TRANSCRIPTS_PLACEHOLDER__", transcripts_json)
+    html = html.replace("__EXTRACTED__",               extracted_date)
 
     with open(OUT, "w", encoding="utf-8") as f:
         f.write(html)

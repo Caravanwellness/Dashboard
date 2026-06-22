@@ -95,6 +95,11 @@ textarea.field-edit { resize: vertical; }
 .link-row .field-edit { flex: 1; }
 .open-btn { padding: 6px 9px; border: 1px solid #e0e0e0; border-radius: 5px; background: #f8f9fa; cursor: pointer; font-size: 12px; color: #1a6eb5; white-space: nowrap; flex-shrink: 0; }
 .open-btn:hover { background: #e8f0fb; }
+.transcript-box { background: #f8f9fa; border: 1px solid #e8e8e8; border-radius: 6px; padding: 10px 12px; font-size: 12px; color: #444; line-height: 1.6; }
+.transcript-box p { margin: 0; }
+.transcript-full { margin-top: 6px !important; white-space: pre-wrap; }
+.transcript-toggle { margin-top: 8px; font-size: 11px; color: #1a6eb5; background: none; border: none; cursor: pointer; padding: 0; }
+.transcript-toggle:hover { text-decoration: underline; }
 
 /* Toggle */
 .toggle-row { display: flex; align-items: center; gap: 8px; cursor: pointer; }
@@ -371,6 +376,7 @@ textarea.field-edit { resize: vertical; }
 const DATA         = __DATA_PLACEHOLDER__;
 const CHANGE_LOG   = __CHANGELOG_PLACEHOLDER__;
 const SEEDED_CLIENTS = __CLIENTS_PLACEHOLDER__;
+const TRANSCRIPTS  = __TRANSCRIPTS_PLACEHOLDER__;
 
 // ── localStorage ──────────────────────────────────────────────────────────────
 const EDITS_KEY   = 'cw_edits_v3';
@@ -497,10 +503,11 @@ async function doAiSearch() {
     const types= new Set(d.types || []);
 
     const matched = ALL.filter(item => {
-      const title = lv(item,'title').toLowerCase();
+      const title      = lv(item,'title').toLowerCase();
+      const transcript = (TRANSCRIPTS[item.id] || '').toLowerCase();
       if (types.size && types.has(lv(item,'type'))) return true;
       if (cats.size  && cats.has(lv(item,'category'))) return true;
-      if (kws.length && kws.some(k => title.includes(k))) return true;
+      if (kws.length && kws.some(k => title.includes(k) || transcript.includes(k))) return true;
       return false;
     });
 
@@ -513,7 +520,7 @@ async function doAiSearch() {
   } catch(e) {
     // Fallback: keyword search
     const q = query.toLowerCase();
-    const matched = ALL.filter(i => lv(i,'title').toLowerCase().includes(q));
+    const matched = ALL.filter(i => lv(i,'title').toLowerCase().includes(q) || (TRANSCRIPTS[i.id]||'').toLowerCase().includes(q));
     aiIds = new Set(matched.map(i=>i.id));
     document.getElementById('aiBar').classList.add('show');
     document.getElementById('aiExpl').textContent  = `Keyword match for "${query}"`;
@@ -668,6 +675,17 @@ function renderTable() {
 
 function esc(s){ return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
 function openUrl(btn){ window.open(btn.dataset.url,'_blank'); }
+function toggleTranscript(id) {
+  const box = document.getElementById('trBox_' + id);
+  if (!box) return;
+  const preview = box.querySelector('.transcript-preview');
+  const full    = box.querySelector('.transcript-full');
+  const btn     = box.querySelector('.transcript-toggle');
+  const isHidden = full.style.display === 'none';
+  preview.style.display = isHidden ? 'none' : '';
+  full.style.display    = isHidden ? ''     : 'none';
+  btn.textContent       = isHidden ? 'Show less' : 'Show full transcript';
+}
 
 // ── Detail Panel ──────────────────────────────────────────────────────────────
 function showDetail(item) {
@@ -861,6 +879,8 @@ function showDetail(item) {
       <div class="detail-field">
         <textarea class="field-edit" data-f="description" rows="3">${esc(fDesc)}</textarea>
       </div>`:''}
+
+      ${(()=>{const tr=TRANSCRIPTS[item.id];return tr?`<div class="detail-section">Transcript <span style="font-size:10px;font-weight:400;color:var(--muted);margin-left:6px">auto-generated · Vimeo</span></div><div class="detail-field"><div class="transcript-box" id="trBox_${item.id}"><p class="transcript-preview">${esc(tr.slice(0,400))}${tr.length>400?'…':''}</p>${tr.length>400?`<button class="transcript-toggle" onclick="toggleTranscript('${item.id}')">Show full transcript</button>`:''}${tr.length>400?`<p class="transcript-full" style="display:none">${esc(tr)}</p>`:''}</div></div>`:'';})()}
 
       <div class="detail-section">Change History</div>
       <div id="changeLog">${changeHtml}</div>
