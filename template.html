@@ -562,6 +562,15 @@ function seedFilters() {
   el.addEventListener('change', applyFilters);
 });
 
+const TWO_YEARS_MS = 2 * 365.25 * 24 * 60 * 60 * 1000;
+function reviewStatus(item) {
+  const d = gE(item.id,'review_date','') || lv(item,'date_reviewed') || lv(item,'date_created') || '';
+  if (!d) return 'never';
+  const parsed = new Date(d);
+  if (isNaN(parsed)) return 'never';
+  return (Date.now() - parsed.getTime()) > TWO_YEARS_MS ? 'due' : 'ok';
+}
+
 function applyFilters() {
   const title  = document.getElementById('titleFilter').value.toLowerCase();
   const type   = document.getElementById('typeFilter').value;
@@ -571,16 +580,6 @@ function applyFilters() {
   const lang   = document.getElementById('langFilter').value;
   const client = document.getElementById('clientFilter').value;
   const due    = document.getElementById('dueFilter').value;
-
-  const TWO_YEARS_MS = 2 * 365.25 * 24 * 60 * 60 * 1000;
-  const now = Date.now();
-  function reviewStatus(item) {
-    const d = lv(item,'date_reviewed') || lv(item,'date_created') || '';
-    if (!d) return 'never';
-    const parsed = new Date(d);
-    if (isNaN(parsed)) return 'never';
-    return (now - parsed.getTime()) > TWO_YEARS_MS ? 'due' : 'ok';
-  }
 
   visibleItems = baseItems().filter(item => {
     if (aiIds && !aiIds.has(item.id)) return false;
@@ -636,15 +635,18 @@ function renderTable() {
     const lic = gE(item.id,'licenses',item.client_licenses||[]);
     const mod = !!(edits[item.id]&&edits[item.id]._at);
     const sel = item.id===selectedId;
-    const tdS = bg||fg ? `style="${bg?'background:'+bg+';':''}${fg?'color:'+fg:''}"` : '';
+    const isDue = activeTab==='review' && reviewStatus(item)==='due';
+    const rowBg = bg || (isDue ? 'rgba(230,57,70,0.07)' : '');
+    const tdS = rowBg||fg ? `style="${rowBg?'background:'+rowBg+';':''}${fg?'color:'+fg:''}"` : '';
 
     return '<tr'+(sel?' class="selected"':'')+` data-id="${item.id}">`+cols.map(c=>{
       const s = c.k==='id' ? '' : tdS;
       if (c.k==='id')   return `<td class="id-cell">${item.id}</td>`;
       if (c.k==='title') {
-        const licTxt = lic.length ? `<span style="font-size:10px;opacity:.5;margin-left:3px">[${lic.join(', ')}]</span>` : '';
-        const dot    = mod ? '<span class="edited-dot" title="Edited"></span>' : '';
-        return `<td class="title-cell" ${s}><div class="title-text">${esc(lv(item,'title'))}${licTxt}${dot}</div></td>`;
+        const licTxt  = lic.length ? `<span style="font-size:10px;opacity:.5;margin-left:3px">[${lic.join(', ')}]</span>` : '';
+        const dot     = mod ? '<span class="edited-dot" title="Edited"></span>' : '';
+        const dueBadge= isDue ? `<span style="font-size:9px;font-weight:700;background:rgba(230,57,70,.15);color:#e63946;border-radius:4px;padding:1px 5px;margin-left:5px;letter-spacing:.3px">REVIEW DUE</span>` : '';
+        return `<td class="title-cell" ${s}><div class="title-text">${esc(lv(item,'title'))}${dueBadge}${licTxt}${dot}</div></td>`;
       }
       if (c.k==='type') return `<td ${s}><span class="badge badge-type">${esc(lv(item,'type'))}</span></td>`;
       if (c.k==='review_priority') {
