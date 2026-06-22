@@ -1201,6 +1201,9 @@ async function markReviewed(itemId) {
   if (rdInput) rdInput.value = today;
   if (rbInput) rbInput.value = reviewer;
 
+  // Re-render so red row/badge disappears immediately
+  renderTable();
+
   // Show confirmation
   const msg = document.getElementById('markReviewedMsg');
   if (msg) { msg.style.display = ''; setTimeout(()=>msg.style.display='none', 4000); }
