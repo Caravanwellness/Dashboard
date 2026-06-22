@@ -1185,13 +1185,13 @@ async function markReviewed(itemId) {
   const reviewer = gE(itemId,'reviewed_by','') || prompt('Your name (for the review log):', '') || 'Unknown';
 
   // Stamp review date + reviewer
-  setEdit(itemId, 'review_date', today);
-  setEdit(itemId, 'reviewed_by', reviewer);
+  sE(itemId, 'review_date', today);
+  sE(itemId, 'reviewed_by', reviewer);
 
   // Log to change history
   const changes = gE(itemId,'local_changes',[]);
   changes.unshift({ date: today, description: 'Marked as reviewed', changed_by: reviewer });
-  setEdit(itemId, 'local_changes', changes);
+  sE(itemId, 'local_changes', changes);
 
   // Update the inputs visually
   const rdInput = document.querySelector('.field-edit[data-f="review_date"]');

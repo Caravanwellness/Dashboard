@@ -1135,11 +1135,18 @@ def main():
             key = _clean_title(item.get('title', ''))
             e = enrichments.get(key)
             if e:
-                # Only fill in fields that are empty or missing
                 for field in ('link', 'date_created', 'date_reviewed', 'references',
                               'author', 'author_creds', 'peer_reviewer', 'peer_reviewer_creds',
                               'description'):
-                    if field in e and e[field] and not item.get(field):
+                    if field not in e or not e[field]:
+                        continue
+                    existing = item.get(field, '')
+                    # Always overwrite if empty, truncated/invalid URL, or shorter than enrichment
+                    if field == 'link':
+                        bad = not existing or len(existing) < 20 or not existing.startswith('http')
+                        if bad or len(e[field]) > len(existing):
+                            item[field] = e[field]
+                    elif not existing:
                         item[field] = e[field]
 
     # Load seeded client data (YuLife, Hapstar, etc.)
