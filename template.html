@@ -233,6 +233,7 @@ textarea.field-edit { resize: vertical; }
   <div class="tab active" data-tab="review">Review Tracker</div>
   <div class="tab" data-tab="library">Content Library</div>
   <div class="tab" data-tab="licensing">Client Licensing</div>
+  <div class="tab" data-tab="curation">✦ Curation</div>
 </div>
 
 <!-- Review / Library view -->
@@ -249,6 +250,15 @@ textarea.field-edit { resize: vertical; }
     <div class="filter-group">
       <h3>Category</h3>
       <select id="catFilter"><option value="">All Categories</option></select>
+    </div>
+    <div class="filter-group" id="dueGroup">
+      <h3>Review Status</h3>
+      <select id="dueFilter">
+        <option value="">All</option>
+        <option value="due">Due for Review (2+ yrs)</option>
+        <option value="ok">Recently Reviewed</option>
+        <option value="never">Never Reviewed</option>
+      </select>
     </div>
     <div class="filter-group" id="prioGroup">
       <h3>Priority</h3>
@@ -301,6 +311,50 @@ textarea.field-edit { resize: vertical; }
     <div class="client-content-area" id="clientArea">
       <div class="client-welcome">Select a client from the list to view their licensed content.</div>
     </div>
+  </div>
+</div>
+
+<!-- Curation view -->
+<div id="curationView" style="display:none;flex:1;overflow:auto;padding:20px;background:#f0f2f5;flex-direction:column;gap:16px">
+  <div style="background:white;border-radius:10px;padding:20px;box-shadow:0 1px 4px rgba(0,0,0,.06)">
+    <h2 style="font-size:16px;font-weight:700;margin-bottom:4px">Content Curation Builder</h2>
+    <p style="font-size:13px;color:#666;margin-bottom:16px">Build a curated list by specifying a total count and content mix. AI will select matching pieces from the library.</p>
+    <div style="display:flex;gap:12px;flex-wrap:wrap;align-items:flex-end">
+      <div>
+        <label style="font-size:11px;text-transform:uppercase;letter-spacing:.5px;color:#999;display:block;margin-bottom:4px">Total pieces</label>
+        <input id="curTotal" type="number" value="100" min="1" max="4902" style="width:90px;padding:7px 10px;border:1px solid #e0e0e0;border-radius:6px;font-size:14px">
+      </div>
+      <div style="flex:1;min-width:260px">
+        <label style="font-size:11px;text-transform:uppercase;letter-spacing:.5px;color:#999;display:block;margin-bottom:4px">Describe the mix (AI reads this)</label>
+        <input id="curPrompt" type="text" placeholder="e.g. 20% nutrition, 30% diabetes, 30% articles, 20% videos about sleep…" style="width:100%;padding:7px 10px;border:1px solid #e0e0e0;border-radius:6px;font-size:13px">
+      </div>
+      <button onclick="runCuration()" id="curBtn" style="padding:8px 18px;background:#e63946;color:white;border:none;border-radius:6px;font-weight:700;cursor:pointer;font-size:13px;white-space:nowrap">✦ Generate List</button>
+    </div>
+    <div id="curStatus" style="margin-top:10px;font-size:12px;color:#888"></div>
+  </div>
+  <div id="curResults" style="display:none;background:white;border-radius:10px;box-shadow:0 1px 4px rgba(0,0,0,.06);overflow:hidden">
+    <div style="padding:14px 18px;border-bottom:1px solid #f0f2f5;display:flex;align-items:center;justify-content:space-between">
+      <div><span id="curResultTitle" style="font-weight:700;font-size:14px"></span> <span id="curResultSub" style="font-size:12px;color:#999;margin-left:6px"></span></div>
+      <div style="display:flex;gap:8px">
+        <button onclick="exportCuration()" style="padding:6px 12px;border:1px solid #e0e0e0;border-radius:5px;background:white;cursor:pointer;font-size:12px;color:#555">⬇ Export CSV</button>
+        <button onclick="saveCuration()" style="padding:6px 12px;border:1px solid #1a1a2e;border-radius:5px;background:#1a1a2e;color:white;cursor:pointer;font-size:12px">Save List</button>
+      </div>
+    </div>
+    <div id="curBreakdown" style="padding:10px 18px;background:#fafafa;border-bottom:1px solid #f0f2f5;font-size:12px;color:#666;display:flex;gap:16px;flex-wrap:wrap"></div>
+    <table style="width:100%;border-collapse:collapse">
+      <thead><tr style="background:#f5f5f5;font-size:11px;text-transform:uppercase;letter-spacing:.4px;color:#999">
+        <th style="padding:8px 14px;text-align:left">ID</th>
+        <th style="padding:8px 14px;text-align:left">Type</th>
+        <th style="padding:8px 14px;text-align:left">Title</th>
+        <th style="padding:8px 14px;text-align:left">Category</th>
+        <th style="padding:8px 14px;text-align:left">Author</th>
+      </tr></thead>
+      <tbody id="curTbody"></tbody>
+    </table>
+  </div>
+  <div id="curSavedLists" style="background:white;border-radius:10px;padding:16px 20px;box-shadow:0 1px 4px rgba(0,0,0,.06)">
+    <h3 style="font-size:13px;font-weight:700;margin-bottom:10px">Saved Lists</h3>
+    <div id="curSavedInner" style="font-size:13px;color:#aaa">No saved lists yet.</div>
   </div>
 </div>
 
@@ -410,9 +464,12 @@ document.querySelectorAll('.tab').forEach(t => t.addEventListener('click', () =>
   t.classList.add('active');
   activeTab = t.dataset.tab;
   const isLic = activeTab === 'licensing';
-  document.getElementById('mainView').style.display    = isLic ? 'none' : 'flex';
-  document.getElementById('licenseView').style.display = isLic ? 'flex' : 'none';
+  const isCur = activeTab === 'curation';
+  document.getElementById('mainView').style.display      = (!isLic && !isCur) ? 'flex' : 'none';
+  document.getElementById('licenseView').style.display   = isLic  ? 'flex' : 'none';
+  document.getElementById('curationView').style.display  = isCur  ? 'flex' : 'none';
   if (isLic) renderClientBubbles();
+  else if (isCur) renderSavedLists();
   else { seedFilters(); applyFilters(); }
 }));
 
@@ -492,13 +549,14 @@ function seedFilters() {
   const allClients = [...new Set(base.flatMap(i=>gE(i.id,'licenses',i.client_licenses||[])))].sort();
   document.getElementById('clientFilter').innerHTML = '<option value="">All Clients</option>'+allClients.map(c=>`<option>${c}</option>`).join('');
   const rv = activeTab==='review';
-  document.getElementById('prioGroup').style.display   = rv ? '' : 'none';
+  document.getElementById('dueGroup').style.display     = rv ? '' : 'none';
+  document.getElementById('prioGroup').style.display    = rv ? '' : 'none';
   document.getElementById('authorGroup').style.display  = rv ? '' : 'none';
   document.getElementById('langGroup').style.display    = activeTab==='library' ? '' : 'none';
   document.getElementById('clientGroup').style.display  = activeTab==='library' ? '' : 'none';
 }
 
-['titleFilter','typeFilter','catFilter','prioFilter','authorFilter','langFilter','clientFilter'].forEach(id=>{
+['titleFilter','typeFilter','catFilter','prioFilter','authorFilter','langFilter','clientFilter','dueFilter'].forEach(id=>{
   const el = document.getElementById(id);
   el.addEventListener('input',  applyFilters);
   el.addEventListener('change', applyFilters);
@@ -512,6 +570,17 @@ function applyFilters() {
   const author = document.getElementById('authorFilter').value;
   const lang   = document.getElementById('langFilter').value;
   const client = document.getElementById('clientFilter').value;
+  const due    = document.getElementById('dueFilter').value;
+
+  const TWO_YEARS_MS = 2 * 365.25 * 24 * 60 * 60 * 1000;
+  const now = Date.now();
+  function reviewStatus(item) {
+    const d = lv(item,'date_reviewed') || lv(item,'date_created') || '';
+    if (!d) return 'never';
+    const parsed = new Date(d);
+    if (isNaN(parsed)) return 'never';
+    return (now - parsed.getTime()) > TWO_YEARS_MS ? 'due' : 'ok';
+  }
 
   visibleItems = baseItems().filter(item => {
     if (aiIds && !aiIds.has(item.id)) return false;
@@ -522,6 +591,7 @@ function applyFilters() {
     if (author && lv(item,'author') !== author) return false;
     if (lang   && lv(item,'language') !== lang) return false;
     if (client && !gE(item.id,'licenses',item.client_licenses||[]).includes(client)) return false;
+    if (due    && reviewStatus(item) !== due) return false;
     return true;
   });
 
@@ -595,6 +665,7 @@ function renderTable() {
 }
 
 function esc(s){ return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+function openUrl(btn){ window.open(btn.dataset.url,'_blank'); }
 
 // ── Detail Panel ──────────────────────────────────────────────────────────────
 function showDetail(item) {
@@ -743,13 +814,13 @@ function showDetail(item) {
       <div class="detail-field"><label>Content / Article Link</label>
         <div class="link-row">
           <input class="field-edit" data-f="link" value="${esc(fLink)}" placeholder="https://…">
-          ${fLink?`<button class="open-btn" onclick="window.open(${JSON.stringify(fLink)},'_blank')">Open ↗</button>`:''}
+          ${fLink?`<button class="open-btn" onclick="openUrl(this)" data-url="${esc(fLink)}">Open ↗</button>`:''}
         </div>
       </div>
       <div class="detail-field"><label>Vimeo Link</label>
         <div class="link-row">
           <input class="field-edit" data-f="vimeo_link" value="${esc(fVimeo)}" placeholder="https://vimeo.com/…">
-          ${fVimeo?`<button class="open-btn" onclick="window.open(${JSON.stringify(fVimeo)},'_blank')">Open ↗</button>`:''}
+          ${fVimeo?`<button class="open-btn" onclick="openUrl(this)" data-url="${esc(fVimeo)}">Open ↗</button>`:''}
         </div>
       </div>
 
@@ -1102,6 +1173,181 @@ function exportCSV() {
 // ── Init ──────────────────────────────────────────────────────────────────────
 seedFilters();
 applyFilters();
+
+// ── Curation ──────────────────────────────────────────────────────────────────
+const CUR_KEY = 'cw_curations_v1';
+let curItems = [];
+
+function renderSavedLists() {
+  const saved = JSON.parse(localStorage.getItem(CUR_KEY) || '[]');
+  const el = document.getElementById('curSavedInner');
+  if (!saved.length) { el.innerHTML = '<span style="color:#aaa;font-size:13px">No saved lists yet.</span>'; return; }
+  el.innerHTML = saved.map((s,i) => `
+    <div style="display:flex;align-items:center;justify-content:space-between;padding:8px 0;border-bottom:1px solid #f5f5f5">
+      <div>
+        <span style="font-weight:600;font-size:13px">${esc(s.name)}</span>
+        <span style="font-size:11px;color:#999;margin-left:8px">${s.items.length} items · ${s.date}</span>
+      </div>
+      <div style="display:flex;gap:6px">
+        <button onclick="loadCuration(${i})" style="padding:4px 10px;border:1px solid #e0e0e0;border-radius:4px;background:white;cursor:pointer;font-size:11px">Load</button>
+        <button onclick="deleteCuration(${i})" style="padding:4px 10px;border:1px solid #fcc;border-radius:4px;background:white;color:#e63946;cursor:pointer;font-size:11px">Delete</button>
+      </div>
+    </div>`).join('');
+}
+
+async function runCuration() {
+  const total  = parseInt(document.getElementById('curTotal').value) || 100;
+  const prompt = document.getElementById('curPrompt').value.trim();
+  const btn    = document.getElementById('curBtn');
+  const status = document.getElementById('curStatus');
+  if (!prompt) { status.textContent = 'Please describe the content mix you want.'; return; }
+
+  btn.disabled = true;
+  btn.textContent = '⏳ Generating…';
+  status.textContent = 'Asking AI to interpret your mix…';
+
+  // Ask AI to parse the mix description into category/type weights
+  let weights = null;
+  try {
+    const res = await fetch('/api/search', {
+      method: 'POST',
+      headers: {'Content-Type':'application/json'},
+      body: JSON.stringify({ query: prompt, mode: 'curation', total })
+    });
+    if (res.ok) {
+      const d = await res.json();
+      weights = d.weights || null;
+    }
+  } catch(e) {}
+
+  // Parse percentages from prompt text as fallback
+  if (!weights) {
+    weights = parseMixPrompt(prompt);
+  }
+
+  status.textContent = 'Selecting content…';
+  curItems = selectContent(total, weights, prompt);
+
+  showCurationResults(total, prompt, weights);
+  btn.disabled = false;
+  btn.textContent = '✦ Generate List';
+  status.textContent = '';
+}
+
+function parseMixPrompt(prompt) {
+  // Extract "X% keyword" patterns
+  const weights = {};
+  const pct = [...prompt.matchAll(/(\d+)\s*%\s*([\w &]+)/g)];
+  for (const m of pct) {
+    weights[m[2].trim().toLowerCase()] = parseInt(m[1]) / 100;
+  }
+  return weights;
+}
+
+function selectContent(total, weights, prompt) {
+  const promptLow = prompt.toLowerCase();
+  const scored = ALL.map(item => {
+    let score = Math.random() * 0.3; // base randomness
+    const title = lv(item,'title').toLowerCase();
+    const cat   = lv(item,'category').toLowerCase();
+    const type  = lv(item,'type').toLowerCase();
+
+    for (const [kw, pct] of Object.entries(weights)) {
+      if (cat.includes(kw) || type.includes(kw) || title.includes(kw)) {
+        score += pct * 10;
+      }
+    }
+    // Also score against raw prompt keywords
+    const words = promptLow.replace(/\d+%/g,'').split(/\W+/).filter(w=>w.length>3);
+    for (const w of words) {
+      if (cat.includes(w) || title.includes(w)) score += 0.5;
+    }
+    return { item, score };
+  });
+
+  scored.sort((a,b) => b.score - a.score);
+
+  // Try to respect proportions
+  const selected = [];
+  const buckets = {};
+  for (const [kw, pct] of Object.entries(weights)) {
+    const want = Math.round(total * pct);
+    const pool = scored.filter(s =>
+      lv(s.item,'category').toLowerCase().includes(kw) ||
+      lv(s.item,'type').toLowerCase().includes(kw)
+    ).slice(0, want * 3);
+    const pick = pool.slice(0, want).map(s => s.item);
+    for (const it of pick) {
+      if (!selected.find(x=>x.id===it.id)) selected.push(it);
+    }
+    buckets[kw] = pick.length;
+  }
+
+  // Fill remaining slots from top-scored items
+  for (const {item} of scored) {
+    if (selected.length >= total) break;
+    if (!selected.find(x=>x.id===item.id)) selected.push(item);
+  }
+
+  return selected.slice(0, total);
+}
+
+function showCurationResults(total, prompt, weights) {
+  document.getElementById('curResults').style.display = '';
+  document.getElementById('curResultTitle').textContent = `${curItems.length} items curated`;
+  document.getElementById('curResultSub').textContent = `"${prompt.substring(0,60)}${prompt.length>60?'…':''}"`;
+
+  // Breakdown by category
+  const cats = {};
+  curItems.forEach(i => { const c = lv(i,'category'); cats[c] = (cats[c]||0)+1; });
+  const top = Object.entries(cats).sort((a,b)=>b[1]-a[1]).slice(0,6);
+  document.getElementById('curBreakdown').innerHTML = top.map(([c,n])=>
+    `<span><strong>${n}</strong> ${c}</span>`).join(' &nbsp;·&nbsp; ');
+
+  document.getElementById('curTbody').innerHTML = curItems.map((item,i) => `
+    <tr style="border-bottom:1px solid #f5f5f5;${i%2?'background:#fafafa':''}">
+      <td style="padding:7px 14px;font-size:11px;color:#aaa">${item.id}</td>
+      <td style="padding:7px 14px"><span class="badge badge-type" style="font-size:10px">${esc(lv(item,'type'))}</span></td>
+      <td style="padding:7px 14px;font-size:13px;font-weight:500">${esc(lv(item,'title'))}</td>
+      <td style="padding:7px 14px;font-size:12px;color:#666">${esc(lv(item,'category'))}</td>
+      <td style="padding:7px 14px;font-size:12px;color:#666">${esc(lv(item,'author')||lv(item,'teacher')||'')}</td>
+    </tr>`).join('');
+}
+
+function saveCuration() {
+  const name = prompt('Name this list:', `Curation ${new Date().toLocaleDateString()}`);
+  if (!name) return;
+  const saved = JSON.parse(localStorage.getItem(CUR_KEY) || '[]');
+  saved.unshift({ name, date: new Date().toLocaleDateString(), items: curItems.map(i=>i.id) });
+  localStorage.setItem(CUR_KEY, JSON.stringify(saved));
+  renderSavedLists();
+}
+
+function loadCuration(idx) {
+  const saved = JSON.parse(localStorage.getItem(CUR_KEY) || '[]');
+  const s = saved[idx];
+  if (!s) return;
+  curItems = s.items.map(id => BY_ID[id]).filter(Boolean);
+  showCurationResults(curItems.length, s.name, {});
+}
+
+function deleteCuration(idx) {
+  const saved = JSON.parse(localStorage.getItem(CUR_KEY) || '[]');
+  saved.splice(idx,1);
+  localStorage.setItem(CUR_KEY, JSON.stringify(saved));
+  renderSavedLists();
+}
+
+function exportCuration() {
+  const rows = [['ID','Type','Title','Category','Author/Teacher','Link']];
+  curItems.forEach(i => rows.push([
+    i.id, lv(i,'type'), lv(i,'title'), lv(i,'category'),
+    lv(i,'author')||lv(i,'teacher')||'', lv(i,'link')||''
+  ]));
+  const csv = rows.map(r=>r.map(c=>`"${String(c).replace(/"/g,'""')}"`).join(',')).join('\n');
+  const a = Object.assign(document.createElement('a'),{href:'data:text/csv;charset=utf-8,'+encodeURIComponent(csv),download:'curation.csv'});
+  a.click();
+}
 </script>
 </body>
 </html>
