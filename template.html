@@ -835,6 +835,8 @@ function showDetail(item) {
       </div>
 
       <div class="detail-section">Review & Dates</div>
+      <button onclick="markReviewed('${item.id}')" id="markReviewedBtn" style="margin:0 0 10px 0;width:100%;padding:9px;background:#1a6eb5;color:white;border:none;border-radius:7px;font-weight:700;font-size:13px;cursor:pointer;letter-spacing:.2px">✓ Mark as Reviewed Today</button>
+      <div id="markReviewedMsg" style="font-size:11px;color:#27ae60;margin-bottom:6px;display:none">✓ Marked as reviewed and Slack notified!</div>
       <div class="detail-field"><label>Date Created</label>
         <input class="field-edit" data-f="date_created" value="${esc(fCreated)}" placeholder="MM/DD/YYYY">
       </div>
@@ -1173,6 +1175,55 @@ function exportCSV() {
 // ── Init ──────────────────────────────────────────────────────────────────────
 seedFilters();
 applyFilters();
+
+// ── Mark as Reviewed + Slack ──────────────────────────────────────────────────
+async function markReviewed(itemId) {
+  const item = BY_ID[itemId];
+  if (!item) return;
+
+  const today = new Date().toLocaleDateString('en-US', {month:'2-digit',day:'2-digit',year:'numeric'});
+  const reviewer = gE(itemId,'reviewed_by','') || prompt('Your name (for the review log):', '') || 'Unknown';
+
+  // Stamp review date + reviewer
+  setEdit(itemId, 'review_date', today);
+  setEdit(itemId, 'reviewed_by', reviewer);
+
+  // Log to change history
+  const changes = gE(itemId,'local_changes',[]);
+  changes.unshift({ date: today, description: 'Marked as reviewed', changed_by: reviewer });
+  setEdit(itemId, 'local_changes', changes);
+
+  // Update the inputs visually
+  const rdInput = document.querySelector('.field-edit[data-f="review_date"]');
+  const rbInput = document.querySelector('.field-edit[data-f="reviewed_by"]');
+  if (rdInput) rdInput.value = today;
+  if (rbInput) rbInput.value = reviewer;
+
+  // Show confirmation
+  const msg = document.getElementById('markReviewedMsg');
+  if (msg) { msg.style.display = ''; setTimeout(()=>msg.style.display='none', 4000); }
+
+  // Notify Slack
+  try {
+    const title = lv(item,'title');
+    const cat   = lv(item,'category');
+    const type  = lv(item,'type');
+    await fetch('/api/slack', {
+      method: 'POST',
+      headers: {'Content-Type':'application/json'},
+      body: JSON.stringify({
+        blocks: [
+          { type: 'section', text: { type: 'mrkdwn',
+            text: `✅ *Content Reviewed*\n*${title}*\n${type} · ${cat}` }},
+          { type: 'context', elements: [
+            { type: 'mrkdwn', text: `Reviewed by *${reviewer}* on ${today} · ID: \`${itemId}\`` }
+          ]}
+        ],
+        text: `✅ "${title}" marked as reviewed by ${reviewer}`
+      })
+    });
+  } catch(e) { console.warn('Slack notify failed:', e); }
+}
 
 // ── Curation ──────────────────────────────────────────────────────────────────
 const CUR_KEY = 'cw_curations_v1';
