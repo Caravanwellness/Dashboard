@@ -429,6 +429,21 @@ const ALL = [
 const BY_ID = {};
 ALL.forEach(i => BY_ID[i.id] = i);
 
+// All unique client partner names (for licensed % calculation)
+const ALL_CLIENT_NAMES = [...new Set(ALL.flatMap(i => i.client_licenses||[]))].sort();
+
+function extractDuration(title) {
+  // Pull "5 Min" prefix/suffix from titles like "5 Min Strong Boxer Core"
+  const m = String(title||'').match(/^(\d+)\s*[Mm]in\b/);
+  if (m) return m[1] + ' min';
+  return '';
+}
+
+function cleanTitle(title) {
+  // Strip leading "X Min " duration prefix from display title
+  return String(title||'').replace(/^\d+\s*[Mm]in\s+/, '');
+}
+
 document.getElementById('totalCount').textContent = ALL.length.toLocaleString();
 
 const REVIEW_SET  = new Set(['Article','Infographic','Video']);
@@ -610,12 +625,12 @@ function applyFilters() {
 function getCols() {
   if (activeTab==='review') return [
     {k:'id',l:'ID'},{k:'type',l:'Type'},{k:'title',l:'Title'},{k:'category',l:'Category'},
-    {k:'date_created',l:'Date Created'},{k:'review_priority',l:'Priority'},{k:'author',l:'Author'},
+    {k:'date_created',l:'Date Created'},{k:'_review_date',l:'Last Reviewed'},{k:'author',l:'Author'},
     {k:'version',l:'Ver.'},{k:'date_revised',l:'Revised'},
   ];
   return [
     {k:'_clients',l:'Clients'},{k:'id',l:'ID'},{k:'type',l:'Type'},{k:'title',l:'Title'},{k:'category',l:'Category'},
-    {k:'language',l:'Language'},{k:'teacher',l:'Teacher/Reviewer'},
+    {k:'_duration',l:'Duration'},{k:'language',l:'Language'},{k:'teacher',l:'Teacher/Reviewer'},{k:'_licensed_pct',l:'Licensed By'},
   ];
 }
 
@@ -653,7 +668,7 @@ function renderTable() {
         const licTxt  = lic.length ? `<span style="font-size:10px;opacity:.5;margin-left:3px">[${lic.join(', ')}]</span>` : '';
         const dot     = mod ? '<span class="edited-dot" title="Edited"></span>' : '';
         const dueBadge= isDue ? `<span style="font-size:9px;font-weight:700;background:rgba(230,57,70,.15);color:#e63946;border-radius:4px;padding:1px 5px;margin-left:5px;letter-spacing:.3px">REVIEW DUE</span>` : '';
-        return `<td class="title-cell" ${s}><div class="title-text">${esc(lv(item,'title'))}${dueBadge}${licTxt}${dot}</div></td>`;
+        return `<td class="title-cell" ${s}><div class="title-text">${esc(cleanTitle(lv(item,'title')))}${dueBadge}${licTxt}${dot}</div></td>`;
       }
       if (c.k==='type') return `<td ${s}><span class="badge badge-type">${esc(lv(item,'type'))}</span></td>`;
       if (c.k==='review_priority') {
@@ -662,6 +677,20 @@ function renderTable() {
       }
       if (c.k==='_clients') {
         return `<td ${s}>${lic.map(c=>`<span class="badge badge-type" style="margin:1px 2px;font-size:10px">${esc(c)}</span>`).join('')}</td>`;
+      }
+      if (c.k==='_review_date') {
+        const rd = gE(item.id,'review_date','') || lv(item,'date_reviewed') || '';
+        return `<td ${s}>${esc(rd)}</td>`;
+      }
+      if (c.k==='_duration') {
+        const dur = lv(item,'duration') || extractDuration(lv(item,'title'));
+        return `<td ${s} style="white-space:nowrap;font-size:11px">${esc(dur)}</td>`;
+      }
+      if (c.k==='_licensed_pct') {
+        const n = lic.length; const total = ALL_CLIENT_NAMES.length;
+        if (!n || !total) return `<td ${s}></td>`;
+        const pct = Math.round(n/total*100);
+        return `<td ${s} style="white-space:nowrap;font-size:11px;color:#666">${n}/${total} (${pct}%)</td>`;
       }
       const v = c.k==='teacher' ? (lv(item,'teacher')||lv(item,'peer_reviewer')||'') : lv(item,c.k);
       return `<td ${s}>${esc(v)}</td>`;
@@ -721,6 +750,17 @@ function showDetail(item) {
   const fLang    = T('language');
   const fLink    = T('link');
   const fVimeo   = T('vimeo_link');
+  // Derive allinonewellbeing URL from the content link if it's an allinone link, else from title slug
+  const fAllinone = (() => {
+    if (fLink && fLink.includes('allinonewellbeing.com')) return fLink;
+    const slug = cleanTitle(T('title')).toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+    return slug ? `https://app.allinonewellbeing.com/videos/${slug}` : '';
+  })();
+  const fLicensed = (() => {
+    const lic2 = gE(item.id,'licenses',item.client_licenses||[]);
+    if (!lic2.length || !ALL_CLIENT_NAMES.length) return '';
+    return `Licensed by ${lic2.length} of ${ALL_CLIENT_NAMES.length} partners (${Math.round(lic2.length/ALL_CLIENT_NAMES.length*100)}%)`;
+  })();
   const fDesc    = T('description');
   const fCreated = T('date_created');
   const fRevised = T('date_revised');
@@ -837,12 +877,19 @@ function showDetail(item) {
           ${fLink?`<button class="open-btn" onclick="openUrl(this)" data-url="${esc(fLink)}">Open ↗</button>`:''}
         </div>
       </div>
-      <div class="detail-field"><label>Vimeo Link</label>
+      <div class="detail-field"><label>Vimeo</label>
         <div class="link-row">
           <input class="field-edit" data-f="vimeo_link" value="${esc(fVimeo)}" placeholder="https://vimeo.com/…">
           ${fVimeo?`<button class="open-btn" onclick="openUrl(this)" data-url="${esc(fVimeo)}">Open ↗</button>`:''}
         </div>
       </div>
+      <div class="detail-field"><label>All-in-One Wellbeing App</label>
+        <div class="link-row">
+          <input class="field-edit" value="${esc(fAllinone)}" placeholder="https://app.allinonewellbeing.com/…" readonly style="color:#888">
+          ${fAllinone?`<button class="open-btn" onclick="openUrl(this)" data-url="${esc(fAllinone)}">Open ↗</button>`:''}
+        </div>
+      </div>
+      ${fLicensed?`<div style="font-size:11px;color:#1a6eb5;font-weight:600;margin:4px 0 10px">${esc(fLicensed)}</div>`:''}
 
       <div class="detail-section">Availability</div>
       <div class="detail-field"><label>Transcripts</label>
