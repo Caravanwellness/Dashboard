@@ -280,6 +280,23 @@ textarea.field-edit { resize: vertical; }
       <h3>Language</h3>
       <select id="langFilter"><option value="">All</option></select>
     </div>
+    <div class="filter-group" id="brandingGroup" style="display:none">
+      <h3>Branding</h3>
+      <select id="brandingFilter">
+        <option value="">All</option>
+        <option value="White-Label">White-Label</option>
+        <option value="Branded">Branded</option>
+        <option value="none">Unspecified</option>
+      </select>
+    </div>
+    <div class="filter-group" id="teacherGroup" style="display:none">
+      <h3>Teacher</h3>
+      <select id="teacherFilter"><option value="">All</option></select>
+    </div>
+    <div class="filter-group" id="durationGroup" style="display:none">
+      <h3>Duration</h3>
+      <select id="durationFilter"><option value="">All</option></select>
+    </div>
     <div class="filter-group" id="clientGroup" style="display:none">
       <h3>Client</h3>
       <select id="clientFilter"><option value="">All Clients</option></select>
@@ -566,19 +583,26 @@ function seedFilters() {
   const mk = (arr, sel='') => '<option value="">All</option>'+arr.map(v=>`<option${v===sel?' selected':''}>${v}</option>`).join('');
   document.getElementById('typeFilter').innerHTML   = mk([...new Set(base.map(i=>lv(i,'type')))].sort());
   document.getElementById('catFilter').innerHTML    = mk([...new Set(base.map(i=>lv(i,'category')))].sort());
-  document.getElementById('authorFilter').innerHTML = mk([...new Set(base.map(i=>lv(i,'author')).filter(Boolean))].sort());
-  document.getElementById('langFilter').innerHTML   = mk([...new Set(base.map(i=>lv(i,'language')).filter(Boolean))].sort());
+  document.getElementById('authorFilter').innerHTML  = mk([...new Set(base.map(i=>lv(i,'author')).filter(Boolean))].sort());
+  document.getElementById('langFilter').innerHTML    = mk([...new Set(base.map(i=>lv(i,'language')).filter(Boolean))].sort());
+  document.getElementById('teacherFilter').innerHTML = mk([...new Set(base.map(i=>lv(i,'teacher')||lv(i,'peer_reviewer')).filter(Boolean))].sort());
+  const durVals = [...new Set(base.map(i=>{ const d=lv(i,'duration')||extractDuration(lv(i,'title')); return d; }).filter(Boolean))].sort((a,b)=>parseInt(a)-parseInt(b));
+  document.getElementById('durationFilter').innerHTML = mk(durVals);
   const allClients = [...new Set(base.flatMap(i=>gE(i.id,'licenses',i.client_licenses||[])))].sort();
-  document.getElementById('clientFilter').innerHTML = '<option value="">All Clients</option>'+allClients.map(c=>`<option>${c}</option>`).join('');
-  const rv = activeTab==='review';
-  document.getElementById('dueGroup').style.display     = rv ? '' : 'none';
-  document.getElementById('prioGroup').style.display    = rv ? '' : 'none';
-  document.getElementById('authorGroup').style.display  = rv ? '' : 'none';
-  document.getElementById('langGroup').style.display    = activeTab==='library' ? '' : 'none';
-  document.getElementById('clientGroup').style.display  = activeTab==='library' ? '' : 'none';
+  document.getElementById('clientFilter').innerHTML  = '<option value="">All Clients</option>'+allClients.map(c=>`<option>${c}</option>`).join('');
+  const rv  = activeTab==='review';
+  const lib = activeTab==='library';
+  document.getElementById('dueGroup').style.display      = rv  ? '' : 'none';
+  document.getElementById('prioGroup').style.display     = rv  ? '' : 'none';
+  document.getElementById('authorGroup').style.display   = rv  ? '' : 'none';
+  document.getElementById('langGroup').style.display     = lib ? '' : 'none';
+  document.getElementById('brandingGroup').style.display = lib ? '' : 'none';
+  document.getElementById('teacherGroup').style.display  = lib ? '' : 'none';
+  document.getElementById('durationGroup').style.display = lib ? '' : 'none';
+  document.getElementById('clientGroup').style.display   = lib ? '' : 'none';
 }
 
-['titleFilter','typeFilter','catFilter','prioFilter','authorFilter','langFilter','clientFilter','dueFilter'].forEach(id=>{
+['titleFilter','typeFilter','catFilter','prioFilter','authorFilter','langFilter','brandingFilter','teacherFilter','durationFilter','clientFilter','dueFilter'].forEach(id=>{
   const el = document.getElementById(id);
   el.addEventListener('input',  applyFilters);
   el.addEventListener('change', applyFilters);
@@ -603,6 +627,10 @@ function applyFilters() {
   const client = document.getElementById('clientFilter').value;
   const due    = document.getElementById('dueFilter').value;
 
+  const branding  = document.getElementById('brandingFilter').value;
+  const teacher   = document.getElementById('teacherFilter').value;
+  const duration  = document.getElementById('durationFilter').value;
+
   visibleItems = baseItems().filter(item => {
     if (aiIds && !aiIds.has(item.id)) return false;
     if (title  && !lv(item,'title').toLowerCase().includes(title)) return false;
@@ -611,6 +639,13 @@ function applyFilters() {
     if (prio   && lv(item,'review_priority') !== prio) return false;
     if (author && lv(item,'author') !== author) return false;
     if (lang   && lv(item,'language') !== lang) return false;
+    if (branding) {
+      const b = lv(item,'branding') || '';
+      if (branding === 'none' && b) return false;
+      if (branding !== 'none' && b !== branding) return false;
+    }
+    if (teacher && (lv(item,'teacher')||lv(item,'peer_reviewer')) !== teacher) return false;
+    if (duration && (lv(item,'duration')||extractDuration(lv(item,'title'))) !== duration) return false;
     if (client && !gE(item.id,'licenses',item.client_licenses||[]).includes(client)) return false;
     if (due    && reviewStatus(item) !== due) return false;
     return true;
@@ -747,7 +782,8 @@ function showDetail(item) {
   const fCreds   = T('author_creds');
   const fReviewer= T('peer_reviewer');
   const fVer     = T('version');
-  const fLang    = T('language');
+  const fLang     = T('language');
+  const fBranding = T('branding');
   const fLink    = T('link');
   const fVimeo   = T('vimeo_link');
   // Derive allinonewellbeing URL from the content link if it's an allinone link, else from title slug
@@ -869,6 +905,13 @@ function showDetail(item) {
       ${fLang!==undefined&&fLang!==''||item.language!==undefined?`<div class="detail-field"><label>Language</label>
         <input class="field-edit" data-f="language" value="${esc(fLang)}">
       </div>`:''}
+      <div class="detail-field"><label>Branding Status</label>
+        <select class="field-edit" data-f="branding">
+          <option value="">Unspecified</option>
+          <option value="White-Label"${fBranding==='White-Label'?' selected':''}>White-Label</option>
+          <option value="Branded"${fBranding==='Branded'?' selected':''}>Branded</option>
+        </select>
+      </div>
 
       <div class="detail-section">Links</div>
       <div class="detail-field"><label>Content / Article Link</label>

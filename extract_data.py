@@ -193,13 +193,16 @@ def extract_video_library(path):
                     if not row:
                         continue
                     raw_name = clean(row[4]) if len(row) > 4 else ""
-                    if not raw_name or raw_name.lower() in {"video name", "(english)", ""}:
+                    if not raw_name or raw_name.lower() in {"video name", "video name (english)", "(english)", ""}:
                         continue
                     if raw_name in seen:
                         continue
                     seen.add(raw_name)
 
-                    lang    = clean(row[0])  if len(row) > 0  else ""
+                    raw_lang = clean(row[0]) if len(row) > 0 else ""
+                    BRANDING_VALS = {"white-label", "white label", "branded"}
+                    branding = raw_lang if raw_lang.lower() in BRANDING_VALS else ""
+                    lang     = "" if branding else raw_lang
                     cat     = clean(row[2])  if len(row) > 2  else ""
                     prog    = clean(row[3])  if len(row) > 3  else ""
                     length  = clean(row[5])  if len(row) > 5  else ""
@@ -223,6 +226,7 @@ def extract_video_library(path):
                         "program":       prog,
                         "category":      cat,
                         "language":      lang,
+                        "branding":      branding,
                         "length_min":    length,
                         "teacher":       teacher,
                         "url":           url,
@@ -1104,6 +1108,22 @@ def main():
             print("ERROR: Could not find data in index.html. Please provide the PDFs.")
             return
         all_data = json.loads(m.group(1))
+
+        # Fix: remove VLB header row (title = "Video Name (English)" or similar)
+        HEADER_TITLES = {"video name (english)", "video name", "article title", "title"}
+        for key in all_data:
+            all_data[key] = [i for i in all_data[key]
+                             if i.get('title','').lower().strip() not in HEADER_TITLES]
+
+        # Fix: split branding values out of the language field
+        BRANDING_VALS = {"white-label", "white label", "branded"}
+        for key in all_data:
+            for item in all_data[key]:
+                lang = item.get('language', '')
+                if lang.lower() in BRANDING_VALS:
+                    item['branding'] = lang
+                    item['language'] = ''
+
         total = sum(len(v) for v in all_data.values())
         print(f"  Loaded {total} items from existing index.html")
 
