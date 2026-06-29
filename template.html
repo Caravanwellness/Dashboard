@@ -425,17 +425,40 @@ const TRANSCRIPTS  = __TRANSCRIPTS_PLACEHOLDER__;
 const EDITS_KEY   = 'cw_edits_v3';
 const CLIENTS_KEY = 'cw_clients_v2';
 const CMETA_KEY   = 'cw_cmeta_v2';
-const BIOS_KEY    = 'cw_bios_v1';
+// ── Creator Bios (shared, stored in GitHub via /api/save-bio) ─────────────────
+let bios = {};
+let _bioSaveTimers = {};
 
-let bios = JSON.parse(localStorage.getItem(BIOS_KEY) || '{}');
+async function loadBios() {
+  try {
+    const r = await fetch('/api/save-bio');
+    if (r.ok) bios = await r.json();
+  } catch(e) { /* offline or error — bios stay empty */ }
+}
+
 function saveBio(name, field, value) {
   if (!bios[name]) bios[name] = {};
   bios[name][field] = value;
-  localStorage.setItem(BIOS_KEY, JSON.stringify(bios));
+  // Debounce: wait 800ms after last keystroke before committing
+  clearTimeout(_bioSaveTimers[name + field]);
+  _bioSaveTimers[name + field] = setTimeout(async () => {
+    try {
+      await fetch('/api/save-bio', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ name, field, value }),
+      });
+    } catch(e) { console.warn('Bio save failed', e); }
+  }, 800);
 }
+
 function getBio(name, field, def='') {
   return (bios[name] && bios[name][field] !== undefined) ? bios[name][field] : def;
 }
+
+loadBios().then(() => {
+  if (activeTab === 'creators') renderCreators();
+});
 
 let edits     = {};
 let clients   = [];
