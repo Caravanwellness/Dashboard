@@ -73,8 +73,9 @@ tr.selected td { box-shadow: inset 3px 0 0 #1a6eb5; background: #f0f6fc !importa
 .sort-desc::after { content: ' ↓'; }
 
 /* ── Detail Panel ── */
-.detail-panel { width: 410px; background: white; border-left: 1px solid #e8e8e8; display: none; flex-direction: column; flex-shrink: 0; }
+.detail-panel { width: 75%; min-width: 420px; background: white; border-left: 1px solid #e8e8e8; display: none; flex-direction: column; flex-shrink: 0; }
 .detail-panel.open { display: flex; }
+.detail-field-row { display: grid; grid-template-columns: 1fr 1fr; gap: 0 20px; }
 .detail-header { padding: 13px 14px 10px; border-bottom: 1px solid #eee; flex-shrink: 0; position: relative; }
 .detail-close { position: absolute; top: 10px; right: 11px; border: none; background: none; font-size: 18px; cursor: pointer; color: #bbb; line-height: 1; }
 .detail-close:hover { color: #333; }
@@ -237,6 +238,7 @@ textarea.field-edit { resize: vertical; }
 <div class="tabs">
   <div class="tab active" data-tab="review">Review Tracker</div>
   <div class="tab" data-tab="library">Content Library</div>
+  <div class="tab" data-tab="due">⏰ Review Schedule</div>
   <div class="tab" data-tab="licensing">Client Licensing</div>
   <div class="tab" data-tab="curation">✦ Curation</div>
 </div>
@@ -260,8 +262,10 @@ textarea.field-edit { resize: vertical; }
       <h3>Review Status</h3>
       <select id="dueFilter">
         <option value="">All</option>
-        <option value="due">Due for Review (2+ yrs)</option>
-        <option value="ok">Recently Reviewed</option>
+        <option value="overdue">Past Due</option>
+        <option value="due3mo">Due within 3 months</option>
+        <option value="due6mo">Due within 6 months</option>
+        <option value="ok">Up to Date</option>
         <option value="never">Never Reviewed</option>
       </select>
     </div>
@@ -335,6 +339,9 @@ textarea.field-edit { resize: vertical; }
     </div>
   </div>
 </div>
+
+<!-- Review Schedule view -->
+<div id="dueView" style="display:none;flex:1;overflow:auto;padding:24px;background:#f8f9fa"></div>
 
 <!-- Curation view -->
 <div id="curationView" style="display:none;flex:1;overflow:auto;padding:20px;background:#f0f2f5;flex-direction:column;gap:16px">
@@ -503,11 +510,14 @@ document.querySelectorAll('.tab').forEach(t => t.addEventListener('click', () =>
   activeTab = t.dataset.tab;
   const isLic = activeTab === 'licensing';
   const isCur = activeTab === 'curation';
-  document.getElementById('mainView').style.display      = (!isLic && !isCur) ? 'flex' : 'none';
+  const isDue = activeTab === 'due';
+  document.getElementById('mainView').style.display      = (!isLic && !isCur && !isDue) ? 'flex' : 'none';
   document.getElementById('licenseView').style.display   = isLic  ? 'flex' : 'none';
   document.getElementById('curationView').style.display  = isCur  ? 'flex' : 'none';
+  document.getElementById('dueView').style.display       = isDue  ? 'block' : 'none';
   if (isLic) renderClientBubbles();
   else if (isCur) renderSavedLists();
+  else if (isDue) renderDueSchedule();
   else { seedFilters(); applyFilters(); }
 }));
 
@@ -608,13 +618,72 @@ function seedFilters() {
   el.addEventListener('change', applyFilters);
 });
 
-const TWO_YEARS_MS = 2 * 365.25 * 24 * 60 * 60 * 1000;
-function reviewStatus(item) {
+const TWO_YEARS_MS   = 2 * 365.25 * 24 * 60 * 60 * 1000;
+const THREE_MO_MS    = 90  * 24 * 60 * 60 * 1000;
+const SIX_MO_MS      = 180 * 24 * 60 * 60 * 1000;
+
+function lastReviewDate(item) {
   const d = gE(item.id,'review_date','') || lv(item,'date_reviewed') || lv(item,'date_created') || '';
-  if (!d) return 'never';
+  if (!d) return null;
   const parsed = new Date(d);
-  if (isNaN(parsed)) return 'never';
-  return (Date.now() - parsed.getTime()) > TWO_YEARS_MS ? 'due' : 'ok';
+  return isNaN(parsed) ? null : parsed;
+}
+
+function nextReviewDate(item) {
+  const last = lastReviewDate(item);
+  if (!last) return null;
+  return new Date(last.getTime() + TWO_YEARS_MS);
+}
+
+// Returns: 'overdue' | 'due3mo' | 'due6mo' | 'ok' | 'never'
+function reviewStatus(item) {
+  const next = nextReviewDate(item);
+  if (!next) return 'never';
+  const msUntil = next.getTime() - Date.now();
+  if (msUntil < 0)           return 'overdue';
+  if (msUntil < THREE_MO_MS) return 'due3mo';
+  if (msUntil < SIX_MO_MS)  return 'due6mo';
+  return 'ok';
+}
+
+function renderDueSchedule() {
+  const BANDS = [
+    { key:'overdue', label:'Past Due',           color:'#e63946', bg:'rgba(230,57,70,0.08)' },
+    { key:'due3mo',  label:'Due within 3 months',color:'#e07b00', bg:'rgba(224,123,0,0.08)' },
+    { key:'due6mo',  label:'Due within 6 months',color:'#b5860d', bg:'rgba(181,134,13,0.08)' },
+  ];
+  const byBand = { overdue:[], due3mo:[], due6mo:[] };
+  ALL.forEach(item => { const s=reviewStatus(item); if(byBand[s]) byBand[s].push(item); });
+
+  const fmtDate = d => d ? d.toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'}) : '—';
+
+  document.getElementById('dueView').innerHTML = BANDS.map(b => {
+    const items = byBand[b.key];
+    if (!items.length) return `<div style="margin-bottom:24px"><h3 style="font-size:13px;font-weight:700;color:${b.color};margin-bottom:8px">${b.label} <span style="font-weight:400;color:#aaa;font-size:12px">(0 items)</span></h3></div>`;
+    return `<div style="margin-bottom:28px">
+      <h3 style="font-size:13px;font-weight:700;color:${b.color};margin-bottom:10px">${b.label} <span style="font-weight:400;color:#aaa;font-size:12px">(${items.length} items)</span></h3>
+      <table style="width:100%;border-collapse:collapse;background:white;border-radius:8px;overflow:hidden;box-shadow:0 1px 4px rgba(0,0,0,.06)">
+        <thead><tr style="background:#f8f9fa;font-size:11px;text-transform:uppercase;letter-spacing:.4px;color:#999">
+          <th style="padding:8px 12px;text-align:left;font-weight:600">ID</th>
+          <th style="padding:8px 12px;text-align:left;font-weight:600">Title</th>
+          <th style="padding:8px 12px;text-align:left;font-weight:600">Type</th>
+          <th style="padding:8px 12px;text-align:left;font-weight:600">Last Reviewed</th>
+          <th style="padding:8px 12px;text-align:left;font-weight:600">Next Due</th>
+        </tr></thead>
+        <tbody>${items.map(item=>{
+          const last = lastReviewDate(item);
+          const next = nextReviewDate(item);
+          return `<tr style="border-top:1px solid #f0f0f0;background:${b.bg};cursor:pointer" onclick="document.querySelector('.tab[data-tab=\\'review\\']').click();setTimeout(()=>{const i=BY_ID['${item.id}'];if(i)showDetail(i);},100)">
+            <td style="padding:8px 12px;font-size:12px;color:#999">${item.id}</td>
+            <td style="padding:8px 12px;font-size:13px;font-weight:500">${esc(cleanTitle(lv(item,'title')))}</td>
+            <td style="padding:8px 12px;font-size:12px"><span style="background:#eee;border-radius:3px;padding:1px 6px">${esc(lv(item,'type'))}</span></td>
+            <td style="padding:8px 12px;font-size:12px;color:#666">${fmtDate(last)}</td>
+            <td style="padding:8px 12px;font-size:12px;font-weight:600;color:${b.color}">${fmtDate(next)}</td>
+          </tr>`;
+        }).join('')}</tbody>
+      </table>
+    </div>`;
+  }).join('') + `<p style="font-size:11px;color:#bbb;margin-top:8px">Review schedule is based on last reviewed date (or date created if never reviewed) + 2 years. Click any row to open the item.</p>`;
 }
 
 function applyFilters() {
@@ -692,8 +761,10 @@ function renderTable() {
     const lic = gE(item.id,'licenses',item.client_licenses||[]);
     const mod = !!(edits[item.id]&&edits[item.id]._at);
     const sel = item.id===selectedId;
-    const isDue = activeTab==='review' && reviewStatus(item)==='due';
-    const rowBg = bg || (isDue ? 'rgba(230,57,70,0.07)' : '');
+    const rs    = activeTab==='review' ? reviewStatus(item) : 'ok';
+    const isDue = rs === 'overdue';
+    const statusBg = rs==='overdue' ? 'rgba(230,57,70,0.07)' : rs==='due3mo' ? 'rgba(230,57,70,0.04)' : rs==='due6mo' ? 'rgba(181,134,13,0.05)' : '';
+    const rowBg = bg || statusBg;
     const tdS = rowBg||fg ? `style="${rowBg?'background:'+rowBg+';':''}${fg?'color:'+fg:''}"` : '';
 
     return '<tr'+(sel?' class="selected"':'')+` data-id="${item.id}">`+cols.map(c=>{
@@ -702,8 +773,12 @@ function renderTable() {
       if (c.k==='title') {
         const licTxt  = lic.length ? `<span style="font-size:10px;opacity:.5;margin-left:3px">[${lic.join(', ')}]</span>` : '';
         const dot     = mod ? '<span class="edited-dot" title="Edited"></span>' : '';
-        const dueBadge= isDue ? `<span style="font-size:9px;font-weight:700;background:rgba(230,57,70,.15);color:#e63946;border-radius:4px;padding:1px 5px;margin-left:5px;letter-spacing:.3px">REVIEW DUE</span>` : '';
-        return `<td class="title-cell" ${s}><div class="title-text">${esc(cleanTitle(lv(item,'title')))}${dueBadge}${licTxt}${dot}</div></td>`;
+        const dueBadge= rs==='overdue' ? `<span style="font-size:9px;font-weight:700;background:rgba(230,57,70,.15);color:#e63946;border-radius:4px;padding:1px 5px;margin-left:5px;letter-spacing:.3px">OVERDUE</span>`
+          : rs==='due3mo' ? `<span style="font-size:9px;font-weight:700;background:rgba(224,123,0,.15);color:#e07b00;border-radius:4px;padding:1px 5px;margin-left:5px;letter-spacing:.3px">DUE 3 MO</span>`
+          : rs==='due6mo' ? `<span style="font-size:9px;font-weight:700;background:rgba(181,134,13,.15);color:#b5860d;border-radius:4px;padding:1px 5px;margin-left:5px;letter-spacing:.3px">DUE 6 MO</span>` : '';
+        const noReview = activeTab==='review' && lv(item,'type')==='Article' && !lv(item,'peer_reviewer') && !gE(item.id,'reviewed_by','');
+        const noRevBadge = noReview ? `<span style="font-size:9px;font-weight:700;background:rgba(108,117,125,.12);color:#6c757d;border-radius:4px;padding:1px 5px;margin-left:4px;letter-spacing:.3px">NEEDS REVIEW</span>` : '';
+        return `<td class="title-cell" ${s}><div class="title-text">${esc(cleanTitle(lv(item,'title')))}${dueBadge}${noRevBadge}${licTxt}${dot}</div></td>`;
       }
       if (c.k==='type') return `<td ${s}><span class="badge badge-type">${esc(lv(item,'type'))}</span></td>`;
       if (c.k==='review_priority') {
@@ -831,8 +906,15 @@ function showDetail(item) {
     ...(gE(item.id,'local_changes',[]))
   ].sort((a,b)=>b.date.localeCompare(a.date));
 
+  const TYPE_BADGE = {
+    substantive: `<span style="font-size:9px;font-weight:700;background:rgba(230,57,70,.12);color:#e63946;border-radius:3px;padding:1px 5px">SUBSTANTIVE</span>`,
+    minor:       `<span style="font-size:9px;font-weight:700;background:rgba(26,110,181,.1);color:#1a6eb5;border-radius:3px;padding:1px 5px">MINOR</span>`,
+    initial:     `<span style="font-size:9px;font-weight:700;background:rgba(39,174,96,.12);color:#27ae60;border-radius:3px;padding:1px 5px">INITIAL</span>`,
+    review:      `<span style="font-size:9px;font-weight:700;background:#f0f0f0;color:#888;border-radius:3px;padding:1px 5px">REVIEW</span>`,
+  };
   const changeHtml = allChanges.length
     ? allChanges.map(e=>{
+        const typeBadge = TYPE_BADGE[e.review_type] || '';
         const extras = [
           e.language && `<span class="change-tag">🌐 ${esc(e.language)}</span>`,
           e.topic    && `<span class="change-tag">📌 ${esc(e.topic)}</span>`,
@@ -841,13 +923,16 @@ function showDetail(item) {
           e.source   && `<span class="change-tag change-source">${esc(e.source)}</span>`,
         ].filter(Boolean).join('');
         return `<div class="change-entry">
-          <span class="change-date">${esc(e.date)}</span>
-          <span class="change-desc">${esc(e.description)}</span>
-          <span class="change-by">${esc(e.changed_by||'')}</span>
+          <div style="display:flex;align-items:center;gap:6px;flex-wrap:wrap;width:100%">
+            <span class="change-date">${esc(e.date)}</span>
+            ${typeBadge}
+            <span class="change-by">${esc(e.changed_by||'')}</span>
+          </div>
+          <span class="change-desc" style="width:100%">${esc(e.description)}</span>
           ${extras ? `<div class="change-extras">${extras}</div>` : ''}
         </div>`;
       }).join('')
-    : '<div style="color:#ccc;font-size:12px;padding:4px 0">No changes logged yet.</div>';
+    : '<div style="color:#ccc;font-size:12px;padding:4px 0">No reviews logged yet.</div>';
 
   // Tags html
   const tagsHtml = `<div class="tag-wrap" id="tagWrap">
@@ -972,15 +1057,21 @@ function showDetail(item) {
 
       ${(()=>{const tr=TRANSCRIPTS[item.id];return tr?`<div class="detail-section">Transcript <span style="font-size:10px;font-weight:400;color:var(--muted);margin-left:6px">auto-generated · Vimeo</span></div><div class="detail-field"><div class="transcript-box" id="trBox_${item.id}"><p class="transcript-preview">${esc(tr.slice(0,400))}${tr.length>400?'…':''}</p>${tr.length>400?`<button class="transcript-toggle" onclick="toggleTranscript('${item.id}')">Show full transcript</button>`:''}${tr.length>400?`<p class="transcript-full" style="display:none">${esc(tr)}</p>`:''}</div></div>`:'';})()}
 
-      <div class="detail-section">Change History</div>
+      <div class="detail-section">Review History</div>
       <div id="changeLog">${changeHtml}</div>
-      <button class="log-add-btn" id="logAddBtn" onclick="document.getElementById('logForm').style.display='block';this.style.display='none'">+ Log a change</button>
+      <button class="log-add-btn" id="logAddBtn" onclick="document.getElementById('logForm').style.display='block';this.style.display='none'">+ Log a review</button>
       <div class="log-form" id="logForm" style="display:none">
-        <input id="logDesc" placeholder="What changed…">
-        <div class="row2">
-          <input id="logBy" placeholder="Your name">
+        <div class="row2" style="margin-bottom:6px">
+          <select id="logType" style="padding:6px 8px;border:1px solid #e0e0e0;border-radius:5px;font-size:13px;font-family:inherit">
+            <option value="review">Routine Review</option>
+            <option value="substantive">Substantive Change</option>
+            <option value="minor">Minor Update</option>
+            <option value="initial">Initial Review</option>
+          </select>
           <input id="logDate" placeholder="Date (MM/DD/YYYY)">
         </div>
+        <input id="logBy" placeholder="Reviewer name" style="margin-bottom:6px">
+        <input id="logDesc" placeholder="Notes / what changed…">
         <button class="save-btn" onclick="saveLog('${item.id}')">Save</button>
       </div>
 
@@ -1037,14 +1128,20 @@ function toggleF(id, field) {
 }
 
 function saveLog(id) {
-  const desc = document.getElementById('logDesc').value.trim();
-  const by   = document.getElementById('logBy').value.trim();
-  const date = document.getElementById('logDate').value.trim() ||
+  const desc    = document.getElementById('logDesc').value.trim();
+  const by      = document.getElementById('logBy').value.trim();
+  const logType = document.getElementById('logType')?.value || 'review';
+  const date    = document.getElementById('logDate').value.trim() ||
     new Date().toLocaleDateString('en-US',{month:'2-digit',day:'2-digit',year:'numeric'});
-  if (!desc) return;
+  if (!desc && logType==='review') return;
   const list = gE(id,'local_changes',[]);
-  list.unshift({date, description:desc, changed_by:by});
+  list.unshift({date, description:desc||'Reviewed', changed_by:by, review_type:logType});
   sE(id,'local_changes',list);
+  // If it's any kind of review, also stamp the review date
+  if (['review','initial','substantive','minor'].includes(logType)) {
+    sE(id,'review_date', date);
+    if (by) sE(id,'reviewed_by', by);
+  }
   const item = BY_ID[id];
   if (item) showDetail(item);
 }
