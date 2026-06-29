@@ -603,9 +603,13 @@ async function doAiSearch() {
     const matched = ALL.filter(item => {
       const title      = lv(item,'title').toLowerCase();
       const transcript = (TRANSCRIPTS[item.id] || '').toLowerCase();
+      const tags       = (item.tags || []).join(' ').toLowerCase();
+      const condition  = (item.condition || '').toLowerCase();
+      const demographics = (item.demographics || '').toLowerCase();
+      const series     = (item.series || '').toLowerCase();
       if (types.size && types.has(lv(item,'type'))) return true;
       if (cats.size  && cats.has(lv(item,'category'))) return true;
-      if (kws.length && kws.some(k => title.includes(k) || transcript.includes(k))) return true;
+      if (kws.length && kws.some(k => title.includes(k) || transcript.includes(k) || tags.includes(k) || condition.includes(k) || demographics.includes(k) || series.includes(k))) return true;
       return false;
     });
 
@@ -618,7 +622,7 @@ async function doAiSearch() {
   } catch(e) {
     // Fallback: keyword search
     const q = query.toLowerCase();
-    const matched = ALL.filter(i => lv(i,'title').toLowerCase().includes(q) || (TRANSCRIPTS[i.id]||'').toLowerCase().includes(q));
+    const matched = ALL.filter(i => lv(i,'title').toLowerCase().includes(q) || (TRANSCRIPTS[i.id]||'').toLowerCase().includes(q) || (i.tags||[]).join(' ').toLowerCase().includes(q) || (i.condition||'').toLowerCase().includes(q) || (i.demographics||'').toLowerCase().includes(q));
     aiIds = new Set(matched.map(i=>i.id));
     document.getElementById('aiBar').classList.add('show');
     document.getElementById('aiExpl').textContent  = `Keyword match for "${query}"`;
@@ -916,6 +920,13 @@ function showDetail(item) {
   const fVer     = T('version');
   const fLang     = T('language');
   const fBranding = T('branding');
+  const fTags     = item.tags || [];
+  const fCondition= T('condition');
+  const fDemog    = T('demographics');
+  const fDifficulty= T('difficulty');
+  const fSeries   = T('series');
+  const fTeacherTitle = T('teacher_title') || T('author_creds');
+  const fAvailLangs = item.available_languages || [];
   const fLink    = T('link');
   const fVimeo   = T('vimeo_link');
   // Derive allinonewellbeing URL from the content link if it's an allinone link, else from title slug
@@ -1054,6 +1065,20 @@ function showDetail(item) {
           <option value="Branded"${fBranding==='Branded'?' selected':''}>Branded</option>
         </select>
       </div>
+
+      ${fTags.length||fCondition||fDemog||fDifficulty||fSeries?`
+      <div class="detail-section">Metatags</div>
+      ${fTags.length?`<div class="detail-field"><label>Tags</label>
+        <div style="display:flex;flex-wrap:wrap;gap:5px;margin-top:4px">
+          ${fTags.map(t=>`<span style="background:#e8f0fe;color:#1a6eb5;font-size:12px;padding:3px 9px;border-radius:100px;font-weight:500">${esc(t)}</span>`).join('')}
+        </div>
+      </div>`:''}
+      ${fCondition?`<div class="detail-field"><label>Condition / Use Case</label><div style="font-size:13px;padding:4px 0">${esc(fCondition)}</div></div>`:''}
+      ${fDemog?`<div class="detail-field"><label>Audience</label><div style="font-size:13px;padding:4px 0">${esc(fDemog)}</div></div>`:''}
+      ${fDifficulty?`<div class="detail-field"><label>Difficulty</label><div style="font-size:13px;padding:4px 0">${esc(fDifficulty)}</div></div>`:''}
+      ${fSeries?`<div class="detail-field"><label>Series</label><div style="font-size:13px;padding:4px 0">${esc(fSeries)}</div></div>`:''}
+      ${fAvailLangs.length?`<div class="detail-field"><label>Available Languages</label><div style="font-size:13px;padding:4px 0">${fAvailLangs.join(', ')}</div></div>`:''}
+      `:''}
 
       <div class="detail-section">Links</div>
       <div class="detail-field"><label>Content / Article Link</label>

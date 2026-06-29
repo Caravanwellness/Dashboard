@@ -1204,6 +1204,45 @@ def main():
         matched_total += matched
     print(f"  Total client-licensed items stamped: {matched_total}")
 
+    # Load video metadata (tags, condition, demographics, difficulty, series, etc.)
+    import csv as _csv
+    vmeta_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'video_metadata.csv')
+    if os.path.exists(vmeta_file):
+        def _ct(t):
+            return _re.sub(r'[^a-z0-9]', '', (t or '').lower())
+        vmeta_index = {}
+        with open(vmeta_file, encoding='utf-8', errors='replace') as f:
+            for row in _csv.DictReader(f):
+                key = _ct(row.get('Video Name (English)', ''))
+                if key:
+                    tags = [row.get(f'Tag_{i:02d}', '').strip() for i in range(1, 11)]
+                    tags = [t for t in tags if t]
+                    langs = [l for l in ['ENGLISH','FRENCH','SPANISH','PORTUGESE','GERMAN',
+                                         'CHINESE','DANISH','SWEDISH','THAI','VIETNAMESE']
+                             if row.get(l,'').strip().upper() == 'TRUE']
+                    vmeta_index[key] = {
+                        'tags':               tags,
+                        'condition':          row.get('Condition', '').strip(),
+                        'demographics':       row.get('Demographics', '').strip(),
+                        'difficulty':         row.get('Difficulty Level', '').strip(),
+                        'series':             row.get('Series', '').strip(),
+                        'teacher_title':      row.get('Teacher Title', '').strip(),
+                        'teacher_demographics': row.get('Teacher Demographics', '').strip(),
+                        'available_languages': langs,
+                    }
+        vmeta_matched = 0
+        for section_items in all_data.values():
+            for item in section_items:
+                meta = vmeta_index.get(_ct(item.get('title', '')))
+                if meta:
+                    for field, val in meta.items():
+                        if val and not item.get(field):
+                            item[field] = val
+                    vmeta_matched += 1
+        print(f"  Video metadata: matched {vmeta_matched} items from {len(vmeta_index)} CSV rows")
+    else:
+        print("  video_metadata.csv not found — skipping metatag enrichment")
+
     # Load transcripts
     transcripts = {}
     transcripts_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'transcripts.json')
