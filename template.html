@@ -243,6 +243,7 @@ textarea.field-edit { resize: vertical; }
   <div class="tab active" data-tab="review">Review Tracker</div>
   <div class="tab" data-tab="library">Content Library</div>
   <div class="tab" data-tab="due">⏰ Review Schedule</div>
+  <div class="tab" data-tab="creators">Creators</div>
   <div class="tab" data-tab="licensing">Client Licensing</div>
   <div class="tab" data-tab="curation">✦ Curation</div>
 </div>
@@ -350,6 +351,17 @@ textarea.field-edit { resize: vertical; }
 <!-- Review Schedule view -->
 <div id="dueView" style="display:none;flex:1;overflow:auto;padding:24px;background:#f8f9fa"></div>
 
+<!-- Creators view -->
+<div id="creatorsView" style="display:none;flex:1;overflow:auto;padding:24px;background:#f0f2f5">
+  <div style="max-width:1200px;margin:0 auto">
+    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px">
+      <input type="text" id="creatorSearch" placeholder="Search creators…" style="padding:8px 12px;border:1px solid #e0e0e0;border-radius:8px;font-size:13px;width:260px;outline:none">
+      <span id="creatorCount" style="font-size:12px;color:#aaa"></span>
+    </div>
+    <div id="creatorsGrid" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px"></div>
+  </div>
+</div>
+
 <!-- Curation view -->
 <div id="curationView" style="display:none;flex:1;overflow:auto;padding:20px;background:#f0f2f5;flex-direction:column;gap:16px">
   <div style="background:white;border-radius:10px;padding:20px;box-shadow:0 1px 4px rgba(0,0,0,.06)">
@@ -413,6 +425,17 @@ const TRANSCRIPTS  = __TRANSCRIPTS_PLACEHOLDER__;
 const EDITS_KEY   = 'cw_edits_v3';
 const CLIENTS_KEY = 'cw_clients_v2';
 const CMETA_KEY   = 'cw_cmeta_v2';
+const BIOS_KEY    = 'cw_bios_v1';
+
+let bios = JSON.parse(localStorage.getItem(BIOS_KEY) || '{}');
+function saveBio(name, field, value) {
+  if (!bios[name]) bios[name] = {};
+  bios[name][field] = value;
+  localStorage.setItem(BIOS_KEY, JSON.stringify(bios));
+}
+function getBio(name, field, def='') {
+  return (bios[name] && bios[name][field] !== undefined) ? bios[name][field] : def;
+}
 
 let edits     = {};
 let clients   = [];
@@ -515,16 +538,19 @@ document.querySelectorAll('.tab').forEach(t => t.addEventListener('click', () =>
   document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));
   t.classList.add('active');
   activeTab = t.dataset.tab;
-  const isLic = activeTab === 'licensing';
-  const isCur = activeTab === 'curation';
-  const isDue = activeTab === 'due';
-  document.getElementById('mainView').style.display      = (!isLic && !isCur && !isDue) ? 'flex' : 'none';
-  document.getElementById('licenseView').style.display   = isLic  ? 'flex' : 'none';
-  document.getElementById('curationView').style.display  = isCur  ? 'flex' : 'none';
-  document.getElementById('dueView').style.display       = isDue  ? 'block' : 'none';
-  if (isLic) renderClientBubbles();
+  const isLic      = activeTab === 'licensing';
+  const isCur      = activeTab === 'curation';
+  const isDue      = activeTab === 'due';
+  const isCreators = activeTab === 'creators';
+  document.getElementById('mainView').style.display      = (!isLic && !isCur && !isDue && !isCreators) ? 'flex' : 'none';
+  document.getElementById('licenseView').style.display   = isLic      ? 'flex'  : 'none';
+  document.getElementById('curationView').style.display  = isCur      ? 'flex'  : 'none';
+  document.getElementById('dueView').style.display       = isDue      ? 'block' : 'none';
+  document.getElementById('creatorsView').style.display  = isCreators ? 'flex'  : 'none';
+  if (isLic)      renderClientBubbles();
   else if (isCur) renderSavedLists();
   else if (isDue) renderDueSchedule();
+  else if (isCreators) renderCreators();
   else { seedFilters(); applyFilters(); }
 }));
 
@@ -1199,17 +1225,82 @@ function closeDetail() {
 }
 
 // ── Contributor Profile (full page) ──────────────────────────────────────────
+// ── Creators ──────────────────────────────────────────────────────────────────
+function buildCreatorIndex() {
+  const people = {};
+  ALL.forEach(item => {
+    const author = lv(item,'author') || lv(item,'teacher');
+    const reviewer = lv(item,'peer_reviewer');
+    [author, reviewer].forEach((name, idx) => {
+      if (!name || name.length < 2) return;
+      if (!people[name]) {
+        people[name] = { creds: lv(item,'author_creds') || '', authored: 0, reviewed: 0 };
+      }
+      if (idx === 0 && author) people[name].authored++;
+      if (idx === 1 && reviewer) people[name].reviewed++;
+    });
+  });
+  return people;
+}
+
+function renderCreators(query='') {
+  const people = buildCreatorIndex();
+  const q = (query || document.getElementById('creatorSearch')?.value || '').toLowerCase();
+  const sorted = Object.entries(people)
+    .filter(([name]) => !q || name.toLowerCase().includes(q))
+    .sort((a,b) => (b[1].authored + b[1].reviewed) - (a[1].authored + a[1].reviewed));
+
+  document.getElementById('creatorCount').textContent = `${sorted.length} creators`;
+  document.getElementById('creatorsGrid').innerHTML = sorted.map(([name, info]) => {
+    const bio   = getBio(name, 'bio', '');
+    const photo = getBio(name, 'photo', '');
+    const total = info.authored + info.reviewed;
+    const initials = name.split(' ').map(w=>w[0]).join('').slice(0,2).toUpperCase();
+    return `<div class="creator-card" style="background:white;border-radius:10px;padding:16px;border:1px solid #e8e8e8;box-shadow:0 1px 4px rgba(0,0,0,.05)">
+      <div style="display:flex;align-items:flex-start;gap:12px;margin-bottom:12px">
+        <div style="width:44px;height:44px;border-radius:50%;background:#1a1a2e;color:white;display:flex;align-items:center;justify-content:center;font-size:15px;font-weight:700;flex-shrink:0">${esc(initials)}</div>
+        <div style="flex:1;min-width:0">
+          <div style="font-weight:700;font-size:14px">${esc(name)}</div>
+          <div style="font-size:11px;color:#888;margin-top:2px">${esc(info.creds||getBio(name,'creds',''))}</div>
+          <div style="font-size:11px;color:#bbb;margin-top:3px">${info.authored} created &nbsp;·&nbsp; ${info.reviewed} reviewed</div>
+        </div>
+        <button onclick="showContrib('${esc(name)}')" style="flex-shrink:0;padding:4px 10px;background:#f0f2f5;border:1px solid #e0e0e0;border-radius:6px;font-size:11px;cursor:pointer;color:#444">View content</button>
+      </div>
+      <textarea
+        placeholder="Add bio…"
+        style="width:100%;box-sizing:border-box;padding:7px 9px;border:1px solid #e8e8e8;border-radius:6px;font-size:12px;font-family:inherit;resize:vertical;min-height:60px;color:#444;outline:none"
+        oninput="saveBio('${esc(name)}','bio',this.value)"
+        onfocus="this.style.borderColor='#1a1a2e'"
+        onblur="this.style.borderColor='#e8e8e8'"
+      >${esc(bio)}</textarea>
+      <input
+        placeholder="Credentials (e.g. Registered Dietician)…"
+        style="width:100%;box-sizing:border-box;padding:6px 9px;border:1px solid #e8e8e8;border-radius:6px;font-size:12px;font-family:inherit;margin-top:6px;outline:none"
+        value="${esc(getBio(name,'creds', info.creds||''))}"
+        oninput="saveBio('${esc(name)}','creds',this.value)"
+        onfocus="this.style.borderColor='#1a1a2e'"
+        onblur="this.style.borderColor='#e8e8e8'"
+      >
+    </div>`;
+  }).join('');
+}
+
+document.getElementById('creatorSearch')?.addEventListener('input', () => renderCreators());
+
 function showContrib(name) {
   if (!name) return;
   const authored = ALL.filter(i=>(lv(i,'author')||lv(i,'teacher'))===name);
   const reviewed = ALL.filter(i=>lv(i,'peer_reviewer')===name);
   const creds    = authored.length ? lv(authored[0],'author_creds') : '';
 
+  const bio = getBio(name, 'bio', '');
+  const savedCreds = getBio(name, 'creds', creds);
   document.getElementById('contribHeadInfo').innerHTML = `
     <h2>${esc(name)}</h2>
-    ${creds?`<div class="sub">${esc(creds)}</div>`:''}
+    ${savedCreds?`<div class="sub">${esc(savedCreds)}</div>`:''}
+    ${bio?`<div style="font-size:13px;color:#ccc;margin-top:6px;max-width:600px;line-height:1.5">${esc(bio)}</div>`:''}
     <div class="stats">
-      <span>${authored.length} authored</span>
+      <span>${authored.length} created</span>
       <span>${reviewed.length} peer reviewed</span>
     </div>
   `;
