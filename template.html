@@ -37,7 +37,10 @@ header .meta { font-size: 11px; color: #888; white-space: nowrap; margin-left: a
 
 /* ── Main Layout ── */
 .main { display: flex; flex: 1; overflow: hidden; }
-.sidebar { width: 230px; background: white; border-right: 1px solid #e8e8e8; padding: 13px; overflow-y: auto; flex-shrink: 0; }
+.sidebar { width: 230px; background: white; border-right: 1px solid #e8e8e8; padding: 13px; overflow-y: auto; flex-shrink: 0; transition: width .2s, padding .2s, opacity .15s; position: relative; }
+.sidebar.collapsed { width: 0; padding: 0; opacity: 0; overflow: hidden; }
+.sidebar-toggle { position: absolute; top: 10px; right: -14px; z-index: 10; width: 24px; height: 24px; border-radius: 50%; background: white; border: 1px solid #e0e0e0; cursor: pointer; font-size: 11px; display: flex; align-items: center; justify-content: center; color: #888; box-shadow: 0 1px 3px rgba(0,0,0,.1); transition: right .2s; }
+.sidebar.collapsed .sidebar-toggle { right: -28px; }
 .sidebar h3 { font-size: 10px; text-transform: uppercase; letter-spacing: .6px; color: #aaa; margin-bottom: 5px; font-weight: 700; }
 .filter-group { margin-bottom: 13px; }
 select, input[type=text] { width: 100%; padding: 6px 9px; border: 1px solid #e0e0e0; border-radius: 6px; font-size: 13px; outline: none; background: white; }
@@ -245,7 +248,8 @@ textarea.field-edit { resize: vertical; }
 
 <!-- Review / Library view -->
 <div class="main" id="mainView">
-  <div class="sidebar">
+  <div class="sidebar" id="mainSidebar">
+    <button class="sidebar-toggle" id="sidebarToggle" onclick="toggleSidebar()" title="Toggle filters">‹</button>
     <div class="filter-group">
       <h3>Filter by title</h3>
       <input type="text" id="titleFilter" placeholder="Type to filter…">
@@ -649,8 +653,8 @@ function reviewStatus(item) {
 function renderDueSchedule() {
   const BANDS = [
     { key:'overdue', label:'Past Due',           color:'#e63946', bg:'rgba(230,57,70,0.08)' },
-    { key:'due3mo',  label:'Due within 3 months',color:'#e07b00', bg:'rgba(224,123,0,0.08)' },
-    { key:'due6mo',  label:'Due within 6 months',color:'#b5860d', bg:'rgba(181,134,13,0.08)' },
+    { key:'due3mo',  label:'Due within 3 months',color:'#8000c8', bg:'rgba(128,0,200,0.07)' },
+    { key:'due6mo',  label:'Due within 6 months',color:'#b5860d', bg:'rgba(181,134,13,0.12)' },
   ];
   const byBand = { overdue:[], due3mo:[], due6mo:[] };
   ALL.forEach(item => { const s=reviewStatus(item); if(byBand[s]) byBand[s].push(item); });
@@ -763,7 +767,7 @@ function renderTable() {
     const sel = item.id===selectedId;
     const rs    = activeTab==='review' ? reviewStatus(item) : 'ok';
     const isDue = rs === 'overdue';
-    const statusBg = rs==='overdue' ? 'rgba(230,57,70,0.07)' : rs==='due3mo' ? 'rgba(230,57,70,0.04)' : rs==='due6mo' ? 'rgba(181,134,13,0.05)' : '';
+    const statusBg = rs==='overdue' ? 'rgba(230,57,70,0.07)' : rs==='due3mo' ? 'rgba(128,0,200,0.07)' : rs==='due6mo' ? 'rgba(181,134,13,0.12)' : '';
     const rowBg = bg || statusBg;
     const tdS = rowBg||fg ? `style="${rowBg?'background:'+rowBg+';':''}${fg?'color:'+fg:''}"` : '';
 
@@ -774,8 +778,8 @@ function renderTable() {
         const licTxt  = lic.length ? `<span style="font-size:10px;opacity:.5;margin-left:3px">[${lic.join(', ')}]</span>` : '';
         const dot     = mod ? '<span class="edited-dot" title="Edited"></span>' : '';
         const dueBadge= rs==='overdue' ? `<span style="font-size:9px;font-weight:700;background:rgba(230,57,70,.15);color:#e63946;border-radius:4px;padding:1px 5px;margin-left:5px;letter-spacing:.3px">OVERDUE</span>`
-          : rs==='due3mo' ? `<span style="font-size:9px;font-weight:700;background:rgba(224,123,0,.15);color:#e07b00;border-radius:4px;padding:1px 5px;margin-left:5px;letter-spacing:.3px">DUE 3 MO</span>`
-          : rs==='due6mo' ? `<span style="font-size:9px;font-weight:700;background:rgba(181,134,13,.15);color:#b5860d;border-radius:4px;padding:1px 5px;margin-left:5px;letter-spacing:.3px">DUE 6 MO</span>` : '';
+          : rs==='due3mo' ? `<span style="font-size:9px;font-weight:700;background:rgba(128,0,200,.15);color:#8000c8;border-radius:4px;padding:1px 5px;margin-left:5px;letter-spacing:.3px">DUE 3 MO</span>`
+          : rs==='due6mo' ? `<span style="font-size:9px;font-weight:700;background:rgba(181,134,13,.2);color:#b5860d;border-radius:4px;padding:1px 5px;margin-left:5px;letter-spacing:.3px">DUE 6 MO</span>` : '';
         const noReview = activeTab==='review' && lv(item,'type')==='Article' && !lv(item,'peer_reviewer') && !gE(item.id,'reviewed_by','');
         const noRevBadge = noReview ? `<span style="font-size:9px;font-weight:700;background:rgba(108,117,125,.12);color:#6c757d;border-radius:4px;padding:1px 5px;margin-left:4px;letter-spacing:.3px">NEEDS REVIEW</span>` : '';
         return `<td class="title-cell" ${s}><div class="title-text">${esc(cleanTitle(lv(item,'title')))}${dueBadge}${noRevBadge}${licTxt}${dot}</div></td>`;
@@ -835,6 +839,7 @@ function showDetail(item) {
 
   const panel = document.getElementById('detailPanel');
   panel.classList.add('open');
+  toggleSidebar(true); // collapse sidebar to give detail panel more room
 
   // Gather values
   const T    = (f,d='')=>lv(item,f)||d;
@@ -1175,7 +1180,16 @@ function reRow(id) {
   if (id===selectedId) row.classList.add('selected');
 }
 
+function toggleSidebar(collapse) {
+  const sb = document.getElementById('mainSidebar');
+  const btn = document.getElementById('sidebarToggle');
+  const shouldCollapse = collapse !== undefined ? collapse : !sb.classList.contains('collapsed');
+  sb.classList.toggle('collapsed', shouldCollapse);
+  btn.textContent = shouldCollapse ? '›' : '‹';
+}
+
 function closeDetail() {
+  toggleSidebar(false); // restore sidebar when panel closes
   selectedId = null;
   document.getElementById('detailPanel').classList.remove('open');
   document.querySelectorAll('#tbody tr').forEach(r=>r.classList.remove('selected'));
