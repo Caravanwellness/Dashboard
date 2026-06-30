@@ -421,10 +421,27 @@ const CHANGE_LOG   = __CHANGELOG_PLACEHOLDER__;
 const SEEDED_CLIENTS = __CLIENTS_PLACEHOLDER__;
 const TRANSCRIPTS  = __TRANSCRIPTS_PLACEHOLDER__;
 
-// ── localStorage ──────────────────────────────────────────────────────────────
-const EDITS_KEY   = 'cw_edits_v3';
-const CLIENTS_KEY = 'cw_clients_v2';
-const CMETA_KEY   = 'cw_cmeta_v2';
+// ── Shared Edits (GitHub via /api/save-edits) ─────────────────────────────────
+let edits = {};
+let _editSaveTimers = {};
+let _editsLoaded = false;
+
+async function loadEdits() {
+  try {
+    const r = await fetch('/api/save-edits');
+    if (r.ok) edits = await r.json();
+  } catch(e) { /* offline — edits stay empty */ }
+  _editsLoaded = true;
+}
+
+function _flushEdit(id, field, value) {
+  fetch('/api/save-edits', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ id, field, value }),
+  }).catch(e => console.warn('Edit save failed', e));
+}
+
 // ── Creator Bios (shared, stored in GitHub via /api/save-bio) ─────────────────
 let bios = {};
 let _bioSaveTimers = {};
@@ -439,7 +456,6 @@ async function loadBios() {
 function saveBio(name, field, value) {
   if (!bios[name]) bios[name] = {};
   bios[name][field] = value;
-  // Debounce: wait 800ms after last keystroke before committing
   clearTimeout(_bioSaveTimers[name + field]);
   _bioSaveTimers[name + field] = setTimeout(async () => {
     try {
@@ -459,16 +475,17 @@ function getBio(name, field, def='') {
 loadBios().then(() => {
   if (activeTab === 'creators') renderCreators();
 });
+loadEdits();
 
-let edits     = {};
 let clients   = [];
 let clientMeta= {};
+const CLIENTS_KEY = 'cw_clients_v2';
+const CMETA_KEY   = 'cw_cmeta_v2';
 
-try { edits      = JSON.parse(localStorage.getItem(EDITS_KEY)   || '{}'); } catch(e){}
 try { clients    = JSON.parse(localStorage.getItem(CLIENTS_KEY) || '[]'); } catch(e){}
 try { clientMeta = JSON.parse(localStorage.getItem(CMETA_KEY)   || '{}'); } catch(e){}
 
-const save = () => localStorage.setItem(EDITS_KEY, JSON.stringify(edits));
+const save = () => {};  // edits now go to GitHub, not localStorage
 const saveC = () => localStorage.setItem(CLIENTS_KEY, JSON.stringify(clients));
 const saveCM= () => localStorage.setItem(CMETA_KEY, JSON.stringify(clientMeta));
 
@@ -491,7 +508,10 @@ function sE(id, f, v)   {
   if (!edits[id]) edits[id]={};
   edits[id][f] = v;
   edits[id]._at = new Date().toISOString();
-  save();
+  // Debounce writes to GitHub (1s after last change to same field)
+  const key = id + '|' + f;
+  clearTimeout(_editSaveTimers[key]);
+  _editSaveTimers[key] = setTimeout(() => _flushEdit(id, f, v), 1000);
 }
 function lv(item, f) {
   const v = gE(item.id, f, undefined);
@@ -1017,12 +1037,6 @@ function showDetail(item) {
       <div class="detail-id">${item.id}${atStr?` &nbsp;·&nbsp; <span class="edited-stamp">Edited ${atStr}</span>`:''}</div>
     </div>
     <div class="detail-body">
-
-      <div class="detail-section">Appearance</div>
-      <div class="color-pair">
-        <div><label>Row Color</label>${swatchHtml(BG_COLORS,'row_bg',bg)}</div>
-        <div><label>Text Color</label>${swatchHtml(FG_COLORS,'row_text',fg)}</div>
-      </div>
 
       <div class="detail-section">Content</div>
       <div class="detail-field"><label>Title</label>
