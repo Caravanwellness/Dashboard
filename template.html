@@ -1039,7 +1039,7 @@ function showDetail(item) {
       </div>`:''}
       <div class="detail-field"><label>Author / Teacher</label>
         <div style="display:flex;align-items:center;gap:7px">
-          <input class="field-edit" data-f="author" value="${esc(fAuthor)}" style="flex:1">
+          <input class="field-edit" data-f="author" value="${esc(fAuthor)}" list="creatorList" style="flex:1" autocomplete="off">
           ${profileBtn(fAuthor)}
         </div>
       </div>
@@ -1048,7 +1048,7 @@ function showDetail(item) {
       </div>
       <div class="detail-field"><label>Peer Reviewer</label>
         <div style="display:flex;align-items:center;gap:7px">
-          <input class="field-edit" data-f="peer_reviewer" value="${esc(fReviewer)}" style="flex:1">
+          <input class="field-edit" data-f="peer_reviewer" value="${esc(fReviewer)}" list="creatorList" style="flex:1" autocomplete="off">
           ${profileBtn(fReviewer)}
         </div>
       </div>
@@ -1124,7 +1124,7 @@ function showDetail(item) {
         <input class="field-edit" data-f="review_date" value="${esc(fReviewDate)}" placeholder="MM/DD/YYYY">
       </div>
       <div class="detail-field"><label>Reviewed By</label>
-        <input class="field-edit" data-f="reviewed_by" value="${esc(fReviewedBy)}" placeholder="Reviewer name">
+        <input class="field-edit" data-f="reviewed_by" value="${esc(fReviewedBy)}" list="creatorList" placeholder="Reviewer name" autocomplete="off">
       </div>
 
       <div class="detail-section">References</div>
@@ -1536,6 +1536,15 @@ function exportCSV() {
   a.download = 'caravan-export.csv';
   a.click();
 }
+
+// ── Creator datalist ──────────────────────────────────────────────────────────
+(function buildCreatorDatalist() {
+  const dl = document.createElement('datalist');
+  dl.id = 'creatorList';
+  const names = Object.keys(buildCreatorIndex()).sort((a,b) => a.localeCompare(b));
+  names.forEach(n => { const o = document.createElement('option'); o.value = n; dl.appendChild(o); });
+  document.body.appendChild(dl);
+})();
 
 // ── Init ──────────────────────────────────────────────────────────────────────
 seedFilters();
