@@ -1,1 +1,12 @@
-{}
+{
+  "ART-0001": {
+    "local_changes": [
+      {
+        "date": "07/01/2026",
+        "description": "Marked as reviewed",
+        "changed_by": "Unknown"
+      }
+    ],
+    "_at": "2026-07-01T17:41:13.624Z"
+  }
+}
