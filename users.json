@@ -3,5 +3,10 @@
     "name": "Lisa",
     "passwordHash": "50b5cb758e4275b85d954ab83d256100201e28f15e47dc976d4bee5e8695df1d",
     "createdAt": "2026-07-02T16:29:28.169Z"
+  },
+  "zena.erhabor@caravanwellness.com": {
+    "name": "Zena E",
+    "passwordHash": "19ff37f7108166089bb19b5e0d462b74cc38ba5c6c52075811f6a23a67d4e001",
+    "createdAt": "2026-07-02T16:44:27.598Z"
   }
 }
