@@ -49,10 +49,10 @@ export default async function handler(req, res) {
   if (req.method !== 'POST') return res.status(405).json({ error: 'Method not allowed' });
 
   if (!process.env.SESSION_SECRET) {
-    return res.status(500).json({ error: 'SERVER MISCONFIGURATION: SESSION_SECRET environment variable is not set in Vercel. Go to Vercel → Settings → Environment Variables and add it, then redeploy.' });
+    return res.status(500).json({ error: 'SERVER MISCONFIGURATION: SESSION_SECRET is not set.' });
   }
   if (!process.env.GITHUB_TOKEN) {
-    return res.status(500).json({ error: 'SERVER MISCONFIGURATION: GITHUB_TOKEN environment variable is not set in Vercel.' });
+    return res.status(500).json({ error: 'SERVER MISCONFIGURATION: GITHUB_TOKEN is not set.' });
   }
 
   const { action, email, password, name } = req.body || {};
