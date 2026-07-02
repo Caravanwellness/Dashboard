@@ -1,1 +1,16 @@
-{"clients":[],"meta":{}}
+{
+  "clients": [
+    "YuLife",
+    "Hapstar"
+  ],
+  "meta": {
+    "YuLife": {
+      "delivery": "API/Portal",
+      "notes": "158 videos delivered"
+    },
+    "Hapstar": {
+      "delivery": "Portal",
+      "notes": ""
+    }
+  }
+}
