@@ -223,6 +223,70 @@ textarea.field-edit { resize: vertical; }
 </head>
 <body>
 
+<!-- ── Login Modal ─────────────────────────────────────────────────────────── -->
+<div id="loginOverlay" style="position:fixed;inset:0;background:#1a1a2e;z-index:9999;display:flex;align-items:center;justify-content:center">
+  <div style="background:white;border-radius:16px;padding:36px 40px;width:420px;max-width:92vw;box-shadow:0 20px 60px rgba(0,0,0,.4)">
+    <div style="text-align:center;margin-bottom:28px">
+      <div style="font-size:22px;font-weight:800;color:#1a1a2e;letter-spacing:-.5px">Caravan Wellness</div>
+      <div style="font-size:13px;color:#888;margin-top:4px">Content Dashboard</div>
+    </div>
+    <div style="display:flex;border:1px solid #e8e8e8;border-radius:8px;margin-bottom:22px;overflow:hidden">
+      <button id="loginTab" onclick="switchAuthTab('login')" style="flex:1;padding:9px;border:none;background:#1a1a2e;color:white;font-weight:700;font-size:13px;cursor:pointer">Log In</button>
+      <button id="signupTab" onclick="switchAuthTab('signup')" style="flex:1;padding:9px;border:none;background:white;color:#666;font-weight:600;font-size:13px;cursor:pointer">Sign Up</button>
+    </div>
+    <div id="signupNameRow" style="display:none;margin-bottom:14px">
+      <label style="font-size:11px;text-transform:uppercase;letter-spacing:.5px;color:#999;display:block;margin-bottom:5px">Full Name</label>
+      <input id="authName" type="text" placeholder="Your full name" style="width:100%;padding:10px 12px;border:1px solid #e0e0e0;border-radius:8px;font-size:14px;outline:none">
+    </div>
+    <div style="margin-bottom:14px">
+      <label style="font-size:11px;text-transform:uppercase;letter-spacing:.5px;color:#999;display:block;margin-bottom:5px">Email</label>
+      <input id="authEmail" type="email" placeholder="you@caravanwellness.com" style="width:100%;padding:10px 12px;border:1px solid #e0e0e0;border-radius:8px;font-size:14px;outline:none">
+    </div>
+    <div style="margin-bottom:22px">
+      <label style="font-size:11px;text-transform:uppercase;letter-spacing:.5px;color:#999;display:block;margin-bottom:5px">Password</label>
+      <input id="authPassword" type="password" placeholder="••••••••" style="width:100%;padding:10px 12px;border:1px solid #e0e0e0;border-radius:8px;font-size:14px;outline:none">
+    </div>
+    <div id="authError" style="display:none;background:#fff0f0;color:#c62828;font-size:12px;padding:10px 12px;border-radius:7px;margin-bottom:16px"></div>
+    <button id="authSubmitBtn" onclick="submitAuth()" style="width:100%;padding:12px;background:#1a1a2e;color:white;border:none;border-radius:8px;font-weight:700;font-size:14px;cursor:pointer;letter-spacing:.2px">Log In</button>
+  </div>
+</div>
+
+<!-- ── Review-type popup ───────────────────────────────────────────────────── -->
+<div id="reviewTypeModal" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:8000;align-items:center;justify-content:center">
+  <div style="background:white;border-radius:14px;padding:30px;max-width:420px;width:90%;box-shadow:0 12px 40px rgba(0,0,0,.25)">
+    <h3 style="margin:0 0 8px;font-size:16px;font-weight:700;color:#1a1a2e">Does this review include any content changes?</h3>
+    <p style="font-size:13px;color:#666;margin:0 0 22px">This helps us track what was updated vs. just reviewed.</p>
+    <div style="display:flex;flex-direction:column;gap:10px;margin-bottom:18px">
+      <button onclick="completeReview(false)" style="padding:13px 16px;border:1px solid #e0e0e0;border-radius:9px;background:white;cursor:pointer;text-align:left;transition:border-color .15s">
+        <div style="font-weight:700;font-size:13px;color:#1a1a2e">No — routine review only</div>
+        <div style="font-size:12px;color:#888;margin-top:2px">Content was reviewed but nothing changed</div>
+      </button>
+      <button onclick="completeReview(true)" style="padding:13px 16px;border:1px solid #e63946;border-radius:9px;background:#fff8f8;cursor:pointer;text-align:left">
+        <div style="font-weight:700;font-size:13px;color:#c62828">Yes — content was updated</div>
+        <div style="font-size:12px;color:#888;margin-top:2px">Clients with this content will be notified via Slack</div>
+      </button>
+    </div>
+    <button onclick="document.getElementById('reviewTypeModal').style.display='none'" style="width:100%;padding:8px;border:none;background:none;color:#aaa;cursor:pointer;font-size:12px">Cancel</button>
+  </div>
+</div>
+
+<!-- ── Upload CSV Modal ────────────────────────────────────────────────────── -->
+<div id="uploadModal" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:8000;align-items:center;justify-content:center">
+  <div style="background:white;border-radius:14px;padding:30px;max-width:480px;width:90%;box-shadow:0 12px 40px rgba(0,0,0,.25)">
+    <h3 style="margin:0 0 8px;font-size:16px;font-weight:700;color:#1a1a2e">Upload CSV / Excel</h3>
+    <p style="font-size:13px;color:#666;margin:0 0 18px">File must have an <strong>id</strong> column. All other columns will be merged as edits. Existing values for those fields will be overwritten.</p>
+    <div id="uploadDropzone" ondragover="event.preventDefault()" ondrop="handleUploadDrop(event)" style="border:2px dashed #e0e0e0;border-radius:10px;padding:32px;text-align:center;cursor:pointer;margin-bottom:16px" onclick="document.getElementById('uploadFileInput').click()">
+      <div style="font-size:28px;margin-bottom:8px">📂</div>
+      <div style="font-size:13px;color:#666">Drag &amp; drop a CSV or Excel file here<br>or click to browse</div>
+      <input id="uploadFileInput" type="file" accept=".csv,.xlsx,.xls" style="display:none" onchange="handleUploadFile(this.files[0])">
+    </div>
+    <div id="uploadStatus" style="font-size:12px;color:#666;min-height:20px;margin-bottom:14px"></div>
+    <div style="display:flex;gap:10px;justify-content:flex-end">
+      <button onclick="document.getElementById('uploadModal').style.display='none'" style="padding:9px 18px;border:1px solid #e0e0e0;border-radius:7px;background:white;cursor:pointer;font-size:13px;color:#666">Close</button>
+    </div>
+  </div>
+</div>
+
 <header>
   <h1>Caravan Wellness</h1>
   <div class="ai-search-wrap">
@@ -231,6 +295,10 @@ textarea.field-edit { resize: vertical; }
     <button class="ai-search-btn" id="aiBtn" onclick="doAiSearch()">Search</button>
   </div>
   <div class="meta" id="headerMeta">Extracted __EXTRACTED__ &nbsp;·&nbsp; <span id="totalCount"></span> items</div>
+  <div id="userBadge" style="display:none;align-items:center;gap:8px;margin-left:8px">
+    <span id="userBadgeName" style="font-size:12px;color:#ccc"></span>
+    <button onclick="logout()" style="font-size:11px;padding:3px 9px;border-radius:20px;border:1px solid #555;background:transparent;color:#aaa;cursor:pointer">Log out</button>
+  </div>
 </header>
 
 <div class="ai-result-bar" id="aiBar">
@@ -319,6 +387,7 @@ textarea.field-edit { resize: vertical; }
   <div class="content">
     <div class="toolbar">
       <button class="btn primary" onclick="exportCSV()">⬇ Export CSV</button>
+      <button class="btn" onclick="document.getElementById('uploadModal').style.display='flex'" style="background:#0d9488;color:white;border-color:#0d9488">⬆ Upload CSV</button>
     </div>
     <div class="table-wrap">
       <table><thead id="thead"></thead><tbody id="tbody"></tbody></table>
@@ -326,6 +395,7 @@ textarea.field-edit { resize: vertical; }
     </div>
   </div>
 
+  <div id="detailOverlay" onclick="closeDetail()" style="display:none;position:fixed;inset:0;z-index:99;background:transparent"></div>
   <div class="detail-panel" id="detailPanel"></div>
 </div>
 
@@ -421,25 +491,137 @@ const CHANGE_LOG   = __CHANGELOG_PLACEHOLDER__;
 const SEEDED_CLIENTS = __CLIENTS_PLACEHOLDER__;
 const TRANSCRIPTS  = __TRANSCRIPTS_PLACEHOLDER__;
 
+// ── Auth session (held in memory + sessionStorage for page refresh) ───────────
+let currentUser = null;   // { name, email }
+let sessionToken = null;
+
+function authHeader() {
+  return sessionToken ? { 'Authorization': `Bearer ${sessionToken}` } : {};
+}
+
+function restoreSession() {
+  try {
+    const t = sessionStorage.getItem('cw_token');
+    const u = JSON.parse(sessionStorage.getItem('cw_user') || 'null');
+    if (t && u) { sessionToken = t; currentUser = u; return true; }
+  } catch(e) {}
+  return false;
+}
+
+function persistSession(token, user) {
+  sessionToken = token; currentUser = user;
+  sessionStorage.setItem('cw_token', token);
+  sessionStorage.setItem('cw_user', JSON.stringify(user));
+}
+
+function logout() {
+  sessionToken = null; currentUser = null;
+  sessionStorage.removeItem('cw_token');
+  sessionStorage.removeItem('cw_user');
+  document.getElementById('loginOverlay').style.display = 'flex';
+  document.getElementById('userBadge').style.display = 'none';
+}
+
+function switchAuthTab(tab) {
+  const isSignup = tab === 'signup';
+  document.getElementById('signupNameRow').style.display = isSignup ? 'block' : 'none';
+  document.getElementById('loginTab').style.background    = isSignup ? 'white' : '#1a1a2e';
+  document.getElementById('loginTab').style.color         = isSignup ? '#666'  : 'white';
+  document.getElementById('signupTab').style.background   = isSignup ? '#1a1a2e' : 'white';
+  document.getElementById('signupTab').style.color        = isSignup ? 'white' : '#666';
+  document.getElementById('authSubmitBtn').textContent    = isSignup ? 'Create Account' : 'Log In';
+  document.getElementById('authSubmitBtn').dataset.action = tab;
+  document.getElementById('authError').style.display = 'none';
+}
+document.getElementById('authSubmitBtn').dataset.action = 'login';
+
+async function submitAuth() {
+  const action   = document.getElementById('authSubmitBtn').dataset.action;
+  const email    = document.getElementById('authEmail').value.trim();
+  const password = document.getElementById('authPassword').value;
+  const name     = document.getElementById('authName').value.trim();
+  const errEl    = document.getElementById('authError');
+  errEl.style.display = 'none';
+
+  const btn = document.getElementById('authSubmitBtn');
+  btn.disabled = true; btn.textContent = 'Please wait…';
+
+  try {
+    const r = await fetch('/api/auth', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ action, email, password, name }),
+    });
+    const data = await r.json();
+    if (!r.ok) {
+      errEl.textContent = data.error || 'Something went wrong.';
+      errEl.style.display = 'block';
+      btn.disabled = false;
+      btn.textContent = action === 'login' ? 'Log In' : 'Create Account';
+      return;
+    }
+    persistSession(data.token, { name: data.name, email: data.email });
+    document.getElementById('loginOverlay').style.display = 'none';
+    document.getElementById('userBadgeName').textContent = data.name;
+    document.getElementById('userBadge').style.display = 'flex';
+    await initApp();
+  } catch(e) {
+    errEl.textContent = 'Network error — please try again.';
+    errEl.style.display = 'block';
+    btn.disabled = false;
+    btn.textContent = action === 'login' ? 'Log In' : 'Create Account';
+  }
+}
+
+document.getElementById('authPassword').addEventListener('keydown', e => {
+  if (e.key === 'Enter') submitAuth();
+});
+
 // ── Shared Edits (GitHub via /api/save-edits) ─────────────────────────────────
 let edits = {};
 let _editSaveTimers = {};
-let _editsLoaded = false;
+let _editOldValues  = {};
 
 async function loadEdits() {
   try {
     const r = await fetch('/api/save-edits');
     if (r.ok) edits = await r.json();
-  } catch(e) { /* offline — edits stay empty */ }
-  _editsLoaded = true;
+  } catch(e) {}
 }
 
 function _flushEdit(id, field, value) {
   fetch('/api/save-edits', {
     method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
+    headers: { 'Content-Type': 'application/json', ...authHeader() },
     body: JSON.stringify({ id, field, value }),
   }).catch(e => console.warn('Edit save failed', e));
+}
+
+function _flushChangelog(id, field, oldValue, newValue) {
+  if (!sessionToken) return;
+  fetch('/api/save-changelog', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json', ...authHeader() },
+    body: JSON.stringify({ id, field, oldValue, newValue }),
+  }).catch(e => console.warn('Changelog save failed', e));
+}
+
+// ── Shared Change Log ─────────────────────────────────────────────────────────
+let changeLog = {};
+async function loadChangeLog() {
+  try {
+    const r = await fetch('/api/save-changelog');
+    if (r.ok) changeLog = await r.json();
+  } catch(e) {}
+}
+
+// ── Client Notifications ──────────────────────────────────────────────────────
+let clientNotifications = [];
+async function loadNotifications() {
+  try {
+    const r = await fetch('/api/save-notifications');
+    if (r.ok) clientNotifications = await r.json();
+  } catch(e) {}
 }
 
 // ── Creator Bios (shared, stored in GitHub via /api/save-bio) ─────────────────
@@ -472,25 +654,34 @@ function getBio(name, field, def='') {
   return (bios[name] && bios[name][field] !== undefined) ? bios[name][field] : def;
 }
 
-loadBios().then(() => {
-  if (activeTab === 'creators') renderCreators();
-});
-loadEdits();
+// loadBios, loadEdits, loadClients, loadChangeLog, loadNotifications
+// are all called together in initApp() after login
 
 let clients   = [];
 let clientMeta= {};
-const CLIENTS_KEY = 'cw_clients_v2';
-const CMETA_KEY   = 'cw_cmeta_v2';
 
-try { clients    = JSON.parse(localStorage.getItem(CLIENTS_KEY) || '[]'); } catch(e){}
-try { clientMeta = JSON.parse(localStorage.getItem(CMETA_KEY)   || '{}'); } catch(e){}
+const save  = () => {};  // edits go to GitHub via sE()
+const saveC = () => _flushClients();
+const saveCM= () => _flushClients();
 
-const save = () => {};  // edits now go to GitHub, not localStorage
-const saveC = () => localStorage.setItem(CLIENTS_KEY, JSON.stringify(clients));
-const saveCM= () => localStorage.setItem(CMETA_KEY, JSON.stringify(clientMeta));
+function _flushClients() {
+  fetch('/api/save-clients', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json', ...authHeader() },
+    body: JSON.stringify({ clients, meta: clientMeta }),
+  }).catch(e => console.warn('Client save failed', e));
+}
 
-// Seed clients from embedded data if not already present
-(function seedClients() {
+async function loadClients() {
+  try {
+    const r = await fetch('/api/save-clients');
+    if (r.ok) {
+      const data = await r.json();
+      clients    = data.clients || [];
+      clientMeta = data.meta   || {};
+    }
+  } catch(e) {}
+  // Seed from embedded SEEDED_CLIENTS if not already present
   let changed = false;
   for (const name of Object.keys(SEEDED_CLIENTS)) {
     if (!clients.includes(name)) { clients.push(name); changed = true; }
@@ -500,18 +691,40 @@ const saveCM= () => localStorage.setItem(CMETA_KEY, JSON.stringify(clientMeta));
       changed = true;
     }
   }
-  if (changed) { saveC(); saveCM(); }
-})();
+  if (changed) _flushClients();
+}
+
+// ── App init (called after login) ────────────────────────────────────────────
+async function initApp() {
+  document.getElementById('userBadgeName').textContent = currentUser.name;
+  document.getElementById('userBadge').style.display = 'flex';
+  await Promise.all([loadEdits(), loadBios(), loadChangeLog(), loadNotifications(), loadClients()]);
+  seedFilters();
+  applyFilters();
+  if (activeTab === 'creators') renderCreators();
+  if (activeTab === 'licensing') renderLicensing();
+}
+
 
 function gE(id, f, def) { return (edits[id]&&edits[id][f]!==undefined) ? edits[id][f] : def; }
 function sE(id, f, v)   {
+  const key = id + '|' + f;
+  // Capture old value before first keystroke in this debounce window
+  if (!_editSaveTimers[key]) {
+    const item = BY_ID[id];
+    _editOldValues[key] = (edits[id]&&edits[id][f]!==undefined) ? edits[id][f] : (item ? item[f] : undefined);
+  }
   if (!edits[id]) edits[id]={};
   edits[id][f] = v;
   edits[id]._at = new Date().toISOString();
-  // Debounce writes to GitHub (1s after last change to same field)
-  const key = id + '|' + f;
   clearTimeout(_editSaveTimers[key]);
-  _editSaveTimers[key] = setTimeout(() => _flushEdit(id, f, v), 1000);
+  _editSaveTimers[key] = setTimeout(() => {
+    delete _editSaveTimers[key];
+    const oldVal = _editOldValues[key];
+    delete _editOldValues[key];
+    _flushEdit(id, f, v);
+    if (String(oldVal ?? '') !== String(v ?? '')) _flushChangelog(id, f, oldVal, v);
+  }, 1000);
 }
 function lv(item, f) {
   const v = gE(item.id, f, undefined);
@@ -809,7 +1022,7 @@ function applyFilters() {
 function getCols() {
   if (activeTab==='review') return [
     {k:'id',l:'ID'},{k:'type',l:'Type'},{k:'title',l:'Title'},{k:'category',l:'Category'},
-    {k:'date_created',l:'Date Created'},{k:'_review_date',l:'Last Reviewed'},{k:'author',l:'Author'},
+    {k:'date_created',l:'Date Created'},{k:'_review_date',l:'Last Reviewed'},{k:'_reviewer_name',l:'Reviewer'},{k:'author',l:'Author'},
     {k:'version',l:'Ver.'},{k:'date_revised',l:'Revised'},
   ];
   return [
@@ -872,6 +1085,10 @@ function renderTable() {
         const rd = gE(item.id,'review_date','') || lv(item,'date_reviewed') || '';
         return `<td ${s}>${esc(rd)}</td>`;
       }
+      if (c.k==='_reviewer_name') {
+        const rv = gE(item.id,'reviewed_by','') || lv(item,'reviewed_by') || '';
+        return `<td ${s} style="font-size:12px;color:#555">${esc(rv)}</td>`;
+      }
       if (c.k==='_duration') {
         const dur = lv(item,'duration') || extractDuration(lv(item,'title'));
         return `<td ${s} style="white-space:nowrap;font-size:11px">${esc(dur)}</td>`;
@@ -915,7 +1132,8 @@ function showDetail(item) {
 
   const panel = document.getElementById('detailPanel');
   panel.classList.add('open');
-  toggleSidebar(true); // collapse sidebar to give detail panel more room
+  document.getElementById('detailOverlay').style.display = 'block';
+  toggleSidebar(true);
 
   // Gather values
   const T    = (f,d='')=>lv(item,f)||d;
@@ -1153,6 +1371,15 @@ function showDetail(item) {
 
       ${(()=>{const tr=TRANSCRIPTS[item.id];return tr?`<div class="detail-section">Transcript <span style="font-size:10px;font-weight:400;color:var(--muted);margin-left:6px">auto-generated · Vimeo</span></div><div class="detail-field"><div class="transcript-box" id="trBox_${item.id}"><p class="transcript-preview">${esc(tr.slice(0,400))}${tr.length>400?'…':''}</p>${tr.length>400?`<button class="transcript-toggle" onclick="toggleTranscript('${item.id}')">Show full transcript</button>`:''}${tr.length>400?`<p class="transcript-full" style="display:none">${esc(tr)}</p>`:''}</div></div>`:'';})()}
 
+      ${(()=>{
+        const notif = clientNotifications.find(n=>n.id===item.id);
+        if (!notif) return '';
+        const clientList = notif.clients.length ? notif.clients.join(', ') : 'no clients';
+        return `<div style="background:#fff8e1;border:1px solid #f9c74f;border-radius:8px;padding:12px 14px;margin-bottom:12px;font-size:12px;color:#7c5700">
+          <strong>⚠ Content updated</strong> by ${esc(notif.changedByName)} — licensed by <strong>${esc(clientList)}</strong>. Clients have been notified via Slack. This notice expires in 48 hours.
+        </div>`;
+      })()}
+
       <div class="detail-section">Review History</div>
       <div id="changeLog">${changeHtml}</div>
       <button class="log-add-btn" id="logAddBtn" onclick="document.getElementById('logForm').style.display='block';this.style.display='none'">+ Log a review</button>
@@ -1166,9 +1393,29 @@ function showDetail(item) {
           </select>
           <input id="logDate" placeholder="Date (MM/DD/YYYY)">
         </div>
-        <input id="logBy" placeholder="Reviewer name" style="margin-bottom:6px">
+        <input id="logBy" placeholder="Reviewer name" value="${esc(currentUser?.name||'')}" style="margin-bottom:6px">
         <input id="logDesc" placeholder="Notes / what changed…">
         <button class="save-btn" onclick="saveLog('${item.id}')">Save</button>
+      </div>
+
+      <div class="detail-section">Change History</div>
+      <div id="fieldChangeLog" style="font-size:12px;color:#555">
+        ${(()=>{
+          const entries = (changeLog[item.id]||[]);
+          if (!entries.length) return '<div style="color:#bbb;font-style:italic;padding:4px 0">No field changes recorded yet.</div>';
+          return entries.map(e=>{
+            const d = new Date(e.ts);
+            const dateStr = d.toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'});
+            const timeStr = d.toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit'});
+            const fieldLabel = e.field.replace(/_/g,' ').replace(/\b\w/g,c=>c.toUpperCase());
+            const oldV = e.old!==null&&e.old!==''&&e.old!==undefined ? `<span style="color:#c0392b;text-decoration:line-through">${esc(String(e.old).slice(0,80))}</span> → ` : '';
+            const newV = e.new!==null&&e.new!==undefined ? `<span style="color:#27ae60">${esc(String(e.new).slice(0,80))}</span>` : '<em style="color:#aaa">cleared</em>';
+            return `<div style="padding:7px 0;border-bottom:1px solid #f0f2f5">
+              <div style="font-weight:600;color:#1a1a2e;margin-bottom:2px">${esc(fieldLabel)}: ${oldV}${newV}</div>
+              <div style="color:#999;font-size:11px">${esc(e.byName)} · ${dateStr} ${timeStr}</div>
+            </div>`;
+          }).join('');
+        })()}
       </div>
 
       <div class="detail-section">Licensing & Notes</div>
@@ -1280,9 +1527,10 @@ function toggleSidebar(collapse) {
 }
 
 function closeDetail() {
-  toggleSidebar(false); // restore sidebar when panel closes
+  toggleSidebar(false);
   selectedId = null;
   document.getElementById('detailPanel').classList.remove('open');
+  document.getElementById('detailOverlay').style.display = 'none';
   document.querySelectorAll('#tbody tr').forEach(r=>r.classList.remove('selected'));
 }
 
@@ -1493,9 +1741,21 @@ function renderClientDetail(name) {
         </div>`).join('')}</div>`
     : '';
 
+  // Build notification banner for this client
+  const clientNotifs = clientNotifications.filter(n => n.clients.includes(name));
+  const notifBanner = clientNotifs.length ? `
+    <div style="background:#fff8e1;border:1px solid #f9c74f;border-radius:9px;padding:14px 16px;margin-bottom:18px">
+      <div style="font-weight:700;font-size:13px;color:#7c5700;margin-bottom:8px">⚠ Recent Content Updates — Please Notify ${esc(name)}</div>
+      ${clientNotifs.map(n=>`<div style="font-size:12px;color:#7c5700;padding:4px 0;border-top:1px solid #f9c74f">
+        <strong>${esc(n.title)}</strong> — updated by ${esc(n.changedByName)}
+        <span style="color:#b8860b;font-size:11px;margin-left:6px">· expires ${new Date(n.expiresAt).toLocaleDateString('en-US',{month:'short',day:'numeric'})}</span>
+      </div>`).join('')}
+    </div>` : '';
+
   document.getElementById('clientArea').innerHTML = `
     <div class="client-detail">
       <h2>${esc(name)}</h2>
+      ${notifBanner}
       <div class="client-meta">
         <div class="client-meta-field">
           <label>Delivery Method</label>
@@ -1551,6 +1811,90 @@ function exportCSV() {
   a.click();
 }
 
+// ── Upload CSV / Excel ────────────────────────────────────────────────────────
+function handleUploadDrop(e) {
+  e.preventDefault();
+  const file = e.dataTransfer.files[0];
+  if (file) handleUploadFile(file);
+}
+
+async function handleUploadFile(file) {
+  if (!file) return;
+  const status = document.getElementById('uploadStatus');
+  status.textContent = 'Reading file…';
+
+  try {
+    let rows;
+    if (file.name.endsWith('.csv')) {
+      const text = await file.text();
+      rows = parseCSV(text);
+    } else {
+      // Excel — load SheetJS from CDN
+      if (!window.XLSX) {
+        await new Promise((res, rej) => {
+          const s = document.createElement('script');
+          s.src = 'https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js';
+          s.onload = res; s.onerror = rej;
+          document.head.appendChild(s);
+        });
+      }
+      const buf = await file.arrayBuffer();
+      const wb  = XLSX.read(buf, { type: 'array' });
+      const ws  = wb.Sheets[wb.SheetNames[0]];
+      rows = XLSX.utils.sheet_to_json(ws, { defval: '' });
+    }
+
+    if (!rows.length) { status.textContent = 'No rows found in file.'; return; }
+
+    // Normalize column names: lowercase, underscores
+    const norm = rows.map(r => {
+      const out = {};
+      for (const [k, v] of Object.entries(r)) out[k.toLowerCase().replace(/\s+/g,'_')] = v;
+      return out;
+    });
+
+    const idCol = ['id','item_id','content_id'].find(c => norm[0][c] !== undefined);
+    if (!idCol) { status.textContent = 'Error: file must have an "id" column.'; return; }
+
+    const SKIP = new Set([idCol, '_at']);
+    let updated = 0, skipped = 0;
+    for (const row of norm) {
+      const id = String(row[idCol] || '').trim();
+      if (!id || !BY_ID[id]) { skipped++; continue; }
+      for (const [field, val] of Object.entries(row)) {
+        if (SKIP.has(field)) continue;
+        sE(id, field, String(val));
+      }
+      reRow(id);
+      updated++;
+    }
+
+    status.textContent = `✓ Done — ${updated} items updated, ${skipped} skipped (ID not found).`;
+    renderTable();
+  } catch(e) {
+    status.textContent = 'Error reading file: ' + e.message;
+  }
+}
+
+function parseCSV(text) {
+  const lines = text.split(/\r?\n/).filter(l => l.trim());
+  if (lines.length < 2) return [];
+  const headers = lines[0].split(',').map(h => h.replace(/^"|"$/g,'').trim());
+  return lines.slice(1).map(line => {
+    const vals = [];
+    let cur = '', inQ = false;
+    for (const ch of line) {
+      if (ch === '"') { inQ = !inQ; }
+      else if (ch === ',' && !inQ) { vals.push(cur); cur = ''; }
+      else cur += ch;
+    }
+    vals.push(cur);
+    const row = {};
+    headers.forEach((h, i) => { row[h] = (vals[i] || '').replace(/^"|"$/g,'').trim(); });
+    return row;
+  });
+}
+
 // ── Creator datalist ──────────────────────────────────────────────────────────
 (function buildCreatorDatalist() {
   const dl = document.createElement('datalist');
@@ -1561,59 +1905,97 @@ function exportCSV() {
 })();
 
 // ── Init ──────────────────────────────────────────────────────────────────────
-seedFilters();
-applyFilters();
+if (restoreSession()) {
+  document.getElementById('loginOverlay').style.display = 'none';
+  initApp();
+}
+// else: login overlay remains visible until submitAuth() succeeds
 
-// ── Mark as Reviewed + Slack ──────────────────────────────────────────────────
-async function markReviewed(itemId) {
+// ── Mark as Reviewed + popup ──────────────────────────────────────────────────
+let _pendingReviewItemId = null;
+
+function markReviewed(itemId) {
+  _pendingReviewItemId = itemId;
+  const modal = document.getElementById('reviewTypeModal');
+  modal.style.display = 'flex';
+}
+
+async function completeReview(hasChanges) {
+  document.getElementById('reviewTypeModal').style.display = 'none';
+  const itemId = _pendingReviewItemId;
+  _pendingReviewItemId = null;
   const item = BY_ID[itemId];
   if (!item) return;
 
-  const today = new Date().toLocaleDateString('en-US', {month:'2-digit',day:'2-digit',year:'numeric'});
-  const reviewer = gE(itemId,'reviewed_by','') || prompt('Your name (for the review log):', '') || 'Unknown';
+  const today    = new Date().toLocaleDateString('en-US', {month:'2-digit',day:'2-digit',year:'numeric'});
+  const reviewer = currentUser?.name || gE(itemId,'reviewed_by','') || 'Unknown';
 
-  // Stamp review date + reviewer
   sE(itemId, 'review_date', today);
   sE(itemId, 'reviewed_by', reviewer);
 
-  // Log to change history
+  const logType = hasChanges ? 'substantive' : 'review';
+  const desc    = hasChanges ? 'Content updated and reviewed' : 'Routine review — no changes';
   const changes = gE(itemId,'local_changes',[]);
-  changes.unshift({ date: today, description: 'Marked as reviewed', changed_by: reviewer });
+  changes.unshift({ date: today, description: desc, changed_by: reviewer, review_type: logType });
   sE(itemId, 'local_changes', changes);
 
-  // Update the inputs visually
   const rdInput = document.querySelector('.field-edit[data-f="review_date"]');
   const rbInput = document.querySelector('.field-edit[data-f="reviewed_by"]');
   if (rdInput) rdInput.value = today;
   if (rbInput) rbInput.value = reviewer;
 
-  // Re-render so red row/badge disappears immediately
   renderTable();
-
-  // Show confirmation
   const msg = document.getElementById('markReviewedMsg');
   if (msg) { msg.style.display = ''; setTimeout(()=>msg.style.display='none', 4000); }
 
-  // Notify Slack
-  try {
-    const title = lv(item,'title');
-    const cat   = lv(item,'category');
-    const type  = lv(item,'type');
-    await fetch('/api/slack', {
-      method: 'POST',
-      headers: {'Content-Type':'application/json'},
-      body: JSON.stringify({
-        blocks: [
-          { type: 'section', text: { type: 'mrkdwn',
-            text: `✅ *Content Reviewed*\n*${title}*\n${type} · ${cat}` }},
-          { type: 'context', elements: [
-            { type: 'mrkdwn', text: `Reviewed by *${reviewer}* on ${today} · ID: \`${itemId}\`` }
-          ]}
-        ],
-        text: `✅ "${title}" marked as reviewed by ${reviewer}`
-      })
-    });
-  } catch(e) { console.warn('Slack notify failed:', e); }
+  const title   = lv(item,'title');
+  const cat     = lv(item,'category');
+  const type    = lv(item,'type');
+  const itemClients = gE(itemId,'licenses', item.client_licenses||[]);
+
+  if (hasChanges) {
+    // Save 48h client notification
+    try {
+      await fetch('/api/save-notifications', {
+        method: 'POST',
+        headers: {'Content-Type':'application/json', ...authHeader()},
+        body: JSON.stringify({ id: itemId, title, clients: itemClients, changedByName: reviewer }),
+      });
+      clientNotifications = clientNotifications.filter(n=>n.id!==itemId);
+      clientNotifications.push({ id:itemId, title, clients:itemClients, changedByName:reviewer,
+        changedAt:new Date().toISOString(), expiresAt:new Date(Date.now()+48*60*60*1000).toISOString() });
+    } catch(e) {}
+
+    // Slack — content updated
+    const clientStr = itemClients.length ? itemClients.join(', ') : 'no licensed clients';
+    try {
+      await fetch('/api/slack', {
+        method:'POST', headers:{'Content-Type':'application/json'},
+        body: JSON.stringify({
+          blocks:[
+            {type:'section',text:{type:'mrkdwn',text:`⚠️ *Content Updated*\n*${title}*\n${type} · ${cat}`}},
+            {type:'section',text:{type:'mrkdwn',text:`Licensed by: *${clientStr}*\nPlease notify relevant clients of this change.`}},
+            {type:'context',elements:[{type:'mrkdwn',text:`Updated by *${reviewer}* on ${today} · ID: \`${itemId}\``}]}
+          ],
+          text:`⚠️ "${title}" was updated by ${reviewer} — licensed by ${clientStr}`
+        })
+      });
+    } catch(e) {}
+  } else {
+    // Slack — routine review
+    try {
+      await fetch('/api/slack', {
+        method:'POST', headers:{'Content-Type':'application/json'},
+        body: JSON.stringify({
+          blocks:[
+            {type:'section',text:{type:'mrkdwn',text:`✅ *Content Reviewed*\n*${title}*\n${type} · ${cat}`}},
+            {type:'context',elements:[{type:'mrkdwn',text:`Reviewed by *${reviewer}* on ${today} · ID: \`${itemId}\``}]}
+          ],
+          text:`✅ "${title}" reviewed by ${reviewer} — no changes`
+        })
+      });
+    } catch(e) {}
+  }
 }
 
 // ── Curation ──────────────────────────────────────────────────────────────────
