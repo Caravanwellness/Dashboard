@@ -552,9 +552,17 @@ async function submitAuth() {
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ action, email, password, name }),
     });
-    const data = await r.json();
+    let data;
+    try { data = await r.json(); } catch(e) { data = {}; }
     if (!r.ok) {
-      errEl.textContent = data.error || 'Something went wrong.';
+      errEl.textContent = data.error || `Server error (${r.status}) — please try again.`;
+      errEl.style.display = 'block';
+      btn.disabled = false;
+      btn.textContent = action === 'login' ? 'Log In' : 'Create Account';
+      return;
+    }
+    if (!data.token) {
+      errEl.textContent = 'Session token missing — is SESSION_SECRET set in Vercel?';
       errEl.style.display = 'block';
       btn.disabled = false;
       btn.textContent = action === 'login' ? 'Log In' : 'Create Account';
@@ -566,7 +574,7 @@ async function submitAuth() {
     document.getElementById('userBadge').style.display = 'flex';
     await initApp();
   } catch(e) {
-    errEl.textContent = 'Network error — please try again.';
+    errEl.textContent = 'Network error: ' + (e.message || e);
     errEl.style.display = 'block';
     btn.disabled = false;
     btn.textContent = action === 'login' ? 'Log In' : 'Create Account';
