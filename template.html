@@ -458,6 +458,7 @@ textarea.field-edit { resize: vertical; }
         <button onclick="saveCuration()" style="padding:6px 12px;border:1px solid #1a1a2e;border-radius:5px;background:#1a1a2e;color:white;cursor:pointer;font-size:12px">Save List</button>
       </div>
     </div>
+    <div id="curReasoning" style="display:none;padding:10px 18px;background:#f0f4ff;border-bottom:1px solid #e0e8ff;font-size:12px;color:#4a5a8a;font-style:italic"></div>
     <div id="curBreakdown" style="padding:10px 18px;background:#fafafa;border-bottom:1px solid #f0f2f5;font-size:12px;color:#666;display:flex;gap:16px;flex-wrap:wrap"></div>
     <table style="width:100%;border-collapse:collapse">
       <thead><tr style="background:#f5f5f5;font-size:11px;text-transform:uppercase;letter-spacing:.4px;color:#999">
@@ -2036,31 +2037,73 @@ async function runCuration() {
 
   btn.disabled = true;
   btn.textContent = '⏳ Generating…';
-  status.textContent = 'Asking AI to interpret your mix…';
+  status.textContent = 'Pre-filtering library…';
 
-  // Ask AI to parse the mix description into category/type weights
-  let weights = null;
+  // Step 1: score all items with lightweight keyword match to get ~400 best candidates
+  const promptLow = prompt.toLowerCase();
+  const words = promptLow.replace(/\d+%/g,'').split(/\W+/).filter(w => w.length > 3);
+
+  const scored = ALL.map(item => {
+    const title = lv(item,'title').toLowerCase();
+    const cat   = lv(item,'category').toLowerCase();
+    const type  = lv(item,'type').toLowerCase();
+    let score = 0;
+    for (const w of words) {
+      if (title.includes(w)) score += 3;
+      if (cat.includes(w))   score += 2;
+      if (type.includes(w))  score += 1;
+    }
+    return { item, score };
+  });
+  scored.sort((a,b) => b.score - a.score);
+
+  // Take top 400 (or 3× total if larger), always include some variety even if low-scoring
+  const poolSize = Math.max(400, total * 3);
+  const candidates = scored.slice(0, poolSize).map(s => ({
+    id:       s.item.id,
+    type:     lv(s.item,'type'),
+    category: lv(s.item,'category'),
+    title:    lv(s.item,'title'),
+    teacher:  lv(s.item,'teacher') || '',
+    duration: lv(s.item,'duration') || lv(s.item,'readTime') || '',
+  }));
+
+  status.textContent = 'Fable is reading your brief and selecting content…';
+
+  let selectedIds = null;
+  let reasoning   = '';
   try {
     const res = await fetch('/api/search', {
       method: 'POST',
       headers: {'Content-Type':'application/json'},
-      body: JSON.stringify({ query: prompt, mode: 'curation', total })
+      body: JSON.stringify({ query: prompt, mode: 'curation', candidates, total })
     });
     if (res.ok) {
       const d = await res.json();
-      weights = d.weights || null;
+      selectedIds = d.selected || null;
+      reasoning   = d.reasoning || '';
     }
   } catch(e) {}
 
-  // Parse percentages from prompt text as fallback
-  if (!weights) {
-    weights = parseMixPrompt(prompt);
+  if (selectedIds && selectedIds.length) {
+    // Build result list in Fable's returned order
+    const byId = {};
+    ALL.forEach(it => byId[it.id] = it);
+    curItems = selectedIds.map(id => byId[id]).filter(Boolean);
+    // Fill to total if Fable returned fewer than requested
+    if (curItems.length < total) {
+      const seen = new Set(curItems.map(i => i.id));
+      for (const {item} of scored) {
+        if (curItems.length >= total) break;
+        if (!seen.has(item.id)) { curItems.push(item); seen.add(item.id); }
+      }
+    }
+  } else {
+    // Fallback: use pre-scored candidates in keyword order
+    curItems = scored.slice(0, total).map(s => s.item);
   }
 
-  status.textContent = 'Selecting content…';
-  curItems = selectContent(total, weights, prompt);
-
-  showCurationResults(total, prompt, weights);
+  showCurationResults(total, prompt, {}, reasoning);
   btn.disabled = false;
   btn.textContent = '✦ Generate List';
   status.textContent = '';
@@ -2124,10 +2167,17 @@ function selectContent(total, weights, prompt) {
   return selected.slice(0, total);
 }
 
-function showCurationResults(total, prompt, weights) {
+function showCurationResults(total, prompt, weights, reasoning) {
   document.getElementById('curResults').style.display = '';
   document.getElementById('curResultTitle').textContent = `${curItems.length} items curated`;
   document.getElementById('curResultSub').textContent = `"${prompt.substring(0,60)}${prompt.length>60?'…':''}"`;
+
+  // Show Fable's reasoning if available
+  const reasonEl = document.getElementById('curReasoning');
+  if (reasonEl) {
+    reasonEl.style.display = reasoning ? '' : 'none';
+    reasonEl.textContent = reasoning || '';
+  }
 
   // Breakdown by category
   const cats = {};
