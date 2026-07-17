@@ -8,5 +8,10 @@
     "name": "Zena E",
     "passwordHash": "19ff37f7108166089bb19b5e0d462b74cc38ba5c6c52075811f6a23a67d4e001",
     "createdAt": "2026-07-02T16:44:27.598Z"
+  },
+  "marlee.scott@caravanwellness.com": {
+    "name": "Marlee Alanis",
+    "passwordHash": "ba73959164d656b62df1379dc35e655b36d6b2507c8a5e251fa3cfa17b2e0338",
+    "createdAt": "2026-07-17T19:40:28.222Z"
   }
 }
