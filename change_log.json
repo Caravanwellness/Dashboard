@@ -238,5 +238,15 @@
       "byName": "Marlee Alanis",
       "byEmail": "marlee.scott@caravanwellness.com"
     }
+  ],
+  "VID-0180": [
+    {
+      "ts": "2026-07-20T19:57:44.744Z",
+      "field": "author",
+      "old": "Dr. Gisele",
+      "new": "Gisele",
+      "byName": "Marlee Alanis",
+      "byEmail": "marlee.scott@caravanwellness.com"
+    }
   ]
 }
