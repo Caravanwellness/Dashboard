@@ -461,6 +461,14 @@
   ],
   "ART-0178": [
     {
+      "ts": "2026-07-20T20:00:55.205Z",
+      "field": "author",
+      "old": "Health Studies Contributor",
+      "new": "Hope",
+      "byName": "Marlee Alanis",
+      "byEmail": "marlee.scott@caravanwellness.com"
+    },
+    {
       "ts": "2026-07-20T20:00:18.750Z",
       "field": "author",
       "old": "Health Studies Contributor",
