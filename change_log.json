@@ -158,5 +158,15 @@
       "byName": "Marlee Alanis",
       "byEmail": "marlee.scott@caravanwellness.com"
     }
+  ],
+  "VID-0356": [
+    {
+      "ts": "2026-07-20T19:56:54.522Z",
+      "field": "author",
+      "old": "Jessica Cording",
+      "new": "Jessica C",
+      "byName": "Marlee Alanis",
+      "byEmail": "marlee.scott@caravanwellness.com"
+    }
   ]
 }
