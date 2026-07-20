@@ -448,5 +448,15 @@
       "byName": "Marlee Alanis",
       "byEmail": "marlee.scott@caravanwellness.com"
     }
+  ],
+  "ART-0225": [
+    {
+      "ts": "2026-07-20T20:00:17.926Z",
+      "field": "author",
+      "old": "Health Studies Contributor",
+      "new": "Hope",
+      "byName": "Marlee Alanis",
+      "byEmail": "marlee.scott@caravanwellness.com"
+    }
   ]
 }
