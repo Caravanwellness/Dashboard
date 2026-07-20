@@ -68,5 +68,15 @@
       "byName": "Zena E",
       "byEmail": "zena.erhabor@caravanwellness.com"
     }
+  ],
+  "ALB-0214": [
+    {
+      "ts": "2026-07-20T19:07:18.983Z",
+      "field": "peer_reviewer",
+      "old": "Alyssa",
+      "new": "Alyssa Lagasca",
+      "byName": "Zena E",
+      "byEmail": "zena.erhabor@caravanwellness.com"
+    }
   ]
 }
