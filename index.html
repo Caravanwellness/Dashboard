@@ -729,6 +729,36 @@ function getBio(name, field, def='') {
   return (bios[name] && bios[name][field] !== undefined) ? bios[name][field] : def;
 }
 
+function renameCreator(oldName, newName) {
+  newName = newName.trim();
+  if (!newName || newName === oldName) return;
+  if (!confirm(`Rename "${oldName}" → "${newName}" across all content items?\n\nThis updates Author, Teacher, and Peer Reviewer fields on every item that uses this name.`)) return;
+
+  const FIELDS = ['author', 'teacher', 'peer_reviewer'];
+  let count = 0;
+  ALL.forEach(item => {
+    FIELDS.forEach(f => {
+      const cur = lv(item, f);
+      if (cur === oldName) {
+        sE(item.id, f, newName);
+        count++;
+      }
+    });
+  });
+
+  // Move bio data to new name
+  if (bios[oldName]) {
+    if (!bios[newName]) bios[newName] = {};
+    Object.assign(bios[newName], bios[oldName]);
+    delete bios[oldName];
+    // Persist bio under new name, clear old
+    fetch('/api/save-bio', { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({ name: newName, field: '_all', value: bios[newName] }) }).catch(()=>{});
+  }
+
+  alert(`Done — updated ${count} field${count!==1?'s':''} across ${ALL.filter(i => FIELDS.some(f => lv(i,f)===newName)).length} items.`);
+  renderCreators();
+}
+
 function uploadCreatorPhoto(name, input) {
   const file = input.files[0];
   if (!file) return;
@@ -1903,6 +1933,19 @@ function renderCreators(query='') {
         onfocus="this.style.borderColor='#1a1a2e'"
         onblur="this.style.borderColor='#e8e8e8'"
       >
+      <div style="margin-top:10px;padding-top:10px;border-top:1px solid #f0f0f0;display:flex;gap:6px;align-items:center">
+        <input id="rename_${esc(name)}"
+          placeholder="Rename / merge → type new name"
+          style="flex:1;padding:5px 8px;border:1px solid #e8e8e8;border-radius:6px;font-size:11px;font-family:inherit;outline:none;color:#333"
+          onfocus="this.style.borderColor='#e63946'"
+          onblur="this.style.borderColor='#e8e8e8'"
+          onkeydown="if(event.key==='Enter')renameCreator('${esc(name)}',this.value)"
+        >
+        <button onclick="renameCreator('${esc(name)}',document.getElementById('rename_${esc(name)}').value)"
+          style="padding:5px 10px;border:1px solid #e63946;border-radius:6px;background:white;color:#e63946;font-size:11px;cursor:pointer;white-space:nowrap;font-weight:600">
+          Rename
+        </button>
+      </div>
     </div>`;
   }).join('');
 }
