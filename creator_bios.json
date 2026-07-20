@@ -3,7 +3,13 @@
     "creds": "Health Studies Contributor"
   },
   "Diane": {
-    "creds": "Registered Nurse "
+    "creds": "Registered Nurse ",
+    "_all": {
+      "creds": "Registered Nurse ",
+      "_all": {
+        "creds": "Registered Nurse "
+      }
+    }
   },
   "Dr. Joe": {
     "creds": "Integrative Medicine Physician"
