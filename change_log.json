@@ -288,5 +288,15 @@
       "byName": "Marlee Alanis",
       "byEmail": "marlee.scott@caravanwellness.com"
     }
+  ],
+  "ART-0023": [
+    {
+      "ts": "2026-07-20T19:58:10.084Z",
+      "field": "author",
+      "old": "Diane McNaught",
+      "new": "Diane",
+      "byName": "Marlee Alanis",
+      "byEmail": "marlee.scott@caravanwellness.com"
+    }
   ]
 }
