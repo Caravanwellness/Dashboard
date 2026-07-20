@@ -328,5 +328,15 @@
       "byName": "Marlee Alanis",
       "byEmail": "marlee.scott@caravanwellness.com"
     }
+  ],
+  "VLB-1184": [
+    {
+      "ts": "2026-07-20T19:58:38.951Z",
+      "field": "teacher",
+      "old": "Emma",
+      "new": "Dr. Emma",
+      "byName": "Marlee Alanis",
+      "byEmail": "marlee.scott@caravanwellness.com"
+    }
   ]
 }
