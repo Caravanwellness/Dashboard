@@ -52,5 +52,10 @@
   },
   "Madeline McGuire": {
     "creds": "Health Studies Contributor"
+  },
+  "Diane McNaught": {
+    "_all": {
+      "creds": "Registered Nurse "
+    }
   }
 }
