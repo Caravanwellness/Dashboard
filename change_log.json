@@ -18,5 +18,15 @@
       "byName": "Zena E",
       "byEmail": "zena.erhabor@caravanwellness.com"
     }
+  ],
+  "ART-0111": [
+    {
+      "ts": "2026-07-20T19:01:48.723Z",
+      "field": "author",
+      "old": "Diane",
+      "new": "Diane McNaught",
+      "byName": "Zena E",
+      "byEmail": "zena.erhabor@caravanwellness.com"
+    }
   ]
 }
