@@ -308,5 +308,15 @@
       "byName": "Marlee Alanis",
       "byEmail": "marlee.scott@caravanwellness.com"
     }
+  ],
+  "VLB-0714": [
+    {
+      "ts": "2026-07-20T19:58:20.410Z",
+      "field": "author",
+      "old": "Dr. David Rosen",
+      "new": "Dr. David",
+      "byName": "Marlee Alanis",
+      "byEmail": "marlee.scott@caravanwellness.com"
+    }
   ]
 }
