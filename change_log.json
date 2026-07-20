@@ -348,5 +348,15 @@
       "byName": "Marlee Alanis",
       "byEmail": "marlee.scott@caravanwellness.com"
     }
+  ],
+  "ALB-0020": [
+    {
+      "ts": "2026-07-20T19:58:51.565Z",
+      "field": "peer_reviewer",
+      "old": "Replacement for duplicate",
+      "new": "Diane",
+      "byName": "Marlee Alanis",
+      "byEmail": "marlee.scott@caravanwellness.com"
+    }
   ]
 }
