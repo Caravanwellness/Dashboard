@@ -219,6 +219,24 @@ textarea.field-edit { resize: vertical; }
 /* Loading spinner */
 .spinner { display: inline-block; width: 12px; height: 12px; border: 2px solid rgba(255,255,255,.3); border-top-color: white; border-radius: 50%; animation: spin .6s linear infinite; vertical-align: middle; margin-right: 5px; }
 @keyframes spin { to { transform: rotate(360deg); } }
+/* Creator card flip */
+.cc-wrap { perspective: 1000px; }
+.cc-flipper {
+  position: relative; transform-style: preserve-3d;
+  transition: transform .45s cubic-bezier(.4,0,.2,1);
+}
+.cc-flipper.flipped { transform: rotateY(180deg); }
+.cc-front, .cc-back {
+  backface-visibility: hidden; -webkit-backface-visibility: hidden;
+  border-radius: 10px; border: 1px solid #e8e8e8;
+  box-shadow: 0 1px 4px rgba(0,0,0,.05); background: white;
+}
+.cc-front { padding: 16px; }
+.cc-back {
+  position: absolute; inset: 0;
+  transform: rotateY(180deg);
+  padding: 18px; display: flex; flex-direction: column; gap: 12px;
+}
 </style>
 </head>
 <body>
@@ -1901,50 +1919,78 @@ function renderCreators(query='') {
     const photo = getBio(name, 'photo', '');
     const total = info.authored + info.reviewed;
     const initials = name.split(' ').map(w=>w[0]).join('').slice(0,2).toUpperCase();
-    return `<div class="creator-card" style="background:white;border-radius:10px;padding:16px;border:1px solid #e8e8e8;box-shadow:0 1px 4px rgba(0,0,0,.05)">
-      <div style="display:flex;align-items:flex-start;gap:12px;margin-bottom:12px">
-        <div style="position:relative;width:44px;height:44px;flex-shrink:0">
-          ${photo
-            ? `<img src="${esc(photo)}" style="width:44px;height:44px;border-radius:50%;object-fit:cover;display:block">`
-            : `<div style="width:44px;height:44px;border-radius:50%;background:#1a1a2e;color:white;display:flex;align-items:center;justify-content:center;font-size:15px;font-weight:700">${esc(initials)}</div>`}
-          <label title="Upload photo" style="position:absolute;bottom:-2px;right:-2px;width:18px;height:18px;border-radius:50%;background:#0d9488;color:white;display:flex;align-items:center;justify-content:center;font-size:10px;cursor:pointer;box-shadow:0 1px 3px rgba(0,0,0,.3)">
-            📷<input type="file" accept="image/*" style="display:none" onchange="uploadCreatorPhoto('${esc(name)}',this)">
-          </label>
+    const cardId = 'cc_' + name.replace(/\W/g,'_');
+    return `<div class="cc-wrap" style="height:100%">
+      <div class="cc-flipper" id="${cardId}" style="min-height:200px">
+
+        <!-- FRONT -->
+        <div class="cc-front">
+          <div style="display:flex;align-items:flex-start;gap:12px;margin-bottom:12px">
+            <div style="position:relative;width:44px;height:44px;flex-shrink:0">
+              ${photo
+                ? `<img src="${esc(photo)}" style="width:44px;height:44px;border-radius:50%;object-fit:cover;display:block">`
+                : `<div style="width:44px;height:44px;border-radius:50%;background:#1a1a2e;color:white;display:flex;align-items:center;justify-content:center;font-size:15px;font-weight:700">${esc(initials)}</div>`}
+              <label title="Upload photo" style="position:absolute;bottom:-2px;right:-2px;width:18px;height:18px;border-radius:50%;background:#0d9488;color:white;display:flex;align-items:center;justify-content:center;font-size:10px;cursor:pointer;box-shadow:0 1px 3px rgba(0,0,0,.3)">
+                📷<input type="file" accept="image/*" style="display:none" onchange="uploadCreatorPhoto('${esc(name)}',this)">
+              </label>
+            </div>
+            <div style="flex:1;min-width:0">
+              <div style="font-weight:700;font-size:14px">${esc(name)}</div>
+              <div id="ctitle_${esc(name)}" style="font-size:11px;color:#888;margin-top:2px">${esc(getBio(name,'creds',info.creds||''))}</div>
+              <div style="font-size:11px;color:#bbb;margin-top:3px">${info.authored} created &nbsp;·&nbsp; ${info.reviewed} reviewed</div>
+            </div>
+            <div style="display:flex;flex-direction:column;gap:5px;align-items:flex-end">
+              <button onclick="showContrib('${esc(name)}')" style="padding:4px 10px;background:#f0f2f5;border:1px solid #e0e0e0;border-radius:6px;font-size:11px;cursor:pointer;color:#444">View content</button>
+              <button onclick="document.getElementById('${cardId}').classList.add('flipped')" style="padding:4px 10px;background:#f0f2f5;border:1px solid #e0e0e0;border-radius:6px;font-size:11px;cursor:pointer;color:#444">Edit details</button>
+            </div>
+          </div>
+          <textarea
+            placeholder="Add bio…"
+            style="width:100%;box-sizing:border-box;padding:7px 9px;border:1px solid #e8e8e8;border-radius:6px;font-size:12px;font-family:inherit;resize:vertical;min-height:60px;color:#444;outline:none"
+            oninput="saveBio('${esc(name)}','bio',this.value)"
+            onfocus="this.style.borderColor='#1a1a2e'"
+            onblur="this.style.borderColor='#e8e8e8'"
+          >${esc(bio)}</textarea>
         </div>
-        <div style="flex:1;min-width:0">
-          <div style="font-weight:700;font-size:14px">${esc(name)}</div>
-          <div id="ctitle_${esc(name)}" style="font-size:11px;color:#888;margin-top:2px">${esc(getBio(name,'creds',info.creds||''))}</div>
-          <div style="font-size:11px;color:#bbb;margin-top:3px">${info.authored} created &nbsp;·&nbsp; ${info.reviewed} reviewed</div>
+
+        <!-- BACK -->
+        <div class="cc-back">
+          <div style="display:flex;align-items:center;justify-content:space-between">
+            <div style="font-weight:700;font-size:13px;color:#1a1a2e">${esc(name)}</div>
+            <button onclick="document.getElementById('${cardId}').classList.remove('flipped')" style="padding:4px 10px;background:#f0f2f5;border:1px solid #e0e0e0;border-radius:6px;font-size:11px;cursor:pointer;color:#444">← Back</button>
+          </div>
+
+          <div>
+            <div style="font-size:10px;font-weight:700;color:#aaa;text-transform:uppercase;letter-spacing:.5px;margin-bottom:5px">Title / Credentials</div>
+            <input
+              placeholder="e.g. Registered Dietician"
+              style="width:100%;box-sizing:border-box;padding:7px 9px;border:1px solid #e8e8e8;border-radius:6px;font-size:12px;font-family:inherit;outline:none;color:#333"
+              value="${esc(getBio(name,'creds',info.creds||''))}"
+              oninput="saveBio('${esc(name)}','creds',this.value);const t=document.getElementById('ctitle_${esc(name)}');if(t)t.textContent=this.value"
+              onfocus="this.style.borderColor='#1a1a2e'"
+              onblur="this.style.borderColor='#e8e8e8'"
+            >
+          </div>
+
+          <div>
+            <div style="font-size:10px;font-weight:700;color:#aaa;text-transform:uppercase;letter-spacing:.5px;margin-bottom:5px">Rename / Merge</div>
+            <div style="font-size:11px;color:#aaa;margin-bottom:6px">Updates this name across all Author, Teacher, and Peer Reviewer fields.</div>
+            <div style="display:flex;gap:6px">
+              <input id="rename_${esc(name)}"
+                placeholder="Type new or canonical name…"
+                style="flex:1;padding:7px 9px;border:1px solid #e8e8e8;border-radius:6px;font-size:12px;font-family:inherit;outline:none;color:#333"
+                onfocus="this.style.borderColor='#e63946'"
+                onblur="this.style.borderColor='#e8e8e8'"
+                onkeydown="if(event.key==='Enter')renameCreator('${esc(name)}',this.value)"
+              >
+              <button onclick="renameCreator('${esc(name)}',document.getElementById('rename_${esc(name)}').value)"
+                style="padding:7px 12px;border:1px solid #e63946;border-radius:6px;background:#e63946;color:white;font-size:12px;cursor:pointer;font-weight:600">
+                Rename
+              </button>
+            </div>
+          </div>
         </div>
-        <button onclick="showContrib('${esc(name)}')" style="flex-shrink:0;padding:4px 10px;background:#f0f2f5;border:1px solid #e0e0e0;border-radius:6px;font-size:11px;cursor:pointer;color:#444">View content</button>
-      </div>
-      <textarea
-        placeholder="Add bio…"
-        style="width:100%;box-sizing:border-box;padding:7px 9px;border:1px solid #e8e8e8;border-radius:6px;font-size:12px;font-family:inherit;resize:vertical;min-height:60px;color:#444;outline:none"
-        oninput="saveBio('${esc(name)}','bio',this.value)"
-        onfocus="this.style.borderColor='#1a1a2e'"
-        onblur="this.style.borderColor='#e8e8e8'"
-      >${esc(bio)}</textarea>
-      <input
-        placeholder="Credentials (e.g. Registered Dietician)…"
-        style="width:100%;box-sizing:border-box;padding:6px 9px;border:1px solid #e8e8e8;border-radius:6px;font-size:12px;font-family:inherit;margin-top:6px;outline:none"
-        value="${esc(getBio(name,'creds', info.creds||''))}"
-        oninput="saveBio('${esc(name)}','creds',this.value);const t=document.getElementById('ctitle_${esc(name)}');if(t)t.textContent=this.value"
-        onfocus="this.style.borderColor='#1a1a2e'"
-        onblur="this.style.borderColor='#e8e8e8'"
-      >
-      <div style="margin-top:10px;padding-top:10px;border-top:1px solid #f0f0f0;display:flex;gap:6px;align-items:center">
-        <input id="rename_${esc(name)}"
-          placeholder="Rename / merge → type new name"
-          style="flex:1;padding:5px 8px;border:1px solid #e8e8e8;border-radius:6px;font-size:11px;font-family:inherit;outline:none;color:#333"
-          onfocus="this.style.borderColor='#e63946'"
-          onblur="this.style.borderColor='#e8e8e8'"
-          onkeydown="if(event.key==='Enter')renameCreator('${esc(name)}',this.value)"
-        >
-        <button onclick="renameCreator('${esc(name)}',document.getElementById('rename_${esc(name)}').value)"
-          style="padding:5px 10px;border:1px solid #e63946;border-radius:6px;background:white;color:#e63946;font-size:11px;cursor:pointer;white-space:nowrap;font-weight:600">
-          Rename
-        </button>
+
       </div>
     </div>`;
   }).join('');
