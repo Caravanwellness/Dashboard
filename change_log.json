@@ -218,5 +218,15 @@
       "byName": "Marlee Alanis",
       "byEmail": "marlee.scott@caravanwellness.com"
     }
+  ],
+  "VID-0179": [
+    {
+      "ts": "2026-07-20T19:57:38.920Z",
+      "field": "author",
+      "old": "Dr. Julia Iafrate",
+      "new": "Dr. Julia",
+      "byName": "Marlee Alanis",
+      "byEmail": "marlee.scott@caravanwellness.com"
+    }
   ]
 }
