@@ -168,5 +168,15 @@
       "byName": "Marlee Alanis",
       "byEmail": "marlee.scott@caravanwellness.com"
     }
+  ],
+  "ART-0115": [
+    {
+      "ts": "2026-07-20T19:56:57.533Z",
+      "field": "author",
+      "old": "Jade Gordon",
+      "new": "Jade",
+      "byName": "Marlee Alanis",
+      "byEmail": "marlee.scott@caravanwellness.com"
+    }
   ]
 }
