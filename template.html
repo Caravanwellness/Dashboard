@@ -1883,7 +1883,7 @@ function renderCreators(query='') {
         </div>
         <div style="flex:1;min-width:0">
           <div style="font-weight:700;font-size:14px">${esc(name)}</div>
-          <div style="font-size:11px;color:#888;margin-top:2px">${esc(info.creds||getBio(name,'creds',''))}</div>
+          <div id="ctitle_${esc(name)}" style="font-size:11px;color:#888;margin-top:2px">${esc(getBio(name,'creds',info.creds||''))}</div>
           <div style="font-size:11px;color:#bbb;margin-top:3px">${info.authored} created &nbsp;·&nbsp; ${info.reviewed} reviewed</div>
         </div>
         <button onclick="showContrib('${esc(name)}')" style="flex-shrink:0;padding:4px 10px;background:#f0f2f5;border:1px solid #e0e0e0;border-radius:6px;font-size:11px;cursor:pointer;color:#444">View content</button>
@@ -1899,7 +1899,7 @@ function renderCreators(query='') {
         placeholder="Credentials (e.g. Registered Dietician)…"
         style="width:100%;box-sizing:border-box;padding:6px 9px;border:1px solid #e8e8e8;border-radius:6px;font-size:12px;font-family:inherit;margin-top:6px;outline:none"
         value="${esc(getBio(name,'creds', info.creds||''))}"
-        oninput="saveBio('${esc(name)}','creds',this.value)"
+        oninput="saveBio('${esc(name)}','creds',this.value);const t=document.getElementById('ctitle_${esc(name)}');if(t)t.textContent=this.value"
         onfocus="this.style.borderColor='#1a1a2e'"
         onblur="this.style.borderColor='#e8e8e8'"
       >
