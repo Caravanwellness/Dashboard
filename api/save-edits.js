@@ -24,40 +24,45 @@ export default async function handler(req, res) {
     return res.json(content);
   }
 
-  // POST — update a single item's field: { id, field, value }
+  // POST — single field: { id, field, value }
+  //        bulk rename: { bulk: [{id, field, value}, ...], message }
   if (req.method === 'POST') {
-    const { id, field, value } = req.body || {};
-    if (!id || !field) return res.status(400).json({ error: 'id and field required' });
+    const { id, field, value, bulk, message } = req.body || {};
 
-    // Retry loop to handle concurrent write conflicts (SHA mismatch)
-    for (let attempt = 0; attempt < 3; attempt++) {
+    // Build list of changes
+    const changes = bulk && Array.isArray(bulk) ? bulk : (id && field !== undefined ? [{ id, field, value }] : null);
+    if (!changes) return res.status(400).json({ error: 'id+field or bulk array required' });
+
+    const ts = new Date().toISOString();
+    const commitMsg = message || (changes.length === 1 ? `Edit ${changes[0].id}: ${changes[0].field}` : `Bulk update ${changes.length} fields`);
+
+    // Retry loop for SHA conflicts
+    for (let attempt = 0; attempt < 5; attempt++) {
       const getRes = await fetch(API_BASE, { headers });
       if (!getRes.ok) return res.status(500).json({ error: 'Could not read edits file' });
       const fileData = await getRes.json();
-      const sha = fileData.sha;
+      const sha   = fileData.sha;
       const edits = JSON.parse(Buffer.from(fileData.content, 'base64').toString('utf-8'));
 
-      if (!edits[id]) edits[id] = {};
-      edits[id][field] = value;
-      edits[id]._at = new Date().toISOString();
+      for (const { id: cId, field: cField, value: cVal } of changes) {
+        if (!edits[cId]) edits[cId] = {};
+        edits[cId][cField] = cVal;
+        edits[cId]._at = ts;
+      }
 
-      const newContent = Buffer.from(JSON.stringify(edits, null, 2)).toString('base64');
       const commitRes = await fetch(API_BASE, {
         method: 'PUT',
         headers,
         body: JSON.stringify({
-          message: `Edit ${id}: ${field}`,
-          content: newContent,
+          message: commitMsg,
+          content: Buffer.from(JSON.stringify(edits, null, 2)).toString('base64'),
           sha,
           branch: BRANCH,
         }),
       });
 
-      if (commitRes.ok) return res.json({ ok: true });
-
-      // 409 = SHA conflict (concurrent edit) — retry
-      if (commitRes.status === 409 && attempt < 2) continue;
-
+      if (commitRes.ok) return res.json({ ok: true, count: changes.length });
+      if (commitRes.status === 409 && attempt < 4) continue;
       const err = await commitRes.text();
       return res.status(500).json({ error: 'Commit failed', detail: err });
     }

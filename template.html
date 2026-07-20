@@ -747,34 +747,64 @@ function getBio(name, field, def='') {
   return (bios[name] && bios[name][field] !== undefined) ? bios[name][field] : def;
 }
 
-function renameCreator(oldName, newName) {
+async function renameCreator(oldName, newName) {
   newName = newName.trim();
   if (!newName || newName === oldName) return;
   if (!confirm(`Rename "${oldName}" → "${newName}" across all content items?\n\nThis updates Author, Teacher, and Peer Reviewer fields on every item that uses this name.`)) return;
 
   const FIELDS = ['author', 'teacher', 'peer_reviewer'];
-  let count = 0;
+  const bulk = [];
+
   ALL.forEach(item => {
     FIELDS.forEach(f => {
-      const cur = lv(item, f);
-      if (cur === oldName) {
-        sE(item.id, f, newName);
-        count++;
+      if (lv(item, f) === oldName) {
+        // Update in-memory edits immediately
+        if (!edits[item.id]) edits[item.id] = {};
+        edits[item.id][f] = newName;
+        bulk.push({ id: item.id, field: f, value: newName });
       }
     });
   });
 
-  // Move bio data to new name
+  if (!bulk.length) { alert('No items found with that name.'); return; }
+
+  // Cancel any pending debounced saves for these fields to avoid conflicts
+  bulk.forEach(({ id, field }) => {
+    const key = id + '|' + field;
+    clearTimeout(_editSaveTimers[key]);
+    delete _editSaveTimers[key];
+  });
+
+  // Move bio data to new name in memory
   if (bios[oldName]) {
     if (!bios[newName]) bios[newName] = {};
     Object.assign(bios[newName], bios[oldName]);
     delete bios[oldName];
-    // Persist bio under new name, clear old
-    fetch('/api/save-bio', { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({ name: newName, field: '_all', value: bios[newName] }) }).catch(()=>{});
   }
 
-  alert(`Done — updated ${count} field${count!==1?'s':''} across ${ALL.filter(i => FIELDS.some(f => lv(i,f)===newName)).length} items.`);
   renderCreators();
+
+  // Single bulk write to GitHub
+  try {
+    const r = await fetch('/api/save-edits', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', ...authHeader() },
+      body: JSON.stringify({
+        bulk,
+        message: `Rename creator "${oldName}" → "${newName}" (${bulk.length} fields)`,
+      }),
+    });
+    const d = await r.json();
+    if (!r.ok) throw new Error(d.error || r.status);
+    // Persist bio fields individually
+    if (bios[newName]) {
+      for (const [field, val] of Object.entries(bios[newName])) {
+        fetch('/api/save-bio', { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({ name: newName, field, value: val }) }).catch(()=>{});
+      }
+    }
+  } catch(e) {
+    alert(`Rename saved in this session but failed to persist: ${e.message}\nTry again or reload.`);
+  }
 }
 
 function uploadCreatorPhoto(name, input) {
