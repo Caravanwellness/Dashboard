@@ -1431,24 +1431,49 @@ async function avFetchSnapshot() {
 
     _avCurrentText = d.current;
     const snapshots = d.snapshots || [];
-    document.getElementById('avSaveSnapshotBtn').style.display = '';
 
+    // Auto-save baseline on first fetch — no manual action needed
     if (!snapshots.length) {
-      statusEl.textContent = 'No previous snapshots — this is the first version.';
-      diffEl.innerHTML = `<div style="font-family:sans-serif;font-size:12px;color:#888;margin-bottom:12px">No saved snapshot to compare against. Save this as the first snapshot.</div>` +
+      statusEl.textContent = 'No snapshot yet — saving baseline automatically…';
+      diffEl.innerHTML = '<span style="color:#bbb">Saving baseline…</span>';
+      try {
+        await fetch('/api/article-snapshot', {
+          method: 'POST',
+          headers: {'Content-Type':'application/json', ...authHeader()},
+          body: JSON.stringify({ itemId: _avItemId, docUrl: _avUrl }),
+        });
+        statusEl.textContent = '✓ Baseline snapshot saved — future fetches will compare against this.';
+      } catch(e) {
+        statusEl.textContent = 'Baseline save failed — will retry next time.';
+      }
+      diffEl.innerHTML = `<div style="font-family:sans-serif;font-size:12px;color:#2a7a2a;margin-bottom:12px">✓ This is the first snapshot (v1). Future fetches will show what changed from here.</div>` +
         `<div style="white-space:pre-wrap;font-size:12px;line-height:1.7">${esc(d.current)}</div>`;
+      document.getElementById('avSaveSnapshotBtn').style.display = 'none';
       return;
     }
 
+    // Auto-save new snapshot if content changed since last one
     const last = snapshots[snapshots.length - 1];
     const changed = last.content !== d.current;
+
+    if (changed) {
+      // Save snapshot silently in background
+      fetch('/api/article-snapshot', {
+        method: 'POST',
+        headers: {'Content-Type':'application/json', ...authHeader()},
+        body: JSON.stringify({ itemId: _avItemId, docUrl: _avUrl }),
+      }).catch(() => {});
+    }
+
+    document.getElementById('avSaveSnapshotBtn').style.display = 'none';
+
     statusEl.textContent = changed
-      ? `Changes detected since v${last.version} (${new Date(last.ts).toLocaleDateString('en-GB',{day:'numeric',month:'short',year:'numeric'})})`
-      : `No changes since v${last.version}`;
+      ? `Changes detected since v${last.version} (${new Date(last.ts).toLocaleDateString('en-GB',{day:'numeric',month:'short',year:'numeric'})}) — snapshot updated automatically`
+      : `No changes since v${last.version} (${new Date(last.ts).toLocaleDateString('en-GB',{day:'numeric',month:'short',year:'numeric'})})`;
 
     diffEl.innerHTML = changed
       ? renderDiff(last.content, d.current, last)
-      : `<div style="font-family:sans-serif;font-size:13px;color:#2a7a2a;margin-bottom:12px">✓ Article content matches the last saved snapshot (v${last.version}).</div>
+      : `<div style="font-family:sans-serif;font-size:13px;color:#2a7a2a;margin-bottom:12px">✓ Article content matches the last snapshot (v${last.version}).</div>
          <div style="white-space:pre-wrap;font-size:12px;line-height:1.7">${esc(d.current)}</div>`;
 
   } catch(e) {
