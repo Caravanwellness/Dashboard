@@ -17544,7 +17544,8 @@
   },
   "VLB-0093": {
     "teacher": "Victoria Davis",
-    "_at": "2026-07-22T18:52:47.905Z"
+    "_at": "2026-07-22T18:53:16.995Z",
+    "author": "Sally Choi"
   },
   "VLB-0094": {
     "teacher": "Victoria Davis",
@@ -17626,5 +17627,36 @@
     "author": "Nazirber Maduro",
     "_at": "2026-07-22T18:53:07.430Z",
     "teacher": "Nazirber Maduro"
+  },
+  "VID-1617": {
+    "author": "Sally Choi",
+    "_at": "2026-07-22T18:53:16.995Z"
+  },
+  "VID-1618": {
+    "author": "Sally Choi",
+    "_at": "2026-07-22T18:53:16.995Z"
+  },
+  "VID-1619": {
+    "author": "Sally Choi",
+    "_at": "2026-07-22T18:53:16.995Z"
+  },
+  "VID-1620": {
+    "author": "Sally Choi",
+    "_at": "2026-07-22T18:53:16.995Z"
+  },
+  "VLB-1493": {
+    "author": "Sally Choi",
+    "_at": "2026-07-22T18:53:16.995Z",
+    "teacher": "Sally Choi"
+  },
+  "VLB-1494": {
+    "author": "Sally Choi",
+    "_at": "2026-07-22T18:53:16.995Z",
+    "teacher": "Sally Choi"
+  },
+  "VLB-1495": {
+    "author": "Sally Choi",
+    "_at": "2026-07-22T18:53:16.995Z",
+    "teacher": "Sally Choi"
   }
 }
