@@ -61,7 +61,10 @@
   },
   "Diane McNaught": {
     "_all": {
-      "creds": "Registered Nurse "
+      "creds": "Registered Nurse ",
+      "_all": {
+        "creds": "Registered Nurse "
+      }
     }
   },
   "Alyssa Lagasca": {
