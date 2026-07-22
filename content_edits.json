@@ -2843,7 +2843,8 @@
   },
   "VLB-0429": {
     "teacher": "Dr. Joe Feuerstein",
-    "_at": "2026-07-22T17:33:31.865Z"
+    "_at": "2026-07-22T18:24:43.385Z",
+    "author": "Katie Attubato"
   },
   "VLB-0430": {
     "author": "Dr. Joe Feuerstein",
@@ -6447,7 +6448,8 @@
   },
   "VLB-0757": {
     "teacher": "Dr. Cherilyn Davis",
-    "_at": "2026-07-22T17:34:56.579Z"
+    "_at": "2026-07-22T18:24:43.385Z",
+    "author": "Katie Attubato"
   },
   "VLB-0758": {
     "teacher": "Dr. Cherilyn Davis",
@@ -11995,11 +11997,13 @@
   },
   "VLB-0872": {
     "teacher": "Dr. Ricardo Fuentes",
-    "_at": "2026-07-22T17:51:21.091Z"
+    "_at": "2026-07-22T18:24:43.385Z",
+    "author": "Katie Attubato"
   },
   "VLB-0873": {
     "teacher": "Dr. Ricardo Fuentes",
-    "_at": "2026-07-22T17:51:21.091Z"
+    "_at": "2026-07-22T18:24:43.385Z",
+    "author": "Katie Attubato"
   },
   "VLB-0874": {
     "author": "Dr. Ricardo Fuentes",
@@ -13788,7 +13792,8 @@
   },
   "VLB-1357": {
     "teacher": "Allison Wyman",
-    "_at": "2026-07-22T17:55:36.181Z"
+    "_at": "2026-07-22T18:24:43.385Z",
+    "author": "Katie Attubato"
   },
   "VID-0456": {
     "author": "Zach Bourne",
@@ -14150,5 +14155,85 @@
   "ILB-0272": {
     "author": "Jane Mulvey",
     "_at": "2026-07-22T18:24:10.471Z"
+  },
+  "VID-0101": {
+    "author": "Katie Attubato",
+    "_at": "2026-07-22T18:24:43.385Z"
+  },
+  "VID-0103": {
+    "author": "Katie Attubato",
+    "_at": "2026-07-22T18:24:43.385Z"
+  },
+  "VID-0238": {
+    "author": "Katie Attubato",
+    "_at": "2026-07-22T18:24:43.385Z"
+  },
+  "VID-0320": {
+    "author": "Katie Attubato",
+    "_at": "2026-07-22T18:24:43.385Z"
+  },
+  "VID-0374": {
+    "author": "Katie Attubato",
+    "_at": "2026-07-22T18:24:43.385Z"
+  },
+  "VID-0400": {
+    "author": "Katie Attubato",
+    "_at": "2026-07-22T18:24:43.385Z"
+  },
+  "VID-0401": {
+    "author": "Katie Attubato",
+    "_at": "2026-07-22T18:24:43.385Z"
+  },
+  "VID-1815": {
+    "author": "Katie Attubato",
+    "_at": "2026-07-22T18:24:43.385Z"
+  },
+  "VID-1816": {
+    "author": "Katie Attubato",
+    "_at": "2026-07-22T18:24:43.385Z"
+  },
+  "VID-1817": {
+    "author": "Katie Attubato",
+    "_at": "2026-07-22T18:24:43.385Z"
+  },
+  "VID-1818": {
+    "author": "Katie Attubato",
+    "_at": "2026-07-22T18:24:43.385Z"
+  },
+  "VID-1819": {
+    "author": "Katie Attubato",
+    "_at": "2026-07-22T18:24:43.385Z"
+  },
+  "VID-1820": {
+    "author": "Katie Attubato",
+    "_at": "2026-07-22T18:24:43.385Z"
+  },
+  "VID-1821": {
+    "author": "Katie Attubato",
+    "_at": "2026-07-22T18:24:43.385Z"
+  },
+  "VID-1822": {
+    "author": "Katie Attubato",
+    "_at": "2026-07-22T18:24:43.385Z"
+  },
+  "VID-1823": {
+    "author": "Katie Attubato",
+    "_at": "2026-07-22T18:24:43.385Z"
+  },
+  "VID-1824": {
+    "author": "Katie Attubato",
+    "_at": "2026-07-22T18:24:43.385Z"
+  },
+  "VID-1863": {
+    "author": "Katie Attubato",
+    "_at": "2026-07-22T18:24:43.385Z"
+  },
+  "VID-1864": {
+    "author": "Katie Attubato",
+    "_at": "2026-07-22T18:24:43.385Z"
+  },
+  "VLB-0559": {
+    "author": "Katie Attubato",
+    "_at": "2026-07-22T18:24:43.385Z"
   }
 }
