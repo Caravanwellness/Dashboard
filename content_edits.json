@@ -2405,5 +2405,897 @@
   "ALB-0252": {
     "peer_reviewer": "Marlee Alanis",
     "_at": "2026-07-22T17:33:17.108Z"
+  },
+  "INF-0223": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "INF-0239": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-0037": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-0038": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-0040": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-0041": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-0042": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-0044": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-0045": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-0046": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-0081": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-0085": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-0086": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-0093": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-0095": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-0097": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-0100": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-0107": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-0108": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-0109": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-0110": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-0114": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-0115": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-0116": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-0117": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-0178": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-0216": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-0229": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-0230": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-0231": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-0274": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-0275": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-0276": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-0277": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-0281": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-0328": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-0349": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-0383": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-0387": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-0388": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-0399": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-0408": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-0414": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-0415": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-0416": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-0426": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-0427": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-0428": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-0429": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-0430": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-0431": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-0432": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-0433": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-0434": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-0435": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-0436": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-0438": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-0838": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-0839": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-0840": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-0841": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-0858": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-0859": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-0860": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-0861": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-0862": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-0863": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-0931": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-0934": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-0935": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-0936": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-0937": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-0938": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-0939": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-0940": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-0941": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-0942": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-0943": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-0944": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-1013": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-1122": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-1123": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-1124": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-1125": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-1126": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-1264": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-1265": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-1266": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-1267": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-1268": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-1269": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-1270": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-1271": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-1526": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-1527": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-1528": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-1530": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-1531": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-1532": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-1533": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-1534": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-1535": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-1536": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-1537": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VLB-0429": {
+    "teacher": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VLB-0430": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z",
+    "teacher": "Dr. Joe Feuerstein"
+  },
+  "VLB-0431": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z",
+    "teacher": "Dr. Joe Feuerstein"
+  },
+  "VLB-0432": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z",
+    "teacher": "Dr. Joe Feuerstein"
+  },
+  "VLB-0433": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z",
+    "teacher": "Dr. Joe Feuerstein"
+  },
+  "VLB-0434": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z",
+    "teacher": "Dr. Joe Feuerstein"
+  },
+  "VLB-0435": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z",
+    "teacher": "Dr. Joe Feuerstein"
+  },
+  "VLB-0436": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z",
+    "teacher": "Dr. Joe Feuerstein"
+  },
+  "VLB-0437": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z",
+    "teacher": "Dr. Joe Feuerstein"
+  },
+  "VLB-0438": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z",
+    "teacher": "Dr. Joe Feuerstein"
+  },
+  "VLB-0455": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z",
+    "teacher": "Dr. Joe Feuerstein"
+  },
+  "VLB-0456": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z",
+    "teacher": "Dr. Joe Feuerstein"
+  },
+  "VLB-0457": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z",
+    "teacher": "Dr. Joe Feuerstein"
+  },
+  "VLB-0458": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z",
+    "teacher": "Dr. Joe Feuerstein"
+  },
+  "VLB-0459": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z",
+    "teacher": "Dr. Joe Feuerstein"
+  },
+  "VLB-0460": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z",
+    "teacher": "Dr. Joe Feuerstein"
+  },
+  "VLB-0461": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z",
+    "teacher": "Dr. Joe Feuerstein"
+  },
+  "VLB-0462": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z",
+    "teacher": "Dr. Joe Feuerstein"
+  },
+  "VLB-0556": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z",
+    "teacher": "Dr. Joe Feuerstein"
+  },
+  "VLB-0565": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z",
+    "teacher": "Dr. Joe Feuerstein"
+  },
+  "VLB-0566": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z",
+    "teacher": "Dr. Joe Feuerstein"
+  },
+  "VLB-0567": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z",
+    "teacher": "Dr. Joe Feuerstein"
+  },
+  "VLB-0568": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z",
+    "teacher": "Dr. Joe Feuerstein"
+  },
+  "VLB-0569": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z",
+    "teacher": "Dr. Joe Feuerstein"
+  },
+  "VLB-0570": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z",
+    "teacher": "Dr. Joe Feuerstein"
+  },
+  "VLB-0571": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z",
+    "teacher": "Dr. Joe Feuerstein"
+  },
+  "VLB-0572": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z",
+    "teacher": "Dr. Joe Feuerstein"
+  },
+  "VLB-0578": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z",
+    "teacher": "Dr. Joe Feuerstein"
+  },
+  "VLB-0579": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z",
+    "teacher": "Dr. Joe Feuerstein"
+  },
+  "VLB-0580": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z",
+    "teacher": "Dr. Joe Feuerstein"
+  },
+  "VLB-0581": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z",
+    "teacher": "Dr. Joe Feuerstein"
+  },
+  "VLB-0582": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z",
+    "teacher": "Dr. Joe Feuerstein"
+  },
+  "VLB-0583": {
+    "teacher": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VLB-0584": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z",
+    "teacher": "Dr. Joe Feuerstein"
+  },
+  "VLB-0634": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VLB-0637": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VLB-0638": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VLB-0683": {
+    "teacher": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VLB-0684": {
+    "teacher": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VLB-0685": {
+    "teacher": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VLB-0686": {
+    "teacher": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VLB-0687": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z",
+    "teacher": "Dr. Joe Feuerstein"
+  },
+  "VLB-0688": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z",
+    "teacher": "Dr. Joe Feuerstein"
+  },
+  "VLB-0689": {
+    "teacher": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VLB-0690": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z",
+    "teacher": "Dr. Joe Feuerstein"
+  },
+  "VLB-0825": {
+    "teacher": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VLB-0826": {
+    "teacher": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VLB-0827": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z",
+    "teacher": "Dr. Joe Feuerstein"
+  },
+  "VLB-0828": {
+    "teacher": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VLB-0829": {
+    "teacher": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VLB-0830": {
+    "teacher": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VLB-0831": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z",
+    "teacher": "Dr. Joe Feuerstein"
+  },
+  "VLB-0832": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z",
+    "teacher": "Dr. Joe Feuerstein"
+  },
+  "VLB-0833": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z",
+    "teacher": "Dr. Joe Feuerstein"
+  },
+  "VLB-0834": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z",
+    "teacher": "Dr. Joe Feuerstein"
+  },
+  "VLB-0835": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z",
+    "teacher": "Dr. Joe Feuerstein"
+  },
+  "VLB-0836": {
+    "teacher": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VLB-0867": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VLB-1032": {
+    "teacher": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VLB-1033": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z",
+    "teacher": "Dr. Joe Feuerstein"
+  },
+  "VLB-1034": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z",
+    "teacher": "Dr. Joe Feuerstein"
+  },
+  "VLB-1035": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z",
+    "teacher": "Dr. Joe Feuerstein"
+  },
+  "VLB-1036": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z",
+    "teacher": "Dr. Joe Feuerstein"
+  },
+  "VLB-1037": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z",
+    "teacher": "Dr. Joe Feuerstein"
+  },
+  "VLB-1038": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z",
+    "teacher": "Dr. Joe Feuerstein"
+  },
+  "VLB-1039": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z",
+    "teacher": "Dr. Joe Feuerstein"
+  },
+  "VLB-1040": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z",
+    "teacher": "Dr. Joe Feuerstein"
+  },
+  "VLB-1041": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z",
+    "teacher": "Dr. Joe Feuerstein"
+  },
+  "VLB-1042": {
+    "teacher": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VLB-1043": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z",
+    "teacher": "Dr. Joe Feuerstein"
+  },
+  "VLB-1097": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VLB-1379": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z",
+    "teacher": "Dr. Joe Feuerstein"
+  },
+  "VLB-1380": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z",
+    "teacher": "Dr. Joe Feuerstein"
+  },
+  "VLB-1381": {
+    "teacher": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VLB-1382": {
+    "teacher": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VLB-1383": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z",
+    "teacher": "Dr. Joe Feuerstein"
+  },
+  "VLB-1385": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z",
+    "teacher": "Dr. Joe Feuerstein"
+  },
+  "VLB-1386": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z",
+    "teacher": "Dr. Joe Feuerstein"
+  },
+  "VLB-1387": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z",
+    "teacher": "Dr. Joe Feuerstein"
+  },
+  "VLB-1388": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z",
+    "teacher": "Dr. Joe Feuerstein"
+  },
+  "VLB-1389": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z",
+    "teacher": "Dr. Joe Feuerstein"
+  },
+  "VLB-1390": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z",
+    "teacher": "Dr. Joe Feuerstein"
+  },
+  "VLB-1391": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z",
+    "teacher": "Dr. Joe Feuerstein"
+  },
+  "VLB-1392": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z",
+    "teacher": "Dr. Joe Feuerstein"
+  },
+  "VLB-1393": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z",
+    "teacher": "Dr. Joe Feuerstein"
+  },
+  "VLB-1394": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z",
+    "teacher": "Dr. Joe Feuerstein"
+  },
+  "VLB-1690": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VLB-1691": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VLB-1693": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VLB-1694": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VLB-1695": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VLB-1696": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VLB-1697": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VLB-1699": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VLB-1700": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VLB-1701": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VLB-1702": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VLB-1703": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VLB-1704": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VLB-1705": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VLB-1706": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "ILB-0430": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "ILB-0457": {
+    "author": "Dr. Joe Feuerstein",
+    "_at": "2026-07-22T17:33:31.865Z"
   }
 }
