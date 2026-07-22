@@ -12114,7 +12114,8 @@
   },
   "VLB-0969": {
     "teacher": "Dr. Ricardo Fuentes",
-    "_at": "2026-07-22T17:51:21.091Z"
+    "_at": "2026-07-22T18:57:18.753Z",
+    "author": "Dr. Ricardo Fuentes"
   },
   "VLB-0970": {
     "teacher": "Dr. Ricardo Fuentes",
@@ -18010,5 +18011,9 @@
     "author": "Dr. Hassan Nagy",
     "_at": "2026-07-22T18:57:07.027Z",
     "teacher": "Dr. Hassan Nagy"
+  },
+  "VID-0270": {
+    "author": "Dr. Ricardo Fuentes",
+    "_at": "2026-07-22T18:57:18.753Z"
   }
 }
