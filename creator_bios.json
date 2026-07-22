@@ -70,7 +70,8 @@
   "Alyssa Lagasca": {
     "_all": {
       "creds": "PharmD"
-    }
+    },
+    "creds": "PharmD"
   },
   "Emily": {
     "_all": {
