@@ -3297,5 +3297,833 @@
   "ILB-0457": {
     "author": "Dr. Joe Feuerstein",
     "_at": "2026-07-22T17:33:31.865Z"
+  },
+  "VID-0017": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-0251": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-0252": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-0258": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-0297": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-0302": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-0305": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-0375": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-0376": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-0377": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-0378": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-0379": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-0380": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-0382": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-0780": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-0781": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-0782": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-0783": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-0784": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-0785": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-0789": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-0790": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-0791": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-0792": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-0793": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-0827": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-0828": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-0829": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-0830": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-0831": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-0832": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-0852": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-0853": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-0854": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-0855": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-0856": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-0857": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-0876": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-0877": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-0878": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-0879": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-0880": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-0888": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-0889": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-0890": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-0891": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-0892": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-0914": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-0915": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-0916": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-0917": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-0918": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-0984": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-0985": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-0986": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-0987": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-0988": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-0989": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-1127": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-1128": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-1129": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-1130": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-1131": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-1132": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-1133": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-1134": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-1159": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-1160": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-1161": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-1196": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-1197": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-1198": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-1199": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-1200": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-1201": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-1202": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-1203": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-1204": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-1205": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-1256": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-1257": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-1258": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-1259": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-1260": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-1261": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-1262": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-1263": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-1377": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-1378": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-1379": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-1380": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VID-1381": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VLB-0362": {
+    "teacher": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VLB-0363": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-0364": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-0365": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-0366": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-0367": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-0374": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-0375": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-0376": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-0377": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-0378": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-0418": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-0419": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-0420": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-0421": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-0422": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-0423": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-0449": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-0450": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-0451": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-0452": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-0453": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-0454": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-0477": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-0478": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-0479": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-0480": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-0481": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-0496": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-0497": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-0498": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-0499": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-0500": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-0501": {
+    "teacher": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VLB-0530": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-0531": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-0532": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-0533": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-0534": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-0573": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-0574": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-0575": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-0576": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-0577": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-0644": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-0645": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-0646": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-0647": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-0648": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-0649": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-0650": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-0651": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-0837": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-0838": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-0839": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-0840": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-0841": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-0842": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-0843": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-0844": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-0890": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-0891": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-0892": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-0893": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-0894": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-0895": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-0896": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-0897": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-0950": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-0951": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-0952": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-0953": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-0954": {
+    "teacher": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VLB-0955": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-0956": {
+    "teacher": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VLB-0957": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-0958": {
+    "teacher": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z"
+  },
+  "VLB-0959": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-1024": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-1025": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-1026": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-1027": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-1028": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-1029": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-1030": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-1031": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-1191": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-1192": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-1193": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-1194": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-1195": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-1196": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
+  },
+  "VLB-1197": {
+    "author": "Linda Johnson",
+    "_at": "2026-07-22T17:33:41.954Z",
+    "teacher": "Linda Johnson"
   }
 }
