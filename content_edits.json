@@ -7421,7 +7421,8 @@
   },
   "VLB-0099": {
     "teacher": "Liz Ilgenfritz",
-    "_at": "2026-07-22T17:35:36.651Z"
+    "_at": "2026-07-22T17:54:57.987Z",
+    "author": "Alex Scolari"
   },
   "VLB-0103": {
     "author": "Liz Ilgenfritz",
@@ -8384,7 +8385,8 @@
   },
   "VLB-0117": {
     "author": "Briana Kurtz",
-    "_at": "2026-07-22T17:36:23.254Z"
+    "_at": "2026-07-22T17:54:57.987Z",
+    "teacher": "Alex Scolari"
   },
   "VLB-0119": {
     "author": "Briana Kurtz",
@@ -11806,11 +11808,13 @@
   },
   "VLB-0106": {
     "author": "Hollis Williams",
-    "_at": "2026-07-22T17:51:07.188Z"
+    "_at": "2026-07-22T17:54:57.987Z",
+    "teacher": "Alex Scolari"
   },
   "VLB-0109": {
     "author": "Hollis Williams",
-    "_at": "2026-07-22T17:51:07.188Z"
+    "_at": "2026-07-22T17:54:57.987Z",
+    "teacher": "Alex Scolari"
   },
   "VLB-0196": {
     "author": "Hollis Williams",
@@ -13239,5 +13243,146 @@
     "author": "Sophia Manassei",
     "_at": "2026-07-22T17:54:42.512Z",
     "teacher": "Sophia Manassei"
+  },
+  "VID-0536": {
+    "author": "Alex Scolari",
+    "_at": "2026-07-22T17:54:57.987Z"
+  },
+  "VID-0544": {
+    "author": "Alex Scolari",
+    "_at": "2026-07-22T17:54:57.987Z"
+  },
+  "VID-0545": {
+    "author": "Alex Scolari",
+    "_at": "2026-07-22T17:54:57.987Z"
+  },
+  "VID-0549": {
+    "author": "Alex Scolari",
+    "_at": "2026-07-22T17:54:57.987Z"
+  },
+  "VID-0551": {
+    "author": "Alex Scolari",
+    "_at": "2026-07-22T17:54:57.987Z"
+  },
+  "VID-0553": {
+    "author": "Alex Scolari",
+    "_at": "2026-07-22T17:54:57.987Z"
+  },
+  "VID-0562": {
+    "author": "Alex Scolari",
+    "_at": "2026-07-22T17:54:57.987Z"
+  },
+  "VID-0563": {
+    "author": "Alex Scolari",
+    "_at": "2026-07-22T17:54:57.987Z"
+  },
+  "VID-0574": {
+    "author": "Alex Scolari",
+    "_at": "2026-07-22T17:54:57.987Z"
+  },
+  "VID-0575": {
+    "author": "Alex Scolari",
+    "_at": "2026-07-22T17:54:57.987Z"
+  },
+  "VID-0576": {
+    "author": "Alex Scolari",
+    "_at": "2026-07-22T17:54:57.987Z"
+  },
+  "VID-0577": {
+    "author": "Alex Scolari",
+    "_at": "2026-07-22T17:54:57.987Z"
+  },
+  "VID-0578": {
+    "author": "Alex Scolari",
+    "_at": "2026-07-22T17:54:57.987Z"
+  },
+  "VID-0579": {
+    "author": "Alex Scolari",
+    "_at": "2026-07-22T17:54:57.987Z"
+  },
+  "VID-0580": {
+    "author": "Alex Scolari",
+    "_at": "2026-07-22T17:54:57.987Z"
+  },
+  "VID-0581": {
+    "author": "Alex Scolari",
+    "_at": "2026-07-22T17:54:57.987Z"
+  },
+  "VLB-0107": {
+    "author": "Alex Scolari",
+    "_at": "2026-07-22T17:54:57.987Z",
+    "teacher": "Alex Scolari"
+  },
+  "VLB-0108": {
+    "author": "Alex Scolari",
+    "_at": "2026-07-22T17:54:57.987Z",
+    "teacher": "Alex Scolari"
+  },
+  "VLB-0112": {
+    "author": "Alex Scolari",
+    "_at": "2026-07-22T17:54:57.987Z"
+  },
+  "VLB-0114": {
+    "author": "Alex Scolari",
+    "_at": "2026-07-22T17:54:57.987Z"
+  },
+  "VLB-0116": {
+    "author": "Alex Scolari",
+    "_at": "2026-07-22T17:54:57.987Z",
+    "teacher": "Alex Scolari"
+  },
+  "VLB-0118": {
+    "teacher": "Alex Scolari",
+    "_at": "2026-07-22T17:54:57.987Z"
+  },
+  "VLB-0125": {
+    "author": "Alex Scolari",
+    "_at": "2026-07-22T17:54:57.987Z",
+    "teacher": "Alex Scolari"
+  },
+  "VLB-0126": {
+    "author": "Alex Scolari",
+    "_at": "2026-07-22T17:54:57.987Z",
+    "teacher": "Alex Scolari"
+  },
+  "VLB-0136": {
+    "author": "Alex Scolari",
+    "_at": "2026-07-22T17:54:57.987Z",
+    "teacher": "Alex Scolari"
+  },
+  "VLB-0137": {
+    "author": "Alex Scolari",
+    "_at": "2026-07-22T17:54:57.987Z",
+    "teacher": "Alex Scolari"
+  },
+  "VLB-0138": {
+    "author": "Alex Scolari",
+    "_at": "2026-07-22T17:54:57.987Z",
+    "teacher": "Alex Scolari"
+  },
+  "VLB-0139": {
+    "author": "Alex Scolari",
+    "_at": "2026-07-22T17:54:57.987Z",
+    "teacher": "Alex Scolari"
+  },
+  "VLB-0140": {
+    "author": "Alex Scolari",
+    "_at": "2026-07-22T17:54:57.987Z",
+    "teacher": "Alex Scolari"
+  },
+  "VLB-0141": {
+    "author": "Alex Scolari",
+    "_at": "2026-07-22T17:54:57.987Z",
+    "teacher": "Alex Scolari"
+  },
+  "VLB-0142": {
+    "author": "Alex Scolari",
+    "_at": "2026-07-22T17:54:57.987Z",
+    "teacher": "Alex Scolari"
+  },
+  "VLB-0143": {
+    "author": "Alex Scolari",
+    "_at": "2026-07-22T17:54:57.987Z",
+    "teacher": "Alex Scolari"
   }
 }
