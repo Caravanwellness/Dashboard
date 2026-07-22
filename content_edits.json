@@ -8413,7 +8413,8 @@
   },
   "VLB-0131": {
     "author": "Briana Kurtz",
-    "_at": "2026-07-22T17:36:23.254Z"
+    "_at": "2026-07-22T18:55:56.969Z",
+    "teacher": "Deena Berger"
   },
   "VLB-0144": {
     "author": "Briana Kurtz",
@@ -17549,7 +17550,8 @@
   },
   "VLB-0091": {
     "teacher": "Victoria Davis",
-    "_at": "2026-07-22T18:52:47.905Z"
+    "_at": "2026-07-22T18:55:56.969Z",
+    "author": "Deena Berger"
   },
   "VLB-0092": {
     "teacher": "Victoria Davis",
@@ -17940,5 +17942,18 @@
     "author": "Leo Rising",
     "_at": "2026-07-22T18:55:40.746Z",
     "teacher": "Leo Rising"
+  },
+  "VID-0567": {
+    "author": "Deena Berger",
+    "_at": "2026-07-22T18:55:56.969Z"
+  },
+  "VID-0569": {
+    "author": "Deena Berger",
+    "_at": "2026-07-22T18:55:56.969Z"
+  },
+  "VLB-0130": {
+    "author": "Deena Berger",
+    "_at": "2026-07-22T18:55:56.969Z",
+    "teacher": "Deena Berger"
   }
 }
