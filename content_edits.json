@@ -16520,7 +16520,8 @@
   },
   "VLB-0598": {
     "author": "Lara Zakaria",
-    "_at": "2026-07-22T18:32:30.573Z"
+    "_at": "2026-07-22T18:51:13.852Z",
+    "teacher": "Dr. Laura Goorin"
   },
   "VLB-0599": {
     "author": "Lara Zakaria",
@@ -16529,7 +16530,8 @@
   },
   "VLB-0600": {
     "author": "Lara Zakaria",
-    "_at": "2026-07-22T18:32:30.573Z"
+    "_at": "2026-07-22T18:51:13.852Z",
+    "teacher": "Dr. Laura Goorin"
   },
   "VID-0705": {
     "author": "Sandy Lin",
@@ -17266,5 +17268,50 @@
   "VLB-0512": {
     "teacher": "Marcus Johnson",
     "_at": "2026-07-22T18:51:05.925Z"
+  },
+  "VID-0907": {
+    "author": "Dr. Laura Goorin",
+    "_at": "2026-07-22T18:51:13.852Z"
+  },
+  "VID-0908": {
+    "author": "Dr. Laura Goorin",
+    "_at": "2026-07-22T18:51:13.852Z"
+  },
+  "VID-0909": {
+    "author": "Dr. Laura Goorin",
+    "_at": "2026-07-22T18:51:13.852Z"
+  },
+  "VID-0910": {
+    "author": "Dr. Laura Goorin",
+    "_at": "2026-07-22T18:51:13.852Z"
+  },
+  "VID-0911": {
+    "author": "Dr. Laura Goorin",
+    "_at": "2026-07-22T18:51:13.852Z"
+  },
+  "VLB-0520": {
+    "author": "Dr. Laura Goorin",
+    "_at": "2026-07-22T18:51:13.852Z",
+    "teacher": "Dr. Laura Goorin"
+  },
+  "VLB-0521": {
+    "author": "Dr. Laura Goorin",
+    "_at": "2026-07-22T18:51:13.852Z",
+    "teacher": "Dr. Laura Goorin"
+  },
+  "VLB-0522": {
+    "author": "Dr. Laura Goorin",
+    "_at": "2026-07-22T18:51:13.852Z",
+    "teacher": "Dr. Laura Goorin"
+  },
+  "VLB-0523": {
+    "author": "Dr. Laura Goorin",
+    "_at": "2026-07-22T18:51:13.852Z",
+    "teacher": "Dr. Laura Goorin"
+  },
+  "VLB-0524": {
+    "author": "Dr. Laura Goorin",
+    "_at": "2026-07-22T18:51:13.852Z",
+    "teacher": "Dr. Laura Goorin"
   }
 }
