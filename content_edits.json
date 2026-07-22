@@ -13135,7 +13135,8 @@
   },
   "VLB-0742": {
     "author": "Dr. Fahim Pyarali",
-    "_at": "2026-07-22T17:54:22.554Z"
+    "_at": "2026-07-22T18:57:07.027Z",
+    "teacher": "Dr. Hassan Nagy"
   },
   "VID-0350": {
     "author": "Sophia Manassei",
@@ -16409,23 +16410,28 @@
   },
   "VLB-0736": {
     "author": "Dr. Hassan Nagy",
-    "_at": "2026-07-22T18:32:03.473Z"
+    "_at": "2026-07-22T18:57:07.027Z",
+    "teacher": "Dr. Hassan Nagy"
   },
   "VLB-0738": {
     "author": "Dr. Hassan Nagy",
-    "_at": "2026-07-22T18:32:03.473Z"
+    "_at": "2026-07-22T18:57:07.027Z",
+    "teacher": "Dr. Hassan Nagy"
   },
   "VLB-0739": {
     "author": "Dr. Hassan Nagy",
-    "_at": "2026-07-22T18:32:03.473Z"
+    "_at": "2026-07-22T18:57:07.027Z",
+    "teacher": "Dr. Hassan Nagy"
   },
   "VLB-0740": {
     "author": "Dr. Hassan Nagy",
-    "_at": "2026-07-22T18:32:03.473Z"
+    "_at": "2026-07-22T18:57:07.027Z",
+    "teacher": "Dr. Hassan Nagy"
   },
   "VLB-0741": {
     "author": "Dr. Hassan Nagy",
-    "_at": "2026-07-22T18:32:03.473Z"
+    "_at": "2026-07-22T18:57:07.027Z",
+    "teacher": "Dr. Hassan Nagy"
   },
   "VID-0313": {
     "author": "Nada Doueiry",
@@ -17991,5 +17997,18 @@
     "author": "Nathalie Monin Voelker",
     "_at": "2026-07-22T18:56:57.356Z",
     "teacher": "Nathalie Monin Voelker"
+  },
+  "VID-1047": {
+    "author": "Dr. Hassan Nagy",
+    "_at": "2026-07-22T18:57:07.027Z"
+  },
+  "VLB-0735": {
+    "teacher": "Dr. Hassan Nagy",
+    "_at": "2026-07-22T18:57:07.027Z"
+  },
+  "VLB-0737": {
+    "author": "Dr. Hassan Nagy",
+    "_at": "2026-07-22T18:57:07.027Z",
+    "teacher": "Dr. Hassan Nagy"
   }
 }
