@@ -54,7 +54,10 @@
     "creds": "Psychotherapist, Doctor of Social Work"
   },
   "Jessica Cording": {
-    "creds": "Registered Dietitian"
+    "creds": "Registered Dietitian",
+    "_all": {
+      "creds": "Registered Dietitian"
+    }
   },
   "Madeline McGuire": {
     "creds": "Health Studies Contributor"
