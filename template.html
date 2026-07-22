@@ -220,7 +220,7 @@ textarea.field-edit { resize: vertical; }
 .spinner { display: inline-block; width: 12px; height: 12px; border: 2px solid rgba(255,255,255,.3); border-top-color: white; border-radius: 50%; animation: spin .6s linear infinite; vertical-align: middle; margin-right: 5px; }
 @keyframes spin { to { transform: rotate(360deg); } }
 /* Creator card flip */
-.cc-wrap { perspective: 1000px; }
+.cc-wrap { perspective: 1000px; min-width: 0; }
 .cc-flipper {
   position: relative; transform-style: preserve-3d;
   transition: transform .45s cubic-bezier(.4,0,.2,1);
@@ -230,12 +230,13 @@ textarea.field-edit { resize: vertical; }
   backface-visibility: hidden; -webkit-backface-visibility: hidden;
   border-radius: 10px; border: 1px solid #e8e8e8;
   box-shadow: 0 1px 4px rgba(0,0,0,.05); background: white;
+  width: 100%; box-sizing: border-box;
 }
 .cc-front { padding: 16px; }
 .cc-back {
-  position: absolute; inset: 0;
+  position: absolute; top: 0; left: 0; right: 0; min-height: 100%;
   transform: rotateY(180deg);
-  padding: 18px; display: flex; flex-direction: column; gap: 12px;
+  padding: 18px; display: flex; flex-direction: column; gap: 14px;
 }
 </style>
 </head>
@@ -512,7 +513,7 @@ textarea.field-edit { resize: vertical; }
       <input type="text" id="creatorSearch" placeholder="Search creators…" style="padding:8px 12px;border:1px solid #e0e0e0;border-radius:8px;font-size:13px;width:260px;outline:none">
       <span id="creatorCount" style="font-size:12px;color:#aaa"></span>
     </div>
-    <div id="creatorsGrid" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px"></div>
+    <div id="creatorsGrid" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr));gap:14px;min-width:0"></div>
   </div>
 </div>
 
@@ -1950,7 +1951,7 @@ function renderCreators(query='') {
     const total = info.authored + info.reviewed;
     const initials = name.split(' ').map(w=>w[0]).join('').slice(0,2).toUpperCase();
     const cardId = 'cc_' + name.replace(/\W/g,'_');
-    return `<div class="cc-wrap" style="height:100%">
+    return `<div class="cc-wrap">
       <div class="cc-flipper" id="${cardId}" style="min-height:200px">
 
         <!-- FRONT -->
