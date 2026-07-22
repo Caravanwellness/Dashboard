@@ -83,12 +83,13 @@
     "peer_reviewer": "Diane McNaught"
   },
   "VID-0096": {
-    "author": "Dr. Julia",
-    "_at": "2026-07-20T19:57:34.319Z"
+    "author": "Dr. Julia Iafrate",
+    "_at": "2026-07-22T18:27:23.750Z"
   },
   "VLB-0383": {
-    "author": "Dr. Julia",
-    "_at": "2026-07-20T19:57:36.966Z"
+    "author": "Dr. Julia Iafrate",
+    "_at": "2026-07-22T18:27:23.750Z",
+    "teacher": "Dr. Julia Iafrate"
   },
   "VID-0403": {
     "author": "Gisele",
@@ -14245,7 +14246,8 @@
   },
   "VLB-0559": {
     "author": "Katie Attubato",
-    "_at": "2026-07-22T18:24:43.385Z"
+    "_at": "2026-07-22T18:27:23.750Z",
+    "teacher": "Dr. Julia Iafrate"
   },
   "VID-0119": {
     "author": "Chandra Lee",
@@ -15353,5 +15355,97 @@
     "author": "Sam Dailey",
     "_at": "2026-07-22T18:27:06.763Z",
     "teacher": "Sam Dailey"
+  },
+  "VID-0794": {
+    "author": "Dr. Julia Iafrate",
+    "_at": "2026-07-22T18:27:23.750Z"
+  },
+  "VID-0795": {
+    "author": "Dr. Julia Iafrate",
+    "_at": "2026-07-22T18:27:23.750Z"
+  },
+  "VID-0796": {
+    "author": "Dr. Julia Iafrate",
+    "_at": "2026-07-22T18:27:23.750Z"
+  },
+  "VID-0928": {
+    "author": "Dr. Julia Iafrate",
+    "_at": "2026-07-22T18:27:23.750Z"
+  },
+  "VID-0929": {
+    "author": "Dr. Julia Iafrate",
+    "_at": "2026-07-22T18:27:23.750Z"
+  },
+  "VID-0930": {
+    "author": "Dr. Julia Iafrate",
+    "_at": "2026-07-22T18:27:23.750Z"
+  },
+  "VID-0932": {
+    "author": "Dr. Julia Iafrate",
+    "_at": "2026-07-22T18:27:23.750Z"
+  },
+  "VID-0933": {
+    "author": "Dr. Julia Iafrate",
+    "_at": "2026-07-22T18:27:23.750Z"
+  },
+  "VLB-0379": {
+    "author": "Dr. Julia Iafrate",
+    "_at": "2026-07-22T18:27:23.750Z",
+    "teacher": "Dr. Julia Iafrate"
+  },
+  "VLB-0380": {
+    "author": "Dr. Julia Iafrate",
+    "_at": "2026-07-22T18:27:23.750Z",
+    "teacher": "Dr. Julia Iafrate"
+  },
+  "VLB-0381": {
+    "teacher": "Dr. Julia Iafrate",
+    "_at": "2026-07-22T18:27:23.750Z"
+  },
+  "VLB-0382": {
+    "author": "Dr. Julia Iafrate",
+    "_at": "2026-07-22T18:27:23.750Z",
+    "teacher": "Dr. Julia Iafrate"
+  },
+  "VLB-0553": {
+    "author": "Dr. Julia Iafrate",
+    "_at": "2026-07-22T18:27:23.750Z",
+    "teacher": "Dr. Julia Iafrate"
+  },
+  "VLB-0554": {
+    "author": "Dr. Julia Iafrate",
+    "_at": "2026-07-22T18:27:23.750Z",
+    "teacher": "Dr. Julia Iafrate"
+  },
+  "VLB-0555": {
+    "author": "Dr. Julia Iafrate",
+    "_at": "2026-07-22T18:27:23.750Z",
+    "teacher": "Dr. Julia Iafrate"
+  },
+  "VLB-0558": {
+    "teacher": "Dr. Julia Iafrate",
+    "_at": "2026-07-22T18:27:23.750Z"
+  },
+  "VLB-0560": {
+    "teacher": "Dr. Julia Iafrate",
+    "_at": "2026-07-22T18:27:23.750Z"
+  },
+  "VLB-0561": {
+    "author": "Dr. Julia Iafrate",
+    "_at": "2026-07-22T18:27:23.750Z",
+    "teacher": "Dr. Julia Iafrate"
+  },
+  "VLB-0562": {
+    "teacher": "Dr. Julia Iafrate",
+    "_at": "2026-07-22T18:27:23.750Z"
+  },
+  "VLB-0563": {
+    "author": "Dr. Julia Iafrate",
+    "_at": "2026-07-22T18:27:23.750Z",
+    "teacher": "Dr. Julia Iafrate"
+  },
+  "VLB-0564": {
+    "teacher": "Dr. Julia Iafrate",
+    "_at": "2026-07-22T18:27:23.750Z"
   }
 }
