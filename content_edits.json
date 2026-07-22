@@ -12051,7 +12051,8 @@
   },
   "VLB-0918": {
     "teacher": "Dr. Ricardo Fuentes",
-    "_at": "2026-07-22T17:51:21.091Z"
+    "_at": "2026-07-22T18:53:41.634Z",
+    "author": "Dr. Ricardo Fuentes"
   },
   "VLB-0919": {
     "teacher": "Dr. Ricardo Fuentes",
@@ -12063,11 +12064,13 @@
   },
   "VLB-0921": {
     "teacher": "Dr. Ricardo Fuentes",
-    "_at": "2026-07-22T17:51:21.091Z"
+    "_at": "2026-07-22T18:53:41.634Z",
+    "author": "Dr. Ricardo Fuentes"
   },
   "VLB-0922": {
     "teacher": "Dr. Ricardo Fuentes",
-    "_at": "2026-07-22T17:51:21.091Z"
+    "_at": "2026-07-22T18:53:41.634Z",
+    "author": "Dr. Ricardo Fuentes"
   },
   "VLB-0923": {
     "teacher": "Dr. Ricardo Fuentes",
@@ -12113,7 +12116,8 @@
   },
   "VLB-0970": {
     "teacher": "Dr. Ricardo Fuentes",
-    "_at": "2026-07-22T17:51:21.091Z"
+    "_at": "2026-07-22T18:53:41.634Z",
+    "author": "Dr. Ricardo Fuentes"
   },
   "VLB-0971": {
     "author": "Dr. Ricardo Fuentes",
@@ -17677,5 +17681,13 @@
   "VID-0412": {
     "author": "Hafsa Benzzi",
     "_at": "2026-07-22T18:53:27.992Z"
+  },
+  "VID-0272": {
+    "author": "Dr. Ricardo Fuentes",
+    "_at": "2026-07-22T18:53:41.634Z"
+  },
+  "VID-0424": {
+    "author": "Dr. Ricardo Fuentes",
+    "_at": "2026-07-22T18:53:41.634Z"
   }
 }
