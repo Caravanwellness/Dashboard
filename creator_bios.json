@@ -81,5 +81,8 @@
     "_all": {
       "creds": "Registered Dietitian"
     }
+  },
+  "Dr. Joe Feuerstein": {
+    "creds": "Integrative Medicine Physician"
   }
 }
