@@ -18,5 +18,10 @@
     "name": "Madeline McGuire",
     "passwordHash": "dfbccc8e4b32230a6c7ee1365ad5dab23b7686a9e7f9254906d542731a18bc3a",
     "createdAt": "2026-07-22T15:15:03.822Z"
+  },
+  "sayak.maity@caravanwellness.com": {
+    "name": "Sayak Maity",
+    "passwordHash": "9264202b8754fc5b1cb32b3c38521e3140826728e9ca532816b1b9b4a6273597",
+    "createdAt": "2026-07-22T19:02:39.516Z"
   }
 }
