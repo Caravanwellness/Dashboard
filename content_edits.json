@@ -13347,11 +13347,13 @@
   },
   "VLB-0112": {
     "author": "Alex Scolari",
-    "_at": "2026-07-22T17:54:57.987Z"
+    "_at": "2026-07-22T18:50:12.656Z",
+    "teacher": "Veronica Zhang"
   },
   "VLB-0114": {
     "author": "Alex Scolari",
-    "_at": "2026-07-22T17:54:57.987Z"
+    "_at": "2026-07-22T18:50:12.656Z",
+    "teacher": "Veronica Zhang"
   },
   "VLB-0116": {
     "author": "Alex Scolari",
@@ -16996,5 +16998,50 @@
     "author": "Edyta Romanowicz",
     "_at": "2026-07-22T18:49:59.416Z",
     "teacher": "Edyta Romanowicz"
+  },
+  "VID-0537": {
+    "author": "Veronica Zhang",
+    "_at": "2026-07-22T18:50:12.656Z"
+  },
+  "VID-0547": {
+    "author": "Veronica Zhang",
+    "_at": "2026-07-22T18:50:12.656Z"
+  },
+  "VID-0548": {
+    "author": "Veronica Zhang",
+    "_at": "2026-07-22T18:50:12.656Z"
+  },
+  "VID-0550": {
+    "author": "Veronica Zhang",
+    "_at": "2026-07-22T18:50:12.656Z"
+  },
+  "VID-0552": {
+    "author": "Veronica Zhang",
+    "_at": "2026-07-22T18:50:12.656Z"
+  },
+  "VLB-0100": {
+    "author": "Veronica Zhang",
+    "_at": "2026-07-22T18:50:12.656Z",
+    "teacher": "Veronica Zhang"
+  },
+  "VLB-0110": {
+    "author": "Veronica Zhang",
+    "_at": "2026-07-22T18:50:12.656Z",
+    "teacher": "Veronica Zhang"
+  },
+  "VLB-0111": {
+    "author": "Veronica Zhang",
+    "_at": "2026-07-22T18:50:12.656Z",
+    "teacher": "Veronica Zhang"
+  },
+  "VLB-0113": {
+    "author": "Veronica Zhang",
+    "_at": "2026-07-22T18:50:12.656Z",
+    "teacher": "Veronica Zhang"
+  },
+  "VLB-0115": {
+    "author": "Veronica Zhang",
+    "_at": "2026-07-22T18:50:12.656Z",
+    "teacher": "Veronica Zhang"
   }
 }
