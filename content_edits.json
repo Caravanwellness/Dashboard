@@ -13603,7 +13603,8 @@
   },
   "VLB-0239": {
     "author": "Sabrih Short",
-    "_at": "2026-07-22T17:55:26.903Z"
+    "_at": "2026-07-22T18:28:59.693Z",
+    "teacher": "Justice Kelly"
   },
   "VLB-0358": {
     "author": "Sabrih Short",
@@ -15564,7 +15565,8 @@
   },
   "VLB-0260": {
     "author": "Steven Rousseau",
-    "_at": "2026-07-22T18:27:46.411Z"
+    "_at": "2026-07-22T18:28:59.693Z",
+    "teacher": "Justice Kelly"
   },
   "VLB-0328": {
     "author": "Steven Rousseau",
@@ -15999,5 +16001,76 @@
     "author": "Inaudy Gil",
     "_at": "2026-07-22T18:28:41.274Z",
     "teacher": "Inaudy Gil"
+  },
+  "VID-0607": {
+    "author": "Justice Kelly",
+    "_at": "2026-07-22T18:28:59.693Z"
+  },
+  "VID-0675": {
+    "author": "Justice Kelly",
+    "_at": "2026-07-22T18:28:59.693Z"
+  },
+  "VID-0677": {
+    "author": "Justice Kelly",
+    "_at": "2026-07-22T18:28:59.693Z"
+  },
+  "VID-0678": {
+    "author": "Justice Kelly",
+    "_at": "2026-07-22T18:28:59.693Z"
+  },
+  "VID-0696": {
+    "author": "Justice Kelly",
+    "_at": "2026-07-22T18:28:59.693Z"
+  },
+  "VID-0698": {
+    "author": "Justice Kelly",
+    "_at": "2026-07-22T18:28:59.693Z"
+  },
+  "VID-0699": {
+    "author": "Justice Kelly",
+    "_at": "2026-07-22T18:28:59.693Z"
+  },
+  "VID-0700": {
+    "author": "Justice Kelly",
+    "_at": "2026-07-22T18:28:59.693Z"
+  },
+  "VLB-0169": {
+    "author": "Justice Kelly",
+    "_at": "2026-07-22T18:28:59.693Z"
+  },
+  "VLB-0238": {
+    "author": "Justice Kelly",
+    "_at": "2026-07-22T18:28:59.693Z",
+    "teacher": "Justice Kelly"
+  },
+  "VLB-0240": {
+    "author": "Justice Kelly",
+    "_at": "2026-07-22T18:28:59.693Z",
+    "teacher": "Justice Kelly"
+  },
+  "VLB-0241": {
+    "author": "Justice Kelly",
+    "_at": "2026-07-22T18:28:59.693Z",
+    "teacher": "Justice Kelly"
+  },
+  "VLB-0259": {
+    "author": "Justice Kelly",
+    "_at": "2026-07-22T18:28:59.693Z",
+    "teacher": "Justice Kelly"
+  },
+  "VLB-0261": {
+    "author": "Justice Kelly",
+    "_at": "2026-07-22T18:28:59.693Z",
+    "teacher": "Justice Kelly"
+  },
+  "VLB-0262": {
+    "author": "Justice Kelly",
+    "_at": "2026-07-22T18:28:59.693Z",
+    "teacher": "Justice Kelly"
+  },
+  "VLB-0263": {
+    "author": "Justice Kelly",
+    "_at": "2026-07-22T18:28:59.693Z",
+    "teacher": "Justice Kelly"
   }
 }
