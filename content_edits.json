@@ -4564,7 +4564,8 @@
   },
   "VLB-1282": {
     "author": "Kaitlyn Bruneau",
-    "_at": "2026-07-22T17:34:03.056Z"
+    "_at": "2026-07-22T18:28:29.556Z",
+    "teacher": "Eliot Goldman"
   },
   "VLB-1300": {
     "author": "Kaitlyn Bruneau",
@@ -12465,7 +12466,8 @@
   },
   "VLB-1233": {
     "teacher": "Martine Cadet",
-    "_at": "2026-07-22T17:52:22.377Z"
+    "_at": "2026-07-22T18:28:29.556Z",
+    "author": "Eliot Goldman"
   },
   "VLB-1307": {
     "author": "Martine Cadet",
@@ -15841,5 +15843,80 @@
     "author": "Sanford Brown",
     "_at": "2026-07-22T18:28:17.762Z",
     "teacher": "Sanford Brown"
+  },
+  "VID-1412": {
+    "author": "Eliot Goldman",
+    "_at": "2026-07-22T18:28:29.556Z"
+  },
+  "VID-1449": {
+    "author": "Eliot Goldman",
+    "_at": "2026-07-22T18:28:29.556Z"
+  },
+  "VID-1450": {
+    "author": "Eliot Goldman",
+    "_at": "2026-07-22T18:28:29.556Z"
+  },
+  "VID-1451": {
+    "author": "Eliot Goldman",
+    "_at": "2026-07-22T18:28:29.556Z"
+  },
+  "VID-1452": {
+    "author": "Eliot Goldman",
+    "_at": "2026-07-22T18:28:29.556Z"
+  },
+  "VID-1453": {
+    "author": "Eliot Goldman",
+    "_at": "2026-07-22T18:28:29.556Z"
+  },
+  "VID-1454": {
+    "author": "Eliot Goldman",
+    "_at": "2026-07-22T18:28:29.556Z"
+  },
+  "VID-1455": {
+    "author": "Eliot Goldman",
+    "_at": "2026-07-22T18:28:29.556Z"
+  },
+  "VLB-1280": {
+    "teacher": "Eliot Goldman",
+    "_at": "2026-07-22T18:28:29.556Z"
+  },
+  "VLB-1281": {
+    "author": "Eliot Goldman",
+    "_at": "2026-07-22T18:28:29.556Z",
+    "teacher": "Eliot Goldman"
+  },
+  "VLB-1283": {
+    "author": "Eliot Goldman",
+    "_at": "2026-07-22T18:28:29.556Z",
+    "teacher": "Eliot Goldman"
+  },
+  "VLB-1284": {
+    "teacher": "Eliot Goldman",
+    "_at": "2026-07-22T18:28:29.556Z"
+  },
+  "VLB-1285": {
+    "author": "Eliot Goldman",
+    "_at": "2026-07-22T18:28:29.556Z",
+    "teacher": "Eliot Goldman"
+  },
+  "VLB-1286": {
+    "author": "Eliot Goldman",
+    "_at": "2026-07-22T18:28:29.556Z",
+    "teacher": "Eliot Goldman"
+  },
+  "VLB-1287": {
+    "author": "Eliot Goldman",
+    "_at": "2026-07-22T18:28:29.556Z",
+    "teacher": "Eliot Goldman"
+  },
+  "VLB-1288": {
+    "author": "Eliot Goldman",
+    "_at": "2026-07-22T18:28:29.556Z",
+    "teacher": "Eliot Goldman"
+  },
+  "VLB-1289": {
+    "author": "Eliot Goldman",
+    "_at": "2026-07-22T18:28:29.556Z",
+    "teacher": "Eliot Goldman"
   }
 }
