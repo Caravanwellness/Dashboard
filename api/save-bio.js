@@ -24,40 +24,41 @@ export default async function handler(req, res) {
     return res.json(content);
   }
 
-  // POST — update a single creator's bio fields
+  // POST — single: { name, field, value }  OR  bulk: { bulk: [{name, field, value}, ...] }
   if (req.method === 'POST') {
-    const { name, field, value } = req.body || {};
-    if (!name || !field) return res.status(400).json({ error: 'name and field required' });
+    const { name, field, value, bulk } = req.body || {};
+    const changes = bulk && Array.isArray(bulk) ? bulk : (name && field !== undefined ? [{ name, field, value }] : null);
+    if (!changes) return res.status(400).json({ error: 'name+field or bulk array required' });
 
-    // Fetch current file + SHA
-    const getRes = await fetch(API_BASE, { headers });
-    if (!getRes.ok) return res.status(500).json({ error: 'Could not read file' });
-    const fileData = await getRes.json();
-    const sha = fileData.sha;
-    const bios = JSON.parse(Buffer.from(fileData.content, 'base64').toString('utf-8'));
+    for (let attempt = 0; attempt < 5; attempt++) {
+      const getRes = await fetch(API_BASE, { headers });
+      if (!getRes.ok) return res.status(500).json({ error: 'Could not read file' });
+      const fileData = await getRes.json();
+      const sha = fileData.sha;
+      const bios = JSON.parse(Buffer.from(fileData.content, 'base64').toString('utf-8'));
 
-    // Update
-    if (!bios[name]) bios[name] = {};
-    bios[name][field] = value;
+      for (const { name: n, field: f, value: v } of changes) {
+        if (!bios[n]) bios[n] = {};
+        bios[n][f] = v;
+      }
 
-    // Commit
-    const newContent = Buffer.from(JSON.stringify(bios, null, 2)).toString('base64');
-    const commitRes = await fetch(API_BASE, {
-      method: 'PUT',
-      headers,
-      body: JSON.stringify({
-        message: `Update bio: ${name}`,
-        content: newContent,
-        sha,
-        branch: BRANCH,
-      }),
-    });
+      const msg = changes.length === 1 ? `Update bio: ${changes[0].name}` : `Bulk bio update: ${changes.length} fields`;
+      const commitRes = await fetch(API_BASE, {
+        method: 'PUT',
+        headers,
+        body: JSON.stringify({
+          message: msg,
+          content: Buffer.from(JSON.stringify(bios, null, 2)).toString('base64'),
+          sha,
+          branch: BRANCH,
+        }),
+      });
 
-    if (!commitRes.ok) {
+      if (commitRes.ok) return res.json({ ok: true, count: changes.length });
+      if (commitRes.status === 409 && attempt < 4) continue;
       const err = await commitRes.text();
       return res.status(500).json({ error: 'Commit failed', detail: err });
     }
-    return res.json({ ok: true });
   }
 
   res.status(405).json({ error: 'Method not allowed' });

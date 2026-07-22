@@ -829,17 +829,17 @@ async function bulkUploadPhotos(input) {
   const people = buildCreatorIndex();
   const nameList = Object.keys(people).map(n => ({ key: n, lower: n.toLowerCase() }));
 
-  let matched = 0, skipped = 0;
+  let skipped = 0;
 
-  await Promise.all(files.map(file => new Promise(resolve => {
+  // Step 1: resize all images in parallel (local only, no network)
+  const results = await Promise.all(files.map(file => new Promise(resolve => {
     const baseName = file.name.replace(/\.[^.]+$/, '');
     const match = nameList.find(n =>
       n.lower === baseName.toLowerCase() ||
       n.lower.startsWith(baseName.toLowerCase()) ||
       baseName.toLowerCase().startsWith(n.lower)
     );
-
-    if (!match) { skipped++; resolve(); return; }
+    if (!match) { skipped++; resolve(null); return; }
 
     const reader = new FileReader();
     reader.onload = e => {
@@ -851,19 +851,42 @@ async function bulkUploadPhotos(input) {
         canvas.width  = Math.round(img.width  * scale);
         canvas.height = Math.round(img.height * scale);
         canvas.getContext('2d').drawImage(img, 0, 0, canvas.width, canvas.height);
-        const dataUrl = canvas.toDataURL('image/jpeg', 0.82);
-        saveBio(match.key, 'photo', dataUrl);
-        matched++;
-        statusEl.textContent = `Saving… ${matched} matched so far`;
-        resolve();
+        resolve({ name: match.key, dataUrl: canvas.toDataURL('image/jpeg', 0.82) });
       };
       img.src = e.target.result;
     };
     reader.readAsDataURL(file);
   })));
 
+  const matched = results.filter(Boolean);
+  if (!matched.length) {
+    statusEl.textContent = `No files matched any creator name.`;
+    return;
+  }
+
+  // Update in-memory bios immediately so UI reflects changes
+  matched.forEach(({ name, dataUrl }) => {
+    if (!bios[name]) bios[name] = {};
+    bios[name].photo = dataUrl;
+  });
   renderCreators();
-  statusEl.textContent = `✓ ${matched} photo${matched !== 1 ? 's' : ''} uploaded${skipped ? ` · ${skipped} file${skipped > 1 ? 's' : ''} had no matching creator` : ''}`;
+
+  // Step 2: single bulk write to GitHub
+  statusEl.textContent = `Saving ${matched.length} photo${matched.length !== 1 ? 's' : ''}…`;
+  try {
+    const r = await fetch('/api/save-bio', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ bulk: matched.map(({ name, dataUrl }) => ({ name, field: 'photo', value: dataUrl })) }),
+    });
+    if (!r.ok) throw new Error((await r.json()).error || r.status);
+  } catch(e) {
+    statusEl.textContent = `⚠ Photos shown but save failed: ${e.message}`;
+    setTimeout(() => { statusEl.style.display = 'none'; }, 6000);
+    return;
+  }
+
+  statusEl.textContent = `✓ ${matched.length} photo${matched.length !== 1 ? 's' : ''} uploaded${skipped ? ` · ${skipped} file${skipped > 1 ? 's' : ''} had no matching creator` : ''}`;
   input.value = '';
   setTimeout(() => { statusEl.style.display = 'none'; }, 5000);
 }
