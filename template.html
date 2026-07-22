@@ -473,6 +473,11 @@ textarea.field-edit { resize: vertical; }
     <div class="toolbar">
       <button class="btn primary" onclick="exportCSV()">⬇ Export CSV</button>
       <button class="btn" onclick="document.getElementById('uploadModal').style.display='flex'" style="background:#0d9488;color:white;border-color:#0d9488">⬆ Upload CSV</button>
+      <label class="btn" style="background:#6366f1;color:white;border-color:#6366f1;cursor:pointer">
+        ✏️ Edit Chart
+        <input type="file" accept=".csv,.xlsx,.xls" style="display:none" onchange="handleEditChart(this)">
+      </label>
+      <div id="editChartStatus" style="font-size:12px;color:#555;margin-left:4px;display:none"></div>
     </div>
     <div class="table-wrap">
       <table><thead id="thead"></thead><tbody id="tbody"></tbody></table>
@@ -2296,6 +2301,121 @@ function exportCSV() {
   a.href = URL.createObjectURL(blob);
   a.download = 'caravan-export.csv';
   a.click();
+}
+
+// ── Edit Chart (bulk field update by ID) ─────────────────────────────────────
+// Maps CSV column headers → internal field keys
+const EDIT_CHART_MAP = {
+  'type':              'type',
+  'title':             'title',
+  'category':          'category',
+  'duration':          'duration',
+  'language':          'language',
+  'teacher/reviewer':  'teacher',
+  'author':            'author',
+  'peer reviewer':     'peer_reviewer',
+  'version':           'version',
+  'client licenses':   'licenses',
+  'notes':             'notes',
+  'date created':      'date_created',
+  'date revised':      'date_revised',
+  'branding status':   'branding_status',
+  'vimeo':             'vimeo_link',
+  'transcripts':       'transcript_available',
+  'subtitles/captions':'subtitles_available',
+};
+
+async function handleEditChart(input) {
+  const file = input.files[0];
+  if (!file) return;
+  input.value = '';
+
+  const statusEl = document.getElementById('editChartStatus');
+  statusEl.style.display = '';
+  statusEl.textContent = 'Reading file…';
+
+  // Parse file → array of objects with normalised lowercase keys
+  let norm;
+  try {
+    if (file.name.endsWith('.csv')) {
+      const raw = parseCSV(await file.text()); // array of arrays
+      if (!raw.length) throw new Error('Empty file');
+      const hdrs = raw[0].map(h => String(h||'').trim().toLowerCase());
+      norm = raw.slice(1).map(row => {
+        const o = {};
+        hdrs.forEach((h, i) => o[h] = row[i] ?? '');
+        return o;
+      });
+    } else {
+      if (!window.XLSX) {
+        await new Promise((res, rej) => {
+          const s = document.createElement('script');
+          s.src = 'https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js';
+          s.onload = res; s.onerror = rej;
+          document.head.appendChild(s);
+        });
+      }
+      const wb = XLSX.read(await file.arrayBuffer(), { type: 'array' });
+      const ws = wb.Sheets[wb.SheetNames[0]];
+      norm = XLSX.utils.sheet_to_json(ws, { defval: '' })
+        .map(r => { const o = {}; for (const [k,v] of Object.entries(r)) o[k.toLowerCase().trim()] = v; return o; });
+    }
+  } catch(e) {
+    statusEl.textContent = `⚠ Could not read file: ${e.message}`; return;
+  }
+
+  if (!norm.length) { statusEl.textContent = '⚠ No data found.'; return; }
+  if (norm[0]['id'] === undefined) { statusEl.textContent = '⚠ No "ID" column found — export the chart first, then re-upload.'; return; }
+
+  // Build bulk changes
+  const bulk = [];
+  const byId = {};
+  ALL.forEach(i => byId[i.id] = i);
+
+  for (const row of norm) {
+    const id = String(row['id'] || '').trim();
+    if (!id || !byId[id]) continue;
+
+    for (const [header, raw] of Object.entries(row)) {
+      if (header === 'id') continue;
+      const field = EDIT_CHART_MAP[header];
+      if (!field) continue;
+      if (raw === null || raw === undefined || String(raw).trim() === '') continue;
+
+      let val = String(raw).trim();
+      if (field === 'licenses') val = val.split(';').map(s => s.trim()).filter(Boolean);
+
+      const current = lv(byId[id], field);
+      if (String(current) === String(val)) continue;
+
+      if (!edits[id]) edits[id] = {};
+      edits[id][field] = val;
+      bulk.push({ id, field, value: val });
+    }
+  }
+
+  if (!bulk.length) { statusEl.textContent = '✓ No changes detected.'; return; }
+
+  statusEl.textContent = `Saving ${bulk.length} field update${bulk.length !== 1 ? 's' : ''}…`;
+
+  try {
+    const r = await fetch('/api/save-edits', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', ...authHeader() },
+      body: JSON.stringify({
+        bulk,
+        message: `Edit Chart bulk update: ${bulk.length} fields across ${[...new Set(bulk.map(b=>b.id))].length} items`,
+      }),
+    });
+    const d = await r.json();
+    if (!r.ok) throw new Error(d.error || r.status);
+    const itemCount = [...new Set(bulk.map(b => b.id))].length;
+    statusEl.textContent = `✓ Updated ${bulk.length} field${bulk.length!==1?'s':''} across ${itemCount} item${itemCount!==1?'s':''}`;
+    applyFilters();
+    setTimeout(() => { statusEl.style.display = 'none'; }, 6000);
+  } catch(e) {
+    statusEl.textContent = `⚠ Save failed: ${e.message}`;
+  }
 }
 
 // ── Upload CSV / Excel ────────────────────────────────────────────────────────
