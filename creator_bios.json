@@ -27,7 +27,10 @@
     "creds": "PharmD"
   },
   "Emily Wilson": {
-    "creds": "Medical Assistant"
+    "creds": "Medical Assistant",
+    "_all": {
+      "creds": "Medical Assistant"
+    }
   },
   "Cherilyn": {
     "creds": "Medical Doctor, Pediatrician"
