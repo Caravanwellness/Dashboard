@@ -137,12 +137,13 @@
     "teacher": "Kanwal Haq"
   },
   "VLB-1182": {
-    "teacher": "Dr. Emma",
-    "_at": "2026-07-20T19:58:38.634Z"
+    "teacher": "Dr. Emma Guzman",
+    "_at": "2026-07-22T18:33:18.876Z",
+    "author": "Dr. Emma Guzman"
   },
   "VLB-1184": {
-    "author": "Dr. Emma",
-    "_at": "2026-07-20T19:58:41.225Z"
+    "author": "Dr. Emma Guzman",
+    "_at": "2026-07-22T18:33:18.876Z"
   },
   "ALB-0062": {
     "peer_reviewer": "Diane McNaught",
@@ -16664,5 +16665,49 @@
   "VLB-1158": {
     "teacher": "Hafsa Benzzi",
     "_at": "2026-07-22T18:33:02.753Z"
+  },
+  "VID-0284": {
+    "author": "Dr. Emma Guzman",
+    "_at": "2026-07-22T18:33:18.876Z"
+  },
+  "VID-0285": {
+    "author": "Dr. Emma Guzman",
+    "_at": "2026-07-22T18:33:18.876Z"
+  },
+  "VID-0286": {
+    "author": "Dr. Emma Guzman",
+    "_at": "2026-07-22T18:33:18.876Z"
+  },
+  "VID-0289": {
+    "author": "Dr. Emma Guzman",
+    "_at": "2026-07-22T18:33:18.876Z"
+  },
+  "VID-0291": {
+    "author": "Dr. Emma Guzman",
+    "_at": "2026-07-22T18:33:18.876Z"
+  },
+  "VID-0292": {
+    "author": "Dr. Emma Guzman",
+    "_at": "2026-07-22T18:33:18.876Z"
+  },
+  "VLB-1185": {
+    "author": "Dr. Emma Guzman",
+    "_at": "2026-07-22T18:33:18.876Z"
+  },
+  "VLB-1186": {
+    "author": "Dr. Emma Guzman",
+    "_at": "2026-07-22T18:33:18.876Z"
+  },
+  "VLB-1187": {
+    "author": "Dr. Emma Guzman",
+    "_at": "2026-07-22T18:33:18.876Z"
+  },
+  "VLB-1188": {
+    "author": "Dr. Emma Guzman",
+    "_at": "2026-07-22T18:33:18.876Z"
+  },
+  "VLB-1190": {
+    "author": "Dr. Emma Guzman",
+    "_at": "2026-07-22T18:33:18.876Z"
   }
 }
