@@ -143,7 +143,8 @@
   },
   "VLB-1184": {
     "author": "Dr. Emma Guzman",
-    "_at": "2026-07-22T18:33:18.876Z"
+    "_at": "2026-07-22T18:55:20.790Z",
+    "teacher": "Dr. Emma Guzman"
   },
   "ALB-0062": {
     "peer_reviewer": "Diane McNaught",
@@ -16717,23 +16718,28 @@
   },
   "VLB-1185": {
     "author": "Dr. Emma Guzman",
-    "_at": "2026-07-22T18:33:18.876Z"
+    "_at": "2026-07-22T18:55:20.790Z",
+    "teacher": "Dr. Emma Guzman"
   },
   "VLB-1186": {
     "author": "Dr. Emma Guzman",
-    "_at": "2026-07-22T18:33:18.876Z"
+    "_at": "2026-07-22T18:55:20.790Z",
+    "teacher": "Dr. Emma Guzman"
   },
   "VLB-1187": {
     "author": "Dr. Emma Guzman",
-    "_at": "2026-07-22T18:33:18.876Z"
+    "_at": "2026-07-22T18:55:20.790Z",
+    "teacher": "Dr. Emma Guzman"
   },
   "VLB-1188": {
     "author": "Dr. Emma Guzman",
-    "_at": "2026-07-22T18:33:18.876Z"
+    "_at": "2026-07-22T18:55:20.790Z",
+    "teacher": "Dr. Emma Guzman"
   },
   "VLB-1190": {
     "author": "Dr. Emma Guzman",
-    "_at": "2026-07-22T18:33:18.876Z"
+    "_at": "2026-07-22T18:55:20.790Z",
+    "teacher": "Dr. Emma Guzman"
   },
   "VID-0173": {
     "author": "Julia Chan",
@@ -17876,5 +17882,26 @@
     "author": "Alexandria DeVito",
     "_at": "2026-07-22T18:55:06.212Z",
     "teacher": "Alexandria DeVito"
+  },
+  "VID-1375": {
+    "author": "Dr. Emma Guzman",
+    "_at": "2026-07-22T18:55:20.790Z"
+  },
+  "VID-1376": {
+    "author": "Dr. Emma Guzman",
+    "_at": "2026-07-22T18:55:20.790Z"
+  },
+  "VLB-1181": {
+    "author": "Dr. Emma Guzman",
+    "_at": "2026-07-22T18:55:20.790Z",
+    "teacher": "Dr. Emma Guzman"
+  },
+  "VLB-1183": {
+    "teacher": "Dr. Emma Guzman",
+    "_at": "2026-07-22T18:55:20.790Z"
+  },
+  "VLB-1189": {
+    "teacher": "Dr. Emma Guzman",
+    "_at": "2026-07-22T18:55:20.790Z"
   }
 }
