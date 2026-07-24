@@ -534,5 +534,15 @@
       "byName": "Marlee Alanis",
       "byEmail": "marlee.scott@caravanwellness.com"
     }
+  ],
+  "ALB-0001": [
+    {
+      "ts": "2026-07-24T16:38:05.349Z",
+      "field": "references",
+      "old": "Centers for Disease Control and Prevention. (2024). Alcohol use and your health. https://www.cdc.gov/alcohol/fact-sheets/alcohol-use.htm National Institute on Alcohol Abuse and Alcoholism. (2023). Rethinking drinking. https://www.niaaa.nih.gov/health-professionals-communities/rethinking-drinking National Institutes of Health. (2023). Alcohol’s effects on the body. https://www.niaaa.nih.gov/alcohols-effects-health/alcohols-effects-body",
+      "new": "Centers for Disease Control and Prevention. (2024). Alcohol use and your health. https://www.cdc.gov/alcohol/fact-sheets/alcohol-use.htm National Institute on Alcohol Abuse and Alcoholism. (2023). Rethinking drinking. https://www.niaaa.nih.gov/health-professionals-communities/rethinking-drinking National Institutes of Health. (2023). Alcohol’s effects on the body. https://www.niaaa.nih.gov/alcohols-effects-health/alcohols-effects-body ",
+      "byName": "Madeline McGuire",
+      "byEmail": "madeline.mcguire@caravanwellness.com"
+    }
   ]
 }
