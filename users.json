@@ -23,5 +23,10 @@
     "name": "Sayak Maity",
     "passwordHash": "9264202b8754fc5b1cb32b3c38521e3140826728e9ca532816b1b9b4a6273597",
     "createdAt": "2026-07-22T19:02:39.516Z"
+  },
+  "amanda.martinez@caravanwellness.com": {
+    "name": "Amanda Martinez",
+    "passwordHash": "9c3d27b7122ed301f6f99bd4ec1fe88814e6ff0e44bcf1456a50b7614259c6a1",
+    "createdAt": "2026-07-24T15:37:44.559Z"
   }
 }
