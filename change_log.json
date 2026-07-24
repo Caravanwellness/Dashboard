@@ -554,5 +554,15 @@
       "byName": "Amanda Martinez",
       "byEmail": "amanda.martinez@caravanwellness.com"
     }
+  ],
+  "ALB-0053": [
+    {
+      "ts": "2026-07-24T19:14:41.383Z",
+      "field": "references",
+      "old": "Nystoriak MA, Bhatnagar A. *Cardiovascular Effects and Benefits of Exercise.* **Frontiers in Cardiovascular Medicine.** 2018;5:135. https://www.frontiersin.org/articles/10.3389/fcvm.2018.00135/full",
+      "new": "",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    }
   ]
 }
