@@ -2372,6 +2372,9 @@ const EDIT_CHART_MAP = {
   'transcripts':       'transcript_available',
   'subtitles/captions':'subtitles_available',
   'references':'references',
+  // Licensed content sheet columns
+  'video length':'duration','client':'_client_aggregate','teacher':'teacher',
+  'video name':'_match_title','url':'vimeo_link',
 };
 
 async function handleEditChart(input) {
@@ -2414,32 +2417,84 @@ async function handleEditChart(input) {
   }
 
   if (!norm.length) { statusEl.textContent = '⚠ No data found.'; return; }
-  if (norm[0]['id'] === undefined) { statusEl.textContent = '⚠ No "ID" column found — export the chart first, then re-upload.'; return; }
+
+  const hasId = norm[0]['id'] !== undefined;
+  const hasTitleMatch = norm[0]['video name'] !== undefined || norm[0]['title'] !== undefined;
+  if (!hasId && !hasTitleMatch) {
+    statusEl.textContent = '⚠ No "ID" or "Video Name"/"Title" column found.';
+    return;
+  }
 
   // Build bulk changes
   const bulk = [];
   const byId = {};
   ALL.forEach(i => byId[i.id] = i);
 
-  for (const row of norm) {
-    const id = String(row['id'] || '').trim();
-    if (!id || !byId[id]) continue;
+  // Build title→id index for title-based matching
+  const byTitle = {};
+  ALL.forEach(i => { byTitle[(i.title||'').toLowerCase().trim()] = i.id; });
 
-    for (const [header, raw] of Object.entries(row)) {
-      if (header === 'id') continue;
-      const field = EDIT_CHART_MAP[header];
-      if (!field) continue;
-      if (raw === null || raw === undefined || String(raw).trim() === '') continue;
+  if (hasId) {
+    // Original ID-based path
+    for (const row of norm) {
+      const id = String(row['id'] || '').trim();
+      if (!id || !byId[id]) continue;
+      for (const [header, raw] of Object.entries(row)) {
+        if (header === 'id') continue;
+        const field = EDIT_CHART_MAP[header];
+        if (!field || field.startsWith('_')) continue;
+        if (raw === null || raw === undefined || String(raw).trim() === '') continue;
+        let val = String(raw).trim();
+        if (field === 'licenses') val = val.split(';').map(s => s.trim()).filter(Boolean);
+        const current = lv(byId[id], field);
+        if (String(current) === String(val)) continue;
+        if (!edits[id]) edits[id] = {};
+        edits[id][field] = val;
+        bulk.push({ id, field, value: val });
+      }
+    }
+  } else {
+    // Title-based matching: group rows by matched item ID
+    const grouped = {}; // id → { fields: {field: lastVal}, clients: Set }
+    const titleKey = norm[0]['video name'] !== undefined ? 'video name' : 'title';
 
-      let val = String(raw).trim();
-      if (field === 'licenses') val = val.split(';').map(s => s.trim()).filter(Boolean);
+    for (const row of norm) {
+      const titleRaw = String(row[titleKey]||'').toLowerCase().trim();
+      const id = byTitle[titleRaw];
+      if (!id) continue;
+      if (!grouped[id]) grouped[id] = { fields: {}, clients: new Set() };
+      for (const [header, raw] of Object.entries(row)) {
+        const field = EDIT_CHART_MAP[header];
+        if (!field || field === '_match_title') continue;
+        if (raw === null || raw === undefined || String(raw).trim() === '') continue;
+        const val = String(raw).trim();
+        if (field === '_client_aggregate') {
+          grouped[id].clients.add(val);
+        } else {
+          grouped[id].fields[field] = val;
+        }
+      }
+    }
 
-      const current = lv(byId[id], field);
-      if (String(current) === String(val)) continue;
-
-      if (!edits[id]) edits[id] = {};
-      edits[id][field] = val;
-      bulk.push({ id, field, value: val });
+    for (const [id, { fields, clients }] of Object.entries(grouped)) {
+      const item = byId[id];
+      if (clients.size > 0) {
+        const existing = (lv(item, 'licenses') || []);
+        const merged = [...new Set([...existing, ...clients])].sort();
+        const current = JSON.stringify((lv(item,'licenses')||[]).slice().sort());
+        if (JSON.stringify(merged) !== current) {
+          if (!edits[id]) edits[id] = {};
+          edits[id]['licenses'] = merged;
+          bulk.push({ id, field: 'licenses', value: merged });
+        }
+      }
+      for (const [field, val] of Object.entries(fields)) {
+        const current = lv(item, field);
+        if (String(current) === val) continue;
+        if (!edits[id]) edits[id] = {};
+        edits[id][field] = val;
+        bulk.push({ id, field, value: val });
+      }
     }
   }
 
