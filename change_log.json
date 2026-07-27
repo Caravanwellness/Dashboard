@@ -2426,5 +2426,15 @@
       "byName": "Amanda Martinez",
       "byEmail": "amanda.martinez@caravanwellness.com"
     }
+  ],
+  "ALB-0252": [
+    {
+      "ts": "2026-07-27T20:02:42.639Z",
+      "field": "references",
+      "old": "American Heart Association. (2023). *Physical therapy and stroke recovery*. https://www.heart.org Centers for Disease Control and Prevention. (2023). *Stroke rehabilitation: Physical therapy*. https://www.cdc.gov Mayo Clinic. (2022). *Stroke rehabilitation: Physical therapy tips*. https://www.mayoclinic.org Langhorne, P., Bernhardt, J., & Kwakkel, G. (2011). *Stroke rehabilitation*. *The Lancet, 377*(9778), 1693–1702. https://doi.org/10.1016/S0140-6736(11)60325-5",
+      "new": "",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    }
   ]
 }
