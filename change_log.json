@@ -2270,5 +2270,15 @@
       "byName": "Amanda Martinez",
       "byEmail": "amanda.martinez@caravanwellness.com"
     }
+  ],
+  "ALB-0242": [
+    {
+      "ts": "2026-07-27T19:53:46.930Z",
+      "field": "references",
+      "old": "American Academy of Dermatology. “Sun Protection.” American Academy of Dermatology, n.d. https://www.aad.org/public/everyday-care/sun-protection Centers for Disease Control and Prevention. “Sun Safety.” Centers for Disease Control and Prevention, n.d. https://www.cdc.gov/skin-cancer/sun-safety Skin Cancer Foundation. “Prevention Guidelines.” Skin Cancer Foundation, n.d. https://www.skincancer.org/skin-cancer-prevention World Health Organization. “Ultraviolet Radiation.” World Health Organization, n.d. https://www.who.int/news-room/questions-and-answers/item/radiation-ultraviolet-(uv)",
+      "new": "CDC. (2026). Sun safety facts. https://www.cdc.gov/skin-cancer/sun-safety/index.html\nAmerican Academy of Dermatology. (2025). How to prevent skin cancer. https://www.aad.org/public/diseases/skin-cancer/prevent/how\nCureus. (2024). Sunscreen safety and efficacy for the prevention of cutaneous neoplasm. https://pmc.ncbi.nlm.nih.gov/articles/PMC11022667/",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    }
   ]
 }
