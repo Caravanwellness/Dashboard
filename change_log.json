@@ -2199,6 +2199,14 @@
   ],
   "ALB-0229": [
     {
+      "ts": "2026-07-27T19:44:18.332Z",
+      "field": "references",
+      "old": "",
+      "new": "Harvard T.H. Chan School of Public Health. (2024). Fiber and fermented foods may aid microbiome, overall health. https://hsph.harvard.edu/news/fiber-fermented-food-microbiome/\nStanford Medicine. (2021). Fermented-food diet increases microbiome diversity, decreases inflammatory proteins, study finds. https://med.stanford.edu/news/all-news/2021/07/fermented-food-diet-increases-microbiome-diversity-lowers-inflammation.html\nMicrobial Biotechnology. (2024). Fermented foods, their microbiome and its potential in boosting human health. https://pmc.ncbi.nlm.nih.gov/articles/PMC10886436/",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    },
+    {
       "ts": "2026-07-27T19:41:43.293Z",
       "field": "references",
       "old": "American Medical Association. (2025). *From kimchi to kefir: What to tell patients about fermented foods.* American Medical Association. https://www.ama-assn.org/public-health/prevention-wellness/kimchi-kefir-what-tell-patients-about-fermented-foods?utm_source=chatgpt.com National Library of Medicine. (2019). *Fermented foods: Definitions and impact on the gut.* National Institutes of Health. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6723656/ Stanford Prevention Research Center. (2025). *Fermenting the Facts: A Science-Based Guide to Fermented Foods.* Stanford Medicine. https://med.stanford.edu/nutrition/education/Resources/Fermenting-the-Facts.html?utm_source=chatgpt.com",
