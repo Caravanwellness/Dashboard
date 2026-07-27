@@ -1985,6 +1985,14 @@
   ],
   "ALB-0207": [
     {
+      "ts": "2026-07-27T19:22:02.481Z",
+      "field": "references",
+      "old": "",
+      "new": "Cleveland Clinic. (2023). Yes, there is such a thing as stress sickness. https://health.clevelandclinic.org/what-happens-when-your-immune-system-gets-stressed-out\nObesity Reviews. (2023). Glucocorticoids, stress and eating: The mediating role of appetite-regulating hormones. https://pmc.ncbi.nlm.nih.gov/articles/PMC10077914/\nFrontiers in Psychology. (2024). The impact of stress on sleep quality: A mediation analysis based on longitudinal data. https://pmc.ncbi.nlm.nih.gov/articles/PMC11532129/",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    },
+    {
       "ts": "2026-07-27T19:19:26.270Z",
       "field": "references",
       "old": "World Health Organization (WHO). “Stress.” World Health Organization, 2022. Healthline. “Stress and your immune system: Is there a link?” Healthline, 2023. Cleveland Clinic. “What happens when your immune system gets stressed out?” Cleveland Clinic, 2023.",
