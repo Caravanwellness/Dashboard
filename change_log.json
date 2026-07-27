@@ -2145,6 +2145,14 @@
   ],
   "ALB-0224": [
     {
+      "ts": "2026-07-27T19:38:16.224Z",
+      "field": "references",
+      "old": "",
+      "new": "Cleveland Clinic. (2023). Caregiver burnout: What it is, symptoms & prevention. https://my.clevelandclinic.org/health/diseases/9225-caregiver-burnout\nPLoS One. (2024). Effect of compassion fatigue on emotional labor in female nurses: Moderating effect of self-compassion. https://pmc.ncbi.nlm.nih.gov/articles/PMC10977725/\nJournal of Research in Nursing. (2023). The mediating role of empathy in the impact of compassion fatigue on burnout among nurses. https://pmc.ncbi.nlm.nih.gov/articles/PMC10741259/",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    },
+    {
       "ts": "2026-07-27T19:38:03.395Z",
       "field": "references",
       "old": "Figley, C. R. (2002). “Compassion fatigue: Psychotherapists’ chronic lack of self-care.” *Journal of Clinical Psychology*, 58(11), 1433–1443. Stamm, B. H. (2010). *The ProQOL Manual: The Professional Quality of Life Scale: Compassion Satisfaction and Compassion Fatigue Version 5.1.*",
