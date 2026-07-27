@@ -830,5 +830,15 @@
       "byName": "Jade Gordon",
       "byEmail": "jade.gordon@caravanwellness.com"
     }
+  ],
+  "ART-0186": [
+    {
+      "ts": "2026-07-27T13:48:38.373Z",
+      "field": "category",
+      "old": "General",
+      "new": "Dental Health",
+      "byName": "Jade Gordon",
+      "byEmail": "jade.gordon@caravanwellness.com"
+    }
   ]
 }
