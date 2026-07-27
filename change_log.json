@@ -1240,5 +1240,15 @@
       "byName": "Amanda Martinez",
       "byEmail": "amanda.martinez@caravanwellness.com"
     }
+  ],
+  "ALB-0096": [
+    {
+      "ts": "2026-07-27T18:10:08.700Z",
+      "field": "references",
+      "old": "1. Office of Dietary Supplements, National Institutes of Health. *B vitamins*. Office of Dietary Supplements, National Institutes of Health, 2023. https://ods.od.nih.gov/factsheets/BVitamins-HealthProfessional",
+      "new": "Office of Dietary Supplements, National Institutes of Health. (2023). Vitamin B12—consumer. https://ods.od.nih.gov/factsheets/VitaminB12-Consumer/\nThe Nutrition Source, Harvard T.H. Chan School of Public Health. (2023). Vitamin B. https://nutritionsource.hsph.harvard.edu/vitamins/vitamin-b/\nInternational Journal of Medical Sciences. (2023). A functional evaluation of anti-fatigue and exercise performance improvement following vitamin B complex supplementation in healthy humans, a randomized double-blind trial. https://www.medsci.org/v20p1272.htm",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    }
   ]
 }
