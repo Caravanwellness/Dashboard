@@ -1653,6 +1653,14 @@
   ],
   "ALB-0159": [
     {
+      "ts": "2026-07-27T18:51:00.584Z",
+      "field": "references",
+      "old": "",
+      "new": "Cleveland Clinic. (2026). Premature & early menopause: Symptoms & treatment. https://my.clevelandclinic.org/health/diseases/21138-premature-and-early-menopause\nJohns Hopkins Medicine. (2025). Perimenopause. https://www.hopkinsmedicine.org/health/conditions-and-diseases/perimenopause\nnpj Women's Health. (2025). Perimenopause symptoms, severity, and healthcare seeking in women in the US. https://www.nature.com/articles/s44294-025-00061-3",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    },
+    {
       "ts": "2026-07-27T18:50:38.207Z",
       "field": "references",
       "old": "1. World Health Organization. (2021). *Menopause and midlife health: A global perspective*. Geneva: WHO. 2. Climacteric. (2020). *Early perimenopause: Symptoms and management strategies*. 3. Journal of Women’s Health. (2019). *Hormonal changes and health outcomes in early perimenopause*.",
