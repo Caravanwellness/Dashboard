@@ -1560,5 +1560,15 @@
       "byName": "Amanda Martinez",
       "byEmail": "amanda.martinez@caravanwellness.com"
     }
+  ],
+  "ALB-0145": [
+    {
+      "ts": "2026-07-27T18:41:29.562Z",
+      "field": "references",
+      "old": "US Surgeon General. Smoking Cessation A Report of the Surgeon General. 2020. Caporale A, Langham MC, Guo W, et al. Acute effects of electronic cigarette aerosol inhalation on vascular function by quantitative MRI. Radiology. 2019. Moheimani RS, Bhetraratana M, Yin F, et al. Increased cardiac sympathetic activity and oxidative stress after electronic cigarette use. JAMA Cardiology. 2017. Qasim H, Karim ZA, Rivera JO, et al. Short term electronic cigarette exposure increases thrombogenesis and enhances platelet function in mice. Arteriosclerosis Thrombosis and Vascular Biology. 2018. Salamanca JC, Meehan Ashley, et al. Electronic cigarettes can emit formaldehyde at high levels under dry puff conditions. Scientific Reports. 2018. Layden JE, Ghinai I, Pray I, et al. Pulmonary illness related to electronic cigarette or vaping product use. New England Journal of Medicine. 2020.",
+      "new": "",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    }
   ]
 }
