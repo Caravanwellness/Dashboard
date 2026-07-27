@@ -2383,6 +2383,14 @@
   ],
   "ALB-0248": [
     {
+      "ts": "2026-07-27T19:58:01.907Z",
+      "field": "references",
+      "old": "",
+      "new": "American Heart Association. (2025). What is atrial fibrillation (AFib or AF)? https://www.heart.org/en/health-topics/atrial-fibrillation/what-is-atrial-fibrillation-afib-or-af\nCenters for Disease Control and Prevention. (2024). About atrial fibrillation. https://www.cdc.gov/heart-disease/about/atrial-fibrillation.html\nMayo Clinic. (2026). Atrial fibrillation—symptoms and causes. https://www.mayoclinic.org/diseases-conditions/atrial-fibrillation/symptoms-causes/syc-20350624",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    },
+    {
       "ts": "2026-07-27T19:57:51.225Z",
       "field": "references",
       "old": "American Heart Association – Atrial Fibrillation https://www.heart.org/en/health-topics/atrial-fibrillation Mayo Clinic – Atrial Fibrillation https://www.mayoclinic.org/diseases-conditions/atrial-fibrillation/symptoms-causes/syc-20350624 National Heart, Lung, and Blood Institute – Atrial Fibrillation https://www.nhlbi.nih.gov/health/atrial-fibrillation Cleveland Clinic – Atrial Fibrillation https://my.clevelandclinic.org/health/diseases/16890-atrial-fibrillation",
