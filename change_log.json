@@ -2439,6 +2439,14 @@
   ],
   "ALB-0253": [
     {
+      "ts": "2026-07-27T20:09:09.516Z",
+      "field": "references",
+      "old": "",
+      "new": "Cleveland Clinic. (2026). Social anxiety disorder (social phobia): Symptoms & treatment. https://my.clevelandclinic.org/health/diseases/22709-social-anxiety\nInternational Journal of Environmental Research and Public Health. (2023). Romantic duration, relationship quality, and attachment insecurity among dating couples. https://www.mdpi.com/1660-4601/20/1/856\nJournal of Marital and Family Therapy. (2025). Attachment anxiety and relationship satisfaction in the digital era: The contribution of social media jealousy and electronic partner surveillance. https://onlinelibrary.wiley.com/doi/10.1111/jmft.70074",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    },
+    {
       "ts": "2026-07-27T20:06:16.355Z",
       "field": "references",
       "old": "Campbell, L., Simpson, J. A., Boldry, J., & Kashy, D. A. (2005). Perceptions of conflict and support in romantic relationships: The role of attachment anxiety. *Journal of Personality and Social Psychology, 88*(3), 510–531. Knobloch, L. K., & Theiss, J. A. (2011). Relational uncertainty and partner interference in romantic relationships. *Communication Monographs, 78*(3), 304–324. Whisman, M. A. (2007). Marital distress and DSM-IV psychiatric disorders in a population-based national survey. *Journal of Abnormal Psychology, 116*(3), 638–643.",
