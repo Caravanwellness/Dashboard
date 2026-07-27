@@ -1632,5 +1632,15 @@
       "byName": "Amanda Martinez",
       "byEmail": "amanda.martinez@caravanwellness.com"
     }
+  ],
+  "ALB-0158": [
+    {
+      "ts": "2026-07-27T18:50:13.052Z",
+      "field": "references",
+      "old": "World Health Organization. (2021). *Sleep health during midlife transitions*. Geneva: WHO. Sleep Medicine Reviews. (2020). *Hormonal influences on insomnia in perimenopausal women*. Menopause. (2019). *Managing sleep disturbances in perimenopause: A review of approaches*.",
+      "new": "",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    }
   ]
 }
