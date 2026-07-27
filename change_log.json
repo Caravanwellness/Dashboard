@@ -929,6 +929,14 @@
   ],
   "ART-0229": [
     {
+      "ts": "2026-07-27T13:58:30.446Z",
+      "field": "category",
+      "old": "Nutrition",
+      "new": "Health",
+      "byName": "Jade Gordon",
+      "byEmail": "jade.gordon@caravanwellness.com"
+    },
+    {
       "ts": "2026-07-27T13:58:13.030Z",
       "field": "category",
       "old": "General",
