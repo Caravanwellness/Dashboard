@@ -1704,5 +1704,15 @@
       "byName": "Amanda Martinez",
       "byEmail": "amanda.martinez@caravanwellness.com"
     }
+  ],
+  "ALB-0165": [
+    {
+      "ts": "2026-07-27T18:55:55.622Z",
+      "field": "references",
+      "old": "Ergonomics Society of South Africa. (n.d.). *Healthy sitting habits at work*. Ergonomics Society of South Africa. https://www.ergonomics.org.za World Health Organization. (2020). *Physical activity guidelines*. World Health Organization. https://www.who.int/publications/i/item/9789240015128 Australian Government Department of Health. (n.d.). *Be active: Sitting less*. Australian Government Department of Health. https://www.health.gov.au",
+      "new": "",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    }
   ]
 }
