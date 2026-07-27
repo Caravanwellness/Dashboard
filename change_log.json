@@ -1650,5 +1650,15 @@
       "byName": "Amanda Martinez",
       "byEmail": "amanda.martinez@caravanwellness.com"
     }
+  ],
+  "ALB-0159": [
+    {
+      "ts": "2026-07-27T18:50:38.207Z",
+      "field": "references",
+      "old": "1. World Health Organization. (2021). *Menopause and midlife health: A global perspective*. Geneva: WHO. 2. Climacteric. (2020). *Early perimenopause: Symptoms and management strategies*. 3. Journal of Women’s Health. (2019). *Hormonal changes and health outcomes in early perimenopause*.",
+      "new": "",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    }
   ]
 }
