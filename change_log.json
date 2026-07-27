@@ -1376,5 +1376,15 @@
       "byName": "Amanda Martinez",
       "byEmail": "amanda.martinez@caravanwellness.com"
     }
+  ],
+  "ALB-0115": [
+    {
+      "ts": "2026-07-27T18:19:39.683Z",
+      "field": "references",
+      "old": "World Health Organization. (2020). *Physical activity*. World Health Organization. https://www.who.int/news-room/fact-sheets/detail/physical-activity Lee, I. M., Shiroma, E. J., Lobelo, F., Puska, P., Blair, S. N., & Katzmarzyk, P. T. (2012). *Effect of physical inactivity on major non-communicable diseases worldwide*. *The Lancet, 380*(9838), 219–229. https://doi.org/10.1016/S0140-6736(12)61031-9 Australian Institute of Health and Welfare. (2023). *Physical activity and health*. Australian Government. https://www.aihw.gov.au/reports/physical-activity/physical-activity-and-health",
+      "new": "Circulation (American Heart Association). (2022). Long-term leisure-time physical activity intensity and all-cause and cause-specific mortality: A prospective cohort of US adults. https://www.ahajournals.org/doi/10.1161/CIRCULATIONAHA.121.058162\nBritish Journal of Sports Medicine. (2024). Outrunning the grim reaper: Longevity of the first 200 sub-4 min mile male runners. https://pubmed.ncbi.nlm.nih.gov/38729629/\nJAMA Network Open. (2024). Physical activity and all-cause mortality by age in 4 multinational megacohorts. https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2826554",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    }
   ]
 }
