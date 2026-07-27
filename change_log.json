@@ -1668,5 +1668,15 @@
       "byName": "Amanda Martinez",
       "byEmail": "amanda.martinez@caravanwellness.com"
     }
+  ],
+  "ALB-0161": [
+    {
+      "ts": "2026-07-27T18:51:21.985Z",
+      "field": "references",
+      "old": "World Health Organization. (2021). *Mental health and menopause: A holistic view*. Geneva: WHO. Journal of Affective Disorders. (2020). *Hormonal fluctuations and anxiety in midlife women*. Menopause International. (2019). *Psychological symptoms during perimenopause and management strategies*.",
+      "new": "",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    }
   ]
 }
