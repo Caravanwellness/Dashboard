@@ -1967,6 +1967,14 @@
   ],
   "ALB-0206": [
     {
+      "ts": "2026-07-27T19:18:58.357Z",
+      "field": "references",
+      "old": "",
+      "new": "Centers for Disease Control and Prevention. (2024). About sleep. https://www.cdc.gov/sleep/about/index.html\nNational Heart, Lung, and Blood Institute. (2022). Sleep deprivation and deficiency—healthy sleep habits. https://www.nhlbi.nih.gov/health/sleep-deprivation/healthy-sleep-habits\nMayo Clinic. (2025). Sleep tips: 6 steps to better sleep. https://www.mayoclinic.org/healthy-lifestyle/adult-health/in-depth/sleep/art-20048379",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    },
+    {
       "ts": "2026-07-27T19:18:48.192Z",
       "field": "references",
       "old": "American Academy of Sleep Medicine. *Healthy sleep habits.* Sleep Education. n.d. http://www.sleepeducation.org Centers for Disease Control and Prevention. *Sleep and Health.* CDC. n.d. http://www.cdc.gov/sleep National Sleep Foundation. *Tips for better sleep.* National Sleep Foundation. n.d. http://www.thensf.org",
