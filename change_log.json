@@ -1758,5 +1758,15 @@
       "byName": "Amanda Martinez",
       "byEmail": "amanda.martinez@caravanwellness.com"
     }
+  ],
+  "ALB-0170": [
+    {
+      "ts": "2026-07-27T19:00:04.450Z",
+      "field": "references",
+      "old": "Edmondson, A. (2019). *The Fearless Organization*. Wiley. https://www.hbr.org/2019/01/the-fearless-organization Harvard Business Review. (2022). *Building psychological safety at work*. Harvard Business Review. https://hbr.org/2022/06/building-psychological-safety-at-work American Psychological Association. (2023). *Workplace well-being*. American Psychological Association. https://www.apa.org/topics/workplace",
+      "new": "",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    }
   ]
 }
