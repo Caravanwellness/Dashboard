@@ -1949,6 +1949,14 @@
   ],
   "ALB-0205": [
     {
+      "ts": "2026-07-27T19:18:38.851Z",
+      "field": "references",
+      "old": "",
+      "new": "SLEEP Advances. (2025). A performance validation of six commercial wrist-worn wearable sleep-tracking devices for sleep stage scoring compared to polysomnography. https://academic.oup.com/sleepadvances/article/6/2/zpaf021/8090472\nJMIR mHealth and uHealth. (2023). Accuracy of 11 wearable, nearable, and airable consumer sleep trackers: Prospective multicenter validation study. https://mhealth.jmir.org/2023/1/e50983\nAmerican Academy of Sleep Medicine. (2025). Staying current with actigraphy devices for sleep-wake monitoring. https://aasm.org/staying-current-with-actigraphy-devices-for-sleep-wake-monitoring/",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    },
+    {
       "ts": "2026-07-27T19:18:28.900Z",
       "field": "references",
       "old": "1. Chtourou, H., & Souissi, N. (2012). *The effect of sleep deprivation on the performance of athletes*. *Journal of Sports Science and Medicine*. https://www.jssm.org/ 2. Moser, D., & Gauthier, S. (2020). *Wearable technology and sleep tracking: An overview of benefits and challenges*. *Sleep Health*. https://www.sleephealth.org/ 3. Walker, M. (2017). *Why we sleep: The new science of sleep and dreams*. Scribner. https://www.scribnerbooks.com/",
