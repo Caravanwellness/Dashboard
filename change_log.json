@@ -2127,6 +2127,14 @@
   ],
   "ALB-0223": [
     {
+      "ts": "2026-07-27T19:37:51.527Z",
+      "field": "references",
+      "old": "",
+      "new": "American Cancer Society. (2025). Tips for caregiver burnout. https://www.cancer.org/cancer/latest-news/tips-for-caregiver-burnout.html\nCleveland Clinic. (2023). Caregiver burnout: What it is, symptoms & prevention. https://my.clevelandclinic.org/health/diseases/9225-caregiver-burnout\nBMC Public Health. (2024). The impact of caregiver burden on quality of life in family caregivers of patients with advanced cancer: A moderated mediation analysis of the role of psychological distress and family resilience. https://pmc.ncbi.nlm.nih.gov/articles/PMC10941369/",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    },
+    {
       "ts": "2026-07-27T19:35:30.561Z",
       "field": "references",
       "old": "World Health Organization. (2022). *Mental health and caregiving support*. International Journal of Care and Caring. (2023). *Psychological impacts of caregiving during serious illness*. The Lancet Psychiatry. (2021). *Preventing caregiver burnout: Evidence-based interventions*.",
