@@ -2088,5 +2088,15 @@
       "byName": "Amanda Martinez",
       "byEmail": "amanda.martinez@caravanwellness.com"
     }
+  ],
+  "ALB-0219": [
+    {
+      "ts": "2026-07-27T19:25:02.193Z",
+      "field": "references",
+      "old": "1. National Institutes of Health (NIH). (2023). **Health Topics A-Z**. NIH. https://www.nih.gov/health-information 2. Mayo Clinic. (2023). **Medical Tests and Procedures**. Mayo Clinic. https://www.mayoclinic.org/tests-procedures 3. Cleveland Clinic. (2023). **Understanding Your Medical Tests**. Cleveland Clinic.",
+      "new": "",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    }
   ]
 }
