@@ -1440,5 +1440,15 @@
       "byName": "Amanda Martinez",
       "byEmail": "amanda.martinez@caravanwellness.com"
     }
+  ],
+  "ALB-0119": [
+    {
+      "ts": "2026-07-27T18:21:07.175Z",
+      "field": "references",
+      "old": "World Health Organization. (2020). *Mental health and psychosocial considerations during recovery*. World Health Organization. https://www.who.int/publications/i/item/WHO-2019-nCoV-MentalHealth-2020.1 Bonanno, G. A. (2004). *Loss, trauma, and human resilience*. *American Psychologist, 59*(1), 20–28. https://doi.org/10.1037/0003-066X.59.1.20 National Health Service. (2022). *Building resilience*. National Health Service. https://www.nhs.uk/mental-health/self-help/guides-tools-and-activities/building-resilience/",
+      "new": "",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    }
   ]
 }
