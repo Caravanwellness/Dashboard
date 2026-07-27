@@ -2319,6 +2319,14 @@
   ],
   "ALB-0244": [
     {
+      "ts": "2026-07-27T19:56:12.811Z",
+      "field": "references",
+      "old": "",
+      "new": "National Heart, Lung, and Blood Institute. (2022). Anemia—iron-deficiency anemia. https://www.nhlbi.nih.gov/health/anemia/iron-deficiency-anemia\nMayo Clinic. (2025). Iron deficiency anemia—diagnosis & treatment. https://www.mayoclinic.org/diseases-conditions/iron-deficiency-anemia/diagnosis-treatment/drc-20355040\nCurrent Pediatric Reviews. (2024). Iron deficiency anemia: An updated review. https://pubmed.ncbi.nlm.nih.gov/37497686/",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    },
+    {
       "ts": "2026-07-27T19:56:02.470Z",
       "field": "references",
       "old": "Mayo Clinic. “Anemia.” Mayo Clinic. URL: https://www.mayoclinic.org/diseases-conditions/anemia/symptoms-causes/syc-20351360 National Heart, Lung, and Blood Institute. “Anemia.” NHLBI. URL: https://www.nhlbi.nih.gov/health/anemia Cleveland Clinic. “Anemia.” Cleveland Clinic. URL: https://my.clevelandclinic.org/health/diseases/4085-anemia World Health Organization. “Anaemia.” WHO. URL: https://www.who.int/health-topics/anaemia",
