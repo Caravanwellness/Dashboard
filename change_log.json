@@ -1358,5 +1358,15 @@
       "byName": "Amanda Martinez",
       "byEmail": "amanda.martinez@caravanwellness.com"
     }
+  ],
+  "ALB-0108": [
+    {
+      "ts": "2026-07-27T18:16:14.764Z",
+      "field": "references",
+      "old": "World Health Organization (WHO). (2023). *Step Safely: Strategies for preventing and managing falls across the life-course*. World Health Organization. Cleveland Clinic. (2024). *How To Use a Cane*. Cleveland Clinic.",
+      "new": "",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    }
   ]
 }
