@@ -1856,5 +1856,15 @@
       "byName": "Amanda Martinez",
       "byEmail": "amanda.martinez@caravanwellness.com"
     }
+  ],
+  "ALB-0189": [
+    {
+      "ts": "2026-07-27T19:08:33.851Z",
+      "field": "references",
+      "old": "United Nations Educational, Scientific and Cultural Organization. (2021). *Emotional intelligence in early childhood development*. URL not provided. *Developmental Psychology*. (2020). *Parental influence on children’s emotional regulation*. URL not provided. *Journal of Child and Family Studies*. (2019). *Modeling emotional intelligence: Strategies for parents*. URL not provided.",
+      "new": "",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    }
   ]
 }
