@@ -1304,5 +1304,15 @@
       "byName": "Amanda Martinez",
       "byEmail": "amanda.martinez@caravanwellness.com"
     }
+  ],
+  "ALB-0101": [
+    {
+      "ts": "2026-07-27T18:11:50.669Z",
+      "field": "references",
+      "old": "Monteiro, C. A., et al. (2022). *Ultra-processed foods and human health: From epidemiology to action*. *Public Health Nutrition*. Rauber, F., et al. (2021). *Consumption of ultra-processed foods and its impact on public health*. *Nutrients*. Lacy, K. E., et al. (2022). *Children’s diet and the role of ultra-processed foods in childhood obesity*. *Journal of Pediatrics*.",
+      "new": "",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    }
   ]
 }
