@@ -2242,5 +2242,15 @@
       "byName": "Amanda Martinez",
       "byEmail": "amanda.martinez@caravanwellness.com"
     }
+  ],
+  "ALB-0239": [
+    {
+      "ts": "2026-07-27T19:50:27.205Z",
+      "field": "references",
+      "old": "Levinger, P., Wallman, S., Hill, K., et al. (2012). “Balance dysfunction and falls in people with lower limb arthritis: factors contributing to risk and effectiveness of exercise interventions.” *European Review of Aging and Physical Activity*. URL not provided. Mat, S., Tan, M. P., Kamaruzzaman, S. B., & Ng, C. T. (2015). “Physical therapies for improving balance and reducing falls risk in osteoarthritis of the knee: a systematic review.” *Age and Ageing*. URL not provided. Zhang, Y., Chan, G., Lee, E., et al. (2023). “Association of knee and hip osteoarthritis with the risk of falls.” *Arthritis Research & Therapy*. URL not provided. Guirguis-Blake, J. M., Perdue, L. A., Coppola, E. L., & Bean, S. I. (2024). “Interventions to prevent falls in older adults: Updated Evidence Report and Systematic Review for the U.S. Preventive Services Task Force.” *JAMA*. URL not provided.",
+      "new": "",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    }
   ]
 }
