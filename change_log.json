@@ -2142,5 +2142,15 @@
       "byName": "Amanda Martinez",
       "byEmail": "amanda.martinez@caravanwellness.com"
     }
+  ],
+  "ALB-0224": [
+    {
+      "ts": "2026-07-27T19:38:03.395Z",
+      "field": "references",
+      "old": "Figley, C. R. (2002). “Compassion fatigue: Psychotherapists’ chronic lack of self-care.” *Journal of Clinical Psychology*, 58(11), 1433–1443. Stamm, B. H. (2010). *The ProQOL Manual: The Professional Quality of Life Scale: Compassion Satisfaction and Compassion Fatigue Version 5.1.*",
+      "new": "",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    }
   ]
 }
