@@ -1931,6 +1931,14 @@
   ],
   "ALB-0204": [
     {
+      "ts": "2026-07-27T19:18:13.106Z",
+      "field": "references",
+      "old": "",
+      "new": "NIH News in Health. (2021). Good sleep for good health. https://newsinhealth.nih.gov/2021/04/good-sleep-good-health\nNational Heart, Lung, and Blood Institute. (2022). Sleep deprivation and deficiency—healthy sleep habits. https://www.nhlbi.nih.gov/health/sleep-deprivation/healthy-sleep-habits\nCleveland Clinic. (2026). Rest easy: 8 ways to improve your sleep hygiene. https://health.clevelandclinic.org/sleep-hygiene",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    },
+    {
       "ts": "2026-07-27T19:16:15.094Z",
       "field": "references",
       "old": "Centers for Disease Control and Prevention (CDC). (2022). *Sleep and Sleep Disorders*. Centers for Disease Control and Prevention. https://www.cdc.gov/sleep/index.html Walker, M. (2017). *Why We Sleep: Unlocking the Power of Sleep and Dreams*. Scribner. American Academy of Sleep Medicine. (2017). *The International Classification of Sleep Disorders – Third Edition (ICSD-3)*. American Academy of Sleep Medicine.",
