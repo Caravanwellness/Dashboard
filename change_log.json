@@ -1074,5 +1074,15 @@
       "byName": "Jade Gordon",
       "byEmail": "jade.gordon@caravanwellness.com"
     }
+  ],
+  "ALB-0036": [
+    {
+      "ts": "2026-07-27T16:06:53.987Z",
+      "field": "references",
+      "old": "1. World Health Organization. (2023). *Cancer: Understanding benign and malignant tumors*. 2. International Agency for Research on Cancer. (2022). *Tumor classification and behavior*. 3. European Society for Medical Oncology. (2023). *Overview of tumor biology*.",
+      "new": "American Cancer Society. (2025). What are neoplasms and tumors? https://www.cancer.org/cancer/understanding-cancer/what-is-cancer/neoplasms-and-tumors.html\nCleveland Clinic. (2024). Benign tumor: Definition, types & symptoms. https://my.clevelandclinic.org/health/diseases/22121-benign-tumor\nMedlinePlus. (2025). Benign tumors. https://medlineplus.gov/benigntumors.html",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    }
   ]
 }
