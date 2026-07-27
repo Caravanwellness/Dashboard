@@ -2055,6 +2055,14 @@
   ],
   "ALB-0217": [
     {
+      "ts": "2026-07-27T19:24:29.266Z",
+      "field": "references",
+      "old": "",
+      "new": "New England Journal of Medicine. (2023). Semaglutide and cardiovascular outcomes in obesity without diabetes. https://www.nejm.org/doi/full/10.1056/NEJMoa2307563\nNature Medicine. (2022). Two-year effects of semaglutide in adults with overweight or obesity: The STEP 5 trial. https://www.nature.com/articles/s41591-022-02026-4\nMayo Clinic. (2024). Diabetes drugs and weight loss. https://www.mayoclinic.org/diseases-conditions/type-2-diabetes/expert-answers/byetta/faq-20057955",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    },
+    {
       "ts": "2026-07-27T19:24:19.365Z",
       "field": "references",
       "old": "American Association of Clinical Endocrinology (AACE). (2021). *Obesity Management*. AACE. https://www.aace.com/disease-state-resources/obesity-management",
