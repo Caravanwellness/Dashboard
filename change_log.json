@@ -870,5 +870,15 @@
       "byName": "Jade Gordon",
       "byEmail": "jade.gordon@caravanwellness.com"
     }
+  ],
+  "ART-0193": [
+    {
+      "ts": "2026-07-27T13:54:15.939Z",
+      "field": "category",
+      "old": "General",
+      "new": "Children's Health",
+      "byName": "Jade Gordon",
+      "byEmail": "jade.gordon@caravanwellness.com"
+    }
   ]
 }
