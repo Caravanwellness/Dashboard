@@ -800,5 +800,15 @@
       "byName": "Jade Gordon",
       "byEmail": "jade.gordon@caravanwellness.com"
     }
+  ],
+  "ART-0171": [
+    {
+      "ts": "2026-07-27T13:44:03.378Z",
+      "field": "category",
+      "old": "General",
+      "new": "Movement",
+      "byName": "Jade Gordon",
+      "byEmail": "jade.gordon@caravanwellness.com"
+    }
   ]
 }
