@@ -2073,6 +2073,14 @@
   ],
   "ALB-0218": [
     {
+      "ts": "2026-07-27T19:24:48.304Z",
+      "field": "references",
+      "old": "",
+      "new": "Diabetes, Obesity and Metabolism. (2024). Changes in lean body mass with glucagon-like peptide-1-based therapies and mitigation strategies. https://dom-pubs.onlinelibrary.wiley.com/doi/10.1111/dom.15728\nDiabetes Research and Clinical Practice. (2025). GLP-1 receptor agonists and sarcopenia: Weight loss at a cost? A brief narrative review. https://www.diabetesresearchclinicalpractice.com/article/S0168-8227(25)00938-6/abstract\nCleveland Clinic. (2025). Can Ozempic cause you to lose muscle? https://health.clevelandclinic.org/ozempic-muscle-loss",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    },
+    {
       "ts": "2026-07-27T19:24:38.016Z",
       "field": "references",
       "old": "1. Lingvay I, Catarig AM, Frias JP, et al. *Efficacy and safety of once-weekly semaglutide versus daily canagliflozin as add-on to metformin in patients with type 2 diabetes (SUSTAIN 8): a double-blind, phase 3b, randomised controlled trial.* **Lancet Diabetes Endocrinol.** 2019;7(11):834-844. URL: not provided. 2. Frías JP, Davies MJ, Rosenstock J, et al. *Tirzepatide versus semaglutide once weekly in patients with type 2 diabetes.* **N Engl J Med.** 2021;385(6):503-515. URL: not provided. 3. American Diabetes Association. *Pharmacologic approaches to glycemic treatment: standards of medical care in diabetes-2021.* **Diabetes Care.** 2021;44(Suppl 1). URL: not provided.",
