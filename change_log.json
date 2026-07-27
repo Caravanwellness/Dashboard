@@ -1820,5 +1820,15 @@
       "byName": "Amanda Martinez",
       "byEmail": "amanda.martinez@caravanwellness.com"
     }
+  ],
+  "ALB-0187": [
+    {
+      "ts": "2026-07-27T19:07:56.218Z",
+      "field": "references",
+      "old": "World Health Organization: Oral Health National Health Service (NHS): Oral Health in Older Adults Federation Dentaire Internationale (FDI): Oral Health Resources",
+      "new": "",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    }
   ]
 }
