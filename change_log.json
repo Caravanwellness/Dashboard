@@ -1268,5 +1268,15 @@
       "byName": "Amanda Martinez",
       "byEmail": "amanda.martinez@caravanwellness.com"
     }
+  ],
+  "ALB-0098": [
+    {
+      "ts": "2026-07-27T18:10:48.177Z",
+      "field": "references",
+      "old": "Willett, W. C., Sacks, F., Trichopoulou, A., et al. (1995). *Mediterranean Diet Pyramid: A Cultural Model for Healthy Eating.* American Journal of Clinical Nutrition. URL: not provided. Kagawa, Y. (1978). *Impact of Westernization on the Nutrition of Japanese: Changes in Physique, Cancer, Longevity, and Centenarians.* Preventive Medicine. URL: not provided. Hu, F. B., & Willett, W. C. (2002). *Healthy Dietary Patterns and the Prevention of Cardiovascular Disease.* Source not specified in article. URL: not provided.",
+      "new": "",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    }
   ]
 }
