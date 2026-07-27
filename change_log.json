@@ -1779,6 +1779,14 @@
   ],
   "ALB-0171": [
     {
+      "ts": "2026-07-27T19:02:53.612Z",
+      "field": "references",
+      "old": "",
+      "new": "Centers for Disease Control and Prevention. (2026). Maternal diet and breastfeeding. https://www.cdc.gov/breastfeeding-special-circumstances/hcp/diet-micronutrients/maternal-diet.html\nMayo Clinic. (2025). Breastfeeding nutrition: Tips for moms. https://www.mayoclinic.org/healthy-lifestyle/infant-and-toddler-health/in-depth/breastfeeding-nutrition/art-20046912\nJournal of Family Medicine and Primary Care. (2024). Nutritional experiences of postpartum mothers—a qualitative study. https://pmc.ncbi.nlm.nih.gov/articles/PMC11141956/",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    },
+    {
       "ts": "2026-07-27T19:00:49.195Z",
       "field": "references",
       "old": "The Bump. (2025). *Postpartum nutrition: The best foods for your recovering body*. https://www.thebump.com/a/postpartum-food\n\nWhat to Expect. (2025). *A faster postpartum recovery.* https://americanpregnancy.org/healthy-pregnancy/first-year-of-life/postpartum-recovery-2\n\nWhat to Expect. (2021). *Your postpartum nutrition guide.* https://www.whattoexpect.com/first-year/postpartum/postpartum-diet-nutrition-questions-answered/",
