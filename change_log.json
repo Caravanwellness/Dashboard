@@ -1545,6 +1545,14 @@
   ],
   "ALB-0141": [
     {
+      "ts": "2026-07-27T18:40:54.491Z",
+      "field": "references",
+      "old": "",
+      "new": "National Institute on Drug Abuse. (2021). Is nicotine addictive? https://nida.nih.gov/publications/research-reports/tobacco-nicotine-e-cigarettes/nicotine-addictive\nCleveland Clinic. (2022). Dopamine: What it is, function & symptoms. https://my.clevelandclinic.org/health/articles/22581-dopamine\nPharmacological Reviews. (2022). Neurobiological mechanisms of nicotine reward and aversion. https://pmc.ncbi.nlm.nih.gov/articles/PMC11060337/",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    },
+    {
       "ts": "2026-07-27T18:37:18.266Z",
       "field": "references",
       "old": "World Health Organization. (2022). Neuroscience of substance use and dependence. World Health Organization. https://www.who.int/publications/i/item/WHO-MSD-MER-17.3 European Monitoring Centre for Drugs and Drug Addiction. (2023). Drugs and the brain. EMCDDA. https://www.emcdda.europa.eu/publications/drug-profiles/brain Volkow, N. D., Koob, G. F., & McLellan, A. T. (2016). Neurobiologic advances from the brain disease model of addiction. The New England Journal of Medicine, 374(4), 363–371. https://doi.org/10.1056/NEJMra1511480",
