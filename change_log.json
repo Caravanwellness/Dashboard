@@ -2124,5 +2124,15 @@
       "byName": "Amanda Martinez",
       "byEmail": "amanda.martinez@caravanwellness.com"
     }
+  ],
+  "ALB-0223": [
+    {
+      "ts": "2026-07-27T19:35:30.561Z",
+      "field": "references",
+      "old": "World Health Organization. (2022). *Mental health and caregiving support*. International Journal of Care and Caring. (2023). *Psychological impacts of caregiving during serious illness*. The Lancet Psychiatry. (2021). *Preventing caregiver burnout: Evidence-based interventions*.",
+      "new": "",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    }
   ]
 }
