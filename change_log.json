@@ -1489,6 +1489,14 @@
   ],
   "ALB-0123": [
     {
+      "ts": "2026-07-27T18:33:23.877Z",
+      "field": "references",
+      "old": "",
+      "new": "Medicina. (2025). The impact of social support on postoperative recovery in retinal detachment surgery. https://pmc.ncbi.nlm.nih.gov/articles/PMC11857662/\nJournal of Health Psychology. (2022). Social support and pre-operative anxiety in patients undergoing elective surgical procedures: A systematic review and meta-analysis. https://journals.sagepub.com/doi/10.1177/13591053221116969\nFrontiers in Psychology. (2023). Social support score in patients with malignant diseases—with sociodemographic and medical characteristics. https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1160020/full",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    },
+    {
       "ts": "2026-07-27T18:33:01.378Z",
       "field": "references",
       "old": "1. World Health Organization. (2020). *Rehabilitation and recovery*. World Health Organization. https://www.who.int/health-topics/rehabilitation 2. National Health Service. (2023). *Getting support after illness*. National Health Service. https://www.nhs.uk/mental-health/self-help/guides-tools-and-activities/getting-support/ 3. Mayo Clinic. (2022). *Social support and health*. Mayo Clinic. https://www.mayoclinic.org/healthy-lifestyle/stress-management/in-depth/social-support/art-20044445",
