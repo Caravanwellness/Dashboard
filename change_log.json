@@ -2255,6 +2255,14 @@
   ],
   "ALB-0241": [
     {
+      "ts": "2026-07-27T19:53:17.064Z",
+      "field": "references",
+      "old": "",
+      "new": "American Cancer Society. (2025). Physical activity when you have cancer. https://www.cancer.org/cancer/survivorship/be-healthy-after-treatment/physical-activity-and-the-cancer-patient.html\nWorld Health Organization. (2024). Physical activity. https://www.who.int/news-room/fact-sheets/detail/physical-activity\nCancers. (2022). Physical activity and cancer care—a review. https://pmc.ncbi.nlm.nih.gov/articles/PMC9454950/",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    },
+    {
       "ts": "2026-07-27T19:53:04.197Z",
       "field": "references",
       "old": "1. American Cancer Society. *Physical Activity and Cancer*. American Cancer Society. No date provided. https://www.cancer.org/cancer/risk-prevention/diet-physical-activity/physical-activity-and-cancer.html 2. National Cancer Institute. *Exercise and Physical Activity for Cancer Survivors*. National Cancer Institute. No date provided. https://www.cancer.gov/about-cancer/treatment/side-effects/physical-effects/exercise-fact-sheet 3. World Health Organization. *Physical Activity*. World Health Organization. No date provided. https://www.who.int/news-room/fact-sheets/detail/physical-activity 4. Schmitz, K. H., et al. (2019). *Exercise is medicine in oncology*. *CA: A Cancer Journal for Clinicians*. 2019. https://acsjournals.onlinelibrary.wiley.com/doi/10.3322/caac.21579",
