@@ -2235,6 +2235,14 @@
   ],
   "ALB-0238": [
     {
+      "ts": "2026-07-27T19:54:56.658Z",
+      "field": "references",
+      "old": "",
+      "new": "Centers for Disease Control and Prevention. (2026). Preventing Falls and Hip Fractures. https://www.cdc.gov/falls/prevention/index.html\n\nNational Institute on Aging. (2022). Preventing Falls at Home: Room by Room. https://www.nia.nih.gov/health/falls-and-falls-prevention/preventing-falls-home-room-room\n\nMayo Clinic. (2024). Fall prevention: Simple tips to prevent falls. https://www.mayoclinic.org/healthy-lifestyle/healthy-aging/in-depth/fall-prevention/art-20047358",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    },
+    {
       "ts": "2026-07-27T19:46:36.253Z",
       "field": "references",
       "old": "Cumming, R. G. (2013). *Intervention strategies and risk-factor modification for falls prevention.* *Clinics in Geriatric Medicine, 26*(4), 655–692. https://doi.org/10.1016/j.cger.2010.07.003 Lord, S. R., Sherrington, C., & Close, J. (2020). *Falls prevention in older people: Risk factors and strategies for prevention.* Cambridge University Press. https://doi.org/10.1017/CBO9780511997126 Shumway-Cook, A., & Woollacott, M. H. (2017). *Motor control and stroke recovery.* *Motor Control: Translating Research into Clinical Practice,* 5, 550–572. https://doi.org/10.1111/j.1532-5415.2009.02616.x",
