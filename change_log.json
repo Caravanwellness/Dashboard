@@ -2000,5 +2000,15 @@
       "byName": "Amanda Martinez",
       "byEmail": "amanda.martinez@caravanwellness.com"
     }
+  ],
+  "ALB-0208": [
+    {
+      "ts": "2026-07-27T19:22:12.116Z",
+      "field": "references",
+      "old": "National Sleep Foundation. (2021). *How Much REM Sleep Do You Need?* Source not specified in the article. URL not provided. Walker, M. P. (2009). *The Role of Sleep in Cognition and Emotion.* Source not specified in the article. URL not provided.",
+      "new": "",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    }
   ]
 }
