@@ -820,5 +820,15 @@
       "byName": "Jade Gordon",
       "byEmail": "jade.gordon@caravanwellness.com"
     }
+  ],
+  "ART-0182": [
+    {
+      "ts": "2026-07-27T13:46:18.205Z",
+      "field": "category",
+      "old": "General",
+      "new": "Diabetes",
+      "byName": "Jade Gordon",
+      "byEmail": "jade.gordon@caravanwellness.com"
+    }
   ]
 }
