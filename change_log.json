@@ -2196,5 +2196,15 @@
       "byName": "Amanda Martinez",
       "byEmail": "amanda.martinez@caravanwellness.com"
     }
+  ],
+  "ALB-0229": [
+    {
+      "ts": "2026-07-27T19:41:43.293Z",
+      "field": "references",
+      "old": "American Medical Association. (2025). *From kimchi to kefir: What to tell patients about fermented foods.* American Medical Association. https://www.ama-assn.org/public-health/prevention-wellness/kimchi-kefir-what-tell-patients-about-fermented-foods?utm_source=chatgpt.com National Library of Medicine. (2019). *Fermented foods: Definitions and impact on the gut.* National Institutes of Health. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6723656/ Stanford Prevention Research Center. (2025). *Fermenting the Facts: A Science-Based Guide to Fermented Foods.* Stanford Medicine. https://med.stanford.edu/nutrition/education/Resources/Fermenting-the-Facts.html?utm_source=chatgpt.com",
+      "new": "",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    }
   ]
 }
