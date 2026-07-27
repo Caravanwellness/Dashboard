@@ -1578,5 +1578,15 @@
       "byName": "Amanda Martinez",
       "byEmail": "amanda.martinez@caravanwellness.com"
     }
+  ],
+  "ALB-0146": [
+    {
+      "ts": "2026-07-27T18:41:55.174Z",
+      "field": "references",
+      "old": "Centers for Disease Control and Prevention. (2024). Health effects of vaping. CDC. https://www.cdc.gov/tobacco/e-cigarettes/health-effects.html U.S. Department of Health and Human Services. (2023). Vaping 101: Lung damage and chemicals. HHS. https://digitalmedia.hhs.gov/tobacco/educator_hub/vaping_101/lung_damage_and_chemicals",
+      "new": "",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    }
   ]
 }
