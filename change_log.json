@@ -1514,5 +1514,15 @@
       "byName": "Amanda Martinez",
       "byEmail": "amanda.martinez@caravanwellness.com"
     }
+  ],
+  "ALB-0137": [
+    {
+      "ts": "2026-07-27T18:35:53.173Z",
+      "field": "references",
+      "old": "Centers for Disease Control and Prevention. (2024). Benefits of quitting smoking. CDC. https://www.cdc.gov/tobacco/about/benefits-of-quitting.html NHS. (2023). Benefits of quitting smoking. NHS. https://www.nhs.uk/better-health/quit-smoking/why-quit-smoking/benefits-of-quitting-smoking/",
+      "new": "",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    }
   ]
 }
