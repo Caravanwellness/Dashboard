@@ -1913,6 +1913,14 @@
   ],
   "ALB-0202": [
     {
+      "ts": "2026-07-27T19:15:22.254Z",
+      "field": "references",
+      "old": "",
+      "new": "Mayo Clinic. (2025). *Sleep apnea*. Retrieved from https://www.mayoclinic.org/diseases-conditions/sleep-apnea\n\nNational Heart, Lung, and Blood Institute. (2025). *What is sleep apnea?* Retrieved from https://www.nhlbi.nih.gov/health/sleep-apnea",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    },
+    {
       "ts": "2026-07-27T19:15:09.242Z",
       "field": "references",
       "old": "Mayo Clinic. (2025). *Sleep apnea*. Retrieved from https://www.mayoclinic.org/diseases-conditions/sleep-apnea National Heart, Lung, and Blood Institute. (2025). *What is sleep apnea?* Retrieved from https://www.nhlbi.nih.gov/health/sleep-apnea American Academy of Sleep Medicine. (2012). *Understanding sleep apnea*. Retrieved from https://sleepeducation.org/sleep-apnea",
