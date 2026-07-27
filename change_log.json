@@ -1389,6 +1389,14 @@
   ],
   "ALB-0116": [
     {
+      "ts": "2026-07-27T18:20:03.600Z",
+      "field": "references",
+      "old": "",
+      "new": "International Journal of Environmental Research and Public Health. (2021). Associations between nature exposure and health: A review of the evidence. https://www.mdpi.com/1660-4601/18/9/4790\nFrontiers in Public Health. (2025). Effects of urban green exercise on mental health: A systematic review and meta-analysis. https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2025.1677223/full\nApplied Psychology: Health and Well-Being. (2022). Psychological benefits of outdoor physical activity in natural versus urban environments: A systematic review and meta-analysis of experimental studies. https://iaap-journals.onlinelibrary.wiley.com/doi/10.1111/aphw.12353",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    },
+    {
       "ts": "2026-07-27T18:19:49.877Z",
       "field": "references",
       "old": "World Health Organization. (2020). *Physical activity*. World Health Organization. https://www.who.int/news-room/fact-sheets/detail/physical-activity British Journal of Sports Medicine. (2019). *Green exercise and mental wellbeing*. *British Journal of Sports Medicine*. https://bjsm.bmj.com/content/53/5/263 University of Exeter Medical School. (2019). *Spending time in nature and health outcomes*. *Scientific Reports, 9*(1), 7730. https://www.nature.com/articles/s41598-019-44097-3",
