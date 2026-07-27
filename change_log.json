@@ -644,5 +644,15 @@
       "byName": "Jade Gordon",
       "byEmail": "jade.gordon@caravanwellness.com"
     }
+  ],
+  "ART-0148": [
+    {
+      "ts": "2026-07-27T13:33:48.436Z",
+      "field": "category",
+      "old": "General",
+      "new": "Vaping & Tobacco",
+      "byName": "Jade Gordon",
+      "byEmail": "jade.gordon@caravanwellness.com"
+    }
   ]
 }
