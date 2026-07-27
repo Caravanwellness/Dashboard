@@ -1253,6 +1253,14 @@
   ],
   "ALB-0097": [
     {
+      "ts": "2026-07-27T18:10:33.559Z",
+      "field": "references",
+      "old": "",
+      "new": "Monash University (Monash Lens). (2025). 20 years of FODMAP: The Monash discovery that revolutionised IBS care. https://lens.monash.edu/20-years-of-fodmap-the-monash-discovery-that-revolutionised-ibs-care/\nGut. (2022). Efficacy of a low FODMAP diet in irritable bowel syndrome: Systematic review and network meta-analysis. https://pubmed.ncbi.nlm.nih.gov/34376515/\nFrontiers in Nutrition. (2021). A low-FODMAP diet improves the global symptoms and bowel habits of adult IBS patients: A systematic review and meta-analysis. https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2021.683191/full",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    },
+    {
       "ts": "2026-07-27T18:10:21.289Z",
       "field": "references",
       "old": "Staudacher, H. M., Lomer, M. C. E., & Faraj, A. (2014). *The Low FODMAP Diet for the Management of Irritable Bowel Syndrome: A Systematic Review and Meta-Analysis*. *Journal of Gastroenterology and Hepatology*, 29(2), 206–216. Halmos, E. P., Power, V. M., Shepherd, S. J., et al. (2014). *A Diet Low in FODMAPs Reduces Symptoms of Irritable Bowel Syndrome*. *Gastroenterology*, 146(1), 67–75. McKenzie, Y. A., et al. (2020). *British Dietetic Association Evidence-Based Guidelines for the Dietary Management of Irritable Bowel Syndrome*. *Journal of Human Nutrition and Dietetics*, 33(4), 516–523.",
