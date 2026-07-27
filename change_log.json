@@ -1064,5 +1064,15 @@
       "byName": "Jade Gordon",
       "byEmail": "jade.gordon@caravanwellness.com"
     }
+  ],
+  "ART-0250": [
+    {
+      "ts": "2026-07-27T14:03:04.230Z",
+      "field": "category",
+      "old": "General",
+      "new": "Heart Disease",
+      "byName": "Jade Gordon",
+      "byEmail": "jade.gordon@caravanwellness.com"
+    }
   ]
 }
