@@ -1340,5 +1340,15 @@
       "byName": "Amanda Martinez",
       "byEmail": "amanda.martinez@caravanwellness.com"
     }
+  ],
+  "ALB-0104": [
+    {
+      "ts": "2026-07-27T18:15:08.191Z",
+      "field": "references",
+      "old": "MedlinePlus. (2024). Foot injuries and disorders. https://medlineplus.gov/footinjuriesanddisorders.html National Health Service. (2023). Foot pain. https://www.nhs.uk/conditions/foot-pain/ Centers for Disease Control and Prevention. (2023). Older adult falls. https://www.cdc.gov/falls/index.html",
+      "new": "",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    }
   ]
 }
