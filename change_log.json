@@ -1841,6 +1841,14 @@
   ],
   "ALB-0188": [
     {
+      "ts": "2026-07-27T19:08:25.463Z",
+      "field": "references",
+      "old": "",
+      "new": "American Dental Association. (2023). Chewing gum. https://www.ada.org/resources/ada-library/oral-health-topics/chewing-gum\nFrontiers in Oral Health. (2023). A concise review of chewing gum as an anti-cariogenic agent. https://www.frontiersin.org/journals/oral-health/articles/10.3389/froh.2023.1213523/full\nEuropean Archives of Paediatric Dentistry. (2024). The effect of xylitol chewing gums and candies on caries occurrence in children: A systematic review with special reference to caries level at study baseline. https://link.springer.com/article/10.1007/s40368-024-00875-w",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    },
+    {
       "ts": "2026-07-27T19:08:15.680Z",
       "field": "references",
       "old": "American Dental Association Oral Health Recommendations - https://www.ada.org/resources/research/science-and-research-institute/oral-health-topics Journal of Dental Research, Saliva and Oral Health Study - https://journals.sagepub.com/home/jdr International Dental Hygiene Association, Gum Chewing Research Report - https://www.dentalhygiene.org/research",
