@@ -1838,5 +1838,15 @@
       "byName": "Amanda Martinez",
       "byEmail": "amanda.martinez@caravanwellness.com"
     }
+  ],
+  "ALB-0188": [
+    {
+      "ts": "2026-07-27T19:08:15.680Z",
+      "field": "references",
+      "old": "American Dental Association Oral Health Recommendations - https://www.ada.org/resources/research/science-and-research-institute/oral-health-topics Journal of Dental Research, Saliva and Oral Health Study - https://journals.sagepub.com/home/jdr International Dental Hygiene Association, Gum Chewing Research Report - https://www.dentalhygiene.org/research",
+      "new": "",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    }
   ]
 }
