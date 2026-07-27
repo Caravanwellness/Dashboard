@@ -1322,5 +1322,15 @@
       "byName": "Amanda Martinez",
       "byEmail": "amanda.martinez@caravanwellness.com"
     }
+  ],
+  "ALB-0103": [
+    {
+      "ts": "2026-07-27T18:14:46.194Z",
+      "field": "references",
+      "old": "1. Popkin, B. M., D’Anci, K. E., & Rosenberg, I. H. (2010). “Water, Hydration, and Health.” *Nutrition Reviews*, 68(8), 439–458. URL: not provided. 2. Riebl, S. K., & Davy, B. M. (2013). “The Hydration Equation: Update on Water Balance and Cognitive Performance.” *ACSMs Health & Fitness Journal*, 17(6), 21–28. URL: not provided. 3. Sawka, M. N., Cheuvront, S. N., & Carter, R. (2005). “Human water needs.” *Nutrition Reviews*, 63(Suppl 1), S30–S39. URL: not provided.",
+      "new": "",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    }
   ]
 }
