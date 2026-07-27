@@ -1407,6 +1407,14 @@
   ],
   "ALB-0117": [
     {
+      "ts": "2026-07-27T18:20:25.735Z",
+      "field": "references",
+      "old": "",
+      "new": "Mayo Clinic. (2026). Exercise helps ease arthritis pain and stiffness. https://www.mayoclinic.org/diseases-conditions/arthritis/in-depth/arthritis/art-20047971\nCleveland Clinic. (2025). 7 types of low-impact cardio workouts. https://health.clevelandclinic.org/low-impact-cardio\nOrthopaedic Journal of Sports Medicine. (2023). Exercise therapy for knee osteoarthritis: A systematic review and network meta-analysis. https://journals.sagepub.com/doi/10.1177/23259671231172773",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    },
+    {
       "ts": "2026-07-27T18:20:17.221Z",
       "field": "references",
       "old": "World Health Organization. (2020). Physical activity. World Health Organization. https://www.who.int/news-room/fact-sheets/detail/physical-activity National Institute on Aging. (2023). Exercise and physical activity. National Institute on Aging. https://www.nia.nih.gov/health/exercise-physical-activity British Journal of Sports Medicine. (2018). Physical activity and joint health. British Journal of Sports Medicine, 52(6), 356–363. https://bjsm.bmj.com/content/52/6/356",
