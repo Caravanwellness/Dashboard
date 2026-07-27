@@ -1823,6 +1823,14 @@
   ],
   "ALB-0187": [
     {
+      "ts": "2026-07-27T19:08:05.690Z",
+      "field": "references",
+      "old": "",
+      "new": "National Institute on Aging. (2024). Taking care of your teeth and mouth. https://www.nia.nih.gov/health/teeth-and-mouth/taking-care-your-teeth-and-mouth\nCDC (National Center for Health Statistics). (2024). Dental care among adults age 65 and older: United States, 2022 (NCHS Data Brief No. 500). https://www.cdc.gov/nchs/products/databriefs/db500.htm\nInternational Journal of Environmental Research and Public Health. (2022). Dental care for older adults. https://pmc.ncbi.nlm.nih.gov/articles/PMC9819414/",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    },
+    {
       "ts": "2026-07-27T19:07:56.218Z",
       "field": "references",
       "old": "World Health Organization: Oral Health National Health Service (NHS): Oral Health in Older Adults Federation Dentaire Internationale (FDI): Oral Health Resources",
