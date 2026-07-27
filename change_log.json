@@ -750,5 +750,15 @@
       "byName": "Jade Gordon",
       "byEmail": "jade.gordon@caravanwellness.com"
     }
+  ],
+  "ART-0162": [
+    {
+      "ts": "2026-07-27T13:39:19.587Z",
+      "field": "category",
+      "old": "General",
+      "new": "Women's Health",
+      "byName": "Jade Gordon",
+      "byEmail": "jade.gordon@caravanwellness.com"
+    }
   ]
 }
