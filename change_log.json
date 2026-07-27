@@ -2217,6 +2217,14 @@
   ],
   "ALB-0230": [
     {
+      "ts": "2026-07-27T19:49:18.151Z",
+      "field": "references",
+      "old": "",
+      "new": "Cleveland Clinic. (2023). What Is Your Gut Microbiome? https://my.clevelandclinic.org/health/body/25201-gut-microbiome\n\nHarvard T.H. Chan School of Public Health, The Nutrition Source. (2025). The Microbiome. https://nutritionsource.hsph.harvard.edu/microbiome/\n\nMicroorganisms. (2022). Dietary Fiber Intake and Gut Microbiota in Human Health. https://www.mdpi.com/2076-2607/10/12/2507",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    },
+    {
       "ts": "2026-07-27T19:44:31.195Z",
       "field": "references",
       "old": "National Library of Medicine. (2022). *Dietary Fiber Intake and Gut Microbiota in Human Health.* National Institutes of Health. https://pmc.ncbi.nlm.nih.gov/articles/PMC9787832/ ScienceDirect. (2022). *The gut microbiome: linking dietary fiber to inflammatory diseases.* ScienceDirect. https://www.sciencedirect.com/science/article/pii/S2590097822000209 Gut Microbiota For Health. (2018). *Certain types of fiber may be more beneficial for the gut microbiome than others.* European Society of Neurogastroenterology & Motility. https://www.gutmicrobiotaforhealth.com/certain-types-of-fiber-may-be-more-beneficial-for-the-gut-microbiome-than-others/",
