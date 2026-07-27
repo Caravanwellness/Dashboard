@@ -2380,5 +2380,15 @@
       "byName": "Amanda Martinez",
       "byEmail": "amanda.martinez@caravanwellness.com"
     }
+  ],
+  "ALB-0248": [
+    {
+      "ts": "2026-07-27T19:57:51.225Z",
+      "field": "references",
+      "old": "American Heart Association – Atrial Fibrillation https://www.heart.org/en/health-topics/atrial-fibrillation Mayo Clinic – Atrial Fibrillation https://www.mayoclinic.org/diseases-conditions/atrial-fibrillation/symptoms-causes/syc-20350624 National Heart, Lung, and Blood Institute – Atrial Fibrillation https://www.nhlbi.nih.gov/health/atrial-fibrillation Cleveland Clinic – Atrial Fibrillation https://my.clevelandclinic.org/health/diseases/16890-atrial-fibrillation",
+      "new": "",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    }
   ]
 }
