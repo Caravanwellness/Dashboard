@@ -2398,5 +2398,15 @@
       "byName": "Amanda Martinez",
       "byEmail": "amanda.martinez@caravanwellness.com"
     }
+  ],
+  "ALB-0250": [
+    {
+      "ts": "2026-07-27T20:00:33.361Z",
+      "field": "references",
+      "old": "American Heart Association – Living With Atrial Fibrillation https://www.heart.org/en/health-topics/atrial-fibrillation Mayo Clinic – Atrial Fibrillation: Monitoring and Care https://www.mayoclinic.org/diseases-conditions/atrial-fibrillation/diagnosis-treatment/drc-20350628 Cleveland Clinic – AFib Monitoring https://my.clevelandclinic.org/health/diseases/16890-atrial-fibrillation National Heart, Lung, and Blood Institute – Atrial Fibrillation https://www.nhlbi.nih.gov/health/atrial-fibrillation",
+      "new": "Cleveland Clinic Journal of Medicine. (2024). Consumer-grade wearable cardiac monitors: What they do well, and what needs work. https://www.ccjm.org/content/91/1/23\n\nCenters for Disease Control and Prevention. (2024). About Atrial Fibrillation. https://www.cdc.gov/heart-disease/about/atrial-fibrillation.html\n\nCirculation (American Heart Association). (2024). 2023 ACC/AHA/ACCP/HRS Guideline for the Diagnosis and Management of Atrial Fibrillation. https://www.ahajournals.org/doi/10.1161/CIR.0000000000001193",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    }
   ]
 }
