@@ -954,5 +954,15 @@
       "byName": "Jade Gordon",
       "byEmail": "jade.gordon@caravanwellness.com"
     }
+  ],
+  "ART-0232": [
+    {
+      "ts": "2026-07-27T13:59:05.751Z",
+      "field": "category",
+      "old": "General",
+      "new": "Nutrition",
+      "byName": "Jade Gordon",
+      "byEmail": "jade.gordon@caravanwellness.com"
+    }
   ]
 }
