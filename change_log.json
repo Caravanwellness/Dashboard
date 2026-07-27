@@ -1054,5 +1054,15 @@
       "byName": "Jade Gordon",
       "byEmail": "jade.gordon@caravanwellness.com"
     }
+  ],
+  "ART-0249": [
+    {
+      "ts": "2026-07-27T14:02:40.791Z",
+      "field": "category",
+      "old": "General",
+      "new": "Men's Health",
+      "byName": "Jade Gordon",
+      "byEmail": "jade.gordon@caravanwellness.com"
+    }
   ]
 }
