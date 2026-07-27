@@ -2334,5 +2334,15 @@
       "byName": "Amanda Martinez",
       "byEmail": "amanda.martinez@caravanwellness.com"
     }
+  ],
+  "ALB-0245": [
+    {
+      "ts": "2026-07-27T19:56:37.558Z",
+      "field": "references",
+      "old": "American Psychological Association. “Stress.” American Psychological Association. n.d. https://www.apa.org/topics/stress Mayo Clinic. “Burnout.” Mayo Clinic. n.d. https://www.mayoclinic.org/healthy-lifestyle/adult-health/in-depth/burnout/art-20046642 National Institute of Mental Health. “Anxiety Disorders.” National Institute of Mental Health. n.d. https://www.nimh.nih.gov/health/topics/anxiety-disorders World Health Organization. “Mental Health.” World Health Organization. n.d. https://www.who.int/health-topics/mental-health",
+      "new": "World Health Organization. (2024). Mental health at work. https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work\nMayo Clinic. (2023). Job burnout: How to spot it and take action. https://www.mayoclinic.org/healthy-lifestyle/adult-health/in-depth/burnout/art-20046642\nInternational Journal of Environmental Research and Public Health. (2022). Stress, burnout, anxiety and depression among teachers: A scoping review. https://www.mdpi.com/1660-4601/19/17/10706",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    }
   ]
 }
