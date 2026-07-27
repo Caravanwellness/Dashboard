@@ -1222,5 +1222,15 @@
       "byName": "Amanda Martinez",
       "byEmail": "amanda.martinez@caravanwellness.com"
     }
+  ],
+  "ALB-0090": [
+    {
+      "ts": "2026-07-27T18:05:41.835Z",
+      "field": "references",
+      "old": "National Institutes of Health. (2024). *GLP-1 Receptor Agonists for Weight Management.* Centers for Disease Control and Prevention. (2024). *Medications for Obesity Management.* Mayo Clinic. (2024). *GLP-1 Medications: What To Know.*",
+      "new": "",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    }
   ]
 }
