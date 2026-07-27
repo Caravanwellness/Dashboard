@@ -2106,5 +2106,15 @@
       "byName": "Amanda Martinez",
       "byEmail": "amanda.martinez@caravanwellness.com"
     }
+  ],
+  "ALB-0221": [
+    {
+      "ts": "2026-07-27T19:30:36.255Z",
+      "field": "references",
+      "old": "- National Alliance for Caregiving. (2023). *Caregiving in the U.S. 2023: Executive Summary*. National Alliance for Caregiving. - Caregiver Action Network. (2023). *Managing Finances While Caring for a Loved One*. Caregiver Action Network. - AARP. (2023). *Family Caregiving Costs: Financial Strategies for Caregivers*. AARP Research.",
+      "new": "",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    }
   ]
 }
