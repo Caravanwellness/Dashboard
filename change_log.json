@@ -1874,5 +1874,15 @@
       "byName": "Amanda Martinez",
       "byEmail": "amanda.martinez@caravanwellness.com"
     }
+  ],
+  "ALB-0192": [
+    {
+      "ts": "2026-07-27T19:11:10.295Z",
+      "field": "references",
+      "old": "Zero to Three. *Zero to Three*. Source: Zero to Three. URL: https://www.zerotothree.org National Association for the Education of Young Children (NAEYC). *NAEYC*. Source: NAEYC. URL: https://www.naeyc.org Greater Good Science Center, UC Berkeley. *Greater Good Science Center*. Source: University of California, Berkeley. URL: https://greatergood.berkeley.edu",
+      "new": "",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    }
   ]
 }
