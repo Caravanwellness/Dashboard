@@ -1982,5 +1982,15 @@
       "byName": "Amanda Martinez",
       "byEmail": "amanda.martinez@caravanwellness.com"
     }
+  ],
+  "ALB-0207": [
+    {
+      "ts": "2026-07-27T19:19:26.270Z",
+      "field": "references",
+      "old": "World Health Organization (WHO). “Stress.” World Health Organization, 2022. Healthline. “Stress and your immune system: Is there a link?” Healthline, 2023. Cleveland Clinic. “What happens when your immune system gets stressed out?” Cleveland Clinic, 2023.",
+      "new": "",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    }
   ]
 }
