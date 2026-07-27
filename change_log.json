@@ -1271,6 +1271,14 @@
   ],
   "ALB-0098": [
     {
+      "ts": "2026-07-27T18:10:58.971Z",
+      "field": "references",
+      "old": "",
+      "new": "Frontiers in Nutrition. (2025). Differential effects of Mediterranean vs. Western diets on coronary atherosclerosis and peripheral artery transcriptomics. https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1564741/full\nThe Nutrition Source, Harvard T.H. Chan School of Public Health. (2023). Diet review: Mediterranean diet. https://nutritionsource.hsph.harvard.edu/healthy-weight/diet-reviews/mediterranean-diet/\nSustainability. (2025). Mediterranean diet: From ancient traditions to modern science—a sustainable way towards better health, wellness, longevity, and personalized nutrition. https://www.mdpi.com/2071-1050/17/9/4187",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    },
+    {
       "ts": "2026-07-27T18:10:48.177Z",
       "field": "references",
       "old": "Willett, W. C., Sacks, F., Trichopoulou, A., et al. (1995). *Mediterranean Diet Pyramid: A Cultural Model for Healthy Eating.* American Journal of Clinical Nutrition. URL: not provided. Kagawa, Y. (1978). *Impact of Westernization on the Nutrition of Japanese: Changes in Physique, Cancer, Longevity, and Centenarians.* Preventive Medicine. URL: not provided. Hu, F. B., & Willett, W. C. (2002). *Healthy Dietary Patterns and the Prevention of Cardiovascular Disease.* Source not specified in article. URL: not provided.",
