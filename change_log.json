@@ -1599,6 +1599,14 @@
   ],
   "ALB-0152": [
     {
+      "ts": "2026-07-27T18:46:15.071Z",
+      "field": "references",
+      "old": "",
+      "new": "National Institute on Aging. (2024). What is menopause? https://www.nia.nih.gov/health/menopause/what-menopause\nThe Menopause Society. (2025). Symptoms. https://menopause.org/patient-education/menopause-topics/symptoms\nMayo Clinic. (2024). Menopause—symptoms and causes. https://www.mayoclinic.org/diseases-conditions/menopause/symptoms-causes/syc-20353397",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    },
+    {
       "ts": "2026-07-27T18:43:31.349Z",
       "field": "references",
       "old": "Mayo Clinic. (2021). *Menopause. Symptoms & causes.* Mayo Clinic. URL not provided. American College of Obstetricians and Gynecologists. (2020). *Menopause FAQs.* ACOG. URL not provided.",
