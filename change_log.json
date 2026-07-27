@@ -1686,5 +1686,15 @@
       "byName": "Amanda Martinez",
       "byEmail": "amanda.martinez@caravanwellness.com"
     }
+  ],
+  "ALB-0162": [
+    {
+      "ts": "2026-07-27T18:55:02.779Z",
+      "field": "references",
+      "old": "World Health Organization. (2021). *Hormone replacement therapy: Guidelines for clinicians*. Geneva: WHO. Menopause Journal. (2020). *Communicating about hormone therapy: Patient and provider perspectives*. International Journal of Women’s Health. (2019). *Shared decision-making in menopause care*.",
+      "new": "",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    }
   ]
 }
