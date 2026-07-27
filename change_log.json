@@ -1776,5 +1776,15 @@
       "byName": "Amanda Martinez",
       "byEmail": "amanda.martinez@caravanwellness.com"
     }
+  ],
+  "ALB-0171": [
+    {
+      "ts": "2026-07-27T19:00:34.184Z",
+      "field": "references",
+      "old": "Brigham Health. (2018). *Postpartum nutrition after preeclampsia*. https://www.preeclampsia.org/public/frontend/assets/img/gallery/pdf/After_Preeclampsia_postpartum_nutrition_handout_for_PET_foundation_4.27.18_1.pdf The Bump. (2025). *Postpartum nutrition: The best foods for your recovering body*. https://www.thebump.com/a/postpartum-food What to Expect. (2025). *A faster postpartum recovery.* https://americanpregnancy.org/healthy-pregnancy/first-year-of-life/postpartum-recovery-2 What to Expect. (2021). *Your postpartum nutrition guide.* https://www.whattoexpect.com/first-year/postpartum/postpartum-diet-nutrition-questions-answered/",
+      "new": "",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    }
   ]
 }
