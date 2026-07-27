@@ -2362,5 +2362,15 @@
       "byName": "Amanda Martinez",
       "byEmail": "amanda.martinez@caravanwellness.com"
     }
+  ],
+  "ALB-0247": [
+    {
+      "ts": "2026-07-27T19:57:18.480Z",
+      "field": "references",
+      "old": "American Psychological Association. “Burnout.” American Psychological Association, n.d. https://www.apa.org/topics/burnout Mayo Clinic. “Stress and Burnout.” Mayo Clinic, n.d. https://www.mayoclinic.org/healthy-lifestyle/stress-management/in-depth/burnout/art-20046642 National Institute for Occupational Safety and Health. “Stress at Work.” Centers for Disease Control and Prevention, n.d. https://www.cdc.gov/niosh/topics/stress/default.html World Health Organization. “Mental Health in Men.” World Health Organization, n.d. https://www.who.int/news-room/fact-sheets/detail/mental-health-strengthening-our-response",
+      "new": "",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    }
   ]
 }
