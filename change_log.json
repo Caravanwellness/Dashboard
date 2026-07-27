@@ -1740,5 +1740,15 @@
       "byName": "Amanda Martinez",
       "byEmail": "amanda.martinez@caravanwellness.com"
     }
+  ],
+  "ALB-0169": [
+    {
+      "ts": "2026-07-27T18:57:05.888Z",
+      "field": "references",
+      "old": "American Heart Association. (2021). *Sitting and Cardiovascular Disease Risk.* American Heart Association. Mayo Clinic. (2021). *Stretching: Focus on flexibility.* Mayo Clinic.",
+      "new": "",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    }
   ]
 }
