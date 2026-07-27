@@ -1689,6 +1689,14 @@
   ],
   "ALB-0162": [
     {
+      "ts": "2026-07-27T18:55:22.791Z",
+      "field": "references",
+      "old": "",
+      "new": "Mayo Clinic. (2025). Hormone therapy: Is it right for you? https://www.mayoclinic.org/diseases-conditions/menopause/in-depth/hormone-therapy/art-20046372\nMenopause. (2022). The 2022 hormone therapy position statement of The North American Menopause Society. https://journals.lww.com/menopausejournal/fulltext/2022/07000/the_2022_hormone_therapy_position_statement_of_the.4.aspx\nCleveland Clinic. (2024). Hormone replacement therapy (HRT) for menopause. https://my.clevelandclinic.org/health/treatments/15245-hormone-therapy-for-menopause-symptoms",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    },
+    {
       "ts": "2026-07-27T18:55:02.779Z",
       "field": "references",
       "old": "World Health Organization. (2021). *Hormone replacement therapy: Guidelines for clinicians*. Geneva: WHO. Menopause Journal. (2020). *Communicating about hormone therapy: Patient and provider perspectives*. International Journal of Women’s Health. (2019). *Shared decision-making in menopause care*.",
