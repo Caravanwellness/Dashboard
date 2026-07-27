@@ -28,5 +28,10 @@
     "name": "Amanda Martinez",
     "passwordHash": "9c3d27b7122ed301f6f99bd4ec1fe88814e6ff0e44bcf1456a50b7614259c6a1",
     "createdAt": "2026-07-24T15:37:44.559Z"
+  },
+  "jade.gordon@caravanwellness.com": {
+    "name": "Jade Gordon",
+    "passwordHash": "0b4b087c0f31af17a5ef2ff6c9ea2dc23af1b8948c7c6e290e822c1d07d6a915",
+    "createdAt": "2026-07-27T13:23:44.953Z"
   }
 }
