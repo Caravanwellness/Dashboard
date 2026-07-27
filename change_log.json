@@ -1361,6 +1361,14 @@
   ],
   "ALB-0108": [
     {
+      "ts": "2026-07-27T18:18:31.763Z",
+      "field": "references",
+      "old": "",
+      "new": "MedlinePlus. (2025). Using a cane. https://medlineplus.gov/ency/patientinstructions/000343.htm\nMedlinePlus. (2025). Using a walker. https://medlineplus.gov/ency/patientinstructions/000342.htm\nNational Institute on Aging. (2022). Falls and fractures in older adults: Causes and prevention. https://www.nia.nih.gov/health/falls-and-falls-prevention/falls-and-fractures-older-adults-causes-and-prevention",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    },
+    {
       "ts": "2026-07-27T18:16:14.764Z",
       "field": "references",
       "old": "World Health Organization (WHO). (2023). *Step Safely: Strategies for preventing and managing falls across the life-course*. World Health Organization. Cleveland Clinic. (2024). *How To Use a Cane*. Cleveland Clinic.",
