@@ -1159,6 +1159,14 @@
   ],
   "ALB-0066": [
     {
+      "ts": "2026-07-27T17:17:44.004Z",
+      "field": "references",
+      "old": "",
+      "new": "World Health Organization. (2023). *Child health*. World Health Organization. https://www.who.int/health-topics/child-health\n\nCanadian Paediatric Society. (2022). *Routine health screening for children*. Canadian Paediatric Society. https://cps.ca/en/documents/position/routine-health-screening\n\nNational Health Service. (2023). *Child health checks*. National Health Service. https://www.nhs.uk/conditions/child-health-checks/\n",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    },
+    {
       "ts": "2026-07-27T17:17:33.211Z",
       "field": "references",
       "old": "American Academy of Pediatrics. (2024). Preventive care and screenings for children. https://www.aap.org U.S. Preventive Services Task Force. (2024). Screening recommendations for children and adolescents. https://www.uspreventiveservicestaskforce.org American Academy of Family Physicians. (2024). Health screenings for children. https://www.aafp.org",
