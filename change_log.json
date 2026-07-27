@@ -1471,6 +1471,14 @@
   ],
   "ALB-0122": [
     {
+      "ts": "2026-07-27T18:32:45.871Z",
+      "field": "references",
+      "old": "",
+      "new": "Supportive Care in Cancer. (2025). Fatigue trajectory and its associated factors in patients after pituitary adenoma surgery: A longitudinal study. https://link.springer.com/article/10.1007/s00520-025-09745-7\nBritish Journal of Surgery. (2023). Postoperative muscle loss, protein intake, physical activity and outcome associations. https://pmc.ncbi.nlm.nih.gov/articles/PMC10364506/\nFrontiers in Oncology. (2024). Various interventions for cancer-related fatigue in patients with breast cancer: A systematic review and network meta-analysis. https://www.frontiersin.org/journals/oncology/articles/10.3389/fonc.2024.1341927/full",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    },
+    {
       "ts": "2026-07-27T18:32:35.469Z",
       "field": "references",
       "old": "World Health Organization. (2020). *Rehabilitation and recovery*. World Health Organization. https://www.who.int/health-topics/rehabilitation National Health Service. (2023). *Coping with tiredness and fatigue*. National Health Service. https://www.nhs.uk/mental-health/self-help/guides-tools-and-activities/fatigue/ Mayo Clinic. (2022). *Fatigue: Causes and management*. Mayo Clinic. https://www.mayoclinic.org/healthy-lifestyle/adult-health/in-depth/fatigue/art-20046779",
