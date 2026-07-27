@@ -2163,6 +2163,14 @@
   ],
   "ALB-0225": [
     {
+      "ts": "2026-07-27T19:38:45.964Z",
+      "field": "references",
+      "old": "",
+      "new": "Cleveland Clinic. (2023). What is the gut-brain connection? https://my.clevelandclinic.org/health/body/the-gut-brain-connection\nNutrients. (2023). The role of gut microbiota in anxiety, depression, and other mental disorders as well as the protective effects of dietary components. https://pmc.ncbi.nlm.nih.gov/articles/PMC10384867/\nCurrent Neuropharmacology. (2024). The gut-brain axis and the microbiome in anxiety disorders, post-traumatic stress disorder and obsessive-compulsive disorder. https://pmc.ncbi.nlm.nih.gov/articles/PMC10845093/",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    },
+    {
       "ts": "2026-07-27T19:38:34.086Z",
       "field": "references",
       "old": "Mayer, E. A., Knight, R., Mazmanian, S. K., Cryan, J. F., & Tillisch, K. (2014). *Gut microbes and the brain: paradigm shift in neuroscience.* *Journal of Neuroscience, 34*(46), 15490–15496. Rieder, R., Wisniewski, P. J., & Alderman, B. L. (2017). *Microbes and mental health: A review.* *Brain, Behavior, and Immunity, 66*, 9–17.",
