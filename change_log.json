@@ -1307,6 +1307,14 @@
   ],
   "ALB-0101": [
     {
+      "ts": "2026-07-27T18:14:29.171Z",
+      "field": "references",
+      "old": "",
+      "new": "Harvard T.H. Chan School of Public Health (The Nutrition Source). (2023). Processed foods and health. https://nutritionsource.hsph.harvard.edu/processed-foods/\nBMJ. (2024). Ultra-processed food exposure and adverse health outcomes: Umbrella review of epidemiological meta-analyses. https://doi.org/10.1136/bmj-2023-077310\nCleveland Clinic. (2023). What are ultra-processed foods, and are they harmful? https://newsroom.clevelandclinic.org/2023/04/18/what-are-ultra-processed-foods-and-are-they-harmful",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    },
+    {
       "ts": "2026-07-27T18:11:50.669Z",
       "field": "references",
       "old": "Monteiro, C. A., et al. (2022). *Ultra-processed foods and human health: From epidemiology to action*. *Public Health Nutrition*. Rauber, F., et al. (2021). *Consumption of ultra-processed foods and its impact on public health*. *Nutrients*. Lacy, K. E., et al. (2022). *Children’s diet and the role of ultra-processed foods in childhood obesity*. *Journal of Pediatrics*.",
