@@ -1859,6 +1859,14 @@
   ],
   "ALB-0189": [
     {
+      "ts": "2026-07-27T19:10:35.216Z",
+      "field": "references",
+      "old": "",
+      "new": "American Academy of Pediatrics. (2024). Handling big emotions. https://www.aap.org/en/patient-care/media-and-children/center-of-excellence-on-social-media-and-youth-mental-health/qa-portal/qa-portal-library/qa-portal-library-questions/handling-big-emotions/\nFrontiers in Psychology. (2023). Profiles of parents' emotion socialization within a multinational sample of parents. https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1161418/full\nJournal of Youth and Adolescence. (2025). Parental emotion socialization and difficulties in emotion regulation in adolescents: A network analysis. https://pmc.ncbi.nlm.nih.gov/articles/PMC12532742/",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    },
+    {
       "ts": "2026-07-27T19:08:33.851Z",
       "field": "references",
       "old": "United Nations Educational, Scientific and Cultural Organization. (2021). *Emotional intelligence in early childhood development*. URL not provided. *Developmental Psychology*. (2020). *Parental influence on children’s emotional regulation*. URL not provided. *Journal of Child and Family Studies*. (2019). *Modeling emotional intelligence: Strategies for parents*. URL not provided.",
