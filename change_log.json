@@ -2344,5 +2344,15 @@
       "byName": "Amanda Martinez",
       "byEmail": "amanda.martinez@caravanwellness.com"
     }
+  ],
+  "ALB-0246": [
+    {
+      "ts": "2026-07-27T19:56:54.599Z",
+      "field": "references",
+      "old": "1. American Psychological Association. “Stress.” American Psychological Association. n.d. https://www.apa.org/topics/stress 2. Mayo Clinic. “Stress Management.” Mayo Clinic. n.d. https://www.mayoclinic.org/healthy-lifestyle/stress-management/in-depth/stress/art-20046037 3. National Institute of Mental Health. “Coping With Stress.” National Institute of Mental Health. n.d. https://www.nimh.nih.gov/health/publications/stress 4. World Health Organization. “Mental Health and Stress.” World Health Organization. n.d. https://www.who.int/news-room/fact-sheets/detail/mental-health-strengthening-our-response",
+      "new": "",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    }
   ]
 }
