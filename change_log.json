@@ -1892,5 +1892,15 @@
       "byName": "Amanda Martinez",
       "byEmail": "amanda.martinez@caravanwellness.com"
     }
+  ],
+  "ALB-0198": [
+    {
+      "ts": "2026-07-27T19:12:32.303Z",
+      "field": "references",
+      "old": "1. World Health Organization. (2020). *Hormonal health in aging men*. Geneva: WHO. 2. Endocrine Reviews. (2019). *Testosterone decline and aging: Clinical perspectives*. 3. Journal of Men’s Health. (2021). *Management of symptoms related to low testosterone*.",
+      "new": "",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    }
   ]
 }
