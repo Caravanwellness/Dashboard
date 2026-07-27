@@ -1194,5 +1194,15 @@
       "byName": "Amanda Martinez",
       "byEmail": "amanda.martinez@caravanwellness.com"
     }
+  ],
+  "ALB-0077": [
+    {
+      "ts": "2026-07-27T17:52:47.250Z",
+      "field": "references",
+      "old": "World Health Organization (WHO). (2022). *Cardiovascular Diseases (CVDs).* World Health Organization. URL: https://www.who.int/news-room/fact-sheets/detail/cardiovascular-diseases-(cvds)",
+      "new": "Centers for Disease Control and Prevention. (2024). LDL and HDL cholesterol and triglycerides. https://www.cdc.gov/cholesterol/about/ldl-and-hdl-cholesterol-and-triglycerides.html\nCirculation. (2023). Low-density lipoprotein cholesterol is predominantly associated with atherosclerotic cardiovascular disease events in patients with evidence of coronary atherosclerosis: The Western Denmark Heart Registry. https://www.ahajournals.org/doi/10.1161/CIRCULATIONAHA.122.061010\nCleveland Clinic. (2024). LDL cholesterol. https://my.clevelandclinic.org/health/articles/24391-ldl-cholesterol",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    }
   ]
 }
