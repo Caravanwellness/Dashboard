@@ -1877,6 +1877,14 @@
   ],
   "ALB-0192": [
     {
+      "ts": "2026-07-27T19:11:20.400Z",
+      "field": "references",
+      "old": "",
+      "new": "American Academy of Pediatrics (HealthyChildren.org). (2025). Beyond thanks: 5 ways to nurture gratitude in children. https://www.healthychildren.org/English/healthy-living/emotional-wellness/Building-Resilience/Pages/how-to-practice-gratitude.aspx\nSocial Development. (2023). Preschool-aged children's responses to unfairness and subsequent sharing behavior in dyadic contexts. https://onlinelibrary.wiley.com/doi/10.1111/sode.12681\nFrontiers in Psychology. (2022). Priming behavioral control enhances sharing in preschoolers. https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2022.892382/full",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    },
+    {
       "ts": "2026-07-27T19:11:10.295Z",
       "field": "references",
       "old": "Zero to Three. *Zero to Three*. Source: Zero to Three. URL: https://www.zerotothree.org National Association for the Education of Young Children (NAEYC). *NAEYC*. Source: NAEYC. URL: https://www.naeyc.org Greater Good Science Center, UC Berkeley. *Greater Good Science Center*. Source: University of California, Berkeley. URL: https://greatergood.berkeley.edu",
