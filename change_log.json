@@ -1422,5 +1422,15 @@
       "byName": "Amanda Martinez",
       "byEmail": "amanda.martinez@caravanwellness.com"
     }
+  ],
+  "ALB-0118": [
+    {
+      "ts": "2026-07-27T18:20:35.381Z",
+      "field": "references",
+      "old": "Tolnai N, Szabó Z, Köteles F, Szabo A. Physical and psychological benefits of once-a-week Pilates exercises in young sedentary women: A 10-week longitudinal study. Physiol Behav.",
+      "new": "",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    }
   ]
 }
