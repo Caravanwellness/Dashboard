@@ -2411,6 +2411,14 @@
   ],
   "ALB-0251": [
     {
+      "ts": "2026-07-27T20:02:24.960Z",
+      "field": "references",
+      "old": "",
+      "new": "Stroke (American Heart Association/American Stroke Association). (2021). 2021 Guideline for the Prevention of Stroke in Patients With Stroke and Transient Ischemic Attack. https://www.ahajournals.org/doi/10.1161/STR.0000000000000375\n\nMayo Clinic. (2026). Stroke rehabilitation: What to expect as you recover. https://www.mayoclinic.org/diseases-conditions/stroke/in-depth/stroke-rehabilitation/art-20045172\n\nCenters for Disease Control and Prevention. (2024). Treatment and Intervention for Stroke. https://www.cdc.gov/stroke/treatment/index.html",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    },
+    {
       "ts": "2026-07-27T20:00:47.773Z",
       "field": "references",
       "old": "American Stroke Association. (2023). *Stroke recovery and follow-up care*. https://www.stroke.org Centers for Disease Control and Prevention. (2023). *Stroke aftercare and follow-up*. https://www.cdc.gov Mayo Clinic. (2022). *Stroke recovery: When to call your doctor*. https://www.mayoclinic.org Rothwell, P. M., Algra, A., Chen, C., Diener, H.-C., Norrving, B., & Mehta, Z. (2016). Early risk of recurrence by subtype of ischemic stroke in population-based studies. *Stroke, 47*(6), 1581–1588. https://doi.org/10.1161/STROKEAHA.116.013434",
