@@ -1504,5 +1504,15 @@
       "byName": "Amanda Martinez",
       "byEmail": "amanda.martinez@caravanwellness.com"
     }
+  ],
+  "ALB-0135": [
+    {
+      "ts": "2026-07-27T18:35:27.210Z",
+      "field": "references",
+      "old": null,
+      "new": "Centers for Disease Control and Prevention. (2024). 7 common withdrawal symptoms. https://www.cdc.gov/tobacco/campaign/tips/quit-smoking/7-common-withdrawal-symptoms/index.html\nAmerican Lung Association. (2024). What to expect when quitting. https://www.lung.org/quit-smoking/i-want-to-quit/what-to-expect\nJournal of Substance Abuse Treatment. (2022). Characterizing nicotine withdrawal in smokers experiencing homelessness. https://pmc.ncbi.nlm.nih.gov/articles/PMC9167248/",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    }
   ]
 }
