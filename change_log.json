@@ -1671,6 +1671,14 @@
   ],
   "ALB-0161": [
     {
+      "ts": "2026-07-27T18:54:51.392Z",
+      "field": "references",
+      "old": "",
+      "new": "Johns Hopkins Medicine. (2026). Perimenopause and anxiety. https://www.hopkinsmedicine.org/health/wellness-and-prevention/perimenopause-and-anxiety\nThe Menopause Society. (2025). Feeling anxious during menopause? Hormone therapy may or may not help. https://menopause.org/press-releases/feeling-anxious-during-menopause-hormone-therapy-may-or-may-not-help\nFrontiers in Psychiatry. (2024). Stress, depression, and anxiety: Psychological complaints across menopausal stages. https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2024.1323743/full",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    },
+    {
       "ts": "2026-07-27T18:51:21.985Z",
       "field": "references",
       "old": "World Health Organization. (2021). *Mental health and menopause: A holistic view*. Geneva: WHO. Journal of Affective Disorders. (2020). *Hormonal fluctuations and anxiety in midlife women*. Menopause International. (2019). *Psychological symptoms during perimenopause and management strategies*.",
