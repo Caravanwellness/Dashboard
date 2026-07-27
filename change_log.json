@@ -1225,6 +1225,14 @@
   ],
   "ALB-0090": [
     {
+      "ts": "2026-07-27T18:08:48.127Z",
+      "field": "references",
+      "old": "",
+      "new": "Diabetes Care. (2024). Occurrence of gastrointestinal adverse events upon GLP-1 receptor agonist initiation with concomitant metformin use: A post hoc analysis of LEADER, STEP 2, SUSTAIN-6, and PIONEER 6. https://diabetesjournals.org/care/article/47/2/280/153929/Occurrence-of-Gastrointestinal-Adverse-Events-Upon\nPostgraduate Medicine. (2022). Managing the gastrointestinal side effects of GLP-1 receptor agonists in obesity: Recommendations for clinical practice. https://www.tandfonline.com/doi/full/10.1080/00325481.2021.2002616\nCleveland Clinic. (2024). Can certain foods impact your Ozempic side effects? https://health.clevelandclinic.org/ozempic-foods-to-avoid",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    },
+    {
       "ts": "2026-07-27T18:05:41.835Z",
       "field": "references",
       "old": "National Institutes of Health. (2024). *GLP-1 Receptor Agonists for Weight Management.* Centers for Disease Control and Prevention. (2024). *Medications for Obesity Management.* Mayo Clinic. (2024). *GLP-1 Medications: What To Know.*",
