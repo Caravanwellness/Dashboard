@@ -585,6 +585,14 @@
   ],
   "ART-0135": [
     {
+      "ts": "2026-07-27T13:33:04.592Z",
+      "field": "category",
+      "old": "Alcohol Use",
+      "new": "Health",
+      "byName": "Jade Gordon",
+      "byEmail": "jade.gordon@caravanwellness.com"
+    },
+    {
       "ts": "2026-07-27T13:27:49.844Z",
       "field": "category",
       "old": "Nutrition",
