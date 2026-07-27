@@ -1386,5 +1386,15 @@
       "byName": "Amanda Martinez",
       "byEmail": "amanda.martinez@caravanwellness.com"
     }
+  ],
+  "ALB-0116": [
+    {
+      "ts": "2026-07-27T18:19:49.877Z",
+      "field": "references",
+      "old": "World Health Organization. (2020). *Physical activity*. World Health Organization. https://www.who.int/news-room/fact-sheets/detail/physical-activity British Journal of Sports Medicine. (2019). *Green exercise and mental wellbeing*. *British Journal of Sports Medicine*. https://bjsm.bmj.com/content/53/5/263 University of Exeter Medical School. (2019). *Spending time in nature and health outcomes*. *Scientific Reports, 9*(1), 7730. https://www.nature.com/articles/s41598-019-44097-3",
+      "new": "",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    }
   ]
 }
