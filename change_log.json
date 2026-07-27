@@ -585,6 +585,14 @@
   ],
   "ART-0135": [
     {
+      "ts": "2026-07-27T13:27:27.423Z",
+      "field": "category",
+      "old": "Vaping & Tobacco",
+      "new": "Nutrition",
+      "byName": "Jade Gordon",
+      "byEmail": "jade.gordon@caravanwellness.com"
+    },
+    {
       "ts": "2026-07-27T13:27:12.605Z",
       "field": "category",
       "old": "Alcohol Use",
