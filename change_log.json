@@ -2052,5 +2052,15 @@
       "byName": "Amanda Martinez",
       "byEmail": "amanda.martinez@caravanwellness.com"
     }
+  ],
+  "ALB-0217": [
+    {
+      "ts": "2026-07-27T19:24:19.365Z",
+      "field": "references",
+      "old": "American Association of Clinical Endocrinology (AACE). (2021). *Obesity Management*. AACE. https://www.aace.com/disease-state-resources/obesity-management",
+      "new": "",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    }
   ]
 }
