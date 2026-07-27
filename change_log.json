@@ -1614,5 +1614,15 @@
       "byName": "Amanda Martinez",
       "byEmail": "amanda.martinez@caravanwellness.com"
     }
+  ],
+  "ALB-0154": [
+    {
+      "ts": "2026-07-27T18:47:13.088Z",
+      "field": "references",
+      "old": "World Health Organization. (2021). *Menopause and midlife health: A comprehensive approach*. Geneva: WHO. Climacteric. (2020). *Managing perimenopausal symptoms: Evidence and recommendations*. Maturitas. (2019). *Lifestyle and medical treatments for perimenopausal symptom management*.",
+      "new": "",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    }
   ]
 }
