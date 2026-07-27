@@ -1743,6 +1743,14 @@
   ],
   "ALB-0169": [
     {
+      "ts": "2026-07-27T18:59:50.161Z",
+      "field": "references",
+      "old": "",
+      "new": "Mayo Clinic. (2026). Desk stretches: Video collection. https://www.mayoclinic.org/healthy-lifestyle/adult-health/in-depth/office-stretches/art-20046041\nCleveland Clinic. (2023). 6 desk exercises that help you get stronger while working. https://health.clevelandclinic.org/sitting-all-day-try-these-stretches/\nMedicina. (2023). Effects of whole-body stretching exercise during lunch break for reducing musculoskeletal pain and physical exertion among healthcare professionals. https://pmc.ncbi.nlm.nih.gov/articles/PMC10222752/",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    },
+    {
       "ts": "2026-07-27T18:57:05.888Z",
       "field": "references",
       "old": "American Heart Association. (2021). *Sitting and Cardiovascular Disease Risk.* American Heart Association. Mayo Clinic. (2021). *Stretching: Focus on flexibility.* Mayo Clinic.",
