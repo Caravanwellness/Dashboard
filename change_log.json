@@ -1532,5 +1532,15 @@
       "byName": "Amanda Martinez",
       "byEmail": "amanda.martinez@caravanwellness.com"
     }
+  ],
+  "ALB-0138": [
+    {
+      "ts": "2026-07-27T18:36:46.530Z",
+      "field": "references",
+      "old": "Mulvey, J. (2024). Understanding addiction and recovery principles. Personal communication, psychotherapy lecture. Volkow, N. D., & Koob, G. F. (2022). Brain disease model of addiction: Neurobiological mechanisms and recovery pathways. New England Journal of Medicine, 387(7), 600–612. Robinson, T. E., & Berridge, K. C. (2023). Incentive-sensitization and the transition to compulsive drug use. Annual Review of Psychology, 74, 263–286. Hser, Y. I., & Mooney, L. J. (2022). Outpatient treatment and long-term outcomes for substance use disorders. Addiction Science & Clinical Practice, 17(1), 45–58. Yalom, I. D., & Leszcz, M. (2021). The theory and practice of group psychotherapy (6th ed.). Basic Books. Koob, G. F., & Schulkin, J. (2019). Addiction and stress: An allostatic view. Neuroscience & Biobehavioral Reviews, 106, 245–262",
+      "new": "\nNational Institute on Drug Abuse. (2026). Drug misuse and addiction (Drugs, brains, and behavior: The science of addiction). https://nida.nih.gov/publications/drugs-brains-behavior-science-addiction/drug-misuse-addiction\nCleveland Clinic. (2023). Addiction: What it is, causes, symptoms, types & treatment. https://my.clevelandclinic.org/health/diseases/6407-addiction\nNeuropsychopharmacology. (2022). The neurobiology of drug addiction: Cross-species insights into the dysfunction and recovery of the prefrontal cortex. https://pmc.ncbi.nlm.nih.gov/articles/PMC8617203/",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    }
   ]
 }
