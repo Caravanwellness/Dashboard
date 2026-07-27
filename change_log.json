@@ -564,5 +564,15 @@
       "byName": "Amanda Martinez",
       "byEmail": "amanda.martinez@caravanwellness.com"
     }
+  ],
+  "ART-0046": [
+    {
+      "ts": "2026-07-27T13:26:13.283Z",
+      "field": "title",
+      "old": "Early Warning Signs To Watch For",
+      "new": "COPD Early Warning Signs To Watch For",
+      "byName": "Jade Gordon",
+      "byEmail": "jade.gordon@caravanwellness.com"
+    }
   ]
 }
