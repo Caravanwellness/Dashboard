@@ -1184,5 +1184,15 @@
       "byName": "Amanda Martinez",
       "byEmail": "amanda.martinez@caravanwellness.com"
     }
+  ],
+  "ALB-0070": [
+    {
+      "ts": "2026-07-27T17:27:00.992Z",
+      "field": "references",
+      "old": null,
+      "new": "Centers for Disease Control and Prevention. (2025). Are you up to date on your preventive care? https://www.cdc.gov/chronic-disease/prevention/preventive-care.html\nMedlinePlus (U.S. National Library of Medicine). (2025). Health screening. https://medlineplus.gov/healthscreening.html\nJournal of the National Cancer Center. (2022). Cancer screening in the aging population: Where do we stand and what can we do? https://pmc.ncbi.nlm.nih.gov/articles/PMC11256687/",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    }
   ]
 }
