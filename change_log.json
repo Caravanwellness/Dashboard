@@ -2037,6 +2037,14 @@
   ],
   "ALB-0215": [
     {
+      "ts": "2026-07-27T19:23:47.232Z",
+      "field": "references",
+      "old": "",
+      "new": "Mayo Clinic. (2024). Managing common side effects from weight-loss drugs. https://diet.mayoclinic.org/us/blog/2024/managing-common-side-effects-from-weight-loss-drugs/\nCleveland Clinic. (2024). Can certain foods impact your Ozempic side effects? https://health.clevelandclinic.org/ozempic-foods-to-avoid\nWorld Journal of Gastrointestinal Pharmacology and Therapeutics. (2025). Glucagon-like peptide-1 receptor agonists: Evolution, gastrointestinal adverse effects, and future directions. https://pmc.ncbi.nlm.nih.gov/articles/PMC12421399/",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    },
+    {
       "ts": "2026-07-27T19:23:37.200Z",
       "field": "references",
       "old": "Davies MJ, Bergenstal R, Bode B, et al. *Efficacy of liraglutide for weight loss among patients with type 2 diabetes: the SCALE Diabetes Randomized Clinical Trial.* JAMA. 2015;314(7):687-699. American Diabetes Association. *Pharmacologic approaches to glycemic treatment: standards of medical care in diabetes-2021.* Diabetes Care. 2021;44(Suppl 1). Meier JJ, Nauck MA. *Incretins and the development of type 2 diabetes mellitus.* Curr Diab Rep. 2006;6(3):194-201.",
