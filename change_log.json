@@ -2178,5 +2178,15 @@
       "byName": "Amanda Martinez",
       "byEmail": "amanda.martinez@caravanwellness.com"
     }
+  ],
+  "ALB-0227": [
+    {
+      "ts": "2026-07-27T19:39:04.233Z",
+      "field": "references",
+      "old": "National Institute of Diabetes and Digestive and Kidney Diseases. (2017). *Your Digestive System & How It Works.* National Institutes of Health. https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works Cleveland Clinic. (2023). *Gut Microbiome.* Cleveland Clinic. https://my.clevelandclinic.org/health/body/25201-gut-microbiome",
+      "new": "",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    }
   ]
 }
