@@ -2408,5 +2408,15 @@
       "byName": "Amanda Martinez",
       "byEmail": "amanda.martinez@caravanwellness.com"
     }
+  ],
+  "ALB-0251": [
+    {
+      "ts": "2026-07-27T20:00:47.773Z",
+      "field": "references",
+      "old": "American Stroke Association. (2023). *Stroke recovery and follow-up care*. https://www.stroke.org Centers for Disease Control and Prevention. (2023). *Stroke aftercare and follow-up*. https://www.cdc.gov Mayo Clinic. (2022). *Stroke recovery: When to call your doctor*. https://www.mayoclinic.org Rothwell, P. M., Algra, A., Chen, C., Diener, H.-C., Norrving, B., & Mehta, Z. (2016). Early risk of recurrence by subtype of ischemic stroke in population-based studies. *Stroke, 47*(6), 1581–1588. https://doi.org/10.1161/STROKEAHA.116.013434",
+      "new": "",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    }
   ]
 }
