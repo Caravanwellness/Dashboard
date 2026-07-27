@@ -2280,5 +2280,15 @@
       "byName": "Amanda Martinez",
       "byEmail": "amanda.martinez@caravanwellness.com"
     }
+  ],
+  "ALB-0243": [
+    {
+      "ts": "2026-07-27T19:54:03.328Z",
+      "field": "references",
+      "old": "Mayo Clinic Health System. (n.d.). *8 common myths about suicide*. Retrieved from https://www.mayoclinichealthsystem.org/hometown-health/speaking-of-health/8-common-myths-about-suicide Psychology Today. (2018, June 6). *Common myths about suicide debunked*. Retrieved from https://www.psychologytoday.com/us/blog/happiness-is-a-state-of-mind/201806/common-myths-about-suicide-debunked",
+      "new": "",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    }
   ]
 }
