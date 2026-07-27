@@ -1207,6 +1207,14 @@
   ],
   "ALB-0080": [
     {
+      "ts": "2026-07-27T18:01:49.470Z",
+      "field": "references",
+      "old": "",
+      "new": "MedlinePlus. (2025). Cholesterol levels: What you need to know. https://medlineplus.gov/cholesterollevelswhatyouneedtoknow.html\nCleveland Clinic. (2024). Lipid panel: What it is, purpose & results. https://my.clevelandclinic.org/health/diagnostics/17176-lipid-panel\nNational Heart, Lung, and Blood Institute. (2024). Blood cholesterol—what is blood cholesterol? https://www.nhlbi.nih.gov/health/blood-cholesterol",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    },
+    {
       "ts": "2026-07-27T17:57:26.885Z",
       "field": "references",
       "old": "World Health Organization (WHO). (2022). *Cardiovascular Diseases (CVDs).* World Health Organization. URL not provided.",
