@@ -1810,5 +1810,15 @@
       "byName": "Amanda Martinez",
       "byEmail": "amanda.martinez@caravanwellness.com"
     }
+  ],
+  "ALB-0186": [
+    {
+      "ts": "2026-07-27T19:07:47.262Z",
+      "field": "references",
+      "old": "Harvard Health Publishing. “Understanding Oral Cancer: Causes, Symptoms, and Treatments.” Harvard Gazette. https://news.harvard.edu/gazette/story/newsplus/understanding-oral-cancer-causes-symptoms-and-treatments/ American Cancer Society. “Risk Factors for Oral Cavity and Oropharyngeal Cancer.” Cancer Info Resources. https://www.cancer.org/cancer/types/oral-cavity-and-oropharyngeal-cancer/causes-risks-prevention/risk-factors.html Cancer Research UK. “Understanding Oral Cancer: Causes, Symptoms, and Treatments.” Harvard Gazette. https://news.harvard.edu/gazette/story/newsplus/understanding-oral-cancer-causes-symptoms-and-treatments/",
+      "new": "Cleveland Clinic. (2022). Oral cancer: Causes, symptoms & treatment. https://my.clevelandclinic.org/health/diseases/11184-oral-cancer\nNational Institute of Dental and Craniofacial Research. (2024). Oral cancer. https://www.nidcr.nih.gov/health-info/oral-cancer\nCancers. (2023). Early diagnosis of oral cancer: A complex polyhedral problem with a difficult solution. https://pmc.ncbi.nlm.nih.gov/articles/PMC10340032/",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    }
   ]
 }
