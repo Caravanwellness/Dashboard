@@ -1617,6 +1617,14 @@
   ],
   "ALB-0154": [
     {
+      "ts": "2026-07-27T18:49:23.393Z",
+      "field": "references",
+      "old": "",
+      "new": "The Menopause Society. (2026). Symptoms. https://menopause.org/patient-education/menopause-topics/symptoms\nMayo Clinic. (2025). Perimenopause—diagnosis and treatment. https://www.mayoclinic.org/diseases-conditions/perimenopause/diagnosis-treatment/drc-20354671\nBMJ. (2023). Management of perimenopausal and menopausal symptoms. https://doi.org/10.1136/bmj-2022-072612",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    },
+    {
       "ts": "2026-07-27T18:47:13.088Z",
       "field": "references",
       "old": "World Health Organization. (2021). *Menopause and midlife health: A comprehensive approach*. Geneva: WHO. Climacteric. (2020). *Managing perimenopausal symptoms: Evidence and recommendations*. Maturitas. (2019). *Lifestyle and medical treatments for perimenopausal symptom management*.",
