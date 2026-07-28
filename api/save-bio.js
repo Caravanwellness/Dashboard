@@ -70,6 +70,11 @@ export default async function handler(req, res) {
       if (!refRes.ok) return res.status(500).json({ error: 'Could not fetch ref' });
       const { object: { sha: commitSha } } = await refRes.json();
 
+      // Get the tree SHA from the commit
+      const commitDataRes = await fetch(`https://api.github.com/repos/${REPO}/git/commits/${commitSha}`, { headers: ghHeaders });
+      if (!commitDataRes.ok) return res.status(500).json({ error: 'Could not fetch commit' });
+      const { tree: { sha: treeSha } } = await commitDataRes.json();
+
       // Create blob
       const blobRes = await fetch(`https://api.github.com/repos/${REPO}/git/blobs`, {
         method: 'POST', headers: ghHeaders,
@@ -78,10 +83,10 @@ export default async function handler(req, res) {
       if (!blobRes.ok) return res.status(500).json({ error: 'Could not create blob' });
       const { sha: blobSha } = await blobRes.json();
 
-      // Create tree
+      // Create tree using the commit's tree SHA as base
       const treeRes = await fetch(`https://api.github.com/repos/${REPO}/git/trees`, {
         method: 'POST', headers: ghHeaders,
-        body: JSON.stringify({ base_tree: commitSha, tree: [{ path: FILE_PATH, mode: '100644', type: 'blob', sha: blobSha }] }),
+        body: JSON.stringify({ base_tree: treeSha, tree: [{ path: FILE_PATH, mode: '100644', type: 'blob', sha: blobSha }] }),
       });
       if (!treeRes.ok) return res.status(500).json({ error: 'Could not create tree' });
       const { sha: treeSha } = await treeRes.json();
