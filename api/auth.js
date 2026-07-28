@@ -20,7 +20,7 @@ function hashPw(password, email) {
 
 function makeToken(email, name) {
   const secret  = process.env.SESSION_SECRET;
-  const expiry  = Date.now() + 8 * 60 * 60 * 1000;
+  const expiry  = Date.now() + 7 * 24 * 60 * 60 * 1000; // 7 days
   const payload = Buffer.from(JSON.stringify({ email, name, expiry })).toString('base64');
   const sig     = crypto.createHmac('sha256', secret).update(payload).digest('hex');
   return `${payload}.${sig}`;
