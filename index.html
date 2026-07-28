@@ -739,19 +739,29 @@ async function loadBios() {
   } catch(e) { /* offline or error — bios stay empty */ }
 }
 
+async function saveBioNow(name, field, value) {
+  if (!bios[name]) bios[name] = {};
+  bios[name][field] = value;
+  clearTimeout(_bioSaveTimers[name + field]);
+  try {
+    const r = await fetch('/api/save-bio', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ name, field, value }),
+    });
+    if (!r.ok) {
+      const d = await r.json().catch(()=>({}));
+      console.error('Bio save failed', d.error || r.status);
+      alert(`Failed to save "${field}" for ${name}: ${d.error || r.status}`);
+    }
+  } catch(e) { console.error('Bio save error', e); }
+}
+
 function saveBio(name, field, value) {
   if (!bios[name]) bios[name] = {};
   bios[name][field] = value;
   clearTimeout(_bioSaveTimers[name + field]);
-  _bioSaveTimers[name + field] = setTimeout(async () => {
-    try {
-      await fetch('/api/save-bio', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ name, field, value }),
-      });
-    } catch(e) { console.warn('Bio save failed', e); }
-  }, 800);
+  _bioSaveTimers[name + field] = setTimeout(() => saveBioNow(name, field, value), 800);
 }
 
 function getBio(name, field, def='') {
@@ -2104,7 +2114,7 @@ function renderCreators(query='') {
               value="${esc(getBio(name,'creds',info.creds||''))}"
               oninput="saveBio('${esc(name)}','creds',this.value);const t=document.getElementById('ctitle_${esc(name)}');if(t)t.textContent=this.value"
               onfocus="this.style.borderColor='#1a1a2e'"
-              onblur="this.style.borderColor='#e8e8e8'"
+              onblur="this.style.borderColor='#e8e8e8';saveBioNow('${esc(name)}','creds',this.value)"
             >
           </div>
 
