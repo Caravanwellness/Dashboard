@@ -20,7 +20,7 @@ function hashPw(password, email) {
 
 function makeToken(email, name) {
   const secret  = process.env.SESSION_SECRET;
-  const expiry  = Date.now() + 7 * 24 * 60 * 60 * 1000; // 7 days
+  const expiry  = Date.now() + 8 * 60 * 60 * 1000; // 8 hours
   const payload = Buffer.from(JSON.stringify({ email, name, expiry })).toString('base64');
   const sig     = crypto.createHmac('sha256', secret).update(payload).digest('hex');
   return `${payload}.${sig}`;
@@ -99,12 +99,13 @@ export default async function handler(req, res) {
       return res.status(400).json({ error: 'Password must be at least 8 characters.' });
 
     const { sha, users } = await readUsers();
-    if (users[emailLow]) return res.status(409).json({ error: 'An account with this email already exists.' });
+    const isReset = !!users[emailLow];
 
     users[emailLow] = {
       name: name.trim(),
       passwordHash: hashPw(password, emailLow),
-      createdAt: new Date().toISOString(),
+      createdAt: users[emailLow]?.createdAt || new Date().toISOString(),
+      ...(isReset ? { passwordResetAt: new Date().toISOString() } : {}),
     };
     await writeUsers(users, sha);
 
