@@ -15,7 +15,8 @@ export function verifyToken(token) {
 }
 
 export function getUser(req) {
-  const auth = req.headers.authorization || '';
-  const token = auth.startsWith('Bearer ') ? auth.slice(7) : null;
-  return verifyToken(token);
+  const auth = req.headers.authorization || req.headers.Authorization || '';
+  const headerToken = auth.startsWith('Bearer ') ? auth.slice(7) : null;
+  const bodyToken = req.body?._token || null;
+  return verifyToken(headerToken || bodyToken);
 }
