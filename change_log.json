@@ -2512,5 +2512,15 @@
       "byName": "Sayak Maity",
       "byEmail": "sayak.maity@caravanwellness.com"
     }
+  ],
+  "VLB-0014": [
+    {
+      "ts": "2026-07-28T18:19:40.328Z",
+      "field": "teacher/reviewer",
+      "old": null,
+      "new": "Hailey Miller",
+      "byName": "Sayak Maity",
+      "byEmail": "sayak.maity@caravanwellness.com"
+    }
   ]
 }
