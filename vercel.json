@@ -1,3 +1,1 @@
-{
-  "ignoreCommand": "git diff HEAD~1 HEAD --name-only | grep -qvE '^(content_edits\\.json|creator_bios\\.json|article_snapshots\\.json|article_versions\\.json)$'"
-}
+{}
