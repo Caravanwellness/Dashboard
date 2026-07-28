@@ -2552,5 +2552,15 @@
       "byName": "Sayak Maity",
       "byEmail": "sayak.maity@caravanwellness.com"
     }
+  ],
+  "VLB-0038": [
+    {
+      "ts": "2026-07-28T18:20:13.939Z",
+      "field": "teacher/reviewer",
+      "old": null,
+      "new": "Edyta Romanowicz",
+      "byName": "Sayak Maity",
+      "byEmail": "sayak.maity@caravanwellness.com"
+    }
   ]
 }
