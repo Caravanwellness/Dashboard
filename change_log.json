@@ -2542,5 +2542,15 @@
       "byName": "Sayak Maity",
       "byEmail": "sayak.maity@caravanwellness.com"
     }
+  ],
+  "VLB-0033": [
+    {
+      "ts": "2026-07-28T18:20:03.692Z",
+      "field": "language",
+      "old": "",
+      "new": "English",
+      "byName": "Sayak Maity",
+      "byEmail": "sayak.maity@caravanwellness.com"
+    }
   ]
 }
