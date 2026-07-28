@@ -845,13 +845,13 @@ async function bulkUploadPhotos(input) {
     reader.onload = e => {
       const img = new Image();
       img.onload = () => {
-        const SIZE = 200;
+        const SIZE = 120;
         const scale = Math.min(SIZE / img.width, SIZE / img.height, 1);
         const canvas = document.createElement('canvas');
         canvas.width  = Math.round(img.width  * scale);
         canvas.height = Math.round(img.height * scale);
         canvas.getContext('2d').drawImage(img, 0, 0, canvas.width, canvas.height);
-        resolve({ name: match.key, dataUrl: canvas.toDataURL('image/jpeg', 0.82) });
+        resolve({ name: match.key, dataUrl: canvas.toDataURL('image/jpeg', 0.72) });
       };
       img.src = e.target.result;
     };
