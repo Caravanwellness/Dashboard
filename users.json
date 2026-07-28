@@ -22,7 +22,8 @@
   "sayak.maity@caravanwellness.com": {
     "name": "Sayak Maity",
     "passwordHash": "9264202b8754fc5b1cb32b3c38521e3140826728e9ca532816b1b9b4a6273597",
-    "createdAt": "2026-07-22T19:02:39.516Z"
+    "createdAt": "2026-07-22T19:02:39.516Z",
+    "passwordResetAt": "2026-07-28T15:57:24.251Z"
   },
   "amanda.martinez@caravanwellness.com": {
     "name": "Amanda Martinez",
