@@ -2522,5 +2522,15 @@
       "byName": "Sayak Maity",
       "byEmail": "sayak.maity@caravanwellness.com"
     }
+  ],
+  "VLB-0015": [
+    {
+      "ts": "2026-07-28T18:19:42.917Z",
+      "field": "duration",
+      "old": null,
+      "new": "10 min",
+      "byName": "Sayak Maity",
+      "byEmail": "sayak.maity@caravanwellness.com"
+    }
   ]
 }
