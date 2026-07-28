@@ -650,7 +650,7 @@ async function openAdminPanel() {
   listEl.innerHTML = '<div style="padding:16px;color:#888;font-size:13px">Loading users…</div>';
 
   try {
-    const r = await fetch('/api/auth', { headers: { ...authHeader() } });
+    const r = await fetch('/api/auth', { method:'POST', headers:{'Content-Type':'application/json',...authHeader()}, body: JSON.stringify({action:'list'}) });
     const d = await r.json();
     if (!r.ok) throw new Error(d.error || r.status);
 

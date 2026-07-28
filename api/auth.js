@@ -55,22 +55,18 @@ export default async function handler(req, res) {
     return res.status(500).json({ error: 'SERVER MISCONFIGURATION: GITHUB_TOKEN is not set.' });
   }
 
-  // GET — list all users (requires login)
-  if (req.method === 'GET') {
-    const caller = getUser(req);
-    if (!caller) return res.status(401).json({ error: 'Unauthorized' });
-    const { users } = await readUsers();
-    const list = Object.entries(users).map(([email, u]) => ({
-      email,
-      name: u.name,
-      createdAt: u.createdAt,
-    }));
-    return res.json({ users: list });
-  }
-
   if (req.method !== 'POST') return res.status(405).json({ error: 'Method not allowed' });
 
   const { action, email, password, name, targetEmail, newPassword } = req.body || {};
+
+  // List all users (admin)
+  if (action === 'list') {
+    const caller = getUser(req);
+    if (!caller) return res.status(401).json({ error: 'Unauthorized' });
+    const { users } = await readUsers();
+    const list = Object.entries(users).map(([email, u]) => ({ email, name: u.name, createdAt: u.createdAt }));
+    return res.json({ users: list });
+  }
 
   // Admin password reset
   if (action === 'reset') {
