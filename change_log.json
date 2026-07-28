@@ -2472,5 +2472,15 @@
       "byName": "Amanda Martinez",
       "byEmail": "amanda.martinez@caravanwellness.com"
     }
+  ],
+  "ILB-0472": [
+    {
+      "ts": "2026-07-28T15:42:23.717Z",
+      "field": "teacher/reviewer",
+      "old": null,
+      "new": "Marlee Alanis",
+      "byName": "Marlee Alanis",
+      "byEmail": "marlee.scott@caravanwellness.com"
+    }
   ]
 }
