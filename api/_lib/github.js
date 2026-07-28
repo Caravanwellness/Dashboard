@@ -13,14 +13,16 @@ export async function ghReadJson(repo, path, token) {
   const headers = ghHeaders(token);
   const r = await fetch(`https://api.github.com/repos/${repo}/contents/${path}`, { headers });
   if (r.status === 404) return { data: {}, sha: null };
-  if (!r.ok) throw new Error(`GitHub read ${r.status}`);
+  // GitHub returns 403 for files > 100MB; for files 1-100MB it returns 200 with download_url
+  if (!r.ok) throw new Error(`GitHub read ${r.status}: ${await r.text()}`);
   const meta = await r.json();
 
   let text;
   if (meta.content && meta.content.trim()) {
     text = Buffer.from(meta.content.replace(/\n/g, ''), 'base64').toString('utf-8');
   } else if (meta.download_url) {
-    const raw = await fetch(meta.download_url);
+    // Auth header required for private repos
+    const raw = await fetch(meta.download_url, { headers: { Authorization: `token ${token}` } });
     if (!raw.ok) throw new Error(`download_url fetch ${raw.status}`);
     text = await raw.text();
   } else {
