@@ -8,20 +8,37 @@ export default async function handler(req, res) {
   const REPO         = 'Caravanwellness/Dashboard';
   const FILE_PATH    = 'creator_bios.json';
   const BRANCH       = 'main';
-  const API_BASE     = `https://api.github.com/repos/${REPO}/contents/${FILE_PATH}`;
-  const headers      = {
-    Authorization: `token ${GITHUB_TOKEN}`,
-    Accept: 'application/vnd.github.v3+json',
-    'Content-Type': 'application/json',
-  };
+  const gh           = (path, opts={}) => fetch(`https://api.github.com/repos/${REPO}${path}`, {
+    ...opts,
+    headers: {
+      Authorization: `token ${GITHUB_TOKEN}`,
+      Accept: 'application/vnd.github.v3+json',
+      'Content-Type': 'application/json',
+      ...(opts.headers||{}),
+    },
+  });
 
-  // GET — return current bios
+  // GET — fetch file via Git Data API (works for files > 1MB)
   if (req.method === 'GET') {
-    const r = await fetch(API_BASE, { headers });
-    if (!r.ok) return res.status(500).json({ error: 'Could not fetch bios' });
-    const data = await r.json();
-    const content = JSON.parse(Buffer.from(data.content, 'base64').toString('utf-8'));
-    return res.json(content);
+    // Get the latest commit SHA on main
+    const refRes = await gh(`/git/ref/heads/${BRANCH}`);
+    if (!refRes.ok) return res.status(500).json({ error: 'Could not fetch ref' });
+    const { object: { sha: commitSha } } = await refRes.json();
+
+    // Get the tree for that commit
+    const treeRes = await gh(`/git/trees/${commitSha}?recursive=1`);
+    if (!treeRes.ok) return res.status(500).json({ error: 'Could not fetch tree' });
+    const { tree } = await treeRes.json();
+
+    const entry = tree.find(f => f.path === FILE_PATH);
+    if (!entry) return res.json({});
+
+    // Fetch blob by SHA
+    const blobRes = await gh(`/git/blobs/${entry.sha}`);
+    if (!blobRes.ok) return res.status(500).json({ error: 'Could not fetch blob' });
+    const { content } = await blobRes.json();
+    const data = JSON.parse(Buffer.from(content.replace(/\n/g, ''), 'base64').toString('utf-8'));
+    return res.json(data);
   }
 
   // POST — single: { name, field, value }  OR  bulk: { bulk: [{name, field, value}, ...] }
@@ -31,33 +48,70 @@ export default async function handler(req, res) {
     if (!changes) return res.status(400).json({ error: 'name+field or bulk array required' });
 
     for (let attempt = 0; attempt < 5; attempt++) {
-      const getRes = await fetch(API_BASE, { headers });
-      if (!getRes.ok) return res.status(500).json({ error: 'Could not read file' });
-      const fileData = await getRes.json();
-      const sha = fileData.sha;
-      const bios = JSON.parse(Buffer.from(fileData.content, 'base64').toString('utf-8'));
+      // Get latest commit on branch
+      const refRes = await gh(`/git/ref/heads/${BRANCH}`);
+      if (!refRes.ok) return res.status(500).json({ error: 'Could not fetch ref' });
+      const { object: { sha: commitSha } } = await refRes.json();
 
+      // Get tree
+      const treeRes = await gh(`/git/trees/${commitSha}?recursive=1`);
+      if (!treeRes.ok) return res.status(500).json({ error: 'Could not fetch tree' });
+      const { tree } = await treeRes.json();
+
+      // Get current bios
+      const entry = tree.find(f => f.path === FILE_PATH);
+      let bios = {};
+      if (entry) {
+        const blobRes = await gh(`/git/blobs/${entry.sha}`);
+        if (!blobRes.ok) return res.status(500).json({ error: 'Could not fetch blob' });
+        const { content } = await blobRes.json();
+        bios = JSON.parse(Buffer.from(content.replace(/\n/g, ''), 'base64').toString('utf-8'));
+      }
+
+      // Apply changes
       for (const { name: n, field: f, value: v } of changes) {
         if (!bios[n]) bios[n] = {};
         bios[n][f] = v;
       }
 
-      const msg = changes.length === 1 ? `Update bio: ${changes[0].name}` : `Bulk bio update: ${changes.length} fields`;
-      const commitRes = await fetch(API_BASE, {
-        method: 'PUT',
-        headers,
+      // Create new blob
+      const newContent = JSON.stringify(bios, null, 2);
+      const blobCreateRes = await gh('/git/blobs', {
+        method: 'POST',
+        body: JSON.stringify({ content: newContent, encoding: 'utf-8' }),
+      });
+      if (!blobCreateRes.ok) return res.status(500).json({ error: 'Could not create blob' });
+      const { sha: newBlobSha } = await blobCreateRes.json();
+
+      // Create new tree
+      const newTreeRes = await gh('/git/trees', {
+        method: 'POST',
         body: JSON.stringify({
-          message: msg,
-          content: Buffer.from(JSON.stringify(bios, null, 2)).toString('base64'),
-          sha,
-          branch: BRANCH,
+          base_tree: commitSha,
+          tree: [{ path: FILE_PATH, mode: '100644', type: 'blob', sha: newBlobSha }],
         }),
       });
+      if (!newTreeRes.ok) return res.status(500).json({ error: 'Could not create tree' });
+      const { sha: newTreeSha } = await newTreeRes.json();
 
-      if (commitRes.ok) return res.json({ ok: true, count: changes.length });
-      if (commitRes.status === 409 && attempt < 4) continue;
-      const err = await commitRes.text();
-      return res.status(500).json({ error: 'Commit failed', detail: err });
+      // Create commit
+      const msg = changes.length === 1 ? `Update bio: ${changes[0].name}` : `Bulk bio update: ${changes.length} fields`;
+      const commitRes = await gh('/git/commits', {
+        method: 'POST',
+        body: JSON.stringify({ message: msg, tree: newTreeSha, parents: [commitSha] }),
+      });
+      if (!commitRes.ok) return res.status(500).json({ error: 'Could not create commit' });
+      const { sha: newCommitSha } = await commitRes.json();
+
+      // Update branch ref (fast-forward only; 422 = someone else pushed — retry)
+      const updateRes = await gh(`/git/refs/heads/${BRANCH}`, {
+        method: 'PATCH',
+        body: JSON.stringify({ sha: newCommitSha }),
+      });
+      if (updateRes.ok) return res.json({ ok: true, count: changes.length });
+      if (updateRes.status === 422 && attempt < 4) continue;
+      const err = await updateRes.text();
+      return res.status(500).json({ error: 'Ref update failed', detail: err });
     }
   }
 
