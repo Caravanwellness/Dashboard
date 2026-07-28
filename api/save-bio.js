@@ -8,37 +8,40 @@ export default async function handler(req, res) {
   const REPO         = 'Caravanwellness/Dashboard';
   const FILE_PATH    = 'creator_bios.json';
   const BRANCH       = 'main';
-  const gh           = (path, opts={}) => fetch(`https://api.github.com/repos/${REPO}${path}`, {
-    ...opts,
-    headers: {
-      Authorization: `token ${GITHUB_TOKEN}`,
-      Accept: 'application/vnd.github.v3+json',
-      'Content-Type': 'application/json',
-      ...(opts.headers||{}),
-    },
-  });
+  const API_BASE     = `https://api.github.com/repos/${REPO}/contents/${FILE_PATH}`;
+  const ghHeaders    = {
+    Authorization: `token ${GITHUB_TOKEN}`,
+    Accept: 'application/vnd.github.v3+json',
+    'Content-Type': 'application/json',
+  };
 
-  // GET — fetch file via Git Data API (works for files > 1MB)
+  // Fetch bios JSON — handles files > 1MB via download_url fallback
+  async function fetchBios() {
+    const r = await fetch(API_BASE, { headers: ghHeaders });
+    if (!r.ok) throw new Error(`Contents API ${r.status}`);
+    const meta = await r.json();
+    let text;
+    if (meta.content && meta.content.trim()) {
+      text = Buffer.from(meta.content.replace(/\n/g, ''), 'base64').toString('utf-8');
+    } else if (meta.download_url) {
+      // File > 1MB — fetch raw content directly
+      const raw = await fetch(meta.download_url);
+      if (!raw.ok) throw new Error(`download_url fetch ${raw.status}`);
+      text = await raw.text();
+    } else {
+      return { data: {}, sha: meta.sha };
+    }
+    return { data: JSON.parse(text), sha: meta.sha };
+  }
+
+  // GET — return current bios
   if (req.method === 'GET') {
-    // Get the latest commit SHA on main
-    const refRes = await gh(`/git/ref/heads/${BRANCH}`);
-    if (!refRes.ok) return res.status(500).json({ error: 'Could not fetch ref' });
-    const { object: { sha: commitSha } } = await refRes.json();
-
-    // Get the tree for that commit
-    const treeRes = await gh(`/git/trees/${commitSha}?recursive=1`);
-    if (!treeRes.ok) return res.status(500).json({ error: 'Could not fetch tree' });
-    const { tree } = await treeRes.json();
-
-    const entry = tree.find(f => f.path === FILE_PATH);
-    if (!entry) return res.json({});
-
-    // Fetch blob by SHA
-    const blobRes = await gh(`/git/blobs/${entry.sha}`);
-    if (!blobRes.ok) return res.status(500).json({ error: 'Could not fetch blob' });
-    const { content } = await blobRes.json();
-    const data = JSON.parse(Buffer.from(content.replace(/\n/g, ''), 'base64').toString('utf-8'));
-    return res.json(data);
+    try {
+      const { data } = await fetchBios();
+      return res.json(data);
+    } catch(e) {
+      return res.status(500).json({ error: e.message });
+    }
   }
 
   // POST — single: { name, field, value }  OR  bulk: { bulk: [{name, field, value}, ...] }
@@ -48,64 +51,53 @@ export default async function handler(req, res) {
     if (!changes) return res.status(400).json({ error: 'name+field or bulk array required' });
 
     for (let attempt = 0; attempt < 5; attempt++) {
-      // Get latest commit on branch
-      const refRes = await gh(`/git/ref/heads/${BRANCH}`);
+      let data, sha;
+      try {
+        ({ data, sha } = await fetchBios());
+      } catch(e) {
+        return res.status(500).json({ error: e.message });
+      }
+
+      for (const { name: n, field: f, value: v } of changes) {
+        if (!data[n]) data[n] = {};
+        data[n][f] = v;
+      }
+
+      const newContent = JSON.stringify(data, null, 2);
+
+      // Use Git Data API for write so it works regardless of file size
+      const refRes = await fetch(`https://api.github.com/repos/${REPO}/git/ref/heads/${BRANCH}`, { headers: ghHeaders });
       if (!refRes.ok) return res.status(500).json({ error: 'Could not fetch ref' });
       const { object: { sha: commitSha } } = await refRes.json();
 
-      // Get tree
-      const treeRes = await gh(`/git/trees/${commitSha}?recursive=1`);
-      if (!treeRes.ok) return res.status(500).json({ error: 'Could not fetch tree' });
-      const { tree } = await treeRes.json();
-
-      // Get current bios
-      const entry = tree.find(f => f.path === FILE_PATH);
-      let bios = {};
-      if (entry) {
-        const blobRes = await gh(`/git/blobs/${entry.sha}`);
-        if (!blobRes.ok) return res.status(500).json({ error: 'Could not fetch blob' });
-        const { content } = await blobRes.json();
-        bios = JSON.parse(Buffer.from(content.replace(/\n/g, ''), 'base64').toString('utf-8'));
-      }
-
-      // Apply changes
-      for (const { name: n, field: f, value: v } of changes) {
-        if (!bios[n]) bios[n] = {};
-        bios[n][f] = v;
-      }
-
-      // Create new blob
-      const newContent = JSON.stringify(bios, null, 2);
-      const blobCreateRes = await gh('/git/blobs', {
-        method: 'POST',
+      // Create blob
+      const blobRes = await fetch(`https://api.github.com/repos/${REPO}/git/blobs`, {
+        method: 'POST', headers: ghHeaders,
         body: JSON.stringify({ content: newContent, encoding: 'utf-8' }),
       });
-      if (!blobCreateRes.ok) return res.status(500).json({ error: 'Could not create blob' });
-      const { sha: newBlobSha } = await blobCreateRes.json();
+      if (!blobRes.ok) return res.status(500).json({ error: 'Could not create blob' });
+      const { sha: blobSha } = await blobRes.json();
 
-      // Create new tree
-      const newTreeRes = await gh('/git/trees', {
-        method: 'POST',
-        body: JSON.stringify({
-          base_tree: commitSha,
-          tree: [{ path: FILE_PATH, mode: '100644', type: 'blob', sha: newBlobSha }],
-        }),
+      // Create tree
+      const treeRes = await fetch(`https://api.github.com/repos/${REPO}/git/trees`, {
+        method: 'POST', headers: ghHeaders,
+        body: JSON.stringify({ base_tree: commitSha, tree: [{ path: FILE_PATH, mode: '100644', type: 'blob', sha: blobSha }] }),
       });
-      if (!newTreeRes.ok) return res.status(500).json({ error: 'Could not create tree' });
-      const { sha: newTreeSha } = await newTreeRes.json();
+      if (!treeRes.ok) return res.status(500).json({ error: 'Could not create tree' });
+      const { sha: treeSha } = await treeRes.json();
 
       // Create commit
       const msg = changes.length === 1 ? `Update bio: ${changes[0].name}` : `Bulk bio update: ${changes.length} fields`;
-      const commitRes = await gh('/git/commits', {
-        method: 'POST',
-        body: JSON.stringify({ message: msg, tree: newTreeSha, parents: [commitSha] }),
+      const commitRes = await fetch(`https://api.github.com/repos/${REPO}/git/commits`, {
+        method: 'POST', headers: ghHeaders,
+        body: JSON.stringify({ message: msg, tree: treeSha, parents: [commitSha] }),
       });
       if (!commitRes.ok) return res.status(500).json({ error: 'Could not create commit' });
       const { sha: newCommitSha } = await commitRes.json();
 
-      // Update branch ref (fast-forward only; 422 = someone else pushed — retry)
-      const updateRes = await gh(`/git/refs/heads/${BRANCH}`, {
-        method: 'PATCH',
+      // Update branch ref
+      const updateRes = await fetch(`https://api.github.com/repos/${REPO}/git/refs/heads/${BRANCH}`, {
+        method: 'PATCH', headers: ghHeaders,
         body: JSON.stringify({ sha: newCommitSha }),
       });
       if (updateRes.ok) return res.json({ ok: true, count: changes.length });
