@@ -34,14 +34,14 @@ export default async function handler(req, res) {
 
     for (let attempt = 0; attempt < 5; attempt++) {
       try {
-        const { data: bios } = await ghReadJson(REPO, PATH, token);
+        const { data: bios, sha } = await ghReadJson(REPO, PATH, token);
 
         for (const { name: n, field: f, value: v } of changes) {
           if (!bios[n]) bios[n] = {};
           bios[n][f] = v;
         }
 
-        const ok = await ghWriteJson(REPO, PATH, BRANCH, bios, msg, token);
+        const ok = await ghWriteJson(REPO, PATH, BRANCH, bios, msg, token, sha);
         if (ok) return res.json({ ok: true, count: changes.length });
         // false = 422 concurrent write, retry
       } catch(e) {

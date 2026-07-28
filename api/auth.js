@@ -19,13 +19,12 @@ function makeToken(email, name) {
 }
 
 async function readUsers(token) {
-  const { data } = await ghReadJson(REPO, PATH, token);
-  return data;
+  return await ghReadJson(REPO, PATH, token); // { data, sha }
 }
 
-async function writeUsers(users, token) {
+async function writeUsers(users, sha, token) {
   for (let attempt = 0; attempt < 3; attempt++) {
-    const ok = await ghWriteJson(REPO, PATH, BRANCH, users, 'Update users', token);
+    const ok = await ghWriteJson(REPO, PATH, BRANCH, users, 'Update users', token, sha);
     if (ok) return;
   }
   throw new Error('Could not write users after retries');
@@ -52,7 +51,7 @@ export default async function handler(req, res) {
     if (action === 'list') {
       const caller = getUser(req);
       if (!caller) return res.status(401).json({ error: 'Unauthorized' });
-      const users = await readUsers(token);
+      const { data: users } = await readUsers(token);
       return res.json({ users: Object.entries(users).map(([e, u]) => ({ email: e, name: u.name, createdAt: u.createdAt })) });
     }
 
@@ -63,11 +62,11 @@ export default async function handler(req, res) {
       if (!targetEmail || !newPassword) return res.status(400).json({ error: 'targetEmail and newPassword required.' });
       if (newPassword.length < 8) return res.status(400).json({ error: 'New password must be at least 8 characters.' });
       const target = targetEmail.toLowerCase().trim();
-      const users = await readUsers(token);
+      const { data: users, sha } = await readUsers(token);
       if (!users[target]) return res.status(404).json({ error: 'No account found with that email.' });
       users[target].passwordHash = hashPw(newPassword, target);
       users[target].passwordResetAt = new Date().toISOString();
-      await writeUsers(users, token);
+      await writeUsers(users, sha, token);
       return res.json({ ok: true, name: users[target].name });
     }
 
@@ -83,19 +82,19 @@ export default async function handler(req, res) {
       if (password.length < 8)
         return res.status(400).json({ error: 'Password must be at least 8 characters.' });
 
-      const users = await readUsers(token);
+      const { data: users, sha } = await readUsers(token);
       users[emailLow] = {
         name: name.trim(),
         passwordHash: hashPw(password, emailLow),
         createdAt: users[emailLow]?.createdAt || new Date().toISOString(),
       };
-      await writeUsers(users, token);
+      await writeUsers(users, sha, token);
       return res.json({ ok: true, token: makeToken(emailLow, name.trim()), name: name.trim(), email: emailLow });
     }
 
     // Login
     if (action === 'login') {
-      const users = await readUsers(token);
+      const { data: users } = await readUsers(token);
       const user = users[emailLow];
       if (!user) return res.status(401).json({ error: 'No account found with this email.' });
       if (user.passwordHash !== hashPw(password, emailLow))

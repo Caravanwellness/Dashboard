@@ -35,7 +35,7 @@ export default async function handler(req, res) {
 
     for (let attempt = 0; attempt < 5; attempt++) {
       try {
-        const { data: edits } = await ghReadJson(REPO, PATH, token);
+        const { data: edits, sha } = await ghReadJson(REPO, PATH, token);
 
         for (const { id: cId, field: cField, value: cVal } of changes) {
           if (!edits[cId]) edits[cId] = {};
@@ -43,7 +43,7 @@ export default async function handler(req, res) {
           edits[cId]._at = ts;
         }
 
-        const ok = await ghWriteJson(REPO, PATH, BRANCH, edits, commitMsg, token);
+        const ok = await ghWriteJson(REPO, PATH, BRANCH, edits, commitMsg, token, sha);
         if (ok) return res.json({ ok: true, count: changes.length });
         // false = 422 concurrent write, retry
       } catch(e) {
