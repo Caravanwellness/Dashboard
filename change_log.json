@@ -2640,5 +2640,15 @@
       "byName": "Sayak Maity",
       "byEmail": "sayak.maity@caravanwellness.com"
     }
+  ],
+  "VLB-0004": [
+    {
+      "ts": "2026-07-29T16:17:25.430Z",
+      "field": "teacher/reviewer",
+      "old": null,
+      "new": "Dr. Ellie Cobb",
+      "byName": "Marlee Alanis",
+      "byEmail": "marlee.scott@caravanwellness.com"
+    }
   ]
 }
