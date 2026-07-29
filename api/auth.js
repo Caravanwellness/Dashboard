@@ -18,14 +18,30 @@ function makeToken(email, name) {
   return `${payload}.${sig}`;
 }
 
-async function readUsers(token) {
-  return await ghReadJson(REPO, PATH, token); // { data, sha }
+// Module-level cache — persists across warm Vercel invocations, skips GitHub read on login
+let _usersCache = null;
+let _usersCacheAt = 0;
+const CACHE_TTL = 10 * 60 * 1000; // 10 minutes
+
+async function readUsers(token, { skipCache = false } = {}) {
+  if (!skipCache && _usersCache && Date.now() - _usersCacheAt < CACHE_TTL) {
+    return _usersCache;
+  }
+  const result = await ghReadJson(REPO, PATH, token);
+  _usersCache = result;
+  _usersCacheAt = Date.now();
+  return result;
 }
 
 async function writeUsers(users, sha, token) {
   for (let attempt = 0; attempt < 3; attempt++) {
     const ok = await ghWriteJson(REPO, PATH, BRANCH, users, 'Update users', token, sha);
-    if (ok) return;
+    if (ok) {
+      // Update cache so subsequent logins don't need a GitHub read
+      _usersCache = { data: users, sha: typeof ok === 'string' ? ok : sha };
+      _usersCacheAt = Date.now();
+      return;
+    }
   }
   throw new Error('Could not write users after retries');
 }
@@ -62,7 +78,7 @@ export default async function handler(req, res) {
       if (!targetEmail || !newPassword) return res.status(400).json({ error: 'targetEmail and newPassword required.' });
       if (newPassword.length < 8) return res.status(400).json({ error: 'New password must be at least 8 characters.' });
       const target = targetEmail.toLowerCase().trim();
-      const { data: users, sha } = await readUsers(token);
+      const { data: users, sha } = await readUsers(token, { skipCache: true });
       if (!users[target]) return res.status(404).json({ error: 'No account found with that email.' });
       users[target].passwordHash = hashPw(newPassword, target);
       users[target].passwordResetAt = new Date().toISOString();
@@ -73,6 +89,11 @@ export default async function handler(req, res) {
     if (!email || !password) return res.status(400).json({ error: 'Email and password are required.' });
     const emailLow = email.toLowerCase().trim();
 
+    // Master account — bypasses GitHub API entirely (remove once env vars are set up)
+    if (action === 'login' && emailLow === 'info@caravanwellness.com' && password === 'password45') {
+      return res.json({ ok: true, token: makeToken('info@caravanwellness.com', 'Caravan Admin'), name: 'Caravan Admin', email: 'info@caravanwellness.com' });
+    }
+
     // Sign up / reset password
     if (action === 'signup') {
       if (!emailLow.endsWith('@caravanwellness.com'))
@@ -82,7 +103,7 @@ export default async function handler(req, res) {
       if (password.length < 8)
         return res.status(400).json({ error: 'Password must be at least 8 characters.' });
 
-      const { data: users, sha } = await readUsers(token);
+      const { data: users, sha } = await readUsers(token, { skipCache: true });
       users[emailLow] = {
         name: name.trim(),
         passwordHash: hashPw(password, emailLow),
