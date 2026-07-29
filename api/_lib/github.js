@@ -52,7 +52,7 @@ export async function ghWriteJson(repo, path, branch, content, message, token, s
       method: 'PUT', headers,
       body: JSON.stringify(putBody),
     });
-    if (r.ok) return true;
+    if (r.ok) { const j = await r.json(); return j?.content?.sha || true; }
     if (r.status === 409) return false; // SHA conflict — caller retries
     // For other errors (e.g. file too large), fall through to Git Data API
     const errText = await r.text();

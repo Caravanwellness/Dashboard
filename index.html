@@ -781,20 +781,39 @@ document.getElementById('authPassword').addEventListener('keydown', e => {
 let edits = {};
 let _editSaveTimers = {};
 let _editOldValues  = {};
+let _editsFileSha   = null; // cached SHA — lets saves skip the server-side GitHub read
 
 async function loadEdits() {
   try {
     const r = await fetch('/api/save-edits');
-    if (r.ok) edits = await r.json();
+    if (r.ok) {
+      const d = await r.json();
+      edits = d._data || d;
+      _editsFileSha = d._sha ?? null;
+    }
   } catch(e) {}
 }
 
-function _flushEdit(id, field, value) {
-  fetch('/api/save-edits', {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json', ...authHeader() },
-    body: JSON.stringify({ id, field, value }),
-  }).catch(e => console.warn('Edit save failed', e));
+async function _flushEdit(id, field, value) {
+  // Send the full merged edits + cached SHA so the server can skip its GitHub read
+  const body = { id, field, value };
+  const sha = _editsFileSha;
+  if (sha !== null) {
+    body._clientEdits = edits;
+    body._sha = sha;
+    _editsFileSha = null; // clear so concurrent saves fall back to safe read+write
+  }
+  try {
+    const r = await fetch('/api/save-edits', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', ...authHeader() },
+      body: JSON.stringify(body),
+    });
+    if (r.ok) {
+      const d = await r.json();
+      if (d._sha) _editsFileSha = d._sha; // refresh cached SHA for next save
+    }
+  } catch(e) { console.warn('Edit save failed', e); }
 }
 
 function _flushChangelog(id, field, oldValue, newValue) {

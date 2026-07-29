@@ -12,19 +12,20 @@ export default async function handler(req, res) {
 
   const token = process.env.GITHUB_TOKEN;
 
-  // GET — return all edits
+  // GET — return all edits + SHA for client-side caching
   if (req.method === 'GET') {
     try {
-      const { data } = await ghReadJson(REPO, PATH, token);
-      return res.json(data);
+      const { data, sha } = await ghReadJson(REPO, PATH, token);
+      return res.json({ _data: data, _sha: sha });
     } catch(e) {
       return res.status(500).json({ error: e.message });
     }
   }
 
   // POST — single: { id, field, value }  OR  bulk: { bulk: [{id, field, value},...], message }
+  // Optionally pass _clientEdits + _sha to skip the GitHub read (saves 1 API call)
   if (req.method === 'POST') {
-    const { id, field, value, bulk, message } = req.body || {};
+    const { id, field, value, bulk, message, _clientEdits, _sha } = req.body || {};
     const changes = bulk && Array.isArray(bulk) ? bulk : (id && field !== undefined ? [{ id, field, value }] : null);
     if (!changes) return res.status(400).json({ error: 'id+field or bulk array required' });
 
@@ -33,7 +34,17 @@ export default async function handler(req, res) {
       ? `Edit ${changes[0].id}: ${changes[0].field}`
       : `Bulk update ${changes.length} fields`);
 
+    const delay = ms => new Promise(r => setTimeout(r, ms));
+
+    // Fast path: client provides current state + SHA — skip the GitHub read
+    if (_clientEdits && _sha !== undefined) {
+      const result = await ghWriteJson(REPO, PATH, BRANCH, _clientEdits, commitMsg, token, _sha);
+      if (result) return res.json({ ok: true, count: changes.length, _sha: typeof result === 'string' ? result : null });
+      // SHA conflict — fall through to read+retry loop below
+    }
+
     for (let attempt = 0; attempt < 5; attempt++) {
+      if (attempt > 0) await delay(600 + Math.random() * 400);
       try {
         const { data: edits, sha } = await ghReadJson(REPO, PATH, token);
 
@@ -43,9 +54,9 @@ export default async function handler(req, res) {
           edits[cId]._at = ts;
         }
 
-        const ok = await ghWriteJson(REPO, PATH, BRANCH, edits, commitMsg, token, sha);
-        if (ok) return res.json({ ok: true, count: changes.length });
-        // false = 422 concurrent write, retry
+        const result = await ghWriteJson(REPO, PATH, BRANCH, edits, commitMsg, token, sha);
+        if (result) return res.json({ ok: true, count: changes.length, _sha: typeof result === 'string' ? result : null });
+        // false = SHA conflict, retry with fresh read
       } catch(e) {
         return res.status(500).json({ error: e.message });
       }

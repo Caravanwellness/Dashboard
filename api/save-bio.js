@@ -32,7 +32,9 @@ export default async function handler(req, res) {
       ? `Update bio: ${changes[0].name}`
       : `Bulk bio update: ${changes.length} fields`;
 
+    const delay = ms => new Promise(r => setTimeout(r, ms));
     for (let attempt = 0; attempt < 5; attempt++) {
+      if (attempt > 0) await delay(600 + Math.random() * 400); // back off between retries
       try {
         const { data: bios, sha } = await ghReadJson(REPO, PATH, token);
 
@@ -43,7 +45,7 @@ export default async function handler(req, res) {
 
         const ok = await ghWriteJson(REPO, PATH, BRANCH, bios, msg, token, sha);
         if (ok) return res.json({ ok: true, count: changes.length });
-        // false = 422 concurrent write, retry
+        // false = SHA conflict, retry with fresh read
       } catch(e) {
         return res.status(500).json({ error: e.message });
       }
