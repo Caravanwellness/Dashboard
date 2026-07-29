@@ -17195,9 +17195,10 @@
   },
   "VLB-0008": {
     "author": "Dr. Ellie Cobb",
-    "_at": "2026-07-24T03:40:20.022Z",
+    "_at": "2026-07-29T16:17:25.690Z",
     "teacher": "Dr. Ellie Cobb",
-    "client_licenses": ""
+    "client_licenses": "",
+    "type": "Video Library"
   },
   "VLB-0009": {
     "author": "Dr. Ellie Cobb",
