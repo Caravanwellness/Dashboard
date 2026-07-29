@@ -2603,6 +2603,9 @@ async function handleEditChart(input) {
     if (!r.ok) throw new Error(d.error||r.status);
     const itemCount = [...new Set(bulk.map(b=>b.id))].length;
     statusEl.textContent=`✓ Updated ${bulk.length} field${bulk.length!==1?'s':''} across ${itemCount} item${itemCount!==1?'s':''}`;
+    // Register any new client names into the clients sidebar list
+    const newClients = [...new Set(bulk.filter(b=>b.field==='licenses').flatMap(b=>b.value))].filter(c=>!clients.includes(c));
+    if (newClients.length) { clients.push(...newClients); saveC(); }
     applyFilters();
     setTimeout(()=>{ statusEl.style.display='none'; }, 6000);
   } catch(e) { statusEl.textContent=`⚠ Save failed: ${e.message}`; }
