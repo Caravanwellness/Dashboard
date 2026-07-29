@@ -2591,6 +2591,14 @@
   ],
   "VLB-0008": [
     {
+      "ts": "2026-07-29T18:34:45.501Z",
+      "field": "duration",
+      "old": null,
+      "new": "3 min",
+      "byName": "Sayak Maity",
+      "byEmail": "sayak.maity@caravanwellness.com"
+    },
+    {
       "ts": "2026-07-29T15:03:29.186Z",
       "field": "teacher/reviewer",
       "old": null,
