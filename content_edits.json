@@ -1401,7 +1401,8 @@
   },
   "ALB-0067": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-07-22T20:34:59.542Z"
+    "_at": "2026-07-29T17:32:49.465Z",
+    "author": "Mercedez Meza"
   },
   "ALB-0070": {
     "peer_reviewer": "Diane McNaught",
@@ -8053,7 +8054,8 @@
   },
   "VLB-0633": {
     "teacher": "Ana Gaston",
-    "_at": "2026-07-22T17:35:20.861Z"
+    "_at": "2026-07-29T17:32:49.465Z",
+    "author": "Mercedez Meza"
   },
   "VLB-0760": {
     "author": "Ana Gaston",
@@ -11945,7 +11947,8 @@
   },
   "VLB-1110": {
     "teacher": "Carol Hilaire",
-    "_at": "2026-07-22T17:37:41.791Z"
+    "_at": "2026-07-29T17:32:49.465Z",
+    "author": "Mercedez Meza"
   },
   "VLB-1111": {
     "author": "Carol Hilaire",
@@ -14035,7 +14038,8 @@
   },
   "VLB-0920": {
     "teacher": "Dr. Ricardo Fuentes",
-    "_at": "2026-07-22T17:51:21.091Z"
+    "_at": "2026-07-29T17:32:49.465Z",
+    "author": "Mercedez Meza"
   },
   "VLB-0921": {
     "teacher": "Dr. Ricardo Fuentes",
@@ -14049,11 +14053,13 @@
   },
   "VLB-0923": {
     "teacher": "Dr. Ricardo Fuentes",
-    "_at": "2026-07-22T17:51:21.091Z"
+    "_at": "2026-07-29T17:32:49.465Z",
+    "author": "Mercedez Meza"
   },
   "VLB-0924": {
     "teacher": "Dr. Ricardo Fuentes",
-    "_at": "2026-07-22T17:51:21.091Z"
+    "_at": "2026-07-29T17:32:49.465Z",
+    "author": "Mercedez Meza"
   },
   "VLB-0962": {
     "teacher": "Dr. Ricardo Fuentes",
@@ -14073,11 +14079,12 @@
   },
   "VLB-0964": {
     "teacher": "Dr. Ricardo Fuentes",
-    "_at": "2026-07-29T14:10:10.680Z",
+    "_at": "2026-07-29T17:32:49.465Z",
     "licenses": [
       "Wellness360"
     ],
-    "vimeo_link": "https://vimeo.com/1069599584/1913f15609"
+    "vimeo_link": "https://vimeo.com/1069599584/1913f15609",
+    "author": "Mercedez Meza"
   },
   "VLB-0965": {
     "teacher": "Dr. Ricardo Fuentes",
@@ -14089,11 +14096,12 @@
   },
   "VLB-0966": {
     "teacher": "Dr. Ricardo Fuentes",
-    "_at": "2026-07-29T14:10:10.680Z",
+    "_at": "2026-07-29T17:32:49.465Z",
     "licenses": [
       "Wellness360"
     ],
-    "vimeo_link": "https://vimeo.com/1069062318/29c488488d?tq=#t=5"
+    "vimeo_link": "https://vimeo.com/1069062318/29c488488d?tq=#t=5",
+    "author": "Mercedez Meza"
   },
   "VLB-0967": {
     "author": "Dr. Ricardo Fuentes",
@@ -15105,7 +15113,8 @@
   },
   "VLB-1530": {
     "teacher": "Dr. Fahim Pyarali",
-    "_at": "2026-07-22T17:54:04.285Z"
+    "_at": "2026-07-29T17:32:49.465Z",
+    "author": "Mercedez Meza"
   },
   "VLB-1531": {
     "author": "Dr. Fahim Pyarali",
@@ -21453,5 +21462,25 @@
   "ART-0018": {
     "title": "Emotional Symptoms of Depression",
     "_at": "2026-07-29T15:12:03.024Z"
+  },
+  "VID-0090": {
+    "author": "Mercedez Meza",
+    "_at": "2026-07-29T17:32:49.465Z"
+  },
+  "VID-0211": {
+    "author": "Mercedez Meza",
+    "_at": "2026-07-29T17:32:49.465Z"
+  },
+  "VID-0214": {
+    "author": "Mercedez Meza",
+    "_at": "2026-07-29T17:32:49.465Z"
+  },
+  "VID-0381": {
+    "author": "Mercedez Meza",
+    "_at": "2026-07-29T17:32:49.465Z"
+  },
+  "ILB-0133": {
+    "author": "Mercedez Meza",
+    "_at": "2026-07-29T17:32:49.465Z"
   }
 }
