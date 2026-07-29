@@ -2592,5 +2592,15 @@
       "byName": "Sayak Maity",
       "byEmail": "sayak.maity@caravanwellness.com"
     }
+  ],
+  "VLB-0017": [
+    {
+      "ts": "2026-07-29T15:03:44.019Z",
+      "field": "teacher/reviewer",
+      "old": null,
+      "new": "Zohar Adner",
+      "byName": "Sayak Maity",
+      "byEmail": "sayak.maity@caravanwellness.com"
+    }
   ]
 }
