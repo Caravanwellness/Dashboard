@@ -2523,6 +2523,14 @@
   ],
   "VLB-0014": [
     {
+      "ts": "2026-07-29T16:17:40.061Z",
+      "field": "teacher/reviewer",
+      "old": null,
+      "new": "Hailey Miller",
+      "byName": "Marlee Alanis",
+      "byEmail": "marlee.scott@caravanwellness.com"
+    },
+    {
       "ts": "2026-07-28T18:19:40.328Z",
       "field": "teacher/reviewer",
       "old": null,
