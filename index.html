@@ -2464,7 +2464,7 @@ const EDIT_CHART_MAP = {
   'references':'references',
   // Licensed content sheet columns
   'video length':'duration','client':'_client_aggregate','teacher':'teacher',
-  'video name':'_match_title','url':'vimeo_link',
+  'video name':'_match_title','video title':'_match_title','url':'vimeo_link',
 };
 
 async function handleEditChart(input) {
@@ -2487,15 +2487,30 @@ async function handleEditChart(input) {
         await new Promise((res,rej) => { const s=document.createElement('script'); s.src='https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js'; s.onload=res; s.onerror=rej; document.head.appendChild(s); });
       }
       const wb = XLSX.read(await file.arrayBuffer(), {type:'array'});
-      const ws = wb.Sheets[wb.SheetNames[0]];
-      norm = XLSX.utils.sheet_to_json(ws,{defval:''}).map(r => { const o={}; for(const [k,v] of Object.entries(r)) o[k.toLowerCase().trim()]=v; return o; });
+      if (wb.SheetNames.length > 1) {
+        // Multi-tab client delivery format: each sheet name = client
+        norm = [];
+        for (const sheetName of wb.SheetNames) {
+          const ws = wb.Sheets[sheetName];
+          const rows = XLSX.utils.sheet_to_json(ws, {defval:''});
+          for (const row of rows) {
+            const o = {};
+            for (const [k,v] of Object.entries(row)) o[k.toLowerCase().trim()] = v;
+            o['client'] = sheetName.trim();
+            norm.push(o);
+          }
+        }
+      } else {
+        const ws = wb.Sheets[wb.SheetNames[0]];
+        norm = XLSX.utils.sheet_to_json(ws,{defval:''}).map(r => { const o={}; for(const [k,v] of Object.entries(r)) o[k.toLowerCase().trim()]=v; return o; });
+      }
     }
   } catch(e) { statusEl.textContent=`⚠ Could not read file: ${e.message}`; return; }
 
   if (!norm.length) { statusEl.textContent='⚠ No data found.'; return; }
 
   const hasId = norm[0]['id'] !== undefined;
-  const hasTitleMatch = norm[0]['video name'] !== undefined || norm[0]['title'] !== undefined;
+  const hasTitleMatch = norm[0]['video name'] !== undefined || norm[0]['video title'] !== undefined || norm[0]['title'] !== undefined;
   if (!hasId && !hasTitleMatch) {
     statusEl.textContent='⚠ No "ID" or "Video Name"/"Title" column found.';
     return;
@@ -2530,7 +2545,7 @@ async function handleEditChart(input) {
   } else {
     // Title-based matching: group rows by matched item ID first
     const grouped = {}; // id → { fields: {field: lastVal}, clients: Set }
-    const titleKey = norm[0]['video name'] !== undefined ? 'video name' : 'title';
+    const titleKey = norm[0]['video name'] !== undefined ? 'video name' : norm[0]['video title'] !== undefined ? 'video title' : 'title';
 
     for (const row of norm) {
       const titleRaw = String(row[titleKey]||'').toLowerCase().trim();
