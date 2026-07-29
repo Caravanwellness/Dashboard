@@ -2612,5 +2612,15 @@
       "byName": "Sayak Maity",
       "byEmail": "sayak.maity@caravanwellness.com"
     }
+  ],
+  "ART-0034": [
+    {
+      "ts": "2026-07-29T15:04:38.259Z",
+      "field": "ver.",
+      "old": null,
+      "new": "1",
+      "byName": "Sayak Maity",
+      "byEmail": "sayak.maity@caravanwellness.com"
+    }
   ]
 }
