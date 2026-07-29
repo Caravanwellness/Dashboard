@@ -543,6 +543,7 @@ textarea.field-edit { resize: vertical; }
         <input type="file" accept="image/*" multiple style="display:none" onchange="bulkUploadPhotos(this)">
       </label>
       <div id="bulkPhotoStatus" style="font-size:12px;color:#666;display:none"></div>
+      <div id="bioSaveStatus" style="font-size:12px;color:#888;margin-left:4px"></div>
     </div>
     <div id="creatorsGrid" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr));gap:14px;min-width:0"></div>
   </div>
@@ -845,7 +846,8 @@ async function loadNotifications() {
 
 // ── Creator Bios (shared, stored in GitHub via /api/save-bio) ─────────────────
 let bios = {};
-let _bioSaveTimers = {};
+let _bioQueue = {};      // pending changes: "name\0field" → {name, field, value}
+let _bioFlushing = false;
 
 async function loadBios() {
   try {
@@ -854,29 +856,62 @@ async function loadBios() {
   } catch(e) { /* offline or error — bios stay empty */ }
 }
 
-async function saveBioNow(name, field, value) {
-  if (!bios[name]) bios[name] = {};
-  bios[name][field] = value;
-  clearTimeout(_bioSaveTimers[name + field]);
+function _setBioStatus(msg) {
+  const el = document.getElementById('bioSaveStatus');
+  if (el) el.textContent = msg;
+}
+
+async function _flushBioQueue() {
+  if (_bioFlushing || !Object.keys(_bioQueue).length) return;
+  const snapshot = { ..._bioQueue };
+  _bioQueue = {};
+  _bioFlushing = true;
+  _setBioStatus('Saving…');
   try {
+    const bulk = Object.values(snapshot);
     const r = await fetch('/api/save-bio', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ name, field, value }),
+      body: JSON.stringify({ bulk }),
     });
     if (!r.ok) {
       const d = await r.json().catch(()=>({}));
-      console.error('Bio save failed', d.error || r.status);
-      alert(`Failed to save "${field}" for ${name}: ${d.error || r.status}`);
+      // Re-queue failed items so they aren't lost
+      Object.assign(_bioQueue, snapshot);
+      _setBioStatus('⚠ Save failed — will retry');
+      console.error('Bio flush failed', d.error || r.status);
+    } else {
+      _setBioStatus('✓ Saved');
+      setTimeout(() => _setBioStatus(''), 3000);
     }
-  } catch(e) { console.error('Bio save error', e); }
+  } catch(e) {
+    Object.assign(_bioQueue, snapshot);
+    _setBioStatus('⚠ Save failed — will retry');
+    console.error('Bio flush error', e);
+  }
+  _bioFlushing = false;
+}
+
+// Flush every 10 seconds if there's anything pending
+setInterval(_flushBioQueue, 10000);
+// Also flush on page unload (tab close / navigation away)
+window.addEventListener('beforeunload', () => {
+  if (Object.keys(_bioQueue).length) {
+    const bulk = Object.values(_bioQueue);
+    navigator.sendBeacon('/api/save-bio', new Blob([JSON.stringify({ bulk })], { type: 'application/json' }));
+  }
+});
+
+// Queue a bio change — updates memory immediately, defers network write
+function saveBioNow(name, field, value) {
+  if (!bios[name]) bios[name] = {};
+  bios[name][field] = value;
+  _bioQueue[name + '\0' + field] = { name, field, value };
+  _setBioStatus('Unsaved changes…');
 }
 
 function saveBio(name, field, value) {
-  if (!bios[name]) bios[name] = {};
-  bios[name][field] = value;
-  clearTimeout(_bioSaveTimers[name + field]);
-  _bioSaveTimers[name + field] = setTimeout(() => saveBioNow(name, field, value), 800);
+  saveBioNow(name, field, value);
 }
 
 function getBio(name, field, def='') {
