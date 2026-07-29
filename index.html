@@ -1068,7 +1068,7 @@ async function initApp() {
   seedFilters();
   applyFilters();
   if (activeTab === 'creators') renderCreators();
-  if (activeTab === 'licensing') renderLicensing();
+  if (activeTab === 'licensing') renderClientBubbles();
 }
 
 
@@ -2299,9 +2299,13 @@ function renderClientBubbles() {
     });
   });
 
-  // Auto-add any client found in licenses data that isn't in the sidebar list
+  // Auto-add any client found in licenses data that isn't in the sidebar list (save only once per session)
   const missing = Object.keys(counts).filter(c => !clients.includes(c));
-  if (missing.length) { clients.push(...missing.sort()); saveC(); }
+  if (missing.length) {
+    clients.push(...missing.sort());
+    if (!renderClientBubbles._synced) saveC();
+    renderClientBubbles._synced = true;
+  }
 
   document.getElementById('clientList').innerHTML = clients.length
     ? clients.map(c=>`
