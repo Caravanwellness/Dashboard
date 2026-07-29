@@ -2658,5 +2658,15 @@
       "byName": "Marlee Alanis",
       "byEmail": "marlee.scott@caravanwellness.com"
     }
+  ],
+  "VLB-0154": [
+    {
+      "ts": "2026-07-29T16:18:26.099Z",
+      "field": "teacher/reviewer",
+      "old": null,
+      "new": "Anthony Crouchelli",
+      "byName": "Marlee Alanis",
+      "byEmail": "marlee.scott@caravanwellness.com"
+    }
   ]
 }
