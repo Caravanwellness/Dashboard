@@ -2299,6 +2299,10 @@ function renderClientBubbles() {
     });
   });
 
+  // Auto-add any client found in licenses data that isn't in the sidebar list
+  const missing = Object.keys(counts).filter(c => !clients.includes(c));
+  if (missing.length) { clients.push(...missing.sort()); saveC(); }
+
   document.getElementById('clientList').innerHTML = clients.length
     ? clients.map(c=>`
       <div class="client-row${activeClient===c?' active':''}" onclick="selectClient('${esc(c)}')">
