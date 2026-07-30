@@ -1530,6 +1530,8 @@ function renderTable() {
 }
 
 function esc(s){ return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+// For names inside single-quoted JS strings in HTML event handlers
+function jsStr(s){ return String(s||'').replace(/\\/g,'\\\\').replace(/'/g,"\\'"); }
 function openUrl(btn){ window.open(btn.dataset.url,'_blank'); }
 
 // ── Article Viewer ────────────────────────────────────────────────────────────
@@ -1851,7 +1853,7 @@ function showDetail(item) {
 
   function profileBtn(name) {
     if (!name) return '';
-    return `<span class="contrib-link" onclick="showContrib('${esc(name)}')">👤 Profile</span>`;
+    return `<span class="contrib-link" onclick="showContrib('${jsStr(name)}')">👤 Profile</span>`;
   }
 
   // Change log
@@ -2227,7 +2229,7 @@ function renderCreators(query='') {
                 ? `<img src="${esc(photo)}" style="width:44px;height:44px;border-radius:50%;object-fit:cover;display:block">`
                 : `<div style="width:44px;height:44px;border-radius:50%;background:#1a1a2e;color:white;display:flex;align-items:center;justify-content:center;font-size:15px;font-weight:700">${esc(initials)}</div>`}
               <label title="Upload photo" style="position:absolute;bottom:-2px;right:-2px;width:18px;height:18px;border-radius:50%;background:#0d9488;color:white;display:flex;align-items:center;justify-content:center;font-size:10px;cursor:pointer;box-shadow:0 1px 3px rgba(0,0,0,.3)">
-                📷<input type="file" accept="image/*" style="display:none" onchange="uploadCreatorPhoto('${esc(name)}',this)">
+                📷<input type="file" accept="image/*" style="display:none" onchange="uploadCreatorPhoto('${jsStr(name)}',this)">
               </label>
             </div>
             <div style="flex:1;min-width:0">
@@ -2236,7 +2238,7 @@ function renderCreators(query='') {
               <div style="font-size:11px;color:#bbb;margin-top:3px">${info.authored} created &nbsp;·&nbsp; ${info.reviewed} reviewed</div>
             </div>
             <div style="display:flex;flex-direction:column;gap:5px;align-items:flex-end">
-              <button onclick="showContrib('${esc(name)}')" style="padding:4px 10px;background:#f0f2f5;border:1px solid #e0e0e0;border-radius:6px;font-size:11px;cursor:pointer;color:#444">View content</button>
+              <button onclick="showContrib('${jsStr(name)}')" style="padding:4px 10px;background:#f0f2f5;border:1px solid #e0e0e0;border-radius:6px;font-size:11px;cursor:pointer;color:#444">View content</button>
               <button onclick="document.getElementById('${cardId}').classList.add('flipped')" style="padding:4px 10px;background:#f0f2f5;border:1px solid #e0e0e0;border-radius:6px;font-size:11px;cursor:pointer;color:#444">Edit details</button>
             </div>
           </div>
@@ -2244,7 +2246,7 @@ function renderCreators(query='') {
             placeholder="Add bio…"
             style="width:100%;box-sizing:border-box;padding:7px 9px;border:1px solid #e8e8e8;border-radius:6px;font-size:12px;font-family:inherit;resize:vertical;min-height:60px;color:#444;outline:none"
             onfocus="this.style.borderColor='#1a1a2e'"
-            onblur="this.style.borderColor='#e8e8e8';saveBioNow('${esc(name)}','bio',this.value)"
+            onblur="this.style.borderColor='#e8e8e8';saveBioNow('${jsStr(name)}','bio',this.value)"
           >${esc(bio)}</textarea>
         </div>
 
@@ -2263,7 +2265,7 @@ function renderCreators(query='') {
               value="${esc(getBio(name,'creds',info.creds||''))}"
               oninput="const t=document.getElementById('ctitle_${esc(name)}');if(t)t.textContent=this.value"
               onfocus="this.style.borderColor='#1a1a2e'"
-              onblur="this.style.borderColor='#e8e8e8';saveBioNow('${esc(name)}','creds',this.value)"
+              onblur="this.style.borderColor='#e8e8e8';saveBioNow('${jsStr(name)}','creds',this.value)"
             >
           </div>
 
@@ -2276,9 +2278,9 @@ function renderCreators(query='') {
                 style="flex:1;padding:7px 9px;border:1px solid #e8e8e8;border-radius:6px;font-size:12px;font-family:inherit;outline:none;color:#333"
                 onfocus="this.style.borderColor='#e63946'"
                 onblur="this.style.borderColor='#e8e8e8'"
-                onkeydown="if(event.key==='Enter')renameCreator('${esc(name)}',this.value)"
+                onkeydown="if(event.key==='Enter')renameCreator('${jsStr(name)}',this.value)"
               >
-              <button onclick="renameCreator('${esc(name)}',document.getElementById('rename_${esc(name)}').value)"
+              <button onclick="renameCreator('${jsStr(name)}',document.getElementById('rename_${esc(name)}').value)"
                 style="padding:7px 12px;border:1px solid #e63946;border-radius:6px;background:#e63946;color:white;font-size:12px;cursor:pointer;font-weight:600">
                 Rename
               </button>
