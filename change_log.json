@@ -2732,5 +2732,15 @@
       "byName": "Marlee Alanis",
       "byEmail": "marlee.scott@caravanwellness.com"
     }
+  ],
+  "VLB-0012": [
+    {
+      "ts": "2026-08-03T15:58:36.968Z",
+      "field": "teacher/reviewer",
+      "old": null,
+      "new": "Hailey Miller",
+      "byName": "Marlee Alanis",
+      "byEmail": "marlee.scott@caravanwellness.com"
+    }
   ]
 }
