@@ -2686,5 +2686,15 @@
       "byName": "Marlee Alanis",
       "byEmail": "marlee.scott@caravanwellness.com"
     }
+  ],
+  "ART-0010": [
+    {
+      "ts": "2026-08-03T15:31:38.419Z",
+      "field": "ver.",
+      "old": null,
+      "new": "1",
+      "byName": "Marlee Alanis",
+      "byEmail": "marlee.scott@caravanwellness.com"
+    }
   ]
 }
