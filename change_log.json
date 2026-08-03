@@ -2714,5 +2714,15 @@
       "byName": "Marlee Alanis",
       "byEmail": "marlee.scott@caravanwellness.com"
     }
+  ],
+  "VLB-0005": [
+    {
+      "ts": "2026-08-03T15:37:30.859Z",
+      "field": "duration",
+      "old": null,
+      "new": "3 min",
+      "byName": "Marlee Alanis",
+      "byEmail": "marlee.scott@caravanwellness.com"
+    }
   ]
 }
