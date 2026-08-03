@@ -619,8 +619,8 @@ function authHeader() {
 
 function restoreSession() {
   try {
-    const t = sessionStorage.getItem('cw_token');
-    const u = JSON.parse(sessionStorage.getItem('cw_user') || 'null');
+    const t = localStorage.getItem('cw_token');
+    const u = JSON.parse(localStorage.getItem('cw_user') || 'null');
     if (t && u) { sessionToken = t; currentUser = u; return true; }
   } catch(e) {}
   return false;
@@ -628,14 +628,14 @@ function restoreSession() {
 
 function persistSession(token, user) {
   sessionToken = token; currentUser = user;
-  sessionStorage.setItem('cw_token', token);
-  sessionStorage.setItem('cw_user', JSON.stringify(user));
+  localStorage.setItem('cw_token', token);
+  localStorage.setItem('cw_user', JSON.stringify(user));
 }
 
 function logout() {
   sessionToken = null; currentUser = null;
-  sessionStorage.removeItem('cw_token');
-  sessionStorage.removeItem('cw_user');
+  localStorage.removeItem('cw_token');
+  localStorage.removeItem('cw_user');
   document.getElementById('loginOverlay').style.display = 'flex';
   document.getElementById('userBadge').style.display = 'none';
 }
