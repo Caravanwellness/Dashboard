@@ -2544,8 +2544,7 @@ async function handleEditChart(input) {
     if (file.name.endsWith('.csv')) {
       const raw = parseCSV(await file.text());
       if (!raw.length) throw new Error('Empty file');
-      const hdrs = raw[0].map(h => String(h||'').trim().toLowerCase());
-      norm = raw.slice(1).map(row => { const o = {}; hdrs.forEach((h,i) => o[h] = row[i] ?? ''); return o; });
+      norm = raw.map(row => { const o = {}; for (const [k,v] of Object.entries(row)) o[k.toLowerCase().trim()] = v; return o; });
     } else {
       if (!window.XLSX) {
         await new Promise((res,rej) => { const s=document.createElement('script'); s.src='https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js'; s.onload=res; s.onerror=rej; document.head.appendChild(s); });
