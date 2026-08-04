@@ -49,5 +49,10 @@
     "name": "IsabellaSexton",
     "passwordHash": "29993e887e32bf78e02763e57575193a52be53512f7063f0af28949270cb5ce2",
     "createdAt": "2026-08-04T18:07:17.077Z"
+  },
+  "haley.gentry@caravanwellness.com": {
+    "name": "Haley Gentry",
+    "passwordHash": "a9c684fc6ef1f3b90dcc0c9a641a9f59bfcbb41d3bd6cdc4b5fbea685b7995e6",
+    "createdAt": "2026-08-04T19:01:57.359Z"
   }
 }
