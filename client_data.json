@@ -15,7 +15,8 @@
     "Wellsort",
     "i9med",
     "Pavelka",
-    "Millennium Health"
+    "Millennium Health",
+    "iMediSync"
   ],
   "meta": {
     "YuLife": {
@@ -31,6 +32,10 @@
       "notes": ""
     },
     "Pavelka": {
+      "delivery": "",
+      "notes": ""
+    },
+    "Millennium Health": {
       "delivery": "",
       "notes": ""
     }
