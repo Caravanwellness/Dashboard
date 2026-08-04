@@ -3558,5 +3558,15 @@
       "byName": "Madeline McGuire",
       "byEmail": "madeline.mcguire@caravanwellness.com"
     }
+  ],
+  "INF-0010": [
+    {
+      "ts": "2026-08-04T14:00:01.759Z",
+      "field": "author",
+      "old": "",
+      "new": "Jade Gordon",
+      "byName": "Madeline McGuire",
+      "byEmail": "madeline.mcguire@caravanwellness.com"
+    }
   ]
 }
