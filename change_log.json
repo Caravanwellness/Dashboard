@@ -5064,5 +5064,15 @@
       "byName": "Amanda Martinez",
       "byEmail": "amanda.martinez@caravanwellness.com"
     }
+  ],
+  "ART-0040": [
+    {
+      "ts": "2026-08-04T21:17:23.036Z",
+      "field": "references",
+      "old": "International Agency for Research on Cancer. (2022). *World cancer report: Cancer research for cancer prevention*. International Agency for Research on Cancer. European Society for Medical Oncology. (2023). *Cancer biology*. European Society for Medical Oncology. National Cancer Center Japan. (2020). *Tumor biology basics*. National Cancer Center Japan.",
+      "new": "",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    }
   ]
 }
