@@ -3972,5 +3972,15 @@
       "byName": "Madeline McGuire",
       "byEmail": "madeline.mcguire@caravanwellness.com"
     }
+  ],
+  "ILB-0003": [
+    {
+      "ts": "2026-08-04T15:39:46.318Z",
+      "field": "author",
+      "old": null,
+      "new": "Jade Gordon",
+      "byName": "Madeline McGuire",
+      "byEmail": "madeline.mcguire@caravanwellness.com"
+    }
   ]
 }
