@@ -3634,5 +3634,15 @@
       "byName": "Madeline McGuire",
       "byEmail": "madeline.mcguire@caravanwellness.com"
     }
+  ],
+  "ART-0197": [
+    {
+      "ts": "2026-08-04T14:06:05.042Z",
+      "field": "author",
+      "old": "",
+      "new": "PharmD",
+      "byName": "Madeline McGuire",
+      "byEmail": "madeline.mcguire@caravanwellness.com"
+    }
   ]
 }
