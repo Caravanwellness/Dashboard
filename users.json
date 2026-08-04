@@ -34,5 +34,10 @@
     "name": "Jade Gordon",
     "passwordHash": "0b4b087c0f31af17a5ef2ff6c9ea2dc23af1b8948c7c6e290e822c1d07d6a915",
     "createdAt": "2026-07-27T13:23:44.953Z"
+  },
+  "madison.fulton@caravanwellness.com": {
+    "name": "Madison",
+    "passwordHash": "ffc18f647838428e322f2fb93e859d27307d09b4269270a3173e74d80c313f7a",
+    "createdAt": "2026-08-04T17:45:37.568Z"
   }
 }
