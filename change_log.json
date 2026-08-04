@@ -5199,6 +5199,14 @@
   ],
   "ART-0099": [
     {
+      "ts": "2026-08-04T21:53:09.189Z",
+      "field": "references",
+      "old": "",
+      "new": "Johns Hopkins Medicine. (2026). FODMAP Diet: What You Need to Know. https://www.hopkinsmedicine.org/health/expert-qa/fodmap-diet-what-you-need-to-know\n\nCleveland Clinic. (2022). Low FODMAP Diet: What It Is, Uses & How to Follow. https://my.clevelandclinic.org/health/treatments/22466-low-fodmap-diet\n\nNutrients. (2023). Effects of a Low-FODMAP Diet on Irritable Bowel Syndrome in Both Children and Adults—A Narrative Review. https://doi.org/10.3390/nu15102295",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    },
+    {
       "ts": "2026-08-04T21:50:36.224Z",
       "field": "references",
       "old": "Staudacher, H. M., Lomer, M. C. E., & Faraj, A. (2014). *The Low FODMAP Diet for the Management of Irritable Bowel Syndrome: A Systematic Review and Meta-Analysis*. *Journal of Gastroenterology and Hepatology*, 29(2), 206–216. Halmos, E. P., Power, V. M., Shepherd, S. J., et al. (2014). *A Diet Low in FODMAPs Reduces Symptoms of Irritable Bowel Syndrome*. *Gastroenterology*, 146(1), 67–75. McKenzie, Y. A., et al. (2020). *British Dietetic Association Evidence-Based Guidelines for the Dietary Management of Irritable Bowel Syndrome*. *Journal of Human Nutrition and Dietetics*, 33(4), 516–523.",
