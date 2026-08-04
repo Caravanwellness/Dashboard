@@ -14,7 +14,8 @@
     "Wellness360",
     "Wellsort",
     "i9med",
-    "Pavelka"
+    "Pavelka",
+    "Millennium Health"
   ],
   "meta": {
     "YuLife": {
@@ -26,6 +27,10 @@
       "notes": ""
     },
     "spectrum": {
+      "delivery": "",
+      "notes": ""
+    },
+    "Pavelka": {
       "delivery": "",
       "notes": ""
     }
