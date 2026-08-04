@@ -5049,6 +5049,14 @@
   ],
   "ART-0039": [
     {
+      "ts": "2026-08-04T21:15:47.981Z",
+      "field": "references",
+      "old": "",
+      "new": "National Cancer Institute. (2022). Cancer Staging. https://www.cancer.gov/about-cancer/diagnosis-staging/staging\n\nAmerican Cancer Society. (2024). Cancer Staging. https://www.cancer.org/cancer/diagnosis-staging/staging.html\n\nCleveland Clinic. (2024). Stages of Cancer: What They Mean & How Staging Works. https://my.clevelandclinic.org/health/diagnostics/22607-cancer-stages-grades-system",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    },
+    {
       "ts": "2026-08-04T21:14:25.324Z",
       "field": "references",
       "old": "International Agency for Research on Cancer. (2022). World cancer report: Cancer research for cancer prevention. European Society for Medical Oncology. (2023). Cancer biology. National Cancer Center Japan. (2020). Tumor biology basics.",
