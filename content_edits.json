@@ -2613,7 +2613,7 @@
   },
   "ALB-0024": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-04T18:41:52.513Z",
+    "_at": "2026-08-04T18:41:55.673Z",
     "teacher": "Marlee Alanis",
     "references": "American College of Rheumatology. (2024). When to see a rheumatologist. https://rheumatology.org/patient-blog/when-to-see-a-rheumatologist\nArthritis Foundation. (2022). What to expect at a rheumatology appointment: Your first visit. https://www.arthritis.org/health-wellness/treatment/treatment-plan/you-your-doctor/first-appointment-with-a-rheumatologist\nBritish Journal of General Practice. (2023). Opportunities and challenges in early diagnosis of rheumatoid arthritis in general practice. https://pmc.ncbi.nlm.nih.gov/articles/PMC10049595/"
   },
@@ -25662,10 +25662,5 @@
     "type": "Video",
     "_at": "2026-08-04T16:19:23.889Z",
     "author": "Dr. David"
-  },
-  "INF-0015": {
-    "author": "Emily Wilson",
-    "_at": "2026-08-04T18:19:30.308Z",
-    "date_created": "11/15/2025"
   }
 }
