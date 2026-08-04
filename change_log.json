@@ -4478,5 +4478,15 @@
       "byName": "Madeline McGuire",
       "byEmail": "madeline.mcguire@caravanwellness.com"
     }
+  ],
+  "ALB-0026": [
+    {
+      "ts": "2026-08-04T19:02:46.866Z",
+      "field": "references",
+      "old": "1. Allergy & Asthma Network. (2024). *Sleep matters: Getting a good night’s sleep with asthma and allergies.* https://allergyasthmanetwork.org/news/sleep-matters-getting-good-nights-sleep-with-asthma-and-allergies/ 2. Asthma and Respiratory Foundation. (2025). *Dreaming of a good night’s sleep.* https://www.asthmafoundation.org.nz/stories/dreaming-of-a-good-nights-sleep",
+      "new": "1. Allergy & Asthma Network. (2024). *Sleep matters: Getting a good night’s sleep with asthma and allergies.* https://allergyasthmanetwork.org/news/sleep-matters-getting-good-nights-sleep-with-asthma-and-allergies/ 2. Asthma and Respiratory Foundation. (2025). *Dreaming of a good night’s sleep.* https://www.asthmafoundation.org.nz/stories/dreaming-of-a-good-nights-sleep   European Journal of Medical Research. (2023). The relationship between obstructive sleep apnea and asthma severity and vice versa: a systematic review and meta-analysis. https://link.springer.com/article/10.1186/s40001-023-01097-4",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    }
   ]
 }
