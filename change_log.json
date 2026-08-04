@@ -5181,6 +5181,14 @@
   ],
   "ART-0098": [
     {
+      "ts": "2026-08-04T21:49:57.935Z",
+      "field": "references",
+      "old": "",
+      "new": "NIH Office of Dietary Supplements. (2023). Thiamin – Health Professional Fact Sheet. https://ods.od.nih.gov/factsheets/Thiamin-HealthProfessional/\n\nHarvard T.H. Chan School of Public Health, The Nutrition Source. (2023). Thiamin – Vitamin B1. https://nutritionsource.hsph.harvard.edu/vitamin-b1/\n\nIUBMB Life. (2022). Mitochondrial transport and metabolism of the vitamin B-derived cofactors thiamine pyrophosphate, coenzyme A, FAD and NAD+, and related diseases: A review. https://doi.org/10.1002/iub.2612",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    },
+    {
       "ts": "2026-08-04T21:47:07.747Z",
       "field": "references",
       "old": "1. Office of Dietary Supplements, National Institutes of Health. *B vitamins*. Office of Dietary Supplements, National Institutes of Health, 2023. https://ods.od.nih.gov/factsheets/BVitamins-HealthProfessional",
