@@ -44,5 +44,10 @@
     "name": "Annika Holland",
     "passwordHash": "cdd8ce190f84546253ab458d59daa27acb90d7aadf7e7d14561b567b817184f5",
     "createdAt": "2026-08-04T18:05:41.519Z"
+  },
+  "isabella.sexton@caravanwellness.com": {
+    "name": "IsabellaSexton",
+    "passwordHash": "29993e887e32bf78e02763e57575193a52be53512f7063f0af28949270cb5ce2",
+    "createdAt": "2026-08-04T18:07:17.077Z"
   }
 }
