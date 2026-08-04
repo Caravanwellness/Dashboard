@@ -463,6 +463,14 @@
   ],
   "ART-0120": [
     {
+      "ts": "2026-08-04T20:18:21.093Z",
+      "field": "references",
+      "old": "Tolnai N, Szabó Z, Köteles F, Szabo A. Physical and psychological benefits of once-a-week Pilates exercises in young sedentary women: A 10-week longitudinal study. Physiol Behav.",
+      "new": "",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    },
+    {
       "ts": "2026-07-20T19:59:30.466Z",
       "field": "peer_reviewer",
       "old": "Diane https://docs.google.com/document/d/17zUtVdmDpHBhxhsP4q_txRa-kATb8jMEnk2VrXM9HtI/edit?usp=sharing",
