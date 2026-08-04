@@ -2589,7 +2589,7 @@ async function handleEditChart(input) {
   } else {
     // Title-based matching: group rows by matched item ID first
     const grouped = {}; // id → { fields: {field: lastVal}, clients: Set }
-    const titleKey = norm[0]['video name'] !== undefined ? 'video name' : norm[0]['video title'] !== undefined ? 'video title' : 'title';
+    const titleKey = ['video name','video title','title','topic'].find(k => norm[0][k] !== undefined) || 'title';
 
     for (const row of norm) {
       const titleRaw = String(row[titleKey]||'').toLowerCase().trim();
