@@ -5117,6 +5117,14 @@
   ],
   "ART-0061": [
     {
+      "ts": "2026-08-04T21:31:44.621Z",
+      "field": "references",
+      "old": "Centers for Disease Control and Prevention. (2024). Prostate cancer screening. https://www.cdc.gov/cancer/prostate/basic_info/screening.htm U.S. Preventive Services Task Force. (2018). Prostate cancer: Screening. https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/prostate-canAmerican Cancer Society. (2023). Prostate cancer early detection. https://www.cancer.org/cancer/prostate-cancer/early-detection.html Mayo Clinic. (2023). Prostate cancer screening. https://www.mayoclinic.org/tests-procedures/psa-test/about/pac-20384731 National Health Service. (2023). Prostate cancer. https://www.nhs.uk/conditions/prostate-cancer/",
+      "new": "Centers for Disease Control and Prevention. (2024). Prostate cancer screening. https://www.cdc.gov/cancer/prostate/basic_info/screening.htm U.S. Preventive Services Task Force. (2018). Prostate cancer: American Cancer Society. (2023). Prostate cancer early detection. https://www.cancer.org/cancer/prostate-cancer/early-detection.html Mayo Clinic. (2023). Prostate cancer screening. https://www.mayoclinic.org/tests-procedures/psa-test/about/pac-20384731 National Health Service. (2023). Prostate cancer. https://www.nhs.uk/conditions/prostate-cancer/",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    },
+    {
       "ts": "2026-08-04T21:31:40.588Z",
       "field": "references",
       "old": "Centers for Disease Control and Prevention. (2024). Prostate cancer screening. https://www.cdc.gov/cancer/prostate/basic_info/screening.htm U.S. Preventive Services Task Force. (2018). Prostate cancer: Screening. https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/prostate-cancAmerican Cancer Society. (2023). Prostate cancer early detection. https://www.cancer.org/cancer/prostate-cancer/early-detection.html Mayo Clinic. (2023). Prostate cancer screening. https://www.mayoclinic.org/tests-procedures/psa-test/about/pac-20384731 National Health Service. (2023). Prostate cancer. https://www.nhs.uk/conditions/prostate-cancer/",
