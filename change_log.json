@@ -315,6 +315,14 @@
   ],
   "ART-0023": [
     {
+      "ts": "2026-08-04T21:04:19.302Z",
+      "field": "references",
+      "old": "Campbell, L., Simpson, J. A., Boldry, J., & Kashy, D. A. (2005). Perceptions of conflict and support in romantic relationships: The role of attachment anxiety. *Journal of Personality and Social Psychology, 88*(3), 510–531. Knobloch, L. K., & Theiss, J. A. (2011). Relational uncertainty and partner interference in romantic relationships. *Communication Monographs, 78*(3), 304–324. Whisman, M. A. (2007). Marital distress and DSM-IV psychiatric disorders in a population-based national survey. *Journal of Abnormal Psychology, 116*(3), 638–643.",
+      "new": "",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    },
+    {
       "ts": "2026-07-20T19:58:10.084Z",
       "field": "author",
       "old": "Diane McNaught",
