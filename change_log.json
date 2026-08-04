@@ -759,6 +759,14 @@
   ],
   "ART-0148": [
     {
+      "ts": "2026-08-04T16:19:45.858Z",
+      "field": "type",
+      "old": "Article",
+      "new": "Video",
+      "byName": "Madeline McGuire",
+      "byEmail": "madeline.mcguire@caravanwellness.com"
+    },
+    {
       "ts": "2026-07-27T13:33:48.436Z",
       "field": "category",
       "old": "General",
