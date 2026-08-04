@@ -65,7 +65,7 @@ export default async function handler(req, res) {
             merged++;
           } else {
             const id = `EXT-${String(nextId++).padStart(4, '0')}`;
-            const entry = { id, ...item, _addedAt: new Date().toISOString(), _addedBy: user.name };
+            const entry = { id, ...item, _addedAt: new Date().toISOString(), _addedBy: userName };
             existing.push(entry);
             byTitle[key] = entry;
             added++;
