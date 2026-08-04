@@ -1455,6 +1455,14 @@
   ],
   "ALB-0104": [
     {
+      "ts": "2026-08-04T20:06:34.995Z",
+      "field": "references",
+      "old": "",
+      "new": "Clinical Interventions in Aging. (2024). Age-Related Reduction of Foot Intrinsic Muscle Function and the Relationship with Postural Stability in Old Adults. https://pmc.ncbi.nlm.nih.gov/articles/PMC11162186/\n\nThe American Journal of Medicine. (2021). Foot Examination for Older Adults. https://pmc.ncbi.nlm.nih.gov/articles/PMC9614715/\n\nCleveland Clinic. (2022). Shoes Getting Tight? Why Your Feet Change Size Over Time. https://health.clevelandclinic.org/shoes-getting-tight-feet-change-size-time",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    },
+    {
       "ts": "2026-08-04T20:06:24.684Z",
       "field": "references",
       "old": "World Health Organization. (2023). *Integrated care for older people*. World Health Organization. https://www.who.int/publications/i/item/WHO-FWC-ALC-19.1\n\nNational Health Service. (2023). *Foot care and ageing*. National Health Service. https://www.nhs.uk/conditions/foot-pain/\n\n*European Journal of Ageing*. (2020). *Foot health and mobility in older adults*. *European Journal of Ageing, 17*(3), 245–254. https://link.springer.com/article/10.1007/s10433-019-00535-0",
