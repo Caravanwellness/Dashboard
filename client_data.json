@@ -19,7 +19,8 @@
     "iMediSync",
     "New Ocean Health",
     "WellSort",
-    "Healthcare Highways"
+    "Healthcare Highways",
+    "Lifesmart"
   ],
   "meta": {
     "YuLife": {
@@ -51,6 +52,10 @@
       "notes": ""
     },
     "WellSort": {
+      "delivery": "",
+      "notes": ""
+    },
+    "Healthcare Highways": {
       "delivery": "",
       "notes": ""
     }
