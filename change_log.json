@@ -4361,6 +4361,14 @@
   ],
   "ART-0142": [
     {
+      "ts": "2026-08-04T16:19:20.768Z",
+      "field": "author",
+      "old": "",
+      "new": "Da",
+      "byName": "Madeline McGuire",
+      "byEmail": "madeline.mcguire@caravanwellness.com"
+    },
+    {
       "ts": "2026-08-04T16:19:00.103Z",
       "field": "type",
       "old": "Article",
