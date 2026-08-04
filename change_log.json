@@ -1,6 +1,14 @@
 {
   "ART-0058": [
     {
+      "ts": "2026-08-04T21:26:28.527Z",
+      "field": "references",
+      "old": "Marfella, Raffaele, et al. “Microplastics and Nanoplastics in Atheromas and Cardiovascular Events.” *The New England Journal of Medicine*, vol. 390, no. 10, 2024, pp. 900–910. doi:10.1056/nejmoa2309822.",
+      "new": "",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    },
+    {
       "ts": "2026-07-20T19:01:40.678Z",
       "field": "peer_reviewer",
       "old": "Diane",
