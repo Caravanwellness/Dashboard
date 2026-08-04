@@ -5178,5 +5178,15 @@
       "byName": "Amanda Martinez",
       "byEmail": "amanda.martinez@caravanwellness.com"
     }
+  ],
+  "ART-0098": [
+    {
+      "ts": "2026-08-04T21:47:07.747Z",
+      "field": "references",
+      "old": "1. Office of Dietary Supplements, National Institutes of Health. *B vitamins*. Office of Dietary Supplements, National Institutes of Health, 2023. https://ods.od.nih.gov/factsheets/BVitamins-HealthProfessional",
+      "new": "",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    }
   ]
 }
