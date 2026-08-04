@@ -4982,5 +4982,15 @@
       "byName": "Amanda Martinez",
       "byEmail": "amanda.martinez@caravanwellness.com"
     }
+  ],
+  "ART-0227": [
+    {
+      "ts": "2026-08-04T20:43:27.108Z",
+      "field": "references",
+      "old": "Mayer, E. A., Knight, R., Mazmanian, S. K., Cryan, J. F., & Tillisch, K. (2014). *Gut microbes and the brain: paradigm shift in neuroscience.* *Journal of Neuroscience, 34*(46), 15490–15496. Rieder, R., Wisniewski, P. J., & Alderman, B. L. (2017). *Microbes and mental health: A review.* *Brain, Behavior, and Immunity, 66*, 9–17.",
+      "new": "",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    }
   ]
 }
