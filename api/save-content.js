@@ -1,5 +1,5 @@
 import { ghReadJson, ghWriteJson } from './_lib/github.js';
-import { getUser } from './_lib/token.js';
+import { getUser } from './_lib/token.js'; // optional — used for commit attribution only
 
 const REPO   = 'Caravanwellness/Dashboard';
 const PATH   = 'extra_content.json';
@@ -31,7 +31,7 @@ export default async function handler(req, res) {
 
   if (req.method === 'POST') {
     const user = getUser(req);
-    if (!user) return res.status(401).json({ error: 'Not authenticated' });
+    const userName = user?.name || 'Dashboard';
 
     const { items: newItems } = req.body || {};
     if (!Array.isArray(newItems) || !newItems.length)
@@ -73,7 +73,7 @@ export default async function handler(req, res) {
         }
 
         const result = await ghWriteJson(REPO, PATH, BRANCH, existing,
-          `Add content: ${added} new, ${merged} merged — by ${user.name}`, token, sha);
+          `Add content: ${added} new, ${merged} merged — by ${userName}`, token, sha);
         if (result) return res.json({ ok: true, added, merged, total: existing.length });
         // SHA conflict — retry
       } catch(e) {
