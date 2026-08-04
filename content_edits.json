@@ -509,7 +509,8 @@
   },
   "ART-0079": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-07-22T20:34:59.542Z"
+    "_at": "2026-08-04T21:41:40.930Z",
+    "references": "American Heart Association. (2026). What is Atherosclerosis? https://www.heart.org/en/health-topics/cholesterol/about-cholesterol/atherosclerosis\n\nCenters for Disease Control and Prevention. (2024). LDL and HDL Cholesterol and Triglycerides. https://www.cdc.gov/cholesterol/about/ldl-and-hdl-cholesterol-and-triglycerides.html\n\nAmerican Journal of Preventive Cardiology. (2024). The importance of LDL-C lowering in atherosclerotic cardiovascular disease prevention: Lower for longer is better. https://pmc.ncbi.nlm.nih.gov/articles/PMC10992711/"
   },
   "ART-0080": {
     "author": "Diane McNaught",
