@@ -2742,5 +2742,15 @@
       "byName": "Marlee Alanis",
       "byEmail": "marlee.scott@caravanwellness.com"
     }
+  ],
+  "INF-0239": [
+    {
+      "ts": "2026-08-04T13:04:44.622Z",
+      "field": "type",
+      "old": "Infographic",
+      "new": "Video",
+      "byName": "Madeline McGuire",
+      "byEmail": "madeline.mcguire@caravanwellness.com"
+    }
   ]
 }
