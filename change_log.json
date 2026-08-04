@@ -3595,6 +3595,14 @@
   ],
   "INF-0011": [
     {
+      "ts": "2026-08-04T14:01:00.784Z",
+      "field": "author",
+      "old": "",
+      "new": "Jade Gordon",
+      "byName": "Madeline McGuire",
+      "byEmail": "madeline.mcguire@caravanwellness.com"
+    },
+    {
       "ts": "2026-08-04T14:00:57.035Z",
       "field": "date_revised",
       "old": "",
