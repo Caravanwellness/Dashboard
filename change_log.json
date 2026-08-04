@@ -4542,5 +4542,15 @@
       "byName": "Amanda Martinez",
       "byEmail": "amanda.martinez@caravanwellness.com"
     }
+  ],
+  "ALB-0046": [
+    {
+      "ts": "2026-08-04T19:30:19.517Z",
+      "field": "references",
+      "old": "World Health Organization. *Air Pollution and Health.* World Health Organization, n.d. https://www.who.int/news-room/fact-sheets/detail/air-pollution Centers for Disease Control and Prevention (CDC). *Air Quality and Health.* CDC, n.d. https://www.cdc.gov/air/index.html U.S. Environmental Protection Agency (EPA). *Health and Environmental Effects of Particulate Matter.* EPA, n.d. https://www.epa.gov/pm-pollution/health-and-environmental-effects-particulate-matter-pm American Lung Association. *How Air Pollution Affects Your Health.* American Lung Association, n.d. https://www.lung.org/clean-air",
+      "new": "",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    }
   ]
 }
