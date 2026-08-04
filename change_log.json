@@ -2950,5 +2950,15 @@
       "byName": "Madeline McGuire",
       "byEmail": "madeline.mcguire@caravanwellness.com"
     }
+  ],
+  "INF-0002": [
+    {
+      "ts": "2026-08-04T13:32:12.719Z",
+      "field": "author",
+      "old": "",
+      "new": "j",
+      "byName": "Madeline McGuire",
+      "byEmail": "madeline.mcguire@caravanwellness.com"
+    }
   ]
 }
