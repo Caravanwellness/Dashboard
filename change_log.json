@@ -4444,5 +4444,15 @@
       "byName": "Amanda Martinez",
       "byEmail": "amanda.martinez@caravanwellness.com"
     }
+  ],
+  "INF-0016": [
+    {
+      "ts": "2026-08-04T18:48:43.362Z",
+      "field": "author",
+      "old": "",
+      "new": "Emil",
+      "byName": "Madeline McGuire",
+      "byEmail": "madeline.mcguire@caravanwellness.com"
+    }
   ]
 }
