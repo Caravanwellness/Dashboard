@@ -2649,7 +2649,7 @@ function renderClientDetail(name) {
 
   document.getElementById('clientArea').innerHTML = `
     <div class="client-detail">
-      <h2>${esc(name)}</h2>
+      <h2><span id="clientNameHeading" contenteditable="true" spellcheck="false" title="Click to rename client" style="outline:none;border-bottom:2px solid transparent;border-radius:2px;padding:2px 4px;cursor:text;transition:border-color .15s" onmouseover="this.style.borderColor='#d0d0d0'" onmouseout="if(document.activeElement!==this)this.style.borderColor='transparent'" onfocus="this.style.borderColor='#6366f1'" onblur="this.style.borderColor='transparent'">${esc(name)}</span></h2>
       ${notifBanner}
       <div class="client-meta">
         <div class="client-meta-field">
@@ -2668,6 +2668,46 @@ function renderClientDetail(name) {
 
   document.getElementById('cDelivery').addEventListener('change', e=>{ clientMeta[name].delivery=e.target.value; saveCM(); });
   document.getElementById('cNotes').addEventListener('change',    e=>{ clientMeta[name].notes=e.target.value;    saveCM(); });
+
+  const nameEl = document.getElementById('clientNameHeading');
+  nameEl.addEventListener('keydown', e => { if (e.key === 'Enter') { e.preventDefault(); nameEl.blur(); } });
+  nameEl.addEventListener('blur', async () => {
+    const newName = nameEl.textContent.trim();
+    if (!newName || newName === name) return;
+
+    // Rename in clients array + meta
+    const idx = clients.indexOf(name);
+    if (idx !== -1) clients[idx] = newName;
+    if (clientMeta[name]) { clientMeta[newName] = clientMeta[name]; delete clientMeta[name]; }
+    saveC();
+    saveCM();
+
+    // Build bulk edits for every item that carries the old client name
+    const bulk = [];
+    ALL.forEach(item => {
+      const cur = gE(item.id, 'licenses', item.client_licenses || []);
+      const li = cur.indexOf(name);
+      if (li === -1) return;
+      const updated = [...cur];
+      updated[li] = newName;
+      if (!edits[item.id]) edits[item.id] = {};
+      edits[item.id].licenses = updated;
+      item.client_licenses = item.client_licenses?.map(c => c === name ? newName : c);
+      bulk.push({ id: item.id, field: 'licenses', value: updated });
+    });
+
+    if (bulk.length) {
+      fetch('/api/save-edits', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', ...authHeader() },
+        body: JSON.stringify({ bulk, message: `Rename client: "${name}" → "${newName}"` }),
+      });
+    }
+
+    activeClient = newName;
+    renderClientBubbles();
+    renderClientDetail(newName);
+  });
 }
 
 function jumpToItem(id) {
