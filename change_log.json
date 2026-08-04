@@ -4067,6 +4067,14 @@
   ],
   "ART-0055": [
     {
+      "ts": "2026-08-04T21:25:32.793Z",
+      "field": "references",
+      "old": "",
+      "new": "American Heart Association. (2024). American Heart Association Recommendations for Physical Activity in Adults and Kids. https://www.heart.org/en/healthy-living/fitness/fitness-basics/aha-recs-for-physical-activity-in-adults\n\nWorld Health Organization. (2024). Physical activity. https://www.who.int/news-room/fact-sheets/detail/physical-activity\n\nAmerican Journal of Preventive Cardiology. (2022). Physical activity, cardiorespiratory fitness, and cardiovascular health: A clinical practice statement of the ASPC Part I. https://pmc.ncbi.nlm.nih.gov/articles/PMC9586848/",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    },
+    {
       "ts": "2026-08-04T21:22:49.401Z",
       "field": "references",
       "old": "Nystoriak MA, Bhatnagar A. *Cardiovascular Effects and Benefits of Exercise.* **Frontiers in Cardiovascular Medicine.** 2018;5:135. https://www.frontiersin.org/articles/10.3389/fcvm.2018.00135/full",
