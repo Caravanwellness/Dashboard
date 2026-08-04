@@ -5148,5 +5148,15 @@
       "byName": "Amanda Martinez",
       "byEmail": "amanda.martinez@caravanwellness.com"
     }
+  ],
+  "ART-0072": [
+    {
+      "ts": "2026-08-04T21:36:43.331Z",
+      "field": "references",
+      "old": null,
+      "new": "U.S. Preventive Services Task Force. (2021). Colorectal Cancer: Screening. https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/colorectal-cancer-screening\n\nCenters for Disease Control and Prevention (Preventing Chronic Disease). (2023). Up-to-Date Breast, Cervical, and Colorectal Cancer Screening Test Use in the United States, 2021. https://www.cdc.gov/pcd/issues/2023/23_0071.htm\n\nAmerican Family Physician. (2025). Health Maintenance in Postmenopausal Women. https://www.aafp.org/afp/2025/0500/health-maintenance-postmenopausal-women",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    }
   ]
 }
