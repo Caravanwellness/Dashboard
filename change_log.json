@@ -4400,5 +4400,15 @@
       "byName": "Madeline McGuire",
       "byEmail": "madeline.mcguire@caravanwellness.com"
     }
+  ],
+  "INF-0015": [
+    {
+      "ts": "2026-08-04T18:19:25.581Z",
+      "field": "author",
+      "old": "",
+      "new": "Emily Wilson",
+      "byName": "Madeline McGuire",
+      "byEmail": "madeline.mcguire@caravanwellness.com"
+    }
   ]
 }
