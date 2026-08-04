@@ -2419,11 +2419,6 @@ function renderClientDetail(name) {
       </table>`;
   }
 
-  const seededHtml = seeded ? `
-    ${seededTable(seeded.content, seeded.requested ? 'Currently Licensed' : 'Licensed Content')}
-    ${seeded.requested ? seededTable(seeded.requested, 'Requested Content') : ''}
-  ` : '';
-
   const dashboardItemsHtml = items.length
     ? `<div class="client-grid">${items.map(i=>`
         <div class="client-card" onclick="jumpToItem('${i.id}')">
@@ -2431,7 +2426,7 @@ function renderClientDetail(name) {
           <div class="cc-title">${esc(lv(i,'title'))}</div>
           <div class="cc-badge"><span class="badge badge-type">${esc(lv(i,'type'))}</span></div>
         </div>`).join('')}</div>`
-    : '';
+    : '<div style="color:#bbb;font-style:italic;font-size:13px;padding:12px 0">No items tagged to this client yet.</div>';
 
   // Build notification banner for this client
   const clientNotifs = clientNotifications.filter(n => n.clients.includes(name));
@@ -2458,8 +2453,8 @@ function renderClientDetail(name) {
           <input class="field-edit" id="cNotes" value="${esc(meta.notes)}" placeholder="Any notes…">
         </div>
       </div>
-      ${seededHtml}
-      ${dashboardItemsHtml ? `<div class="client-section-label" style="margin-top:22px">Dashboard Items Tagged to ${esc(name)}</div>${dashboardItemsHtml}` : ''}
+      <div class="client-section-label" style="margin-top:22px">Licensed Content (${items.length})</div>
+      ${dashboardItemsHtml}
     </div>
   `;
 
@@ -2468,7 +2463,7 @@ function renderClientDetail(name) {
 }
 
 function jumpToItem(id) {
-  document.querySelector('.tab[data-tab="review"]').click();
+  document.querySelector('.tab[data-tab="library"]').click();
   setTimeout(()=>{
     const item = BY_ID[id];
     if (!item) return;
