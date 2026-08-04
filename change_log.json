@@ -3805,6 +3805,14 @@
   ],
   "INF-0014": [
     {
+      "ts": "2026-08-04T14:57:53.900Z",
+      "field": "date_created",
+      "old": "",
+      "new": "4/30/26",
+      "byName": "Madeline McGuire",
+      "byEmail": "madeline.mcguire@caravanwellness.com"
+    },
+    {
       "ts": "2026-08-04T14:57:48.534Z",
       "field": "author_creds",
       "old": "Behavioral Tecgn",
