@@ -3889,6 +3889,14 @@
   ],
   "ART-0037": [
     {
+      "ts": "2026-08-04T14:59:50.043Z",
+      "field": "author_creds",
+      "old": "Registered Nurse",
+      "new": "Exercise Physiologist",
+      "byName": "Madeline McGuire",
+      "byEmail": "madeline.mcguire@caravanwellness.com"
+    },
+    {
       "ts": "2026-08-04T14:59:40.367Z",
       "field": "author",
       "old": "Mar",
