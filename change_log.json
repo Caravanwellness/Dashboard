@@ -3671,6 +3671,14 @@
   ],
   "ART-0219": [
     {
+      "ts": "2026-08-04T14:07:36.809Z",
+      "field": "date_created",
+      "old": "",
+      "new": "1/31/2026",
+      "byName": "Madeline McGuire",
+      "byEmail": "madeline.mcguire@caravanwellness.com"
+    },
+    {
       "ts": "2026-08-04T14:06:59.285Z",
       "field": "author_creds",
       "old": "",
