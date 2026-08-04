@@ -3868,5 +3868,15 @@
       "byName": "Madeline McGuire",
       "byEmail": "madeline.mcguire@caravanwellness.com"
     }
+  ],
+  "ART-0018": [
+    {
+      "ts": "2026-08-04T14:59:06.267Z",
+      "field": "author",
+      "old": "",
+      "new": "Hope Zimmerman",
+      "byName": "Madeline McGuire",
+      "byEmail": "madeline.mcguire@caravanwellness.com"
+    }
   ]
 }
