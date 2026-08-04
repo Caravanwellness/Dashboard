@@ -667,6 +667,14 @@
   ],
   "ART-0137": [
     {
+      "ts": "2026-08-04T16:15:16.523Z",
+      "field": "references",
+      "old": null,
+      "new": "World Health Organization. (2023). Tobacco cessation. https://www.who.int\nCenters for Disease Control and Prevention. (2022). Quit smoking resources. https://www.cdc.gov\nNational Health Service. (2023). Stop smoking treatments. https://www.nhs.us\n",
+      "byName": "Madeline McGuire",
+      "byEmail": "madeline.mcguire@caravanwellness.com"
+    },
+    {
       "ts": "2026-08-04T16:12:59.670Z",
       "field": "peer_reviewer",
       "old": "",
