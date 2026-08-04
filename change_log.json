@@ -3671,6 +3671,14 @@
   ],
   "ART-0219": [
     {
+      "ts": "2026-08-04T14:06:56.096Z",
+      "field": "author",
+      "old": "aly",
+      "new": "Alyssa Lagasca",
+      "byName": "Madeline McGuire",
+      "byEmail": "madeline.mcguire@caravanwellness.com"
+    },
+    {
       "ts": "2026-08-04T14:06:55.126Z",
       "field": "author",
       "old": "",
