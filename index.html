@@ -306,6 +306,42 @@ textarea.field-edit { resize: vertical; }
   </div>
 </div>
 
+<!-- ── Add Content Modal ─────────────────────────────────────────────────────── -->
+<div id="addContentModal" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:8000;align-items:center;justify-content:center">
+  <div style="background:white;border-radius:14px;padding:30px;max-width:560px;width:90%;box-shadow:0 12px 40px rgba(0,0,0,.25);max-height:90vh;overflow-y:auto">
+    <h3 style="margin:0 0 6px;font-size:16px;font-weight:700;color:#1a1a2e">Add New Content</h3>
+    <p style="font-size:13px;color:#666;margin:0 0 18px">Upload an Excel or CSV file. For Excel, each sheet tab = client name. Recognised columns: <strong>Title / Topic / Video Name</strong>, Length, Expert / Teacher, URL, Category.</p>
+    <div style="display:flex;gap:12px;margin-bottom:16px;flex-wrap:wrap">
+      <div style="flex:1;min-width:140px">
+        <label style="font-size:11px;font-weight:600;color:#999;text-transform:uppercase;letter-spacing:.4px;display:block;margin-bottom:4px">Content Type</label>
+        <select id="addContentType" style="width:100%;padding:8px 10px;border:1px solid #e0e0e0;border-radius:7px;font-size:13px">
+          <option>Video Library</option>
+          <option>Article Library</option>
+          <option>Infographic Library</option>
+          <option>Video</option>
+          <option>Article</option>
+          <option>Infographic</option>
+        </select>
+      </div>
+      <div style="flex:1;min-width:120px">
+        <label style="font-size:11px;font-weight:600;color:#999;text-transform:uppercase;letter-spacing:.4px;display:block;margin-bottom:4px">Language</label>
+        <input id="addContentLang" value="English" style="width:100%;padding:8px 10px;border:1px solid #e0e0e0;border-radius:7px;font-size:13px;box-sizing:border-box">
+      </div>
+    </div>
+    <div id="addContentDropzone" ondragover="event.preventDefault()" ondrop="handleAddContentDrop(event)" style="border:2px dashed #e0e0e0;border-radius:10px;padding:32px;text-align:center;cursor:pointer;margin-bottom:16px" onclick="document.getElementById('addContentFileInput').click()">
+      <div style="font-size:28px;margin-bottom:8px">📂</div>
+      <div style="font-size:13px;color:#666">Drag &amp; drop an Excel or CSV file here<br>or click to browse</div>
+      <input id="addContentFileInput" type="file" accept=".csv,.xlsx,.xls" style="display:none" onchange="handleAddContentFile(this.files[0])">
+    </div>
+    <div id="addContentPreview" style="display:none;margin-bottom:16px;border:1px solid #e8f5e9;border-radius:8px;padding:14px;background:#f8fff9;font-size:13px"></div>
+    <div id="addContentStatus" style="font-size:12px;color:#666;min-height:18px;margin-bottom:12px"></div>
+    <div style="display:flex;gap:10px;justify-content:flex-end">
+      <button id="addContentConfirmBtn" onclick="confirmAddContent()" style="display:none;padding:9px 20px;background:#059669;color:white;border:none;border-radius:7px;font-weight:700;font-size:13px;cursor:pointer">Save to Dashboard</button>
+      <button onclick="document.getElementById('addContentModal').style.display='none';document.getElementById('addContentPreview').style.display='none';document.getElementById('addContentStatus').textContent='';document.getElementById('addContentConfirmBtn').style.display='none'" style="padding:9px 18px;border:1px solid #e0e0e0;border-radius:7px;background:white;cursor:pointer;font-size:13px;color:#666">Close</button>
+    </div>
+  </div>
+</div>
+
 <!-- Article Viewer Modal -->
 <!-- Admin Panel Modal -->
 <div id="adminModal" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:9500;align-items:center;justify-content:center">
@@ -498,6 +534,7 @@ textarea.field-edit { resize: vertical; }
         <input type="file" accept=".csv,.xlsx,.xls" style="display:none" onchange="handleEditChart(this)">
       </label>
       <div id="editChartStatus" style="font-size:12px;color:#555;margin-left:4px;display:none"></div>
+      <button class="btn" onclick="document.getElementById('addContentModal').style.display='flex'" style="background:#059669;color:white;border-color:#059669">➕ Add Content</button>
     </div>
     <div class="table-wrap">
       <table><thead id="thead"></thead><tbody id="tbody"></tbody></table>
@@ -1113,11 +1150,179 @@ async function loadClients() {
   if (changed) _flushClients();
 }
 
+// ── Extra Content (stored in extra_content.json, merged into ALL at runtime) ──
+async function loadExtraContent() {
+  try {
+    const r = await fetch('/api/save-content');
+    if (!r.ok) return;
+    const items = await r.json();
+    if (!Array.isArray(items) || !items.length) return;
+    for (const item of items) {
+      if (!BY_ID[item.id]) {
+        ALL.push(item);
+        BY_ID[item.id] = item;
+      }
+    }
+  } catch(e) { console.warn('Extra content load failed', e); }
+}
+
+// ── Add Content handlers ──────────────────────────────────────────────────────
+let _addContentParsed = null;
+
+function handleAddContentDrop(e) {
+  e.preventDefault();
+  const file = e.dataTransfer.files[0];
+  if (file) handleAddContentFile(file);
+}
+
+async function handleAddContentFile(file) {
+  if (!file) return;
+  const statusEl  = document.getElementById('addContentStatus');
+  const previewEl = document.getElementById('addContentPreview');
+  const confirmBtn= document.getElementById('addContentConfirmBtn');
+  _addContentParsed = null;
+  previewEl.style.display = 'none';
+  confirmBtn.style.display = 'none';
+  statusEl.textContent = 'Reading file…';
+
+  try {
+    let norm = [];
+    if (file.name.endsWith('.csv')) {
+      const raw = parseCSV(await file.text());
+      norm = [{ client: '', rows: raw.map(r => { const o = {}; for (const [k,v] of Object.entries(r)) o[k.toLowerCase().trim()] = v; return o; }) }];
+    } else {
+      if (!window.XLSX) {
+        await new Promise((res,rej) => { const s=document.createElement('script'); s.src='https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js'; s.onload=res; s.onerror=rej; document.head.appendChild(s); });
+      }
+      const wb = XLSX.read(await file.arrayBuffer(), { type: 'array' });
+      for (const sheetName of wb.SheetNames) {
+        const rows = XLSX.utils.sheet_to_json(wb.Sheets[sheetName], { defval: '' });
+        const mapped = rows.map(r => { const o = {}; for (const [k,v] of Object.entries(r)) o[k.toLowerCase().trim()] = v; return o; });
+        norm.push({ client: sheetName.trim(), rows: mapped });
+      }
+    }
+
+    const type = document.getElementById('addContentType').value;
+    const lang = document.getElementById('addContentLang').value.trim() || 'English';
+    const items = [];
+    const existingTitles = new Set(ALL.map(i => (i.title||'').toLowerCase().trim()));
+
+    for (const { client, rows } of norm) {
+      // Forward-fill the category column (topic)
+      let lastCategory = '';
+      for (const row of rows) {
+        const titleKey = ['title','video name','video title','topic'].find(k => row[k] !== undefined && String(row[k]).trim());
+        const rawTitle = String(row[titleKey] || '').trim();
+        if (!rawTitle) continue;
+
+        // Detect if this row is a section header (only topic filled, no url/length)
+        const hasUrl = row['url'] && String(row['url']).trim();
+        const hasLength = row['length'] && String(row['length']).trim();
+        if (!hasUrl && !hasLength && row['topic'] && String(row['topic']).trim()) {
+          lastCategory = String(row['topic']).trim();
+          continue;
+        }
+
+        // Use topic as category if separate from title
+        const category = (row['topic'] && String(row['topic']).trim() && String(row['topic']).trim() !== rawTitle)
+          ? String(row['topic']).trim()
+          : (row['category'] ? String(row['category']).trim() : lastCategory);
+        if (row['topic'] && String(row['topic']).trim()) lastCategory = String(row['topic']).trim();
+
+        const url = String(row['url'] || row['link'] || '').trim();
+        const teacher = String(row['expert'] || row['teacher'] || row['instructor'] || '').trim();
+        const rawLen = String(row['length'] || '').trim();
+        const duration = rawLen ? (rawLen.includes('min') ? rawLen : rawLen + ' min') : '';
+
+        const item = {
+          title: rawTitle,
+          type,
+          language: lang,
+          category: category || '',
+          teacher: teacher || '',
+          duration: duration || '',
+          client_licenses: client ? [client] : [],
+        };
+        if (url.includes('vimeo')) item.vimeo_link = url;
+        else if (url) item.link = url;
+
+        // Check for duplicate by title
+        const key = rawTitle.toLowerCase().trim();
+        const existingItem = items.find(i => i.title.toLowerCase().trim() === key);
+        if (existingItem) {
+          // Merge client into existing parsed item
+          if (client && !existingItem.client_licenses.includes(client)) existingItem.client_licenses.push(client);
+        } else {
+          items.push(item);
+        }
+      }
+    }
+
+    if (!items.length) { statusEl.textContent = '⚠ No content rows found — check column names.'; return; }
+
+    const newItems  = items.filter(i => !existingTitles.has(i.title.toLowerCase().trim()));
+    const dupItems  = items.filter(i =>  existingTitles.has(i.title.toLowerCase().trim()));
+    const clients   = [...new Set(items.flatMap(i => i.client_licenses))].filter(Boolean);
+
+    _addContentParsed = items;
+
+    previewEl.innerHTML = `
+      <div style="font-weight:700;color:#065f46;margin-bottom:8px">✓ Ready to save</div>
+      <div style="color:#333;line-height:1.7">
+        <div><strong>${newItems.length}</strong> new items to add</div>
+        ${dupItems.length ? `<div style="color:#999"><strong>${dupItems.length}</strong> already in dashboard (will be skipped)</div>` : ''}
+        ${clients.length ? `<div><strong>Clients:</strong> ${clients.join(', ')}</div>` : ''}
+      </div>`;
+    previewEl.style.display = '';
+    confirmBtn.style.display = '';
+    statusEl.textContent = '';
+  } catch(e) {
+    statusEl.textContent = '⚠ Could not read file: ' + e.message;
+  }
+}
+
+async function confirmAddContent() {
+  if (!_addContentParsed?.length) return;
+  const statusEl   = document.getElementById('addContentStatus');
+  const confirmBtn = document.getElementById('addContentConfirmBtn');
+  confirmBtn.disabled = true;
+  statusEl.textContent = 'Saving…';
+
+  try {
+    const r = await fetch('/api/save-content', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', ...authHeader() },
+      body: JSON.stringify({ items: _addContentParsed }),
+    });
+    const d = await r.json();
+    if (!r.ok) throw new Error(d.error || r.status);
+
+    // Merge new items into the live ALL array
+    for (const item of _addContentParsed) {
+      if (!BY_ID[item.id] && item.id) { ALL.push(item); BY_ID[item.id] = item; }
+    }
+
+    // Register any new client names
+    const newClients = [...new Set(_addContentParsed.flatMap(i => i.client_licenses||[]))].filter(c => c && !clients.includes(c));
+    if (newClients.length) { clients.push(...newClients); saveC(); }
+
+    statusEl.textContent = `✓ ${d.added} item${d.added!==1?'s':''} added${d.merged?' · '+d.merged+' merged':''}.`;
+    document.getElementById('addContentPreview').style.display = 'none';
+    confirmBtn.style.display = 'none';
+    _addContentParsed = null;
+    seedFilters();
+    applyFilters();
+  } catch(e) {
+    statusEl.textContent = '⚠ Save failed: ' + e.message;
+    confirmBtn.disabled = false;
+  }
+}
+
 // ── App init (called after login) ────────────────────────────────────────────
 async function initApp() {
   document.getElementById('userBadgeName').textContent = currentUser.name;
   document.getElementById('userBadge').style.display = 'flex';
-  await Promise.all([loadEdits(), loadBios(), loadChangeLog(), loadNotifications(), loadClients(), loadArticleVersions()]);
+  await Promise.all([loadEdits(), loadBios(), loadChangeLog(), loadNotifications(), loadClients(), loadArticleVersions(), loadExtraContent()]);
   seedFilters();
   applyFilters();
   if (activeTab === 'creators') renderCreators();
