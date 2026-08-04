@@ -759,6 +759,14 @@
   ],
   "ART-0148": [
     {
+      "ts": "2026-08-04T16:19:49.338Z",
+      "field": "author",
+      "old": "",
+      "new": "Dr. David",
+      "byName": "Madeline McGuire",
+      "byEmail": "madeline.mcguire@caravanwellness.com"
+    },
+    {
       "ts": "2026-08-04T16:19:45.858Z",
       "field": "type",
       "old": "Article",
