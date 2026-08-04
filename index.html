@@ -414,8 +414,7 @@ textarea.field-edit { resize: vertical; }
 </div>
 
 <div class="tabs">
-  <div class="tab active" data-tab="review">Review Tracker</div>
-  <div class="tab" data-tab="library">Content Library</div>
+  <div class="tab active" data-tab="library">Content Library</div>
   <div class="tab" data-tab="due">⏰ Review Schedule</div>
   <div class="tab" data-tab="creators">Creators</div>
   <div class="tab" data-tab="licensing">Client Licensing</div>
@@ -1201,7 +1200,7 @@ function swatchHtml(colors, key, cur) {
 }
 
 // ── State ─────────────────────────────────────────────────────────────────────
-let activeTab  = 'review';
+let activeTab  = 'library';
 let visibleItems = [];
 let sortKey    = null;
 let sortDir    = 1;
@@ -1296,8 +1295,6 @@ function clearAi() {
 
 // ── Filters ───────────────────────────────────────────────────────────────────
 function baseItems() {
-  if (activeTab==='review')  return ALL.filter(i=>REVIEW_SET.has(i.type));
-  if (activeTab==='library') return ALL.filter(i=>LIBRARY_SET.has(i.type));
   return ALL;
 }
 
@@ -1313,16 +1310,9 @@ function seedFilters() {
   document.getElementById('durationFilter').innerHTML = mk(durVals);
   const allClients = [...new Set(base.flatMap(i=>gE(i.id,'licenses',i.client_licenses||[])))].sort();
   document.getElementById('clientFilter').innerHTML  = '<option value="">All Clients</option>'+allClients.map(c=>`<option>${c}</option>`).join('');
-  const rv  = activeTab==='review';
-  const lib = activeTab==='library';
-  document.getElementById('dueGroup').style.display      = rv  ? '' : 'none';
-  document.getElementById('prioGroup').style.display     = rv  ? '' : 'none';
-  document.getElementById('authorGroup').style.display   = rv  ? '' : 'none';
-  document.getElementById('langGroup').style.display     = lib ? '' : 'none';
-  document.getElementById('brandingGroup').style.display = lib ? '' : 'none';
-  document.getElementById('teacherGroup').style.display  = lib ? '' : 'none';
-  document.getElementById('durationGroup').style.display = lib ? '' : 'none';
-  document.getElementById('clientGroup').style.display   = lib ? '' : 'none';
+  ['dueGroup','prioGroup','authorGroup','langGroup','brandingGroup','teacherGroup','durationGroup','clientGroup'].forEach(id => {
+    document.getElementById(id).style.display = '';
+  });
 }
 
 ['titleFilter','typeFilter','catFilter','prioFilter','authorFilter','langFilter','brandingFilter','teacherFilter','durationFilter','clientFilter','dueFilter'].forEach(id=>{
@@ -1440,14 +1430,10 @@ function applyFilters() {
 
 // ── Table ─────────────────────────────────────────────────────────────────────
 function getCols() {
-  if (activeTab==='review') return [
-    {k:'id',l:'ID'},{k:'type',l:'Type'},{k:'title',l:'Title'},{k:'category',l:'Category'},
-    {k:'date_created',l:'Date Created'},{k:'_review_date',l:'Last Reviewed'},{k:'_reviewer_name',l:'Reviewer'},{k:'author',l:'Author'},
-    {k:'version',l:'Ver.'},{k:'date_revised',l:'Revised'},
-  ];
   return [
     {k:'_clients',l:'Clients'},{k:'id',l:'ID'},{k:'type',l:'Type'},{k:'title',l:'Title'},{k:'category',l:'Category'},
     {k:'_duration',l:'Duration'},{k:'language',l:'Language'},{k:'teacher',l:'Teacher/Reviewer'},{k:'_licensed_pct',l:'Licensed By'},
+    {k:'author',l:'Author'},{k:'_review_date',l:'Last Reviewed'},
   ];
 }
 
