@@ -3871,6 +3871,14 @@
   ],
   "ART-0018": [
     {
+      "ts": "2026-08-04T14:59:16.327Z",
+      "field": "author_creds",
+      "old": "",
+      "new": "Health Studies Contributor",
+      "byName": "Madeline McGuire",
+      "byEmail": "madeline.mcguire@caravanwellness.com"
+    },
+    {
       "ts": "2026-08-04T14:59:06.267Z",
       "field": "author",
       "old": "",
