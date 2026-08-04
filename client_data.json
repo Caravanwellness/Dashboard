@@ -16,7 +16,8 @@
     "i9med",
     "Pavelka",
     "Millennium Health",
-    "iMediSync"
+    "iMediSync",
+    "New Ocean Health"
   ],
   "meta": {
     "YuLife": {
@@ -36,6 +37,10 @@
       "notes": ""
     },
     "Millennium Health": {
+      "delivery": "",
+      "notes": ""
+    },
+    "iMediSync": {
       "delivery": "",
       "notes": ""
     }
