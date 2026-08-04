@@ -5168,5 +5168,15 @@
       "byName": "Amanda Martinez",
       "byEmail": "amanda.martinez@caravanwellness.com"
     }
+  ],
+  "ART-0082": [
+    {
+      "ts": "2026-08-04T21:44:10.783Z",
+      "field": "references",
+      "old": "World Health Organization (WHO). (2022). *Cardiovascular Diseases (CVDs).* World Health Organization. URL not provided.",
+      "new": "American Heart Association. (2026). What Your Cholesterol Levels Mean. https://www.heart.org/en/health-topics/cholesterol/about-cholesterol/what-your-cholesterol-levels-mean\n\nCleveland Clinic. (2025). Cholesterol: Understanding Levels & Numbers. https://my.clevelandclinic.org/health/articles/11920-cholesterol-numbers-what-do-they-mean\n\nCenters for Disease Control and Prevention. (2024). LDL and HDL Cholesterol and Triglycerides. https://www.cdc.gov/cholesterol/about/ldl-and-hdl-cholesterol-and-triglycerides.html",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    }
   ]
 }
