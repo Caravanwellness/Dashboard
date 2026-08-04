@@ -13,8 +13,7 @@
     "Walkingspree",
     "Wellness360",
     "Wellsort",
-    "i9med",
-    "spectrum"
+    "i9med"
   ],
   "meta": {
     "YuLife": {
@@ -23,6 +22,10 @@
     },
     "Hapstar": {
       "delivery": "Portal",
+      "notes": ""
+    },
+    "spectrum": {
+      "delivery": "",
       "notes": ""
     }
   }
