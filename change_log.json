@@ -5232,5 +5232,15 @@
       "byName": "Amanda Martinez",
       "byEmail": "amanda.martinez@caravanwellness.com"
     }
+  ],
+  "ART-0102": [
+    {
+      "ts": "2026-08-04T21:58:58.292Z",
+      "field": "references",
+      "old": "\"The Role of Avocados in Nutrition\" - Harvard T.H. Chan School of Public Health \"Magnesium and Energy Production\" - National Institutes of Health \"Sweet Potatoes: Nutritional Benefits\" - American Heart Association \"The Health Benefits of Nuts\" - Mayo Clinic \"Berries and Antioxidants\" - Journal of Nutritional Science",
+      "new": "",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    }
   ]
 }
