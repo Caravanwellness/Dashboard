@@ -4675,6 +4675,14 @@
   ],
   "INF-0022": [
     {
+      "ts": "2026-08-04T19:59:28.266Z",
+      "field": "date_created",
+      "old": "",
+      "new": "4/",
+      "byName": "Madeline McGuire",
+      "byEmail": "madeline.mcguire@caravanwellness.com"
+    },
+    {
       "ts": "2026-08-04T19:58:43.727Z",
       "field": "author",
       "old": "J",
