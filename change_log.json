@@ -4954,5 +4954,15 @@
       "byName": "Amanda Martinez",
       "byEmail": "amanda.martinez@caravanwellness.com"
     }
+  ],
+  "ART-0071": [
+    {
+      "ts": "2026-08-04T20:23:46.421Z",
+      "field": "references",
+      "old": "National Institutes of Health. (2024). Health screenings and preventive care. https://www.nih.gov/health-information U.S. Preventive Services Task Force. (2024). Preventive health screenings. https://www.uspreventiveservicestaskforce.org",
+      "new": "World Health Organization. (2023). *Screening programmes*. World Health Organization. https://www.who.int/teams/noncommunicable-diseases/screening\n\nNational Health Service. (2023). *NHS health check*. National Health Service. https://www.nhs.uk/conditions/nhs-health-check/\n\nAustralian Institute of Health and Welfare. (2023). *Health checks and risk factors*. Australian Institute of Health and Welfare. https://www.aihw.gov.au/reports/australias-health/health-checks",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    }
   ]
 }
