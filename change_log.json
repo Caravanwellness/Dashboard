@@ -4125,6 +4125,14 @@
   ],
   "ART-0108": [
     {
+      "ts": "2026-08-04T16:08:31.676Z",
+      "field": "author_creds",
+      "old": "Exercise Physiologist",
+      "new": "",
+      "byName": "Madeline McGuire",
+      "byEmail": "madeline.mcguire@caravanwellness.com"
+    },
+    {
       "ts": "2026-08-04T16:08:30.244Z",
       "field": "author",
       "old": "Marlee Alanis",
