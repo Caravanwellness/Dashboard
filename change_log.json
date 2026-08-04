@@ -2752,5 +2752,15 @@
       "byName": "Madeline McGuire",
       "byEmail": "madeline.mcguire@caravanwellness.com"
     }
+  ],
+  "INF-0184": [
+    {
+      "ts": "2026-08-04T13:13:13.357Z",
+      "field": "author",
+      "old": "",
+      "new": "Behavioral Technician",
+      "byName": "Madeline McGuire",
+      "byEmail": "madeline.mcguire@caravanwellness.com"
+    }
   ]
 }
