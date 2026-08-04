@@ -3671,6 +3671,14 @@
   ],
   "ART-0219": [
     {
+      "ts": "2026-08-04T14:06:55.126Z",
+      "field": "author",
+      "old": "",
+      "new": "aly",
+      "byName": "Madeline McGuire",
+      "byEmail": "madeline.mcguire@caravanwellness.com"
+    },
+    {
       "ts": "2026-08-04T14:06:26.875Z",
       "field": "title",
       "old": "Understanding The Long-Term Effects Of GLP-1 Medications For Obe",
