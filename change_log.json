@@ -4271,6 +4271,14 @@
   ],
   "ART-0141": [
     {
+      "ts": "2026-08-04T16:17:03.902Z",
+      "field": "author",
+      "old": "M",
+      "new": "Madeline McGuire",
+      "byName": "Madeline McGuire",
+      "byEmail": "madeline.mcguire@caravanwellness.com"
+    },
+    {
       "ts": "2026-08-04T16:17:01.078Z",
       "field": "author",
       "old": "Jane Mulvey",
