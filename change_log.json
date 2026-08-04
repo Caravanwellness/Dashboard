@@ -4524,5 +4524,15 @@
       "byName": "Madeline McGuire",
       "byEmail": "madeline.mcguire@caravanwellness.com"
     }
+  ],
+  "ALB-0045": [
+    {
+      "ts": "2026-08-04T19:29:55.480Z",
+      "field": "references",
+      "old": "United States Environmental Protection Agency. *What You Can Do to Reduce Greenhouse Gases.* Date not provided. https://www.epa.gov/ghgemissions/individuals World Wildlife Fund. *Tips to Reduce Your Carbon Footprint.* Date not provided. https://www.worldwildlife.org/pages/reduce-your-carbon-footprint Carbon Footprint Ltd. *Personal Carbon Footprint Guide.* Date not provided. https://www.carbonfootprint.com National Geographic. *How to Shrink Your Carbon Footprint.* Date not provided. https://www.nationalgeographic.com/environment/article/carbon-footprint",
+      "new": "",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    }
   ]
 }
