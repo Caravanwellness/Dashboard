@@ -2953,6 +2953,14 @@
   ],
   "INF-0002": [
     {
+      "ts": "2026-08-04T13:32:21.947Z",
+      "field": "author_creds",
+      "old": "B",
+      "new": "Behavioral ",
+      "byName": "Madeline McGuire",
+      "byEmail": "madeline.mcguire@caravanwellness.com"
+    },
+    {
       "ts": "2026-08-04T13:32:19.298Z",
       "field": "author_creds",
       "old": "",
