@@ -4563,6 +4563,14 @@
   ],
   "ALB-0059": [
     {
+      "ts": "2026-08-04T19:31:30.222Z",
+      "field": "references",
+      "old": "",
+      "new": "World Health Organization. (2023). *Prostate cancer*. World Health Organization. https://www.who.int/news-room/fact-sheets/detail/prostate-cancer\n\nCancer Research UK. (2024). *Prostate screening and tests*. Cancer Research UK. https://www.cancerresearchuk.org/about-cancer/prostate-cancer/getting-diagnosed/tests\n\nEuropean Association of Urology. (2023). *Early detection of prostate cancer*. European Association of Urology. https://uroweb.org/guidelines/prostate-cancer-early-detection",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    },
+    {
       "ts": "2026-08-04T19:30:55.047Z",
       "field": "references",
       "old": "Centers for Disease Control and Prevention. (2024). Prostate cancer screening. https://www.cdc.gov/cancer/prostate/basic_info/screening.htm U.S. Preventive Services Task Force. (2018). Prostate cancer: Screening. https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/prostate-cancer-screening American Cancer Society. (2023). Prostate cancer early detection. https://www.cancer.org/cancer/prostate-cancer/early-detection.html Mayo Clinic. (2023). Prostate cancer screening. https://www.mayoclinic.org/tests-procedures/psa-test/about/pac-20384731 National Health Service. (2023). Prostate cancer. https://www.nhs.uk/conditions/prostate-cancer/",
