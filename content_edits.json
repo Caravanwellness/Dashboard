@@ -274,7 +274,7 @@
   },
   "ART-0120": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-04T20:18:21.133Z",
+    "_at": "2026-08-04T20:18:22.788Z",
     "references": ""
   },
   "ART-0003": {
@@ -1492,13 +1492,15 @@
   },
   "ALB-0045": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-03T18:12:00.440Z",
-    "teacher": "Diane McNaught"
+    "_at": "2026-08-04T19:30:05.704Z",
+    "teacher": "Diane McNaught",
+    "references": "IPCC. (2022). Demand, services and social aspects of mitigation (Chapter 5, Working Group III contribution to the Sixth Assessment Report). https://www.ipcc.ch/report/ar6/wg3/chapter/chapter-5/\n\nUnited Nations Environment Programme. (2023). Five tips for living more sustainably. https://www.unep.org/news-and-stories/story/five-tips-living-more-sustainably\n\nFrontiers in Psychology. (2025). Encouraging people to set lower personal carbon budgets: anchoring is more effective than social reference groups. https://pmc.ncbi.nlm.nih.gov/articles/PMC12537360/"
   },
   "ALB-0046": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-03T18:12:00.440Z",
-    "teacher": "Diane McNaught"
+    "_at": "2026-08-04T19:30:33.637Z",
+    "teacher": "Diane McNaught",
+    "references": "World Health Organization. (2021). WHO global air quality guidelines: Particulate matter (PM2.5 and PM10), ozone, nitrogen dioxide, sulfur dioxide and carbon monoxide. https://www.ncbi.nlm.nih.gov/books/NBK574594/\n\neBioMedicine. (2023). Gaps and future directions in research on health effects of air pollution. https://pmc.ncbi.nlm.nih.gov/articles/PMC10363432/\n\nU.S. Environmental Protection Agency. (2026). Health and Environmental Effects of Particulate Matter (PM). https://www.epa.gov/pm-pollution/health-and-environmental-effects-particulate-matter-pm"
   },
   "ALB-0047": {
     "peer_reviewer": "Diane McNaught",
@@ -2614,8 +2616,9 @@
   },
   "ALB-0024": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-03T18:12:00.440Z",
-    "teacher": "Marlee Alanis"
+    "_at": "2026-08-04T18:41:55.673Z",
+    "teacher": "Marlee Alanis",
+    "references": "American College of Rheumatology. (2024). When to see a rheumatologist. https://rheumatology.org/patient-blog/when-to-see-a-rheumatologist\nArthritis Foundation. (2022). What to expect at a rheumatology appointment: Your first visit. https://www.arthritis.org/health-wellness/treatment/treatment-plan/you-your-doctor/first-appointment-with-a-rheumatologist\nBritish Journal of General Practice. (2023). Opportunities and challenges in early diagnosis of rheumatoid arthritis in general practice. https://pmc.ncbi.nlm.nih.gov/articles/PMC10049595/"
   },
   "ALB-0025": {
     "peer_reviewer": "Marlee Alanis",
@@ -2624,8 +2627,9 @@
   },
   "ALB-0026": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-03T18:12:00.440Z",
-    "teacher": "Marlee Alanis"
+    "_at": "2026-08-04T19:02:48.731Z",
+    "teacher": "Marlee Alanis",
+    "references": "1. Allergy & Asthma Network. (2024). *Sleep matters: Getting a good night’s sleep with asthma and allergies.* https://allergyasthmanetwork.org/news/sleep-matters-getting-good-nights-sleep-with-asthma-and-allergies/ 2. Asthma and Respiratory Foundation. (2025). *Dreaming of a good night’s sleep.* https://www.asthmafoundation.org.nz/stories/dreaming-of-a-good-nights-sleep   European Journal of Medical Research. (2023). The relationship between obstructive sleep apnea and asthma severity and vice versa: a systematic review and meta-analysis. https://link.springer.com/article/10.1186/s40001-023-01097-4"
   },
   "ALB-0027": {
     "peer_reviewer": "Marlee Alanis",
@@ -2708,8 +2712,9 @@
   },
   "ALB-0059": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-03T18:12:00.440Z",
-    "teacher": "Marlee Alanis"
+    "_at": "2026-08-04T19:31:34.834Z",
+    "teacher": "Marlee Alanis",
+    "references": "World Health Organization. (2023). *Prostate cancer*. World Health Organization. https://www.who.int/news-room/fact-sheets/detail/prostate-cancer\n\nCancer Research UK. (2024). *Prostate screening and tests*. Cancer Research UK. https://www.cancerresearchuk.org/about-cancer/prostate-cancer/getting-diagnosed/tests\n\nEuropean Association of Urology. (2023). *Early detection of prostate cancer*. European Association of Urology. https://uroweb.org/guidelines/prostate-cancer-early-detection"
   },
   "ALB-0064": {
     "peer_reviewer": "Marlee Alanis",
@@ -2762,8 +2767,8 @@
   },
   "ALB-0104": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-03T18:12:00.440Z",
-    "references": "World Health Organization. (2023). *Integrated care for older people*. World Health Organization. https://www.who.int/publications/i/item/WHO-FWC-ALC-19.1\n\nNational Health Service. (2023). *Foot care and ageing*. National Health Service. https://www.nhs.uk/conditions/foot-pain/\n\n*European Journal of Ageing*. (2020). *Foot health and mobility in older adults*. *European Journal of Ageing, 17*(3), 245–254. https://link.springer.com/article/10.1007/s10433-019-00535-0",
+    "_at": "2026-08-04T20:06:37.800Z",
+    "references": "Clinical Interventions in Aging. (2024). Age-Related Reduction of Foot Intrinsic Muscle Function and the Relationship with Postural Stability in Old Adults. https://pmc.ncbi.nlm.nih.gov/articles/PMC11162186/\n\nThe American Journal of Medicine. (2021). Foot Examination for Older Adults. https://pmc.ncbi.nlm.nih.gov/articles/PMC9614715/\n\nCleveland Clinic. (2022). Shoes Getting Tight? Why Your Feet Change Size Over Time. https://health.clevelandclinic.org/shoes-getting-tight-feet-change-size-time",
     "teacher": "Marlee Alanis"
   },
   "ALB-0105": {
@@ -25662,80 +25667,5 @@
     "type": "Video",
     "_at": "2026-08-04T16:19:23.889Z",
     "author": "Dr. David"
-  },
-  "INF-0015": {
-    "author": "Emily Wilson",
-    "_at": "2026-08-04T18:19:31.468Z",
-    "date_created": "11/15/2025"
-  },
-  "INF-0016": {
-    "author": "Emily Wilson",
-    "_at": "2026-08-04T18:49:33.419Z",
-    "date_created": "11/15/2025"
-  },
-  "INF-0017": {
-    "author": "Emily Wilson",
-    "_at": "2026-08-04T19:28:13.737Z",
-    "date_created": "4/30/2026"
-  },
-  "INF-0018": {
-    "author": "Emily Wilson",
-    "_at": "2026-08-04T19:32:30.935Z",
-    "date_created": "4/29/2026"
-  },
-  "INF-0019": {
-    "author": "Jade Gordon",
-    "_at": "2026-08-04T19:36:38.003Z",
-    "date_created": "4/29/2026"
-  },
-  "INF-0020": {
-    "author": "Emily Wilson",
-    "_at": "2026-08-04T19:55:07.365Z",
-    "date_created": "4/30/2026"
-  },
-  "INF-0021": {
-    "author": "Emily Wilson",
-    "_at": "2026-08-04T19:57:25.030Z",
-    "date_created": "11/30/2026"
-  },
-  "INF-0022": {
-    "author": "Jade Gordon",
-    "_at": "2026-08-04T19:59:30.297Z",
-    "date_created": "4/30/2026"
-  },
-  "INF-0023": {
-    "author": "Emily Wilson",
-    "_at": "2026-08-04T20:01:26.414Z",
-    "date_created": "4/30/2026"
-  },
-  "INF-0024": {
-    "author": "Emily Wilson",
-    "_at": "2026-08-04T20:04:19.814Z",
-    "date_created": "11/30/2026"
-  },
-  "INF-0025": {
-    "author": "Emily Wilson",
-    "_at": "2026-08-04T20:09:11.413Z",
-    "date_created": "4/29/2026"
-  },
-  "INF-0026": {
-    "author": "Emily Wilson",
-    "_at": "2026-08-04T20:11:50.879Z",
-    "date_created": "4/30/2026"
-  },
-  "INF-0027": {
-    "author": "Emily Wilson",
-    "_at": "2026-08-04T20:13:56.022Z",
-    "date_created": "4/30/2026"
-  },
-  "INF-0183": {
-    "author_creds": "",
-    "_at": "2026-08-04T20:15:26.088Z",
-    "author": "Alyssa Lagasca",
-    "date_created": "4/30/2026"
-  },
-  "INF-0182": {
-    "title": "Hormonal Changes Explained: Why You Might Feel Emotional",
-    "_at": "2026-08-04T20:15:47.484Z"
   }
 }
