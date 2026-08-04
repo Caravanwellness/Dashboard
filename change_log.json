@@ -3889,6 +3889,14 @@
   ],
   "ART-0037": [
     {
+      "ts": "2026-08-04T14:59:40.367Z",
+      "field": "author",
+      "old": "Mar",
+      "new": "Marlee Alanis",
+      "byName": "Madeline McGuire",
+      "byEmail": "madeline.mcguire@caravanwellness.com"
+    },
+    {
       "ts": "2026-08-04T14:59:38.067Z",
       "field": "author",
       "old": "",
