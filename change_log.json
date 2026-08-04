@@ -1,6 +1,14 @@
 {
   "ART-0058": [
     {
+      "ts": "2026-08-04T21:30:07.264Z",
+      "field": "references",
+      "old": "",
+      "new": "New England Journal of Medicine. (2024). Microplastics and Nanoplastics in Atheromas and Cardiovascular Events. https://www.nejm.org/doi/full/10.1056/NEJMoa2309822\n\nCirculation. (2024). Microplastics and Cardiovascular Diseases: Importance of Coexisting Environmental Pollutants. https://www.ahajournals.org/doi/10.1161/CIRCULATIONAHA.124.069801\n\nHarvard Health Publishing. (2024). Microplastics in arteries linked to heart disease risk. https://www.health.harvard.edu/heart-health/microplastics-in-arteries-linked-to-heart-disease-risk",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    },
+    {
       "ts": "2026-08-04T21:26:28.527Z",
       "field": "references",
       "old": "Marfella, Raffaele, et al. “Microplastics and Nanoplastics in Atheromas and Cardiovascular Events.” *The New England Journal of Medicine*, vol. 390, no. 10, 2024, pp. 900–910. doi:10.1056/nejmoa2309822.",
