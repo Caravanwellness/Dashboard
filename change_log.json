@@ -4429,6 +4429,14 @@
   ],
   "ALB-0024": [
     {
+      "ts": "2026-08-04T18:41:52.358Z",
+      "field": "references",
+      "old": "",
+      "new": "American College of Rheumatology. (2024). When to see a rheumatologist. https://rheumatology.org/patient-blog/when-to-see-a-rheumatologist\nArthritis Foundation. (2022). What to expect at a rheumatology appointment: Your first visit. https://www.arthritis.org/health-wellness/treatment/treatment-plan/you-your-doctor/first-appointment-with-a-rheumatologist\nBritish Journal of General Practice. (2023). Opportunities and challenges in early diagnosis of rheumatoid arthritis in general practice. https://pmc.ncbi.nlm.nih.gov/articles/PMC10049595/",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    },
+    {
       "ts": "2026-08-04T18:41:47.118Z",
       "field": "references",
       "old": "American College of Rheumatology. “When to See a Rheumatologist.” American College of Rheumatology. n.d. https://www.rheumatology.org/I-Am-A/Patient-Caregiver Mayo Clinic. “Arthritis: When to see a doctor.” Mayo Clinic. n.d. https://www.mayoclinic.org/diseases-conditions/arthritis/diagnosis-treatment/drc-20350772 Cleveland Clinic. “Rheumatology: What you should know.” Cleveland Clinic. n.d. https://my.clevelandclinic.org/health/articles/21438-rheumatology National Institute of Arthritis and Musculoskeletal and Skin Diseases. “Rheumatic Diseases.” NIAMS. n.d. https://www.niams.nih.gov/health-topics/rheumatic-diseases",
