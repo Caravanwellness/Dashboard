@@ -4879,6 +4879,14 @@
   ],
   "INF-0183": [
     {
+      "ts": "2026-08-04T20:15:04.518Z",
+      "field": "author",
+      "old": "Al",
+      "new": "Alyssa Lagasca",
+      "byName": "Madeline McGuire",
+      "byEmail": "madeline.mcguire@caravanwellness.com"
+    },
+    {
       "ts": "2026-08-04T20:15:01.556Z",
       "field": "author_creds",
       "old": "Alyssa",
