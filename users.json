@@ -54,5 +54,10 @@
     "name": "Haley Gentry",
     "passwordHash": "a9c684fc6ef1f3b90dcc0c9a641a9f59bfcbb41d3bd6cdc4b5fbea685b7995e6",
     "createdAt": "2026-08-04T19:01:57.359Z"
+  },
+  "chelsea.johnson@caravanwellness.com": {
+    "name": "Chelsea Johnson",
+    "passwordHash": "438116ba02ca87c91c6a5f183f0c56c0fe2f1d056ce54d0cee71a416c72c94c7",
+    "createdAt": "2026-08-04T20:13:07.258Z"
   }
 }
