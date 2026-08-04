@@ -16,7 +16,10 @@
     "i9med",
     "Pavelka",
     "Millennium Health",
-    "SAFE Federal Credit Union"
+    "iMediSync",
+    "New Ocean Health",
+    "WellSort",
+    "Healthcare Highways"
   ],
   "meta": {
     "YuLife": {
@@ -32,6 +35,22 @@
       "notes": ""
     },
     "Pavelka": {
+      "delivery": "",
+      "notes": ""
+    },
+    "Millennium Health": {
+      "delivery": "",
+      "notes": ""
+    },
+    "iMediSync": {
+      "delivery": "",
+      "notes": ""
+    },
+    "New Ocean Health": {
+      "delivery": "",
+      "notes": ""
+    },
+    "WellSort": {
       "delivery": "",
       "notes": ""
     }
