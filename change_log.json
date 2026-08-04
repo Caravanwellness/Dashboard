@@ -2791,6 +2791,14 @@
   ],
   "ART-0034": [
     {
+      "ts": "2026-08-04T21:12:36.647Z",
+      "field": "references",
+      "old": null,
+      "new": "Mayo Clinic. (2023). Office ergonomics: Your how-to guide. https://www.mayoclinic.org/healthy-lifestyle/adult-health/in-depth/office-ergonomics/art-20046169\n\nJournal of Clinical Medicine. (2025). Efficacy of Ergonomic Interventions on Work-Related Musculoskeletal Pain: A Systematic Review and Meta-Analysis. https://www.mdpi.com/2077-0383/14/9/3034\n\nHarvard Health. (2023). Don't take back pain sitting down. https://www.health.harvard.edu/pain/dont-take-back-pain-sitting-down",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    },
+    {
       "ts": "2026-07-29T15:04:38.259Z",
       "field": "ver.",
       "old": null,
