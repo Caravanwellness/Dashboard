@@ -5002,5 +5002,15 @@
       "byName": "Amanda Martinez",
       "byEmail": "amanda.martinez@caravanwellness.com"
     }
+  ],
+  "ART-0001": [
+    {
+      "ts": "2026-08-04T20:59:31.077Z",
+      "field": "references",
+      "old": "World Health Organization. (2018). *Alcohol and health*. World Health Organization. https://www.who.int/news-room/fact-sheets/detail/alcohol International Society of Addiction Medicine. (2019). *Setting healthy boundaries with alcohol*. International Society of Addiction Medicine. https://www.isamweb.org/boundaries-alcohol United Nations Office on Drugs and Crime. (2020). *Substance use and social behavior*. United Nations Office on Drugs and Crime. https://www.unodc.org/unodc/en/data-and-analysis/statistics.html",
+      "new": "",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    }
   ]
 }
