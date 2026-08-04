@@ -479,7 +479,7 @@
   },
   "ART-0072": {
     "author": "Diane McNaught",
-    "_at": "2026-08-04T21:36:43.233Z",
+    "_at": "2026-08-04T21:36:51.068Z",
     "references": "U.S. Preventive Services Task Force. (2021). Colorectal Cancer: Screening. https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/colorectal-cancer-screening\n\nCenters for Disease Control and Prevention (Preventing Chronic Disease). (2023). Up-to-Date Breast, Cervical, and Colorectal Cancer Screening Test Use in the United States, 2021. https://www.cdc.gov/pcd/issues/2023/23_0071.htm\n\nAmerican Family Physician. (2025). Health Maintenance in Postmenopausal Women. https://www.aafp.org/afp/2025/0500/health-maintenance-postmenopausal-women"
   },
   "ART-0074": {
@@ -25686,9 +25686,5 @@
   "ART-0071": {
     "references": "World Health Organization. (2023). *Screening programmes*. World Health Organization. https://www.who.int/teams/noncommunicable-diseases/screening\n\nNational Health Service. (2023). *NHS health check*. National Health Service. https://www.nhs.uk/conditions/nhs-health-check/\n\nAustralian Institute of Health and Welfare. (2023). *Health checks and risk factors*. Australian Institute of Health and Welfare. https://www.aihw.gov.au/reports/australias-health/health-checks",
     "_at": "2026-08-04T20:23:50.060Z"
-  },
-  "VID-0413": {
-    "author": "Hafsa Benzzi",
-    "_at": "2026-08-04T21:32:10.276Z"
   }
 }
