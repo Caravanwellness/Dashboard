@@ -801,6 +801,14 @@
   ],
   "ART-0149": [
     {
+      "ts": "2026-08-04T20:29:17.628Z",
+      "field": "references",
+      "old": "National Kidney Foundation. (2024). *Kidney health tips.* https://www.kidney.org/ Mayo Clinic. (2023). *Kidney disease: Prevention and awareness.* https://www.mayoclinic.org/ American Kidney Fund. (2023). *Raising awareness about kidney health.* https://www.kidneyfund.org/",
+      "new": "National Kidney Foundation. (2024). Kidney health tips. https://www.kidney.org/\n\nMayo Clinic. (2023). Kidney disease: Prevention and awareness. https://www.mayoclinic.org/\n\nAmerican Kidney Fund. (2023). Raising awareness about kidney health. https://www.kidneyfund.org/",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    },
+    {
       "ts": "2026-07-27T13:34:20.855Z",
       "field": "category",
       "old": "General",
