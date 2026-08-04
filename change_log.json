@@ -5217,6 +5217,14 @@
   ],
   "ART-0100": [
     {
+      "ts": "2026-08-04T21:56:38.095Z",
+      "field": "references",
+      "old": "",
+      "new": "Nutrients. (2023). Adherence to a Mediterranean Diet for 6 Months Improves the Dietary Inflammatory Index in a Western Population: Results from the MedLey Study. https://www.mdpi.com/2072-6643/15/2/366\n\nNature Medicine. (2024). Western diets and chronic diseases. https://www.nature.com/articles/s41591-024-03165-6\n\nHarvard Health Publishing. (2021). Keep ultra-processed foods off the menu. https://www.health.harvard.edu/nutrition/keep-ultra-processed-foods-off-the-menu",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    },
+    {
       "ts": "2026-08-04T21:53:48.719Z",
       "field": "references",
       "old": "Willett, W. C., Sacks, F., Trichopoulou, A., et al. (1995). *Mediterranean Diet Pyramid: A Cultural Model for Healthy Eating.* American Journal of Clinical Nutrition. URL: not provided. Kagawa, Y. (1978). *Impact of Westernization on the Nutrition of Japanese: Changes in Physique, Cancer, Longevity, and Centenarians.* Preventive Medicine. URL: not provided. Hu, F. B., & Willett, W. C. (2002). *Healthy Dietary Patterns and the Prevention of Cardiovascular Disease.* Source not specified in article. URL: not provided.",
