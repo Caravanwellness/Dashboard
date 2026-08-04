@@ -3355,6 +3355,14 @@
   ],
   "INF-0007": [
     {
+      "ts": "2026-08-04T13:55:34.319Z",
+      "field": "author_creds",
+      "old": "",
+      "new": "Beh",
+      "byName": "Madeline McGuire",
+      "byEmail": "madeline.mcguire@caravanwellness.com"
+    },
+    {
       "ts": "2026-08-04T13:55:31.658Z",
       "field": "author",
       "old": "",
