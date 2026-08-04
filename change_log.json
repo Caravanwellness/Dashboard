@@ -4769,6 +4769,14 @@
   ],
   "INF-0025": [
     {
+      "ts": "2026-08-04T20:04:46.104Z",
+      "field": "author",
+      "old": "Emily",
+      "new": "Emily Wilson",
+      "byName": "Madeline McGuire",
+      "byEmail": "madeline.mcguire@caravanwellness.com"
+    },
+    {
       "ts": "2026-08-04T20:04:44.312Z",
       "field": "author",
       "old": "",
