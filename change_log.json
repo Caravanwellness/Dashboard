@@ -4992,5 +4992,15 @@
       "byName": "Amanda Martinez",
       "byEmail": "amanda.martinez@caravanwellness.com"
     }
+  ],
+  "ART-0090": [
+    {
+      "ts": "2026-08-04T20:53:06.928Z",
+      "field": "references",
+      "old": "American Heart Association. (2023). *Stroke prevention: Medications and lifestyle*. https://www.heart.org Centers for Disease Control and Prevention. (2023). *Medications for preventing stroke*. https://www.cdc.gov Mayo Clinic. (2022). *Stroke prevention: Treatments and medications*. https://www.mayoclinic.org Hart, R. G., Pearce, L. A., & Aguilar, M. I. (2007). Meta-analysis: Antithrombotic therapy to prevent stroke in patients who have nonvalvular atrial fibrillation. *Annals of Internal Medicine, 146*(12), 857–867. https://doi.org/10.7326/0003-4819-146-12-200706190-00007",
+      "new": "American Heart Association. (2023). *Stroke prevention: Medications and lifestyle*. https://www.heart.org Centers for Disease Control and Prevention. (2023). *Medications for preventing stroke*. https://www.cdc.gov Mayo Clinic. (2022). *Stroke prevention: Treatments and medications*. https://www.mayoclinic.org Hart, R. G., Pearce, L. A., & Aguilar, M. I. (2007). Meta-analysis: Antithrombotic therapy to prevent stroke in patients who have nonvalvular atrial fibrillation. *Annals of Internal Medicine, 146*(12), 857–867. https://doi.org/10.7326/0003-4819-146-12-200706190-00007 ",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    }
   ]
 }
