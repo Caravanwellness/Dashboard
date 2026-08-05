@@ -249,6 +249,7 @@ textarea.field-edit { resize: vertical; }
       <div style="font-size:22px;font-weight:800;color:#1a1a2e;letter-spacing:-.5px">Caravan Wellness</div>
       <div style="font-size:13px;color:#888;margin-top:4px">Content Dashboard</div>
     </div>
+    <div id="authForm">
     <div style="display:flex;border:1px solid #e8e8e8;border-radius:8px;margin-bottom:22px;overflow:hidden">
       <button id="loginTab" onclick="switchAuthTab('login')" style="flex:1;padding:9px;border:none;background:#1a1a2e;color:white;font-weight:700;font-size:13px;cursor:pointer">Log In</button>
       <button id="signupTab" onclick="switchAuthTab('signup')" style="flex:1;padding:9px;border:none;background:white;color:#666;font-weight:600;font-size:13px;cursor:pointer">Sign Up / Reset Password</button>
@@ -267,6 +268,25 @@ textarea.field-edit { resize: vertical; }
     </div>
     <div id="authError" style="display:none;background:#fff0f0;color:#c62828;font-size:12px;padding:10px 12px;border-radius:7px;margin-bottom:16px"></div>
     <button id="authSubmitBtn" onclick="submitAuth()" style="width:100%;padding:12px;background:#1a1a2e;color:white;border:none;border-radius:8px;font-weight:700;font-size:14px;cursor:pointer;letter-spacing:.2px">Log In</button>
+    </div>
+
+    <!-- OTP verification step — shown after signup -->
+    <div id="otpStep" style="display:none">
+      <div style="text-align:center;margin-bottom:18px">
+        <div style="font-size:32px;margin-bottom:8px">📧</div>
+        <div style="font-size:14px;font-weight:700;color:#1a1a2e;margin-bottom:6px">Check your email</div>
+        <div id="otpHint" style="font-size:12px;color:#888;line-height:1.5"></div>
+      </div>
+      <div style="margin-bottom:18px">
+        <label style="font-size:11px;text-transform:uppercase;letter-spacing:.5px;color:#999;display:block;margin-bottom:5px">Verification Code</label>
+        <input id="otpInput" type="text" inputmode="numeric" maxlength="6" placeholder="000000"
+          style="width:100%;padding:12px;border:1px solid #e0e0e0;border-radius:8px;font-size:22px;font-weight:700;letter-spacing:6px;text-align:center;outline:none;box-sizing:border-box"
+          onkeydown="if(event.key==='Enter')submitOtp()">
+      </div>
+      <div id="otpError" style="display:none;background:#fff0f0;color:#c62828;font-size:12px;padding:10px 12px;border-radius:7px;margin-bottom:16px"></div>
+      <button id="otpSubmitBtn" onclick="submitOtp()" style="width:100%;padding:12px;background:#1a1a2e;color:white;border:none;border-radius:8px;font-weight:700;font-size:14px;cursor:pointer;letter-spacing:.2px;margin-bottom:10px">Verify</button>
+      <button onclick="cancelOtp()" style="width:100%;padding:8px;border:none;background:none;color:#aaa;cursor:pointer;font-size:12px">← Back to sign up</button>
+    </div>
   </div>
 </div>
 
@@ -725,6 +745,17 @@ function switchAuthTab(tab) {
 }
 document.getElementById('authSubmitBtn').dataset.action = 'login';
 
+function _showOtpStep(email) {
+  document.getElementById('authForm').style.display = 'none';
+  document.getElementById('otpStep').style.display = 'block';
+  document.getElementById('otpHint').textContent = `We sent a 6-digit code to ${email}. Enter it below to complete your account setup. The code expires in 10 minutes.`;
+  document.getElementById('otpInput').value = '';
+  document.getElementById('otpError').style.display = 'none';
+  setTimeout(() => document.getElementById('otpInput').focus(), 100);
+}
+
+let _pendingSignupEmail = null;
+
 async function submitAuth() {
   const action   = document.getElementById('authSubmitBtn').dataset.action;
   const email    = document.getElementById('authEmail').value.trim();
@@ -751,6 +782,14 @@ async function submitAuth() {
       btn.textContent = action === 'login' ? 'Log In' : 'Create Account';
       return;
     }
+    // Signup now requires email verification
+    if (data.pendingVerification) {
+      _pendingSignupEmail = data.email || email;
+      btn.disabled = false;
+      btn.textContent = 'Create Account';
+      _showOtpStep(_pendingSignupEmail);
+      return;
+    }
     if (!data.token) {
       errEl.textContent = 'Session token missing — is SESSION_SECRET set in Vercel?';
       errEl.style.display = 'block';
@@ -758,17 +797,57 @@ async function submitAuth() {
       btn.textContent = action === 'login' ? 'Log In' : 'Create Account';
       return;
     }
-    persistSession(data.token, { name: data.name, email: data.email });
-    document.getElementById('loginOverlay').style.display = 'none';
-    document.getElementById('userBadgeName').textContent = data.name;
-    document.getElementById('userBadge').style.display = 'flex';
-    await initApp();
+    _finishLogin(data);
   } catch(e) {
     errEl.textContent = 'Network error: ' + (e.message || e);
     errEl.style.display = 'block';
     btn.disabled = false;
     btn.textContent = action === 'login' ? 'Log In' : 'Create Account';
   }
+}
+
+async function submitOtp() {
+  const code  = document.getElementById('otpInput').value.trim();
+  const errEl = document.getElementById('otpError');
+  const btn   = document.getElementById('otpSubmitBtn');
+  errEl.style.display = 'none';
+  if (!code || code.length < 6) { errEl.textContent = 'Please enter the 6-digit code.'; errEl.style.display = 'block'; return; }
+  btn.disabled = true; btn.textContent = 'Verifying…';
+  try {
+    const r = await fetch('/api/auth', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ action: 'verify', email: _pendingSignupEmail, code }),
+    });
+    let data;
+    try { data = await r.json(); } catch(e) { data = {}; }
+    if (!r.ok) {
+      errEl.textContent = data.error || `Error (${r.status}) — please try again.`;
+      errEl.style.display = 'block';
+      btn.disabled = false; btn.textContent = 'Verify';
+      return;
+    }
+    _finishLogin(data);
+  } catch(e) {
+    errEl.textContent = 'Network error: ' + (e.message || e);
+    errEl.style.display = 'block';
+    btn.disabled = false; btn.textContent = 'Verify';
+  }
+}
+
+function cancelOtp() {
+  _pendingSignupEmail = null;
+  document.getElementById('otpStep').style.display = 'none';
+  document.getElementById('authForm').style.display = 'block';
+  switchAuthTab('signup');
+}
+
+async function _finishLogin(data) {
+  persistSession(data.token, { name: data.name, email: data.email });
+  document.getElementById('loginOverlay').style.display = 'none';
+  document.getElementById('userBadgeName').textContent = data.name;
+  document.getElementById('userBadge').style.display = 'flex';
+  await initApp();
 }
 
 document.getElementById('authPassword').addEventListener('keydown', e => {

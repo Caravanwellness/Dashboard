@@ -2,9 +2,34 @@ import crypto from 'crypto';
 import { getUser } from './_lib/token.js';
 import { ghReadJson, ghWriteJson } from './_lib/github.js';
 
-const REPO   = 'Caravanwellness/Dashboard';
-const PATH   = 'users.json';
-const BRANCH = 'main';
+const REPO        = 'Caravanwellness/Dashboard';
+const PATH        = 'users.json';
+const PENDING_PATH = 'pending_signups.json';
+const BRANCH      = 'main';
+const OTP_TTL_MS  = 10 * 60 * 1000; // 10 minutes
+
+async function sendOtpEmail(toEmail, name, otp) {
+  const apiKey = process.env.RESEND_API_KEY;
+  if (!apiKey) throw new Error('RESEND_API_KEY is not configured.');
+  const from = process.env.RESEND_FROM || 'noreply@caravanwellness.com';
+  const r = await fetch('https://api.resend.com/emails', {
+    method: 'POST',
+    headers: { 'Authorization': `Bearer ${apiKey}`, 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      from,
+      to: [toEmail],
+      subject: 'Your Caravan Dashboard verification code',
+      html: `<p>Hi ${name},</p>
+<p>Your verification code for the Caravan Wellness Content Dashboard is:</p>
+<p style="font-size:32px;font-weight:bold;letter-spacing:8px;color:#1a1a2e">${otp}</p>
+<p>This code expires in 10 minutes. If you didn't request this, you can ignore this email.</p>`,
+    }),
+  });
+  if (!r.ok) {
+    const body = await r.json().catch(() => ({}));
+    throw new Error(body.message || `Resend API error ${r.status}`);
+  }
+}
 
 function hashPw(password, email) {
   return crypto.createHash('sha256').update(password + ':' + email).digest('hex');
@@ -94,7 +119,7 @@ export default async function handler(req, res) {
       return res.json({ ok: true, token: makeToken('info@caravanwellness.com', 'Caravan Admin'), name: 'Caravan Admin', email: 'info@caravanwellness.com' });
     }
 
-    // Sign up / reset password
+    // Sign up — send OTP, do not create account yet
     if (action === 'signup') {
       if (!emailLow.endsWith('@caravanwellness.com'))
         return res.status(403).json({ error: 'Only @caravanwellness.com email addresses can sign up.' });
@@ -103,14 +128,59 @@ export default async function handler(req, res) {
       if (password.length < 8)
         return res.status(400).json({ error: 'Password must be at least 8 characters.' });
 
+      // Check email not already registered
+      const { data: users } = await readUsers(token);
+      if (users[emailLow])
+        return res.status(409).json({ error: 'An account with this email already exists. Please log in.' });
+
+      // Generate OTP and store pending signup
+      const otp = String(Math.floor(100000 + Math.random() * 900000));
+      const trimmedName = name.trim();
+      let pending = {};
+      try { const r = await ghReadJson(REPO, PENDING_PATH, token); pending = r.data || {}; } catch(e) {}
+      pending[emailLow] = {
+        name: trimmedName,
+        passwordHash: hashPw(password, emailLow),
+        otp,
+        expiresAt: new Date(Date.now() + OTP_TTL_MS).toISOString(),
+      };
+      try { await ghWriteJson(REPO, PENDING_PATH, BRANCH, pending, `Pending signup: ${emailLow}`, token, null); } catch(e) {}
+
+      await sendOtpEmail(emailLow, trimmedName, otp);
+      return res.json({ ok: true, pendingVerification: true, email: emailLow });
+    }
+
+    // Verify OTP and create account
+    if (action === 'verify') {
+      const { code } = req.body || {};
+      if (!emailLow || !code) return res.status(400).json({ error: 'Email and code are required.' });
+
+      let pending = {};
+      try { const r = await ghReadJson(REPO, PENDING_PATH, token); pending = r.data || {}; } catch(e) {}
+      const entry = pending[emailLow];
+      if (!entry) return res.status(400).json({ error: 'No pending signup found. Please start over.' });
+      if (new Date(entry.expiresAt) < new Date()) {
+        delete pending[emailLow];
+        try { await ghWriteJson(REPO, PENDING_PATH, BRANCH, pending, `Expire signup: ${emailLow}`, token, null); } catch(e) {}
+        return res.status(400).json({ error: 'Verification code has expired. Please sign up again.' });
+      }
+      if (entry.otp !== String(code).trim())
+        return res.status(400).json({ error: 'Incorrect code. Please try again.' });
+
+      // Create the account
       const { data: users, sha } = await readUsers(token, { skipCache: true });
       users[emailLow] = {
-        name: name.trim(),
-        passwordHash: hashPw(password, emailLow),
-        createdAt: users[emailLow]?.createdAt || new Date().toISOString(),
+        name: entry.name,
+        passwordHash: entry.passwordHash,
+        createdAt: new Date().toISOString(),
       };
       await writeUsers(users, sha, token);
-      return res.json({ ok: true, token: makeToken(emailLow, name.trim()), name: name.trim(), email: emailLow });
+
+      // Clean up pending entry
+      delete pending[emailLow];
+      try { await ghWriteJson(REPO, PENDING_PATH, BRANCH, pending, `Complete signup: ${emailLow}`, token, null); } catch(e) {}
+
+      return res.json({ ok: true, token: makeToken(emailLow, entry.name), name: entry.name, email: emailLow });
     }
 
     // Login
