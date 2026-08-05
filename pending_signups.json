@@ -1,0 +1,8 @@
+{
+  "test@caravanwellness.com": {
+    "name": "Lisa Wang",
+    "passwordHash": "52abae623a01395907eae8b394957c89289e72d19fcce0e242ba2172c7eb1ab2",
+    "otp": "348996",
+    "expiresAt": "2026-08-05T19:07:34.105Z"
+  }
+}
