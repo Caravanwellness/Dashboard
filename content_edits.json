@@ -1728,8 +1728,9 @@
   },
   "ALB-0102": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-03T18:12:00.440Z",
-    "teacher": "Diane McNaught"
+    "_at": "2026-08-05T18:18:01.561Z",
+    "teacher": "Diane McNaught",
+    "references": "Harvard T.H. Chan School of Public Health, The Nutrition Source. (2025). Nutrition and Immunity. https://nutritionsource.hsph.harvard.edu/nutrition-and-immunity/\n\nMolecules. (2022). Exploring the Immune-Boosting Functions of Vitamins and Minerals as Nutritional Food Bioactive Compounds: A Comprehensive Review. https://pmc.ncbi.nlm.nih.gov/articles/PMC8779769/\n\nCleveland Clinic. (2025). 7 Vitamins and Minerals That Help Boost Your Immunity. https://health.clevelandclinic.org/vitamins-best-boosting-immunity"
   },
   "ALB-0103": {
     "peer_reviewer": "Diane McNaught",
@@ -1935,9 +1936,9 @@
   },
   "ALB-0157": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-05T19:20:18.855Z",
+    "_at": "2026-08-05T19:23:18.731Z",
     "teacher": "Diane McNaught",
-    "references": ""
+    "references": "Menopause (The Menopause Society). (2022). The 2022 hormone therapy position statement of The North American Menopause Society. https://doi.org/10.1097/GME.0000000000002028\n\nMayo Clinic. (2026). Menopause — Symptoms and causes. https://www.mayoclinic.org/diseases-conditions/menopause/symptoms-causes/syc-20353397\n\nCleveland Clinic. (2024). Menopause: What It Is, Age, Stages, Signs & Side Effects. https://my.clevelandclinic.org/health/diseases/21841-menopause"
   },
   "ALB-0158": {
     "peer_reviewer": "Diane McNaught",
@@ -2794,28 +2795,33 @@
   },
   "ALB-0110": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-03T18:12:00.440Z",
-    "teacher": "Marlee Alanis"
+    "_at": "2026-08-05T18:22:11.500Z",
+    "teacher": "Marlee Alanis",
+    "references": "British Journal of Sports Medicine. (2022). Muscle-strengthening activities are associated with lower risk and mortality in major non-communicable diseases: a systematic review and meta-analysis of cohort studies. https://bjsm.bmj.com/content/56/13/755\n\nMayo Clinic. (2026). Strength training: Get stronger, leaner, healthier. https://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/strength-training/art-20046670\n\nCenters for Disease Control and Prevention. (2023). What Counts as Physical Activity for Adults. https://www.cdc.gov/physical-activity-basics/adding-adults/what-counts.html"
   },
   "ALB-0111": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-03T18:12:00.440Z",
-    "teacher": "Marlee Alanis"
+    "_at": "2026-08-05T18:25:27.551Z",
+    "teacher": "Marlee Alanis",
+    "references": "Mayo Clinic. (2023). Stretching: Focus on flexibility. https://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/stretching/art-20047931\n\nSports Medicine. (2023). Resistance Training Induces Improvements in Range of Motion: A Systematic Review and Meta-Analysis. https://doi.org/10.1007/s40279-022-01804-x\n\nJournal of Strength and Conditioning Research. (2024). The Influence of Resistance Training on Joint Flexibility in Healthy Adults: A Systematic Review, Meta-analysis, and Meta-regression. https://doi.org/10.1519/JSC.0000000000005000"
   },
   "ALB-0112": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-03T18:12:00.440Z",
-    "teacher": "Marlee Alanis"
+    "_at": "2026-08-05T18:28:54.779Z",
+    "teacher": "Marlee Alanis",
+    "references": "Journal of Exercise Science & Fitness. (2022). Effects of low-volume, high-intensity interval training on maximal oxygen consumption, body fat percentage and health-related quality of life in women with overweight: A randomized controlled trial. https://pmc.ncbi.nlm.nih.gov/articles/PMC8851248/\n\nMayo Clinic Health System. (2023). Interval training for heart health. https://www.mayoclinichealthsystem.org/hometown-health/speaking-of-health/interval-training-for-heart-health\n\nHarvard Health. (2024). HIIT workouts for older adults: A guide to safe and effective high-intensity interval training. https://www.health.harvard.edu/exercise-and-fitness/hiit-workouts-for-older-adults-a-guide-to-safe-and-effective-high-intensity-interval-training"
   },
   "ALB-0113": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-03T18:12:00.440Z",
-    "teacher": "Marlee Alanis"
+    "_at": "2026-08-05T18:31:35.404Z",
+    "teacher": "Marlee Alanis",
+    "references": "British Journal of Sports Medicine. (2023). Effectiveness of physical activity interventions for improving depression, anxiety and distress: an overview of systematic reviews. https://doi.org/10.1136/bjsports-2022-106195\n\nThe Neuroscientist. (2022). Do Endocannabinoids Cause the Runner's High? Evidence and Open Questions. https://doi.org/10.1177/10738584211069981\n\nFrontiers in Physiology. (2023). Exercise improves depression through positive modulation of brain-derived neurotrophic factor (BDNF). A review based on 100 manuscripts over 20 years. https://doi.org/10.3389/fphys.2023.1102526"
   },
   "ALB-0114": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-03T18:12:00.440Z",
-    "teacher": "Marlee Alanis"
+    "_at": "2026-08-05T18:35:31.323Z",
+    "teacher": "Marlee Alanis",
+    "references": "Frontiers in Immunology. (2022). Vitamin D, exercise, and immune health in athletes: A narrative review. https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2022.954994/full\n\nSports Medicine and Health Science. (2024). Demystifying roles of exercise in immune response regulation against acute respiratory infections: A narrative review. https://journal.hep.com.cn/smhs/EN/10.1016/j.smhs.2024.01.004\n\nSports Medicine. (2021). Effects of Regular Physical Activity on the Immune System, Vaccination and Risk of Community-Acquired Infectious Disease in the General Population: Systematic Review and Meta-Analysis. https://link.springer.com/article/10.1007/s40279-021-01466-1"
   },
   "ALB-0115": {
     "peer_reviewer": "Marlee Alanis",
@@ -26024,46 +26030,7 @@
   },
   "EXT-0417": {
     "author": "Marlee Alanis",
-    "_at": "2026-08-05T17:10:05.841Z",
+    "_at": "2026-08-05T17:10:06.945Z",
     "date_created": "10/18/2023"
-  },
-  "EXT-0415": {
-    "author": "Ana Gaston",
-    "_at": "2026-08-05T18:14:09.544Z",
-    "category": "Financial Wellness",
-    "date_created": "3/8/2024"
-  },
-  "EXT-0414": {
-    "author": "Emily Wilson",
-    "_at": "2026-08-05T18:15:20.904Z",
-    "category": "Financial Wellness",
-    "reviewed_by": "Marlee Alanis",
-    "review_date": "13/20/2024",
-    "date_created": "10/24/2023"
-  },
-  "EXT-0413": {
-    "author": "Edwin Rivadeneryra",
-    "_at": "2026-08-05T18:17:39.723Z",
-    "date_created": "4/2/2025",
-    "reviewed_by": "Lisa Wang"
-  },
-  "EXT-0412": {
-    "references": "",
-    "_at": "2026-08-05T18:44:19.832Z",
-    "reviewed_by": "Madeline McGuire",
-    "author": "Emily Wilson",
-    "peer_reviewer": "Marlee Alanis",
-    "date_created": "7/25/2024",
-    "review_date": "8/5/2026",
-    "category": "Financial Wellness"
-  },
-  "EXT-0411": {
-    "category": "Financial Wellness",
-    "_at": "2026-08-05T19:20:08.953Z",
-    "author": "Emily Wilson",
-    "peer_reviewer": "Marlee Alanis",
-    "date_created": "1/12/2025",
-    "date_revised": "1/13/2025",
-    "reviewed_by": "Jemma Park"
   }
 }
