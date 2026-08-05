@@ -1296,12 +1296,16 @@ async function confirmImport() {
     if (results[0].error) throw new Error(results[0].error);
     if (results[1].error) throw new Error(results[1].error);
 
-    // Reload edits from server to get fresh SHA — prevents stale _editsFileSha
-    // from letting a subsequent _flushEdit overwrite the import's license tags
-    if (updates.length) await loadEdits();
+    // Update SHA from bulk write response so subsequent _flushEdit calls use the
+    // correct SHA. Do NOT call loadEdits() here — it may read stale GitHub state
+    // and wipe the 534 tags that handleImportFile already merged into local edits.
+    if (updates.length && results[0]._sha) {
+      _editsFileSha = results[0]._sha;
+    } else if (updates.length) {
+      _editsFileSha = null; // force retry-loop path on next flush (safe)
+    }
 
-    // Merge new items into live ALL array (IDs come back from server on next load)
-    // Reload extra content to pick up assigned IDs
+    // Reload extra content to pick up assigned IDs for new items
     await loadExtraContent();
 
     // Register new client names
