@@ -111,7 +111,9 @@ export default async function handler(req, res) {
       return res.json({ ok: true, name: users[target].name });
     }
 
-    if (!email || !password) return res.status(400).json({ error: 'Email and password are required.' });
+    if (!email) return res.status(400).json({ error: 'Email is required.' });
+    if ((action === 'signup' || action === 'login') && !password)
+      return res.status(400).json({ error: 'Email and password are required.' });
     const emailLow = email.toLowerCase().trim();
 
     // Master account — bypasses GitHub API entirely (remove once env vars are set up)
