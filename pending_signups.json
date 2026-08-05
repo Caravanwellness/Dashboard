@@ -1,10 +1,4 @@
 {
-  "test@caravanwellness.com": {
-    "name": "Lisa Wang",
-    "passwordHash": "52abae623a01395907eae8b394957c89289e72d19fcce0e242ba2172c7eb1ab2",
-    "otp": "348996",
-    "expiresAt": "2026-08-05T19:07:34.105Z"
-  },
   "zena+testing@caravanwellness.com": {
     "name": "Zena Test",
     "passwordHash": "957cf951796bc87454b32bf5dd191de5bf62d018b4aa2c2560552631a42ee5e2",
@@ -22,11 +16,5 @@
     "passwordHash": "6e0fe12fd752d1bd3b3768dd044cb0e323f4ad2c2c8affef8bd73c10d1006acf",
     "otp": "790303",
     "expiresAt": "2026-08-05T19:18:06.813Z"
-  },
-  "zena.erhabor+searching@caravanwellness.com": {
-    "name": "Zena Test",
-    "passwordHash": "72b4427365c9d638b5be6085df4e9fcab17f8833ef68e21cc7b77bfbdf777905",
-    "otp": "393096",
-    "expiresAt": "2026-08-05T19:19:43.242Z"
   }
 }
