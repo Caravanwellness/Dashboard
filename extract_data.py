@@ -1099,15 +1099,13 @@ def main():
         total = sum(len(v) for v in all_data.values())
         print(f"    TOTAL: {total} items")
     else:
-        print("PDFs not found — reusing data from existing index.html...")
-        existing = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'index.html')
-        with open(existing, encoding='utf-8') as f:
-            content = f.read()
-        m = re.search(r'const DATA\s+=\s+(\{.+?\});', content, re.DOTALL)
-        if not m:
-            print("ERROR: Could not find data in index.html. Please provide the PDFs.")
+        print("PDFs not found — reusing data from existing data.json...")
+        existing = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'data.json')
+        if not os.path.exists(existing):
+            print("ERROR: data.json not found. Please provide the PDFs.")
             return
-        all_data = json.loads(m.group(1))
+        with open(existing, encoding='utf-8') as f:
+            all_data = json.load(f)
 
         # Fix: remove VLB header row (title = "Video Name (English)" or similar)
         HEADER_TITLES = {"video name (english)", "video name", "article title", "title"}
@@ -1259,17 +1257,20 @@ def main():
     data_json        = json.dumps(all_data,     separators=(',', ':'))
     changelog_json   = json.dumps(change_log,   separators=(',', ':'))
     clients_json     = json.dumps(client_data,  separators=(',', ':'))
-    transcripts_json = json.dumps(transcripts,  separators=(',', ':'))
     extracted_date   = date.today().strftime("%B %d, %Y")
 
-    html = html.replace("__DATA_PLACEHOLDER__",        data_json)
     html = html.replace("__CHANGELOG_PLACEHOLDER__",   changelog_json)
     html = html.replace("__CLIENTS_PLACEHOLDER__",     clients_json)
-    html = html.replace("__TRANSCRIPTS_PLACEHOLDER__", transcripts_json)
     html = html.replace("__EXTRACTED__",               extracted_date)
 
     with open(OUT, "w", encoding="utf-8") as f:
         f.write(html)
+
+    # DATA is served as its own static file (see template.html) so browsers
+    # can cache it across page loads instead of re-downloading it inline.
+    data_out = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'data.json')
+    with open(data_out, "w", encoding="utf-8") as f:
+        f.write(data_json)
 
     print(f"\nDone. Open this file in your browser:\n  {OUT}")
 

@@ -120,13 +120,9 @@ def vtt_to_text(vtt):
 
 def load_dashboard_items():
     """Return list of (item_id, title) for all dashboard items."""
-    index_path = os.path.join(SCRIPT_DIR, 'index.html')
-    with open(index_path) as f:
-        content = f.read()
-    m = re.search(r'const DATA\s+=\s+(\{.+?\});', content, re.DOTALL)
-    if not m:
-        raise RuntimeError("Could not find DATA in index.html")
-    data = json.loads(m.group(1))
+    data_path = os.path.join(SCRIPT_DIR, 'data.json')
+    with open(data_path) as f:
+        data = json.load(f)
     items = []
     for section_items in data.values():
         for item in section_items:

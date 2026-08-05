@@ -582,10 +582,20 @@ textarea.field-edit { resize: vertical; }
 </div>
 
 <script>
-const DATA         = __DATA_PLACEHOLDER__;
+// DATA and TRANSCRIPTS are large (multi-MB) and served as separate static
+// files instead of being inlined here, so browsers can cache them across
+// page loads instead of re-downloading them with every visit.
+function _loadJsonSync(url) {
+  const x = new XMLHttpRequest();
+  x.open('GET', url, false);
+  x.send(null);
+  if (x.status !== 200) throw new Error('Failed to load ' + url + ' (' + x.status + ')');
+  return JSON.parse(x.responseText);
+}
+const DATA         = _loadJsonSync('/data.json');
 const CHANGE_LOG   = __CHANGELOG_PLACEHOLDER__;
 const SEEDED_CLIENTS = __CLIENTS_PLACEHOLDER__;
-const TRANSCRIPTS  = __TRANSCRIPTS_PLACEHOLDER__;
+const TRANSCRIPTS  = _loadJsonSync('/transcripts.json');
 
 // ── Auth session (held in memory + sessionStorage for page refresh) ───────────
 let currentUser = null;   // { name, email }
