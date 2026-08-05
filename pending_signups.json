@@ -16,5 +16,11 @@
     "passwordHash": "cbc169c8894001917b6ae4d6c252676e6b39c528d6ea9484d461e1ba4c7c5559",
     "otp": "516122",
     "expiresAt": "2026-08-05T19:12:10.454Z"
+  },
+  "zena.erhabor+testing@caravanwellness.com": {
+    "name": "Zena Test",
+    "passwordHash": "6e0fe12fd752d1bd3b3768dd044cb0e323f4ad2c2c8affef8bd73c10d1006acf",
+    "otp": "533635",
+    "expiresAt": "2026-08-05T19:12:43.551Z"
   }
 }
