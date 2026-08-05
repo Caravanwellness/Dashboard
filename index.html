@@ -1253,6 +1253,24 @@ function handleImportDrop(e) {
   if (file) handleImportFile(file);
 }
 
+function parseDuration(raw) {
+  if (!raw) return '';
+  const s = String(raw).trim();
+  // Already MM:SS or H:MM:SS format
+  if (/^\d+:\d{2}(:\d{2})?$/.test(s)) return s;
+  // Excel time serial (fraction of a day, e.g. 0.4215277...)
+  // XLSX.js returns HH:MM time cells as decimals; treat serial*24 as MM, remainder as SS
+  const num = parseFloat(s);
+  if (!isNaN(num) && num > 0 && num < 1) {
+    const totalMins = num * 24;
+    const mins = Math.floor(totalMins);
+    const secs = Math.round((totalMins - mins) * 60);
+    return `${mins}:${String(secs).padStart(2, '0')}`;
+  }
+  // Plain number (minutes) or "X min"
+  return s.replace(/\s*min.*/i, '').trim() + ' min';
+}
+
 function detectRowType(row) {
   const typeVal = String(row['content type'] || row['format'] || row['type'] || '').trim();
   if (typeVal) {
@@ -1338,7 +1356,7 @@ async function handleImportFile(file) {
           const url = String(row['url'] || row['link'] || '').trim();
           const teacher = String(row['expert'] || row['teacher'] || row['instructor'] || '').trim();
           const rawLen = String(row['length'] || '').trim();
-          const duration = rawLen ? (rawLen.match(/\d+:\d+/) ? rawLen : rawLen.replace(/\s*min.*/i,'').trim() + ' min') : '';
+          const duration = parseDuration(rawLen);
           const category = String(row['category'] || '').trim() || lastCategory;
           const lang = String(row['language'] || '').trim() || 'English';
           const type = detectRowType(row);
