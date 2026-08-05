@@ -1,10 +1,4 @@
 {
-  "test@caravanwellness.com": {
-    "name": "Lisa Wang",
-    "passwordHash": "52abae623a01395907eae8b394957c89289e72d19fcce0e242ba2172c7eb1ab2",
-    "otp": "408259",
-    "expiresAt": "2026-08-05T19:24:07.736Z"
-  },
   "zena+testing@caravanwellness.com": {
     "name": "Zena Test",
     "passwordHash": "957cf951796bc87454b32bf5dd191de5bf62d018b4aa2c2560552631a42ee5e2",
