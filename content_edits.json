@@ -1728,8 +1728,9 @@
   },
   "ALB-0102": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-03T18:12:00.440Z",
-    "teacher": "Diane McNaught"
+    "_at": "2026-08-05T18:18:01.561Z",
+    "teacher": "Diane McNaught",
+    "references": "Harvard T.H. Chan School of Public Health, The Nutrition Source. (2025). Nutrition and Immunity. https://nutritionsource.hsph.harvard.edu/nutrition-and-immunity/\n\nMolecules. (2022). Exploring the Immune-Boosting Functions of Vitamins and Minerals as Nutritional Food Bioactive Compounds: A Comprehensive Review. https://pmc.ncbi.nlm.nih.gov/articles/PMC8779769/\n\nCleveland Clinic. (2025). 7 Vitamins and Minerals That Help Boost Your Immunity. https://health.clevelandclinic.org/vitamins-best-boosting-immunity"
   },
   "ALB-0103": {
     "peer_reviewer": "Diane McNaught",
@@ -2793,12 +2794,13 @@
   },
   "ALB-0110": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-03T18:12:00.440Z",
-    "teacher": "Marlee Alanis"
+    "_at": "2026-08-05T18:22:11.500Z",
+    "teacher": "Marlee Alanis",
+    "references": "British Journal of Sports Medicine. (2022). Muscle-strengthening activities are associated with lower risk and mortality in major non-communicable diseases: a systematic review and meta-analysis of cohort studies. https://bjsm.bmj.com/content/56/13/755\n\nMayo Clinic. (2026). Strength training: Get stronger, leaner, healthier. https://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/strength-training/art-20046670\n\nCenters for Disease Control and Prevention. (2023). What Counts as Physical Activity for Adults. https://www.cdc.gov/physical-activity-basics/adding-adults/what-counts.html"
   },
   "ALB-0111": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-05T18:25:23.630Z",
+    "_at": "2026-08-05T18:25:27.551Z",
     "teacher": "Marlee Alanis",
     "references": "Mayo Clinic. (2023). Stretching: Focus on flexibility. https://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/stretching/art-20047931\n\nSports Medicine. (2023). Resistance Training Induces Improvements in Range of Motion: A Systematic Review and Meta-Analysis. https://doi.org/10.1007/s40279-022-01804-x\n\nJournal of Strength and Conditioning Research. (2024). The Influence of Resistance Training on Joint Flexibility in Healthy Adults: A Systematic Review, Meta-analysis, and Meta-regression. https://doi.org/10.1519/JSC.0000000000005000"
   },
@@ -26024,34 +26026,7 @@
   },
   "EXT-0417": {
     "author": "Marlee Alanis",
-    "_at": "2026-08-05T17:10:05.841Z",
+    "_at": "2026-08-05T17:10:06.945Z",
     "date_created": "10/18/2023"
-  },
-  "EXT-0415": {
-    "author": "Ana Gaston",
-    "_at": "2026-08-05T18:14:09.544Z",
-    "category": "Financial Wellness",
-    "date_created": "3/8/2024"
-  },
-  "EXT-0414": {
-    "author": "Emily Wilson",
-    "_at": "2026-08-05T18:15:20.904Z",
-    "category": "Financial Wellness",
-    "reviewed_by": "Marlee Alanis",
-    "review_date": "13/20/2024",
-    "date_created": "10/24/2023"
-  },
-  "EXT-0413": {
-    "author": "Edwin Rivadeneryra",
-    "_at": "2026-08-05T18:17:39.723Z",
-    "date_created": "4/2/2025",
-    "reviewed_by": "Lisa Wang"
-  },
-  "EXT-0412": {
-    "references": "",
-    "_at": "2026-08-05T18:23:19.781Z",
-    "reviewed_by": "",
-    "author": "Emily Wilson",
-    "peer_reviewer": "Marlee Alanis"
   }
 }
