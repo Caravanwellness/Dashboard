@@ -1337,15 +1337,18 @@ async function handleImportFile(file) {
         const hasLen = String(row['length'] || '').trim();
         if (!hasUrl && !hasLen && sectionVal === rawTitle) continue;
 
+        // Prefer a per-row Client column when the sheet has one; otherwise fall back to the tab name
+        const rowClient = String(row['client'] || row['clients'] || '').trim() || client;
+
         const key = rawTitle.toLowerCase().trim();
         const existing = byTitleIdx[key];
 
         if (existing) {
           // Tag existing item with client license
-          if (client) {
+          if (rowClient) {
             const curLics = gE(existing.id, 'licenses', existing.client_licenses || []);
-            if (!curLics.includes(client)) {
-              const merged = [...curLics, client];
+            if (!curLics.includes(rowClient)) {
+              const merged = [...curLics, rowClient];
               if (!edits[existing.id]) edits[existing.id] = {};
               edits[existing.id]['licenses'] = merged;
               updates.push({ id: existing.id, field: 'licenses', value: merged });
@@ -1362,9 +1365,9 @@ async function handleImportFile(file) {
           const type = detectRowType(row);
 
           if (newByTitle[key]) {
-            if (client && !newByTitle[key].client_licenses.includes(client)) newByTitle[key].client_licenses.push(client);
+            if (rowClient && !newByTitle[key].client_licenses.includes(rowClient)) newByTitle[key].client_licenses.push(rowClient);
           } else {
-            const item = { title: rawTitle, type, language: lang, category, teacher, duration, client_licenses: client ? [client] : [] };
+            const item = { title: rawTitle, type, language: lang, category, teacher, duration, client_licenses: rowClient ? [rowClient] : [] };
             if (url.includes('vimeo')) item.vimeo_link = url;
             else if (url) item.link = url;
             newItems.push(item);
