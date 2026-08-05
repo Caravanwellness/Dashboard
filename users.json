@@ -64,5 +64,10 @@
     "name": "Zena Test",
     "passwordHash": "a3933ef888296ba324b42034767372067a28b3849744018368b4657b8469e3f4",
     "createdAt": "2026-08-05T19:13:12.216Z"
+  },
+  "test@caravanwellness.com": {
+    "name": "Lisa Wang",
+    "passwordHash": "52abae623a01395907eae8b394957c89289e72d19fcce0e242ba2172c7eb1ab2",
+    "createdAt": "2026-08-05T19:14:19.881Z"
   }
 }
