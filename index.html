@@ -1279,6 +1279,14 @@ async function handleImportFile(file) {
 
     if (!updates.length && !newItems.length) { statusEl.textContent = '⚠ No matches or new items found — check column names.'; return; }
 
+    // Debug: log per-client breakdown
+    const _dbgClients = {};
+    updates.forEach(u => { if(u.field==='licenses') u.value.forEach(c=>{ _dbgClients[c]=(_dbgClients[c]||{existing:0,skip:0}); _dbgClients[c].existing++; }); });
+    newItems.forEach(i => i.client_licenses.forEach(c=>{ _dbgClients[c]=(_dbgClients[c]||{existing:0,skip:0}); _dbgClients[c].new=(_dbgClients[c].new||0)+1; }));
+    console.log('[Import debug] updates:', updates.length, '| newItems:', newItems.length);
+    console.log('[Import debug] per client:', JSON.stringify(_dbgClients));
+    console.log('[Import debug] updates skipped (already tagged):', norm.flatMap(({client,rows})=>rows.filter(r=>{const t=String(r[Object.keys(r).find(k=>['video title','video name','title'].includes(k))]||'').trim().toLowerCase();const ex=byTitleIdx[t];return ex&&client&&gE(ex.id,'licenses',ex.client_licenses||[]).includes(client);})).length);
+
     _importParsed = { updates, newItems };
     const clientsFound = [...new Set([
       ...updates.flatMap(u => u.field==='licenses' ? u.value : []),
