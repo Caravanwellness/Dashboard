@@ -780,6 +780,36 @@ let edits = {};
 let _editSaveTimers = {};
 let _editOldValues  = {};
 let _editsFileSha   = null; // cached SHA — lets saves skip the server-side GitHub read
+let _licenses       = {};   // { [itemId]: [client, ...] } — stored separately from edits
+let _licensesSha    = null;
+
+async function loadLicenses() {
+  try {
+    const r = await fetch('/api/save-licenses');
+    if (r.ok) {
+      const d = await r.json();
+      _licenses = d._data || {};
+      _licensesSha = d._sha ?? null;
+    }
+  } catch(e) {}
+}
+
+async function _flushLicense(id, value) {
+  const updates = { [id]: value };
+  const sha = _licensesSha;
+  _licensesSha = null;
+  try {
+    const r = await fetch('/api/save-licenses', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', ...authHeader() },
+      body: JSON.stringify({ updates, message: `License update: ${id}` }),
+    });
+    if (r.ok) {
+      const d = await r.json();
+      if (d._sha) _licensesSha = d._sha;
+    }
+  } catch(e) { console.warn('License save failed', e); }
+}
 
 async function loadEdits() {
   try {
@@ -1279,11 +1309,20 @@ async function confirmImport() {
   statusEl.textContent = 'Saving…';
 
   try {
+    // Build license updates map: { [itemId]: [clients] }
+    const licenseUpdates = {};
+    for (const u of updates) {
+      if (u.field === 'licenses') {
+        _licenses[u.id] = u.value; // update in-memory immediately
+        licenseUpdates[u.id] = u.value;
+      }
+    }
+
     const results = await Promise.all([
-      updates.length ? fetch('/api/save-edits', {
+      Object.keys(licenseUpdates).length ? fetch('/api/save-licenses', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', ...authHeader() },
-        body: JSON.stringify({ bulk: updates, message: `Import: tag ${[...new Set(updates.map(u=>u.id))].length} items` }),
+        body: JSON.stringify({ updates: licenseUpdates, message: `Import: tag ${Object.keys(licenseUpdates).length} items` }),
       }).then(r => r.json()) : Promise.resolve({ ok: true }),
 
       newItems.length ? fetch('/api/save-content', {
@@ -1296,21 +1335,15 @@ async function confirmImport() {
     if (results[0].error) throw new Error(results[0].error);
     if (results[1].error) throw new Error(results[1].error);
 
-    // Update SHA from bulk write response so subsequent _flushEdit calls use the
-    // correct SHA. Do NOT call loadEdits() here — it may read stale GitHub state
-    // and wipe the 534 tags that handleImportFile already merged into local edits.
-    if (updates.length && results[0]._sha) {
-      _editsFileSha = results[0]._sha;
-    } else if (updates.length) {
-      _editsFileSha = null; // force retry-loop path on next flush (safe)
-    }
+    // Update licenses SHA from response
+    if (results[0]._sha) _licensesSha = results[0]._sha;
 
     // Reload extra content to pick up assigned IDs for new items
     await loadExtraContent();
 
     // Register new client names
     const allClients = [...new Set([
-      ...updates.flatMap(u => u.field==='licenses' ? u.value : []),
+      ...Object.values(licenseUpdates).flat(),
       ...newItems.flatMap(i => i.client_licenses),
     ])].filter(c => c && !clients.includes(c));
     if (allClients.length) { clients.push(...allClients); saveC(); }
@@ -1333,7 +1366,7 @@ async function confirmImport() {
 async function initApp() {
   document.getElementById('userBadgeName').textContent = currentUser.name;
   document.getElementById('userBadge').style.display = 'flex';
-  await Promise.all([loadEdits(), loadBios(), loadChangeLog(), loadNotifications(), loadClients(), loadArticleVersions(), loadExtraContent()]);
+  await Promise.all([loadEdits(), loadLicenses(), loadBios(), loadChangeLog(), loadNotifications(), loadClients(), loadArticleVersions(), loadExtraContent()]);
   seedFilters();
   applyFilters();
   if (activeTab === 'creators') renderCreators();
@@ -1341,8 +1374,16 @@ async function initApp() {
 }
 
 
-function gE(id, f, def) { return (edits[id]&&edits[id][f]!==undefined) ? edits[id][f] : def; }
+function gE(id, f, def) {
+  if (f === 'licenses') return _licenses[id] !== undefined ? _licenses[id] : def;
+  return (edits[id]&&edits[id][f]!==undefined) ? edits[id][f] : def;
+}
 function sE(id, f, v)   {
+  if (f === 'licenses') {
+    _licenses[id] = v;
+    _flushLicense(id, v);
+    return;
+  }
   const key = id + '|' + f;
   // Capture old value before first keystroke in this debounce window
   if (!_editSaveTimers[key]) {
@@ -2690,25 +2731,24 @@ function renderClientDetail(name) {
     saveC();
     saveCM();
 
-    // Build bulk edits for every item that carries the old client name
-    const bulk = [];
+    // Rename in _licenses store and in extra_content item.client_licenses
+    const licenseUpdates = {};
     ALL.forEach(item => {
       const cur = gE(item.id, 'licenses', item.client_licenses || []);
       const li = cur.indexOf(name);
       if (li === -1) return;
       const updated = [...cur];
       updated[li] = newName;
-      if (!edits[item.id]) edits[item.id] = {};
-      edits[item.id].licenses = updated;
+      _licenses[item.id] = updated;
       item.client_licenses = item.client_licenses?.map(c => c === name ? newName : c);
-      bulk.push({ id: item.id, field: 'licenses', value: updated });
+      licenseUpdates[item.id] = updated;
     });
 
-    if (bulk.length) {
-      fetch('/api/save-edits', {
+    if (Object.keys(licenseUpdates).length) {
+      fetch('/api/save-licenses', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', ...authHeader() },
-        body: JSON.stringify({ bulk, message: `Rename client: "${name}" → "${newName}"` }),
+        body: JSON.stringify({ updates: licenseUpdates, message: `Rename client: "${name}" → "${newName}"` }),
       });
     }
 
