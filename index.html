@@ -2367,6 +2367,15 @@ function showDetail(item) {
           </select>
           <input id="logDate" placeholder="Date (MM/DD/YYYY)">
         </div>
+        <div style="margin-bottom:6px;display:flex;align-items:center;gap:10px">
+          <span style="font-size:13px;color:#555;font-weight:500">Substantive Changes?</span>
+          <label style="display:flex;align-items:center;gap:4px;font-size:13px;cursor:pointer">
+            <input type="radio" name="logSubstantive_${item.id}" id="logSubstantiveYes" value="yes" onchange="document.getElementById('logDesc').placeholder='Notes / what changed… (required)';document.getElementById('logDesc').style.borderColor='#e8a020'"> Yes
+          </label>
+          <label style="display:flex;align-items:center;gap:4px;font-size:13px;cursor:pointer">
+            <input type="radio" name="logSubstantive_${item.id}" id="logSubstantiveNo" value="no" checked onchange="document.getElementById('logDesc').placeholder='Notes / what changed…';document.getElementById('logDesc').style.borderColor=''"> No
+          </label>
+        </div>
         <input id="logBy" placeholder="Reviewer name" value="${esc(currentUser?.name||'')}" style="margin-bottom:6px">
         <input id="logDesc" placeholder="Notes / what changed…">
         <button class="save-btn" onclick="saveLog('${item.id}')">Save</button>
@@ -2450,6 +2459,14 @@ function saveLog(id) {
   const logType = document.getElementById('logType')?.value || 'review';
   const date    = document.getElementById('logDate').value.trim() ||
     new Date().toLocaleDateString('en-US',{month:'2-digit',day:'2-digit',year:'numeric'});
+  const substantive = document.getElementById('logSubstantiveYes')?.checked;
+  if (substantive && !desc) {
+    const el = document.getElementById('logDesc');
+    el.style.borderColor = '#e63946';
+    el.focus();
+    el.placeholder = 'Notes are required when substantive changes were made';
+    return;
+  }
   if (!desc && logType==='review') return;
   const list = gE(id,'local_changes',[]);
   list.unshift({date, description:desc||'Reviewed', changed_by:by, review_type:logType});
