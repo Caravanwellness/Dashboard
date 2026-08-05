@@ -26224,8 +26224,12 @@
   },
   "INF-0041": {
     "title": "Difference Between Obstructive vs. Restrictive Lung Disease",
-    "_at": "2026-08-05T14:32:09.777Z",
+    "_at": "2026-08-05T14:32:07.850Z",
     "author": "Emily Wilson",
     "date_created": "4/30/2026"
+  },
+  "INF-0042": {
+    "author": "E",
+    "_at": "2026-08-05T14:32:20.398Z"
   }
 }
