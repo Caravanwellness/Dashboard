@@ -1279,28 +1279,6 @@ async function handleImportFile(file) {
 
     if (!updates.length && !newItems.length) { statusEl.textContent = '⚠ No matches or new items found — check column names.'; return; }
 
-    // Debug: per-client breakdown with skipped titles
-    const _dbgPerClient = {};
-    for (const { client, rows } of norm) {
-      if (!client) continue;
-      const tKey = (['video title','video name','title','topic'].find(k => rows[0] && rows[0][k]!==undefined)) || 'title';
-      const tagged=[], skipped=[], notFound=[];
-      for (const row of rows) {
-        const rt = String(row[tKey]||row['title']||'').trim();
-        if (!rt) continue;
-        const ex = byTitleIdx[rt.toLowerCase()];
-        if (!ex) { notFound.push(rt); continue; }
-        const lics = gE(ex.id,'licenses',ex.client_licenses||[]);
-        if (lics.includes(client)) skipped.push(rt);
-        else tagged.push(rt);
-      }
-      _dbgPerClient[client] = { tagged: tagged.length, skipped: skipped.length, notFound: notFound.length };
-      if (notFound.length) console.log(`[Import debug] ${client} — NOT FOUND in dashboard:`, notFound);
-      if (tagged.length + skipped.length + notFound.length !== rows.filter(r=>String(r[tKey]||r['title']||'').trim()).length)
-        console.warn(`[Import debug] ${client} — count mismatch!`);
-    }
-    console.log('[Import debug] updates:', updates.length, '| newItems:', newItems.length);
-    console.log('[Import debug] per client (tagged=new this import, skipped=already had tag, notFound=title mismatch):', JSON.stringify(_dbgPerClient));
 
     _importParsed = { updates, newItems };
     const clientsFound = [...new Set([
