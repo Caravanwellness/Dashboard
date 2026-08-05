@@ -59,5 +59,10 @@
     "name": "Chelsea Johnson",
     "passwordHash": "438116ba02ca87c91c6a5f183f0c56c0fe2f1d056ce54d0cee71a416c72c94c7",
     "createdAt": "2026-08-04T20:13:07.258Z"
+  },
+  "zena.erhabor+searching@caravanwellness.com": {
+    "name": "Zena Test",
+    "passwordHash": "a3933ef888296ba324b42034767372067a28b3849744018368b4657b8469e3f4",
+    "createdAt": "2026-08-05T19:13:12.216Z"
   }
 }
