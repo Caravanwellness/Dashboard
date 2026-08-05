@@ -14,6 +14,7 @@ export default async function handler(req, res) {
 
   // GET — return all edits + SHA for client-side caching
   if (req.method === 'GET') {
+    res.setHeader('Cache-Control', 'no-store');
     try {
       const { data, sha } = await ghReadJson(REPO, PATH, token);
       return res.json({ _data: data, _sha: sha });
