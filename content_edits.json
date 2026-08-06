@@ -26144,7 +26144,11 @@
   },
   "INF-0036": {
     "author": "Emily Wilson",
-    "_at": "2026-08-06T05:51:04.950Z",
+    "_at": "2026-08-06T05:51:03.850Z",
     "date_created": "4/30/2026"
+  },
+  "INF-0037": {
+    "title": "Common Precancerous Conditions and How They Are Detected",
+    "_at": "2026-08-06T05:51:42.816Z"
   }
 }
