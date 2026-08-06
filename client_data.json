@@ -1,51 +1,7 @@
 {
   "clients": [
     "YuLife",
-    "Hapstar",
-    "Healthee",
-    "JAAQ",
-    "LifeSmart",
-    "Luro Health",
-    "Numbase",
-    "Passport & Co.",
-    "Promethium Medical",
-    "The Difference Card",
-    "Walkingspree",
-    "Wellness360",
-    "Wellsort",
-    "i9med",
-    "Pavelka",
-    "Millennium Health",
-    "iMediSync",
-    "New Ocean Health",
-    "WellSort",
-    "Healthcare Highways",
-    "Lifesmart",
-    "Loune.co (needs to be confirmed",
-    "SAFE Federal Credit Union",
-    "Keel Mind",
-    "Lyra Health",
-    "Earn It",
-    "Sante Group",
-    "California Lithuanian Credit Un",
-    "Spectrum.life",
-    "Mobitrans (will be updated with",
-    "Licensed Videos",
-    "Licensed RecipesArticles",
-    "Bolton Hotel",
-    "Wellics",
-    "Oncology Physicians Network",
-    "Emma Health",
-    "Carebook",
-    "BSDI",
-    "Marino Wellness",
-    "Navigate Wellbeing",
-    "WPO",
-    "Kardi AI",
-    "Big Yellow Fish",
-    "Curela",
-    "Solas Mind",
-    "Welldoc"
+    "Hapstar"
   ],
   "meta": {
     "YuLife": {
@@ -54,42 +10,6 @@
     },
     "Hapstar": {
       "delivery": "Portal",
-      "notes": ""
-    },
-    "spectrum": {
-      "delivery": "",
-      "notes": ""
-    },
-    "Pavelka": {
-      "delivery": "",
-      "notes": ""
-    },
-    "Millennium Health": {
-      "delivery": "",
-      "notes": ""
-    },
-    "iMediSync": {
-      "delivery": "",
-      "notes": ""
-    },
-    "New Ocean Health": {
-      "delivery": "",
-      "notes": ""
-    },
-    "WellSort": {
-      "delivery": "",
-      "notes": ""
-    },
-    "Healthcare Highways": {
-      "delivery": "",
-      "notes": ""
-    },
-    "Bolton Hotel": {
-      "delivery": "",
-      "notes": ""
-    },
-    "Carebook": {
-      "delivery": "",
       "notes": ""
     }
   }
