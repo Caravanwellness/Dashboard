@@ -1323,6 +1323,33 @@ async function handleImportFile(file) {
     const byTitleIdx = {};
     ALL.forEach(i => { byTitleIdx[(i.title||'').toLowerCase().trim()] = i; });
 
+    // Columns that map onto existing item fields for a bulk update-by-ID.
+    // Only used when the row has an ID that matches an existing item — title-only
+    // matching stays limited to license tagging since titles aren't unique enough
+    // to safely overwrite arbitrary fields on.
+    const FIELD_MAP = {
+      'title':'title', 'video title':'title', 'video name':'title', 'topic':'title',
+      'type':'type',
+      'category':'category',
+      'language':'language',
+      'author':'author', 'author creds':'author_creds', 'author_creds':'author_creds',
+      'branding':'branding', 'branding status':'branding',
+      'date created':'date_created',
+      'date revised':'date_revised', 'revised':'date_revised',
+      'description':'description',
+      'notes':'notes',
+      'reviewer':'peer_reviewer', 'peer reviewer':'peer_reviewer',
+      'references':'references',
+      'last reviewed':'review_date', 'review date':'review_date',
+      'review priority':'review_priority',
+      'reviewed by':'reviewed_by',
+      'subtitle languages':'subtitle_languages', 'subtitles/captions':'subtitle_languages',
+      'transcript link':'transcript_link', 'transcripts':'transcript_link',
+      'version':'version', 'ver.':'version', 'ver':'version',
+      'duration':'duration', 'video length':'duration', 'length':'duration',
+      'teacher':'teacher', 'teacher/reviewer':'teacher', 'expert':'teacher', 'instructor':'teacher',
+    };
+
     const updates  = []; // changes to existing items
     const newItems = []; // items not found in dashboard
     const newByTitle = {};
@@ -1340,18 +1367,23 @@ async function handleImportFile(file) {
         const sectionVal = String(row['section'] || row['topic'] || '').trim();
         if (sectionVal) lastCategory = sectionVal;
 
-        if (!rawTitle) continue;
+        // Prefer a per-row Client column when the sheet has one; otherwise fall back to the tab name
+        const rowClient = String(row['client'] || row['clients'] || '').trim() || client;
+
+        // Match by ID first (authoritative — titles aren't unique in this catalog).
+        // Only fall back to title matching when the row has no usable ID.
+        const rowId = String(row['id'] || '').trim();
+        const matchedById = !!(rowId && BY_ID[rowId]);
+        const existing = matchedById ? BY_ID[rowId] : (rawTitle ? byTitleIdx[rawTitle.toLowerCase().trim()] : undefined);
+
+        if (!rawTitle && !matchedById) continue;
 
         // Skip pure section-header rows (no URL and no length and title matches a section-like value)
         const hasUrl = String(row['url'] || row['link'] || '').trim();
         const hasLen = String(row['length'] || '').trim();
-        if (!hasUrl && !hasLen && sectionVal === rawTitle) continue;
-
-        // Prefer a per-row Client column when the sheet has one; otherwise fall back to the tab name
-        const rowClient = String(row['client'] || row['clients'] || '').trim() || client;
+        if (!matchedById && !hasUrl && !hasLen && sectionVal === rawTitle) continue;
 
         const key = rawTitle.toLowerCase().trim();
-        const existing = byTitleIdx[key];
 
         if (existing) {
           // Tag existing item with client license
@@ -1362,6 +1394,32 @@ async function handleImportFile(file) {
               if (!edits[existing.id]) edits[existing.id] = {};
               edits[existing.id]['licenses'] = merged;
               updates.push({ id: existing.id, field: 'licenses', value: merged });
+            }
+          }
+
+          // Bulk field sync — only for rows matched by ID. Blank cells are left
+          // alone (no data in the file for that column ≠ "clear this field").
+          if (matchedById) {
+            for (const [header, field] of Object.entries(FIELD_MAP)) {
+              if (row[header] === undefined) continue;
+              const val = String(row[header]).trim();
+              if (!val) continue;
+              const cur = String(lv(existing, field) || '').trim();
+              if (val !== cur) {
+                if (!edits[existing.id]) edits[existing.id] = {};
+                edits[existing.id][field] = val;
+                updates.push({ id: existing.id, field, value: val });
+              }
+            }
+            const url = String(row['url'] || row['link'] || row['vimeo'] || '').trim();
+            if (url) {
+              const urlField = url.includes('vimeo') ? 'vimeo_link' : 'link';
+              const cur = String(lv(existing, urlField) || '').trim();
+              if (url !== cur) {
+                if (!edits[existing.id]) edits[existing.id] = {};
+                edits[existing.id][urlField] = url;
+                updates.push({ id: existing.id, field: urlField, value: url });
+              }
             }
           }
         } else {
@@ -1396,10 +1454,15 @@ async function handleImportFile(file) {
       ...newItems.flatMap(i => i.client_licenses),
     ])].filter(Boolean);
 
+    const licenseUpdateIds = new Set(updates.filter(u=>u.field==='licenses').map(u=>u.id));
+    const fieldUpdates      = updates.filter(u=>u.field!=='licenses');
+    const fieldUpdateIds    = new Set(fieldUpdates.map(u=>u.id));
+
     previewEl.innerHTML = `
       <div style="font-weight:700;color:#1a1a2e;margin-bottom:8px">Ready to save</div>
       <div style="color:#333;line-height:1.8">
-        ${updates.length ? `<div>✓ <strong>${[...new Set(updates.map(u=>u.id))].length}</strong> existing items will be tagged</div>` : ''}
+        ${licenseUpdateIds.size ? `<div>✓ <strong>${licenseUpdateIds.size}</strong> existing items will be tagged</div>` : ''}
+        ${fieldUpdateIds.size ? `<div>✓ <strong>${fieldUpdateIds.size}</strong> existing items will be updated (<strong>${fieldUpdates.length}</strong> field changes)</div>` : ''}
         ${newItems.length ? `<div>✓ <strong>${newItems.length}</strong> new items will be added to the library</div>` : ''}
         ${clientsFound.length ? `<div style="color:#666;font-size:12px;margin-top:4px">Clients: ${clientsFound.join(', ')}</div>` : ''}
       </div>`;
@@ -1422,10 +1485,13 @@ async function confirmImport() {
   try {
     // Build license updates map: { [itemId]: [clients] }
     const licenseUpdates = {};
+    const fieldUpdates = []; // non-license field changes, e.g. category/duration/reviewer/references
     for (const u of updates) {
       if (u.field === 'licenses') {
         _licenses[u.id] = u.value; // update in-memory immediately
         licenseUpdates[u.id] = u.value;
+      } else {
+        fieldUpdates.push({ id: u.id, field: u.field, value: u.value });
       }
     }
 
@@ -1441,13 +1507,21 @@ async function confirmImport() {
         headers: { 'Content-Type': 'application/json', ...authHeader() },
         body: JSON.stringify({ items: newItems }),
       }).then(r => r.json()) : Promise.resolve({ ok: true, added: 0 }),
+
+      fieldUpdates.length ? fetch('/api/save-edits', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', ...authHeader() },
+        body: JSON.stringify({ bulk: fieldUpdates, message: `Import: update ${fieldUpdates.length} fields across ${new Set(fieldUpdates.map(u=>u.id)).size} items` }),
+      }).then(r => r.json()) : Promise.resolve({ ok: true, count: 0 }),
     ]);
 
     if (results[0].error) throw new Error(results[0].error);
     if (results[1].error) throw new Error(results[1].error);
+    if (results[2].error) throw new Error(results[2].error);
 
     // Update licenses SHA from response
     if (results[0]._sha) _licensesSha = results[0]._sha;
+    if (results[2]._sha) _editsFileSha = results[2]._sha;
 
     // Reload extra content to pick up assigned IDs for new items
     await loadExtraContent();
@@ -1459,9 +1533,10 @@ async function confirmImport() {
     ])].filter(c => c && !clients.includes(c));
     if (allClients.length) { clients.push(...allClients); saveC(); }
 
-    const taggedCount = [...new Set(updates.map(u=>u.id))].length;
+    const taggedCount = Object.keys(licenseUpdates).length;
+    const updatedCount = new Set(fieldUpdates.map(u=>u.id)).size;
     const addedCount  = results[1].added || 0;
-    statusEl.textContent = `✓ ${taggedCount ? taggedCount+' items tagged' : ''}${taggedCount && addedCount ? ' · ' : ''}${addedCount ? addedCount+' new items added' : ''}`;
+    statusEl.textContent = `✓ ${taggedCount ? taggedCount+' items tagged' : ''}${taggedCount && (updatedCount||addedCount) ? ' · ' : ''}${updatedCount ? updatedCount+' items updated' : ''}${updatedCount && addedCount ? ' · ' : ''}${addedCount ? addedCount+' new items added' : ''}`;
     document.getElementById('importPreview').style.display = 'none';
     confirmBtn.style.display = 'none';
     _importParsed = null;
