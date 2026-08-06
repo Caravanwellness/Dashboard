@@ -31024,7 +31024,7 @@
   },
   "ILB-0192": {
     "type": "Infographic",
-    "_at": "2026-08-06T19:13:57.894Z",
+    "_at": "2026-08-06T19:13:56.762Z",
     "references": "American Heart Association. (2023). Are you getting enough omega-3 fatty acids? https://www.heart.org/en/news/2023/06/30/are-you-getting-enough-omega-3-fatty-acids\n\nHarvard T.H. Chan School of Public Health, The Nutrition Source. (2021). Aquatic Foods. https://nutritionsource.hsph.harvard.edu/aquatic-foods/\n\nFrontiers in Physiology. (2023). High fish intake rich in n-3 polyunsaturated fatty acids reduces cardiovascular disease incidence in healthy adults: The ATTICA cohort study (2002–2022). https://pmc.ncbi.nlm.nih.gov/articles/PMC10086327/\nHarvard T.H. Chan School of Public Health, The Nutrition Source. (2021). Aquatic Foods. https://nutritionsource.hsph.harvard.edu/aquatic-foods/\n\nFrontiers in Physiology. (2023). High fish intake rich in n-3 polyunsaturated fatty acids reduces cardiovascular disease incidence in healthy adults: The ATTICA cohort study (2002–2022). https://pmc.ncbi.nlm.nih.gov/articles/PMC10086327/"
   },
   "ILB-0194": {
@@ -36122,5 +36122,9 @@
   "INF-0098": {
     "references": "Cleveland Clinic. (2025). How Sweet Potatoes Can Beat Your Sugar Cravings. https://health.clevelandclinic.org/sweet-potato-benefits\n\nFrontiers in Nutrition. (2024). Legumes and common beans in sustainable diets: nutritional quality, environmental benefits, spread and use in food preparations. https://pmc.ncbi.nlm.nih.gov/articles/PMC11104268/\n\nNutrients. (2023). Exploring Benefits and Barriers of Plant-Based Diets: Health, Environmental Impact, Food Accessibility and Acceptability. https://www.mdpi.com/2072-6643/15/22/4723",
     "_at": "2026-08-06T19:10:56.795Z"
+  },
+  "INF-0100": {
+    "references": "Harvard T.H. Chan School of Public Health, The Nutrition Source. (2024). Chia Seeds. https://nutritionsource.hsph.harvard.edu/food-features/chia-seeds/\n\nFoods. (2023). A Review of Plant-Based Drinks Addressing Nutrients, Flavor, and Processing Technologies. https://www.mdpi.com/2304-8158/12/21/3952\n\nCleveland Clinic. (2025). Peel It Back: Let's Look at the Health Benefits of Bananas. https://health.clevelandclinic.org/benefits-of-bananas",
+    "_at": "2026-08-06T19:19:57.456Z"
   }
 }
