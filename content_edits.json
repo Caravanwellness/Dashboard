@@ -31750,7 +31750,8 @@
   },
   "ILB-0485": {
     "type": "Infographic",
-    "_at": "2026-08-06T17:13:42.451Z"
+    "_at": "2026-08-06T19:48:00.052Z",
+    "references": "Mayo Clinic. (2023). Aerobic exercise: How to warm up and cool down. https://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/exercise/art-20045517\n\nAmerican Heart Association. (2024). Warm Up, Cool Down. https://www.heart.org/en/healthy-living/exercise-and-physical-activity/fitness-basics/warm-up-cool-down\n\nSports. (2026). Exercise-Based Strategies from Warm-Up to Training: A Systematic Review of Performance Enhancement and Injury Prevention. https://doi.org/10.3390/sports14050187"
   },
   "ILB-0487": {
     "type": "Infographic",
@@ -36156,6 +36157,6 @@
   },
   "INF-0112": {
     "references": "Harvard Health. (2026). The ideal stretching routine. https://www.health.harvard.edu/staying-healthy/the-ideal-stretching-routine\n\nCleveland Clinic. (2024). Dynamic vs. Static Stretching: Is One Better? https://health.clevelandclinic.org/dynamic-stretching-vs-static-stretching\n\nHeliyon. (2023). Dynamic and static stretching on hamstring flexibility and stiffness: A systematic review and meta-analysis. https://pmc.ncbi.nlm.nih.gov/articles/PMC10407730/",
-    "_at": "2026-08-06T19:44:50.732Z"
+    "_at": "2026-08-06T19:44:49.612Z"
   }
 }
