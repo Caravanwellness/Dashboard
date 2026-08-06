@@ -30229,7 +30229,8 @@
   },
   "INF-0213": {
     "author": "Diane McNaught",
-    "_at": "2026-08-06T12:48:34.093Z"
+    "_at": "2026-08-06T20:52:06.045Z",
+    "references": "Centers for Disease Control and Prevention. (2024). Adult BMI Categories. https://www.cdc.gov/bmi/adult-calculator/bmi-categories.html\n\nWorld Health Organization. (2025). Obesity and overweight. https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight\n\nInternational Journal of Environmental Research and Public Health. (2024). Advantages and Limitations of the Body Mass Index (BMI) to Assess Adult Obesity. https://pmc.ncbi.nlm.nih.gov/articles/PMC11204233/"
   },
   "INF-0212": {
     "author": "Diane McNaught",
