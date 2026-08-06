@@ -30549,8 +30549,9 @@
   },
   "INF-0131": {
     "title": "The Connection Between Mental Health and Tobacco U",
-    "_at": "2026-08-06T15:55:26.413Z",
-    "author": "j"
+    "_at": "2026-08-06T19:55:09.769Z",
+    "author": "j",
+    "references": "Centers for Disease Control and Prevention. (2023). Smoking and mental health. https://www.cdc.gov/tobacco/campaign/tips/diseases/depression-anxiety.html National Institute of Mental Health. (2023). Substance use and mental health. https://www.nimh.nih.gov/health/topics/substance-use-and-mental-health National Institute on Drug Abuse. (2022). Cigarettes and other tobacco products drug facts. https://nida.nih.gov/publications/drugfacts/cigarettes-other-tobacco-products World Health Organization. (2023). Tobacco. https://www.who.int/news-room/fact-sheets/detail/tobacco"
   },
   "ART-0071": {
     "author": "Emily Wilson",
@@ -36166,6 +36167,6 @@
   },
   "INF-0115": {
     "references": "Perioperative Medicine. (2025). Assessment of perioperative anxiety levels at three time-points during hospital stay in patients undergoing elective surgery. https://pmc.ncbi.nlm.nih.gov/articles/PMC11905583/\n\nFrontiers in Pediatrics. (2024). Preoperative anxiety management in pediatric patients: a systematic review and meta-analysis of randomized controlled trials on the efficacy of distraction techniques. https://pmc.ncbi.nlm.nih.gov/articles/PMC10909818/\n\nScientific Reports. (2023). Patient-reported perioperative anaesthesia-related anxiety is associated with impaired patient satisfaction: a secondary analysis from a prospective observational study in Switzerland. https://www.nature.com/articles/s41598-023-43447-6",
-    "_at": "2026-08-06T19:54:21.403Z"
+    "_at": "2026-08-06T19:54:20.286Z"
   }
 }
