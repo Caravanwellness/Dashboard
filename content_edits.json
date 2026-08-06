@@ -31096,7 +31096,7 @@
   },
   "ILB-0221": {
     "type": "Infographic",
-    "_at": "2026-08-06T19:54:15.312Z",
+    "_at": "2026-08-06T19:54:14.035Z",
     "references": "Perioperative Medicine. (2025). Assessment of perioperative anxiety levels at three time-points during hospital stay in patients undergoing elective surgery. https://pmc.ncbi.nlm.nih.gov/articles/PMC11905583/\n\nFrontiers in Pediatrics. (2024). Preoperative anxiety management in pediatric patients: a systematic review and meta-analysis of randomized controlled trials on the efficacy of distraction techniques. https://pmc.ncbi.nlm.nih.gov/articles/PMC10909818/\n\nScientific Reports. (2023). Patient-reported perioperative anaesthesia-related anxiety is associated with impaired patient satisfaction: a secondary analysis from a prospective observational study in Switzerland. https://www.nature.com/articles/s41598-023-43447-6"
   },
   "ILB-0223": {
@@ -36163,5 +36163,9 @@
   "INF-0113": {
     "references": "Mayo Clinic. (2023). Aerobic exercise: How to warm up and cool down. https://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/exercise/art-20045517\n\nAmerican Heart Association. (2024). Warm Up, Cool Down. https://www.heart.org/en/healthy-living/exercise-and-physical-activity/fitness-basics/warm-up-cool-down\n\nSports. (2026). Exercise-Based Strategies from Warm-Up to Training: A Systematic Review of Performance Enhancement and Injury Prevention. https://doi.org/10.3390/sports14050187",
     "_at": "2026-08-06T19:48:06.176Z"
+  },
+  "INF-0115": {
+    "references": "Perioperative Medicine. (2025). Assessment of perioperative anxiety levels at three time-points during hospital stay in patients undergoing elective surgery. https://pmc.ncbi.nlm.nih.gov/articles/PMC11905583/\n\nFrontiers in Pediatrics. (2024). Preoperative anxiety management in pediatric patients: a systematic review and meta-analysis of randomized controlled trials on the efficacy of distraction techniques. https://pmc.ncbi.nlm.nih.gov/articles/PMC10909818/\n\nScientific Reports. (2023). Patient-reported perioperative anaesthesia-related anxiety is associated with impaired patient satisfaction: a secondary analysis from a prospective observational study in Switzerland. https://www.nature.com/articles/s41598-023-43447-6",
+    "_at": "2026-08-06T19:54:18.469Z"
   }
 }
