@@ -30853,7 +30853,8 @@
   },
   "ILB-0122": {
     "type": "Infographic",
-    "_at": "2026-08-06T17:13:42.451Z"
+    "_at": "2026-08-06T18:34:42.542Z",
+    "references": "U.S. Preventive Services Task Force. (2024). Breast Cancer: Screening. https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/breast-cancer-screening\n\nAmerican Cancer Society. (2026). American Cancer Society Recommendations for the Early Detection of Breast Cancer. https://www.cancer.org/cancer/types/breast-cancer/screening-tests-and-early-detection/american-cancer-society-recommendations-for-the-early-detection-of-breast-cancer.html\n\nCenters for Disease Control and Prevention. (2024). Screening for Breast Cancer. https://www.cdc.gov/breast-cancer/screening/index.html"
   },
   "ILB-0123": {
     "type": "Infographic",
@@ -30873,7 +30874,8 @@
   },
   "ILB-0130": {
     "type": "Infographic",
-    "_at": "2026-08-06T17:13:42.451Z"
+    "_at": "2026-08-06T18:38:50.039Z",
+    "references": "Cleveland Clinic. (2026). Try These Five Practices To Improve Your Blood Circulation. https://health.clevelandclinic.org/how-to-improve-blood-circulation-naturally\n\nCells. (2023). Training the Vessels: Molecular and Clinical Effects of Exercise on Vascular Health—A Narrative Review. https://pmc.ncbi.nlm.nih.gov/articles/PMC10649652/\n\nJournal of Education and Health Promotion. (2024). Effect of physical activity breaks during prolonged sitting on vascular outcomes: A scoping review. https://pmc.ncbi.nlm.nih.gov/articles/PMC11482367/"
   },
   "ILB-0131": {
     "type": "Infographic",
@@ -30882,7 +30884,8 @@
   },
   "ILB-0132": {
     "type": "Infographic",
-    "_at": "2026-08-06T17:13:42.451Z"
+    "_at": "2026-08-06T18:40:01.640Z",
+    "references": "National Heart, Lung, and Blood Institute. (2024). Why mental stress can take a toll on the heart. https://www.nhlbi.nih.gov/news/2024/why-mental-stress-can-take-toll-heart Centers for Disease Control and Prevention. (2024). About sleep and your heart health. https://www.cdc.gov/heart-disease/about/sleep-and-heart-health.html Centers for Disease Control and Prevention. (2026). Health benefits of physical activity for adults. https://www.cdc.gov/physical-activity-basics/health-benefits/adults.html"
   },
   "ILB-0134": {
     "type": "Infographic",
@@ -30932,7 +30935,8 @@
   },
   "ILB-0152": {
     "type": "Infographic",
-    "_at": "2026-08-06T17:13:42.451Z"
+    "_at": "2026-08-06T18:41:06.318Z",
+    "references": "Centers for Disease Control and Prevention. (2024). Physical activity basics. https://www.cdc.gov/physicalactivity/basics/index.htm Centers for Disease Control and Prevention. (2026). Preventing high blood pressure. https://www.cdc.gov/high-blood-pressure/prevention/index.html  National Heart, Lung, and Blood Institute. (2024). High blood pressure. https://www.nhlbi.nih.gov/health/high-blood-pressure"
   },
   "ILB-0154": {
     "type": "Infographic",
@@ -30980,7 +30984,8 @@
   },
   "ILB-0176": {
     "type": "Infographic",
-    "_at": "2026-08-06T17:13:42.451Z"
+    "_at": "2026-08-06T18:42:52.135Z",
+    "references": "National Institutes of Health. (2022). Nutrition: Nutrients and health. https://www.nhlbi.nih.gov/health/educational/wecan/eat-right/nutrition.htm World Health Organization. (2023). Healthy diet. https://www.who.int/news-room/fact-sheets/detail/healthy-diet National Health Service. (2023). Eat well. https://www.nhs.uk/live-well/eat-well/"
   },
   "ILB-0178": {
     "type": "Infographic",
@@ -36056,6 +36061,34 @@
   },
   "INF-0061": {
     "references": "U.S. Food and Drug Administration. (2022). Reporting serious problems to FDA. https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program Centers for Disease Control and Prevention. (2022). Medication safety program. https://www.cdc.gov/medicationsafety/index.html U.S. Department of Health and Human Services. (2024). Use medicines safely. https://odphp.health.gov/myhealthfinder/healthy-living/safety/use-medicines-safely",
-    "_at": "2026-08-06T18:31:02.006Z"
+    "_at": "2026-08-06T18:31:00.785Z"
+  },
+  "INF-0064": {
+    "references": "U.S. Preventive Services Task Force. (2024). Breast Cancer: Screening. https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/breast-cancer-screening\n\nAmerican Cancer Society. (2026). American Cancer Society Recommendations for the Early Detection of Breast Cancer. https://www.cancer.org/cancer/types/breast-cancer/screening-tests-and-early-detection/american-cancer-society-recommendations-for-the-early-detection-of-breast-cancer.html\n\nCenters for Disease Control and Prevention. (2024). Screening for Breast Cancer. https://www.cdc.gov/breast-cancer/screening/index.html",
+    "_at": "2026-08-06T18:34:34.130Z"
+  },
+  "INF-0067": {
+    "references": "Centers for Disease Control and Prevention. (2023). Heart disease facts. U.S. Department of Health and Human Services. Office of Minority Health. (2024). Heart disease and Black/African Americans. U.S. Department of Health and Human Services. Office of Minority Health. (2024). Heart disease and Hispanic/Latino Americans. U.S. Department of Health and Human Services. Office of Minority Health. (2024). Heart disease and Asian Americans. U.S. Department of Health and Human Services. Office of Minority Health. (2024). Heart disease and American Indian/Alaska Native populations. U.S. Department of Health and Human Services.",
+    "_at": "2026-08-06T18:35:39.807Z"
+  },
+  "INF-0068": {
+    "references": "Cleveland Clinic. (2026). Try These Five Practices To Improve Your Blood Circulation. https://health.clevelandclinic.org/how-to-improve-blood-circulation-naturally\n\nCells. (2023). Training the Vessels: Molecular and Clinical Effects of Exercise on Vascular Health—A Narrative Review. https://pmc.ncbi.nlm.nih.gov/articles/PMC10649652/\n\nJournal of Education and Health Promotion. (2024). Effect of physical activity breaks during prolonged sitting on vascular outcomes: A scoping review. https://pmc.ncbi.nlm.nih.gov/articles/PMC11482367/",
+    "_at": "2026-08-06T18:39:00.152Z"
+  },
+  "INF-0069": {
+    "references": "National Heart, Lung, and Blood Institute. (2024). Why mental stress can take a toll on the heart. https://www.nhlbi.nih.gov/news/2024/why-mental-stress-can-take-toll-heart Centers for Disease Control and Prevention. (2024). About sleep and your heart health. https://www.cdc.gov/heart-disease/about/sleep-and-heart-health.html Centers for Disease Control and Prevention. (2026). Health benefits of physical activity for adults. https://www.cdc.gov/physical-activity-basics/health-benefits/adults.html",
+    "_at": "2026-08-06T18:39:53.875Z"
+  },
+  "INF-0079": {
+    "references": "Centers for Disease Control and Prevention. (2024). Physical activity basics. https://www.cdc.gov/physicalactivity/basics/index.htm Centers for Disease Control and Prevention. (2026). Preventing high blood pressure. https://www.cdc.gov/high-blood-pressure/prevention/index.html  National Heart, Lung, and Blood Institute. (2024). High blood pressure. https://www.nhlbi.nih.gov/health/high-blood-pressure",
+    "_at": "2026-08-06T18:40:56.646Z"
+  },
+  "INF-0090": {
+    "references": "Centers for Disease Control and Prevention. (2024). Travelers with chronic illnesses. https://wwwnc.cdc.gov/travel/page/chronic-illnesses U.S. Food and Drug Administration. (2024). Buying & using medicine safely. https://www.fda.gov/drugs/information-consumers-and-patients-drugs/buying-using-medicine-safely MedlinePlus. (2021). Traveler’s health. https://medlineplus.gov/travelershealth.html",
+    "_at": "2026-08-06T18:41:52.266Z"
+  },
+  "INF-0091": {
+    "references": "National Institutes of Health. (2022). Nutrition: Nutrients and health. https://www.nhlbi.nih.gov/health/educational/wecan/eat-right/nutrition.htm World Health Organization. (2023). Healthy diet. https://www.who.int/news-room/fact-sheets/detail/healthy-diet National Health Service. (2023). Eat well. https://www.nhs.uk/live-well/eat-well/",
+    "_at": "2026-08-06T18:42:44.558Z"
   }
 }
