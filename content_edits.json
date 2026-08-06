@@ -36056,6 +36056,10 @@
   },
   "INF-0061": {
     "references": "U.S. Food and Drug Administration. (2022). Reporting serious problems to FDA. https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program Centers for Disease Control and Prevention. (2022). Medication safety program. https://www.cdc.gov/medicationsafety/index.html U.S. Department of Health and Human Services. (2024). Use medicines safely. https://odphp.health.gov/myhealthfinder/healthy-living/safety/use-medicines-safely",
-    "_at": "2026-08-06T18:31:02.006Z"
+    "_at": "2026-08-06T18:31:00.785Z"
+  },
+  "INF-0064": {
+    "references": "U.S. Preventive Services Task Force. (2024). Breast Cancer: Screening. https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/breast-cancer-screening\n\nAmerican Cancer Society. (2026). American Cancer Society Recommendations for the Early Detection of Breast Cancer. https://www.cancer.org/cancer/types/breast-cancer/screening-tests-and-early-detection/american-cancer-society-recommendations-for-the-early-detection-of-breast-cancer.html\n\nCenters for Disease Control and Prevention. (2024). Screening for Breast Cancer. https://www.cdc.gov/breast-cancer/screening/index.html",
+    "_at": "2026-08-06T18:34:30.546Z"
   }
 }
