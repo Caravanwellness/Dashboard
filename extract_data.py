@@ -1123,17 +1123,7 @@ def main():
                     item['language'] = ''
 
         total = sum(len(v) for v in all_data.values())
-        print(f"  Loaded {total} items from existing index.html")
-
-    # Load change log
-    log_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'change_log.json')
-    try:
-        with open(log_file) as f:
-            change_log = json.load(f)
-        total_logs = sum(len(v) for v in change_log.values())
-        print(f"  Loaded {total_logs} change log entries")
-    except:
-        change_log = {}
+        print(f"  Loaded {total} items from existing data.json")
 
     # Load content enrichments (date created, reviewed, references, links) from Google Sheet
     enrichments = {}
@@ -1255,11 +1245,9 @@ def main():
         html = f.read()
 
     data_json        = json.dumps(all_data,     separators=(',', ':'))
-    changelog_json   = json.dumps(change_log,   separators=(',', ':'))
     clients_json     = json.dumps(client_data,  separators=(',', ':'))
     extracted_date   = date.today().strftime("%B %d, %Y")
 
-    html = html.replace("__CHANGELOG_PLACEHOLDER__",   changelog_json)
     html = html.replace("__CLIENTS_PLACEHOLDER__",     clients_json)
     html = html.replace("__EXTRACTED__",               extracted_date)
 

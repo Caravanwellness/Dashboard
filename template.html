@@ -249,9 +249,10 @@ textarea.field-edit { resize: vertical; }
       <div style="font-size:22px;font-weight:800;color:#1a1a2e;letter-spacing:-.5px">Caravan Wellness</div>
       <div style="font-size:13px;color:#888;margin-top:4px">Content Dashboard</div>
     </div>
+    <div id="authForm">
     <div style="display:flex;border:1px solid #e8e8e8;border-radius:8px;margin-bottom:22px;overflow:hidden">
       <button id="loginTab" onclick="switchAuthTab('login')" style="flex:1;padding:9px;border:none;background:#1a1a2e;color:white;font-weight:700;font-size:13px;cursor:pointer">Log In</button>
-      <button id="signupTab" onclick="switchAuthTab('signup')" style="flex:1;padding:9px;border:none;background:white;color:#666;font-weight:600;font-size:13px;cursor:pointer">Sign Up</button>
+      <button id="signupTab" onclick="switchAuthTab('signup')" style="flex:1;padding:9px;border:none;background:white;color:#666;font-weight:600;font-size:13px;cursor:pointer">Sign Up / Reset Password</button>
     </div>
     <div id="signupNameRow" style="display:none;margin-bottom:14px">
       <label style="font-size:11px;text-transform:uppercase;letter-spacing:.5px;color:#999;display:block;margin-bottom:5px">Full Name</label>
@@ -267,6 +268,25 @@ textarea.field-edit { resize: vertical; }
     </div>
     <div id="authError" style="display:none;background:#fff0f0;color:#c62828;font-size:12px;padding:10px 12px;border-radius:7px;margin-bottom:16px"></div>
     <button id="authSubmitBtn" onclick="submitAuth()" style="width:100%;padding:12px;background:#1a1a2e;color:white;border:none;border-radius:8px;font-weight:700;font-size:14px;cursor:pointer;letter-spacing:.2px">Log In</button>
+    </div>
+
+    <!-- OTP verification step — shown after signup -->
+    <div id="otpStep" style="display:none">
+      <div style="text-align:center;margin-bottom:18px">
+        <div style="font-size:32px;margin-bottom:8px">📧</div>
+        <div style="font-size:14px;font-weight:700;color:#1a1a2e;margin-bottom:6px">Check your email</div>
+        <div id="otpHint" style="font-size:12px;color:#888;line-height:1.5"></div>
+      </div>
+      <div style="margin-bottom:18px">
+        <label style="font-size:11px;text-transform:uppercase;letter-spacing:.5px;color:#999;display:block;margin-bottom:5px">Verification Code</label>
+        <input id="otpInput" type="text" inputmode="numeric" maxlength="6" placeholder="000000"
+          style="width:100%;padding:12px;border:1px solid #e0e0e0;border-radius:8px;font-size:22px;font-weight:700;letter-spacing:6px;text-align:center;outline:none;box-sizing:border-box"
+          onkeydown="if(event.key==='Enter')submitOtp()">
+      </div>
+      <div id="otpError" style="display:none;background:#fff0f0;color:#c62828;font-size:12px;padding:10px 12px;border-radius:7px;margin-bottom:16px"></div>
+      <button id="otpSubmitBtn" onclick="submitOtp()" style="width:100%;padding:12px;background:#1a1a2e;color:white;border:none;border-radius:8px;font-weight:700;font-size:14px;cursor:pointer;letter-spacing:.2px;margin-bottom:10px">Verify</button>
+      <button onclick="cancelOtp()" style="width:100%;padding:8px;border:none;background:none;color:#aaa;cursor:pointer;font-size:12px">← Back to sign up</button>
+    </div>
   </div>
 </div>
 
@@ -289,24 +309,47 @@ textarea.field-edit { resize: vertical; }
   </div>
 </div>
 
-<!-- ── Upload CSV Modal ────────────────────────────────────────────────────── -->
-<div id="uploadModal" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:8000;align-items:center;justify-content:center">
-  <div style="background:white;border-radius:14px;padding:30px;max-width:480px;width:90%;box-shadow:0 12px 40px rgba(0,0,0,.25)">
-    <h3 style="margin:0 0 8px;font-size:16px;font-weight:700;color:#1a1a2e">Upload CSV / Excel</h3>
-    <p style="font-size:13px;color:#666;margin:0 0 18px">File must have an <strong>id</strong> column. All other columns will be merged as edits. Existing values for those fields will be overwritten.</p>
-    <div id="uploadDropzone" ondragover="event.preventDefault()" ondrop="handleUploadDrop(event)" style="border:2px dashed #e0e0e0;border-radius:10px;padding:32px;text-align:center;cursor:pointer;margin-bottom:16px" onclick="document.getElementById('uploadFileInput').click()">
+<!-- ── Import Modal ───────────────────────────────────────────────────────────── -->
+<div id="importModal" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:8000;align-items:center;justify-content:center">
+  <div style="background:white;border-radius:14px;padding:30px;max-width:560px;width:90%;box-shadow:0 12px 40px rgba(0,0,0,.25);max-height:90vh;overflow-y:auto">
+    <h3 style="margin:0 0 6px;font-size:16px;font-weight:700;color:#1a1a2e">Import Content</h3>
+    <p style="font-size:13px;color:#666;margin:0 0 18px">Upload an Excel or CSV. For Excel, each sheet tab = client name. Items already in the dashboard will be updated (client tags, etc.); new items will be added to the library. Type is detected per row from a <strong>Content Type</strong> or <strong>Format</strong> column, from column headers, or from the URL.</p>
+    <div id="importDropzone" ondragover="event.preventDefault()" ondrop="handleImportDrop(event)" style="border:2px dashed #e0e0e0;border-radius:10px;padding:32px;text-align:center;cursor:pointer;margin-bottom:16px" onclick="document.getElementById('importFileInput').click()">
       <div style="font-size:28px;margin-bottom:8px">📂</div>
-      <div style="font-size:13px;color:#666">Drag &amp; drop a CSV or Excel file here<br>or click to browse</div>
-      <input id="uploadFileInput" type="file" accept=".csv,.xlsx,.xls" style="display:none" onchange="handleUploadFile(this.files[0])">
+      <div style="font-size:13px;color:#666">Drag &amp; drop an Excel or CSV file here<br>or click to browse</div>
+      <input id="importFileInput" type="file" accept=".csv,.xlsx,.xls" style="display:none" onchange="handleImportFile(this.files[0])">
     </div>
-    <div id="uploadStatus" style="font-size:12px;color:#666;min-height:20px;margin-bottom:14px"></div>
+    <div id="importPreview" style="display:none;margin-bottom:16px;border:1px solid #e0eaff;border-radius:8px;padding:14px;background:#f5f8ff;font-size:13px"></div>
+    <div id="importStatus" style="font-size:12px;color:#666;min-height:18px;margin-bottom:12px"></div>
     <div style="display:flex;gap:10px;justify-content:flex-end">
-      <button onclick="document.getElementById('uploadModal').style.display='none'" style="padding:9px 18px;border:1px solid #e0e0e0;border-radius:7px;background:white;cursor:pointer;font-size:13px;color:#666">Close</button>
+      <button id="importConfirmBtn" onclick="confirmImport()" style="display:none;padding:9px 20px;background:#6366f1;color:white;border:none;border-radius:7px;font-weight:700;font-size:13px;cursor:pointer">Save to Dashboard</button>
+      <button onclick="closeImportModal()" style="padding:9px 18px;border:1px solid #e0e0e0;border-radius:7px;background:white;cursor:pointer;font-size:13px;color:#666">Close</button>
     </div>
   </div>
 </div>
 
 <!-- Article Viewer Modal -->
+<!-- Admin Panel Modal -->
+<div id="adminModal" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:9500;align-items:center;justify-content:center">
+  <div style="background:white;border-radius:12px;width:100%;max-width:480px;padding:28px;box-shadow:0 20px 60px rgba(0,0,0,.3);max-height:80vh;display:flex;flex-direction:column">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:20px">
+      <h2 style="margin:0;font-size:17px;color:#1a1a2e">⚙ Admin — Reset Password</h2>
+      <button onclick="closeAdminPanel()" style="background:none;border:none;font-size:20px;cursor:pointer;color:#888;line-height:1">×</button>
+    </div>
+    <p style="margin:0 0 16px;font-size:13px;color:#666">Select a user and set a new temporary password. Share it with them via Slack or email.</p>
+    <div id="adminUserList" style="overflow-y:auto;flex:1;margin-bottom:16px;border:1px solid #eee;border-radius:8px"></div>
+    <div id="adminResetForm" style="display:none;border-top:1px solid #eee;padding-top:16px">
+      <div style="font-size:13px;font-weight:600;color:#1a1a2e;margin-bottom:10px">Reset password for: <span id="adminResetName" style="color:#c0392b"></span></div>
+      <input id="adminNewPassword" type="password" placeholder="New temporary password (min 8 chars)" style="width:100%;box-sizing:border-box;padding:9px 11px;border:1px solid #ddd;border-radius:7px;font-size:13px;margin-bottom:10px">
+      <div style="display:flex;gap:8px">
+        <button onclick="submitPasswordReset()" style="flex:1;padding:9px;background:#1a1a2e;color:white;border:none;border-radius:7px;font-size:13px;cursor:pointer;font-weight:600">Reset Password</button>
+        <button onclick="cancelPasswordReset()" style="padding:9px 14px;background:#f5f5f5;color:#555;border:none;border-radius:7px;font-size:13px;cursor:pointer">Cancel</button>
+      </div>
+      <div id="adminResetStatus" style="margin-top:10px;font-size:12px;color:#666"></div>
+    </div>
+  </div>
+</div>
+
 <div id="articleViewerModal" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.6);z-index:9000;align-items:flex-start;justify-content:center;padding:20px;box-sizing:border-box">
   <div style="background:white;border-radius:12px;width:100%;max-width:1300px;height:calc(100vh - 40px);display:flex;flex-direction:column;overflow:hidden;box-shadow:0 20px 60px rgba(0,0,0,.3)">
     <!-- Header -->
@@ -382,7 +425,7 @@ textarea.field-edit { resize: vertical; }
   <div class="meta" id="headerMeta">Extracted __EXTRACTED__ &nbsp;·&nbsp; <span id="totalCount"></span> items</div>
   <div id="userBadge" style="display:none;align-items:center;gap:8px;margin-left:8px">
     <span id="userBadgeName" style="font-size:12px;color:#ccc"></span>
-    <button onclick="logout()" style="font-size:11px;padding:3px 9px;border-radius:20px;border:1px solid #555;background:transparent;color:#aaa;cursor:pointer">Log out</button>
+<button onclick="logout()" style="font-size:11px;padding:3px 9px;border-radius:20px;border:1px solid #555;background:transparent;color:#aaa;cursor:pointer">Log out</button>
   </div>
 </header>
 
@@ -393,8 +436,7 @@ textarea.field-edit { resize: vertical; }
 </div>
 
 <div class="tabs">
-  <div class="tab active" data-tab="review">Review Tracker</div>
-  <div class="tab" data-tab="library">Content Library</div>
+  <div class="tab active" data-tab="library">Content Library</div>
   <div class="tab" data-tab="due">⏰ Review Schedule</div>
   <div class="tab" data-tab="creators">Creators</div>
   <div class="tab" data-tab="licensing">Client Licensing</div>
@@ -472,12 +514,8 @@ textarea.field-edit { resize: vertical; }
   <div class="content">
     <div class="toolbar">
       <button class="btn primary" onclick="exportCSV()">⬇ Export CSV</button>
-      <button class="btn" onclick="document.getElementById('uploadModal').style.display='flex'" style="background:#0d9488;color:white;border-color:#0d9488">⬆ Upload CSV</button>
-      <label class="btn" style="background:#6366f1;color:white;border-color:#6366f1;cursor:pointer">
-        ✏️ Edit Chart
-        <input type="file" accept=".csv,.xlsx,.xls" style="display:none" onchange="handleEditChart(this)">
-      </label>
-      <div id="editChartStatus" style="font-size:12px;color:#555;margin-left:4px;display:none"></div>
+      <button class="btn" onclick="document.getElementById('importModal').style.display='flex'" style="background:#6366f1;color:white;border-color:#6366f1">⬆ Import</button>
+      <div id="importStatus" style="font-size:12px;color:#555;margin-left:4px"></div>
     </div>
     <div class="table-wrap">
       <table><thead id="thead"></thead><tbody id="tbody"></tbody></table>
@@ -522,6 +560,7 @@ textarea.field-edit { resize: vertical; }
         <input type="file" accept="image/*" multiple style="display:none" onchange="bulkUploadPhotos(this)">
       </label>
       <div id="bulkPhotoStatus" style="font-size:12px;color:#666;display:none"></div>
+      <div id="bioSaveStatus" style="font-size:12px;color:#888;margin-left:4px"></div>
     </div>
     <div id="creatorsGrid" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr));gap:14px;min-width:0"></div>
   </div>
@@ -593,7 +632,7 @@ function _loadJsonSync(url) {
   return JSON.parse(x.responseText);
 }
 const DATA         = _loadJsonSync('/data.json');
-const CHANGE_LOG   = __CHANGELOG_PLACEHOLDER__;
+const CHANGE_LOG   = {}; // change history is fetched live via /api/save-changelog, not embedded
 const SEEDED_CLIENTS = __CLIENTS_PLACEHOLDER__;
 const TRANSCRIPTS  = _loadJsonSync('/transcripts.json');
 
@@ -607,8 +646,8 @@ function authHeader() {
 
 function restoreSession() {
   try {
-    const t = sessionStorage.getItem('cw_token');
-    const u = JSON.parse(sessionStorage.getItem('cw_user') || 'null');
+    const t = localStorage.getItem('cw_token');
+    const u = JSON.parse(localStorage.getItem('cw_user') || 'null');
     if (t && u) { sessionToken = t; currentUser = u; return true; }
   } catch(e) {}
   return false;
@@ -616,16 +655,91 @@ function restoreSession() {
 
 function persistSession(token, user) {
   sessionToken = token; currentUser = user;
-  sessionStorage.setItem('cw_token', token);
-  sessionStorage.setItem('cw_user', JSON.stringify(user));
+  localStorage.setItem('cw_token', token);
+  localStorage.setItem('cw_user', JSON.stringify(user));
 }
 
 function logout() {
   sessionToken = null; currentUser = null;
-  sessionStorage.removeItem('cw_token');
-  sessionStorage.removeItem('cw_user');
+  localStorage.removeItem('cw_token');
+  localStorage.removeItem('cw_user');
   document.getElementById('loginOverlay').style.display = 'flex';
   document.getElementById('userBadge').style.display = 'none';
+}
+
+let _adminResetTarget = null;
+
+async function openAdminPanel() {
+  const modal = document.getElementById('adminModal');
+  modal.style.display = 'flex';
+  document.getElementById('adminResetForm').style.display = 'none';
+  const listEl = document.getElementById('adminUserList');
+  listEl.innerHTML = '<div style="padding:16px;color:#888;font-size:13px">Loading users…</div>';
+
+  try {
+    const r = await fetch('/api/auth', { method:'POST', headers:{'Content-Type':'application/json',...authHeader()}, body: JSON.stringify({action:'list', _token: sessionToken}) });
+    const d = await r.json();
+    if (!r.ok) throw new Error(d.error || r.status);
+
+    listEl.innerHTML = d.users.map(u => `
+      <div style="display:flex;justify-content:space-between;align-items:center;padding:10px 14px;border-bottom:1px solid #f0f0f0">
+        <div>
+          <div style="font-size:13px;font-weight:600;color:#1a1a2e">${esc(u.name)}</div>
+          <div style="font-size:11px;color:#888">${esc(u.email)}</div>
+        </div>
+        <button onclick="startPasswordReset('${esc(u.email)}','${esc(u.name)}')"
+          style="font-size:12px;padding:5px 12px;background:#f5f5f5;border:1px solid #ddd;border-radius:6px;cursor:pointer;color:#333">
+          Reset password
+        </button>
+      </div>
+    `).join('');
+  } catch(e) {
+    listEl.innerHTML = `<div style="padding:16px;color:#c0392b;font-size:13px">Error: ${esc(e.message)}</div>`;
+  }
+}
+
+function closeAdminPanel() {
+  document.getElementById('adminModal').style.display = 'none';
+  _adminResetTarget = null;
+}
+
+function startPasswordReset(email, name) {
+  _adminResetTarget = { email, name };
+  document.getElementById('adminResetName').textContent = name;
+  document.getElementById('adminNewPassword').value = '';
+  document.getElementById('adminResetStatus').textContent = '';
+  document.getElementById('adminResetForm').style.display = 'block';
+  document.getElementById('adminNewPassword').focus();
+}
+
+function cancelPasswordReset() {
+  document.getElementById('adminResetForm').style.display = 'none';
+  _adminResetTarget = null;
+}
+
+async function submitPasswordReset() {
+  if (!_adminResetTarget) return;
+  const newPassword = document.getElementById('adminNewPassword').value;
+  const statusEl = document.getElementById('adminResetStatus');
+  if (newPassword.length < 8) { statusEl.textContent = '⚠ Password must be at least 8 characters.'; statusEl.style.color='#c0392b'; return; }
+
+  statusEl.textContent = 'Saving…'; statusEl.style.color = '#888';
+  try {
+    const r = await fetch('/api/auth', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', ...authHeader() },
+      body: JSON.stringify({ action: 'reset', targetEmail: _adminResetTarget.email, newPassword, _token: sessionToken }),
+    });
+    const d = await r.json();
+    if (!r.ok) throw new Error(d.error || r.status);
+    statusEl.textContent = `✓ Password reset for ${_adminResetTarget.name}. Share the new password with them.`;
+    statusEl.style.color = '#27ae60';
+    document.getElementById('adminNewPassword').value = '';
+    setTimeout(() => cancelPasswordReset(), 3000);
+  } catch(e) {
+    statusEl.textContent = `⚠ ${e.message}`;
+    statusEl.style.color = '#c0392b';
+  }
 }
 
 function switchAuthTab(tab) {
@@ -640,6 +754,17 @@ function switchAuthTab(tab) {
   document.getElementById('authError').style.display = 'none';
 }
 document.getElementById('authSubmitBtn').dataset.action = 'login';
+
+function _showOtpStep(email) {
+  document.getElementById('authForm').style.display = 'none';
+  document.getElementById('otpStep').style.display = 'block';
+  document.getElementById('otpHint').textContent = `We sent a 6-digit code to ${email}. Enter it below to complete your account setup. The code expires in 10 minutes.`;
+  document.getElementById('otpInput').value = '';
+  document.getElementById('otpError').style.display = 'none';
+  setTimeout(() => document.getElementById('otpInput').focus(), 100);
+}
+
+let _pendingSignupEmail = null;
 
 async function submitAuth() {
   const action   = document.getElementById('authSubmitBtn').dataset.action;
@@ -667,6 +792,14 @@ async function submitAuth() {
       btn.textContent = action === 'login' ? 'Log In' : 'Create Account';
       return;
     }
+    // Signup now requires email verification
+    if (data.pendingVerification) {
+      _pendingSignupEmail = data.email || email;
+      btn.disabled = false;
+      btn.textContent = 'Create Account';
+      _showOtpStep(_pendingSignupEmail);
+      return;
+    }
     if (!data.token) {
       errEl.textContent = 'Session token missing — is SESSION_SECRET set in Vercel?';
       errEl.style.display = 'block';
@@ -674,17 +807,57 @@ async function submitAuth() {
       btn.textContent = action === 'login' ? 'Log In' : 'Create Account';
       return;
     }
-    persistSession(data.token, { name: data.name, email: data.email });
-    document.getElementById('loginOverlay').style.display = 'none';
-    document.getElementById('userBadgeName').textContent = data.name;
-    document.getElementById('userBadge').style.display = 'flex';
-    await initApp();
+    _finishLogin(data);
   } catch(e) {
     errEl.textContent = 'Network error: ' + (e.message || e);
     errEl.style.display = 'block';
     btn.disabled = false;
     btn.textContent = action === 'login' ? 'Log In' : 'Create Account';
   }
+}
+
+async function submitOtp() {
+  const code  = document.getElementById('otpInput').value.trim();
+  const errEl = document.getElementById('otpError');
+  const btn   = document.getElementById('otpSubmitBtn');
+  errEl.style.display = 'none';
+  if (!code || code.length < 6) { errEl.textContent = 'Please enter the 6-digit code.'; errEl.style.display = 'block'; return; }
+  btn.disabled = true; btn.textContent = 'Verifying…';
+  try {
+    const r = await fetch('/api/auth', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ action: 'verify', email: _pendingSignupEmail, code }),
+    });
+    let data;
+    try { data = await r.json(); } catch(e) { data = {}; }
+    if (!r.ok) {
+      errEl.textContent = data.error || `Error (${r.status}) — please try again.`;
+      errEl.style.display = 'block';
+      btn.disabled = false; btn.textContent = 'Verify';
+      return;
+    }
+    _finishLogin(data);
+  } catch(e) {
+    errEl.textContent = 'Network error: ' + (e.message || e);
+    errEl.style.display = 'block';
+    btn.disabled = false; btn.textContent = 'Verify';
+  }
+}
+
+function cancelOtp() {
+  _pendingSignupEmail = null;
+  document.getElementById('otpStep').style.display = 'none';
+  document.getElementById('authForm').style.display = 'block';
+  switchAuthTab('signup');
+}
+
+async function _finishLogin(data) {
+  persistSession(data.token, { name: data.name, email: data.email });
+  document.getElementById('loginOverlay').style.display = 'none';
+  document.getElementById('userBadgeName').textContent = data.name;
+  document.getElementById('userBadge').style.display = 'flex';
+  await initApp();
 }
 
 document.getElementById('authPassword').addEventListener('keydown', e => {
@@ -695,20 +868,69 @@ document.getElementById('authPassword').addEventListener('keydown', e => {
 let edits = {};
 let _editSaveTimers = {};
 let _editOldValues  = {};
+let _editsFileSha   = null; // cached SHA — lets saves skip the server-side GitHub read
+let _licenses       = {};   // { [itemId]: [client, ...] } — stored separately from edits
+let _licensesSha    = null;
+
+async function loadLicenses() {
+  try {
+    const r = await fetch('/api/save-licenses');
+    if (r.ok) {
+      const d = await r.json();
+      _licenses = d._data || {};
+      _licensesSha = d._sha ?? null;
+    }
+  } catch(e) {}
+}
+
+async function _flushLicense(id, value) {
+  const updates = { [id]: value };
+  const sha = _licensesSha;
+  _licensesSha = null;
+  try {
+    const r = await fetch('/api/save-licenses', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', ...authHeader() },
+      body: JSON.stringify({ updates, message: `License update: ${id}` }),
+    });
+    if (r.ok) {
+      const d = await r.json();
+      if (d._sha) _licensesSha = d._sha;
+    }
+  } catch(e) { console.warn('License save failed', e); }
+}
 
 async function loadEdits() {
   try {
     const r = await fetch('/api/save-edits');
-    if (r.ok) edits = await r.json();
+    if (r.ok) {
+      const d = await r.json();
+      edits = d._data || d;
+      _editsFileSha = d._sha ?? null;
+    }
   } catch(e) {}
 }
 
-function _flushEdit(id, field, value) {
-  fetch('/api/save-edits', {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json', ...authHeader() },
-    body: JSON.stringify({ id, field, value }),
-  }).catch(e => console.warn('Edit save failed', e));
+async function _flushEdit(id, field, value) {
+  // Send the full merged edits + cached SHA so the server can skip its GitHub read
+  const body = { id, field, value };
+  const sha = _editsFileSha;
+  if (sha !== null) {
+    body._clientEdits = edits;
+    body._sha = sha;
+    _editsFileSha = null; // clear so concurrent saves fall back to safe read+write
+  }
+  try {
+    const r = await fetch('/api/save-edits', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', ...authHeader() },
+      body: JSON.stringify(body),
+    });
+    if (r.ok) {
+      const d = await r.json();
+      if (d._sha) _editsFileSha = d._sha; // refresh cached SHA for next save
+    }
+  } catch(e) { console.warn('Edit save failed', e); }
 }
 
 function _flushChangelog(id, field, oldValue, newValue) {
@@ -740,7 +962,8 @@ async function loadNotifications() {
 
 // ── Creator Bios (shared, stored in GitHub via /api/save-bio) ─────────────────
 let bios = {};
-let _bioSaveTimers = {};
+let _bioQueue = {};      // pending changes: "name\0field" → {name, field, value}
+let _bioFlushing = false;
 
 async function loadBios() {
   try {
@@ -749,19 +972,62 @@ async function loadBios() {
   } catch(e) { /* offline or error — bios stay empty */ }
 }
 
-function saveBio(name, field, value) {
+function _setBioStatus(msg) {
+  const el = document.getElementById('bioSaveStatus');
+  if (el) el.textContent = msg;
+}
+
+async function _flushBioQueue() {
+  if (_bioFlushing || !Object.keys(_bioQueue).length) return;
+  const snapshot = { ..._bioQueue };
+  _bioQueue = {};
+  _bioFlushing = true;
+  _setBioStatus('Saving…');
+  try {
+    const bulk = Object.values(snapshot);
+    const r = await fetch('/api/save-bio', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ bulk }),
+    });
+    if (!r.ok) {
+      const d = await r.json().catch(()=>({}));
+      // Re-queue failed items so they aren't lost
+      Object.assign(_bioQueue, snapshot);
+      _setBioStatus('⚠ Save failed — will retry');
+      console.error('Bio flush failed', d.error || r.status);
+    } else {
+      _setBioStatus('✓ Saved');
+      setTimeout(() => _setBioStatus(''), 3000);
+    }
+  } catch(e) {
+    Object.assign(_bioQueue, snapshot);
+    _setBioStatus('⚠ Save failed — will retry');
+    console.error('Bio flush error', e);
+  }
+  _bioFlushing = false;
+}
+
+// Flush every 10 seconds if there's anything pending
+setInterval(_flushBioQueue, 10000);
+// Also flush on page unload (tab close / navigation away)
+window.addEventListener('beforeunload', () => {
+  if (Object.keys(_bioQueue).length) {
+    const bulk = Object.values(_bioQueue);
+    navigator.sendBeacon('/api/save-bio', new Blob([JSON.stringify({ bulk })], { type: 'application/json' }));
+  }
+});
+
+// Queue a bio change — updates memory immediately, defers network write
+function saveBioNow(name, field, value) {
   if (!bios[name]) bios[name] = {};
   bios[name][field] = value;
-  clearTimeout(_bioSaveTimers[name + field]);
-  _bioSaveTimers[name + field] = setTimeout(async () => {
-    try {
-      await fetch('/api/save-bio', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ name, field, value }),
-      });
-    } catch(e) { console.warn('Bio save failed', e); }
-  }, 800);
+  _bioQueue[name + '\0' + field] = { name, field, value };
+  _setBioStatus('Unsaved changes…');
+}
+
+function saveBio(name, field, value) {
+  saveBioNow(name, field, value);
 }
 
 function getBio(name, field, def='') {
@@ -964,20 +1230,346 @@ async function loadClients() {
   if (changed) _flushClients();
 }
 
+// ── Extra Content (stored in extra_content.json, merged into ALL at runtime) ──
+async function loadExtraContent() {
+  try {
+    const r = await fetch('/api/save-content');
+    if (!r.ok) return;
+    const items = await r.json();
+    if (!Array.isArray(items) || !items.length) return;
+    for (const item of items) {
+      if (!BY_ID[item.id]) {
+        ALL.push(item);
+        BY_ID[item.id] = item;
+      }
+    }
+  } catch(e) { console.warn('Extra content load failed', e); }
+}
+
+// ── Import handlers (unified: update existing + add new) ─────────────────────
+let _importParsed = null; // { updates: [{id,field,value}], newItems: [...] }
+
+function closeImportModal() {
+  document.getElementById('importModal').style.display = 'none';
+  document.getElementById('importPreview').style.display = 'none';
+  document.getElementById('importStatus').textContent = '';
+  document.getElementById('importConfirmBtn').style.display = 'none';
+  _importParsed = null;
+}
+
+function handleImportDrop(e) {
+  e.preventDefault();
+  const file = e.dataTransfer.files[0];
+  if (file) handleImportFile(file);
+}
+
+function parseDuration(raw) {
+  if (!raw) return '';
+  const s = String(raw).trim();
+  // Already MM:SS or H:MM:SS format
+  if (/^\d+:\d{2}(:\d{2})?$/.test(s)) return s;
+  // Excel time serial (fraction of a day, e.g. 0.4215277...)
+  // XLSX.js returns HH:MM time cells as decimals; treat serial*24 as MM, remainder as SS
+  const num = parseFloat(s);
+  if (!isNaN(num) && num > 0 && num < 1) {
+    const totalMins = num * 24;
+    const mins = Math.floor(totalMins);
+    const secs = Math.round((totalMins - mins) * 60);
+    return `${mins}:${String(secs).padStart(2, '0')}`;
+  }
+  // Plain number (minutes) or "X min"
+  return s.replace(/\s*min.*/i, '').trim() + ' min';
+}
+
+function detectRowType(row) {
+  const typeVal = String(row['content type'] || row['format'] || row['type'] || '').trim();
+  if (typeVal) {
+    const tl = typeVal.toLowerCase();
+    if (tl === 'video') return 'Video Library';
+    if (tl === 'article') return 'Article Library';
+    if (tl === 'infographic') return 'Infographic Library';
+    return typeVal; // keep as-is (Presentation, Guide, Audio, etc.)
+  }
+  if (row['video title'] !== undefined) return 'Video Library';
+  const url = String(row['url'] || row['link'] || '').toLowerCase();
+  if (url.includes('vimeo.com') || url.includes('allinonewellbeing.com/video')) return 'Video Library';
+  return 'Video Library';
+}
+
+async function handleImportFile(file) {
+  if (!file) return;
+  const statusEl  = document.getElementById('importStatus');
+  const previewEl = document.getElementById('importPreview');
+  const confirmBtn= document.getElementById('importConfirmBtn');
+  _importParsed = null;
+  previewEl.style.display = 'none';
+  confirmBtn.style.display = 'none';
+  statusEl.textContent = 'Reading file…';
+
+  try {
+    let norm = [];
+    if (file.name.endsWith('.csv')) {
+      const raw = parseCSV(await file.text());
+      norm = [{ client: '', rows: raw.map(r => { const o={}; for(const [k,v] of Object.entries(r)) o[k.toLowerCase().trim()]=v; return o; }) }];
+    } else {
+      if (!window.XLSX) await new Promise((res,rej) => { const s=document.createElement('script'); s.src='https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js'; s.onload=res; s.onerror=rej; document.head.appendChild(s); });
+      const wb = XLSX.read(await file.arrayBuffer(), { type: 'array' });
+      for (const sheetName of wb.SheetNames) {
+        const rows = XLSX.utils.sheet_to_json(wb.Sheets[sheetName], { defval: '' });
+        norm.push({ client: sheetName.trim(), rows: rows.map(r => { const o={}; for(const [k,v] of Object.entries(r)) o[k.toLowerCase().trim()]=v; return o; }) });
+      }
+    }
+
+    const byTitleIdx = {};
+    ALL.forEach(i => { byTitleIdx[(i.title||'').toLowerCase().trim()] = i; });
+
+    // Columns that map onto existing item fields for a bulk update-by-ID.
+    // Only used when the row has an ID that matches an existing item — title-only
+    // matching stays limited to license tagging since titles aren't unique enough
+    // to safely overwrite arbitrary fields on.
+    const FIELD_MAP = {
+      'title':'title', 'video title':'title', 'video name':'title', 'topic':'title',
+      'type':'type',
+      'category':'category',
+      'language':'language',
+      'author':'author', 'author creds':'author_creds', 'author_creds':'author_creds',
+      'branding':'branding', 'branding status':'branding',
+      'date created':'date_created',
+      'date revised':'date_revised', 'revised':'date_revised',
+      'description':'description',
+      'notes':'notes',
+      'reviewer':'peer_reviewer', 'peer reviewer':'peer_reviewer',
+      'references':'references',
+      'last reviewed':'review_date', 'review date':'review_date',
+      'review priority':'review_priority',
+      'reviewed by':'reviewed_by',
+      'subtitle languages':'subtitle_languages', 'subtitles/captions':'subtitle_languages',
+      'transcript link':'transcript_link', 'transcripts':'transcript_link',
+      'version':'version', 'ver.':'version', 'ver':'version',
+      'duration':'duration', 'video length':'duration', 'length':'duration',
+      'teacher':'teacher', 'teacher/reviewer':'teacher', 'expert':'teacher', 'instructor':'teacher',
+    };
+
+    const updates  = []; // changes to existing items
+    const newItems = []; // items not found in dashboard
+    const newByTitle = {};
+
+    for (const { client, rows } of norm) {
+      let lastCategory = '';
+      // Detect title column for this sheet
+      const sample = rows.find(r => Object.values(r).some(v => String(v).trim()));
+      const titleKey = sample ? (['video title','video name','title','topic'].find(k => sample[k] !== undefined)) || 'title' : 'title';
+
+      for (const row of rows) {
+        const rawTitle = String(row[titleKey] || row['title'] || '').trim();
+
+        // Forward-fill section/topic as category
+        const sectionVal = String(row['section'] || row['topic'] || '').trim();
+        if (sectionVal) lastCategory = sectionVal;
+
+        // Prefer a per-row Client column when the sheet has one; otherwise fall back to the tab name
+        const rowClient = String(row['client'] || row['clients'] || '').trim() || client;
+
+        // Match by ID first (authoritative — titles aren't unique in this catalog).
+        // Only fall back to title matching when the row has no usable ID.
+        const rowId = String(row['id'] || '').trim();
+        const matchedById = !!(rowId && BY_ID[rowId]);
+        const existing = matchedById ? BY_ID[rowId] : (rawTitle ? byTitleIdx[rawTitle.toLowerCase().trim()] : undefined);
+
+        if (!rawTitle && !matchedById) continue;
+
+        // Skip pure section-header rows (no URL and no length and title matches a section-like value)
+        const hasUrl = String(row['url'] || row['link'] || '').trim();
+        const hasLen = String(row['length'] || '').trim();
+        if (!matchedById && !hasUrl && !hasLen && sectionVal === rawTitle) continue;
+
+        const key = rawTitle.toLowerCase().trim();
+
+        if (existing) {
+          // Tag existing item with client license
+          if (rowClient) {
+            const curLics = gE(existing.id, 'licenses', existing.client_licenses || []);
+            if (!curLics.includes(rowClient)) {
+              const merged = [...curLics, rowClient];
+              if (!edits[existing.id]) edits[existing.id] = {};
+              edits[existing.id]['licenses'] = merged;
+              updates.push({ id: existing.id, field: 'licenses', value: merged });
+            }
+          }
+
+          // Bulk field sync — only for rows matched by ID. Blank cells are left
+          // alone (no data in the file for that column ≠ "clear this field").
+          if (matchedById) {
+            for (const [header, field] of Object.entries(FIELD_MAP)) {
+              if (row[header] === undefined) continue;
+              const val = String(row[header]).trim();
+              if (!val) continue;
+              const cur = String(lv(existing, field) || '').trim();
+              if (val !== cur) {
+                if (!edits[existing.id]) edits[existing.id] = {};
+                edits[existing.id][field] = val;
+                updates.push({ id: existing.id, field, value: val });
+              }
+            }
+            const url = String(row['url'] || row['link'] || row['vimeo'] || '').trim();
+            if (url) {
+              const urlField = url.includes('vimeo') ? 'vimeo_link' : 'link';
+              const cur = String(lv(existing, urlField) || '').trim();
+              if (url !== cur) {
+                if (!edits[existing.id]) edits[existing.id] = {};
+                edits[existing.id][urlField] = url;
+                updates.push({ id: existing.id, field: urlField, value: url });
+              }
+            }
+          }
+        } else {
+          // New item
+          const url = String(row['url'] || row['link'] || '').trim();
+          const teacher = String(row['expert'] || row['teacher'] || row['instructor'] || '').trim();
+          const rawLen = String(row['length'] || '').trim();
+          const duration = parseDuration(rawLen);
+          const category = String(row['category'] || '').trim() || lastCategory;
+          const lang = String(row['language'] || '').trim() || 'English';
+          const type = detectRowType(row);
+
+          if (newByTitle[key]) {
+            if (rowClient && !newByTitle[key].client_licenses.includes(rowClient)) newByTitle[key].client_licenses.push(rowClient);
+          } else {
+            const item = { title: rawTitle, type, language: lang, category, teacher, duration, client_licenses: rowClient ? [rowClient] : [] };
+            if (url.includes('vimeo')) item.vimeo_link = url;
+            else if (url) item.link = url;
+            newItems.push(item);
+            newByTitle[key] = item;
+          }
+        }
+      }
+    }
+
+    if (!updates.length && !newItems.length) { statusEl.textContent = '⚠ No matches or new items found — check column names.'; return; }
+
+
+    _importParsed = { updates, newItems };
+    const clientsFound = [...new Set([
+      ...updates.flatMap(u => u.field==='licenses' ? u.value : []),
+      ...newItems.flatMap(i => i.client_licenses),
+    ])].filter(Boolean);
+
+    const licenseUpdateIds = new Set(updates.filter(u=>u.field==='licenses').map(u=>u.id));
+    const fieldUpdates      = updates.filter(u=>u.field!=='licenses');
+    const fieldUpdateIds    = new Set(fieldUpdates.map(u=>u.id));
+
+    previewEl.innerHTML = `
+      <div style="font-weight:700;color:#1a1a2e;margin-bottom:8px">Ready to save</div>
+      <div style="color:#333;line-height:1.8">
+        ${licenseUpdateIds.size ? `<div>✓ <strong>${licenseUpdateIds.size}</strong> existing items will be tagged</div>` : ''}
+        ${fieldUpdateIds.size ? `<div>✓ <strong>${fieldUpdateIds.size}</strong> existing items will be updated (<strong>${fieldUpdates.length}</strong> field changes)</div>` : ''}
+        ${newItems.length ? `<div>✓ <strong>${newItems.length}</strong> new items will be added to the library</div>` : ''}
+        ${clientsFound.length ? `<div style="color:#666;font-size:12px;margin-top:4px">Clients: ${clientsFound.join(', ')}</div>` : ''}
+      </div>`;
+    previewEl.style.display = '';
+    confirmBtn.style.display = '';
+    statusEl.textContent = '';
+  } catch(e) {
+    statusEl.textContent = '⚠ Could not read file: ' + e.message;
+  }
+}
+
+async function confirmImport() {
+  if (!_importParsed) return;
+  const { updates, newItems } = _importParsed;
+  const statusEl   = document.getElementById('importStatus');
+  const confirmBtn = document.getElementById('importConfirmBtn');
+  confirmBtn.disabled = true;
+  statusEl.textContent = 'Saving…';
+
+  try {
+    // Build license updates map: { [itemId]: [clients] }
+    const licenseUpdates = {};
+    const fieldUpdates = []; // non-license field changes, e.g. category/duration/reviewer/references
+    for (const u of updates) {
+      if (u.field === 'licenses') {
+        _licenses[u.id] = u.value; // update in-memory immediately
+        licenseUpdates[u.id] = u.value;
+      } else {
+        fieldUpdates.push({ id: u.id, field: u.field, value: u.value });
+      }
+    }
+
+    const results = await Promise.all([
+      Object.keys(licenseUpdates).length ? fetch('/api/save-licenses', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', ...authHeader() },
+        body: JSON.stringify({ updates: licenseUpdates, message: `Import: tag ${Object.keys(licenseUpdates).length} items` }),
+      }).then(r => r.json()) : Promise.resolve({ ok: true }),
+
+      newItems.length ? fetch('/api/save-content', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', ...authHeader() },
+        body: JSON.stringify({ items: newItems }),
+      }).then(r => r.json()) : Promise.resolve({ ok: true, added: 0 }),
+
+      fieldUpdates.length ? fetch('/api/save-edits', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', ...authHeader() },
+        body: JSON.stringify({ bulk: fieldUpdates, message: `Import: update ${fieldUpdates.length} fields across ${new Set(fieldUpdates.map(u=>u.id)).size} items` }),
+      }).then(r => r.json()) : Promise.resolve({ ok: true, count: 0 }),
+    ]);
+
+    if (results[0].error) throw new Error(results[0].error);
+    if (results[1].error) throw new Error(results[1].error);
+    if (results[2].error) throw new Error(results[2].error);
+
+    // Update licenses SHA from response
+    if (results[0]._sha) _licensesSha = results[0]._sha;
+    if (results[2]._sha) _editsFileSha = results[2]._sha;
+
+    // Reload extra content to pick up assigned IDs for new items
+    await loadExtraContent();
+
+    // Register new client names
+    const allClients = [...new Set([
+      ...Object.values(licenseUpdates).flat(),
+      ...newItems.flatMap(i => i.client_licenses),
+    ])].filter(c => c && !clients.includes(c));
+    if (allClients.length) { clients.push(...allClients); saveC(); }
+
+    const taggedCount = Object.keys(licenseUpdates).length;
+    const updatedCount = new Set(fieldUpdates.map(u=>u.id)).size;
+    const addedCount  = results[1].added || 0;
+    statusEl.textContent = `✓ ${taggedCount ? taggedCount+' items tagged' : ''}${taggedCount && (updatedCount||addedCount) ? ' · ' : ''}${updatedCount ? updatedCount+' items updated' : ''}${updatedCount && addedCount ? ' · ' : ''}${addedCount ? addedCount+' new items added' : ''}`;
+    document.getElementById('importPreview').style.display = 'none';
+    confirmBtn.style.display = 'none';
+    _importParsed = null;
+    seedFilters();
+    applyFilters();
+  } catch(e) {
+    statusEl.textContent = '⚠ Save failed: ' + e.message;
+    confirmBtn.disabled = false;
+  }
+}
+
 // ── App init (called after login) ────────────────────────────────────────────
 async function initApp() {
   document.getElementById('userBadgeName').textContent = currentUser.name;
   document.getElementById('userBadge').style.display = 'flex';
-  await Promise.all([loadEdits(), loadBios(), loadChangeLog(), loadNotifications(), loadClients(), loadArticleVersions()]);
+  await Promise.all([loadEdits(), loadLicenses(), loadBios(), loadChangeLog(), loadNotifications(), loadClients(), loadArticleVersions(), loadExtraContent()]);
   seedFilters();
   applyFilters();
   if (activeTab === 'creators') renderCreators();
-  if (activeTab === 'licensing') renderLicensing();
+  if (activeTab === 'licensing') renderClientBubbles();
 }
 
 
-function gE(id, f, def) { return (edits[id]&&edits[id][f]!==undefined) ? edits[id][f] : def; }
+function gE(id, f, def) {
+  if (f === 'licenses') return _licenses[id] !== undefined ? _licenses[id] : def;
+  return (edits[id]&&edits[id][f]!==undefined) ? edits[id][f] : def;
+}
 function sE(id, f, v)   {
+  if (f === 'licenses') {
+    _licenses[id] = v;
+    _flushLicense(id, v);
+    return;
+  }
   const key = id + '|' + f;
   // Capture old value before first keystroke in this debounce window
   if (!_editSaveTimers[key]) {
@@ -1051,7 +1643,7 @@ function swatchHtml(colors, key, cur) {
 }
 
 // ── State ─────────────────────────────────────────────────────────────────────
-let activeTab  = 'review';
+let activeTab  = 'library';
 let visibleItems = [];
 let sortKey    = null;
 let sortDir    = 1;
@@ -1146,8 +1738,6 @@ function clearAi() {
 
 // ── Filters ───────────────────────────────────────────────────────────────────
 function baseItems() {
-  if (activeTab==='review')  return ALL.filter(i=>REVIEW_SET.has(i.type));
-  if (activeTab==='library') return ALL.filter(i=>LIBRARY_SET.has(i.type));
   return ALL;
 }
 
@@ -1163,16 +1753,9 @@ function seedFilters() {
   document.getElementById('durationFilter').innerHTML = mk(durVals);
   const allClients = [...new Set(base.flatMap(i=>gE(i.id,'licenses',i.client_licenses||[])))].sort();
   document.getElementById('clientFilter').innerHTML  = '<option value="">All Clients</option>'+allClients.map(c=>`<option>${c}</option>`).join('');
-  const rv  = activeTab==='review';
-  const lib = activeTab==='library';
-  document.getElementById('dueGroup').style.display      = rv  ? '' : 'none';
-  document.getElementById('prioGroup').style.display     = rv  ? '' : 'none';
-  document.getElementById('authorGroup').style.display   = rv  ? '' : 'none';
-  document.getElementById('langGroup').style.display     = lib ? '' : 'none';
-  document.getElementById('brandingGroup').style.display = lib ? '' : 'none';
-  document.getElementById('teacherGroup').style.display  = lib ? '' : 'none';
-  document.getElementById('durationGroup').style.display = lib ? '' : 'none';
-  document.getElementById('clientGroup').style.display   = lib ? '' : 'none';
+  ['dueGroup','prioGroup','authorGroup','langGroup','brandingGroup','teacherGroup','durationGroup','clientGroup'].forEach(id => {
+    document.getElementById(id).style.display = '';
+  });
 }
 
 ['titleFilter','typeFilter','catFilter','prioFilter','authorFilter','langFilter','brandingFilter','teacherFilter','durationFilter','clientFilter','dueFilter'].forEach(id=>{
@@ -1290,14 +1873,10 @@ function applyFilters() {
 
 // ── Table ─────────────────────────────────────────────────────────────────────
 function getCols() {
-  if (activeTab==='review') return [
-    {k:'id',l:'ID'},{k:'type',l:'Type'},{k:'title',l:'Title'},{k:'category',l:'Category'},
-    {k:'date_created',l:'Date Created'},{k:'_review_date',l:'Last Reviewed'},{k:'_reviewer_name',l:'Reviewer'},{k:'author',l:'Author'},
-    {k:'version',l:'Ver.'},{k:'date_revised',l:'Revised'},
-  ];
   return [
     {k:'_clients',l:'Clients'},{k:'id',l:'ID'},{k:'type',l:'Type'},{k:'title',l:'Title'},{k:'category',l:'Category'},
     {k:'_duration',l:'Duration'},{k:'language',l:'Language'},{k:'teacher',l:'Teacher/Reviewer'},{k:'_licensed_pct',l:'Licensed By'},
+    {k:'date_created',l:'Date Created'},{k:'author',l:'Author'},{k:'_reviewer_name',l:'Reviewer'},{k:'_review_date',l:'Last Reviewed'},
   ];
 }
 
@@ -1380,6 +1959,8 @@ function renderTable() {
 }
 
 function esc(s){ return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+// For names inside single-quoted JS strings in HTML event handlers
+function jsStr(s){ return String(s||'').replace(/\\/g,'\\\\').replace(/'/g,"\\'"); }
 function openUrl(btn){ window.open(btn.dataset.url,'_blank'); }
 
 // ── Article Viewer ────────────────────────────────────────────────────────────
@@ -1465,7 +2046,6 @@ async function avFetchSnapshot() {
     _avCurrentText = d.current;
     const snapshots = d.snapshots || [];
 
-    // Auto-save baseline on first fetch — no manual action needed
     if (!snapshots.length) {
       statusEl.textContent = 'No snapshot yet — saving baseline automatically…';
       diffEl.innerHTML = '<span style="color:#bbb">Saving baseline…</span>';
@@ -1485,12 +2065,10 @@ async function avFetchSnapshot() {
       return;
     }
 
-    // Auto-save new snapshot if content changed since last one
     const last = snapshots[snapshots.length - 1];
     const changed = last.content !== d.current;
 
     if (changed) {
-      // Save snapshot silently in background
       fetch('/api/article-snapshot', {
         method: 'POST',
         headers: {'Content-Type':'application/json', ...authHeader()},
@@ -1704,7 +2282,7 @@ function showDetail(item) {
 
   function profileBtn(name) {
     if (!name) return '';
-    return `<span class="contrib-link" onclick="showContrib('${esc(name)}')">👤 Profile</span>`;
+    return `<span class="contrib-link" onclick="showContrib('${jsStr(name)}')">👤 Profile</span>`;
   }
 
   // Change log
@@ -1895,6 +2473,15 @@ function showDetail(item) {
           </select>
           <input id="logDate" placeholder="Date (MM/DD/YYYY)">
         </div>
+        <div style="margin-bottom:6px;display:flex;align-items:center;gap:10px">
+          <span style="font-size:13px;color:#555;font-weight:500">Substantive Changes?</span>
+          <label style="display:flex;align-items:center;gap:4px;font-size:13px;cursor:pointer">
+            <input type="radio" name="logSubstantive_${item.id}" id="logSubstantiveYes" value="yes" onchange="document.getElementById('logDesc').placeholder='Notes / what changed… (required)';document.getElementById('logDesc').style.borderColor='#e8a020'"> Yes
+          </label>
+          <label style="display:flex;align-items:center;gap:4px;font-size:13px;cursor:pointer">
+            <input type="radio" name="logSubstantive_${item.id}" id="logSubstantiveNo" value="no" checked onchange="document.getElementById('logDesc').placeholder='Notes / what changed…';document.getElementById('logDesc').style.borderColor=''"> No
+          </label>
+        </div>
         <input id="logBy" placeholder="Reviewer name" value="${esc(currentUser?.name||'')}" style="margin-bottom:6px">
         <input id="logDesc" placeholder="Notes / what changed…">
         <button class="save-btn" onclick="saveLog('${item.id}')">Save</button>
@@ -1978,6 +2565,14 @@ function saveLog(id) {
   const logType = document.getElementById('logType')?.value || 'review';
   const date    = document.getElementById('logDate').value.trim() ||
     new Date().toLocaleDateString('en-US',{month:'2-digit',day:'2-digit',year:'numeric'});
+  const substantive = document.getElementById('logSubstantiveYes')?.checked;
+  if (substantive && !desc) {
+    const el = document.getElementById('logDesc');
+    el.style.borderColor = '#e63946';
+    el.focus();
+    el.placeholder = 'Notes are required when substantive changes were made';
+    return;
+  }
   if (!desc && logType==='review') return;
   const list = gE(id,'local_changes',[]);
   list.unshift({date, description:desc||'Reviewed', changed_by:by, review_type:logType});
@@ -2080,7 +2675,7 @@ function renderCreators(query='') {
                 ? `<img src="${esc(photo)}" style="width:44px;height:44px;border-radius:50%;object-fit:cover;display:block">`
                 : `<div style="width:44px;height:44px;border-radius:50%;background:#1a1a2e;color:white;display:flex;align-items:center;justify-content:center;font-size:15px;font-weight:700">${esc(initials)}</div>`}
               <label title="Upload photo" style="position:absolute;bottom:-2px;right:-2px;width:18px;height:18px;border-radius:50%;background:#0d9488;color:white;display:flex;align-items:center;justify-content:center;font-size:10px;cursor:pointer;box-shadow:0 1px 3px rgba(0,0,0,.3)">
-                📷<input type="file" accept="image/*" style="display:none" onchange="uploadCreatorPhoto('${esc(name)}',this)">
+                📷<input type="file" accept="image/*" style="display:none" onchange="uploadCreatorPhoto('${jsStr(name)}',this)">
               </label>
             </div>
             <div style="flex:1;min-width:0">
@@ -2089,16 +2684,15 @@ function renderCreators(query='') {
               <div style="font-size:11px;color:#bbb;margin-top:3px">${info.authored} created &nbsp;·&nbsp; ${info.reviewed} reviewed</div>
             </div>
             <div style="display:flex;flex-direction:column;gap:5px;align-items:flex-end">
-              <button onclick="showContrib('${esc(name)}')" style="padding:4px 10px;background:#f0f2f5;border:1px solid #e0e0e0;border-radius:6px;font-size:11px;cursor:pointer;color:#444">View content</button>
+              <button onclick="showContrib('${jsStr(name)}')" style="padding:4px 10px;background:#f0f2f5;border:1px solid #e0e0e0;border-radius:6px;font-size:11px;cursor:pointer;color:#444">View content</button>
               <button onclick="document.getElementById('${cardId}').classList.add('flipped')" style="padding:4px 10px;background:#f0f2f5;border:1px solid #e0e0e0;border-radius:6px;font-size:11px;cursor:pointer;color:#444">Edit details</button>
             </div>
           </div>
           <textarea
             placeholder="Add bio…"
             style="width:100%;box-sizing:border-box;padding:7px 9px;border:1px solid #e8e8e8;border-radius:6px;font-size:12px;font-family:inherit;resize:vertical;min-height:60px;color:#444;outline:none"
-            oninput="saveBio('${esc(name)}','bio',this.value)"
             onfocus="this.style.borderColor='#1a1a2e'"
-            onblur="this.style.borderColor='#e8e8e8'"
+            onblur="this.style.borderColor='#e8e8e8';saveBioNow('${jsStr(name)}','bio',this.value)"
           >${esc(bio)}</textarea>
         </div>
 
@@ -2115,9 +2709,9 @@ function renderCreators(query='') {
               placeholder="e.g. Registered Dietician"
               style="width:100%;box-sizing:border-box;padding:7px 9px;border:1px solid #e8e8e8;border-radius:6px;font-size:12px;font-family:inherit;outline:none;color:#333"
               value="${esc(getBio(name,'creds',info.creds||''))}"
-              oninput="saveBio('${esc(name)}','creds',this.value);const t=document.getElementById('ctitle_${esc(name)}');if(t)t.textContent=this.value"
+              oninput="const t=document.getElementById('ctitle_${esc(name)}');if(t)t.textContent=this.value"
               onfocus="this.style.borderColor='#1a1a2e'"
-              onblur="this.style.borderColor='#e8e8e8'"
+              onblur="this.style.borderColor='#e8e8e8';saveBioNow('${jsStr(name)}','creds',this.value)"
             >
           </div>
 
@@ -2130,9 +2724,9 @@ function renderCreators(query='') {
                 style="flex:1;padding:7px 9px;border:1px solid #e8e8e8;border-radius:6px;font-size:12px;font-family:inherit;outline:none;color:#333"
                 onfocus="this.style.borderColor='#e63946'"
                 onblur="this.style.borderColor='#e8e8e8'"
-                onkeydown="if(event.key==='Enter')renameCreator('${esc(name)}',this.value)"
+                onkeydown="if(event.key==='Enter')renameCreator('${jsStr(name)}',this.value)"
               >
-              <button onclick="renameCreator('${esc(name)}',document.getElementById('rename_${esc(name)}').value)"
+              <button onclick="renameCreator('${jsStr(name)}',document.getElementById('rename_${esc(name)}').value)"
                 style="padding:7px 12px;border:1px solid #e63946;border-radius:6px;background:#e63946;color:white;font-size:12px;cursor:pointer;font-weight:600">
                 Rename
               </button>
@@ -2207,6 +2801,14 @@ function renderClientBubbles() {
     });
   });
 
+  // Auto-add any client found in licenses data that isn't in the sidebar list (save only once per session)
+  const missing = Object.keys(counts).filter(c => !clients.includes(c));
+  if (missing.length) {
+    clients.push(...missing.sort());
+    if (!renderClientBubbles._synced) saveC();
+    renderClientBubbles._synced = true;
+  }
+
   document.getElementById('clientList').innerHTML = clients.length
     ? clients.map(c=>`
       <div class="client-row${activeClient===c?' active':''}" onclick="selectClient('${esc(c)}')">
@@ -2277,11 +2879,6 @@ function renderClientDetail(name) {
       </table>`;
   }
 
-  const seededHtml = seeded ? `
-    ${seededTable(seeded.content, seeded.requested ? 'Currently Licensed' : 'Licensed Content')}
-    ${seeded.requested ? seededTable(seeded.requested, 'Requested Content') : ''}
-  ` : '';
-
   const dashboardItemsHtml = items.length
     ? `<div class="client-grid">${items.map(i=>`
         <div class="client-card" onclick="jumpToItem('${i.id}')">
@@ -2289,7 +2886,7 @@ function renderClientDetail(name) {
           <div class="cc-title">${esc(lv(i,'title'))}</div>
           <div class="cc-badge"><span class="badge badge-type">${esc(lv(i,'type'))}</span></div>
         </div>`).join('')}</div>`
-    : '';
+    : '<div style="color:#bbb;font-style:italic;font-size:13px;padding:12px 0">No items tagged to this client yet.</div>';
 
   // Build notification banner for this client
   const clientNotifs = clientNotifications.filter(n => n.clients.includes(name));
@@ -2304,7 +2901,7 @@ function renderClientDetail(name) {
 
   document.getElementById('clientArea').innerHTML = `
     <div class="client-detail">
-      <h2>${esc(name)}</h2>
+      <h2><span id="clientNameHeading" contenteditable="true" spellcheck="false" title="Click to rename client" style="outline:none;border-bottom:2px solid transparent;border-radius:2px;padding:2px 4px;cursor:text;transition:border-color .15s" onmouseover="this.style.borderColor='#d0d0d0'" onmouseout="if(document.activeElement!==this)this.style.borderColor='transparent'" onfocus="this.style.borderColor='#6366f1'" onblur="this.style.borderColor='transparent'">${esc(name)}</span></h2>
       ${notifBanner}
       <div class="client-meta">
         <div class="client-meta-field">
@@ -2316,17 +2913,56 @@ function renderClientDetail(name) {
           <input class="field-edit" id="cNotes" value="${esc(meta.notes)}" placeholder="Any notes…">
         </div>
       </div>
-      ${seededHtml}
-      ${dashboardItemsHtml ? `<div class="client-section-label" style="margin-top:22px">Dashboard Items Tagged to ${esc(name)}</div>${dashboardItemsHtml}` : ''}
+      <div class="client-section-label" style="margin-top:22px">Licensed Content (${items.length})</div>
+      ${dashboardItemsHtml}
     </div>
   `;
 
   document.getElementById('cDelivery').addEventListener('change', e=>{ clientMeta[name].delivery=e.target.value; saveCM(); });
   document.getElementById('cNotes').addEventListener('change',    e=>{ clientMeta[name].notes=e.target.value;    saveCM(); });
+
+  const nameEl = document.getElementById('clientNameHeading');
+  nameEl.addEventListener('keydown', e => { if (e.key === 'Enter') { e.preventDefault(); nameEl.blur(); } });
+  nameEl.addEventListener('blur', async () => {
+    const newName = nameEl.textContent.trim();
+    if (!newName || newName === name) return;
+
+    // Rename in clients array + meta
+    const idx = clients.indexOf(name);
+    if (idx !== -1) clients[idx] = newName;
+    if (clientMeta[name]) { clientMeta[newName] = clientMeta[name]; delete clientMeta[name]; }
+    saveC();
+    saveCM();
+
+    // Rename in _licenses store and in extra_content item.client_licenses
+    const licenseUpdates = {};
+    ALL.forEach(item => {
+      const cur = gE(item.id, 'licenses', item.client_licenses || []);
+      const li = cur.indexOf(name);
+      if (li === -1) return;
+      const updated = [...cur];
+      updated[li] = newName;
+      _licenses[item.id] = updated;
+      item.client_licenses = item.client_licenses?.map(c => c === name ? newName : c);
+      licenseUpdates[item.id] = updated;
+    });
+
+    if (Object.keys(licenseUpdates).length) {
+      fetch('/api/save-licenses', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', ...authHeader() },
+        body: JSON.stringify({ updates: licenseUpdates, message: `Rename client: "${name}" → "${newName}"` }),
+      });
+    }
+
+    activeClient = newName;
+    renderClientBubbles();
+    renderClientDetail(newName);
+  });
 }
 
 function jumpToItem(id) {
-  document.querySelector('.tab[data-tab="review"]').click();
+  document.querySelector('.tab[data-tab="library"]').click();
   setTimeout(()=>{
     const item = BY_ID[id];
     if (!item) return;
@@ -2362,239 +2998,23 @@ function exportCSV() {
 }
 
 // ── Edit Chart (bulk field update by ID) ─────────────────────────────────────
-// Maps CSV column headers → internal field keys
 const EDIT_CHART_MAP = {
-  'type':              'type',
-  'title':             'title',
-  'category':          'category',
-  'duration':          'duration',
-  'language':          'language',
-  'teacher/reviewer':  'teacher',
-  'author':            'author',
-  'peer reviewer':     'peer_reviewer',
-  'version':           'version',
-  'client licenses':   'licenses',
-  'notes':             'notes',
-  'date created':      'date_created',
-  'date revised':      'date_revised',
-  'branding status':   'branding_status',
-  'vimeo':             'vimeo_link',
-  'transcripts':       'transcript_available',
-  'subtitles/captions':'subtitles_available',
+  'type':'type','title':'title','category':'category','duration':'duration',
+  'language':'language','teacher/reviewer':'teacher','author':'author',
+  'peer reviewer':'peer_reviewer','version':'version','client licenses':'licenses',
+  'notes':'notes','date created':'date_created','date revised':'date_revised',
+  'branding status':'branding_status','vimeo':'vimeo_link',
+  'transcripts':'transcript_available','subtitles/captions':'subtitles_available',
   'references':'references',
   // Licensed content sheet columns
   'video length':'duration','client':'_client_aggregate','teacher':'teacher',
-  'video name':'_match_title','url':'vimeo_link',
+  'video name':'_match_title','video title':'_match_title','url':'vimeo_link',
 };
 
 async function handleEditChart(input) {
-  const file = input.files[0];
-  if (!file) return;
+  // Redirect to the unified Import modal
+  document.getElementById('importModal').style.display = 'flex';
   input.value = '';
-
-  const statusEl = document.getElementById('editChartStatus');
-  statusEl.style.display = '';
-  statusEl.textContent = 'Reading file…';
-
-  // Parse file → array of objects with normalised lowercase keys
-  let norm;
-  try {
-    if (file.name.endsWith('.csv')) {
-      const raw = parseCSV(await file.text()); // array of arrays
-      if (!raw.length) throw new Error('Empty file');
-      const hdrs = raw[0].map(h => String(h||'').trim().toLowerCase());
-      norm = raw.slice(1).map(row => {
-        const o = {};
-        hdrs.forEach((h, i) => o[h] = row[i] ?? '');
-        return o;
-      });
-    } else {
-      if (!window.XLSX) {
-        await new Promise((res, rej) => {
-          const s = document.createElement('script');
-          s.src = 'https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js';
-          s.onload = res; s.onerror = rej;
-          document.head.appendChild(s);
-        });
-      }
-      const wb = XLSX.read(await file.arrayBuffer(), { type: 'array' });
-      const ws = wb.Sheets[wb.SheetNames[0]];
-      norm = XLSX.utils.sheet_to_json(ws, { defval: '' })
-        .map(r => { const o = {}; for (const [k,v] of Object.entries(r)) o[k.toLowerCase().trim()] = v; return o; });
-    }
-  } catch(e) {
-    statusEl.textContent = `⚠ Could not read file: ${e.message}`; return;
-  }
-
-  if (!norm.length) { statusEl.textContent = '⚠ No data found.'; return; }
-
-  const hasId = norm[0]['id'] !== undefined;
-  const hasTitleMatch = norm[0]['video name'] !== undefined || norm[0]['title'] !== undefined;
-  if (!hasId && !hasTitleMatch) {
-    statusEl.textContent = '⚠ No "ID" or "Video Name"/"Title" column found.';
-    return;
-  }
-
-  // Build bulk changes
-  const bulk = [];
-  const byId = {};
-  ALL.forEach(i => byId[i.id] = i);
-
-  // Build title→id index for title-based matching
-  const byTitle = {};
-  ALL.forEach(i => { byTitle[(i.title||'').toLowerCase().trim()] = i.id; });
-
-  if (hasId) {
-    // Original ID-based path
-    for (const row of norm) {
-      const id = String(row['id'] || '').trim();
-      if (!id || !byId[id]) continue;
-      for (const [header, raw] of Object.entries(row)) {
-        if (header === 'id') continue;
-        const field = EDIT_CHART_MAP[header];
-        if (!field || field.startsWith('_')) continue;
-        if (raw === null || raw === undefined || String(raw).trim() === '') continue;
-        let val = String(raw).trim();
-        if (field === 'licenses') val = val.split(';').map(s => s.trim()).filter(Boolean);
-        const current = lv(byId[id], field);
-        if (String(current) === String(val)) continue;
-        if (!edits[id]) edits[id] = {};
-        edits[id][field] = val;
-        bulk.push({ id, field, value: val });
-      }
-    }
-  } else {
-    // Title-based matching: group rows by matched item ID
-    const grouped = {}; // id → { fields: {field: lastVal}, clients: Set }
-    const titleKey = norm[0]['video name'] !== undefined ? 'video name' : 'title';
-
-    for (const row of norm) {
-      const titleRaw = String(row[titleKey]||'').toLowerCase().trim();
-      const id = byTitle[titleRaw];
-      if (!id) continue;
-      if (!grouped[id]) grouped[id] = { fields: {}, clients: new Set() };
-      for (const [header, raw] of Object.entries(row)) {
-        const field = EDIT_CHART_MAP[header];
-        if (!field || field === '_match_title') continue;
-        if (raw === null || raw === undefined || String(raw).trim() === '') continue;
-        const val = String(raw).trim();
-        if (field === '_client_aggregate') {
-          grouped[id].clients.add(val);
-        } else {
-          grouped[id].fields[field] = val;
-        }
-      }
-    }
-
-    for (const [id, { fields, clients }] of Object.entries(grouped)) {
-      const item = byId[id];
-      if (clients.size > 0) {
-        const existing = (lv(item, 'licenses') || []);
-        const merged = [...new Set([...existing, ...clients])].sort();
-        const current = JSON.stringify((lv(item,'licenses')||[]).slice().sort());
-        if (JSON.stringify(merged) !== current) {
-          if (!edits[id]) edits[id] = {};
-          edits[id]['licenses'] = merged;
-          bulk.push({ id, field: 'licenses', value: merged });
-        }
-      }
-      for (const [field, val] of Object.entries(fields)) {
-        const current = lv(item, field);
-        if (String(current) === val) continue;
-        if (!edits[id]) edits[id] = {};
-        edits[id][field] = val;
-        bulk.push({ id, field, value: val });
-      }
-    }
-  }
-
-  if (!bulk.length) { statusEl.textContent = '✓ No changes detected.'; return; }
-
-  statusEl.textContent = `Saving ${bulk.length} field update${bulk.length !== 1 ? 's' : ''}…`;
-
-  try {
-    const r = await fetch('/api/save-edits', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json', ...authHeader() },
-      body: JSON.stringify({
-        bulk,
-        message: `Edit Chart bulk update: ${bulk.length} fields across ${[...new Set(bulk.map(b=>b.id))].length} items`,
-      }),
-    });
-    const d = await r.json();
-    if (!r.ok) throw new Error(d.error || r.status);
-    const itemCount = [...new Set(bulk.map(b => b.id))].length;
-    statusEl.textContent = `✓ Updated ${bulk.length} field${bulk.length!==1?'s':''} across ${itemCount} item${itemCount!==1?'s':''}`;
-    applyFilters();
-    setTimeout(() => { statusEl.style.display = 'none'; }, 6000);
-  } catch(e) {
-    statusEl.textContent = `⚠ Save failed: ${e.message}`;
-  }
-}
-
-// ── Upload CSV / Excel ────────────────────────────────────────────────────────
-function handleUploadDrop(e) {
-  e.preventDefault();
-  const file = e.dataTransfer.files[0];
-  if (file) handleUploadFile(file);
-}
-
-async function handleUploadFile(file) {
-  if (!file) return;
-  const status = document.getElementById('uploadStatus');
-  status.textContent = 'Reading file…';
-
-  try {
-    let rows;
-    if (file.name.endsWith('.csv')) {
-      const text = await file.text();
-      rows = parseCSV(text);
-    } else {
-      // Excel — load SheetJS from CDN
-      if (!window.XLSX) {
-        await new Promise((res, rej) => {
-          const s = document.createElement('script');
-          s.src = 'https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js';
-          s.onload = res; s.onerror = rej;
-          document.head.appendChild(s);
-        });
-      }
-      const buf = await file.arrayBuffer();
-      const wb  = XLSX.read(buf, { type: 'array' });
-      const ws  = wb.Sheets[wb.SheetNames[0]];
-      rows = XLSX.utils.sheet_to_json(ws, { defval: '' });
-    }
-
-    if (!rows.length) { status.textContent = 'No rows found in file.'; return; }
-
-    // Normalize column names: lowercase, underscores
-    const norm = rows.map(r => {
-      const out = {};
-      for (const [k, v] of Object.entries(r)) out[k.toLowerCase().replace(/\s+/g,'_')] = v;
-      return out;
-    });
-
-    const idCol = ['id','item_id','content_id'].find(c => norm[0][c] !== undefined);
-    if (!idCol) { status.textContent = 'Error: file must have an "id" column.'; return; }
-
-    const SKIP = new Set([idCol, '_at']);
-    let updated = 0, skipped = 0;
-    for (const row of norm) {
-      const id = String(row[idCol] || '').trim();
-      if (!id || !BY_ID[id]) { skipped++; continue; }
-      for (const [field, val] of Object.entries(row)) {
-        if (SKIP.has(field)) continue;
-        sE(id, field, String(val));
-      }
-      reRow(id);
-      updated++;
-    }
-
-    status.textContent = `✓ Done — ${updated} items updated, ${skipped} skipped (ID not found).`;
-    renderTable();
-  } catch(e) {
-    status.textContent = 'Error reading file: ' + e.message;
-  }
 }
 
 function parseCSV(text) {
