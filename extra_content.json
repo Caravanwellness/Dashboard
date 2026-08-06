@@ -17150,5 +17150,373 @@
     "client_licenses": [],
     "_addedAt": "2026-08-06T13:17:00.549Z",
     "_addedBy": "Dashboard"
+  },
+  {
+    "id": "EXT-1132",
+    "title": "Back Pain Myths & Facts",
+    "type": "Video",
+    "category": "Back Pain",
+    "_addedAt": "2026-08-06T17:36:05.095Z",
+    "_addedBy": "Dashboard"
+  },
+  {
+    "id": "EXT-1133",
+    "title": "Understanding Low Back Pain",
+    "type": "Video",
+    "category": "Back Pain",
+    "_addedAt": "2026-08-06T17:36:05.095Z",
+    "_addedBy": "Dashboard"
+  },
+  {
+    "id": "EXT-1134",
+    "title": "Sitting & Standing Posture",
+    "type": "Video",
+    "category": "General",
+    "_addedAt": "2026-08-06T17:36:05.095Z",
+    "_addedBy": "Dashboard"
+  },
+  {
+    "id": "EXT-1135",
+    "title": "Back Strengthening",
+    "type": "Video",
+    "category": "General",
+    "_addedAt": "2026-08-06T17:36:05.095Z",
+    "_addedBy": "Dashboard"
+  },
+  {
+    "id": "EXT-1136",
+    "title": "Foam Rolling for Sciatica Relief",
+    "type": "Video",
+    "category": "Back Pain",
+    "_addedAt": "2026-08-06T17:36:05.095Z",
+    "_addedBy": "Dashboard"
+  },
+  {
+    "id": "EXT-1137",
+    "title": "Hip Opening for Low Back Pain",
+    "type": "Video",
+    "category": "Back Pain",
+    "_addedAt": "2026-08-06T17:36:05.095Z",
+    "_addedBy": "Dashboard"
+  },
+  {
+    "id": "EXT-1138",
+    "title": "How To Exercise Safely With Back Pain",
+    "type": "Video",
+    "category": "Back Pain",
+    "_addedAt": "2026-08-06T17:36:05.095Z",
+    "_addedBy": "Dashboard"
+  },
+  {
+    "id": "EXT-1139",
+    "title": "Stretching for Low Back Pain Relief",
+    "type": "Video",
+    "category": "Back Pain",
+    "_addedAt": "2026-08-06T17:36:05.095Z",
+    "_addedBy": "Dashboard"
+  },
+  {
+    "id": "EXT-1140",
+    "title": "Sleep Posture for Back Pain",
+    "type": "Video",
+    "category": "Back Pain",
+    "_addedAt": "2026-08-06T17:36:05.095Z",
+    "_addedBy": "Dashboard"
+  },
+  {
+    "id": "EXT-1141",
+    "title": "How Concussions Affect The Brain",
+    "type": "Video",
+    "category": "Brain & Neurological",
+    "_addedAt": "2026-08-06T17:36:05.095Z",
+    "_addedBy": "Dashboard"
+  },
+  {
+    "id": "EXT-1142",
+    "title": "Recovering From A Concussion",
+    "type": "Video",
+    "category": "Brain & Neurological",
+    "_addedAt": "2026-08-06T17:36:05.095Z",
+    "_addedBy": "Dashboard"
+  },
+  {
+    "id": "EXT-1143",
+    "title": "Tips To Prevent Concussions",
+    "type": "Video",
+    "category": "Brain & Neurological",
+    "_addedAt": "2026-08-06T17:36:05.095Z",
+    "_addedBy": "Dashboard"
+  },
+  {
+    "id": "EXT-1144",
+    "title": "What Is A Concussion?",
+    "type": "Video",
+    "category": "Brain & Neurological",
+    "_addedAt": "2026-08-06T17:36:05.095Z",
+    "_addedBy": "Dashboard"
+  },
+  {
+    "id": "EXT-1145",
+    "title": "Cancer Prevention Through Lifestyle Changes",
+    "type": "Video",
+    "category": "Cancer",
+    "_addedAt": "2026-08-06T17:36:05.095Z",
+    "_addedBy": "Dashboard"
+  },
+  {
+    "id": "EXT-1146",
+    "title": "Environmental Factors That Contribute To Cancer",
+    "type": "Video",
+    "category": "Cancer",
+    "_addedAt": "2026-08-06T17:36:05.095Z",
+    "_addedBy": "Dashboard"
+  },
+  {
+    "id": "EXT-1147",
+    "title": "How Genetics & Cellular Changes Lead to Cancer",
+    "type": "Video",
+    "category": "Cancer",
+    "_addedAt": "2026-08-06T17:36:05.095Z",
+    "_addedBy": "Dashboard"
+  },
+  {
+    "id": "EXT-1148",
+    "title": "Immune System’s Role in Cancer Detection",
+    "type": "Video",
+    "category": "Cancer",
+    "_addedAt": "2026-08-06T17:36:05.095Z",
+    "_addedBy": "Dashboard"
+  },
+  {
+    "id": "EXT-1149",
+    "title": "Can Vaping Cause Cancer?",
+    "type": "Video",
+    "category": "Alcohol Use",
+    "_addedAt": "2026-08-06T17:36:05.095Z",
+    "_addedBy": "Dashboard"
+  },
+  {
+    "id": "EXT-1150",
+    "title": "How to Talk to Children About Cancer",
+    "type": "Video",
+    "category": "Cancer",
+    "_addedAt": "2026-08-06T17:36:05.095Z",
+    "_addedBy": "Dashboard"
+  },
+  {
+    "id": "EXT-1151",
+    "title": "What Is Cervical Cancer?",
+    "type": "Video",
+    "category": "Cancer",
+    "_addedAt": "2026-08-06T17:36:05.095Z",
+    "_addedBy": "Dashboard"
+  },
+  {
+    "id": "EXT-1152",
+    "title": "COPD Myths & Facts",
+    "type": "Video",
+    "category": "COPD",
+    "_addedAt": "2026-08-06T17:36:05.095Z",
+    "_addedBy": "Dashboard"
+  },
+  {
+    "id": "EXT-1153",
+    "title": "Respiratory System Anatomy",
+    "type": "Video",
+    "category": "Asthma",
+    "_addedAt": "2026-08-06T17:36:05.095Z",
+    "_addedBy": "Dashboard"
+  },
+  {
+    "id": "EXT-1154",
+    "title": "Understanding COPD",
+    "type": "Video",
+    "category": "COPD",
+    "_addedAt": "2026-08-06T17:36:05.095Z",
+    "_addedBy": "Dashboard"
+  },
+  {
+    "id": "EXT-1155",
+    "title": "Managing COPD Symptoms",
+    "type": "Video",
+    "category": "COPD",
+    "_addedAt": "2026-08-06T17:36:05.095Z",
+    "_addedBy": "Dashboard"
+  },
+  {
+    "id": "EXT-1156",
+    "title": "Respiratory Health & Exercise",
+    "type": "Video",
+    "category": "Asthma",
+    "_addedAt": "2026-08-06T17:36:05.095Z",
+    "_addedBy": "Dashboard"
+  },
+  {
+    "id": "EXT-1157",
+    "title": "How To Protect Your Respiratory System",
+    "type": "Video",
+    "category": "Asthma",
+    "_addedAt": "2026-08-06T17:36:05.095Z",
+    "_addedBy": "Dashboard"
+  },
+  {
+    "id": "EXT-1158",
+    "title": "Is It Possible to Reverse Lung Damage",
+    "type": "Video",
+    "category": "General",
+    "_addedAt": "2026-08-06T17:36:05.095Z",
+    "_addedBy": "Dashboard"
+  },
+  {
+    "id": "EXT-1159",
+    "title": "Risk Factors & Prevention Strategies for COPD",
+    "type": "Video",
+    "category": "COPD",
+    "_addedAt": "2026-08-06T17:36:05.095Z",
+    "_addedBy": "Dashboard"
+  },
+  {
+    "id": "EXT-1160",
+    "title": "Understanding Lung Capacity Measurement",
+    "type": "Video",
+    "category": "General",
+    "_addedAt": "2026-08-06T17:36:05.095Z",
+    "_addedBy": "Dashboard"
+  },
+  {
+    "id": "EXT-1161",
+    "title": "When to See a Doctor for Cough or Breathing Issues",
+    "type": "Video",
+    "category": "General",
+    "_addedAt": "2026-08-06T17:36:05.095Z",
+    "_addedBy": "Dashboard"
+  },
+  {
+    "id": "EXT-1162",
+    "title": "Understanding Climate Change and Its Global Impact",
+    "type": "Video",
+    "category": "General",
+    "_addedAt": "2026-08-06T17:36:05.095Z",
+    "_addedBy": "Dashboard"
+  },
+  {
+    "id": "EXT-1163",
+    "title": "Financial Considerations For Delaying Retirement",
+    "type": "Video",
+    "category": "Financial Wellness",
+    "_addedAt": "2026-08-06T17:36:05.095Z",
+    "_addedBy": "Dashboard"
+  },
+  {
+    "id": "EXT-1164",
+    "title": "How To Get Into The Habits Of Saving Money",
+    "type": "Video",
+    "category": "General",
+    "_addedAt": "2026-08-06T17:36:05.095Z",
+    "_addedBy": "Dashboard"
+  },
+  {
+    "id": "EXT-1165",
+    "title": "Beginner Investing Mistakes To Avoid",
+    "type": "Video",
+    "category": "General",
+    "_addedAt": "2026-08-06T17:36:05.095Z",
+    "_addedBy": "Dashboard"
+  },
+  {
+    "id": "EXT-1166",
+    "title": "Credit Card Management",
+    "type": "Video",
+    "category": "General",
+    "_addedAt": "2026-08-06T17:36:05.095Z",
+    "_addedBy": "Dashboard"
+  },
+  {
+    "id": "EXT-1167",
+    "title": "Creating A Family Financial Plan",
+    "type": "Video",
+    "category": "General",
+    "_addedAt": "2026-08-06T17:36:05.095Z",
+    "_addedBy": "Dashboard"
+  },
+  {
+    "id": "EXT-1168",
+    "title": "Financial Decision Fatigue",
+    "type": "Video",
+    "category": "Financial Wellness",
+    "_addedAt": "2026-08-06T17:36:05.095Z",
+    "_addedBy": "Dashboard"
+  },
+  {
+    "id": "EXT-1169",
+    "title": "Avoiding Financial Scams",
+    "type": "Video",
+    "category": "General",
+    "_addedAt": "2026-08-06T17:36:05.095Z",
+    "_addedBy": "Dashboard"
+  },
+  {
+    "id": "EXT-1170",
+    "title": "Intro To 401K (US focus)",
+    "type": "Video",
+    "category": "General",
+    "_addedAt": "2026-08-06T17:36:05.095Z",
+    "_addedBy": "Dashboard"
+  },
+  {
+    "id": "EXT-1171",
+    "title": "What Is Financial Wellness?",
+    "type": "Video",
+    "category": "General",
+    "_addedAt": "2026-08-06T17:36:05.095Z",
+    "_addedBy": "Dashboard"
+  },
+  {
+    "id": "EXT-1172",
+    "title": "How Different Classes of Medications Work in the Body",
+    "type": "Video",
+    "category": "Medications",
+    "_addedAt": "2026-08-06T17:36:05.095Z",
+    "_addedBy": "Dashboard"
+  },
+  {
+    "id": "EXT-1173",
+    "title": "What Is Biometric Screening",
+    "type": "Video",
+    "category": "Health Screenings",
+    "_addedAt": "2026-08-06T17:36:05.095Z",
+    "_addedBy": "Dashboard"
+  },
+  {
+    "id": "EXT-1174",
+    "title": "What Is Heart Failure?",
+    "type": "Video",
+    "category": "General",
+    "_addedAt": "2026-08-06T17:36:05.095Z",
+    "_addedBy": "Dashboard"
+  },
+  {
+    "id": "EXT-1175",
+    "title": "Symptoms & Signs of Heart Failure",
+    "type": "Video",
+    "category": "General",
+    "_addedAt": "2026-08-06T17:36:05.095Z",
+    "_addedBy": "Dashboard"
+  },
+  {
+    "id": "EXT-1176",
+    "title": "Heart Disease Diagnosis: Tests and Procedures",
+    "type": "Video",
+    "category": "General",
+    "_addedAt": "2026-08-06T17:36:05.095Z",
+    "_addedBy": "Dashboard"
+  },
+  {
+    "id": "EXT-1177",
+    "title": "Angina: Types, Symptoms, and Treatment",
+    "type": "Video",
+    "category": "General",
+    "_addedAt": "2026-08-06T17:36:05.095Z",
+    "_addedBy": "Dashboard"
   }
 ]
