@@ -1285,15 +1285,15 @@ function detectRowType(row) {
   const typeVal = String(row['content type'] || row['format'] || row['type'] || '').trim();
   if (typeVal) {
     const tl = typeVal.toLowerCase();
-    if (tl === 'video') return 'Video Library';
-    if (tl === 'article') return 'Article Library';
-    if (tl === 'infographic') return 'Infographic Library';
+    if (tl === 'video') return 'Video';
+    if (tl === 'article') return 'Article';
+    if (tl === 'infographic') return 'Infographic';
     return typeVal; // keep as-is (Presentation, Guide, Audio, etc.)
   }
-  if (row['video title'] !== undefined) return 'Video Library';
+  if (row['video title'] !== undefined) return 'Video';
   const url = String(row['url'] || row['link'] || '').toLowerCase();
-  if (url.includes('vimeo.com') || url.includes('allinonewellbeing.com/video')) return 'Video Library';
-  return 'Video Library';
+  if (url.includes('vimeo.com') || url.includes('allinonewellbeing.com/video')) return 'Video';
+  return 'Video';
 }
 
 async function handleImportFile(file) {
@@ -1619,8 +1619,7 @@ function cleanTitle(title) {
 document.getElementById('totalCount').textContent = ALL.length.toLocaleString();
 
 const REVIEW_SET  = new Set(['Article','Infographic','Video']);
-const LIBRARY_SET = new Set(['Video Library','Infographic Library','Article Library']);
-const ALL_TYPES   = ['Article','Infographic','Video','Video Library','Infographic Library','Article Library'];
+const ALL_TYPES   = ['Article','Infographic','Video'];
 const ALL_CATS    = [...new Set(ALL.map(i=>i.category))].sort();
 
 // ── Colors ────────────────────────────────────────────────────────────────────
