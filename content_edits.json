@@ -36053,5 +36053,9 @@
   "INF-0060": {
     "references": "U.S. Food and Drug Administration. (2022). Development & Approval Process | Drugs. https://www.fda.gov/drugs/development-approval-process-drugs\n\nNational Institute of General Medical Sciences. (2023). How Do Medicines Work? https://nigms.nih.gov/biobeat/2023/10/how-do-medicines-work\n\nCleveland Clinic. (2023). What Is Pharmacogenomics (Pharmacogenetics)? https://my.clevelandclinic.org/health/articles/pharmacogenomics",
     "_at": "2026-08-06T18:29:53.894Z"
+  },
+  "INF-0061": {
+    "references": "U.S. Food and Drug Administration. (2022). Reporting serious problems to FDA. https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program Centers for Disease Control and Prevention. (2022). Medication safety program. https://www.cdc.gov/medicationsafety/index.html U.S. Department of Health and Human Services. (2024). Use medicines safely. https://odphp.health.gov/myhealthfinder/healthy-living/safety/use-medicines-safely",
+    "_at": "2026-08-06T18:30:58.360Z"
   }
 }
