@@ -479,7 +479,7 @@ textarea.field-edit { resize: vertical; }
       </select>
     </div>
     <div class="filter-group" id="authorGroup">
-      <h3>Author</h3>
+      <h3>Author/Teacher</h3>
       <select id="authorFilter"><option value="">All</option></select>
     </div>
     <div class="filter-group" id="langGroup" style="display:none">
@@ -494,10 +494,6 @@ textarea.field-edit { resize: vertical; }
         <option value="Branded">Branded</option>
         <option value="none">Unspecified</option>
       </select>
-    </div>
-    <div class="filter-group" id="teacherGroup" style="display:none">
-      <h3>Teacher</h3>
-      <select id="teacherFilter"><option value="">All</option></select>
     </div>
     <div class="filter-group" id="durationGroup" style="display:none">
       <h3>Duration</h3>
@@ -1753,19 +1749,18 @@ function seedFilters() {
   const mk = (arr, sel='') => '<option value="">All</option>'+arr.map(v=>`<option${v===sel?' selected':''}>${v}</option>`).join('');
   document.getElementById('typeFilter').innerHTML   = mk([...new Set(base.map(i=>lv(i,'type')))].sort());
   document.getElementById('catFilter').innerHTML    = mk([...new Set(base.map(i=>lv(i,'category')))].sort());
-  document.getElementById('authorFilter').innerHTML  = mk([...new Set(base.map(i=>lv(i,'author')).filter(Boolean))].sort());
+  document.getElementById('authorFilter').innerHTML  = mk([...new Set(base.flatMap(i=>[lv(i,'author'), lv(i,'teacher')||lv(i,'peer_reviewer')]).filter(Boolean))].sort());
   document.getElementById('langFilter').innerHTML    = mk([...new Set(base.map(i=>lv(i,'language')).filter(Boolean))].sort());
-  document.getElementById('teacherFilter').innerHTML = mk([...new Set(base.map(i=>lv(i,'teacher')||lv(i,'peer_reviewer')).filter(Boolean))].sort());
   const durVals = [...new Set(base.map(i=>{ const d=lv(i,'duration')||extractDuration(lv(i,'title')); return d; }).filter(Boolean))].sort((a,b)=>parseInt(a)-parseInt(b));
   document.getElementById('durationFilter').innerHTML = mk(durVals);
   const allClients = [...new Set(base.flatMap(i=>gE(i.id,'licenses',i.client_licenses||[])))].sort();
   document.getElementById('clientFilter').innerHTML  = '<option value="">All Clients</option>'+allClients.map(c=>`<option>${c}</option>`).join('');
-  ['dueGroup','prioGroup','authorGroup','langGroup','brandingGroup','teacherGroup','durationGroup','clientGroup'].forEach(id => {
+  ['dueGroup','prioGroup','authorGroup','langGroup','brandingGroup','durationGroup','clientGroup'].forEach(id => {
     document.getElementById(id).style.display = '';
   });
 }
 
-['titleFilter','typeFilter','catFilter','prioFilter','authorFilter','langFilter','brandingFilter','teacherFilter','durationFilter','clientFilter','dueFilter'].forEach(id=>{
+['titleFilter','typeFilter','catFilter','prioFilter','authorFilter','langFilter','brandingFilter','durationFilter','clientFilter','dueFilter'].forEach(id=>{
   const el = document.getElementById(id);
   el.addEventListener('input',  applyFilters);
   el.addEventListener('change', applyFilters);
@@ -1850,7 +1845,6 @@ function applyFilters() {
   const due    = document.getElementById('dueFilter').value;
 
   const branding  = document.getElementById('brandingFilter').value;
-  const teacher   = document.getElementById('teacherFilter').value;
   const duration  = document.getElementById('durationFilter').value;
 
   visibleItems = baseItems().filter(item => {
@@ -1859,14 +1853,13 @@ function applyFilters() {
     if (type   && lv(item,'type')   !== type)   return false;
     if (cat    && lv(item,'category') !== cat)  return false;
     if (prio   && lv(item,'review_priority') !== prio) return false;
-    if (author && lv(item,'author') !== author) return false;
+    if (author && lv(item,'author') !== author && (lv(item,'teacher')||lv(item,'peer_reviewer')) !== author) return false;
     if (lang   && lv(item,'language') !== lang) return false;
     if (branding) {
       const b = lv(item,'branding') || '';
       if (branding === 'none' && b) return false;
       if (branding !== 'none' && b !== branding) return false;
     }
-    if (teacher && (lv(item,'teacher')||lv(item,'peer_reviewer')) !== teacher) return false;
     if (duration && (lv(item,'duration')||extractDuration(lv(item,'title'))) !== duration) return false;
     if (client && !gE(item.id,'licenses',item.client_licenses||[]).includes(client)) return false;
     if (due    && reviewStatus(item) !== due) return false;
@@ -1882,8 +1875,8 @@ function applyFilters() {
 function getCols() {
   return [
     {k:'_clients',l:'Clients'},{k:'id',l:'ID'},{k:'type',l:'Type'},{k:'title',l:'Title'},{k:'category',l:'Category'},
-    {k:'_duration',l:'Duration'},{k:'language',l:'Language'},{k:'teacher',l:'Teacher/Reviewer'},{k:'_licensed_pct',l:'Licensed By'},
-    {k:'date_created',l:'Date Created'},{k:'author',l:'Author'},{k:'_reviewer_name',l:'Reviewer'},{k:'_review_date',l:'Last Reviewed'},
+    {k:'_duration',l:'Duration'},{k:'language',l:'Language'},{k:'teacher',l:'Peer Reviewer'},{k:'_licensed_pct',l:'Licensed By'},
+    {k:'date_created',l:'Date Created'},{k:'author',l:'Author'},{k:'_reviewer_name',l:'Maintenance Reviewer'},{k:'_review_date',l:'Last Reviewed'},
   ];
 }
 
