@@ -309,8 +309,8 @@
     "peer_reviewer": "Diane McNaught"
   },
   "ART-0002": {
-    "author": "Diane McNaught",
-    "_at": "2026-07-25T19:43:32.555Z",
+    "author": "Marlee Alanis",
+    "_at": "2026-08-06T11:31:11.917Z",
     "peer_reviewer": "Diane McNaught",
     "notes": ""
   },
@@ -2011,9 +2011,9 @@
   },
   "ALB-0249": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-05T20:24:26.111Z",
+    "_at": "2026-08-05T20:38:22.618Z",
     "teacher": "Diane McNaught",
-    "references": ""
+    "references": "Circulation. (2023). 2023 ACC/AHA/ACCP/HRS Guideline for the Diagnosis and Management of Atrial Fibrillation. https://www.ahajournals.org/doi/10.1161/CIR.0000000000001193\n\nMayo Clinic Proceedings. (2021). Antiarrhythmic Drugs for Atrial Fibrillation in the Outpatient Setting: Common Clinical Scenarios and Pearls for the Primary Care Clinician. https://doi.org/10.1016/j.mayocp.2021.01.010\n\nCleveland Clinic. (2025). Atrial Fibrillation (AFib): Symptoms & Treatment. https://my.clevelandclinic.org/health/diseases/16765-atrial-fibrillation-afib"
   },
   "ALB-0250": {
     "peer_reviewer": "Diane McNaught",
@@ -2977,13 +2977,14 @@
   },
   "ALB-0252": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-03T18:12:00.440Z",
-    "references": "",
+    "_at": "2026-08-05T20:40:23.337Z",
+    "references": "Centers for Disease Control and Prevention. (2024). Treatment and Intervention for Stroke. https://www.cdc.gov/stroke/treatment/index.html\n\nMayo Clinic. (2026). Stroke rehabilitation: What to expect as you recover. https://www.mayoclinic.org/diseases-conditions/stroke/in-depth/stroke-rehabilitation/art-20045172\n\nCochrane Database of Systematic Reviews. (2025). Physical rehabilitation approaches for the recovery of function and mobility following stroke. https://pmc.ncbi.nlm.nih.gov/articles/PMC11812092/",
     "teacher": "Marlee Alanis"
   },
   "INF-0223": {
     "author": "Dr. Joe Feuerstein",
-    "_at": "2026-07-22T17:33:31.865Z"
+    "_at": "2026-08-06T12:34:44.129Z",
+    "type": "Video"
   },
   "INF-0239": {
     "author": "Dr. Joe Feuerstein",
@@ -25630,13 +25631,13 @@
     "date_revised": "5/5/2026"
   },
   "ART-0037": {
-    "author": "Mar",
-    "_at": "2026-08-04T14:59:49.926Z",
+    "author": "Marlee Alanis",
+    "_at": "2026-08-06T01:50:11.834Z",
     "author_creds": "Exercise Physiologist"
   },
   "ART-0055": {
-    "author": "Hop",
-    "_at": "2026-08-04T15:02:23.508Z",
+    "author": "Hope Zimmerman",
+    "_at": "2026-08-06T04:36:40.581Z",
     "author_creds": "Health Studies Contributor"
   },
   "ILB-0003": {
@@ -25745,7 +25746,8 @@
   },
   "INF-0182": {
     "title": "Hormonal Changes Explained: Why You Might Feel Emotional",
-    "_at": "2026-08-04T20:15:47.484Z"
+    "_at": "2026-08-06T13:14:53.720Z",
+    "author": "Diane McNaught"
   },
   "VID-0413": {
     "author": "Hafsa Benzzi",
@@ -26035,5 +26037,535 @@
     "author": "Marlee Alanis",
     "_at": "2026-08-05T17:10:06.945Z",
     "date_created": "10/18/2023"
+  },
+  "ILB-0007": {
+    "references": "Alcohol Research: Current Reviews (NIAAA). (2022). Alcohol's Negative Emotional Side: The Role of Stress Neurobiology in Alcohol Use Disorder. https://arcr.niaaa.nih.gov/volume/42/1/alcohols-negative-emotional-side-role-stress-neurobiology-alcohol-use-disorder\n\nAddictive Behaviors. (2021). Difficulties regulating positive and negative emotions in relation to coping motives for alcohol use and alcohol problems among hazardous drinkers. https://pmc.ncbi.nlm.nih.gov/articles/PMC7855499/\n\nDrugs: Education, Prevention and Policy. (2023). Drinking to cope as a mediator of the relationship between stress and alcohol outcomes. https://doi.org/10.1080/09687637.2023.2236291",
+    "_at": "2026-08-05T20:46:24.410Z"
+  },
+  "ILB-0021": {
+    "references": "Michigan Medicine (University of Michigan). (2021). Feeling anxious? Try this breathing technique. https://www.michiganmedicine.org/health-lab/feeling-anxious-try-breathing-technique\n\nCleveland Clinic. (2024). Grounding Techniques to Reduce Anxiety with Melissa Young, MD. https://my.clevelandclinic.org/podcasts/health-essentials/grounding-techniques-to-reduce-anxiety-with-melissa-young\n\nFrontiers in Psychology. (2024). A systematic review of brief respiratory, embodiment, cognitive, and mindfulness interventions to reduce state anxiety. https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2024.1412928/full",
+    "_at": "2026-08-05T20:50:56.025Z"
+  },
+  "ILB-0023": {
+    "references": "Cell Reports Medicine. (2023). Brief structured respiration practices enhance mood and reduce physiological arousal. https://doi.org/10.1016/j.xcrm.2022.100895\n\nCleveland Clinic. (2022). Everything You Need To Know About Progressive Muscle Relaxation. https://health.clevelandclinic.org/progressive-muscle-relaxation-pmr\n\nMayo Clinic. (2024). Relaxation techniques: Try these steps to lower stress. https://www.mayoclinic.org/healthy-lifestyle/stress-management/in-depth/relaxation-technique/art-20045368",
+    "_at": "2026-08-05T20:54:05.260Z"
+  },
+  "ILB-0025": {
+    "references": "Psychological Medicine. (2025). Efficacy of cognitive behavioral therapy in treating repetitive negative thinking, rumination, and worry – a transdiagnostic meta-analysis. https://pmc.ncbi.nlm.nih.gov/articles/PMC12017360/\n\nFrontiers in Psychology. (2024). A systematic review of the effects of rumination-focused cognitive behavioral therapy in reducing depressive symptoms. https://pmc.ncbi.nlm.nih.gov/articles/PMC11649405/\n\nCleveland Clinic. (2025). Stop Your Negative Thoughts With These Strategies. https://health.clevelandclinic.org/turn-around-negative-thinking",
+    "_at": "2026-08-05T20:58:21.261Z"
+  },
+  "ILB-0027": {
+    "references": "Frontiers in Psychology. (2022). Savoring Interventions Increase Positive Emotions After a Social-Evaluative Hassle. https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2022.791040/full\n\nCleveland Clinic. (2026). 9 Strategies To Stop Procrastinating. https://health.clevelandclinic.org/how-to-stop-procrastinating\n\nHarvard Health Publishing. (2021). Long-lasting healthy changes: Doable and worthwhile. https://www.health.harvard.edu/blog/long-lasting-healthy-changes-doable-and-worthwhile-202109142594",
+    "_at": "2026-08-05T21:01:19.462Z"
+  },
+  "ILB-0029": {
+    "references": "Cleveland Clinic. (2026). Cognitive Behavioral Therapy (CBT): What It Is & What It Treats. https://my.clevelandclinic.org/health/treatments/21208-cognitive-behavioral-therapy-cbt\n\nMayo Clinic. (2025). Cognitive behavioral therapy. https://www.mayoclinic.org/tests-procedures/cognitive-behavioral-therapy/about/pac-20384610\n\nFrontiers in Psychology. (2022). Appraisal Bias and Emotion Dispositions Are Risk Factors for Depression and Generalized Anxiety: Empirical Evidence. https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2022.857419/full",
+    "_at": "2026-08-05T21:04:52.518Z"
+  },
+  "ILB-0031": {
+    "references": "Mayo Clinic. (2023). Job burnout: How to spot it and take action. https://www.mayoclinic.org/healthy-lifestyle/adult-health/in-depth/burnout/art-20046642\n\nCleveland Clinic. (2026). Signs of Burnout: What It Is, How It Feels and How To Recover. https://health.clevelandclinic.org/signs-of-burnout\n\nFrontiers in Psychology. (2021). Bio-Psycho-Socio-Spirito-Cultural Factors of Burnout: A Systematic Narrative Review of the Literature. https://doi.org/10.3389/fpsyg.2021.722862",
+    "_at": "2026-08-05T21:08:36.033Z"
+  },
+  "ILB-0033": {
+    "references": "Mayo Clinic. (2026). Chronic stress puts your health at risk. https://www.mayoclinic.org/healthy-lifestyle/stress-management/in-depth/stress/art-20046037\n\nHarvard Health Publishing. (2024). Understanding the stress response. https://www.health.harvard.edu/healthy-aging-and-longevity/understanding-the-stress-response\n\nFrontiers in Endocrinology. (2023). Understanding the relationships between physiological and psychosocial stress, cortisol and cognition. https://www.frontiersin.org/journals/endocrinology/articles/10.3389/fendo.2023.1085950/full",
+    "_at": "2026-08-05T21:13:26.289Z"
+  },
+  "ILB-0489": {
+    "references": "International Journal of Mental Health Promotion. (2022). Applying SMART Goal Intervention Leads to Greater Goal Attainment, Need Satisfaction and Positive Affect. https://www.techscience.com/IJMHP/v24n6/49942/html\n\nNational Institute of Mental Health. (2026). Caring for Your Mental Health. https://www.nimh.nih.gov/health/topics/caring-for-your-mental-health\n\nMayo Clinic Health System. (2022). Setting SMART goals for success. https://www.mayoclinichealthsystem.org/hometown-health/speaking-of-health/setting-smart-goals",
+    "_at": "2026-08-05T21:24:44.795Z"
+  },
+  "ILB-0053": {
+    "references": "American Lung Association. (2024). Asthma and Exercise. https://www.lung.org/lung-health-diseases/lung-disease-lookup/asthma/managing-asthma/asthma-and-exercise\n\nMayo Clinic. (2025). Exercise-induced asthma: Diagnosis & treatment. https://www.mayoclinic.org/diseases-conditions/exercise-induced-asthma/diagnosis-treatment/drc-20372306\n\nThe Journal of Allergy and Clinical Immunology: In Practice. (2022). Recommendations for Physical Activity in Asthma: A Work Group Report of the AAAAI Sports, Exercise, and Fitness Committee. https://doi.org/10.1016/j.jaip.2021.10.056",
+    "_at": "2026-08-05T21:29:00.312Z"
+  },
+  "ILB-0088": {
+    "references": "NASA. (2024). Evidence – NASA Science. https://science.nasa.gov/climate-change/evidence/\n\nNOAA Climate.gov. (2025). Climate change: global temperature. https://www.climate.gov/news-features/understanding-climate/climate-change-global-temperature\n\nIPCC. (2021). Climate Change 2021: The Physical Science Basis (Sixth Assessment Report, Working Group I). https://www.ipcc.ch/assessment-report/ar6/",
+    "_at": "2026-08-05T21:33:47.819Z"
+  },
+  "ILB-0098": {
+    "references": "Consumer Financial Protection Bureau. (2025). An essential guide to building an emergency fund. https://www.consumerfinance.gov/an-essential-guide-to-building-an-emergency-fund/\n\nFederal Trade Commission. (2023). Credit Scores. https://consumer.ftc.gov/articles/credit-scores\n\nFederal Deposit Insurance Corporation. (2025). Saving for the Unexpected and Your Future. https://www.fdic.gov/consumer-resource-center/2025-01/saving-unexpected-and-your-future",
+    "_at": "2026-08-05T21:37:36.235Z"
+  },
+  "ILB-0102": {
+    "references": "Cleveland Clinic. (2023). Heart Rate Reserve: How to Calculate It & What It Means. https://my.clevelandclinic.org/health/articles/24649-heart-rate-reserve\n\nMayo Clinic. (2023). Exercise intensity: How to measure it. https://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/exercise-intensity/art-20046887\n\nMedicine & Science in Sports & Exercise. (2023). Ventilatory Threshold Related to V̇O2reserve, Heart Rate Reserve, and Rating of Perceived Exertion in a Large Varied Sample. https://pmc.ncbi.nlm.nih.gov/articles/PMC10524184/",
+    "_at": "2026-08-05T21:41:06.015Z"
+  },
+  "ILB-0104": {
+    "references": "International Journal of Environmental Research and Public Health. (2022). Re-Visiting Maximal Heart Rate Prediction Using Cross-Validation in Population Aged 7–55 Years. https://pmc.ncbi.nlm.nih.gov/articles/PMC9320369/\n\nJohns Hopkins Medicine. (2025). Understanding Your Target Heart Rate. https://www.hopkinsmedicine.org/health/wellness-and-prevention/understanding-your-target-heart-rate\n\nHarvard Health. (2026). Understanding exercise heart rate zones. https://www.health.harvard.edu/exercise-and-fitness/understanding-exercise-heart-rate-zones",
+    "_at": "2026-08-05T21:43:33.718Z"
+  },
+  "ILB-0106": {
+    "references": "Harvard Health Publishing. (2023). All about your heart rate. https://www.health.harvard.edu/heart-health/all-about-your-heart-rate\n\nCleveland Clinic. (2026). Pulse: What It Is and How To Take It. https://my.clevelandclinic.org/health/articles/23918-how-to-take-your-pulse\n\nClinical Cardiology. (2022). Association between heart rate and cardiovascular death in patients with coronary heart disease: A NHANES-based cohort study. https://doi.org/10.1002/clc.23818",
+    "_at": "2026-08-05T21:46:30.492Z"
+  },
+  "EXT-0409": {
+    "category": "Fitness",
+    "_at": "2026-08-05T22:58:45.906Z",
+    "author": "Tzahi Moskovitz",
+    "type": "Video"
+  },
+  "INF-0028": {
+    "author": "Emily Wilson",
+    "_at": "2026-08-06T01:48:19.370Z",
+    "date_created": "4/30/2026"
+  },
+  "INF-0029": {
+    "author": "Emily Wilson",
+    "_at": "2026-08-06T01:49:00.518Z",
+    "date_created": "4/30/20206"
+  },
+  "INF-0030": {
+    "author": "Jade Gordon",
+    "_at": "2026-08-06T04:25:52.117Z",
+    "date_created": "4/29/2026"
+  },
+  "INF-0031": {
+    "author": "Jade Gordon",
+    "_at": "2026-08-06T04:28:25.974Z",
+    "date_created": "4/30/2026"
+  },
+  "INF-0032": {
+    "author": "Jade Gordon",
+    "_at": "2026-08-06T04:34:44.673Z",
+    "date_created": "4/30/2026"
+  },
+  "INF-0033": {
+    "author": "Emily Wilson",
+    "_at": "2026-08-06T04:36:18.320Z",
+    "date_created": "4/30/2026"
+  },
+  "INF-0034": {
+    "author": "Jade Gordon",
+    "_at": "2026-08-06T04:38:12.130Z",
+    "date_created": "4/30/2026"
+  },
+  "INF-0035": {
+    "author": "Jade Gordon",
+    "_at": "2026-08-06T04:44:27.276Z",
+    "date_created": "4/30/2026"
+  },
+  "INF-0036": {
+    "author": "Emily Wilson",
+    "_at": "2026-08-06T05:51:03.850Z",
+    "date_created": "4/30/2026"
+  },
+  "INF-0037": {
+    "title": "Common Precancerous Conditions and How They Are Detected",
+    "_at": "2026-08-06T05:52:16.168Z",
+    "author": "Jade Gordon",
+    "date_created": "4/30/2026"
+  },
+  "INF-0038": {
+    "author": "Emily Wilson",
+    "_at": "2026-08-06T05:53:01.843Z",
+    "date_created": "4/30/2026"
+  },
+  "INF-0039": {
+    "author": "Emily Wilson",
+    "_at": "2026-08-06T05:54:06.217Z",
+    "date_created": "4/30/2026"
+  },
+  "INF-0040": {
+    "author": "Jade Gordon",
+    "_at": "2026-08-06T06:07:58.012Z",
+    "date_created": "4/29/2026"
+  },
+  "VID-0264": {
+    "author": "Kaitlyn Bruneau",
+    "_at": "2026-08-06T06:08:58.010Z"
+  },
+  "VID-0257": {
+    "author": "Linda Johnson",
+    "_at": "2026-08-06T06:09:20.410Z"
+  },
+  "INF-0251": {
+    "author": "Emily Wilson",
+    "_at": "2026-08-06T12:04:17.158Z"
+  },
+  "INF-0250": {
+    "author": "Emily Wilson",
+    "_at": "2026-08-06T12:09:21.960Z"
+  },
+  "INF-0249": {
+    "author": "Emily Wilson",
+    "_at": "2026-08-06T12:09:39.094Z"
+  },
+  "INF-0248": {
+    "author": "Emily Wilson",
+    "_at": "2026-08-06T12:09:57.342Z"
+  },
+  "INF-0247": {
+    "author": "Emily Wilson",
+    "_at": "2026-08-06T12:10:22.761Z"
+  },
+  "INF-0246": {
+    "author": "Diane McNaught",
+    "_at": "2026-08-06T12:10:42.477Z"
+  },
+  "INF-0245": {
+    "author": "Diane McNaught",
+    "_at": "2026-08-06T12:15:56.059Z"
+  },
+  "INF-0244": {
+    "author": "Diane McNaught",
+    "_at": "2026-08-06T12:16:15.227Z"
+  },
+  "INF-0243": {
+    "author": "Diane McNaught",
+    "_at": "2026-08-06T12:22:40.228Z"
+  },
+  "INF-0242": {
+    "author": "Diane McNaught",
+    "_at": "2026-08-06T12:25:29.579Z"
+  },
+  "INF-0241": {
+    "author": "Diane McNaught",
+    "_at": "2026-08-06T12:25:54.378Z"
+  },
+  "INF-0240": {
+    "title": "Heart Disease Risk Factors & Prevention",
+    "_at": "2026-08-06T12:26:11.496Z",
+    "author": "Diane McNaught"
+  },
+  "INF-0238": {
+    "author": "Diane McNaught",
+    "_at": "2026-08-06T12:26:28.663Z"
+  },
+  "INF-0237": {
+    "author": "Emily Wilson",
+    "_at": "2026-08-06T12:29:14.796Z"
+  },
+  "INF-0236": {
+    "author": "Diane McNaught",
+    "_at": "2026-08-06T12:29:30.979Z"
+  },
+  "INF-0235": {
+    "author": "Diane McNaught",
+    "_at": "2026-08-06T12:29:50.296Z"
+  },
+  "INF-0234": {
+    "author": "Diane McNaught",
+    "_at": "2026-08-06T12:30:13.262Z"
+  },
+  "INF-0233": {
+    "author": "Diane McNaught",
+    "_at": "2026-08-06T12:34:09.151Z"
+  },
+  "INF-0232": {
+    "author": "Diane McNaught",
+    "_at": "2026-08-06T12:35:04.033Z"
+  },
+  "INF-0231": {
+    "author": "Emily Wilson",
+    "_at": "2026-08-06T12:35:24.816Z"
+  },
+  "INF-0230": {
+    "author": "Diane McNaught",
+    "_at": "2026-08-06T12:35:30.932Z"
+  },
+  "INF-0229": {
+    "author": "Diane McNaught",
+    "_at": "2026-08-06T12:35:51.233Z"
+  },
+  "INF-0228": {
+    "author": "Diane McNaught",
+    "_at": "2026-08-06T12:36:04.050Z"
+  },
+  "INF-0227": {
+    "author": "Jade Gordon",
+    "_at": "2026-08-06T12:36:24.298Z"
+  },
+  "INF-0226": {
+    "author": "Diane McNaught",
+    "_at": "2026-08-06T12:37:09.998Z"
+  },
+  "INF-0225": {
+    "author": "Diane McNaught",
+    "_at": "2026-08-06T12:37:22.615Z"
+  },
+  "INF-0224": {
+    "author": "Diane McNaught",
+    "_at": "2026-08-06T12:45:58.360Z"
+  },
+  "INF-0222": {
+    "author": "Emily Wilson",
+    "_at": "2026-08-06T12:46:15.344Z"
+  },
+  "INF-0221": {
+    "author": "Diane McNaught",
+    "_at": "2026-08-06T12:46:32.643Z"
+  },
+  "INF-0220": {
+    "author": "Diane McNaught",
+    "_at": "2026-08-06T12:46:46.661Z"
+  },
+  "INF-0219": {
+    "author": "Diane McNaught",
+    "_at": "2026-08-06T12:47:00.960Z"
+  },
+  "INF-0218": {
+    "author": "Jade Gordon",
+    "_at": "2026-08-06T12:47:16.494Z"
+  },
+  "INF-0217": {
+    "author": "Diane McNaught",
+    "_at": "2026-08-06T12:47:30.076Z"
+  },
+  "INF-0216": {
+    "peer_reviewer": "",
+    "_at": "2026-08-06T12:47:45.825Z",
+    "author": "Diane McNaught"
+  },
+  "INF-0215": {
+    "author": "Diane McNaught",
+    "_at": "2026-08-06T12:48:03.959Z"
+  },
+  "INF-0214": {
+    "author": "Diane McNaught",
+    "_at": "2026-08-06T12:48:16.993Z"
+  },
+  "INF-0213": {
+    "author": "Diane McNaught",
+    "_at": "2026-08-06T12:48:34.093Z"
+  },
+  "INF-0212": {
+    "author": "Diane McNaught",
+    "_at": "2026-08-06T13:05:45.893Z"
+  },
+  "INF-0211": {
+    "author": "Emily Wilson",
+    "_at": "2026-08-06T13:05:59.125Z"
+  },
+  "INF-0210": {
+    "author": "Jade Gordon",
+    "_at": "2026-08-06T13:06:11.260Z"
+  },
+  "INF-0209": {
+    "author": "Jade Gordon",
+    "_at": "2026-08-06T13:06:24.260Z"
+  },
+  "INF-0208": {
+    "author": "Jade Gordon",
+    "_at": "2026-08-06T13:06:38.009Z"
+  },
+  "INF-0207": {
+    "author": "Jade Gordon",
+    "_at": "2026-08-06T13:06:50.592Z"
+  },
+  "INF-0206": {
+    "peer_reviewer": "Jade Gordon",
+    "_at": "2026-08-06T13:09:12.653Z"
+  },
+  "INF-0205": {
+    "title": "Traveling With CPAP Equipment",
+    "_at": "2026-08-06T13:09:33.519Z",
+    "author": "Jade Gordon"
+  },
+  "INF-0204": {
+    "author": "Jade Gordon",
+    "_at": "2026-08-06T13:09:47.188Z"
+  },
+  "INF-0203": {
+    "author": "Jade Gordon",
+    "_at": "2026-08-06T13:10:00.952Z"
+  },
+  "INF-0202": {
+    "author": "Jade Gordon",
+    "_at": "2026-08-06T13:10:15.321Z"
+  },
+  "INF-0201": {
+    "author": "Diane McNaught",
+    "_at": "2026-08-06T13:10:30.737Z"
+  },
+  "INF-0200": {
+    "author": "Emily Wilson",
+    "_at": "2026-08-06T13:11:11.770Z"
+  },
+  "INF-0199": {
+    "author": "Emily Wilson",
+    "_at": "2026-08-06T13:11:26.186Z"
+  },
+  "INF-0198": {
+    "author": "Emily Wilson",
+    "_at": "2026-08-06T13:11:39.903Z"
+  },
+  "INF-0197": {
+    "author": "Emily Wilson",
+    "_at": "2026-08-06T13:11:56.603Z"
+  },
+  "INF-0196": {
+    "author": "Emily Wilson",
+    "_at": "2026-08-06T13:12:10.854Z"
+  },
+  "INF-0195": {
+    "author": "Emily Wilson",
+    "_at": "2026-08-06T13:12:33.787Z"
+  },
+  "INF-0194": {
+    "author": "Emily Wilson",
+    "_at": "2026-08-06T13:12:49.970Z"
+  },
+  "INF-0193": {
+    "author": "Emily Wilson",
+    "_at": "2026-08-06T13:13:03.036Z"
+  },
+  "INF-0192": {
+    "author": "Emily Wilson",
+    "_at": "2026-08-06T13:13:14.987Z"
+  },
+  "INF-0191": {
+    "author": "Emily Wilson",
+    "_at": "2026-08-06T13:13:26.186Z"
+  },
+  "INF-0190": {
+    "author": "Emily Wilson",
+    "_at": "2026-08-06T13:13:40.201Z"
+  },
+  "INF-0189": {
+    "author": "Emily Wilson",
+    "_at": "2026-08-06T13:13:52.386Z"
+  },
+  "INF-0188": {
+    "author": "Emily Wilson",
+    "_at": "2026-08-06T13:14:05.603Z"
+  },
+  "INF-0187": {
+    "author": "Diane McNaught",
+    "_at": "2026-08-06T13:14:18.519Z"
+  },
+  "INF-0186": {
+    "author": "Diane McNaught",
+    "_at": "2026-08-06T13:14:30.136Z"
+  },
+  "INF-0181": {
+    "author": "Diane McNaught",
+    "_at": "2026-08-06T13:15:06.153Z"
+  },
+  "INF-0180": {
+    "author": "Diane McNaught",
+    "_at": "2026-08-06T13:15:17.503Z"
+  },
+  "INF-0179": {
+    "title": "How To Choose The Best Before & After-School Program",
+    "_at": "2026-08-06T13:15:34.836Z",
+    "author": "Diane McNaught"
+  },
+  "INF-0178": {
+    "author": "Diane McNaught",
+    "_at": "2026-08-06T13:15:49.619Z"
+  },
+  "INF-0177": {
+    "author": "Diane McNaught",
+    "_at": "2026-08-06T13:16:04.937Z"
+  },
+  "INF-0176": {
+    "author": "Diane McNaught",
+    "_at": "2026-08-06T13:16:16.235Z"
+  },
+  "INF-0175": {
+    "author": "Diane McNaught",
+    "_at": "2026-08-06T13:16:33.019Z"
+  },
+  "INF-0174": {
+    "author": "Diane McNaught",
+    "_at": "2026-08-06T13:16:45.119Z"
+  },
+  "INF-0173": {
+    "author": "Diane McNaught",
+    "_at": "2026-08-06T13:16:58.002Z"
+  },
+  "INF-0172": {
+    "author": "Emily Wilson",
+    "_at": "2026-08-06T13:17:11.169Z"
+  },
+  "INF-0171": {
+    "author": "Emily Wilson",
+    "_at": "2026-08-06T13:17:24.301Z"
+  },
+  "INF-0170": {
+    "author": "Diane McNaught",
+    "_at": "2026-08-06T13:17:36.935Z"
+  },
+  "INF-0169": {
+    "author": "Emily Wilson",
+    "_at": "2026-08-06T13:17:49.469Z"
+  },
+  "INF-0168": {
+    "author": "Emily Wilson",
+    "_at": "2026-08-06T13:18:17.353Z"
+  },
+  "INF-0167": {
+    "author": "Diane McNaught",
+    "_at": "2026-08-06T13:18:30.835Z"
+  },
+  "INF-0166": {
+    "author": "Emily Wilson",
+    "_at": "2026-08-06T13:18:44.134Z"
+  },
+  "INF-0165": {
+    "author": "Emily Wilson",
+    "_at": "2026-08-06T13:18:56.239Z"
+  },
+  "INF-0164": {
+    "author": "Emily Wilson",
+    "_at": "2026-08-06T13:19:10.769Z"
+  },
+  "INF-0163": {
+    "title": "Creating a Support System for Long-Term Diabetes Management",
+    "_at": "2026-08-06T13:19:26.334Z",
+    "author": "Emily Wilson"
+  },
+  "INF-0162": {
+    "author": "Emily Wilson",
+    "_at": "2026-08-06T13:23:25.917Z"
+  },
+  "INF-0161": {
+    "author": "Emily Wilson",
+    "_at": "2026-08-06T13:23:37.100Z"
+  },
+  "INF-0160": {
+    "author": "Jade Gordon",
+    "_at": "2026-08-06T13:23:49.000Z"
+  },
+  "INF-0159": {
+    "author": "Jade Gordon",
+    "_at": "2026-08-06T13:24:00.033Z"
+  },
+  "INF-0158": {
+    "author": "Jade Gordon",
+    "_at": "2026-08-06T13:24:20.668Z"
+  },
+  "INF-0157": {
+    "author": "Jade Gordon",
+    "_at": "2026-08-06T13:24:31.901Z"
+  },
+  "INF-0156": {
+    "author": "Jade Gordon",
+    "_at": "2026-08-06T13:24:42.533Z"
+  },
+  "INF-0155": {
+    "author": "Jade Gordon",
+    "_at": "2026-08-06T13:25:00.166Z"
+  },
+  "INF-0154": {
+    "type": "Infographic",
+    "_at": "2026-08-06T13:26:18.845Z",
+    "author": "Jade Gordon"
+  },
+  "INF-0153": {
+    "author": "Jade Gordon",
+    "_at": "2026-08-06T13:26:09.750Z"
+  },
+  "INF-0152": {
+    "author": "Jade Gordon",
+    "_at": "2026-08-06T13:27:17.717Z"
+  },
+  "INF-0151": {
+    "author": "Emily Wilson",
+    "_at": "2026-08-06T13:27:39.398Z"
+  },
+  "INF-0150": {
+    "author": "Emily Wilson",
+    "_at": "2026-08-06T13:27:50.448Z"
   }
 }

@@ -16275,5 +16275,53 @@
     ],
     "_addedAt": "2026-08-05T19:38:18.916Z",
     "_addedBy": "Zena Test"
+  },
+  {
+    "id": "EXT-1128",
+    "title": "COPD Early Warning Signs To Watch For",
+    "type": "Article Library",
+    "language": "English",
+    "category": "COPD",
+    "teacher": "",
+    "duration": "",
+    "client_licenses": [],
+    "_addedAt": "2026-08-06T13:17:00.549Z",
+    "_addedBy": "Dashboard"
+  },
+  {
+    "id": "EXT-1129",
+    "title": "Emotional Awareness: Drinking to Cope vs. Drinking for Enjoyment* (Filmed as Rethinking The Relaxing Drink)",
+    "type": "Video Library",
+    "language": "English",
+    "category": "Alcohol Use",
+    "teacher": "",
+    "duration": "",
+    "client_licenses": [],
+    "_addedAt": "2026-08-06T13:17:00.549Z",
+    "_addedBy": "Dashboard"
+  },
+  {
+    "id": "EXT-1130",
+    "title": "What Size Is Your “Leader-ship?",
+    "type": "Video Library",
+    "language": "English",
+    "category": "General",
+    "teacher": "",
+    "duration": "",
+    "client_licenses": [],
+    "_addedAt": "2026-08-06T13:17:00.549Z",
+    "_addedBy": "Dashboard"
+  },
+  {
+    "id": "EXT-1131",
+    "title": "Overcoming Societal Pressure To “Man Up",
+    "type": "Video Library",
+    "language": "English",
+    "category": "General",
+    "teacher": "",
+    "duration": "",
+    "client_licenses": [],
+    "_addedAt": "2026-08-06T13:17:00.549Z",
+    "_addedBy": "Dashboard"
   }
 ]
