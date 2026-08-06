@@ -119,16 +119,23 @@ def vtt_to_text(vtt):
     return ' '.join(deduped)
 
 def load_dashboard_items():
-    """Return list of (item_id, title) for all dashboard items."""
+    """Return list of (item_id, title) for all dashboard items, including
+    items added later through the dashboard's Import tool (extra_content.json)."""
     data_path = os.path.join(SCRIPT_DIR, 'data.json')
     with open(data_path) as f:
         data = json.load(f)
+    all_items = [item for section_items in data.values() for item in section_items]
+
+    extra_path = os.path.join(SCRIPT_DIR, 'extra_content.json')
+    if os.path.exists(extra_path):
+        with open(extra_path) as f:
+            all_items.extend(json.load(f))
+
     items = []
-    for section_items in data.values():
-        for item in section_items:
-            title = item.get('title', '')
-            if title:
-                items.append((item['id'], title))
+    for item in all_items:
+        title = item.get('title', '')
+        if title:
+            items.append((item['id'], title))
     return items
 
 def main():
