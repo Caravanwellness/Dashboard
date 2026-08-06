@@ -883,15 +883,16 @@ async function loadLicenses() {
   } catch(e) {}
 }
 
-async function _flushLicense(id, value) {
-  const updates = { [id]: value };
-  const sha = _licensesSha;
-  _licensesSha = null;
+async function _flushLicense(id, added, removed) {
+  const body = { message: `License update: ${id}` };
+  if (added && added.length)   body.add    = { [id]: added };
+  if (removed && removed.length) body.remove = { [id]: removed };
+  if (!body.add && !body.remove) return;
   try {
     const r = await fetch('/api/save-licenses', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json', ...authHeader() },
-      body: JSON.stringify({ updates, message: `License update: ${id}` }),
+      body: JSON.stringify(body),
     });
     if (r.ok) {
       const d = await r.json();
@@ -1386,14 +1387,15 @@ async function handleImportFile(file) {
         const key = rawTitle.toLowerCase().trim();
 
         if (existing) {
-          // Tag existing item with client license
+          // Tag existing item with client license. Queue just the client being
+          // added here, not a precomputed full array — the server merges each
+          // addition against fresh data at write time, so this stays correct
+          // even when the same item gets tagged by multiple clients in this
+          // batch, or by someone else concurrently.
           if (rowClient) {
             const curLics = gE(existing.id, 'licenses', existing.client_licenses || []);
             if (!curLics.includes(rowClient)) {
-              const merged = [...curLics, rowClient];
-              if (!edits[existing.id]) edits[existing.id] = {};
-              edits[existing.id]['licenses'] = merged;
-              updates.push({ id: existing.id, field: 'licenses', value: merged });
+              updates.push({ id: existing.id, field: 'licenses', value: rowClient });
             }
           }
 
@@ -1483,23 +1485,26 @@ async function confirmImport() {
   statusEl.textContent = 'Saving…';
 
   try {
-    // Build license updates map: { [itemId]: [clients] }
-    const licenseUpdates = {};
+    // Build a per-item list of clients to ADD — never a precomputed full array,
+    // so this can't clobber tags someone else added concurrently.
+    const licenseAdds = {};
     const fieldUpdates = []; // non-license field changes, e.g. category/duration/reviewer/references
     for (const u of updates) {
       if (u.field === 'licenses') {
-        _licenses[u.id] = u.value; // update in-memory immediately
-        licenseUpdates[u.id] = u.value;
+        const cur = _licenses[u.id] || [];
+        if (!cur.includes(u.value)) _licenses[u.id] = [...cur, u.value]; // optimistic in-memory update
+        if (!licenseAdds[u.id]) licenseAdds[u.id] = [];
+        if (!licenseAdds[u.id].includes(u.value)) licenseAdds[u.id].push(u.value);
       } else {
         fieldUpdates.push({ id: u.id, field: u.field, value: u.value });
       }
     }
 
     const results = await Promise.all([
-      Object.keys(licenseUpdates).length ? fetch('/api/save-licenses', {
+      Object.keys(licenseAdds).length ? fetch('/api/save-licenses', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', ...authHeader() },
-        body: JSON.stringify({ updates: licenseUpdates, message: `Import: tag ${Object.keys(licenseUpdates).length} items` }),
+        body: JSON.stringify({ add: licenseAdds, message: `Import: tag ${Object.keys(licenseAdds).length} items` }),
       }).then(r => r.json()) : Promise.resolve({ ok: true }),
 
       newItems.length ? fetch('/api/save-content', {
@@ -1528,12 +1533,12 @@ async function confirmImport() {
 
     // Register new client names
     const allClients = [...new Set([
-      ...Object.values(licenseUpdates).flat(),
+      ...Object.values(licenseAdds).flat(),
       ...newItems.flatMap(i => i.client_licenses),
     ])].filter(c => c && !clients.includes(c));
     if (allClients.length) { clients.push(...allClients); saveC(); }
 
-    const taggedCount = Object.keys(licenseUpdates).length;
+    const taggedCount = Object.keys(licenseAdds).length;
     const updatedCount = new Set(fieldUpdates.map(u=>u.id)).size;
     const addedCount  = results[1].added || 0;
     statusEl.textContent = `✓ ${taggedCount ? taggedCount+' items tagged' : ''}${taggedCount && (updatedCount||addedCount) ? ' · ' : ''}${updatedCount ? updatedCount+' items updated' : ''}${updatedCount && addedCount ? ' · ' : ''}${addedCount ? addedCount+' new items added' : ''}`;
@@ -1566,8 +1571,11 @@ function gE(id, f, def) {
 }
 function sE(id, f, v)   {
   if (f === 'licenses') {
+    const old = _licenses[id] || [];
+    const added   = v.filter(c => !old.includes(c));
+    const removed = old.filter(c => !v.includes(c));
     _licenses[id] = v;
-    _flushLicense(id, v);
+    _flushLicense(id, added, removed);
     return;
   }
   const key = id + '|' + f;
@@ -2933,8 +2941,10 @@ function renderClientDetail(name) {
     saveC();
     saveCM();
 
-    // Rename in _licenses store and in extra_content item.client_licenses
-    const licenseUpdates = {};
+    // Update _licenses in memory for immediate UI feedback. The server performs
+    // the authoritative rename against freshly-read data (not this computed
+    // snapshot), so tags added by someone else in the meantime aren't lost.
+    let anyRenamed = false;
     ALL.forEach(item => {
       const cur = gE(item.id, 'licenses', item.client_licenses || []);
       const li = cur.indexOf(name);
@@ -2943,14 +2953,14 @@ function renderClientDetail(name) {
       updated[li] = newName;
       _licenses[item.id] = updated;
       item.client_licenses = item.client_licenses?.map(c => c === name ? newName : c);
-      licenseUpdates[item.id] = updated;
+      anyRenamed = true;
     });
 
-    if (Object.keys(licenseUpdates).length) {
+    if (anyRenamed) {
       fetch('/api/save-licenses', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', ...authHeader() },
-        body: JSON.stringify({ updates: licenseUpdates, message: `Rename client: "${name}" → "${newName}"` }),
+        body: JSON.stringify({ rename: { from: name, to: newName }, message: `Rename client: "${name}" → "${newName}"` }),
       });
     }
 

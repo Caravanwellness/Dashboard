@@ -24,12 +24,17 @@ export default async function handler(req, res) {
     }
   }
 
-  // POST: { updates: { [itemId]: [client, ...] }, message? }
-  // Merges into existing data — a null/empty array removes the item's licenses
+  // POST: { add?: {[itemId]: [client,...]}, remove?: {[itemId]: [client,...]},
+  //         rename?: {from, to}, message? }
+  // Every op is applied as a delta against a freshly-read copy of the file, inside
+  // the retry loop — never as a client-computed full replacement. That's what
+  // makes this safe under concurrent writes: two people tagging different clients
+  // on the same item in the same moment both land, instead of the second write
+  // silently overwriting the first with a stale snapshot.
   if (req.method === 'POST') {
-    const { updates, message } = req.body || {};
-    if (!updates || typeof updates !== 'object')
-      return res.status(400).json({ error: 'updates object required' });
+    const { add, remove, rename, message } = req.body || {};
+    if (!add && !remove && !rename)
+      return res.status(400).json({ error: 'add, remove, or rename required' });
 
     for (let attempt = 0; attempt < 5; attempt++) {
       if (attempt > 0) await delay(600 + Math.random() * 400);
@@ -37,15 +42,26 @@ export default async function handler(req, res) {
         const { data, sha } = await ghReadJson(REPO, PATH, token);
         const licenses = data || {};
 
-        for (const [id, lics] of Object.entries(updates)) {
-          if (!lics || !lics.length) {
-            delete licenses[id];
-          } else {
-            licenses[id] = lics;
+        if (rename && rename.from && rename.to) {
+          for (const id of Object.keys(licenses)) {
+            const cur = licenses[id];
+            if (Array.isArray(cur) && cur.includes(rename.from)) {
+              licenses[id] = [...new Set(cur.map(c => c === rename.from ? rename.to : c))];
+            }
           }
         }
 
-        const count = Object.keys(updates).length;
+        for (const [id, clients] of Object.entries(add || {})) {
+          licenses[id] = [...new Set([...(licenses[id] || []), ...clients])];
+        }
+
+        for (const [id, clients] of Object.entries(remove || {})) {
+          const remaining = (licenses[id] || []).filter(c => !clients.includes(c));
+          if (remaining.length) licenses[id] = remaining;
+          else delete licenses[id];
+        }
+
+        const count = new Set([...Object.keys(add || {}), ...Object.keys(remove || {})]).size;
         const result = await ghWriteJson(REPO, PATH, BRANCH, licenses,
           message || `Update licenses: ${count} items`, token, sha);
         if (result) return res.json({ ok: true, count, _sha: typeof result === 'string' ? result : null });
