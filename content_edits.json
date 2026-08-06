@@ -30884,7 +30884,7 @@
   },
   "ILB-0132": {
     "type": "Infographic",
-    "_at": "2026-08-06T18:40:02.895Z",
+    "_at": "2026-08-06T18:40:01.640Z",
     "references": "National Heart, Lung, and Blood Institute. (2024). Why mental stress can take a toll on the heart. https://www.nhlbi.nih.gov/news/2024/why-mental-stress-can-take-toll-heart Centers for Disease Control and Prevention. (2024). About sleep and your heart health. https://www.cdc.gov/heart-disease/about/sleep-and-heart-health.html Centers for Disease Control and Prevention. (2026). Health benefits of physical activity for adults. https://www.cdc.gov/physical-activity-basics/health-benefits/adults.html"
   },
   "ILB-0134": {
@@ -36076,5 +36076,9 @@
   "INF-0069": {
     "references": "National Heart, Lung, and Blood Institute. (2024). Why mental stress can take a toll on the heart. https://www.nhlbi.nih.gov/news/2024/why-mental-stress-can-take-toll-heart Centers for Disease Control and Prevention. (2024). About sleep and your heart health. https://www.cdc.gov/heart-disease/about/sleep-and-heart-health.html Centers for Disease Control and Prevention. (2026). Health benefits of physical activity for adults. https://www.cdc.gov/physical-activity-basics/health-benefits/adults.html",
     "_at": "2026-08-06T18:39:53.875Z"
+  },
+  "INF-0079": {
+    "references": "Centers for Disease Control and Prevention. (2024). Physical activity basics. https://www.cdc.gov/physicalactivity/basics/index.htm Centers for Disease Control and Prevention. (2026). Preventing high blood pressure. https://www.cdc.gov/high-blood-pressure/prevention/index.html  National Heart, Lung, and Blood Institute. (2024). High blood pressure. https://www.nhlbi.nih.gov/health/high-blood-pressure",
+    "_at": "2026-08-06T18:40:49.304Z"
   }
 }
