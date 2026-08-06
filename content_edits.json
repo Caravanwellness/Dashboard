@@ -30999,7 +30999,8 @@
   },
   "ILB-0182": {
     "type": "Infographic",
-    "_at": "2026-08-06T17:13:42.451Z"
+    "_at": "2026-08-06T18:53:59.544Z",
+    "references": "Harvard T.H. Chan School of Public Health, The Nutrition Source. (2023). Healthy Eating Plate. https://nutritionsource.hsph.harvard.edu/healthy-eating-plate/\n\nMayo Clinic. (2025). Whole grains: Hearty options for a healthy diet. https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/whole-grains/art-20047826\n\nNutrients. (2023). Poultry Consumption and Human Cardiometabolic Health-Related Outcomes: A Narrative Review. https://doi.org/10.3390/nu15163550"
   },
   "ILB-0184": {
     "type": "Infographic",
@@ -36103,6 +36104,6 @@
   },
   "INF-0094": {
     "references": "Harvard T.H. Chan School of Public Health, The Nutrition Source. (2023). Healthy Eating Plate. https://nutritionsource.hsph.harvard.edu/healthy-eating-plate/\n\nMayo Clinic. (2025). Whole grains: Hearty options for a healthy diet. https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/whole-grains/art-20047826\n\nNutrients. (2023). Poultry Consumption and Human Cardiometabolic Health-Related Outcomes: A Narrative Review. https://doi.org/10.3390/nu15163550",
-    "_at": "2026-08-06T18:53:55.797Z"
+    "_at": "2026-08-06T18:53:54.685Z"
   }
 }
