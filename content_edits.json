@@ -6886,7 +6886,7 @@
   },
   "VLB-1143": {
     "teacher": "Kaitlyn Bruneau",
-    "_at": "2026-08-06T21:20:09.491Z",
+    "_at": "2026-08-06T21:20:08.360Z",
     "duration": "5 min",
     "language": "English",
     "licenses": [
@@ -28993,9 +28993,10 @@
       "Wellness360",
       "Wellsort"
     ],
-    "_at": "2026-08-06T17:24:22.202Z",
+    "_at": "2026-08-06T21:20:49.397Z",
     "vimeo_link": "https://vimeo.com/1161867021/6348941780",
-    "duration": "5 min"
+    "duration": "5 min",
+    "references": ""
   },
   "VLB-0601": {
     "licenses": [
