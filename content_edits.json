@@ -6342,7 +6342,7 @@
   },
   "VID-0031": {
     "author": "Kaitlyn Bruneau",
-    "_at": "2026-08-06T21:28:09.930Z",
+    "_at": "2026-08-06T21:28:08.669Z",
     "duration": "5 min",
     "references": ""
   },
@@ -6830,7 +6830,7 @@
   },
   "VLB-1138": {
     "author": "Kaitlyn Bruneau",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-06T21:28:16.842Z",
     "teacher": "Kaitlyn Bruneau",
     "licenses": [
       "YuLife",
@@ -6839,7 +6839,8 @@
     "vimeo_link": "https://vimeo.com/1161867431/9bc7b78b38",
     "duration": "5 min",
     "language": "English",
-    "type": "Video"
+    "type": "Video",
+    "references": ""
   },
   "VLB-1139": {
     "author": "Kaitlyn Bruneau",
@@ -16327,7 +16328,7 @@
   },
   "VID-0029": {
     "author": "Jiva Smith",
-    "_at": "2026-08-06T21:27:39.849Z",
+    "_at": "2026-08-06T21:27:38.715Z",
     "duration": "5 min",
     "references": "Cleveland Clinic. (2024). How To Ask for Help and Why It Can Be So Hard To Do. https://health.clevelandclinic.org/how-to-ask-for-help\n\nPsychological Science. (2022). Surprisingly Happy to Have Helped: Underestimating Prosociality Creates a Misplaced Barrier to Asking for Help. https://journals.sagepub.com/doi/10.1177/09567976221097615\n\nHarvard Business Review. (2023). Why It's So Hard to Ask for Help. https://hbr.org/2023/07/why-its-so-hard-to-ask-for-help"
   },
@@ -36207,9 +36208,5 @@
   "VID-0013": {
     "references": "Cleveland Clinic. (2022). Psychotherapy: What It Is, Why It Is Done & Types. https://my.clevelandclinic.org/health/treatments/23445-psychotherapy\n\nMayo Clinic. (2023). Psychotherapy. https://www.mayoclinic.org/tests-procedures/psychotherapy/about/pac-20384616\n\nWorld Psychiatry. (2022). The efficacy of psychotherapies and pharmacotherapies for mental disorders in adults: an umbrella review and meta-analytic evaluation of recent meta-analyses. https://doi.org/10.1002/wps.20941",
     "_at": "2026-08-06T21:13:59.951Z"
-  },
-  "EXT-0687": {
-    "author": "Jade",
-    "_at": "2026-08-06T21:28:02.347Z"
   }
 }
