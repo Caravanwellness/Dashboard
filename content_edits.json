@@ -6317,9 +6317,8 @@
   },
   "VID-0014": {
     "author": "Kaitlyn Bruneau",
-    "_at": "2026-08-06T21:17:29.642Z",
-    "duration": "7 min",
-    "references": "Cleveland Clinic. (2023). Panic Attacks & Panic Disorder: Causes, Symptoms & Treatment. https://my.clevelandclinic.org/health/diseases/4451-panic-attack-panic-disorder\n\nJohns Hopkins Medicine. (2021). Panic Disorder. https://www.hopkinsmedicine.org/health/conditions-and-diseases/panic-disorder\n\nScientific Reports. (2023). Effect of breathwork on stress and mental health: A meta-analysis of randomised-controlled trials. https://pmc.ncbi.nlm.nih.gov/articles/PMC9828383/"
+    "_at": "2026-08-06T17:24:22.202Z",
+    "duration": "7 min"
   },
   "VID-0016": {
     "author": "Kaitlyn Bruneau",
@@ -6342,15 +6341,13 @@
   },
   "VID-0031": {
     "author": "Kaitlyn Bruneau",
-    "_at": "2026-08-06T21:30:50.261Z",
-    "duration": "5 min",
-    "references": "Cleveland Clinic. (2022). Rejection Sensitive Dysphoria (RSD): Symptoms & Treatment. https://my.clevelandclinic.org/health/diseases/24099-rejection-sensitive-dysphoria-rsd\n\nHarvard Health Publishing. (2021). 4 ways to boost your self-compassion. https://www.health.harvard.edu/mental-health/4-ways-to-boost-your-self-compassion\n\nFrontiers in Psychology. (2022). Hurting all the way: The emotional antecedent and consequence of social rejection. https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2022.885384/full"
+    "_at": "2026-08-06T17:24:22.202Z",
+    "duration": "5 min"
   },
   "VID-0034": {
     "author": "Kaitlyn Bruneau",
-    "_at": "2026-08-06T21:36:15.294Z",
-    "duration": "6 min",
-    "references": "Cleveland Clinic. (2024). How To Be More Confident and Improve Your Self-Esteem. https://health.clevelandclinic.org/how-to-improve-self-esteem\n\nFrontiers in Psychology. (2021). Regulating Self-Image on Instagram: Links Between Social Anxiety, Instagram Contingent Self-Worth, and Content Control Behaviors. https://www.frontiersin.org/articles/10.3389/fpsyg.2021.711447/full\n\nCurrent Psychology. (2022). The role of fear of negative evaluation on the effects of self-control on affective states and life satisfaction: a moderated mediation analysis. https://link.springer.com/article/10.1007/s12144-022-04130-7"
+    "_at": "2026-08-06T17:24:22.202Z",
+    "duration": "6 min"
   },
   "VID-0262": {
     "author": "Kaitlyn Bruneau",
@@ -6831,7 +6828,7 @@
   },
   "VLB-1138": {
     "author": "Kaitlyn Bruneau",
-    "_at": "2026-08-06T21:30:39.928Z",
+    "_at": "2026-08-06T17:13:42.451Z",
     "teacher": "Kaitlyn Bruneau",
     "licenses": [
       "YuLife",
@@ -6840,12 +6837,11 @@
     "vimeo_link": "https://vimeo.com/1161867431/9bc7b78b38",
     "duration": "5 min",
     "language": "English",
-    "type": "Video",
-    "references": "Cleveland Clinic. (2022). Rejection Sensitive Dysphoria (RSD): Symptoms & Treatment. https://my.clevelandclinic.org/health/diseases/24099-rejection-sensitive-dysphoria-rsd\n\nHarvard Health Publishing. (2021). 4 ways to boost your self-compassion. https://www.health.harvard.edu/mental-health/4-ways-to-boost-your-self-compassion\n\nFrontiers in Psychology. (2022). Hurting all the way: The emotional antecedent and consequence of social rejection. https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2022.885384/full"
+    "type": "Video"
   },
   "VLB-1139": {
     "author": "Kaitlyn Bruneau",
-    "_at": "2026-08-06T21:36:27.583Z",
+    "_at": "2026-08-06T17:24:22.202Z",
     "teacher": "Kaitlyn Bruneau",
     "licenses": [
       "YuLife",
@@ -6854,8 +6850,7 @@
     "vimeo_link": "https://vimeo.com/1169566998/4f3c021db2?share=copy&fl=sv&fe=ci",
     "duration": "6 min",
     "language": "English",
-    "type": "Video",
-    "references": "Cleveland Clinic. (2024). How To Be More Confident and Improve Your Self-Esteem. https://health.clevelandclinic.org/how-to-improve-self-esteem\n\nFrontiers in Psychology. (2021). Regulating Self-Image on Instagram: Links Between Social Anxiety, Instagram Contingent Self-Worth, and Content Control Behaviors. https://www.frontiersin.org/articles/10.3389/fpsyg.2021.711447/full\n\nCurrent Psychology. (2022). The role of fear of negative evaluation on the effects of self-control on affective states and life satisfaction: a moderated mediation analysis. https://link.springer.com/article/10.1007/s12144-022-04130-7"
+    "type": "Video"
   },
   "VLB-1140": {
     "author": "Kaitlyn Bruneau",
@@ -6890,14 +6885,13 @@
   },
   "VLB-1143": {
     "teacher": "Kaitlyn Bruneau",
-    "_at": "2026-08-06T21:20:08.360Z",
+    "_at": "2026-08-06T17:13:42.451Z",
     "duration": "5 min",
     "language": "English",
     "licenses": [
       "Hapstar"
     ],
-    "type": "Video",
-    "references": "Centers for Disease Control and Prevention. (2026). About Adverse Childhood Experiences. https://www.cdc.gov/aces/about/index.html\n\nCleveland Clinic. (2025). How To Heal From Childhood Trauma. https://health.clevelandclinic.org/childhood-traumas-lasting-effects-on-mental-and-physical-health\n\nChild Abuse & Neglect. (2022). A systematic review and meta-analysis of trauma-focused cognitive behavioral therapy for children and adolescents. https://doi.org/10.1016/j.chiabu.2022.105899"
+    "type": "Video"
   },
   "VLB-1144": {
     "teacher": "Kaitlyn Bruneau",
@@ -7178,12 +7172,11 @@
   },
   "VLB-1757": {
     "author": "Kaitlyn Bruneau",
-    "_at": "2026-08-06T21:17:23.012Z",
+    "_at": "2026-08-06T17:24:22.202Z",
     "teacher": "Kaitlyn Bruneau",
     "language": "English",
     "type": "Video",
-    "duration": "7 min",
-    "references": "Cleveland Clinic. (2023). Panic Attacks & Panic Disorder: Causes, Symptoms & Treatment. https://my.clevelandclinic.org/health/diseases/4451-panic-attack-panic-disorder\n\nJohns Hopkins Medicine. (2021). Panic Disorder. https://www.hopkinsmedicine.org/health/conditions-and-diseases/panic-disorder\n\nScientific Reports. (2023). Effect of breathwork on stress and mental health: A meta-analysis of randomised-controlled trials. https://pmc.ncbi.nlm.nih.gov/articles/PMC9828383/"
+    "duration": "7 min"
   },
   "VLB-1758": {
     "author": "Kaitlyn Bruneau",
@@ -7263,9 +7256,8 @@
   },
   "VID-0001": {
     "author": "Jessica Cording",
-    "_at": "2026-08-06T21:07:30.546Z",
-    "title": "Emotional Awareness: Drinking to Cope vs. Drinking for Enjoyment* (Filmed as Rethinking The Relaxing Drink)",
-    "references": "Alcohol and Alcoholism. (2024). Drinking motives link positive and negative life events to problematic alcohol use during the COVID-19 pandemic: a longitudinal study. https://doi.org/10.1093/alcalc/agae068\n\nAddictive Behaviors Reports. (2022). The direct effect of drinking to cope on alcohol problems is not mediated by alcohol consumption: Invariance across gender and countries. https://pmc.ncbi.nlm.nih.gov/articles/PMC9640946/\n\nJournal of Studies on Alcohol and Drugs. (2025). Coping Motives for Alcohol and Cannabis Use Better Reflect Negative Emotionality Than Emotion Regulation Deficits in Young Adults. https://pmc.ncbi.nlm.nih.gov/articles/PMC12674593/"
+    "_at": "2026-08-06T15:55:26.413Z",
+    "title": "Emotional Awareness: Drinking to Cope vs. Drinking for Enjoyment* (Filmed as Rethinking The Relaxing Drink)"
   },
   "VID-0002": {
     "author": "Jessica Cording",
@@ -7287,9 +7279,8 @@
   },
   "VID-0006": {
     "author": "Jessica Cording",
-    "_at": "2026-08-06T21:11:41.053Z",
-    "duration": "6 min",
-    "references": "Molecules. (2022). Effect of Ginger on Inflammatory Diseases. https://www.mdpi.com/1420-3049/27/21/7223\n\nFrontiers in Immunology. (2021). Effects of Citrus Fruit Juices and Their Bioactive Components on Inflammation and Immunity: A Narrative Review. https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2021.712608/full\n\nHarvard Health Publishing. (2025). Alcohol and your health: Risks, benefits, and controversies. https://www.health.harvard.edu/blog/alcohol-and-your-health-risks-benefits-and-controversies-202501273088"
+    "_at": "2026-08-06T17:24:22.202Z",
+    "duration": "6 min"
   },
   "VID-0007": {
     "author": "Jessica Cording",
@@ -7731,7 +7722,7 @@
   },
   "VLB-0318": {
     "author": "Jessica Cording",
-    "_at": "2026-08-06T21:11:54.389Z",
+    "_at": "2026-08-06T17:24:22.202Z",
     "teacher": "Jessica Cording",
     "licenses": [
       "Wellness360"
@@ -7739,8 +7730,7 @@
     "vimeo_link": "https://vimeo.com/1079474542/458f490b25?share=copy",
     "duration": "6 min",
     "language": "English",
-    "type": "Video",
-    "references": "Molecules. (2022). Effect of Ginger on Inflammatory Diseases. https://www.mdpi.com/1420-3049/27/21/7223\n\nFrontiers in Immunology. (2021). Effects of Citrus Fruit Juices and Their Bioactive Components on Inflammation and Immunity: A Narrative Review. https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2021.712608/full\n\nHarvard Health Publishing. (2025). Alcohol and your health: Risks, benefits, and controversies. https://www.health.harvard.edu/blog/alcohol-and-your-health-risks-benefits-and-controversies-202501273088"
+    "type": "Video"
   },
   "VLB-1099": {
     "author": "Jessica Cording",
@@ -16330,9 +16320,8 @@
   },
   "VID-0029": {
     "author": "Jiva Smith",
-    "_at": "2026-08-06T21:27:38.715Z",
-    "duration": "5 min",
-    "references": "Cleveland Clinic. (2024). How To Ask for Help and Why It Can Be So Hard To Do. https://health.clevelandclinic.org/how-to-ask-for-help\n\nPsychological Science. (2022). Surprisingly Happy to Have Helped: Underestimating Prosociality Creates a Misplaced Barrier to Asking for Help. https://journals.sagepub.com/doi/10.1177/09567976221097615\n\nHarvard Business Review. (2023). Why It's So Hard to Ask for Help. https://hbr.org/2023/07/why-its-so-hard-to-ask-for-help"
+    "_at": "2026-08-06T17:24:22.202Z",
+    "duration": "5 min"
   },
   "VID-1287": {
     "author": "Jiva Smith",
@@ -16614,15 +16603,14 @@
   },
   "VLB-1319": {
     "author": "Jiva Smith",
-    "_at": "2026-08-06T21:27:32.667Z",
+    "_at": "2026-08-06T17:13:42.451Z",
     "teacher": "Jiva Smith",
     "duration": "5 min",
     "language": "English",
     "licenses": [
       "Hapstar"
     ],
-    "type": "Video",
-    "references": "Cleveland Clinic. (2024). How To Ask for Help and Why It Can Be So Hard To Do. https://health.clevelandclinic.org/how-to-ask-for-help\n\nPsychological Science. (2022). Surprisingly Happy to Have Helped: Underestimating Prosociality Creates a Misplaced Barrier to Asking for Help. https://journals.sagepub.com/doi/10.1177/09567976221097615\n\nHarvard Business Review. (2023). Why It's So Hard to Ask for Help. https://hbr.org/2023/07/why-its-so-hard-to-ask-for-help"
+    "type": "Video"
   },
   "VLB-1320": {
     "author": "Jiva Smith",
@@ -20724,8 +20712,7 @@
   },
   "VID-0047": {
     "author": "Dr. Fahim Pyarali",
-    "_at": "2026-08-06T21:38:29.142Z",
-    "references": ""
+    "_at": "2026-07-22T17:54:22.554Z"
   },
   "VID-0049": {
     "author": "Dr. Fahim Pyarali",
@@ -29000,10 +28987,9 @@
       "Wellness360",
       "Wellsort"
     ],
-    "_at": "2026-08-06T21:23:04.638Z",
+    "_at": "2026-08-06T17:24:22.202Z",
     "vimeo_link": "https://vimeo.com/1161867021/6348941780",
-    "duration": "5 min",
-    "references": "Cleveland Clinic. (2023). Signs You're a People-Pleaser — and How To Stop. https://health.clevelandclinic.org/how-to-stop-being-a-people-pleaser\n\nMayo Clinic. (2024). Being assertive: Reduce stress, communicate better. https://www.mayoclinic.org/healthy-lifestyle/stress-management/in-depth/assertive/art-20044644\n\nInternet Interventions. (2023). Efficacy of transdiagnostic cognitive-behavioral therapy for assertiveness: A randomized controlled trial. https://pmc.ncbi.nlm.nih.gov/articles/PMC10235435/"
+    "duration": "5 min"
   },
   "VLB-0601": {
     "licenses": [
@@ -30235,7 +30221,7 @@
   },
   "INF-0215": {
     "author": "Diane McNaught",
-    "_at": "2026-08-06T20:58:55.006Z",
+    "_at": "2026-08-06T20:58:56.241Z",
     "references": "Cleveland Clinic. (2022). 9 Benefits of Hiking. https://health.clevelandclinic.org/9-benefits-of-hiking\n\nInternational Journal of Environmental Research and Public Health. (2023). The Effects of Outdoor versus Indoor Exercise on Psychological Health, Physical Health, and Physical Activity Behaviour: A Systematic Review of Longitudinal Trials. https://pmc.ncbi.nlm.nih.gov/articles/PMC9914639/\n\nInternational Journal of Exercise Science. (2021). Simple Bodyweight Training Improves Cardiorespiratory Fitness with Minimal Time Commitment: A Contemporary Application of the 5BX Approach. https://pmc.ncbi.nlm.nih.gov/articles/PMC8136567/"
   },
   "INF-0214": {
@@ -35654,8 +35640,7 @@
   },
   "EXT-1129": {
     "type": "Video",
-    "_at": "2026-08-06T21:07:23.797Z",
-    "references": "Alcohol and Alcoholism. (2024). Drinking motives link positive and negative life events to problematic alcohol use during the COVID-19 pandemic: a longitudinal study. https://doi.org/10.1093/alcalc/agae068\n\nAddictive Behaviors Reports. (2022). The direct effect of drinking to cope on alcohol problems is not mediated by alcohol consumption: Invariance across gender and countries. https://pmc.ncbi.nlm.nih.gov/articles/PMC9640946/\n\nJournal of Studies on Alcohol and Drugs. (2025). Coping Motives for Alcohol and Cannabis Use Better Reflect Negative Emotionality Than Emotion Regulation Deficits in Young Adults. https://pmc.ncbi.nlm.nih.gov/articles/PMC12674593/"
+    "_at": "2026-08-06T17:13:42.451Z"
   },
   "EXT-1130": {
     "type": "Video",
@@ -35681,8 +35666,7 @@
   },
   "VID-0022": {
     "duration": "5 min",
-    "_at": "2026-08-06T21:20:00.964Z",
-    "references": "Centers for Disease Control and Prevention. (2026). About Adverse Childhood Experiences. https://www.cdc.gov/aces/about/index.html\n\nCleveland Clinic. (2025). How To Heal From Childhood Trauma. https://health.clevelandclinic.org/childhood-traumas-lasting-effects-on-mental-and-physical-health\n\nChild Abuse & Neglect. (2022). A systematic review and meta-analysis of trauma-focused cognitive behavioral therapy for children and adolescents. https://doi.org/10.1016/j.chiabu.2022.105899"
+    "_at": "2026-08-06T17:24:22.202Z"
   },
   "VID-0023": {
     "duration": "5 min",
@@ -36208,12 +36192,15 @@
     "references": "Perioperative Medicine. (2025). Assessment of perioperative anxiety levels at three time-points during hospital stay in patients undergoing elective surgery. https://pmc.ncbi.nlm.nih.gov/articles/PMC11905583/\n\nFrontiers in Pediatrics. (2024). Preoperative anxiety management in pediatric patients: a systematic review and meta-analysis of randomized controlled trials on the efficacy of distraction techniques. https://pmc.ncbi.nlm.nih.gov/articles/PMC10909818/\n\nScientific Reports. (2023). Patient-reported perioperative anaesthesia-related anxiety is associated with impaired patient satisfaction: a secondary analysis from a prospective observational study in Switzerland. https://www.nature.com/articles/s41598-023-43447-6",
     "_at": "2026-08-06T19:54:20.286Z"
   },
-  "VID-0013": {
-    "references": "Cleveland Clinic. (2022). Psychotherapy: What It Is, Why It Is Done & Types. https://my.clevelandclinic.org/health/treatments/23445-psychotherapy\n\nMayo Clinic. (2023). Psychotherapy. https://www.mayoclinic.org/tests-procedures/psychotherapy/about/pac-20384616\n\nWorld Psychiatry. (2022). The efficacy of psychotherapies and pharmacotherapies for mental disorders in adults: an umbrella review and meta-analytic evaluation of recent meta-analyses. https://doi.org/10.1002/wps.20941",
-    "_at": "2026-08-06T21:13:59.951Z"
+  "EXT-0687": {
+    "author": "Jade Gordon",
+    "_at": "2026-08-06T21:38:47.854Z",
+    "category": "Nutrition",
+    "date_created": "10/9/2025",
+    "title": "Avocado Toast With Poached Eggs.pdf"
   },
   "EXT-0688": {
     "title": "Baked Egg Cups",
-    "_at": "2026-08-06T21:38:44.889Z"
+    "_at": "2026-08-06T21:38:43.813Z"
   }
 }
