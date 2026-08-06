@@ -36081,5 +36081,9 @@
   "INF-0079": {
     "references": "Centers for Disease Control and Prevention. (2024). Physical activity basics. https://www.cdc.gov/physicalactivity/basics/index.htm Centers for Disease Control and Prevention. (2026). Preventing high blood pressure. https://www.cdc.gov/high-blood-pressure/prevention/index.html  National Heart, Lung, and Blood Institute. (2024). High blood pressure. https://www.nhlbi.nih.gov/health/high-blood-pressure",
     "_at": "2026-08-06T18:40:56.646Z"
+  },
+  "INF-0090": {
+    "references": "Centers for Disease Control and Prevention. (2024). Travelers with chronic illnesses. https://wwwnc.cdc.gov/travel/page/chronic-illnesses U.S. Food and Drug Administration. (2024). Buying & using medicine safely. https://www.fda.gov/drugs/information-consumers-and-patients-drugs/buying-using-medicine-safely MedlinePlus. (2021). Traveler’s health. https://medlineplus.gov/travelershealth.html",
+    "_at": "2026-08-06T18:41:51.072Z"
   }
 }
