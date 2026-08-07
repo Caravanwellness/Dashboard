@@ -1930,14 +1930,13 @@ function renderTable() {
       const s = c.k==='id' ? '' : tdS;
       if (c.k==='id')   return `<td class="id-cell">${item.id}</td>`;
       if (c.k==='title') {
-        const licTxt  = lic.length ? `<span style="font-size:10px;opacity:.5;margin-left:3px">[${lic.join(', ')}]</span>` : '';
         const dot     = mod ? '<span class="edited-dot" title="Edited"></span>' : '';
         const dueBadge= rs==='overdue' ? `<span style="font-size:9px;font-weight:700;background:rgba(230,57,70,.15);color:#e63946;border-radius:4px;padding:1px 5px;margin-left:5px;letter-spacing:.3px">OVERDUE</span>`
           : rs==='due3mo' ? `<span style="font-size:9px;font-weight:700;background:rgba(128,0,200,.15);color:#8000c8;border-radius:4px;padding:1px 5px;margin-left:5px;letter-spacing:.3px">DUE 3 MO</span>`
           : rs==='due6mo' ? `<span style="font-size:9px;font-weight:700;background:rgba(181,134,13,.2);color:#b5860d;border-radius:4px;padding:1px 5px;margin-left:5px;letter-spacing:.3px">DUE 6 MO</span>` : '';
         const noReview = activeTab==='review' && lv(item,'type')==='Article' && !lv(item,'peer_reviewer') && !gE(item.id,'reviewed_by','');
         const noRevBadge = noReview ? `<span style="font-size:9px;font-weight:700;background:rgba(108,117,125,.12);color:#6c757d;border-radius:4px;padding:1px 5px;margin-left:4px;letter-spacing:.3px">NEEDS REVIEW</span>` : '';
-        return `<td class="title-cell" ${s}><div class="title-text">${esc(cleanTitle(lv(item,'title')))}${dueBadge}${noRevBadge}${licTxt}${dot}</div></td>`;
+        return `<td class="title-cell" ${s}><div class="title-text">${esc(cleanTitle(lv(item,'title')))}${dueBadge}${noRevBadge}${dot}</div></td>`;
       }
       if (c.k==='type') return `<td ${s}><span class="badge badge-type">${esc(lv(item,'type'))}</span></td>`;
       if (c.k==='review_priority') {
@@ -2626,7 +2625,6 @@ function reRow(id) {
   const cols = getCols();
   const bg  = gE(id,'row_bg','');
   const fg  = gE(id,'row_text','');
-  const lic = gE(id,'licenses',item.client_licenses||[]);
   const mod = !!(edits[id]&&edits[id]._at);
   const tdS = bg||fg ? `style="${bg?'background:'+bg+';':''}${fg?'color:'+fg:''}"` : '';
 
@@ -2634,8 +2632,7 @@ function reRow(id) {
     const s = c.k==='id' ? '' : tdS;
     if (c.k==='id') return `<td class="id-cell">${id}</td>`;
     if (c.k==='title') {
-      const licT = lic.length?`<span style="font-size:10px;opacity:.5;margin-left:3px">[${lic.join(', ')}]</span>`:'';
-      return `<td class="title-cell" ${s}><div class="title-text">${esc(lv(item,'title'))}${licT}${mod?'<span class="edited-dot"></span>':''}</div></td>`;
+      return `<td class="title-cell" ${s}><div class="title-text">${esc(lv(item,'title'))}${mod?'<span class="edited-dot"></span>':''}</div></td>`;
     }
     if (c.k==='type') return `<td ${s}><span class="badge badge-type">${esc(lv(item,'type'))}</span></td>`;
     if (c.k==='review_priority'){const p=lv(item,'review_priority');return `<td ${s}>${p?`<span class="badge badge-${p}">${p}</span>`:''}</td>`;}
