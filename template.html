@@ -865,6 +865,25 @@ let edits = {};
 let _editSaveTimers = {};
 let _editOldValues  = {};
 let _editsFileSha   = null; // cached SHA — lets saves skip the server-side GitHub read
+let _pendingFieldFlushes = new Set(); // pending local debounce callbacks (see field-edit listeners in showDetail)
+
+// Forces any pending debounced field edit to save immediately instead of waiting
+// out its timer — called when the detail panel closes or switches items, so a
+// last-second edit can't be silently lost by navigating away too quickly.
+function flushPendingEdits() {
+  for (const flush of [..._pendingFieldFlushes]) flush();
+  for (const key of Object.keys(_editSaveTimers)) {
+    clearTimeout(_editSaveTimers[key]);
+    delete _editSaveTimers[key];
+    const sep = key.indexOf('|');
+    const id = key.slice(0, sep), f = key.slice(sep + 1);
+    const v = edits[id] ? edits[id][f] : undefined;
+    const oldVal = _editOldValues[key];
+    delete _editOldValues[key];
+    _flushEdit(id, f, v);
+    if (String(oldVal ?? '') !== String(v ?? '')) _flushChangelog(id, f, oldVal, v);
+  }
+}
 let _licenses       = {};   // { [itemId]: [client, ...] } — stored separately from edits
 let _licensesSha    = null;
 
@@ -2204,6 +2223,7 @@ function toggleTranscript(id) {
 
 // ── Detail Panel ──────────────────────────────────────────────────────────────
 function showDetail(item) {
+  flushPendingEdits(); // don't lose an unsaved edit from whatever was open before
   selectedId = item.id;
   document.querySelectorAll('#tbody tr').forEach(r=>r.classList.remove('selected'));
   const row = document.querySelector(`#tbody tr[data-id="${item.id}"]`);
@@ -2526,13 +2546,17 @@ function showDetail(item) {
   // Field edit events (debounced)
   panel.querySelectorAll('.field-edit').forEach(el=>{
     let t;
+    const flush = () => {
+      clearTimeout(t); // no-op if already fired naturally; matters when force-flushed early
+      _pendingFieldFlushes.delete(flush);
+      sE(item.id, el.dataset.f, el.value);
+      reRow(item.id);
+      if (el.dataset.f==='title') { const h=document.getElementById('titleBoxH2'); if(h) h.textContent=el.value; }
+    };
     const fn = () => {
       clearTimeout(t);
-      t = setTimeout(()=>{
-        sE(item.id, el.dataset.f, el.value);
-        reRow(item.id);
-        if (el.dataset.f==='title') { const h=document.getElementById('titleBoxH2'); if(h) h.textContent=el.value; }
-      }, 280);
+      _pendingFieldFlushes.add(flush);
+      t = setTimeout(flush, 280);
     };
     el.addEventListener('input', fn);
     el.addEventListener('change', fn);
@@ -2624,6 +2648,7 @@ function toggleSidebar(collapse) {
 }
 
 function closeDetail() {
+  flushPendingEdits();
   toggleSidebar(false);
   selectedId = null;
   document.getElementById('detailPanel').classList.remove('open');
