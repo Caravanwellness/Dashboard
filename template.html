@@ -864,7 +864,6 @@ document.getElementById('authPassword').addEventListener('keydown', e => {
 let edits = {};
 let _editSaveTimers = {};
 let _editOldValues  = {};
-let _editsFileSha   = null; // cached SHA — lets saves skip the server-side GitHub read
 let _pendingFieldFlushes = new Set(); // pending local debounce callbacks (see field-edit listeners in showDetail)
 
 // Forces any pending debounced field edit to save immediately instead of waiting
@@ -922,30 +921,23 @@ async function loadEdits() {
     if (r.ok) {
       const d = await r.json();
       edits = d._data || d;
-      _editsFileSha = d._sha ?? null;
     }
   } catch(e) {}
 }
 
 async function _flushEdit(id, field, value) {
-  // Send the full merged edits + cached SHA so the server can skip its GitHub read
-  const body = { id, field, value };
-  const sha = _editsFileSha;
-  if (sha !== null) {
-    body._clientEdits = edits;
-    body._sha = sha;
-    _editsFileSha = null; // clear so concurrent saves fall back to safe read+write
-  }
+  // Always let the server read fresh and merge this in — never send our own
+  // in-memory `edits` as the new file content. This browser's copy only
+  // reflects what it loaded at page-load plus its own local changes; it can
+  // go stale relative to what others save mid-session without us ever
+  // knowing, which used to cause this save to silently revert their edits.
   try {
     const r = await fetch('/api/save-edits', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json', ...authHeader() },
-      body: JSON.stringify(body),
+      body: JSON.stringify({ id, field, value }),
     });
-    if (r.ok) {
-      const d = await r.json();
-      if (d._sha) _editsFileSha = d._sha; // refresh cached SHA for next save
-    }
+    if (!r.ok) console.warn('Edit save failed', r.status);
   } catch(e) { console.warn('Edit save failed', e); }
 }
 
@@ -1541,7 +1533,6 @@ async function confirmImport() {
 
     // Update licenses SHA from response
     if (results[0]._sha) _licensesSha = results[0]._sha;
-    if (results[2]._sha) _editsFileSha = results[2]._sha;
 
     // Reload extra content to pick up assigned IDs for new items
     await loadExtraContent();
