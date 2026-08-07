@@ -36031,7 +36031,8 @@
   },
   "EXT-0391": {
     "duration": "2 min",
-    "_at": "2026-08-06T17:24:22.202Z"
+    "_at": "2026-08-07T05:20:03.079Z",
+    "author": "Jennifer Leong"
   },
   "EXT-0402": {
     "duration": "2 min",
@@ -36250,7 +36251,7 @@
   },
   "EXT-0397": {
     "author": "Dr. Brian Glassman",
-    "_at": "2026-08-07T05:19:49.007Z",
-    "peer_reviewer": "<"
+    "_at": "2026-08-07T05:19:51.696Z",
+    "peer_reviewer": "Madeline McGuire"
   }
 }
