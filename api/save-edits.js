@@ -24,9 +24,8 @@ export default async function handler(req, res) {
   }
 
   // POST — single: { id, field, value }  OR  bulk: { bulk: [{id, field, value},...], message }
-  // Optionally pass _clientEdits + _sha to skip the GitHub read (saves 1 API call)
   if (req.method === 'POST') {
-    const { id, field, value, bulk, message, _clientEdits, _sha } = req.body || {};
+    const { id, field, value, bulk, message } = req.body || {};
     const changes = bulk && Array.isArray(bulk) ? bulk : (id && field !== undefined ? [{ id, field, value }] : null);
     if (!changes) return res.status(400).json({ error: 'id+field or bulk array required' });
 
@@ -37,13 +36,13 @@ export default async function handler(req, res) {
 
     const delay = ms => new Promise(r => setTimeout(r, ms));
 
-    // Fast path: client provides current state + SHA — skip the GitHub read
-    if (_clientEdits && _sha !== undefined) {
-      const result = await ghWriteJson(REPO, PATH, BRANCH, _clientEdits, commitMsg, token, _sha);
-      if (result) return res.json({ ok: true, count: changes.length, _sha: typeof result === 'string' ? result : null });
-      // SHA conflict — fall through to read+retry loop below
-    }
-
+    // Always read fresh and merge just this change in — never trust a client-sent
+    // full snapshot as the new file content. A browser's in-memory `edits` only
+    // reflects what it loaded at page-load plus its own local changes; it never
+    // resyncs with what other people save mid-session, so a "fast path" that
+    // wrote that snapshot verbatim would silently revert everyone else's
+    // concurrent edits whenever this client's cached SHA still happened to be
+    // valid. (Confirmed happening in production — see git history.)
     for (let attempt = 0; attempt < 5; attempt++) {
       if (attempt > 0) await delay(600 + Math.random() * 400);
       try {
