@@ -1763,17 +1763,24 @@ function baseItems() {
   return ALL;
 }
 
+// Rebuilds each filter dropdown's option list from current data. Preserves
+// whatever's currently selected (if it's still a valid value) — this runs
+// again after every save, not just on load/tab-switch, so it must not reset
+// filters the user already has active.
 function seedFilters() {
   const base = baseItems();
   const mk = (arr, sel='') => '<option value="">All</option>'+arr.map(v=>`<option${v===sel?' selected':''}>${v}</option>`).join('');
-  document.getElementById('typeFilter').innerHTML   = mk([...new Set(base.map(i=>lv(i,'type')))].sort());
-  document.getElementById('catFilter').innerHTML    = mk([...new Set(base.map(i=>lv(i,'category')))].sort());
-  document.getElementById('authorFilter').innerHTML  = mk([...new Set(base.flatMap(i=>[lv(i,'author'), lv(i,'teacher')||lv(i,'peer_reviewer')]).filter(Boolean))].sort());
-  document.getElementById('langFilter').innerHTML    = mk([...new Set(base.map(i=>lv(i,'language')).filter(Boolean))].sort());
+  const cur = id => document.getElementById(id).value;
+
+  document.getElementById('typeFilter').innerHTML   = mk([...new Set(base.map(i=>lv(i,'type')))].sort(), cur('typeFilter'));
+  document.getElementById('catFilter').innerHTML    = mk([...new Set(base.map(i=>lv(i,'category')))].sort(), cur('catFilter'));
+  document.getElementById('authorFilter').innerHTML  = mk([...new Set(base.flatMap(i=>[lv(i,'author'), lv(i,'teacher')||lv(i,'peer_reviewer')]).filter(Boolean))].sort(), cur('authorFilter'));
+  document.getElementById('langFilter').innerHTML    = mk([...new Set(base.map(i=>lv(i,'language')).filter(Boolean))].sort(), cur('langFilter'));
   const durVals = [...new Set(base.map(i=>{ const d=lv(i,'duration')||extractDuration(lv(i,'title')); return d; }).filter(Boolean))].sort((a,b)=>parseInt(a)-parseInt(b));
-  document.getElementById('durationFilter').innerHTML = mk(durVals);
+  document.getElementById('durationFilter').innerHTML = mk(durVals, cur('durationFilter'));
   const allClients = [...new Set(base.flatMap(i=>gE(i.id,'licenses',i.client_licenses||[])))].sort();
-  document.getElementById('clientFilter').innerHTML  = '<option value="">All Clients</option>'+allClients.map(c=>`<option>${c}</option>`).join('');
+  const curClient = cur('clientFilter');
+  document.getElementById('clientFilter').innerHTML  = '<option value="">All Clients</option>'+allClients.map(c=>`<option${c===curClient?' selected':''}>${c}</option>`).join('');
   ['dueGroup','prioGroup','authorGroup','langGroup','brandingGroup','durationGroup','clientGroup'].forEach(id => {
     document.getElementById(id).style.display = '';
   });
@@ -2552,6 +2559,11 @@ function showDetail(item) {
       sE(item.id, el.dataset.f, el.value);
       reRow(item.id);
       if (el.dataset.f==='title') { const h=document.getElementById('titleBoxH2'); if(h) h.textContent=el.value; }
+      // Keep filter dropdowns (Type/Category/Author-Teacher/Language/Duration) in
+      // sync with the edit — otherwise a value that no longer exists on any item
+      // (e.g. clearing the last "j" author) lingers as a selectable, dead option.
+      seedFilters();
+      applyFilters();
     };
     const fn = () => {
       clearTimeout(t);
