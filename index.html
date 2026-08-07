@@ -313,7 +313,17 @@ textarea.field-edit { resize: vertical; }
 <div id="importModal" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:8000;align-items:center;justify-content:center">
   <div style="background:white;border-radius:14px;padding:30px;max-width:560px;width:90%;box-shadow:0 12px 40px rgba(0,0,0,.25);max-height:90vh;overflow-y:auto">
     <h3 style="margin:0 0 6px;font-size:16px;font-weight:700;color:#1a1a2e">Import Content</h3>
-    <p style="font-size:13px;color:#666;margin:0 0 18px">Upload an Excel or CSV. For Excel, each sheet tab = client name. Items already in the dashboard will be updated (client tags, etc.); new items will be added to the library. Type is detected per row from a <strong>Content Type</strong> or <strong>Format</strong> column, from column headers, or from the URL.</p>
+    <p style="font-size:13px;color:#666;margin:0 0 14px">Upload an Excel or CSV. For Excel, each sheet tab = client name. Items already in the dashboard will be updated (client tags, etc.); new items will be added to the library. Type is detected per row from a <strong>Content Type</strong> or <strong>Format</strong> column, from column headers, or from the URL.</p>
+    <div style="font-size:12px;color:#777;margin:0 0 18px;padding:12px 14px;background:#f8f9fa;border-radius:8px;line-height:1.6">
+      <strong style="display:block;margin-bottom:4px;color:#555">What the dashboard expects:</strong>
+      <ul style="margin:0;padding-left:18px">
+        <li><strong>Client</strong>: one sheet tab per client, or a <strong>Client</strong> column if a sheet covers more than one.</li>
+        <li><strong>Title</strong>: recognized from a <strong>Title</strong>, <strong>Video Name</strong>, or <strong>Topic</strong> column.</li>
+        <li><strong>Category</strong>, <strong>Teacher/Expert</strong>, <strong>Length/Duration</strong>, <strong>URL</strong>: matched by column header name — keep these as their own separate columns.</li>
+        <li><strong>Length/Duration</strong>: enter as a plain number of minutes (e.g. <strong>5</strong>), not a formatted date/time — Excel auto-formats some numeric cells as dates, which imports incorrectly.</li>
+        <li><strong>Content type</strong>: detected from a <strong>Content Type</strong> or <strong>Format</strong> column if present (Article/Video/Infographic/etc.), otherwise guessed from the column headers or URL.</li>
+      </ul>
+    </div>
     <div id="importDropzone" ondragover="event.preventDefault()" ondrop="handleImportDrop(event)" style="border:2px dashed #e0e0e0;border-radius:10px;padding:32px;text-align:center;cursor:pointer;margin-bottom:16px" onclick="document.getElementById('importFileInput').click()">
       <div style="font-size:28px;margin-bottom:8px">📂</div>
       <div style="font-size:13px;color:#666">Drag &amp; drop an Excel or CSV file here<br>or click to browse</div>
