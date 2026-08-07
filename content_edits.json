@@ -6317,8 +6317,9 @@
   },
   "VID-0014": {
     "author": "Kaitlyn Bruneau",
-    "_at": "2026-08-06T17:24:22.202Z",
-    "duration": "7 min"
+    "_at": "2026-08-06T21:17:29.642Z",
+    "duration": "7 min",
+    "references": "Cleveland Clinic. (2023). Panic Attacks & Panic Disorder: Causes, Symptoms & Treatment. https://my.clevelandclinic.org/health/diseases/4451-panic-attack-panic-disorder\n\nJohns Hopkins Medicine. (2021). Panic Disorder. https://www.hopkinsmedicine.org/health/conditions-and-diseases/panic-disorder\n\nScientific Reports. (2023). Effect of breathwork on stress and mental health: A meta-analysis of randomised-controlled trials. https://pmc.ncbi.nlm.nih.gov/articles/PMC9828383/"
   },
   "VID-0016": {
     "author": "Kaitlyn Bruneau",
@@ -6341,13 +6342,15 @@
   },
   "VID-0031": {
     "author": "Kaitlyn Bruneau",
-    "_at": "2026-08-06T17:24:22.202Z",
-    "duration": "5 min"
+    "_at": "2026-08-06T21:30:50.261Z",
+    "duration": "5 min",
+    "references": "Cleveland Clinic. (2022). Rejection Sensitive Dysphoria (RSD): Symptoms & Treatment. https://my.clevelandclinic.org/health/diseases/24099-rejection-sensitive-dysphoria-rsd\n\nHarvard Health Publishing. (2021). 4 ways to boost your self-compassion. https://www.health.harvard.edu/mental-health/4-ways-to-boost-your-self-compassion\n\nFrontiers in Psychology. (2022). Hurting all the way: The emotional antecedent and consequence of social rejection. https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2022.885384/full"
   },
   "VID-0034": {
     "author": "Kaitlyn Bruneau",
-    "_at": "2026-08-06T17:24:22.202Z",
-    "duration": "6 min"
+    "_at": "2026-08-06T21:36:15.294Z",
+    "duration": "6 min",
+    "references": "Cleveland Clinic. (2024). How To Be More Confident and Improve Your Self-Esteem. https://health.clevelandclinic.org/how-to-improve-self-esteem\n\nFrontiers in Psychology. (2021). Regulating Self-Image on Instagram: Links Between Social Anxiety, Instagram Contingent Self-Worth, and Content Control Behaviors. https://www.frontiersin.org/articles/10.3389/fpsyg.2021.711447/full\n\nCurrent Psychology. (2022). The role of fear of negative evaluation on the effects of self-control on affective states and life satisfaction: a moderated mediation analysis. https://link.springer.com/article/10.1007/s12144-022-04130-7"
   },
   "VID-0262": {
     "author": "Kaitlyn Bruneau",
@@ -6828,7 +6831,7 @@
   },
   "VLB-1138": {
     "author": "Kaitlyn Bruneau",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-06T21:30:39.928Z",
     "teacher": "Kaitlyn Bruneau",
     "licenses": [
       "YuLife",
@@ -6837,11 +6840,12 @@
     "vimeo_link": "https://vimeo.com/1161867431/9bc7b78b38",
     "duration": "5 min",
     "language": "English",
-    "type": "Video"
+    "type": "Video",
+    "references": "Cleveland Clinic. (2022). Rejection Sensitive Dysphoria (RSD): Symptoms & Treatment. https://my.clevelandclinic.org/health/diseases/24099-rejection-sensitive-dysphoria-rsd\n\nHarvard Health Publishing. (2021). 4 ways to boost your self-compassion. https://www.health.harvard.edu/mental-health/4-ways-to-boost-your-self-compassion\n\nFrontiers in Psychology. (2022). Hurting all the way: The emotional antecedent and consequence of social rejection. https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2022.885384/full"
   },
   "VLB-1139": {
     "author": "Kaitlyn Bruneau",
-    "_at": "2026-08-06T17:24:22.202Z",
+    "_at": "2026-08-06T21:36:27.583Z",
     "teacher": "Kaitlyn Bruneau",
     "licenses": [
       "YuLife",
@@ -6850,7 +6854,8 @@
     "vimeo_link": "https://vimeo.com/1169566998/4f3c021db2?share=copy&fl=sv&fe=ci",
     "duration": "6 min",
     "language": "English",
-    "type": "Video"
+    "type": "Video",
+    "references": "Cleveland Clinic. (2024). How To Be More Confident and Improve Your Self-Esteem. https://health.clevelandclinic.org/how-to-improve-self-esteem\n\nFrontiers in Psychology. (2021). Regulating Self-Image on Instagram: Links Between Social Anxiety, Instagram Contingent Self-Worth, and Content Control Behaviors. https://www.frontiersin.org/articles/10.3389/fpsyg.2021.711447/full\n\nCurrent Psychology. (2022). The role of fear of negative evaluation on the effects of self-control on affective states and life satisfaction: a moderated mediation analysis. https://link.springer.com/article/10.1007/s12144-022-04130-7"
   },
   "VLB-1140": {
     "author": "Kaitlyn Bruneau",
@@ -6885,13 +6890,14 @@
   },
   "VLB-1143": {
     "teacher": "Kaitlyn Bruneau",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-06T21:20:08.360Z",
     "duration": "5 min",
     "language": "English",
     "licenses": [
       "Hapstar"
     ],
-    "type": "Video"
+    "type": "Video",
+    "references": "Centers for Disease Control and Prevention. (2026). About Adverse Childhood Experiences. https://www.cdc.gov/aces/about/index.html\n\nCleveland Clinic. (2025). How To Heal From Childhood Trauma. https://health.clevelandclinic.org/childhood-traumas-lasting-effects-on-mental-and-physical-health\n\nChild Abuse & Neglect. (2022). A systematic review and meta-analysis of trauma-focused cognitive behavioral therapy for children and adolescents. https://doi.org/10.1016/j.chiabu.2022.105899"
   },
   "VLB-1144": {
     "teacher": "Kaitlyn Bruneau",
@@ -7172,11 +7178,12 @@
   },
   "VLB-1757": {
     "author": "Kaitlyn Bruneau",
-    "_at": "2026-08-06T17:24:22.202Z",
+    "_at": "2026-08-06T21:17:23.012Z",
     "teacher": "Kaitlyn Bruneau",
     "language": "English",
     "type": "Video",
-    "duration": "7 min"
+    "duration": "7 min",
+    "references": "Cleveland Clinic. (2023). Panic Attacks & Panic Disorder: Causes, Symptoms & Treatment. https://my.clevelandclinic.org/health/diseases/4451-panic-attack-panic-disorder\n\nJohns Hopkins Medicine. (2021). Panic Disorder. https://www.hopkinsmedicine.org/health/conditions-and-diseases/panic-disorder\n\nScientific Reports. (2023). Effect of breathwork on stress and mental health: A meta-analysis of randomised-controlled trials. https://pmc.ncbi.nlm.nih.gov/articles/PMC9828383/"
   },
   "VLB-1758": {
     "author": "Kaitlyn Bruneau",
@@ -7256,8 +7263,9 @@
   },
   "VID-0001": {
     "author": "Jessica Cording",
-    "_at": "2026-08-06T15:55:26.413Z",
-    "title": "Emotional Awareness: Drinking to Cope vs. Drinking for Enjoyment* (Filmed as Rethinking The Relaxing Drink)"
+    "_at": "2026-08-06T21:07:30.546Z",
+    "title": "Emotional Awareness: Drinking to Cope vs. Drinking for Enjoyment* (Filmed as Rethinking The Relaxing Drink)",
+    "references": "Alcohol and Alcoholism. (2024). Drinking motives link positive and negative life events to problematic alcohol use during the COVID-19 pandemic: a longitudinal study. https://doi.org/10.1093/alcalc/agae068\n\nAddictive Behaviors Reports. (2022). The direct effect of drinking to cope on alcohol problems is not mediated by alcohol consumption: Invariance across gender and countries. https://pmc.ncbi.nlm.nih.gov/articles/PMC9640946/\n\nJournal of Studies on Alcohol and Drugs. (2025). Coping Motives for Alcohol and Cannabis Use Better Reflect Negative Emotionality Than Emotion Regulation Deficits in Young Adults. https://pmc.ncbi.nlm.nih.gov/articles/PMC12674593/"
   },
   "VID-0002": {
     "author": "Jessica Cording",
@@ -7279,8 +7287,9 @@
   },
   "VID-0006": {
     "author": "Jessica Cording",
-    "_at": "2026-08-06T17:24:22.202Z",
-    "duration": "6 min"
+    "_at": "2026-08-06T21:11:41.053Z",
+    "duration": "6 min",
+    "references": "Molecules. (2022). Effect of Ginger on Inflammatory Diseases. https://www.mdpi.com/1420-3049/27/21/7223\n\nFrontiers in Immunology. (2021). Effects of Citrus Fruit Juices and Their Bioactive Components on Inflammation and Immunity: A Narrative Review. https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2021.712608/full\n\nHarvard Health Publishing. (2025). Alcohol and your health: Risks, benefits, and controversies. https://www.health.harvard.edu/blog/alcohol-and-your-health-risks-benefits-and-controversies-202501273088"
   },
   "VID-0007": {
     "author": "Jessica Cording",
@@ -7722,7 +7731,7 @@
   },
   "VLB-0318": {
     "author": "Jessica Cording",
-    "_at": "2026-08-06T17:24:22.202Z",
+    "_at": "2026-08-06T21:11:54.389Z",
     "teacher": "Jessica Cording",
     "licenses": [
       "Wellness360"
@@ -7730,7 +7739,8 @@
     "vimeo_link": "https://vimeo.com/1079474542/458f490b25?share=copy",
     "duration": "6 min",
     "language": "English",
-    "type": "Video"
+    "type": "Video",
+    "references": "Molecules. (2022). Effect of Ginger on Inflammatory Diseases. https://www.mdpi.com/1420-3049/27/21/7223\n\nFrontiers in Immunology. (2021). Effects of Citrus Fruit Juices and Their Bioactive Components on Inflammation and Immunity: A Narrative Review. https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2021.712608/full\n\nHarvard Health Publishing. (2025). Alcohol and your health: Risks, benefits, and controversies. https://www.health.harvard.edu/blog/alcohol-and-your-health-risks-benefits-and-controversies-202501273088"
   },
   "VLB-1099": {
     "author": "Jessica Cording",
@@ -16320,8 +16330,9 @@
   },
   "VID-0029": {
     "author": "Jiva Smith",
-    "_at": "2026-08-06T17:24:22.202Z",
-    "duration": "5 min"
+    "_at": "2026-08-06T21:27:38.715Z",
+    "duration": "5 min",
+    "references": "Cleveland Clinic. (2024). How To Ask for Help and Why It Can Be So Hard To Do. https://health.clevelandclinic.org/how-to-ask-for-help\n\nPsychological Science. (2022). Surprisingly Happy to Have Helped: Underestimating Prosociality Creates a Misplaced Barrier to Asking for Help. https://journals.sagepub.com/doi/10.1177/09567976221097615\n\nHarvard Business Review. (2023). Why It's So Hard to Ask for Help. https://hbr.org/2023/07/why-its-so-hard-to-ask-for-help"
   },
   "VID-1287": {
     "author": "Jiva Smith",
@@ -16603,14 +16614,15 @@
   },
   "VLB-1319": {
     "author": "Jiva Smith",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-06T21:27:32.667Z",
     "teacher": "Jiva Smith",
     "duration": "5 min",
     "language": "English",
     "licenses": [
       "Hapstar"
     ],
-    "type": "Video"
+    "type": "Video",
+    "references": "Cleveland Clinic. (2024). How To Ask for Help and Why It Can Be So Hard To Do. https://health.clevelandclinic.org/how-to-ask-for-help\n\nPsychological Science. (2022). Surprisingly Happy to Have Helped: Underestimating Prosociality Creates a Misplaced Barrier to Asking for Help. https://journals.sagepub.com/doi/10.1177/09567976221097615\n\nHarvard Business Review. (2023). Why It's So Hard to Ask for Help. https://hbr.org/2023/07/why-its-so-hard-to-ask-for-help"
   },
   "VLB-1320": {
     "author": "Jiva Smith",
@@ -20712,11 +20724,13 @@
   },
   "VID-0047": {
     "author": "Dr. Fahim Pyarali",
-    "_at": "2026-07-22T17:54:22.554Z"
+    "_at": "2026-08-06T21:41:10.307Z",
+    "references": "National Institute of Environmental Health Sciences. (2026). Pet Allergens. https://www.niehs.nih.gov/health/topics/agents/allergens/pets\n\nMayo Clinic. (2025). Pet allergy – Symptoms & causes. https://www.mayoclinic.org/diseases-conditions/pet-allergy/symptoms-causes/syc-20352192\n\nInternational Journal of Molecular Sciences. (2024). Allergies to Allergens from Cats and Dogs: A Review and Update on Sources, Pathogenesis, and Strategies. https://www.mdpi.com/1422-0067/25/19/10520"
   },
   "VID-0049": {
     "author": "Dr. Fahim Pyarali",
-    "_at": "2026-07-22T17:54:22.554Z"
+    "_at": "2026-08-06T21:46:35.754Z",
+    "references": "Clinical & Experimental Allergy. (2022). Breathing exercises for adults with asthma. https://doi.org/10.1111/cea.14141\n\nJournal of Behavioral Medicine. (2022). A feasibility trial of a digital mindfulness-based intervention to improve asthma-related quality of life for primary care patients with asthma. https://pmc.ncbi.nlm.nih.gov/articles/PMC8818629/\n\nJournal of Ayurveda and Integrative Medicine. (2023). Impact of yoga breathing and relaxation as an add-on therapy on quality of life, anxiety, depression and pulmonary function in young adults with bronchial asthma: A randomized controlled trial. https://doi.org/10.1016/j.jaim.2022.100546"
   },
   "VID-0050": {
     "author": "Dr. Fahim Pyarali",
@@ -28987,9 +29001,10 @@
       "Wellness360",
       "Wellsort"
     ],
-    "_at": "2026-08-06T17:24:22.202Z",
+    "_at": "2026-08-06T21:23:04.638Z",
     "vimeo_link": "https://vimeo.com/1161867021/6348941780",
-    "duration": "5 min"
+    "duration": "5 min",
+    "references": "Cleveland Clinic. (2023). Signs You're a People-Pleaser — and How To Stop. https://health.clevelandclinic.org/how-to-stop-being-a-people-pleaser\n\nMayo Clinic. (2024). Being assertive: Reduce stress, communicate better. https://www.mayoclinic.org/healthy-lifestyle/stress-management/in-depth/assertive/art-20044644\n\nInternet Interventions. (2023). Efficacy of transdiagnostic cognitive-behavioral therapy for assertiveness: A randomized controlled trial. https://pmc.ncbi.nlm.nih.gov/articles/PMC10235435/"
   },
   "VLB-0601": {
     "licenses": [
@@ -29598,8 +29613,9 @@
   },
   "INF-0182": {
     "title": "Hormonal Changes Explained: Why You Might Feel Emotional",
-    "_at": "2026-08-06T13:14:53.720Z",
-    "author": "Diane McNaught"
+    "_at": "2026-08-06T20:37:09.065Z",
+    "author": "Diane McNaught",
+    "references": "American College of Obstetricians and Gynecologists. (2026). Anxiety and pregnancy. https://www.acog.org/womens-health/faqs/anxiety-and-pregnancy National Institute of Mental Health. (2023). Perinatal depression. https://www.nimh.nih.gov/health/publications/perinatal-depression National Health Service. (2026). Mental health problems and pregnancy. https://www.nhs.uk/pregnancy/mental-health-in-pregnancy-and-after-the-birth/mental-health/ Office on Women’s Health. (2021). Depression during and after pregnancy. https://womenshealth.gov/a-z-topics/depression-during-and-after-pregnancy World Health Organization. (2022). Maternal mental health. https://www.who.int/teams/mental-health-and-substance-use/promotion-prevention/maternal-mental-health"
   },
   "VID-0413": {
     "author": "Hafsa Benzzi",
@@ -30220,19 +30236,23 @@
   },
   "INF-0215": {
     "author": "Diane McNaught",
-    "_at": "2026-08-06T12:48:03.959Z"
+    "_at": "2026-08-06T20:58:55.006Z",
+    "references": "Cleveland Clinic. (2022). 9 Benefits of Hiking. https://health.clevelandclinic.org/9-benefits-of-hiking\n\nInternational Journal of Environmental Research and Public Health. (2023). The Effects of Outdoor versus Indoor Exercise on Psychological Health, Physical Health, and Physical Activity Behaviour: A Systematic Review of Longitudinal Trials. https://pmc.ncbi.nlm.nih.gov/articles/PMC9914639/\n\nInternational Journal of Exercise Science. (2021). Simple Bodyweight Training Improves Cardiorespiratory Fitness with Minimal Time Commitment: A Contemporary Application of the 5BX Approach. https://pmc.ncbi.nlm.nih.gov/articles/PMC8136567/"
   },
   "INF-0214": {
     "author": "Diane McNaught",
-    "_at": "2026-08-06T12:48:16.993Z"
+    "_at": "2026-08-06T20:54:52.748Z",
+    "references": "Centers for Disease Control and Prevention. (2025). Steps for Losing Weight. https://www.cdc.gov/healthy-weight-growth/losing-weight/index.html\n\nMayo Clinic. (2024). Weight loss: 6 strategies for success. https://www.mayoclinic.org/healthy-lifestyle/weight-loss/in-depth/weight-loss/art-20047752\n\nObesity. (2022). Benefits of weight loss of 10% or more in patients with overweight or obesity: A review. https://doi.org/10.1002/oby.23371"
   },
   "INF-0213": {
     "author": "Diane McNaught",
-    "_at": "2026-08-06T12:48:34.093Z"
+    "_at": "2026-08-06T20:52:08.283Z",
+    "references": "Centers for Disease Control and Prevention. (2024). Adult BMI Categories. https://www.cdc.gov/bmi/adult-calculator/bmi-categories.html\n\nWorld Health Organization. (2025). Obesity and overweight. https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight\n\nInternational Journal of Environmental Research and Public Health. (2024). Advantages and Limitations of the Body Mass Index (BMI) to Assess Adult Obesity. https://pmc.ncbi.nlm.nih.gov/articles/PMC11204233/"
   },
   "INF-0212": {
     "author": "Diane McNaught",
-    "_at": "2026-08-06T13:05:45.893Z"
+    "_at": "2026-08-06T20:47:55.240Z",
+    "references": "Frontiers in Sports and Active Living. (2022). Strategic Self-Talk Assists Basketball Free Throw Performance Under Conditions of Physical Exertion. https://pmc.ncbi.nlm.nih.gov/articles/PMC9247139/\n\nCleveland Clinic. (2025). 35 Positive Affirmations To Say Each Day. https://health.clevelandclinic.org/do-positive-affirmations-work\n\nMayo Clinic. (2023). Positive thinking: Stop negative self-talk to reduce stress. https://www.mayoclinic.org/healthy-lifestyle/stress-management/in-depth/positive-thinking/art-20043950"
   },
   "INF-0211": {
     "author": "Emily Wilson",
@@ -30294,11 +30314,13 @@
   },
   "INF-0197": {
     "author": "Emily Wilson",
-    "_at": "2026-08-06T13:11:56.603Z"
+    "_at": "2026-08-06T20:44:13.827Z",
+    "references": "Endocrine Society. (2022). Hypogonadism in Men. https://www.endocrine.org/patient-engagement/endocrine-library/hypogonadism\n\nMayo Clinic. (2024). Male hypogonadism — Symptoms & causes. https://www.mayoclinic.org/diseases-conditions/male-hypogonadism/symptoms-causes/syc-20354881\n\nDiagnostics. (2023). Adult Male Hypogonadism: A Laboratory Medicine Perspective on Its Diagnosis and Management. https://pmc.ncbi.nlm.nih.gov/articles/PMC10743125/"
   },
   "INF-0196": {
     "author": "Emily Wilson",
-    "_at": "2026-08-06T13:12:10.854Z"
+    "_at": "2026-08-06T20:41:04.594Z",
+    "references": "Cleveland Clinic. (2026). Low Testosterone (Low T): Hypogonadism, Symptoms & Treatment. https://my.clevelandclinic.org/health/diseases/15603-low-testosterone-male-hypogonadism\n\nMayo Clinic. (2025). Male menopause: Myth or reality? https://www.mayoclinic.org/healthy-lifestyle/mens-health/in-depth/male-menopause/art-20048056\n\nThe Aging Male. (2023). Testosterone and aging male, a perspective from a developing country. https://doi.org/10.1080/13685538.2023.2223712"
   },
   "INF-0195": {
     "author": "Emily Wilson",
@@ -30351,8 +30373,9 @@
   },
   "INF-0179": {
     "title": "How To Choose The Best Before & After-School Progra",
-    "_at": "2026-08-06T15:55:26.413Z",
-    "author": "Diane McNaught"
+    "_at": "2026-08-06T20:36:11.140Z",
+    "author": "Diane McNaught",
+    "references": "U.S. Department of Health and Human Services. (2024). ChildCare.gov. https://childcare.gov U.S. Department of Health and Human Services. (2024). Health and safety requirements for child care. https://childcare.gov/consumer-education/health-and-safety-requirements Administration for Children and Families. (2024). Office of Child Care. https://www.acf.hhs.gov/occ Centers for Disease Control and Prevention. (2023). School health guidelines. https://www.cdc.gov/healthyschools/index.htm"
   },
   "INF-0178": {
     "author": "Diane McNaught",
@@ -30385,7 +30408,8 @@
   },
   "INF-0171": {
     "author": "Emily Wilson",
-    "_at": "2026-08-06T13:17:24.301Z"
+    "_at": "2026-08-06T20:35:26.267Z",
+    "references": "Centers for Disease Control and Prevention. (2024). Type 1 Diabetes. https://www.cdc.gov/diabetes/about/about-type-1-diabetes.html\n\nMayo Clinic. (2024). Type 1 diabetes – Symptoms and causes. https://www.mayoclinic.org/diseases-conditions/type-1-diabetes/symptoms-causes/syc-20353011\n\nThe Lancet. (2023). Type 1 diabetes. https://doi.org/10.1016/S0140-6736(23)00223-4"
   },
   "INF-0170": {
     "author": "Diane McNaught",
@@ -30417,8 +30441,9 @@
   },
   "INF-0163": {
     "title": "Creating a Support System for Long-Term Diabetes Man",
-    "_at": "2026-08-06T15:55:26.413Z",
-    "author": "Emily Wilson"
+    "_at": "2026-08-06T20:30:12.234Z",
+    "author": "Emily Wilson",
+    "references": "Centers for Disease Control and Prevention. (2024). Diabetes self-management education and support (DSMES). https://www.cdc.gov/diabetes/managing/education.html National Institute of Diabetes and Digestive and Kidney Diseases. (2023). Managing diabetes. https://www.niddk.nih.gov/health-information/diabetes/overview/managing-diabetes World Health Organization. (2021). Diabetes. https://www.who.int/news-room/fact-sheets/detail/diabetes Centers for Disease Control and Prevention. (2024). Managing diabetes. https://www.cdc.gov/diabetes/managing/index.html"
   },
   "INF-0162": {
     "author": "Emily Wilson",
@@ -30446,7 +30471,8 @@
   },
   "INF-0156": {
     "author": "Jade Gordon",
-    "_at": "2026-08-06T13:24:42.533Z"
+    "_at": "2026-08-06T20:28:44.319Z",
+    "references": "Cleveland Clinic. (2024). Postpartum: Stages, Symptoms & Recovery Time. https://my.clevelandclinic.org/health/articles/postpartum\n\nOffice on Women's Health. (2025). Recovering from birth. https://womenshealth.gov/pregnancy/childbirth-and-beyond/recovering-birth\n\nAJOG Global Reports. (2023). Postpartum recovery of nulliparous women following scheduled cesarean delivery and spontaneous vaginal delivery: a prospective observational study. https://pmc.ncbi.nlm.nih.gov/articles/PMC10276254/"
   },
   "INF-0155": {
     "author": "Jade Gordon",
@@ -30454,12 +30480,14 @@
   },
   "INF-0154": {
     "type": "Infographic",
-    "_at": "2026-08-06T13:26:18.845Z",
-    "author": "Jade Gordon"
+    "_at": "2026-08-06T20:24:37.498Z",
+    "author": "Jade Gordon",
+    "references": "Mayo Clinic. (2023). Resilience: Build skills to endure hardship. https://www.mayoclinic.org/tests-procedures/resilience-training/in-depth/resilience/art-20046311\n\nHarvard Health Publishing. (2024). Life can be challenging: Build your own resilience plan. https://www.health.harvard.edu/blog/life-can-be-challenging-build-your-own-resilience-plan-202406123049\n\nFrontiers in Psychology. (2023). Effectiveness of resilience-based interventions in schools for adolescents: a systematic review and meta-analysis. https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1211113/full"
   },
   "INF-0153": {
     "author": "Jade Gordon",
-    "_at": "2026-08-06T13:26:09.750Z"
+    "_at": "2026-08-06T20:22:22.093Z",
+    "references": "Johns Hopkins Medicine. (2025). The Power of Positive Thinking. https://www.hopkinsmedicine.org/health/wellness-and-prevention/the-power-of-positive-thinking\n\nCleveland Clinic. (2025). How To Practice Positive Thinking. https://health.clevelandclinic.org/positive-thinking\n\nFrontiers in Psychology. (2022). Hope and Optimism as an Opportunity to Improve the \"Positive Mental Health\" Demand. https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2022.827320/full"
   },
   "INF-0152": {
     "author": "Jade Gordon",
@@ -30487,8 +30515,9 @@
   },
   "INF-0146": {
     "title": "Understanding Perimenopause & What to Expect in You",
-    "_at": "2026-08-06T15:55:26.413Z",
-    "author": "Emily Wilson"
+    "_at": "2026-08-06T20:16:16.176Z",
+    "author": "Emily Wilson",
+    "references": "National Institute on Aging. (2024). What is menopause? https://www.nia.nih.gov/health/menopause/what-menopause Office on Women’s Health. (2026). Menopause. https://www.womenshealth.gov/menopause Office on Women’s Health. (2025). Menopause symptoms and relief. https://www.womenshealth.gov/menopause/menopause-symptoms-and-relief National Health Service. (n.d.). Symptoms. https://www.nhs.uk/conditions/menopause/symptoms/ National Health Service. (n.d.). Menopause. https://www.nhs.uk/conditions/menopause/"
   },
   "INF-0145": {
     "author": "Emily Wilson",
@@ -30520,8 +30549,9 @@
   },
   "INF-0138": {
     "title": "Communicating About CKD Dietary Restrictions With Fa",
-    "_at": "2026-08-06T15:55:26.413Z",
-    "author": "Jade Gordon"
+    "_at": "2026-08-06T20:15:15.664Z",
+    "author": "Jade Gordon",
+    "references": "National Health Service. (2023). Chronic kidney disease - Treatment. https://www.nhs.uk/conditions/kidney-disease/treatment/ National Health Service. (2023). Chronic kidney disease - Living with. https://www.nhs.uk/conditions/kidney-disease/living-with/ National Kidney Foundation. (2024). Nutrition and chronic kidney disease (CKD). https://www.kidney.org/nutrition Centers for Disease Control and Prevention. (2024). Chronic kidney disease (CKD). https://www.cdc.gov/kidneydisease/index.html"
   },
   "INF-0137": {
     "author": "Jade Gordon",
@@ -30549,8 +30579,9 @@
   },
   "INF-0131": {
     "title": "The Connection Between Mental Health and Tobacco U",
-    "_at": "2026-08-06T15:55:26.413Z",
-    "author": "j"
+    "_at": "2026-08-06T19:55:13.501Z",
+    "author": "j",
+    "references": "Centers for Disease Control and Prevention. (2023). Smoking and mental health. https://www.cdc.gov/tobacco/campaign/tips/diseases/depression-anxiety.html National Institute of Mental Health. (2023). Substance use and mental health. https://www.nimh.nih.gov/health/topics/substance-use-and-mental-health National Institute on Drug Abuse. (2022). Cigarettes and other tobacco products drug facts. https://nida.nih.gov/publications/drugfacts/cigarettes-other-tobacco-products World Health Organization. (2023). Tobacco. https://www.who.int/news-room/fact-sheets/detail/tobacco"
   },
   "ART-0071": {
     "author": "Emily Wilson",
@@ -30984,44 +31015,53 @@
   },
   "ILB-0176": {
     "type": "Infographic",
-    "_at": "2026-08-06T18:42:52.135Z",
+    "_at": "2026-08-06T18:42:50.939Z",
     "references": "National Institutes of Health. (2022). Nutrition: Nutrients and health. https://www.nhlbi.nih.gov/health/educational/wecan/eat-right/nutrition.htm World Health Organization. (2023). Healthy diet. https://www.who.int/news-room/fact-sheets/detail/healthy-diet National Health Service. (2023). Eat well. https://www.nhs.uk/live-well/eat-well/"
   },
   "ILB-0178": {
     "type": "Infographic",
-    "_at": "2026-08-06T17:13:42.451Z"
+    "_at": "2026-08-06T18:46:03.356Z",
+    "references": "Harvard Health Publishing. (2024). Eggs, protein, and cholesterol: How to make eggs part of a heart-healthy diet. https://www.health.harvard.edu/diet-and-nutrition/eggs-protein-and-cholesterol-how-to-make-eggs-part-of-a-heart-healthy-diet\n\nJohns Hopkins Medicine. (2024). Healthy Breakfasts. https://www.hopkinsmedicine.org/health/wellness-and-prevention/healthy-breakfasts\n\nCleveland Clinic. (2026). How Much Protein Should I Eat a Day? https://health.clevelandclinic.org/how-much-protein-you-need"
   },
   "ILB-0180": {
     "type": "Infographic",
-    "_at": "2026-08-06T17:13:42.451Z"
+    "_at": "2026-08-06T18:49:52.039Z",
+    "references": "Harvard T.H. Chan School of Public Health. (2021). Berries are among the healthiest foods you can eat. https://hsph.harvard.edu/news/fresh-berries-are-among-the-healthiest-foods-you-can-eat/\n\nNutrients. (2021). A Review of the Properties of Anthocyanins and Their Influence on Factors Affecting Cardiometabolic and Cognitive Health. https://www.mdpi.com/2072-6643/13/8/2831\n\nCleveland Clinic. (2024). 7 Health Benefits of Spinach. https://health.clevelandclinic.org/benefits-of-spinach"
   },
   "ILB-0182": {
     "type": "Infographic",
-    "_at": "2026-08-06T17:13:42.451Z"
+    "_at": "2026-08-06T18:54:02.511Z",
+    "references": "Harvard T.H. Chan School of Public Health, The Nutrition Source. (2023). Healthy Eating Plate. https://nutritionsource.hsph.harvard.edu/healthy-eating-plate/\n\nMayo Clinic. (2025). Whole grains: Hearty options for a healthy diet. https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/whole-grains/art-20047826\n\nNutrients. (2023). Poultry Consumption and Human Cardiometabolic Health-Related Outcomes: A Narrative Review. https://doi.org/10.3390/nu15163550"
   },
   "ILB-0184": {
     "type": "Infographic",
-    "_at": "2026-08-06T17:13:42.451Z"
+    "_at": "2026-08-06T18:57:45.176Z",
+    "references": "Mayo Clinic. (2026). Mediterranean diet for heart health. https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/mediterranean-diet/art-20047801\n\nOxidative Medicine and Cellular Longevity. (2021). Lycopene: Food Sources, Biological Activities, and Human Health Benefits. https://doi.org/10.1155/2021/2713511\n\nCells. (2024). Cardiovascular and Metabolic Benefits of Extra Virgin Olive Oil Phenolic Compounds: Mechanistic Insights from In Vivo Studies. https://pmc.ncbi.nlm.nih.gov/articles/PMC11430205/"
   },
   "ILB-0186": {
     "type": "Infographic",
-    "_at": "2026-08-06T17:13:42.451Z"
+    "_at": "2026-08-06T19:01:34.581Z",
+    "references": "Cleveland Clinic. (2025). 4 Impressive Benefits of Black Beans. https://health.clevelandclinic.org/benefits-of-black-beans\n\nMayo Clinic Health System. (2024). The benefits of black beans. https://communityhealth.mayoclinic.org/featured-stories/black-bean-benefits\n\nInternational Journal of Molecular Sciences. (2025). The Cardioprotective Properties of Pulses and the Molecular Mechanisms of Their Action. https://pmc.ncbi.nlm.nih.gov/articles/PMC11899252/"
   },
   "ILB-0188": {
     "type": "Infographic",
-    "_at": "2026-08-06T17:13:42.451Z"
+    "_at": "2026-08-06T19:06:22.165Z",
+    "references": "Nutrients. (2024). Pulse Proteins and Their Hydrolysates: A Comprehensive Review of Their Beneficial Effects on Metabolic Syndrome and the Gut Microbiome. https://pmc.ncbi.nlm.nih.gov/articles/PMC11206746/\n\nCleveland Clinic. (2021). Are Potatoes Healthy? https://health.clevelandclinic.org/are-potatoes-healthy\n\nAmerican Heart Association. (2024). Picking Healthy Proteins. https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/nutrition-basics/picking-healthy-proteins\nCleveland Clinic. (2021). Are Potatoes Healthy? https://health.clevelandclinic.org/are-potatoes-healthy\n\nAmerican Heart Association. (2024). Picking Healthy Proteins. https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/nutrition-basics/picking-healthy-proteins"
   },
   "ILB-0190": {
     "type": "Infographic",
-    "_at": "2026-08-06T17:13:42.451Z"
+    "_at": "2026-08-06T19:10:49.915Z",
+    "references": "Cleveland Clinic. (2025). How Sweet Potatoes Can Beat Your Sugar Cravings. https://health.clevelandclinic.org/sweet-potato-benefits\n\nFrontiers in Nutrition. (2024). Legumes and common beans in sustainable diets: nutritional quality, environmental benefits, spread and use in food preparations. https://pmc.ncbi.nlm.nih.gov/articles/PMC11104268/\n\nNutrients. (2023). Exploring Benefits and Barriers of Plant-Based Diets: Health, Environmental Impact, Food Accessibility and Acceptability. https://www.mdpi.com/2072-6643/15/22/4723"
   },
   "ILB-0192": {
     "type": "Infographic",
-    "_at": "2026-08-06T17:13:42.451Z"
+    "_at": "2026-08-06T19:13:56.762Z",
+    "references": "American Heart Association. (2023). Are you getting enough omega-3 fatty acids? https://www.heart.org/en/news/2023/06/30/are-you-getting-enough-omega-3-fatty-acids\n\nHarvard T.H. Chan School of Public Health, The Nutrition Source. (2021). Aquatic Foods. https://nutritionsource.hsph.harvard.edu/aquatic-foods/\n\nFrontiers in Physiology. (2023). High fish intake rich in n-3 polyunsaturated fatty acids reduces cardiovascular disease incidence in healthy adults: The ATTICA cohort study (2002–2022). https://pmc.ncbi.nlm.nih.gov/articles/PMC10086327/\nHarvard T.H. Chan School of Public Health, The Nutrition Source. (2021). Aquatic Foods. https://nutritionsource.hsph.harvard.edu/aquatic-foods/\n\nFrontiers in Physiology. (2023). High fish intake rich in n-3 polyunsaturated fatty acids reduces cardiovascular disease incidence in healthy adults: The ATTICA cohort study (2002–2022). https://pmc.ncbi.nlm.nih.gov/articles/PMC10086327/"
   },
   "ILB-0194": {
     "type": "Infographic",
-    "_at": "2026-08-06T17:13:42.451Z"
+    "_at": "2026-08-06T19:20:14.589Z",
+    "references": "Harvard T.H. Chan School of Public Health, The Nutrition Source. (2024). Chia Seeds. https://nutritionsource.hsph.harvard.edu/food-features/chia-seeds/\n\nFoods. (2023). A Review of Plant-Based Drinks Addressing Nutrients, Flavor, and Processing Technologies. https://www.mdpi.com/2304-8158/12/21/3952\n\nCleveland Clinic. (2025). Peel It Back: Let's Look at the Health Benefits of Bananas. https://health.clevelandclinic.org/benefits-of-bananas"
   },
   "ILB-0196": {
     "type": "Infographic",
@@ -31045,7 +31085,8 @@
   },
   "ILB-0206": {
     "type": "Infographic",
-    "_at": "2026-08-06T17:13:42.451Z"
+    "_at": "2026-08-06T19:23:19.506Z",
+    "references": "Centers for Disease Control and Prevention. (2025). What You Can Do to Meet Physical Activity Recommendations. https://www.cdc.gov/physical-activity-basics/guidelines/index.html\n\nNational Institute on Aging. (2025). Three Types of Exercise Can Improve Your Health and Physical Ability. https://www.nia.nih.gov/health/exercise-and-physical-activity/three-types-exercise-can-improve-your-health-and-physical\n\nAmerican Heart Association. (2024). American Heart Association Recommendations for Physical Activity in Adults and Kids. https://www.heart.org/en/healthy-living/exercise-and-physical-activity/fitness-basics/aha-recs-for-physical-activity-in-adults"
   },
   "ILB-0207": {
     "type": "Infographic",
@@ -31053,23 +31094,28 @@
   },
   "ILB-0208": {
     "type": "Infographic",
-    "_at": "2026-08-06T17:13:42.451Z"
+    "_at": "2026-08-06T19:26:40.859Z",
+    "references": "Centers for Disease Control and Prevention. (2025). Adding Physical Activity as an Adult. https://www.cdc.gov/physical-activity-basics/adding-adults/index.html\n\nInternational Journal of Behavioral Nutrition and Physical Activity. (2023). Effects of habit formation interventions on physical activity habit strength: meta-analysis and meta-regression. https://pmc.ncbi.nlm.nih.gov/articles/PMC10498635/\n\nMayo Clinic. (2023). Fitness program: 5 steps to get started. https://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/fitness/art-20048269"
   },
   "ILB-0209": {
     "type": "Infographic",
-    "_at": "2026-08-06T17:13:42.451Z"
+    "_at": "2026-08-06T19:34:07.756Z",
+    "references": "European Journal of Preventive Cardiology. (2023). The association between daily step count and all-cause and cardiovascular mortality: a meta-analysis. https://academic.oup.com/eurjpc/article/30/18/1975/7226309\n\nMayo Clinic. (2026). Walking: Trim your waistline, improve your health. https://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/walking/art-20046261\n\nHarvard Health. (2023). Power up your walking routine. https://www.health.harvard.edu/exercise-and-fitness/power-up-your-walking-routine"
   },
   "ILB-0211": {
     "type": "Infographic",
-    "_at": "2026-08-06T17:13:42.451Z"
+    "_at": "2026-08-06T19:37:04.005Z",
+    "references": "American Heart Association. (2024). Getting Started: Tips for Long-term Exercise Success. https://www.heart.org/en/healthy-living/fitness/getting-active/getting-started---tips-for-long-term-exercise-success\n\nCleveland Clinic. (2024). Workout Motivation: Do's and Don'ts To Help You Actually Stick to Your New Exercise Routine. https://health.clevelandclinic.org/how-to-get-motivated-to-workout\n\nEuropean Review of Aging and Physical Activity. (2025). Staying engaged: a scoping review of psychological and motivational drivers of adherence to technology-supported physical activity in older adults. https://pmc.ncbi.nlm.nih.gov/articles/PMC12604158/"
   },
   "ILB-0213": {
     "type": "Infographic",
-    "_at": "2026-08-06T17:13:42.451Z"
+    "_at": "2026-08-06T19:41:43.775Z",
+    "references": "Frontiers in Psychology. (2022). Enjoyment as a Predictor of Exercise Habit, Intention to Continue Exercising, and Exercise Frequency: The Intensity Traits Discrepancy Moderation Role. https://pmc.ncbi.nlm.nih.gov/articles/PMC8894246/\n\nCenters for Disease Control and Prevention. (2025). Overcoming Barriers to Physical Activity. https://www.cdc.gov/physical-activity-basics/overcoming-barriers/index.html\n\nInternational Journal of Environmental Research and Public Health. (2022). The Relationship between Social Support and Exercise Adherence among Chinese College Students during the COVID-19 Pandemic: The Mediating Effects of Subjective Exercise Experience and Commitment. https://pmc.ncbi.nlm.nih.gov/articles/PMC9517627/"
   },
   "ILB-0215": {
     "type": "Infographic",
-    "_at": "2026-08-06T17:13:42.451Z"
+    "_at": "2026-08-06T19:44:41.985Z",
+    "references": "Harvard Health. (2026). The ideal stretching routine. https://www.health.harvard.edu/staying-healthy/the-ideal-stretching-routine\n\nCleveland Clinic. (2024). Dynamic vs. Static Stretching: Is One Better? https://health.clevelandclinic.org/dynamic-stretching-vs-static-stretching\n\nHeliyon. (2023). Dynamic and static stretching on hamstring flexibility and stiffness: A systematic review and meta-analysis. https://pmc.ncbi.nlm.nih.gov/articles/PMC10407730/"
   },
   "ILB-0217": {
     "type": "Infographic",
@@ -31081,7 +31127,8 @@
   },
   "ILB-0221": {
     "type": "Infographic",
-    "_at": "2026-08-06T17:13:42.451Z"
+    "_at": "2026-08-06T19:54:14.035Z",
+    "references": "Perioperative Medicine. (2025). Assessment of perioperative anxiety levels at three time-points during hospital stay in patients undergoing elective surgery. https://pmc.ncbi.nlm.nih.gov/articles/PMC11905583/\n\nFrontiers in Pediatrics. (2024). Preoperative anxiety management in pediatric patients: a systematic review and meta-analysis of randomized controlled trials on the efficacy of distraction techniques. https://pmc.ncbi.nlm.nih.gov/articles/PMC10909818/\n\nScientific Reports. (2023). Patient-reported perioperative anaesthesia-related anxiety is associated with impaired patient satisfaction: a secondary analysis from a prospective observational study in Switzerland. https://www.nature.com/articles/s41598-023-43447-6"
   },
   "ILB-0223": {
     "type": "Infographic",
@@ -31256,7 +31303,8 @@
   },
   "ILB-0297": {
     "type": "Infographic",
-    "_at": "2026-08-06T17:13:42.451Z"
+    "_at": "2026-08-06T20:28:26.886Z",
+    "references": "Cleveland Clinic. (2024). Postpartum: Stages, Symptoms & Recovery Time. https://my.clevelandclinic.org/health/articles/postpartum\n\nOffice on Women's Health. (2025). Recovering from birth. https://womenshealth.gov/pregnancy/childbirth-and-beyond/recovering-birth\n\nAJOG Global Reports. (2023). Postpartum recovery of nulliparous women following scheduled cesarean delivery and spontaneous vaginal delivery: a prospective observational study. https://pmc.ncbi.nlm.nih.gov/articles/PMC10276254/"
   },
   "ILB-0299": {
     "type": "Infographic",
@@ -31322,7 +31370,8 @@
   },
   "ILB-0327": {
     "type": "Infographic",
-    "_at": "2026-08-06T17:13:42.451Z"
+    "_at": "2026-08-06T20:35:21.069Z",
+    "references": "Centers for Disease Control and Prevention. (2024). Type 1 Diabetes. https://www.cdc.gov/diabetes/about/about-type-1-diabetes.html\n\nMayo Clinic. (2024). Type 1 diabetes – Symptoms and causes. https://www.mayoclinic.org/diseases-conditions/type-1-diabetes/symptoms-causes/syc-20353011\n\nThe Lancet. (2023). Type 1 diabetes. https://doi.org/10.1016/S0140-6736(23)00223-4"
   },
   "ILB-0329": {
     "type": "Infographic",
@@ -31436,7 +31485,8 @@
   },
   "ILB-0377": {
     "type": "Infographic",
-    "_at": "2026-08-06T17:13:42.451Z"
+    "_at": "2026-08-06T20:41:12.607Z",
+    "references": "Cleveland Clinic. (2026). Low Testosterone (Low T): Hypogonadism, Symptoms & Treatment. https://my.clevelandclinic.org/health/diseases/15603-low-testosterone-male-hypogonadism\n\nMayo Clinic. (2025). Male menopause: Myth or reality? https://www.mayoclinic.org/healthy-lifestyle/mens-health/in-depth/male-menopause/art-20048056\n\nThe Aging Male. (2023). Testosterone and aging male, a perspective from a developing country. https://doi.org/10.1080/13685538.2023.2223712"
   },
   "ILB-0378": {
     "type": "Infographic",
@@ -31444,7 +31494,8 @@
   },
   "ILB-0379": {
     "type": "Infographic",
-    "_at": "2026-08-06T17:13:42.451Z"
+    "_at": "2026-08-06T20:44:28.184Z",
+    "references": "Endocrine Society. (2022). Hypogonadism in Men. https://www.endocrine.org/patient-engagement/endocrine-library/hypogonadism\n\nMayo Clinic. (2024). Male hypogonadism — Symptoms & causes. https://www.mayoclinic.org/diseases-conditions/male-hypogonadism/symptoms-causes/syc-20354881\n\nDiagnostics. (2023). Adult Male Hypogonadism: A Laboratory Medicine Perspective on Its Diagnosis and Management. https://pmc.ncbi.nlm.nih.gov/articles/PMC10743125/"
   },
   "ILB-0382": {
     "type": "Infographic",
@@ -31521,7 +31572,8 @@
   },
   "ILB-0406": {
     "type": "Infographic",
-    "_at": "2026-08-06T17:13:42.451Z"
+    "_at": "2026-08-06T20:47:44.762Z",
+    "references": "Frontiers in Sports and Active Living. (2022). Strategic Self-Talk Assists Basketball Free Throw Performance Under Conditions of Physical Exertion. https://pmc.ncbi.nlm.nih.gov/articles/PMC9247139/\n\nCleveland Clinic. (2025). 35 Positive Affirmations To Say Each Day. https://health.clevelandclinic.org/do-positive-affirmations-work\n\nMayo Clinic. (2023). Positive thinking: Stop negative self-talk to reduce stress. https://www.mayoclinic.org/healthy-lifestyle/stress-management/in-depth/positive-thinking/art-20043950"
   },
   "ILB-0407": {
     "type": "Infographic",
@@ -31529,7 +31581,8 @@
   },
   "ILB-0408": {
     "type": "Infographic",
-    "_at": "2026-08-06T17:13:42.451Z"
+    "_at": "2026-08-06T20:52:02.003Z",
+    "references": "Centers for Disease Control and Prevention. (2024). Adult BMI Categories. https://www.cdc.gov/bmi/adult-calculator/bmi-categories.html\n\nWorld Health Organization. (2025). Obesity and overweight. https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight\n\nInternational Journal of Environmental Research and Public Health. (2024). Advantages and Limitations of the Body Mass Index (BMI) to Assess Adult Obesity. https://pmc.ncbi.nlm.nih.gov/articles/PMC11204233/"
   },
   "ILB-0409": {
     "type": "Infographic",
@@ -31537,11 +31590,13 @@
   },
   "ILB-0410": {
     "type": "Infographic",
-    "_at": "2026-08-06T17:13:42.451Z"
+    "_at": "2026-08-06T20:54:44.801Z",
+    "references": "Centers for Disease Control and Prevention. (2025). Steps for Losing Weight. https://www.cdc.gov/healthy-weight-growth/losing-weight/index.html\n\nMayo Clinic. (2024). Weight loss: 6 strategies for success. https://www.mayoclinic.org/healthy-lifestyle/weight-loss/in-depth/weight-loss/art-20047752\n\nObesity. (2022). Benefits of weight loss of 10% or more in patients with overweight or obesity: A review. https://doi.org/10.1002/oby.23371"
   },
   "ILB-0412": {
     "type": "Infographic",
-    "_at": "2026-08-06T17:13:42.451Z"
+    "_at": "2026-08-06T20:58:43.446Z",
+    "references": "Cleveland Clinic. (2022). 9 Benefits of Hiking. https://health.clevelandclinic.org/9-benefits-of-hiking\n\nInternational Journal of Environmental Research and Public Health. (2023). The Effects of Outdoor versus Indoor Exercise on Psychological Health, Physical Health, and Physical Activity Behaviour: A Systematic Review of Longitudinal Trials. https://pmc.ncbi.nlm.nih.gov/articles/PMC9914639/\n\nInternational Journal of Exercise Science. (2021). Simple Bodyweight Training Improves Cardiorespiratory Fitness with Minimal Time Commitment: A Contemporary Application of the 5BX Approach. https://pmc.ncbi.nlm.nih.gov/articles/PMC8136567/"
   },
   "ILB-0413": {
     "type": "Infographic",
@@ -31735,7 +31790,8 @@
   },
   "ILB-0485": {
     "type": "Infographic",
-    "_at": "2026-08-06T17:13:42.451Z"
+    "_at": "2026-08-06T19:48:01.075Z",
+    "references": "Mayo Clinic. (2023). Aerobic exercise: How to warm up and cool down. https://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/exercise/art-20045517\n\nAmerican Heart Association. (2024). Warm Up, Cool Down. https://www.heart.org/en/healthy-living/exercise-and-physical-activity/fitness-basics/warm-up-cool-down\n\nSports. (2026). Exercise-Based Strategies from Warm-Up to Training: A Systematic Review of Performance Enhancement and Injury Prevention. https://doi.org/10.3390/sports14050187"
   },
   "ILB-0487": {
     "type": "Infographic",
@@ -34205,8 +34261,9 @@
   },
   "EXT-0639": {
     "type": "Video",
-    "_at": "2026-08-06T17:24:22.202Z",
-    "duration": "4 min"
+    "_at": "2026-08-07T13:35:02.234Z",
+    "duration": "4 min",
+    "author": ""
   },
   "EXT-0640": {
     "type": "Video",
@@ -35599,7 +35656,8 @@
   },
   "EXT-1129": {
     "type": "Video",
-    "_at": "2026-08-06T17:13:42.451Z"
+    "_at": "2026-08-06T21:07:23.797Z",
+    "references": "Alcohol and Alcoholism. (2024). Drinking motives link positive and negative life events to problematic alcohol use during the COVID-19 pandemic: a longitudinal study. https://doi.org/10.1093/alcalc/agae068\n\nAddictive Behaviors Reports. (2022). The direct effect of drinking to cope on alcohol problems is not mediated by alcohol consumption: Invariance across gender and countries. https://pmc.ncbi.nlm.nih.gov/articles/PMC9640946/\n\nJournal of Studies on Alcohol and Drugs. (2025). Coping Motives for Alcohol and Cannabis Use Better Reflect Negative Emotionality Than Emotion Regulation Deficits in Young Adults. https://pmc.ncbi.nlm.nih.gov/articles/PMC12674593/"
   },
   "EXT-1130": {
     "type": "Video",
@@ -35625,7 +35683,8 @@
   },
   "VID-0022": {
     "duration": "5 min",
-    "_at": "2026-08-06T17:24:22.202Z"
+    "_at": "2026-08-06T21:20:00.964Z",
+    "references": "Centers for Disease Control and Prevention. (2026). About Adverse Childhood Experiences. https://www.cdc.gov/aces/about/index.html\n\nCleveland Clinic. (2025). How To Heal From Childhood Trauma. https://health.clevelandclinic.org/childhood-traumas-lasting-effects-on-mental-and-physical-health\n\nChild Abuse & Neglect. (2022). A systematic review and meta-analysis of trauma-focused cognitive behavioral therapy for children and adolescents. https://doi.org/10.1016/j.chiabu.2022.105899"
   },
   "VID-0023": {
     "duration": "5 min",
@@ -36090,5 +36149,702 @@
   "INF-0091": {
     "references": "National Institutes of Health. (2022). Nutrition: Nutrients and health. https://www.nhlbi.nih.gov/health/educational/wecan/eat-right/nutrition.htm World Health Organization. (2023). Healthy diet. https://www.who.int/news-room/fact-sheets/detail/healthy-diet National Health Service. (2023). Eat well. https://www.nhs.uk/live-well/eat-well/",
     "_at": "2026-08-06T18:42:44.558Z"
+  },
+  "INF-0092": {
+    "references": "Harvard Health Publishing. (2024). Eggs, protein, and cholesterol: How to make eggs part of a heart-healthy diet. https://www.health.harvard.edu/diet-and-nutrition/eggs-protein-and-cholesterol-how-to-make-eggs-part-of-a-heart-healthy-diet\n\nJohns Hopkins Medicine. (2024). Healthy Breakfasts. https://www.hopkinsmedicine.org/health/wellness-and-prevention/healthy-breakfasts\n\nCleveland Clinic. (2026). How Much Protein Should I Eat a Day? https://health.clevelandclinic.org/how-much-protein-you-need",
+    "_at": "2026-08-06T18:45:56.945Z"
+  },
+  "INF-0093": {
+    "references": "Harvard T.H. Chan School of Public Health. (2021). Berries are among the healthiest foods you can eat. https://hsph.harvard.edu/news/fresh-berries-are-among-the-healthiest-foods-you-can-eat/\n\nNutrients. (2021). A Review of the Properties of Anthocyanins and Their Influence on Factors Affecting Cardiometabolic and Cognitive Health. https://www.mdpi.com/2072-6643/13/8/2831\n\nCleveland Clinic. (2024). 7 Health Benefits of Spinach. https://health.clevelandclinic.org/benefits-of-spinach",
+    "_at": "2026-08-06T18:49:44.327Z"
+  },
+  "INF-0094": {
+    "references": "Harvard T.H. Chan School of Public Health, The Nutrition Source. (2023). Healthy Eating Plate. https://nutritionsource.hsph.harvard.edu/healthy-eating-plate/\n\nMayo Clinic. (2025). Whole grains: Hearty options for a healthy diet. https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/whole-grains/art-20047826\n\nNutrients. (2023). Poultry Consumption and Human Cardiometabolic Health-Related Outcomes: A Narrative Review. https://doi.org/10.3390/nu15163550",
+    "_at": "2026-08-06T18:53:54.685Z"
+  },
+  "INF-0095": {
+    "references": "Mayo Clinic. (2026). Mediterranean diet for heart health. https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/mediterranean-diet/art-20047801\n\nOxidative Medicine and Cellular Longevity. (2021). Lycopene: Food Sources, Biological Activities, and Human Health Benefits. https://doi.org/10.1155/2021/2713511\n\nCells. (2024). Cardiovascular and Metabolic Benefits of Extra Virgin Olive Oil Phenolic Compounds: Mechanistic Insights from In Vivo Studies. https://pmc.ncbi.nlm.nih.gov/articles/PMC11430205/",
+    "_at": "2026-08-06T18:57:35.342Z"
+  },
+  "INF-0096": {
+    "references": "Cleveland Clinic. (2025). 4 Impressive Benefits of Black Beans. https://health.clevelandclinic.org/benefits-of-black-beans\n\nMayo Clinic Health System. (2024). The benefits of black beans. https://communityhealth.mayoclinic.org/featured-stories/black-bean-benefits\n\nInternational Journal of Molecular Sciences. (2025). The Cardioprotective Properties of Pulses and the Molecular Mechanisms of Their Action. https://pmc.ncbi.nlm.nih.gov/articles/PMC11899252/",
+    "_at": "2026-08-06T19:01:27.138Z"
+  },
+  "INF-0098": {
+    "references": "Cleveland Clinic. (2025). How Sweet Potatoes Can Beat Your Sugar Cravings. https://health.clevelandclinic.org/sweet-potato-benefits\n\nFrontiers in Nutrition. (2024). Legumes and common beans in sustainable diets: nutritional quality, environmental benefits, spread and use in food preparations. https://pmc.ncbi.nlm.nih.gov/articles/PMC11104268/\n\nNutrients. (2023). Exploring Benefits and Barriers of Plant-Based Diets: Health, Environmental Impact, Food Accessibility and Acceptability. https://www.mdpi.com/2072-6643/15/22/4723",
+    "_at": "2026-08-06T19:10:56.795Z"
+  },
+  "INF-0100": {
+    "references": "Harvard T.H. Chan School of Public Health, The Nutrition Source. (2024). Chia Seeds. https://nutritionsource.hsph.harvard.edu/food-features/chia-seeds/\n\nFoods. (2023). A Review of Plant-Based Drinks Addressing Nutrients, Flavor, and Processing Technologies. https://www.mdpi.com/2304-8158/12/21/3952\n\nCleveland Clinic. (2025). Peel It Back: Let's Look at the Health Benefits of Bananas. https://health.clevelandclinic.org/benefits-of-bananas",
+    "_at": "2026-08-06T19:19:59.907Z"
+  },
+  "INF-0106": {
+    "references": "Centers for Disease Control and Prevention. (2025). What You Can Do to Meet Physical Activity Recommendations. https://www.cdc.gov/physical-activity-basics/guidelines/index.html\n\nNational Institute on Aging. (2025). Three Types of Exercise Can Improve Your Health and Physical Ability. https://www.nia.nih.gov/health/exercise-and-physical-activity/three-types-exercise-can-improve-your-health-and-physical\n\nAmerican Heart Association. (2024). American Heart Association Recommendations for Physical Activity in Adults and Kids. https://www.heart.org/en/healthy-living/exercise-and-physical-activity/fitness-basics/aha-recs-for-physical-activity-in-adults",
+    "_at": "2026-08-06T19:23:06.495Z"
+  },
+  "INF-0108": {
+    "references": "Centers for Disease Control and Prevention. (2025). Adding Physical Activity as an Adult. https://www.cdc.gov/physical-activity-basics/adding-adults/index.html\n\nInternational Journal of Behavioral Nutrition and Physical Activity. (2023). Effects of habit formation interventions on physical activity habit strength: meta-analysis and meta-regression. https://pmc.ncbi.nlm.nih.gov/articles/PMC10498635/\n\nMayo Clinic. (2023). Fitness program: 5 steps to get started. https://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/fitness/art-20048269",
+    "_at": "2026-08-06T19:26:30.922Z"
+  },
+  "INF-0109": {
+    "references": "European Journal of Preventive Cardiology. (2023). The association between daily step count and all-cause and cardiovascular mortality: a meta-analysis. https://academic.oup.com/eurjpc/article/30/18/1975/7226309\n\nMayo Clinic. (2026). Walking: Trim your waistline, improve your health. https://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/walking/art-20046261\n\nHarvard Health. (2023). Power up your walking routine. https://www.health.harvard.edu/exercise-and-fitness/power-up-your-walking-routine",
+    "_at": "2026-08-06T19:34:00.440Z"
+  },
+  "INF-0110": {
+    "references": "American Heart Association. (2024). Getting Started: Tips for Long-term Exercise Success. https://www.heart.org/en/healthy-living/fitness/getting-active/getting-started---tips-for-long-term-exercise-success\n\nCleveland Clinic. (2024). Workout Motivation: Do's and Don'ts To Help You Actually Stick to Your New Exercise Routine. https://health.clevelandclinic.org/how-to-get-motivated-to-workout\n\nEuropean Review of Aging and Physical Activity. (2025). Staying engaged: a scoping review of psychological and motivational drivers of adherence to technology-supported physical activity in older adults. https://pmc.ncbi.nlm.nih.gov/articles/PMC12604158/",
+    "_at": "2026-08-06T19:37:13.072Z"
+  },
+  "INF-0111": {
+    "references": "Frontiers in Psychology. (2022). Enjoyment as a Predictor of Exercise Habit, Intention to Continue Exercising, and Exercise Frequency: The Intensity Traits Discrepancy Moderation Role. https://pmc.ncbi.nlm.nih.gov/articles/PMC8894246/\n\nCenters for Disease Control and Prevention. (2025). Overcoming Barriers to Physical Activity. https://www.cdc.gov/physical-activity-basics/overcoming-barriers/index.html\n\nInternational Journal of Environmental Research and Public Health. (2022). The Relationship between Social Support and Exercise Adherence among Chinese College Students during the COVID-19 Pandemic: The Mediating Effects of Subjective Exercise Experience and Commitment. https://pmc.ncbi.nlm.nih.gov/articles/PMC9517627/",
+    "_at": "2026-08-06T19:41:53.034Z"
+  },
+  "INF-0112": {
+    "references": "Harvard Health. (2026). The ideal stretching routine. https://www.health.harvard.edu/staying-healthy/the-ideal-stretching-routine\n\nCleveland Clinic. (2024). Dynamic vs. Static Stretching: Is One Better? https://health.clevelandclinic.org/dynamic-stretching-vs-static-stretching\n\nHeliyon. (2023). Dynamic and static stretching on hamstring flexibility and stiffness: A systematic review and meta-analysis. https://pmc.ncbi.nlm.nih.gov/articles/PMC10407730/",
+    "_at": "2026-08-06T19:44:49.612Z"
+  },
+  "INF-0113": {
+    "references": "Mayo Clinic. (2023). Aerobic exercise: How to warm up and cool down. https://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/exercise/art-20045517\n\nAmerican Heart Association. (2024). Warm Up, Cool Down. https://www.heart.org/en/healthy-living/exercise-and-physical-activity/fitness-basics/warm-up-cool-down\n\nSports. (2026). Exercise-Based Strategies from Warm-Up to Training: A Systematic Review of Performance Enhancement and Injury Prevention. https://doi.org/10.3390/sports14050187",
+    "_at": "2026-08-06T19:48:06.176Z"
+  },
+  "INF-0115": {
+    "references": "Perioperative Medicine. (2025). Assessment of perioperative anxiety levels at three time-points during hospital stay in patients undergoing elective surgery. https://pmc.ncbi.nlm.nih.gov/articles/PMC11905583/\n\nFrontiers in Pediatrics. (2024). Preoperative anxiety management in pediatric patients: a systematic review and meta-analysis of randomized controlled trials on the efficacy of distraction techniques. https://pmc.ncbi.nlm.nih.gov/articles/PMC10909818/\n\nScientific Reports. (2023). Patient-reported perioperative anaesthesia-related anxiety is associated with impaired patient satisfaction: a secondary analysis from a prospective observational study in Switzerland. https://www.nature.com/articles/s41598-023-43447-6",
+    "_at": "2026-08-06T19:54:20.286Z"
+  },
+  "VID-0013": {
+    "references": "Cleveland Clinic. (2022). Psychotherapy: What It Is, Why It Is Done & Types. https://my.clevelandclinic.org/health/treatments/23445-psychotherapy\n\nMayo Clinic. (2023). Psychotherapy. https://www.mayoclinic.org/tests-procedures/psychotherapy/about/pac-20384616\n\nWorld Psychiatry. (2022). The efficacy of psychotherapies and pharmacotherapies for mental disorders in adults: an umbrella review and meta-analytic evaluation of recent meta-analyses. https://doi.org/10.1002/wps.20941",
+    "_at": "2026-08-06T21:13:59.951Z"
+  },
+  "EXT-0687": {
+    "title": "Avocado Toast With Poached Eggs",
+    "_at": "2026-08-06T23:41:42.394Z",
+    "author": "Jade Gordon",
+    "date_created": "10/9/2025"
+  },
+  "EXT-0688": {
+    "title": "Baked Egg Cups",
+    "_at": "2026-08-07T01:12:28.987Z",
+    "author": "Jade Gordon",
+    "date_created": "1/14/2025"
+  },
+  "EXT-0689": {
+    "title": "Baked Sweet Potato Chips",
+    "_at": "2026-08-07T02:02:13.823Z",
+    "category": "Nutrition",
+    "author": "Jade Gordon",
+    "date_created": "1/14/2026"
+  },
+  "EXT-0690": {
+    "title": "Banana Oatmeal Pancakes",
+    "_at": "2026-08-07T02:03:03.156Z",
+    "author": "Jade Gordon",
+    "category": "Nutrition",
+    "date_created": "1/14/2025"
+  },
+  "EXT-0691": {
+    "title": "Beef & Vegetable Stir Fry",
+    "_at": "2026-08-07T05:34:58.677Z",
+    "author": "Jade Gordon",
+    "date_created": "3/11/2025"
+  },
+  "EXT-0692": {
+    "title": "Butternut Squash Soup",
+    "_at": "2026-08-07T05:35:32.961Z",
+    "author": "Jade Gordon",
+    "date_created": "1/15/2025"
+  },
+  "EXT-0693": {
+    "title": "Chocolate Banana Bites",
+    "_at": "2026-08-07T05:36:11.660Z",
+    "author": "Jade Gordon",
+    "date_created": "1/21/2025"
+  },
+  "EXT-0694": {
+    "title": "Coconut Curry Salmon",
+    "_at": "2026-08-07T05:37:06.893Z",
+    "author": "Jade Gordon",
+    "date_created": "1/21/2025"
+  },
+  "EXT-0695": {
+    "title": "Cranberry Oatmeal Cookies",
+    "_at": "2026-08-07T05:37:46.078Z",
+    "author": "Jade Gordon",
+    "date_created": "1/21/2025"
+  },
+  "EXT-0696": {
+    "title": "Dairy-Free Banana Chia Pudding",
+    "_at": "2026-08-07T05:38:23.213Z",
+    "author": "Jade Gordon",
+    "date_created": "1/21/2025"
+  },
+  "EXT-0697": {
+    "title": "Easy Baked Lemon Herb Chicken",
+    "_at": "2026-08-07T05:39:13.759Z",
+    "author": "Jade Gordon",
+    "date_created": "1/14/2025"
+  },
+  "EXT-0698": {
+    "title": "Garlic & Broccoli Pasta",
+    "_at": "2026-08-07T05:39:50.378Z",
+    "author": "Jade Gordon",
+    "date_created": "3/11/2025"
+  },
+  "EXT-0699": {
+    "title": "Garlic Butter Shrimp With Zucchini Noodles",
+    "_at": "2026-08-07T05:40:27.944Z",
+    "author": "Jade Gordon",
+    "date_created": "9/9/2025"
+  },
+  "EXT-0700": {
+    "title": "Grilled Chicken With Lemon & Rosemary",
+    "_at": "2026-08-07T05:41:02.610Z",
+    "author": "Jade Gordon",
+    "date_created": "9/9/2025"
+  },
+  "EXT-0701": {
+    "title": "Grilled Herb-Marinated Lamb Chops",
+    "_at": "2026-08-07T05:41:37.876Z",
+    "author": "Jade Gordon",
+    "date_created": "1/27/2025"
+  },
+  "EXT-0702": {
+    "title": "Grilled Lemon Herb Shrimp Skewers",
+    "_at": "2026-08-07T05:42:44.844Z",
+    "author": "Jade Gordon",
+    "date_created": "1/14/2025"
+  },
+  "EXT-0703": {
+    "title": "Honey Roasted Carrots",
+    "_at": "2026-08-07T05:43:06.961Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0704": {
+    "title": "Easy Baked Lemon Herb Salmon",
+    "_at": "2026-08-07T05:43:15.576Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0705": {
+    "title": "Lentil Soup",
+    "_at": "2026-08-07T05:43:25.627Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0706": {
+    "title": "No Bake Peanut Butter Protein Bars",
+    "_at": "2026-08-07T05:43:34.444Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0707": {
+    "title": "Pan-Seared Scallops With Garlic & Lemon",
+    "_at": "2026-08-07T05:43:43.243Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0708": {
+    "title": "Quinoa Stuffed Bell Peppers",
+    "_at": "2026-08-07T05:43:55.060Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0709": {
+    "title": "Roasted Garlic Parmesan Green Beans",
+    "_at": "2026-08-07T05:44:33.361Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0710": {
+    "title": "Sautéed Garlic Kale",
+    "_at": "2026-08-07T05:44:42.544Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0711": {
+    "title": "Sesame Ginger Tofu Stir Fry",
+    "_at": "2026-08-07T05:44:59.627Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0712": {
+    "title": "Spinach & Mushroom Omelette",
+    "_at": "2026-08-07T05:45:07.193Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0713": {
+    "title": "Steamed Vegetable Wontons",
+    "_at": "2026-08-07T05:45:19.344Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0714": {
+    "title": "Teriyaki Salmon.pdf",
+    "_at": "2026-08-07T05:45:28.277Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0715": {
+    "title": "Veggie Stuffed Mushrooms",
+    "_at": "2026-08-07T05:48:53.778Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0716": {
+    "title": "Gluten-Free Pizza",
+    "_at": "2026-08-07T05:49:07.528Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0717": {
+    "title": "Grilled Steak",
+    "_at": "2026-08-07T05:49:17.778Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0718": {
+    "title": "Brown Rice Stir Fry",
+    "_at": "2026-08-07T05:49:27.045Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0719": {
+    "title": "Leftover Chicken & Barley Soup",
+    "_at": "2026-08-07T05:49:36.328Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0720": {
+    "title": "Omega-Packed Energy Bites",
+    "_at": "2026-08-07T05:49:45.694Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0721": {
+    "title": "Spinach & Mushroom Pasta",
+    "_at": "2026-08-07T05:49:54.445Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0722": {
+    "title": "Veggie Pasta",
+    "_at": "2026-08-07T05:50:03.094Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0723": {
+    "title": "Beef & Lentil Chili",
+    "_at": "2026-08-07T05:50:12.178Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0724": {
+    "title": "Orange & Mango Sorbet",
+    "_at": "2026-08-07T05:50:22.628Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0725": {
+    "title": "Tart Cherry Refresher",
+    "_at": "2026-08-07T05:50:36.694Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0726": {
+    "title": "Sweet Potato Brownies",
+    "_at": "2026-08-07T05:51:20.878Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0727": {
+    "title": "Overnight Oats With Chia Seeds & Flaxseeds",
+    "_at": "2026-08-07T05:51:31.044Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0728": {
+    "title": "Hemp Seed Hummus",
+    "_at": "2026-08-07T05:51:40.494Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0729": {
+    "title": "Budget-Friendly Turkey & Cabbage Skillet",
+    "_at": "2026-08-07T05:51:53.345Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0730": {
+    "title": "One Pot White Bean & Kale Stew",
+    "_at": "2026-08-07T05:52:00.712Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0731": {
+    "title": "One-Pot Lentil & Veggie Stew",
+    "_at": "2026-08-07T05:52:07.828Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0732": {
+    "title": "Turkey & Zucchini Skillet",
+    "_at": "2026-08-07T05:52:14.644Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0733": {
+    "title": "Sweet Potato & Black Bean Hash",
+    "_at": "2026-08-07T05:52:20.777Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0734": {
+    "title": "Recipe - Baked Cod With Green Beans",
+    "_at": "2026-08-07T05:52:27.011Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0735": {
+    "title": "Cottage Cheese & Berry Bowl",
+    "_at": "2026-08-07T05:52:42.677Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0736": {
+    "title": "Brown Rice & Broccoli Bowl",
+    "_at": "2026-08-07T05:52:51.696Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0737": {
+    "title": "Oatmeal With Banana & Flax",
+    "_at": "2026-08-07T05:53:00.594Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0738": {
+    "title": "Egg & Spinach Scramble",
+    "_at": "2026-08-07T05:53:07.262Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0739": {
+    "title": "Slow Cooker Garlic Herb Chicken Thighs",
+    "_at": "2026-08-07T05:53:16.878Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0740": {
+    "title": "Crockpot Chicken & Spinach",
+    "_at": "2026-08-07T05:53:24.061Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0741": {
+    "title": "Slow Cooker Mediterranean Beef Stew",
+    "_at": "2026-08-07T05:53:31.095Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0742": {
+    "title": "Chicken & Brown Rice Soup",
+    "_at": "2026-08-07T05:53:37.960Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0743": {
+    "title": "Slow Cooker Spinach Lentil Curry",
+    "_at": "2026-08-07T05:54:24.711Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0744": {
+    "title": "Recipe - Slow Cooker Turkey Chili With Zucchini",
+    "_at": "2026-08-07T05:54:32.161Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0745": {
+    "title": "Crockpot Ratatouille",
+    "_at": "2026-08-07T05:54:47.628Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0746": {
+    "title": "Low FODMAP Slow Cooker Coconut Chicken Curry",
+    "_at": "2026-08-07T05:54:54.295Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0747": {
+    "title": "Low FODMAP Chicken & Zucchini Stir-Fry",
+    "_at": "2026-08-07T05:55:01.128Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0748": {
+    "title": "Low FODMAP Scrambled Eggs & Chives",
+    "_at": "2026-08-07T05:55:11.228Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0749": {
+    "title": "Low FODMAP Tuna & Rice Bowl",
+    "_at": "2026-08-07T05:55:20.377Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0750": {
+    "title": "Low FODMAP Baked Potato With Cottage Cheese",
+    "_at": "2026-08-07T05:55:29.861Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0751": {
+    "title": "Savory Miso Rice Porridge",
+    "_at": "2026-08-07T05:55:39.194Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0752": {
+    "title": "Creamy Chicken & Potato Mash",
+    "_at": "2026-08-07T05:56:08.812Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0753": {
+    "title": "Buttery Coconut Rice With Steamed Pumpkin",
+    "_at": "2026-08-07T05:56:18.210Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0754": {
+    "title": "Creamy Rice With Soft Egg",
+    "_at": "2026-08-07T05:56:29.677Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0755": {
+    "title": "Mashed Sweet Potato",
+    "_at": "2026-08-07T05:56:39.111Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0756": {
+    "title": "Coconut Milk Porridge",
+    "_at": "2026-08-07T05:56:47.660Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0757": {
+    "title": "Plain Yogurt With Banana & Oil",
+    "_at": "2026-08-07T05:56:56.612Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0758": {
+    "title": "Soft Scrambled Eggs With Zucchini",
+    "_at": "2026-08-07T05:57:04.962Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0759": {
+    "title": "Applesauce Oatmeal With Ground Flax",
+    "_at": "2026-08-07T05:57:14.494Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0760": {
+    "title": "Creamy Egg & Ricotta Toast With Fresh Herbs",
+    "_at": "2026-08-07T05:58:22.878Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0761": {
+    "title": "Savory Egg Muffins With Soft Veggies & Cheese",
+    "_at": "2026-08-07T05:58:31.311Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0762": {
+    "title": "Creamy Scrambled Eggs With Cottage Cheese & Chives",
+    "_at": "2026-08-07T05:58:46.311Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0763": {
+    "title": "Egg & Potato Breakfast Hash With Zucchini",
+    "_at": "2026-08-07T05:58:57.710Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0764": {
+    "title": "Ricotta Pancakes",
+    "_at": "2026-08-07T05:59:07.412Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0765": {
+    "title": "Chicken & Carrot Purée Bowl",
+    "_at": "2026-08-07T05:59:30.644Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0766": {
+    "title": "Simple White Fish With Steamed Rice",
+    "_at": "2026-08-07T05:59:42.195Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0767": {
+    "title": "Mashed Chickpea & Potato Bowl",
+    "_at": "2026-08-07T05:59:52.277Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0768": {
+    "title": "Carrot & Rice Soup With Ginger.pdf",
+    "_at": "2026-08-07T06:00:01.011Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0769": {
+    "title": "Mild Tomato & Rice Soup",
+    "_at": "2026-08-07T06:00:35.346Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0770": {
+    "title": "Zucchini & White Bean Broth Soup",
+    "_at": "2026-08-07T06:00:46.178Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0771": {
+    "title": "Egg Drop Broth Soup",
+    "_at": "2026-08-07T06:00:58.928Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0772": {
+    "title": "Broccoli & Potato Purée Soup",
+    "_at": "2026-08-07T06:01:08.161Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0773": {
+    "title": "Butternut Squash & Apple Puree Soup",
+    "_at": "2026-08-07T06:01:20.145Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0774": {
+    "title": "Chicken & Rice Broth Soup",
+    "_at": "2026-08-07T06:01:33.528Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0775": {
+    "title": "Turkey, Rice & Zucchini Bake",
+    "_at": "2026-08-07T06:01:44.010Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0776": {
+    "title": "Chicken, Sweet Potato & Spinach Bake",
+    "_at": "2026-08-07T06:01:53.795Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0777": {
+    "title": "Salmon, Broccoli & Quinoa Bake",
+    "_at": "2026-08-07T06:02:02.728Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0778": {
+    "title": "Turkey & Butternut Squash Bake",
+    "_at": "2026-08-07T06:02:14.677Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0779": {
+    "title": "Chicken, Pea & Potato Bake",
+    "_at": "2026-08-07T06:02:23.328Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0780": {
+    "title": "Chickpea, Sweet Potato & Rice Bake",
+    "_at": "2026-08-07T06:02:30.844Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0781": {
+    "title": "Black Bean Burrito Bowl Casserole",
+    "_at": "2026-08-07T06:02:39.126Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0782": {
+    "title": "Zucchini, Quinoa & Tomato Bake",
+    "_at": "2026-08-07T06:02:47.946Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0783": {
+    "title": "Low‑Sodium Chicken & Rice Casserole",
+    "_at": "2026-08-07T06:03:10.879Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0784": {
+    "title": "Tuna Noodle Bake",
+    "_at": "2026-08-07T06:03:20.643Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0785": {
+    "title": "DASH Turkey Shepherd’s Pie",
+    "_at": "2026-08-07T06:03:29.245Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0786": {
+    "title": "Vegan Sweet Potato & Black Bean Bake",
+    "_at": "2026-08-07T06:03:38.194Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0787": {
+    "title": "Cottage Cheese With Peaches",
+    "_at": "2026-08-07T06:03:47.511Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0788": {
+    "title": "Hummus & Soft Pita Pockets",
+    "_at": "2026-08-07T06:03:56.310Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0789": {
+    "title": "Greek Yogurt With Honey & Crushed Graham Cracker",
+    "_at": "2026-08-07T06:04:05.077Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0790": {
+    "title": "Creamy Mashed Potato & Chicken Bake",
+    "_at": "2026-08-07T06:04:14.127Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0791": {
+    "title": "Silky Sweet Potato & Carrot Purée",
+    "_at": "2026-08-07T06:04:25.852Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0792": {
+    "title": "Creamy Cauliflower & Potato Soup",
+    "_at": "2026-08-07T06:04:46.940Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0793": {
+    "title": "Soft Baked Salmon With Mashed Cauliflower",
+    "_at": "2026-08-07T06:04:55.288Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0794": {
+    "title": "Plant-Based Lentil & Carrot Stew",
+    "_at": "2026-08-07T06:05:06.068Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0795": {
+    "title": "Turkey & Sweet Potato Casserole",
+    "_at": "2026-08-07T06:05:27.668Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0796": {
+    "title": "Creamy Polenta With Soft Mushrooms",
+    "_at": "2026-08-07T06:05:40.101Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0797": {
+    "title": "Baked Tilapia With Creamed Spinach",
+    "_at": "2026-08-07T06:05:50.068Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0798": {
+    "title": "Baked Cod With Cauliflower Mash",
+    "_at": "2026-08-07T06:05:58.333Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0799": {
+    "title": "Turkey Meatballs In Tomato Sauce",
+    "_at": "2026-08-07T06:06:07.234Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0800": {
+    "title": "Chicken & Vegetable Stew",
+    "_at": "2026-08-07T06:06:27.001Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0801": {
+    "title": "Lentil & Sweet Potato Curry",
+    "_at": "2026-08-07T06:06:36.433Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0802": {
+    "title": "Turkey & Spinach Meatloaf",
+    "_at": "2026-08-07T06:06:45.775Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0803": {
+    "title": "Creamy Broccoli & Cheese Soup",
+    "_at": "2026-08-07T06:06:54.216Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0804": {
+    "title": "Slow Cooker Beef & Vegetable Stew",
+    "_at": "2026-08-07T06:07:05.784Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0805": {
+    "title": "Soft Baked Chicken & Rice Casserole",
+    "_at": "2026-08-07T06:07:20.633Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0806": {
+    "title": "Baked Tilapia With Mashed Carrots",
+    "_at": "2026-08-07T06:07:29.734Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0807": {
+    "title": "Plant-Based Sweet Potato & Black Bean Casserole",
+    "_at": "2026-08-07T06:07:40.517Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0808": {
+    "title": "Plant-Based Creamy Cauliflower & Leek Soup",
+    "_at": "2026-08-07T06:07:53.482Z",
+    "author": "Jade Gordon"
+  },
+  "EXT-0809": {
+    "title": "High-Protein Chicken & Vegetable Soup",
+    "_at": "2026-08-07T06:08:43.811Z",
+    "author": "Jade Gordon"
   }
 }
