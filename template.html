@@ -2249,7 +2249,12 @@ function showDetail(item) {
   const fTitle   = T('title');
   const fCat     = T('category');
   const fPrio    = T('review_priority');
-  const fAuthor  = T('author') || T('teacher');
+  // This box shows author, falling back to teacher when author is blank. Edits
+  // must target whichever field is actually supplying what's on screen — else
+  // clearing a teacher-sourced value only ever writes an empty author, leaving
+  // the real (teacher) value in place and unchanged underneath the fallback.
+  const fAuthorField = T('author') ? 'author' : 'teacher';
+  const fAuthor  = T(fAuthorField);
   const fCreds   = T('author_creds');
   const fReviewer= T('peer_reviewer');
   const fVer     = T('version');
@@ -2368,7 +2373,7 @@ function showDetail(item) {
       </div>`:''}
       <div class="detail-field"><label>Author / Teacher</label>
         <div style="display:flex;align-items:center;gap:7px">
-          <input class="field-edit" data-f="author" value="${esc(fAuthor)}" list="creatorList" style="flex:1" autocomplete="off">
+          <input class="field-edit" data-f="${fAuthorField}" value="${esc(fAuthor)}" list="creatorList" style="flex:1" autocomplete="off">
           ${profileBtn(fAuthor)}
         </div>
       </div>
