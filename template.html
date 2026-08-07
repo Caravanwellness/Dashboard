@@ -1338,8 +1338,29 @@ async function handleImportFile(file) {
       }
     }
 
+    // A title can legitimately exist more than once — different language
+    // versions of the same content (e.g. an English and a Spanish infographic
+    // sharing the exact same title text). So this indexes ALL items sharing a
+    // title, not just the last one processed.
     const byTitleIdx = {};
-    ALL.forEach(i => { byTitleIdx[(i.title||'').toLowerCase().trim()] = i; });
+    ALL.forEach(i => {
+      const k = (i.title||'').toLowerCase().trim();
+      if (!byTitleIdx[k]) byTitleIdx[k] = [];
+      byTitleIdx[k].push(i);
+    });
+
+    // When a row specifies a language, only match an existing item with that
+    // same language — never assume a Spanish row means "update the English
+    // item" just because the title text is identical. A row with no language
+    // info falls back to matching on title alone (first candidate), same as
+    // the previous single-item-per-title behavior.
+    function findByTitle(rawTitle, rowLanguage) {
+      const candidates = byTitleIdx[rawTitle.toLowerCase().trim()];
+      if (!candidates || !candidates.length) return undefined;
+      if (!rowLanguage) return candidates[0];
+      const wanted = rowLanguage.toLowerCase().trim();
+      return candidates.find(c => (lv(c,'language')||'').toLowerCase().trim() === wanted);
+    }
 
     // Columns that map onto existing item fields for a bulk update-by-ID.
     // Only used when the row has an ID that matches an existing item — title-only
@@ -1392,7 +1413,8 @@ async function handleImportFile(file) {
         // Only fall back to title matching when the row has no usable ID.
         const rowId = String(row['id'] || '').trim();
         const matchedById = !!(rowId && BY_ID[rowId]);
-        const existing = matchedById ? BY_ID[rowId] : (rawTitle ? byTitleIdx[rawTitle.toLowerCase().trim()] : undefined);
+        const rowLanguage = String(row['language'] || '').trim();
+        const existing = matchedById ? BY_ID[rowId] : (rawTitle ? findByTitle(rawTitle, rowLanguage) : undefined);
 
         if (!rawTitle && !matchedById) continue;
 
@@ -1401,7 +1423,10 @@ async function handleImportFile(file) {
         const hasLen = String(row['length'] || '').trim();
         if (!matchedById && !hasUrl && !hasLen && sectionVal === rawTitle) continue;
 
-        const key = rawTitle.toLowerCase().trim();
+        // Include language in the new-item dedup key too, so an English row and
+        // a Spanish row sharing the same title become two distinct new items
+        // instead of the second one silently merging into the first.
+        const key = rawTitle.toLowerCase().trim() + '|' + rowLanguage.toLowerCase();
 
         if (existing) {
           // Tag existing item with client license. Queue just the client being
