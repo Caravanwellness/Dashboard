@@ -672,10 +672,9 @@
   },
   "ART-0086": {
     "author": "Marlee Alanis",
-    "_at": "2026-08-10T20:31:45.517Z",
+    "_at": "2026-08-10T20:06:24.297Z",
     "peer_reviewer": "Diane McNaught",
-    "language": "English",
-    "date_created": "0"
+    "language": "English"
   },
   "ART-0087": {
     "author": "Hope Zimmerman",
@@ -6824,10 +6823,11 @@
   },
   "ART-0101": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-10T20:32:18.220Z",
     "peer_reviewer": "Diane McNaught",
     "duration": "2",
-    "language": "English"
+    "language": "English",
+    "date_created": "02/08/2026"
   },
   "VID-0011": {
     "author": "Kaitlyn Bruneau",
