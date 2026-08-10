@@ -5450,5 +5450,15 @@
       "byName": "Amanda Martinez",
       "byEmail": "amanda.martinez@caravanwellness.com"
     }
+  ],
+  "EXT-0693": [
+    {
+      "ts": "2026-08-10T19:40:03.239Z",
+      "field": "peer_reviewer",
+      "old": null,
+      "new": "jade",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    }
   ]
 }
