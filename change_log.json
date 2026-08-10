@@ -5061,6 +5061,14 @@
   ],
   "ART-0001": [
     {
+      "ts": "2026-08-10T18:59:34.067Z",
+      "field": "notes",
+      "old": "Duration: ",
+      "new": "Duration: 4",
+      "byName": "Caravan Admin",
+      "byEmail": "info@caravanwellness.com"
+    },
+    {
       "ts": "2026-08-10T18:59:22.995Z",
       "field": "notes",
       "old": "Duratio",
