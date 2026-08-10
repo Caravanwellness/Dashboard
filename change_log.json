@@ -5061,6 +5061,14 @@
   ],
   "ART-0001": [
     {
+      "ts": "2026-08-10T18:18:46.349Z",
+      "field": "title_original",
+      "old": null,
+      "new": "Creating Boundaries Around Alcohol in a Social Setting",
+      "byName": "Caravan Admin",
+      "byEmail": "info@caravanwellness.com"
+    },
+    {
       "ts": "2026-08-10T18:18:41.016Z",
       "field": "peer_reviewer",
       "old": "Mar",
