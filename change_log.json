@@ -5424,5 +5424,15 @@
       "byName": "Amanda Martinez",
       "byEmail": "amanda.martinez@caravanwellness.com"
     }
+  ],
+  "EXT-0692": [
+    {
+      "ts": "2026-08-10T19:35:16.296Z",
+      "field": "teacher",
+      "old": "",
+      "new": "jade",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    }
   ]
 }
