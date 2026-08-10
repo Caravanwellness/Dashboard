@@ -2,12 +2,6 @@
   "ART-0001": {
     "local_changes": [
       {
-        "date": "08/10/2026",
-        "description": "Content updated and reviewed",
-        "changed_by": "Caravan Admin",
-        "review_type": "substantive"
-      },
-      {
         "date": "07/01/2026",
         "description": "Marked as reviewed",
         "changed_by": "Unknown"
@@ -18,11 +12,12 @@
         "changed_by": "Unknown"
       }
     ],
-    "_at": "2026-08-10T18:54:50.618Z",
+    "_at": "2026-08-10T18:59:21.411Z",
     "reviewed_by": "Unknown",
     "review_date": "07/01/2026",
     "ver.": "1",
-    "title_original": "Creating Boundaries Around Alcohol in a Social Setting"
+    "title_original": "Creating Boundaries Around Alcohol in a Social Setting",
+    "notes": "Duration: "
   },
   "ART-0029": {
     "peer_reviewer": "Diane McNaught",
