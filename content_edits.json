@@ -2685,9 +2685,10 @@
   },
   "ART-0061": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-10T20:30:10.628Z",
     "peer_reviewer": "Marlee Alanis",
-    "language": "English"
+    "language": "English",
+    "date_created": "0204"
   },
   "ART-0066": {
     "author": "Emily Wilson",
@@ -31679,12 +31680,11 @@
   },
   "ART-0037": {
     "author": "Marlee Alanis",
-    "_at": "2026-08-10T20:29:32.521Z",
+    "_at": "2026-08-10T20:06:24.297Z",
     "author_creds": "Exercise Physiologist",
     "peer_reviewer": "Diane McNaught",
     "language": "English",
-    "duration": "7",
-    "date_created": "01/15/2026"
+    "duration": "7"
   },
   "ART-0055": {
     "author": "Hope Zimmerman",
