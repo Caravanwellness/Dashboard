@@ -1662,6 +1662,29 @@ function extractDuration(title) {
   return '';
 }
 
+// Duration values in the data are inconsistent — "5 min", plain "5", or "4:38" —
+// so filtering buckets them into ranges instead of matching the raw string.
+const DURATION_BUCKETS = ['Less than 2 Minutes','2-5 Minutes','5-10 Minutes','10+ Minutes'];
+function durationMinutes(item) {
+  const raw = lv(item,'duration') || extractDuration(lv(item,'title'));
+  if (!raw) return null;
+  const s = String(raw).trim().toLowerCase();
+  let m = s.match(/^(\d+(?:\.\d+)?)\s*min/);
+  if (m) return parseFloat(m[1]);
+  m = s.match(/^(\d+):(\d+)$/);
+  if (m) return parseInt(m[1],10) + parseInt(m[2],10)/60;
+  const n = parseFloat(s);
+  return isNaN(n) ? null : n;
+}
+function durationBucket(item) {
+  const mins = durationMinutes(item);
+  if (mins === null) return '';
+  if (mins < 2) return 'Less than 2 Minutes';
+  if (mins < 5) return '2-5 Minutes';
+  if (mins < 10) return '5-10 Minutes';
+  return '10+ Minutes';
+}
+
 function cleanTitle(title) {
   // Strip leading "X Min " duration prefix from display title
   return String(title||'').replace(/^\d+\s*[Mm]in\s+/, '');
@@ -1804,8 +1827,7 @@ function seedFilters() {
   document.getElementById('catFilter').innerHTML    = mk([...new Set(base.map(i=>lv(i,'category')))].sort(), cur('catFilter'));
   document.getElementById('authorFilter').innerHTML  = mk([...new Set(base.flatMap(i=>[lv(i,'author'), lv(i,'teacher')||lv(i,'peer_reviewer')]).filter(Boolean))].sort(), cur('authorFilter'));
   document.getElementById('langFilter').innerHTML    = mk([...new Set(base.map(i=>lv(i,'language')).filter(Boolean))].sort(), cur('langFilter'));
-  const durVals = [...new Set(base.map(i=>{ const d=lv(i,'duration')||extractDuration(lv(i,'title')); return d; }).filter(Boolean))].sort((a,b)=>parseInt(a)-parseInt(b));
-  document.getElementById('durationFilter').innerHTML = mk(durVals, cur('durationFilter'));
+  document.getElementById('durationFilter').innerHTML = mk(DURATION_BUCKETS, cur('durationFilter'));
   const allClients = [...new Set(base.flatMap(i=>gE(i.id,'licenses',i.client_licenses||[])))].sort();
   const curClient = cur('clientFilter');
   document.getElementById('clientFilter').innerHTML  = '<option value="">All Clients</option>'+allClients.map(c=>`<option${c===curClient?' selected':''}>${c}</option>`).join('');
@@ -1914,7 +1936,7 @@ function applyFilters() {
       if (branding === 'none' && b) return false;
       if (branding !== 'none' && b !== branding) return false;
     }
-    if (duration && (lv(item,'duration')||extractDuration(lv(item,'title'))) !== duration) return false;
+    if (duration && durationBucket(item) !== duration) return false;
     if (client && !gE(item.id,'licenses',item.client_licenses||[]).includes(client)) return false;
     if (due    && reviewStatus(item) !== due) return false;
     return true;
