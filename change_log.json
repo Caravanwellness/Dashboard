@@ -4057,6 +4057,14 @@
   ],
   "ART-0037": [
     {
+      "ts": "2026-08-10T20:29:29.650Z",
+      "field": "date_created",
+      "old": "",
+      "new": "01",
+      "byName": "Caravan Admin",
+      "byEmail": "info@caravanwellness.com"
+    },
+    {
       "ts": "2026-08-04T14:59:50.043Z",
       "field": "author_creds",
       "old": "Registered Nurse",
