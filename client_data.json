@@ -38,7 +38,8 @@
     "Wellness360",
     "Wellsort",
     "i9med",
-    "Licensed Videos"
+    "Licensed Videos",
+    "PagerHealth"
   ],
   "meta": {
     "YuLife": {
@@ -48,6 +49,10 @@
     "Hapstar": {
       "delivery": "Portal",
       "notes": ""
+    },
+    "PagerHealth": {
+      "delivery": "",
+      "notes": "Added via Master Video List reconciliation (Licensed to: PagerHealth)"
     }
   }
 }
