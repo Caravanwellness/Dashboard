@@ -9298,7 +9298,7 @@
   },
   "EN-01563": {
     "author": "Mila Toribio",
-    "_at": "2026-08-07T16:57:01.689Z",
+    "_at": "2026-08-10T17:22:37.871Z",
     "teacher": "Mila Toribio",
     "licenses": [
       "LifeSmart"
@@ -9307,11 +9307,12 @@
     "language": "English",
     "type": "Video",
     "duration": "11 min",
-    "peer_reviewer": "Mila Toribio"
+    "peer_reviewer": "Mila Toribio",
+    "title": "Foam Rolling for Lower Body Relief"
   },
   "EN-01564": {
     "author": "Mila Toribio",
-    "_at": "2026-08-07T16:57:01.689Z",
+    "_at": "2026-08-10T17:22:37.871Z",
     "teacher": "Mila Toribio",
     "licenses": [
       "LifeSmart"
@@ -9320,7 +9321,8 @@
     "language": "English",
     "type": "Video",
     "duration": "11 min",
-    "peer_reviewer": "Mila Toribio"
+    "peer_reviewer": "Mila Toribio",
+    "title": "Foam Rolling for Upper Body Relief"
   },
   "VLB-1485": {
     "teacher": "Mila Toribio",
@@ -14578,14 +14580,14 @@
   },
   "EN-01281": {
     "author": "Crystal Williams",
-    "_at": "2026-08-07T16:57:01.689Z",
+    "_at": "2026-08-10T17:22:37.871Z",
     "teacher": "Crystal Williams",
     "licenses": [
       "LifeSmart",
       "Passport & Co.",
       "Wellness360"
     ],
-    "vimeo_link": "https://vimeo.com/1116267399/dcb6aac1e8",
+    "vimeo_link": "https://vimeo.com/1116260452/318e5fc691",
     "duration": "17 min",
     "language": "English",
     "type": "Video",
@@ -14607,7 +14609,7 @@
   },
   "EN-01283": {
     "author": "Crystal Williams",
-    "_at": "2026-08-07T16:57:01.689Z",
+    "_at": "2026-08-10T17:22:37.871Z",
     "teacher": "Crystal Williams",
     "licenses": [
       "LifeSmart",
@@ -14615,7 +14617,7 @@
       "Passport & Co.",
       "Wellness360"
     ],
-    "vimeo_link": "https://vimeo.com/1116265779/de721ce61b",
+    "vimeo_link": "https://vimeo.com/1067806227/ebf5a34170",
     "duration": "8 min",
     "language": "English",
     "type": "Video",
@@ -22979,7 +22981,7 @@
   },
   "EN-01522": {
     "author": "Sabrih Short",
-    "_at": "2026-08-07T16:57:01.689Z",
+    "_at": "2026-08-10T17:22:37.871Z",
     "teacher": "Sabrih Short",
     "licenses": [
       "LifeSmart",
@@ -22990,7 +22992,8 @@
     "duration": "11 min",
     "language": "English",
     "type": "Video",
-    "peer_reviewer": "Sabrih Short"
+    "peer_reviewer": "Sabrih Short",
+    "title": "Zumba Dance for Body Connection"
   },
   "EN-01523": {
     "author": "Sabrih Short",
@@ -25051,7 +25054,7 @@
   },
   "EN-00453": {
     "author": "Diana Rilov",
-    "_at": "2026-08-07T16:57:01.689Z",
+    "_at": "2026-08-10T17:22:37.871Z",
     "teacher": "Diana Rilov",
     "licenses": [
       "LifeSmart",
@@ -25061,7 +25064,8 @@
     "duration": "9 min",
     "language": "English",
     "type": "Video",
-    "peer_reviewer": "Diana Rilov"
+    "peer_reviewer": "Diana Rilov",
+    "title": "Yoga for Runners"
   },
   "EN-00454": {
     "author": "Diana Rilov",
@@ -25471,7 +25475,7 @@
   },
   "EN-01578": {
     "author": "Jason Goldsmith",
-    "_at": "2026-08-07T16:57:01.689Z",
+    "_at": "2026-08-10T17:22:37.871Z",
     "teacher": "Jason Goldsmith",
     "licenses": [
       "LifeSmart"
@@ -25480,11 +25484,12 @@
     "duration": "5 min",
     "language": "English",
     "type": "Video",
-    "peer_reviewer": "Jason Goldsmith"
+    "peer_reviewer": "Jason Goldsmith",
+    "title": "Core Strength for Balance"
   },
   "EN-01579": {
     "author": "Jason Goldsmith",
-    "_at": "2026-08-07T16:57:01.689Z",
+    "_at": "2026-08-10T17:22:37.871Z",
     "teacher": "Jason Goldsmith",
     "licenses": [
       "LifeSmart"
@@ -25493,7 +25498,8 @@
     "duration": "5 min",
     "language": "English",
     "type": "Video",
-    "peer_reviewer": "Jason Goldsmith"
+    "peer_reviewer": "Jason Goldsmith",
+    "title": "Core Stability for Balance"
   },
   "EN-01580": {
     "author": "Jason Goldsmith",
@@ -25536,7 +25542,7 @@
   },
   "EN-01583": {
     "author": "Jason Goldsmith",
-    "_at": "2026-08-07T16:57:01.689Z",
+    "_at": "2026-08-10T17:22:37.871Z",
     "teacher": "Jason Goldsmith",
     "licenses": [
       "LifeSmart",
@@ -25546,7 +25552,8 @@
     "duration": "6 min",
     "language": "English",
     "type": "Video",
-    "peer_reviewer": "Jason Goldsmith"
+    "peer_reviewer": "Jason Goldsmith",
+    "title": "Workout for a Strong Core"
   },
   "EN-01584": {
     "author": "Jason Goldsmith",
@@ -28467,7 +28474,7 @@
   },
   "EN-00324": {
     "author": "Julia Chan",
-    "_at": "2026-08-07T16:57:01.689Z",
+    "_at": "2026-08-10T17:22:37.871Z",
     "teacher": "Julia Chan",
     "licenses": [
       "Healthee",
@@ -28478,11 +28485,12 @@
       "The Difference Card",
       "Wellness360"
     ],
-    "vimeo_link": "https://vimeo.com/1069365169/a7e2cd75a7?fl=ls&fe=ec",
+    "vimeo_link": "https://vimeo.com/1063584931/94a076feb7",
     "duration": "12 min",
     "language": "English",
     "type": "Video",
-    "peer_reviewer": "Julia Chan"
+    "peer_reviewer": "Julia Chan",
+    "title": "Movement for Sleep"
   },
   "VID-0669": {
     "author": "Shab Caspara",
@@ -28750,7 +28758,7 @@
   },
   "EN-01083": {
     "author": "Margo Gladys",
-    "_at": "2026-08-07T16:57:01.689Z",
+    "_at": "2026-08-10T17:22:37.871Z",
     "teacher": "Margo Gladys",
     "licenses": [
       "LifeSmart",
@@ -28760,11 +28768,12 @@
     "duration": "12 min",
     "language": "English",
     "type": "Video",
-    "peer_reviewer": "Margo Gladys"
+    "peer_reviewer": "Margo Gladys",
+    "title": "Qigong for Heart Health"
   },
   "EN-01084": {
     "author": "Margo Gladys",
-    "_at": "2026-08-07T16:57:01.689Z",
+    "_at": "2026-08-10T17:22:37.871Z",
     "teacher": "Margo Gladys",
     "licenses": [
       "LifeSmart",
@@ -28774,11 +28783,12 @@
     "duration": "13 min",
     "language": "English",
     "type": "Video",
-    "peer_reviewer": "Margo Gladys"
+    "peer_reviewer": "Margo Gladys",
+    "title": "Qigong for Vitality"
   },
   "EN-01085": {
     "author": "Margo Gladys",
-    "_at": "2026-08-07T16:57:01.689Z",
+    "_at": "2026-08-10T17:22:37.871Z",
     "teacher": "Margo Gladys",
     "licenses": [
       "LifeSmart",
@@ -28788,11 +28798,12 @@
     "duration": "12 min",
     "language": "English",
     "type": "Video",
-    "peer_reviewer": "Margo Gladys"
+    "peer_reviewer": "Margo Gladys",
+    "title": "Qigong for Balance"
   },
   "EN-01086": {
     "author": "Margo Gladys",
-    "_at": "2026-08-07T16:57:01.689Z",
+    "_at": "2026-08-10T17:22:37.871Z",
     "teacher": "Margo Gladys",
     "licenses": [
       "LifeSmart",
@@ -28802,11 +28813,12 @@
     "duration": "15 min",
     "language": "English",
     "type": "Video",
-    "peer_reviewer": "Margo Gladys"
+    "peer_reviewer": "Margo Gladys",
+    "title": "Qigong for Health"
   },
   "EN-01087": {
     "author": "Margo Gladys",
-    "_at": "2026-08-07T16:57:01.689Z",
+    "_at": "2026-08-10T17:22:37.871Z",
     "teacher": "Margo Gladys",
     "licenses": [
       "LifeSmart",
@@ -28816,7 +28828,8 @@
     "duration": "12 min",
     "language": "English",
     "type": "Video",
-    "peer_reviewer": "Margo Gladys"
+    "peer_reviewer": "Margo Gladys",
+    "title": "Qigong for Energy"
   },
   "VID-0471": {
     "author": "Edyta Romanowicz",
@@ -29929,31 +29942,33 @@
   },
   "EN-01451": {
     "author": "Nazirber Maduro",
-    "_at": "2026-08-07T16:57:01.689Z",
+    "_at": "2026-08-10T17:22:37.871Z",
     "teacher": "Nazirber Maduro",
     "licenses": [
       "LifeSmart",
       "Walkingspree"
     ],
-    "vimeo_link": "https://vimeo.com/1169568212/bf42d52275?share=copy&fl=sv&fe=ci",
+    "vimeo_link": "https://vimeo.com/1130289883/79315c3a2c",
     "duration": "5 min",
     "language": "English",
     "type": "Video",
-    "peer_reviewer": "Nazirber Maduro"
+    "peer_reviewer": "Nazirber Maduro",
+    "title": "Reading Food Labels Like a Dietitian"
   },
   "EN-01452": {
     "author": "Nazirber Maduro",
-    "_at": "2026-08-07T16:57:01.689Z",
+    "_at": "2026-08-10T17:22:37.871Z",
     "teacher": "Nazirber Maduro",
     "licenses": [
       "LifeSmart",
       "Walkingspree"
     ],
-    "vimeo_link": "https://vimeo.com/1169568782/4e42ce46cd?share=copy&fl=sv&fe=ci",
+    "vimeo_link": "https://vimeo.com/1129592521/47709d21c1",
     "duration": "4 min",
     "language": "English",
     "type": "Video",
-    "peer_reviewer": "Nazirber Maduro"
+    "peer_reviewer": "Nazirber Maduro",
+    "title": "The Role of Cultural Foods in Balanced Diets"
   },
   "VLB-1378": {
     "author": "Nazirber Maduro",
