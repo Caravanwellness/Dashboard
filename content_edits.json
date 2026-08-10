@@ -357,8 +357,8 @@
     "duration": "2"
   },
   "ART-0003": {
-    "category": "Alcohol Use",
-    "_at": "2026-08-10T20:48:07.319Z",
+    "category": "Vaping & Tobacco",
+    "_at": "2026-08-10T20:06:24.297Z",
     "author": "Marlee Alanis",
     "peer_reviewer": "Diane McNaught",
     "notes": "",
@@ -41303,7 +41303,7 @@
   },
   "INF-0092": {
     "references": "Harvard Health Publishing. (2024). Eggs, protein, and cholesterol: How to make eggs part of a heart-healthy diet. https://www.health.harvard.edu/diet-and-nutrition/eggs-protein-and-cholesterol-how-to-make-eggs-part-of-a-heart-healthy-diet\n\nJohns Hopkins Medicine. (2024). Healthy Breakfasts. https://www.hopkinsmedicine.org/health/wellness-and-prevention/healthy-breakfasts\n\nCleveland Clinic. (2026). How Much Protein Should I Eat a Day? https://health.clevelandclinic.org/how-much-protein-you-need",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-10T20:48:20.396Z",
     "author": "Jade Gordon",
     "date_created": "5/5/2026",
     "language": "English",
