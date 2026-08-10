@@ -5061,6 +5061,14 @@
   ],
   "ART-0001": [
     {
+      "ts": "2026-08-10T18:54:42.377Z",
+      "field": "link",
+      "old": "",
+      "new": "https://articles.caravanwellness.com/content/thumbnails/1FFXrN79dFcd-iabkIEZJtKfHqVAyjXk8xEley3A4blc_thumb.jpg",
+      "byName": "Caravan Admin",
+      "byEmail": "info@caravanwellness.com"
+    },
+    {
       "ts": "2026-08-10T18:54:41.349Z",
       "field": "link",
       "old": "https://docs.google.com/document/d/1FFXrN79dFcd-iabkIEZJtKfHqVAyjXk8xEley3A4blc/edit?tab=t.0",
