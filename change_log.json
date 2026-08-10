@@ -5377,6 +5377,14 @@
   ],
   "EXT-0691": [
     {
+      "ts": "2026-08-10T19:34:33.879Z",
+      "field": "teacher",
+      "old": "Jade Gordon",
+      "new": "",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    },
+    {
       "ts": "2026-08-10T19:34:27.992Z",
       "field": "teacher",
       "old": "ja",
