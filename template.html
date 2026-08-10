@@ -49,6 +49,25 @@ select:focus, input[type=text]:focus { border-color: #1a1a2e; }
 .sidebar-count { font-size: 12px; color: #999; margin-top: 6px; }
 .sidebar-count strong { color: #1a1a2e; }
 
+/* ── Multi-select filter dropdowns ── */
+.msel { position: relative; }
+.msel-btn { width: 100%; padding: 6px 9px; border: 1px solid #e0e0e0; border-radius: 6px; font-size: 13px; background: white; text-align: left; cursor: pointer; display: flex; align-items: center; justify-content: space-between; gap: 6px; color: #1a1a2e; }
+.msel-btn span.msel-btn-label { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.msel-btn::after { content: '▾'; font-size: 10px; color: #999; flex-shrink: 0; }
+.msel-btn.active { border-color: #1a1a2e; background: #f0f2ff; }
+.msel-btn.active span.msel-btn-label { color: #1a1a2e; font-weight: 600; }
+.msel-panel { display: none; position: absolute; top: calc(100% + 4px); left: 0; right: 0; z-index: 50; background: white; border: 1px solid #e0e0e0; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,.12); max-height: 280px; overflow-y: auto; padding: 6px; }
+.msel-panel.open { display: block; }
+.msel-actions { display: flex; justify-content: flex-end; padding: 2px 4px 6px; border-bottom: 1px solid #f0f0f0; margin-bottom: 4px; }
+.msel-clear { background: none; border: none; color: #6366f1; font-size: 11px; font-weight: 600; cursor: pointer; padding: 2px 4px; }
+.msel-clear:hover { text-decoration: underline; }
+.msel-search { width: 100%; padding: 5px 8px; border: 1px solid #e0e0e0; border-radius: 5px; font-size: 12px; margin-bottom: 4px; outline: none; }
+.msel-search:focus { border-color: #1a1a2e; }
+.msel-option { display: flex; align-items: center; gap: 7px; padding: 5px 6px; border-radius: 5px; font-size: 13px; cursor: pointer; }
+.msel-option:hover { background: #f5f5f7; }
+.msel-option input[type=checkbox] { width: auto; margin: 0; flex-shrink: 0; }
+.msel-empty { padding: 8px 6px; font-size: 12px; color: #aaa; }
+
 /* ── Content/Table ── */
 .content { flex: 1; display: flex; flex-direction: column; overflow: hidden; }
 .toolbar { padding: 9px 13px; background: white; border-bottom: 1px solid #e8e8e8; display: flex; align-items: center; gap: 8px; }
@@ -464,11 +483,11 @@ textarea.field-edit { resize: vertical; }
     </div>
     <div class="filter-group">
       <h3>Type</h3>
-      <select id="typeFilter"><option value="">All Types</option></select>
+      <div class="msel" id="typeFilter"><button type="button" class="msel-btn"><span class="msel-btn-label">All Types</span></button><div class="msel-panel"></div></div>
     </div>
     <div class="filter-group">
       <h3>Category</h3>
-      <select id="catFilter"><option value="">All Categories</option></select>
+      <div class="msel" id="catFilter"><button type="button" class="msel-btn"><span class="msel-btn-label">All Categories</span></button><div class="msel-panel"></div></div>
     </div>
     <div class="filter-group" id="dueGroup">
       <h3>Review Status</h3>
@@ -490,28 +509,23 @@ textarea.field-edit { resize: vertical; }
     </div>
     <div class="filter-group" id="authorGroup">
       <h3>Author</h3>
-      <select id="authorFilter"><option value="">All</option></select>
+      <div class="msel" id="authorFilter"><button type="button" class="msel-btn"><span class="msel-btn-label">All</span></button><div class="msel-panel"></div></div>
     </div>
     <div class="filter-group" id="langGroup" style="display:none">
       <h3>Language</h3>
-      <select id="langFilter"><option value="">All</option></select>
+      <div class="msel" id="langFilter"><button type="button" class="msel-btn"><span class="msel-btn-label">All</span></button><div class="msel-panel"></div></div>
     </div>
     <div class="filter-group" id="brandingGroup" style="display:none">
       <h3>Branding</h3>
-      <select id="brandingFilter">
-        <option value="">All</option>
-        <option value="White-Label">White-Label</option>
-        <option value="Branded">Branded</option>
-        <option value="none">Unspecified</option>
-      </select>
+      <div class="msel" id="brandingFilter"><button type="button" class="msel-btn"><span class="msel-btn-label">All</span></button><div class="msel-panel"></div></div>
     </div>
     <div class="filter-group" id="durationGroup" style="display:none">
       <h3>Duration</h3>
-      <select id="durationFilter"><option value="">All</option></select>
+      <div class="msel" id="durationFilter"><button type="button" class="msel-btn"><span class="msel-btn-label">All</span></button><div class="msel-panel"></div></div>
     </div>
     <div class="filter-group" id="clientGroup" style="display:none">
       <h3>Client</h3>
-      <select id="clientFilter"><option value="">All Clients</option></select>
+      <div class="msel" id="clientFilter"><button type="button" class="msel-btn"><span class="msel-btn-label">All Clients</span></button><div class="msel-panel"></div></div>
     </div>
     <div class="sidebar-count">Showing <strong id="shownCount">0</strong> items</div>
     </div><!-- end sidebar-content -->
@@ -1814,29 +1828,109 @@ function baseItems() {
   return ALL;
 }
 
+// ── Multi-select filter dropdowns ──────────────────────────────────────────
+// Each of these filters accepts several values at once (OR within the filter,
+// AND across filters) — e.g. Language={Dutch,Hindi,French} AND Author={Ajani,Alex}.
+// Selection state lives here (not in the DOM) because seedFilters() rebuilds
+// each panel's innerHTML on every save, which would otherwise wipe checkbox state.
+const MULTI_FILTERS = ['typeFilter','catFilter','authorFilter','langFilter','brandingFilter','durationFilter','clientFilter'];
+const filterSel = {};
+MULTI_FILTERS.forEach(id => filterSel[id] = new Set());
+
+function mselLabel(id, allLabel) {
+  const sel = filterSel[id];
+  if (!sel.size) return allLabel;
+  const vals = [...sel];
+  return vals.length <= 2 ? vals.join(', ') : `${vals[0]} +${vals.length-1} more`;
+}
+
+// `opts` is an array of strings, or {value,label} pairs when the stored value
+// differs from what's shown (e.g. Branding's "none" → "Unspecified").
+function renderMsel(id, opts, allLabel) {
+  const norm = opts.map(o => typeof o === 'string' ? {value:o,label:o} : o);
+  const sel = filterSel[id];
+  const validValues = new Set(norm.map(o=>o.value));
+  [...sel].forEach(v => { if (!validValues.has(v)) sel.delete(v); }); // prune stale selections
+
+  const root = document.getElementById(id);
+  const btn = root.querySelector('.msel-btn');
+  btn.querySelector('.msel-btn-label').textContent = mselLabel(id, allLabel);
+  btn.classList.toggle('active', sel.size > 0);
+
+  const panel = root.querySelector('.msel-panel');
+  const showSearch = norm.length > 8;
+  panel.innerHTML = `
+    <div class="msel-actions"><button type="button" class="msel-clear">Clear</button></div>
+    ${showSearch ? '<input type="text" class="msel-search" placeholder="Search…">' : ''}
+    <div class="msel-options">
+      ${norm.length ? norm.map(o=>`<label class="msel-option"><input type="checkbox" value="${esc(o.value)}"${sel.has(o.value)?' checked':''}><span>${esc(o.label)}</span></label>`).join('') : '<div class="msel-empty">No options</div>'}
+    </div>`;
+
+  panel.querySelector('.msel-clear').addEventListener('click', () => {
+    sel.clear();
+    panel.querySelectorAll('input[type=checkbox]').forEach(cb => cb.checked = false);
+    btn.querySelector('.msel-btn-label').textContent = mselLabel(id, allLabel);
+    btn.classList.remove('active');
+    applyFilters();
+  });
+  const search = panel.querySelector('.msel-search');
+  if (search) search.addEventListener('input', () => {
+    const q = search.value.toLowerCase();
+    panel.querySelectorAll('.msel-option').forEach(lbl => {
+      lbl.style.display = lbl.textContent.toLowerCase().includes(q) ? '' : 'none';
+    });
+  });
+  panel.querySelectorAll('input[type=checkbox]').forEach(cb => {
+    cb.addEventListener('change', () => {
+      if (cb.checked) sel.add(cb.value); else sel.delete(cb.value);
+      btn.querySelector('.msel-btn-label').textContent = mselLabel(id, allLabel);
+      btn.classList.toggle('active', sel.size > 0);
+      applyFilters();
+    });
+  });
+}
+
+MULTI_FILTERS.forEach(id => {
+  document.getElementById(id).querySelector('.msel-btn').addEventListener('click', e => {
+    e.stopPropagation();
+    const panel = document.getElementById(id).querySelector('.msel-panel');
+    const wasOpen = panel.classList.contains('open');
+    document.querySelectorAll('.msel-panel.open').forEach(p => p.classList.remove('open'));
+    if (!wasOpen) {
+      panel.classList.add('open');
+      const search = panel.querySelector('.msel-search');
+      if (search) search.focus();
+    }
+  });
+});
+document.addEventListener('click', e => {
+  document.querySelectorAll('.msel-panel.open').forEach(p => {
+    if (!p.closest('.msel').contains(e.target)) p.classList.remove('open');
+  });
+});
+
 // Rebuilds each filter dropdown's option list from current data. Preserves
 // whatever's currently selected (if it's still a valid value) — this runs
 // again after every save, not just on load/tab-switch, so it must not reset
 // filters the user already has active.
 function seedFilters() {
   const base = baseItems();
-  const mk = (arr, sel='') => '<option value="">All</option>'+arr.map(v=>`<option${v===sel?' selected':''}>${v}</option>`).join('');
-  const cur = id => document.getElementById(id).value;
 
-  document.getElementById('typeFilter').innerHTML   = mk([...new Set(base.map(i=>lv(i,'type')))].sort(), cur('typeFilter'));
-  document.getElementById('catFilter').innerHTML    = mk([...new Set(base.map(i=>lv(i,'category')))].sort(), cur('catFilter'));
-  document.getElementById('authorFilter').innerHTML  = mk([...new Set(base.flatMap(i=>[lv(i,'author'), lv(i,'teacher')||lv(i,'peer_reviewer')]).filter(Boolean))].sort(), cur('authorFilter'));
-  document.getElementById('langFilter').innerHTML    = mk([...new Set(base.map(i=>lv(i,'language')).filter(Boolean))].sort(), cur('langFilter'));
-  document.getElementById('durationFilter').innerHTML = mk(DURATION_BUCKETS, cur('durationFilter'));
+  renderMsel('typeFilter', [...new Set(base.map(i=>lv(i,'type')))].sort(), 'All Types');
+  renderMsel('catFilter', [...new Set(base.map(i=>lv(i,'category')))].sort(), 'All Categories');
+  renderMsel('authorFilter', [...new Set(base.flatMap(i=>[lv(i,'author'), lv(i,'teacher')||lv(i,'peer_reviewer')]).filter(Boolean))].sort(), 'All');
+  renderMsel('langFilter', [...new Set(base.map(i=>lv(i,'language')).filter(Boolean))].sort(), 'All');
+  renderMsel('durationFilter', DURATION_BUCKETS, 'All');
+  renderMsel('brandingFilter', [{value:'White-Label',label:'White-Label'},{value:'Branded',label:'Branded'},{value:'none',label:'Unspecified'}], 'All');
   const allClients = [...new Set(base.flatMap(i=>gE(i.id,'licenses',i.client_licenses||[])))].sort();
-  const curClient = cur('clientFilter');
-  document.getElementById('clientFilter').innerHTML  = '<option value="">All Clients</option>'+allClients.map(c=>`<option${c===curClient?' selected':''}>${c}</option>`).join('');
+  renderMsel('clientFilter', allClients, 'All Clients');
+
   ['dueGroup','prioGroup','authorGroup','langGroup','brandingGroup','durationGroup','clientGroup'].forEach(id => {
     document.getElementById(id).style.display = '';
   });
 }
 
-['titleFilter','typeFilter','catFilter','prioFilter','authorFilter','langFilter','brandingFilter','durationFilter','clientFilter','dueFilter'].forEach(id=>{
+['titleFilter','prioFilter','dueFilter'].forEach(id=>{
   const el = document.getElementById(id);
   el.addEventListener('input',  applyFilters);
   el.addEventListener('change', applyFilters);
@@ -1912,32 +2006,37 @@ function renderDueSchedule() {
 
 function applyFilters() {
   const title  = document.getElementById('titleFilter').value.toLowerCase();
-  const type   = document.getElementById('typeFilter').value;
-  const cat    = document.getElementById('catFilter').value;
+  const type   = filterSel.typeFilter;
+  const cat    = filterSel.catFilter;
   const prio   = document.getElementById('prioFilter').value;
-  const author = document.getElementById('authorFilter').value;
-  const lang   = document.getElementById('langFilter').value;
-  const client = document.getElementById('clientFilter').value;
+  const author = filterSel.authorFilter;
+  const lang   = filterSel.langFilter;
+  const client = filterSel.clientFilter;
   const due    = document.getElementById('dueFilter').value;
 
-  const branding  = document.getElementById('brandingFilter').value;
-  const duration  = document.getElementById('durationFilter').value;
+  const branding  = filterSel.brandingFilter;
+  const duration  = filterSel.durationFilter;
 
   visibleItems = baseItems().filter(item => {
     if (aiIds && !aiIds.has(item.id)) return false;
     if (title  && !lv(item,'title').toLowerCase().includes(title)) return false;
-    if (type   && lv(item,'type')   !== type)   return false;
-    if (cat    && lv(item,'category') !== cat)  return false;
+    if (type.size   && !type.has(lv(item,'type')))     return false;
+    if (cat.size    && !cat.has(lv(item,'category')))  return false;
     if (prio   && lv(item,'review_priority') !== prio) return false;
-    if (author && lv(item,'author') !== author && (lv(item,'teacher')||lv(item,'peer_reviewer')) !== author) return false;
-    if (lang   && lv(item,'language') !== lang) return false;
-    if (branding) {
-      const b = lv(item,'branding') || '';
-      if (branding === 'none' && b) return false;
-      if (branding !== 'none' && b !== branding) return false;
+    if (author.size) {
+      const a = lv(item,'author'), t = lv(item,'teacher')||lv(item,'peer_reviewer');
+      if (!author.has(a) && !author.has(t)) return false;
     }
-    if (duration && durationBucket(item) !== duration) return false;
-    if (client && !gE(item.id,'licenses',item.client_licenses||[]).includes(client)) return false;
+    if (lang.size   && !lang.has(lv(item,'language'))) return false;
+    if (branding.size) {
+      const b = lv(item,'branding') || '';
+      if (!branding.has(b || 'none')) return false;
+    }
+    if (duration.size && !duration.has(durationBucket(item))) return false;
+    if (client.size) {
+      const lic = gE(item.id,'licenses',item.client_licenses||[]);
+      if (!lic.some(c => client.has(c))) return false;
+    }
     if (due    && reviewStatus(item) !== due) return false;
     return true;
   });
