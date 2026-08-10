@@ -5374,5 +5374,15 @@
       "byName": "Caravan Admin",
       "byEmail": "info@caravanwellness.com"
     }
+  ],
+  "EXT-0691": [
+    {
+      "ts": "2026-08-10T19:33:30.679Z",
+      "field": "teacher",
+      "old": "",
+      "new": "Ja",
+      "byName": "Amanda Martinez",
+      "byEmail": "amanda.martinez@caravanwellness.com"
+    }
   ]
 }
