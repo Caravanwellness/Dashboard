@@ -5532,5 +5532,15 @@
       "byName": "Amanda Martinez",
       "byEmail": "amanda.martinez@caravanwellness.com"
     }
+  ],
+  "ART-0067": [
+    {
+      "ts": "2026-08-10T20:30:41.715Z",
+      "field": "date_created",
+      "old": "",
+      "new": "02/04/.2026",
+      "byName": "Caravan Admin",
+      "byEmail": "info@caravanwellness.com"
+    }
   ]
 }
