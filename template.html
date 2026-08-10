@@ -491,21 +491,11 @@ textarea.field-edit { resize: vertical; }
     </div>
     <div class="filter-group" id="dueGroup">
       <h3>Review Status</h3>
-      <select id="dueFilter">
-        <option value="">All</option>
-        <option value="overdue">Past Due</option>
-        <option value="due3mo">Due within 3 months</option>
-        <option value="due6mo">Due within 6 months</option>
-        <option value="ok">Up to Date</option>
-        <option value="never">Never Reviewed</option>
-      </select>
+      <div class="msel" id="dueFilter"><button type="button" class="msel-btn"><span class="msel-btn-label">All</span></button><div class="msel-panel"></div></div>
     </div>
     <div class="filter-group" id="prioGroup">
       <h3>Priority</h3>
-      <select id="prioFilter">
-        <option value="">All</option>
-        <option>High</option><option>Moderate</option><option>Low</option>
-      </select>
+      <div class="msel" id="prioFilter"><button type="button" class="msel-btn"><span class="msel-btn-label">All</span></button><div class="msel-panel"></div></div>
     </div>
     <div class="filter-group" id="authorGroup">
       <h3>Author</h3>
@@ -1833,14 +1823,16 @@ function baseItems() {
 // AND across filters) — e.g. Language={Dutch,Hindi,French} AND Author={Ajani,Alex}.
 // Selection state lives here (not in the DOM) because seedFilters() rebuilds
 // each panel's innerHTML on every save, which would otherwise wipe checkbox state.
-const MULTI_FILTERS = ['typeFilter','catFilter','authorFilter','langFilter','brandingFilter','durationFilter','clientFilter'];
+const MULTI_FILTERS = ['typeFilter','catFilter','authorFilter','langFilter','brandingFilter','durationFilter','clientFilter','dueFilter','prioFilter'];
 const filterSel = {};
-MULTI_FILTERS.forEach(id => filterSel[id] = new Set());
+const filterLabelMap = {}; // id -> {value: displayLabel}, for filters where they differ (e.g. "none" → "Unspecified")
+MULTI_FILTERS.forEach(id => { filterSel[id] = new Set(); filterLabelMap[id] = {}; });
 
 function mselLabel(id, allLabel) {
   const sel = filterSel[id];
   if (!sel.size) return allLabel;
-  const vals = [...sel];
+  const map = filterLabelMap[id];
+  const vals = [...sel].map(v => map[v] || v);
   return vals.length <= 2 ? vals.join(', ') : `${vals[0]} +${vals.length-1} more`;
 }
 
@@ -1849,6 +1841,7 @@ function mselLabel(id, allLabel) {
 function renderMsel(id, opts, allLabel) {
   const norm = opts.map(o => typeof o === 'string' ? {value:o,label:o} : o);
   const sel = filterSel[id];
+  filterLabelMap[id] = Object.fromEntries(norm.map(o=>[o.value,o.label]));
   const validValues = new Set(norm.map(o=>o.value));
   [...sel].forEach(v => { if (!validValues.has(v)) sel.delete(v); }); // prune stale selections
 
@@ -1924,13 +1917,19 @@ function seedFilters() {
   renderMsel('brandingFilter', [{value:'White-Label',label:'White-Label'},{value:'Branded',label:'Branded'},{value:'none',label:'Unspecified'}], 'All');
   const allClients = [...new Set(base.flatMap(i=>gE(i.id,'licenses',i.client_licenses||[])))].sort();
   renderMsel('clientFilter', allClients, 'All Clients');
+  renderMsel('dueFilter', [
+    {value:'overdue',label:'Past Due'}, {value:'due3mo',label:'Due within 3 months'},
+    {value:'due6mo',label:'Due within 6 months'}, {value:'ok',label:'Up to Date'},
+    {value:'never',label:'Never Reviewed'},
+  ], 'All');
+  renderMsel('prioFilter', ['High','Moderate','Low'], 'All');
 
   ['dueGroup','prioGroup','authorGroup','langGroup','brandingGroup','durationGroup','clientGroup'].forEach(id => {
     document.getElementById(id).style.display = '';
   });
 }
 
-['titleFilter','prioFilter','dueFilter'].forEach(id=>{
+['titleFilter'].forEach(id=>{
   const el = document.getElementById(id);
   el.addEventListener('input',  applyFilters);
   el.addEventListener('change', applyFilters);
@@ -2008,11 +2007,11 @@ function applyFilters() {
   const title  = document.getElementById('titleFilter').value.toLowerCase();
   const type   = filterSel.typeFilter;
   const cat    = filterSel.catFilter;
-  const prio   = document.getElementById('prioFilter').value;
+  const prio   = filterSel.prioFilter;
   const author = filterSel.authorFilter;
   const lang   = filterSel.langFilter;
   const client = filterSel.clientFilter;
-  const due    = document.getElementById('dueFilter').value;
+  const due    = filterSel.dueFilter;
 
   const branding  = filterSel.brandingFilter;
   const duration  = filterSel.durationFilter;
@@ -2022,7 +2021,7 @@ function applyFilters() {
     if (title  && !lv(item,'title').toLowerCase().includes(title)) return false;
     if (type.size   && !type.has(lv(item,'type')))     return false;
     if (cat.size    && !cat.has(lv(item,'category')))  return false;
-    if (prio   && lv(item,'review_priority') !== prio) return false;
+    if (prio.size   && !prio.has(lv(item,'review_priority'))) return false;
     if (author.size) {
       const a = lv(item,'author'), t = lv(item,'teacher')||lv(item,'peer_reviewer');
       if (!author.has(a) && !author.has(t)) return false;
@@ -2037,7 +2036,7 @@ function applyFilters() {
       const lic = gE(item.id,'licenses',item.client_licenses||[]);
       if (!lic.some(c => client.has(c))) return false;
     }
-    if (due    && reviewStatus(item) !== due) return false;
+    if (due.size    && !due.has(reviewStatus(item))) return false;
     return true;
   });
 
