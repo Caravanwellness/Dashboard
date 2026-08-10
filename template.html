@@ -1927,7 +1927,7 @@ function applyFilters() {
 function getCols() {
   return [
     {k:'_clients',l:'Clients'},{k:'id',l:'ID'},{k:'type',l:'Type'},{k:'title',l:'Title'},{k:'category',l:'Category'},
-    {k:'_duration',l:'Duration'},{k:'language',l:'Language'},{k:'teacher',l:'Peer Reviewer'},{k:'_licensed_pct',l:'Licensed By'},
+    {k:'_duration',l:'Duration'},{k:'language',l:'Language'},{k:'teacher',l:'Peer Reviewer'},
     {k:'date_created',l:'Date Created'},{k:'author',l:'Author'},{k:'_reviewer_name',l:'Maintenance Reviewer'},{k:'_review_date',l:'Last Reviewed'},
   ];
 }
@@ -1992,12 +1992,6 @@ function renderTable() {
       if (c.k==='_duration') {
         const dur = lv(item,'duration') || extractDuration(lv(item,'title'));
         return `<td ${s} style="white-space:nowrap;font-size:11px">${esc(dur)}</td>`;
-      }
-      if (c.k==='_licensed_pct') {
-        const n = lic.length; const total = ALL_CLIENT_NAMES.length;
-        if (!n || !total) return `<td ${s}></td>`;
-        const pct = Math.round(n/total*100);
-        return `<td ${s} style="white-space:nowrap;font-size:11px;color:#666">${n}/${total} (${pct}%)</td>`;
       }
       const v = c.k==='teacher' ? (lv(item,'teacher')||lv(item,'peer_reviewer')||'') : lv(item,c.k);
       return `<td ${s}>${esc(v)}</td>`;
