@@ -672,9 +672,10 @@
   },
   "ART-0086": {
     "author": "Marlee Alanis",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-10T20:31:48.682Z",
     "peer_reviewer": "Diane McNaught",
-    "language": "English"
+    "language": "English",
+    "date_created": "02/08/2026"
   },
   "ART-0087": {
     "author": "Hope Zimmerman",
@@ -33200,11 +33201,10 @@
   },
   "ART-0071": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:31:17.886Z",
+    "_at": "2026-08-10T20:06:24.297Z",
     "peer_reviewer": "Marlee Alanis",
     "duration": "6 min",
-    "language": "English",
-    "date_created": "02/08/2026"
+    "language": "English"
   },
   "ART-0192": {
     "peer_reviewer": "Alyssa Lagasca",
