@@ -2685,10 +2685,9 @@
   },
   "ART-0061": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:30:14.703Z",
+    "_at": "2026-08-10T20:06:24.297Z",
     "peer_reviewer": "Marlee Alanis",
-    "language": "English",
-    "date_created": "02/04/2026"
+    "language": "English"
   },
   "ART-0066": {
     "author": "Emily Wilson",
@@ -18832,10 +18831,11 @@
   },
   "ART-0067": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-10T20:30:43.531Z",
     "peer_reviewer": "Marlee Alanis",
     "duration": "2 min",
-    "language": "English"
+    "language": "English",
+    "date_created": "02/04/2026"
   },
   "VID-0077": {
     "author": "Dr. Cherilyn Davis",
