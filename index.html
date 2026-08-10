@@ -1371,6 +1371,8 @@ async function handleImportFile(file) {
       'type':'type',
       'category':'category',
       'language':'language',
+      'title in original language':'title_original', 'original language title':'title_original',
+      'original title':'title_original', 'native title':'title_original',
       'author':'author', 'author creds':'author_creds', 'author_creds':'author_creds',
       'branding':'branding', 'branding status':'branding',
       'date created':'date_created',
@@ -2287,6 +2289,7 @@ function showDetail(item) {
   const fReviewer= T('peer_reviewer');
   const fVer     = T('version');
   const fLang     = T('language');
+  const fTitleOriginal = T('title_original');
   const fBranding = T('branding');
   const fTags     = item.tags || [];
   const fCondition= T('condition');
@@ -2420,6 +2423,9 @@ function showDetail(item) {
       ${fLang!==undefined&&fLang!==''||item.language!==undefined?`<div class="detail-field"><label>Language</label>
         <input class="field-edit" data-f="language" value="${esc(fLang)}">
       </div>`:''}
+      <div class="detail-field"><label>Title in Original Language</label>
+        <input class="field-edit" data-f="title_original" value="${esc(fTitleOriginal)}" placeholder="e.g. Meditación para el sueño">
+      </div>
       <div class="detail-field"><label>Branding Status</label>
         <select class="field-edit" data-f="branding">
           <option value="">Unspecified</option>
