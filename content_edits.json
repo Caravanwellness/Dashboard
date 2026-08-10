@@ -933,10 +933,11 @@
   },
   "ART-0145": {
     "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-10T20:32:48.794Z",
     "peer_reviewer": "Diane McNaught",
     "duration": "2 min",
-    "language": "English"
+    "language": "English",
+    "date_created": "02/09/2026"
   },
   "ART-0146": {
     "author": "Diane McNaught",
@@ -6823,11 +6824,10 @@
   },
   "ART-0101": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:32:18.485Z",
+    "_at": "2026-08-10T20:06:24.297Z",
     "peer_reviewer": "Diane McNaught",
     "duration": "2",
-    "language": "English",
-    "date_created": "02/08/2026"
+    "language": "English"
   },
   "VID-0011": {
     "author": "Kaitlyn Bruneau",
