@@ -1847,17 +1847,16 @@
     "_addedBy": "Dashboard"
   },
   {
-    "id": "EXT-0122",
-    "title": "Supporting Your Child’s Mental Health",
-    "type": "Video Library",
+    "id": "EXT-0124",
+    "title": "10 Signs Of Healthy Sleep",
+    "type": "Article Library",
     "language": "English",
     "category": "",
-    "teacher": "Julika",
+    "teacher": "",
     "duration": "",
     "client_licenses": [
       "Keel Mind",
-      "Lyra Health",
-      "Spectrum.life"
+      "BSDI"
     ],
     "_addedAt": "2026-08-04T20:08:26.186Z",
     "_addedBy": "Dashboard"
@@ -2698,21 +2697,6 @@
     "_addedBy": "Dashboard"
   },
   {
-    "id": "EXT-0182",
-    "title": "Building Relationships-Friendships",
-    "type": "Video Library",
-    "language": "English",
-    "category": "",
-    "teacher": "Linda",
-    "duration": "",
-    "client_licenses": [
-      "Keel Mind",
-      "Spectrum.life"
-    ],
-    "_addedAt": "2026-08-04T20:08:26.187Z",
-    "_addedBy": "Dashboard"
-  },
-  {
     "id": "EXT-0183",
     "title": "Common Relationship Conflicts & How to Avoid Them",
     "type": "Video Library",
@@ -2736,6 +2720,21 @@
     "duration": "",
     "client_licenses": [
       "Keel Mind"
+    ],
+    "_addedAt": "2026-08-04T20:08:26.187Z",
+    "_addedBy": "Dashboard"
+  },
+  {
+    "id": "EXT-0185",
+    "title": "Emergency Positivity (Deep Breathing)",
+    "type": "Video Library",
+    "language": "English",
+    "category": "",
+    "teacher": "Mila",
+    "duration": "",
+    "client_licenses": [
+      "Keel Mind",
+      "Emma Health"
     ],
     "_addedAt": "2026-08-04T20:08:26.187Z",
     "_addedBy": "Dashboard"
@@ -2800,39 +2799,33 @@
     "_addedBy": "Dashboard"
   },
   {
-    "id": "EXT-0190",
-    "title": "Signs You’re Overstimulated",
+    "id": "ES-00107",
+    "title": "Creating a Positive Money Mindset",
     "type": "Video Library",
-    "language": "English",
-    "category": "",
-    "teacher": "Kaitlyn",
+    "language": "Spanish",
+    "category": "Financial Wellness",
+    "teacher": "Ana",
     "duration": "",
     "client_licenses": [
-      "Keel Mind",
-      "Big Yellow Fish",
-      "Marino Wellness"
+      "Lyra Health"
     ],
+    "link": "https://app.allinonewellbeing.com/videos/crear-una-mentalidad-monetaria-positiva",
     "_addedAt": "2026-08-04T20:08:26.187Z",
     "_addedBy": "Dashboard"
   },
   {
-    "id": "EXT-0191",
-    "title": "Managing Financial Stress + Building Resilience",
+    "id": "ES-00092",
+    "title": "Importance of Hydration",
     "type": "Video Library",
-    "language": "English",
-    "category": "Financial Wellness",
-    "teacher": "Edwin",
+    "language": "Spanish",
+    "category": "Nutrition",
+    "teacher": "Angie",
     "duration": "",
     "client_licenses": [
       "Lyra Health",
-      "Sante Group",
-      "California Lithuanian Credit Un",
-      "Spectrum.life",
-      "WPO",
-      "Navigate Wellbeing",
-      "BSDI"
+      "Spectrum.life"
     ],
-    "link": "https://app.allinonewellbeing.com/edwin/videos/managing-financial-stress-and-building-resilience",
+    "link": "https://app.allinonewellbeing.com/videos/importancia-de-la-hidratacion",
     "_addedAt": "2026-08-04T20:08:26.187Z",
     "_addedBy": "Dashboard"
   },
@@ -2896,7 +2889,8 @@
     "teacher": "Margaux",
     "duration": "",
     "client_licenses": [
-      "Lyra Health"
+      "Lyra Health",
+      "Spectrum.life"
     ],
     "link": "https://app.allinonewellbeing.com/videos/comment-soutenir-la-sante-mentale-de-vos-enfants-francais-1",
     "_addedAt": "2026-08-04T20:08:26.187Z",
@@ -2959,8 +2953,7 @@
     "teacher": "Margo",
     "duration": "",
     "client_licenses": [
-      "Lyra Health",
-      "Spectrum.life"
+      "Lyra Health"
     ],
     "link": "*currently in post-production",
     "_addedAt": "2026-08-04T20:08:26.187Z",
@@ -3187,51 +3180,6 @@
     "_addedBy": "Dashboard"
   },
   {
-    "id": "EXT-0216",
-    "title": "How Social Interaction Shapes Kids’ Communication",
-    "type": "Video Library",
-    "language": "English",
-    "category": "Children's Health",
-    "teacher": "Cherilyn",
-    "duration": "",
-    "client_licenses": [
-      "Lyra Health"
-    ],
-    "link": "https://app.allinonewellbeing.com/videos/how-social-interaction-shapes-kids-communication",
-    "_addedAt": "2026-08-04T20:08:26.187Z",
-    "_addedBy": "Dashboard"
-  },
-  {
-    "id": "EXT-0217",
-    "title": "The Power of Play in Kids’ Social Growth",
-    "type": "Video Library",
-    "language": "English",
-    "category": "Children's Health",
-    "teacher": "Cherilyn",
-    "duration": "",
-    "client_licenses": [
-      "Lyra Health"
-    ],
-    "link": "https://app.allinonewellbeing.com/videos/how-play-supports-kids-in-social-growth",
-    "_addedAt": "2026-08-04T20:08:26.187Z",
-    "_addedBy": "Dashboard"
-  },
-  {
-    "id": "EXT-0218",
-    "title": "What Size Is Your “Leader-Ship”?",
-    "type": "Video Library",
-    "language": "English",
-    "category": "Workplace Wellness",
-    "teacher": "Linda",
-    "duration": "",
-    "client_licenses": [
-      "Lyra Health"
-    ],
-    "link": "https://watch.caravanwellness.com/videos/what-size-is-your-leadership",
-    "_addedAt": "2026-08-04T20:08:26.187Z",
-    "_addedBy": "Dashboard"
-  },
-  {
     "id": "EXT-0219",
     "title": "First Step to Prepare for a Inclusion Strategic Campaign",
     "type": "Video Library",
@@ -3258,6 +3206,21 @@
       "Lyra Health"
     ],
     "link": "*currently in post-production",
+    "_addedAt": "2026-08-04T20:08:26.187Z",
+    "_addedBy": "Dashboard"
+  },
+  {
+    "id": "JA-00009",
+    "title": "What to Do When Facing Uncertainty",
+    "type": "Video Library",
+    "language": "Japanese",
+    "category": "Emotional Wellness",
+    "teacher": "Izumi",
+    "duration": "",
+    "client_licenses": [
+      "Lyra Health"
+    ],
+    "link": "https://app.allinonewellbeing.com/videos/what-to-do-when-facing-uncertainty-japanese",
     "_addedAt": "2026-08-04T20:08:26.187Z",
     "_addedBy": "Dashboard"
   },
@@ -3293,6 +3256,22 @@
     "_addedBy": "Dashboard"
   },
   {
+    "id": "DE-00002",
+    "title": "A Healing-Centered Work Environment",
+    "type": "Video Library",
+    "language": "German",
+    "category": "Workplace Wellness",
+    "teacher": "Julika",
+    "duration": "",
+    "client_licenses": [
+      "Lyra Health",
+      "WPO"
+    ],
+    "link": "https://caravanwellness.vhx.tv/videos/eine-arbeitsumgebung-die-auf-heilung-ausgerichtet-ist-deutsch",
+    "_addedAt": "2026-08-04T20:08:26.187Z",
+    "_addedBy": "Dashboard"
+  },
+  {
     "id": "FR-00021",
     "title": "Wellness & Mindfulness at Work",
     "type": "Video Library",
@@ -3304,6 +3283,21 @@
       "Lyra Health"
     ],
     "link": "https://watch.caravanwellness.com/francais-5/videos/10-min-bien-etre-et-pleine-conscience-au-travail-francais",
+    "_addedAt": "2026-08-04T20:08:26.187Z",
+    "_addedBy": "Dashboard"
+  },
+  {
+    "id": "PT-00063",
+    "title": "Yoga – How to Sit Properly",
+    "type": "Video Library",
+    "language": "Portuguese",
+    "category": "Fitness",
+    "teacher": "Mila",
+    "duration": "",
+    "client_licenses": [
+      "Lyra Health"
+    ],
+    "link": "https://app.allinonewellbeing.com/videos/ioga-como-se-sentar-corretamente-portugues",
     "_addedAt": "2026-08-04T20:08:26.187Z",
     "_addedBy": "Dashboard"
   },
@@ -3959,17 +3953,17 @@
     "_addedBy": "Dashboard"
   },
   {
-    "id": "EXT-0270",
-    "title": "What Advice Would You Give to Someone Newly Diagnosed",
+    "id": "EXT-0271",
+    "title": "How to Nourish the Body During Treatment or Recovery",
     "type": "Video Library",
-    "language": "English",
-    "category": "Patient Interview",
-    "teacher": "Vanessa",
+    "language": "Russian",
+    "category": "Nutrition",
+    "teacher": "Natalie",
     "duration": "",
     "client_licenses": [
       "Lyra Health"
     ],
-    "link": "https://app.allinonewellbeing.com/videos/what-advice-would-you-give-someone-newly-diagnosed",
+    "link": "*currently in post-production",
     "_addedAt": "2026-08-04T20:08:26.187Z",
     "_addedBy": "Dashboard"
   },
@@ -4419,21 +4413,6 @@
     "_addedBy": "Dashboard"
   },
   {
-    "id": "EXT-0301",
-    "title": "Autoimmune Disease - How to Improve It",
-    "type": "Video Library",
-    "language": "English",
-    "category": "Health",
-    "teacher": "Dr. Joe",
-    "duration": "",
-    "client_licenses": [
-      "Lyra Health"
-    ],
-    "link": "https://watch.caravanwellness.com/videos/auto-immune-disease-and-how-to-improve-the-condition",
-    "_addedAt": "2026-08-04T20:08:26.187Z",
-    "_addedBy": "Dashboard"
-  },
-  {
     "id": "ES-00151",
     "title": "Coping With Grief & Loss",
     "type": "Video Library",
@@ -4491,6 +4470,22 @@
       "GoJoe"
     ],
     "link": "https://app.allinonewellbeing.com/videos/crear-relaciones-saludables-en-el-trabajo-espanol",
+    "_addedAt": "2026-08-04T20:08:26.187Z",
+    "_addedBy": "Dashboard"
+  },
+  {
+    "id": "RU-00005",
+    "title": "The Importance of Mental Rest",
+    "type": "Video Library",
+    "language": "Russian",
+    "category": "Health",
+    "teacher": "Natalie",
+    "duration": "",
+    "client_licenses": [
+      "Lyra Health",
+      "Kardi AI"
+    ],
+    "link": "*currently in post-production",
     "_addedAt": "2026-08-04T20:08:26.187Z",
     "_addedBy": "Dashboard"
   },
@@ -5595,21 +5590,6 @@
     "_addedBy": "Dashboard"
   },
   {
-    "id": "EXT-0378",
-    "title": "Autoimmune Disease- How to Improve It",
-    "type": "Video Library",
-    "language": "English",
-    "category": "Health",
-    "teacher": "Dr. Joe",
-    "duration": "",
-    "client_licenses": [
-      "Sante Group"
-    ],
-    "link": "https://watch.caravanwellness.com/videos/auto-immune-disease-and-how-to-improve-the-condition",
-    "_addedAt": "2026-08-04T20:08:26.187Z",
-    "_addedBy": "Dashboard"
-  },
-  {
     "id": "EXT-0379",
     "title": "How to Get in the Habit of Saving Money",
     "type": "Video Library",
@@ -5683,6 +5663,21 @@
       "California Lithuanian Credit Un"
     ],
     "link": "https://docs.google.com/document/d/16E62EhzF4pSQArPjAItA8-R9R5M04jWGriJO2_nXxVg/edit?tab=t.0",
+    "_addedAt": "2026-08-04T20:08:26.187Z",
+    "_addedBy": "Dashboard"
+  },
+  {
+    "id": "EXT-0384",
+    "title": "Understanding Estate Planning For Blended Families",
+    "type": "Short-Form Snippet",
+    "language": "English",
+    "category": "Estate Planning",
+    "teacher": "",
+    "duration": "",
+    "client_licenses": [
+      "California Lithuanian Credit Un"
+    ],
+    "link": "https://app.allinonewellbeing.com/videos/understanding-estate-planning-for-blended-families-highlight",
     "_addedAt": "2026-08-04T20:08:26.187Z",
     "_addedBy": "Dashboard"
   },
@@ -6588,21 +6583,6 @@
     "_addedBy": "Dashboard"
   },
   {
-    "id": "EXT-0444",
-    "title": "How to Support Your Children's Mental Health",
-    "type": "Video Library",
-    "language": "French",
-    "category": "Emotional Wellness",
-    "teacher": "Marjaux",
-    "duration": "",
-    "client_licenses": [
-      "Spectrum.life"
-    ],
-    "link": "https://app.allinonewellbeing.com/videos/comment-soutenir-la-sante-mentale-de-vos-enfants-francais",
-    "_addedAt": "2026-08-04T20:08:26.188Z",
-    "_addedBy": "Dashboard"
-  },
-  {
     "id": "EXT-0446",
     "title": "What Happens to My Body When My Blood Sugar Is Elevated?",
     "type": "Video Library",
@@ -6664,6 +6644,21 @@
     "_addedBy": "Dashboard"
   },
   {
+    "id": "EXT-0450",
+    "title": "What To Eat To Minimise Inflammation",
+    "type": "Video Library",
+    "language": "English",
+    "category": "Nutrition",
+    "teacher": "Kim",
+    "duration": "",
+    "client_licenses": [
+      "Spectrum.life"
+    ],
+    "link": "https://watch.caravanwellness.com/videos/what-to-eat-to-minimize-inflammation",
+    "_addedAt": "2026-08-04T20:08:26.188Z",
+    "_addedBy": "Dashboard"
+  },
+  {
     "id": "EXT-0451",
     "title": "Nutrition For Ageing Gracefully",
     "type": "Video Library",
@@ -6720,22 +6715,6 @@
       "Spectrum.life"
     ],
     "link": "https://watch.caravanwellness.com/videos/t-l-c-for-older-moms",
-    "_addedAt": "2026-08-04T20:08:26.188Z",
-    "_addedBy": "Dashboard"
-  },
-  {
-    "id": "EXT-0455",
-    "title": "What is Communication",
-    "type": "Video Library",
-    "language": "English",
-    "category": "Relationships",
-    "teacher": "Tracie",
-    "duration": "",
-    "client_licenses": [
-      "Spectrum.life",
-      "Carebook"
-    ],
-    "link": "https://watch.caravanwellness.com/videos/5-min-what-is-communication",
     "_addedAt": "2026-08-04T20:08:26.188Z",
     "_addedBy": "Dashboard"
   },
@@ -6801,51 +6780,6 @@
     "_addedBy": "Dashboard"
   },
   {
-    "id": "EXT-0460",
-    "title": "Children's Health: Food Allergies",
-    "type": "Video Library",
-    "language": "English",
-    "category": "Health",
-    "teacher": "Karyn",
-    "duration": "",
-    "client_licenses": [
-      "Spectrum.life"
-    ],
-    "link": "https://app.allinonewellbeing.com/videos/food-allergies",
-    "_addedAt": "2026-08-04T20:08:26.188Z",
-    "_addedBy": "Dashboard"
-  },
-  {
-    "id": "EXT-0461",
-    "title": "Children's Health: Iron Deficiency Anemia",
-    "type": "Video Library",
-    "language": "English",
-    "category": "Health",
-    "teacher": "Karyn",
-    "duration": "",
-    "client_licenses": [
-      "Spectrum.life"
-    ],
-    "link": "https://app.allinonewellbeing.com/videos/iron-deficeincy-anemia",
-    "_addedAt": "2026-08-04T20:08:26.188Z",
-    "_addedBy": "Dashboard"
-  },
-  {
-    "id": "EXT-0462",
-    "title": "Children's Health: Pediatric Nutrition",
-    "type": "Video Library",
-    "language": "English",
-    "category": "Health",
-    "teacher": "Karyn",
-    "duration": "",
-    "client_licenses": [
-      "Spectrum.life"
-    ],
-    "link": "https://app.allinonewellbeing.com/videos/pediatric-nutrition",
-    "_addedAt": "2026-08-04T20:08:26.188Z",
-    "_addedBy": "Dashboard"
-  },
-  {
     "id": "EXT-0463",
     "title": "Positive Self-Talk: You Deserve This",
     "type": "Video Library",
@@ -6862,6 +6796,21 @@
     "_addedBy": "Dashboard"
   },
   {
+    "id": "EXT-0464",
+    "title": "How to Support Your Friend or Family Member With Their Mental Health",
+    "type": "Video Library",
+    "language": "English",
+    "category": "Emotional Wellness",
+    "teacher": "Linda",
+    "duration": "",
+    "client_licenses": [
+      "Spectrum.life"
+    ],
+    "link": "https://app.allinonewellbeing.com/videos/how-to-support-a-friend-or-family-member-with-their-mental-health",
+    "_addedAt": "2026-08-04T20:08:26.188Z",
+    "_addedBy": "Dashboard"
+  },
+  {
     "id": "EXT-0465",
     "title": "Understanding the 4 Stages of Injury Recovery: What to Expect",
     "type": "Video Library",
@@ -6873,6 +6822,21 @@
       "Spectrum.life"
     ],
     "link": "https://app.allinonewellbeing.com/videos/understanding-the-4-stages-of-injury-recovery-what-to-expect",
+    "_addedAt": "2026-08-04T20:08:26.188Z",
+    "_addedBy": "Dashboard"
+  },
+  {
+    "id": "EXT-0466",
+    "title": "Mental Health First Aid: Self-Care Helping Someone In Crisis",
+    "type": "Video Library",
+    "language": "English",
+    "category": "Emotional Wellness",
+    "teacher": "Kaitlyn",
+    "duration": "",
+    "client_licenses": [
+      "Spectrum.life"
+    ],
+    "link": "https://app.allinonewellbeing.com/videos/self-care-helping-someone-in-crisis",
     "_addedAt": "2026-08-04T20:08:26.188Z",
     "_addedBy": "Dashboard"
   },
@@ -6928,6 +6892,36 @@
     "language": "English",
     "category": "",
     "teacher": "Maga",
+    "duration": "",
+    "client_licenses": [
+      "Licensed Videos",
+      "Bolton Hotel"
+    ],
+    "_addedAt": "2026-08-05T19:38:18.914Z",
+    "_addedBy": "Zena Test"
+  },
+  {
+    "id": "EXT-0471",
+    "title": "20 Min Sound Healing for Sleep",
+    "type": "Video Library",
+    "language": "English",
+    "category": "",
+    "teacher": "Maga",
+    "duration": "",
+    "client_licenses": [
+      "Licensed Videos",
+      "Bolton Hotel"
+    ],
+    "_addedAt": "2026-08-05T19:38:18.914Z",
+    "_addedBy": "Zena Test"
+  },
+  {
+    "id": "EXT-0472",
+    "title": "10 Min Full Body Stretching",
+    "type": "Video Library",
+    "language": "English",
+    "category": "",
+    "teacher": "Steven",
     "duration": "",
     "client_licenses": [
       "Licensed Videos",
@@ -7152,23 +7146,6 @@
     "_addedBy": "Zena Test"
   },
   {
-    "id": "EXT-0487",
-    "title": "What is Blood Pressure",
-    "type": "Video Library",
-    "language": "English",
-    "category": "",
-    "teacher": "Dr. Julia",
-    "duration": "",
-    "client_licenses": [
-      "Licensed Videos",
-      "Carebook",
-      "Kardi AI",
-      "BSDI"
-    ],
-    "_addedAt": "2026-08-05T19:38:18.914Z",
-    "_addedBy": "Zena Test"
-  },
-  {
     "id": "EXT-0488",
     "title": "Meditation for Focus and Clarity",
     "type": "Video Library",
@@ -7274,6 +7251,21 @@
       "Carebook",
       "YuLife",
       "GoJoe"
+    ],
+    "_addedAt": "2026-08-05T19:38:18.914Z",
+    "_addedBy": "Zena Test"
+  },
+  {
+    "id": "ZH-00003",
+    "title": "Engage Your Five Senses",
+    "type": "Video Library",
+    "language": "Chinese",
+    "category": "",
+    "teacher": "Shiyun",
+    "duration": "",
+    "client_licenses": [
+      "Licensed Videos",
+      "WPO"
     ],
     "_addedAt": "2026-08-05T19:38:18.914Z",
     "_addedBy": "Zena Test"
@@ -7943,18 +7935,18 @@
     "_addedBy": "Zena Test"
   },
   {
-    "id": "EXT-0540",
-    "title": "Social Media, Comparison & Identity",
+    "id": "NL-00026",
+    "title": "Yoga for Back Pain",
     "type": "Video Library",
-    "language": "English",
+    "language": "Dutch",
     "category": "",
-    "teacher": "Leonaura",
+    "teacher": "Anna-Belle",
     "duration": "",
     "client_licenses": [
       "Licensed Videos",
       "YuLife"
     ],
-    "link": "https://caravanwellness.vhx.tv/videos/social-media-comparison-and-identity",
+    "link": "https://app.allinonewellbeing.com/videos/yoga-tegen-rugpijn-deutsch",
     "_addedAt": "2026-08-05T19:38:18.914Z",
     "_addedBy": "Zena Test"
   },
@@ -8247,22 +8239,6 @@
     "_addedBy": "Zena Test"
   },
   {
-    "id": "EXT-0560",
-    "title": "Breast Health: Self-Exam Guide",
-    "type": "Video Library",
-    "language": "English",
-    "category": "",
-    "teacher": "Kanwal",
-    "duration": "",
-    "client_licenses": [
-      "Licensed Videos",
-      "Hapstar"
-    ],
-    "link": "https://watch.caravanwellness.com/videos/breast-health-101",
-    "_addedAt": "2026-08-05T19:38:18.914Z",
-    "_addedBy": "Zena Test"
-  },
-  {
     "id": "EXT-0561",
     "title": "How to Support a Friend or Family Member with Their Mental Health",
     "type": "Video Library",
@@ -8291,58 +8267,6 @@
       "Hapstar"
     ],
     "link": "https://app.allinonewellbeing.com/videos/warning-signs-of-prostate-cancer",
-    "_addedAt": "2026-08-05T19:38:18.914Z",
-    "_addedBy": "Zena Test"
-  },
-  {
-    "id": "EXT-0563",
-    "title": "Strength Movement: Glutes",
-    "type": "Video Library",
-    "language": "English",
-    "category": "",
-    "teacher": "Julia",
-    "duration": "",
-    "client_licenses": [
-      "Licensed Videos",
-      "Emma Health",
-      "BSDI"
-    ],
-    "link": "https://watch.caravanwellness.com/movement-for-strength-15-min",
-    "_addedAt": "2026-08-05T19:38:18.914Z",
-    "_addedBy": "Zena Test"
-  },
-  {
-    "id": "EXT-0564",
-    "title": "Strength Movement: Upper Body",
-    "type": "Video Library",
-    "language": "English",
-    "category": "",
-    "teacher": "Julia",
-    "duration": "",
-    "client_licenses": [
-      "Licensed Videos",
-      "Emma Health",
-      "BSDI"
-    ],
-    "link": "https://watch.caravanwellness.com/movement-for-strength-15-min",
-    "_addedAt": "2026-08-05T19:38:18.914Z",
-    "_addedBy": "Zena Test"
-  },
-  {
-    "id": "EXT-0565",
-    "title": "Strength Movement: Core",
-    "type": "Video Library",
-    "language": "English",
-    "category": "",
-    "teacher": "Julia",
-    "duration": "",
-    "client_licenses": [
-      "Licensed Videos",
-      "Emma Health",
-      "Curela",
-      "BSDI"
-    ],
-    "link": "https://watch.caravanwellness.com/movement-for-strength-15-min",
     "_addedAt": "2026-08-05T19:38:18.914Z",
     "_addedBy": "Zena Test"
   },
@@ -8380,8 +8304,38 @@
     "_addedBy": "Zena Test"
   },
   {
+    "id": "EXT-0568",
+    "title": "How Processing Changes Food",
+    "type": "Video Library",
+    "language": "English",
+    "category": "",
+    "teacher": "",
+    "duration": "",
+    "client_licenses": [
+      "Licensed Videos",
+      "Welldoc"
+    ],
+    "_addedAt": "2026-08-05T19:38:18.914Z",
+    "_addedBy": "Zena Test"
+  },
+  {
     "id": "EXT-0569",
     "title": "Natural vs. Added Sugar",
+    "type": "Video Library",
+    "language": "English",
+    "category": "",
+    "teacher": "",
+    "duration": "",
+    "client_licenses": [
+      "Licensed Videos",
+      "Welldoc"
+    ],
+    "_addedAt": "2026-08-05T19:38:18.914Z",
+    "_addedBy": "Zena Test"
+  },
+  {
+    "id": "EXT-0570",
+    "title": "How to Find Added Sugars",
     "type": "Video Library",
     "language": "English",
     "category": "",
@@ -8530,6 +8484,21 @@
     "_addedBy": "Zena Test"
   },
   {
+    "id": "EXT-0580",
+    "title": "The Silent Signs of Liver Disease",
+    "type": "Video Library",
+    "language": "English",
+    "category": "",
+    "teacher": "",
+    "duration": "",
+    "client_licenses": [
+      "Licensed Videos",
+      "Welldoc"
+    ],
+    "_addedAt": "2026-08-05T19:38:18.914Z",
+    "_addedBy": "Zena Test"
+  },
+  {
     "id": "EXT-0581",
     "title": "Meet Your Kidneys",
     "type": "Video Library",
@@ -8577,6 +8546,21 @@
   {
     "id": "EXT-0584",
     "title": "Tracking Your Blood Pressure: Making the Invisible Visible",
+    "type": "Video Library",
+    "language": "English",
+    "category": "",
+    "teacher": "",
+    "duration": "",
+    "client_licenses": [
+      "Licensed Videos",
+      "Welldoc"
+    ],
+    "_addedAt": "2026-08-05T19:38:18.914Z",
+    "_addedBy": "Zena Test"
+  },
+  {
+    "id": "EXT-0585",
+    "title": "Getting an Accurate Blood Pressure Reading",
     "type": "Video Library",
     "language": "English",
     "category": "",
@@ -9117,38 +9101,6 @@
     "_addedBy": "Zena Test"
   },
   {
-    "id": "EXT-0621",
-    "title": "Overcoming Societal Pressure to “Man Up”",
-    "type": "Video Library",
-    "language": "English",
-    "category": "",
-    "teacher": "Jiva",
-    "duration": "",
-    "client_licenses": [
-      "Licensed Videos",
-      "Big Yellow Fish"
-    ],
-    "link": "https://app.allinonewellbeing.com/videos/overcoming-societal-pressure-to-man-up",
-    "_addedAt": "2026-08-05T19:38:18.914Z",
-    "_addedBy": "Zena Test"
-  },
-  {
-    "id": "EXT-0622",
-    "title": "Conversation Tips When You’re Shy or Anxious",
-    "type": "Video Library",
-    "language": "English",
-    "category": "",
-    "teacher": "Kaitlyn",
-    "duration": "",
-    "client_licenses": [
-      "Licensed Videos",
-      "Big Yellow Fish"
-    ],
-    "link": "https://app.allinonewellbeing.com/videos/conversation-tips-when-you-re-shy-or-anxious",
-    "_addedAt": "2026-08-05T19:38:18.914Z",
-    "_addedBy": "Zena Test"
-  },
-  {
     "id": "EXT-0623",
     "title": "Strength Movement",
     "type": "Video Library",
@@ -9161,22 +9113,6 @@
       "Solas Mind"
     ],
     "link": "https://app.allinonewellbeing.com/julia/videos/15-min-strength-movement-core",
-    "_addedAt": "2026-08-05T19:38:18.914Z",
-    "_addedBy": "Zena Test"
-  },
-  {
-    "id": "EXT-0624",
-    "title": "Strength Movement – Upper Body",
-    "type": "Video Library",
-    "language": "English",
-    "category": "",
-    "teacher": "Julia",
-    "duration": "",
-    "client_licenses": [
-      "Licensed Videos",
-      "Solas Mind"
-    ],
-    "link": "https://app.allinonewellbeing.com/julia/videos/15-min-strength-movement-upper-body",
     "_addedAt": "2026-08-05T19:38:18.914Z",
     "_addedBy": "Zena Test"
   },
@@ -9230,6 +9166,21 @@
   {
     "id": "EXT-0628",
     "title": "Exercises to Improve Your Gait and Prevent Trips",
+    "type": "Video Library",
+    "language": "English",
+    "category": "",
+    "teacher": "Candice",
+    "duration": "",
+    "client_licenses": [
+      "Licensed Videos",
+      "Oncology Physicians Network"
+    ],
+    "_addedAt": "2026-08-05T19:38:18.914Z",
+    "_addedBy": "Zena Test"
+  },
+  {
+    "id": "EXT-0629",
+    "title": "Simple Foot and Ankle Exercises to Improve Stability",
     "type": "Video Library",
     "language": "English",
     "category": "",
@@ -9417,8 +9368,38 @@
     "_addedBy": "Zena Test"
   },
   {
+    "id": "EXT-0641",
+    "title": "Food Allergies for Children",
+    "type": "Video Library",
+    "language": "English",
+    "category": "",
+    "teacher": "",
+    "duration": "",
+    "client_licenses": [
+      "Licensed Videos",
+      "BSDI"
+    ],
+    "_addedAt": "2026-08-05T19:38:18.914Z",
+    "_addedBy": "Zena Test"
+  },
+  {
     "id": "EXT-0642",
     "title": "GLP1 Medications Explained",
+    "type": "Video Library",
+    "language": "English",
+    "category": "",
+    "teacher": "",
+    "duration": "",
+    "client_licenses": [
+      "Licensed Videos",
+      "BSDI"
+    ],
+    "_addedAt": "2026-08-05T19:38:18.914Z",
+    "_addedBy": "Zena Test"
+  },
+  {
+    "id": "EXT-0643",
+    "title": "Healthy Dessert: Apple Flower",
     "type": "Video Library",
     "language": "English",
     "category": "",
@@ -16738,30 +16719,6 @@
     "_addedBy": "Dashboard"
   },
   {
-    "id": "EXT-1130",
-    "title": "What Size Is Your “Leader-ship?",
-    "type": "Video Library",
-    "language": "English",
-    "category": "General",
-    "teacher": "",
-    "duration": "",
-    "client_licenses": [],
-    "_addedAt": "2026-08-06T13:17:00.549Z",
-    "_addedBy": "Dashboard"
-  },
-  {
-    "id": "EXT-1131",
-    "title": "Overcoming Societal Pressure To “Man Up",
-    "type": "Video Library",
-    "language": "English",
-    "category": "General",
-    "teacher": "",
-    "duration": "",
-    "client_licenses": [],
-    "_addedAt": "2026-08-06T13:17:00.549Z",
-    "_addedBy": "Dashboard"
-  },
-  {
     "id": "EXT-1132",
     "title": "Back Pain Myths & Facts",
     "type": "Video",
@@ -16928,6 +16885,14 @@
     "_addedBy": "Dashboard"
   },
   {
+    "id": "EXT-1152",
+    "title": "COPD Myths & Facts",
+    "type": "Video",
+    "category": "COPD",
+    "_addedAt": "2026-08-06T17:36:05.095Z",
+    "_addedBy": "Dashboard"
+  },
+  {
     "id": "EXT-1153",
     "title": "Respiratory System Anatomy",
     "type": "Video",
@@ -16948,6 +16913,14 @@
     "title": "Managing COPD Symptoms",
     "type": "Video",
     "category": "COPD",
+    "_addedAt": "2026-08-06T17:36:05.095Z",
+    "_addedBy": "Dashboard"
+  },
+  {
+    "id": "EXT-1156",
+    "title": "Respiratory Health & Exercise",
+    "type": "Video",
+    "category": "Asthma",
     "_addedAt": "2026-08-06T17:36:05.095Z",
     "_addedBy": "Dashboard"
   },
