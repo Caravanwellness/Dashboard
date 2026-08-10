@@ -5343,6 +5343,14 @@
   ],
   "ART-0002": [
     {
+      "ts": "2026-08-10T19:01:26.257Z",
+      "field": "reviewed_by",
+      "old": null,
+      "new": "m",
+      "byName": "Caravan Admin",
+      "byEmail": "info@caravanwellness.com"
+    },
+    {
       "ts": "2026-08-10T19:00:15.008Z",
       "field": "link",
       "old": "https://docs.google.com/document/d/16njzmx3Gfqw2-L8NXUhaMNMrrOAZJAHpxstCyVm0L5g/edit?usp=sharing",
