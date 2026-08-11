@@ -47067,11 +47067,12 @@
     "duration": "3"
   },
   "EXT-1487": {
-    "peer_reviewer": "Hailey",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "peer_reviewer": "Hailey Miller",
+    "_at": "2026-08-11T20:37:55.666Z",
     "language": "English",
     "author": "Hailey",
-    "duration": "10"
+    "duration": "10",
+    "teacher": "Hailey Miller"
   },
   "EXT-1488": {
     "peer_reviewer": "Zach Bourne",
@@ -49651,10 +49652,11 @@
     "author": "Zach"
   },
   "EN-00289": {
-    "peer_reviewer": "Hailey",
-    "_at": "2026-08-11T20:17:14.145Z",
+    "peer_reviewer": "Hailey Miller",
+    "_at": "2026-08-11T20:37:55.666Z",
     "language": "English",
-    "author": "Hailey"
+    "author": "Hailey",
+    "teacher": "Hailey Miller"
   },
   "IT-00019": {
     "peer_reviewer": "Ilaria Chiantore",
