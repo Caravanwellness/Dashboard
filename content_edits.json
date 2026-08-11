@@ -44544,10 +44544,10 @@
     "peer_reviewer": "Ilaria"
   },
   "EXT-1258": {
-    "teacher": "Asia",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "teacher": "Asia Rosso",
+    "_at": "2026-08-11T20:18:25.602Z",
     "duration": "5",
-    "peer_reviewer": "Asia",
+    "peer_reviewer": "Asia Rosso",
     "language": "English",
     "author": "Jessica"
   },
@@ -46396,11 +46396,12 @@
     "duration": "3"
   },
   "EXT-1389": {
-    "peer_reviewer": "Asia",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "peer_reviewer": "Asia Rosso",
+    "_at": "2026-08-11T20:18:25.602Z",
     "language": "English",
     "author": "Kim",
-    "duration": "3"
+    "duration": "3",
+    "teacher": "Asia Rosso"
   },
   "EXT-1390": {
     "peer_reviewer": "Dr. Joe",
@@ -48657,13 +48658,15 @@
   },
   "IT-00037": {
     "category": "Personality Clip",
-    "_at": "2026-08-10T19:51:38.073Z",
-    "peer_reviewer": "Asia"
+    "_at": "2026-08-11T20:18:25.602Z",
+    "peer_reviewer": "Asia Rosso",
+    "teacher": "Asia Rosso"
   },
   "IT-00038": {
     "category": "Personality Clip",
-    "_at": "2026-08-10T19:51:38.073Z",
-    "peer_reviewer": "Asia"
+    "_at": "2026-08-11T20:18:25.602Z",
+    "peer_reviewer": "Asia Rosso",
+    "teacher": "Asia Rosso"
   },
   "EN-00100": {
     "peer_reviewer": "Liz",
@@ -48959,10 +48962,11 @@
     "duration": "10"
   },
   "IT-00032": {
-    "peer_reviewer": "Asia",
-    "_at": "2026-08-11T20:17:14.145Z",
+    "peer_reviewer": "Asia Rosso",
+    "_at": "2026-08-11T20:18:25.602Z",
     "author": "Kim",
-    "duration": "3"
+    "duration": "3",
+    "teacher": "Asia Rosso"
   },
   "AR-00063": {
     "peer_reviewer": "Teriz",
@@ -49028,10 +49032,11 @@
     "teacher": "Inaudy Gil"
   },
   "IT-00028": {
-    "peer_reviewer": "Asia",
-    "_at": "2026-08-11T20:17:14.145Z",
+    "peer_reviewer": "Asia Rosso",
+    "_at": "2026-08-11T20:18:25.602Z",
     "author": "Hailey",
-    "duration": "10"
+    "duration": "10",
+    "teacher": "Asia Rosso"
   },
   "EN-00031": {
     "peer_reviewer": "Dr. Ellie Cobb",
@@ -49609,8 +49614,9 @@
     "teacher": "Eneida Farro"
   },
   "IT-00035": {
-    "peer_reviewer": "Asia",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Asia Rosso",
+    "_at": "2026-08-11T20:18:25.602Z",
+    "teacher": "Asia Rosso"
   },
   "NL-00017": {
     "peer_reviewer": "Truike Boekholt",
@@ -49958,9 +49964,10 @@
     "author": "Zach"
   },
   "IT-00027": {
-    "peer_reviewer": "Asia",
-    "_at": "2026-08-11T20:17:14.145Z",
-    "author": "Jessica"
+    "peer_reviewer": "Asia Rosso",
+    "_at": "2026-08-11T20:18:25.602Z",
+    "author": "Jessica",
+    "teacher": "Asia Rosso"
   },
   "EN-01730": {
     "peer_reviewer": "Sadiya Shackey-El",
@@ -50267,9 +50274,10 @@
     "duration": "1"
   },
   "IT-00033": {
-    "peer_reviewer": "Asia",
-    "_at": "2026-08-11T20:17:14.145Z",
-    "author": "Dr. Joe"
+    "peer_reviewer": "Asia Rosso",
+    "_at": "2026-08-11T20:18:25.602Z",
+    "author": "Dr. Joe",
+    "teacher": "Asia Rosso"
   },
   "AR-00016": {
     "peer_reviewer": "Dr. Hassan Nagy",
@@ -50420,8 +50428,9 @@
     "author": "Dr Joe"
   },
   "IT-00036": {
-    "peer_reviewer": "Asia",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Asia Rosso",
+    "_at": "2026-08-11T20:18:25.602Z",
+    "teacher": "Asia Rosso"
   },
   "ES-00074": {
     "peer_reviewer": "Eneida Farro",
@@ -50755,10 +50764,11 @@
     "duration": "10"
   },
   "IT-00034": {
-    "peer_reviewer": "Asia",
-    "_at": "2026-08-11T20:17:14.145Z",
+    "peer_reviewer": "Asia Rosso",
+    "_at": "2026-08-11T20:18:25.602Z",
     "author": "Liz",
-    "duration": "10"
+    "duration": "10",
+    "teacher": "Asia Rosso"
   },
   "EN-01900": {
     "peer_reviewer": "Shaimaine",
@@ -51053,8 +51063,9 @@
     "author": "Justice"
   },
   "IT-00030": {
-    "peer_reviewer": "Asia",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Asia Rosso",
+    "_at": "2026-08-11T20:18:25.602Z",
+    "teacher": "Asia Rosso"
   },
   "FR-00065": {
     "peer_reviewer": "Angéline Galinier-Warrain",
@@ -51863,8 +51874,9 @@
     "author": "Edyta"
   },
   "IT-00029": {
-    "peer_reviewer": "Asia",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Asia Rosso",
+    "_at": "2026-08-11T20:18:25.602Z",
+    "teacher": "Asia Rosso"
   },
   "FR-00046": {
     "peer_reviewer": "Sandrine",
@@ -52181,9 +52193,10 @@
     "teacher": "Nathalie Monin Voelker"
   },
   "IT-00031": {
-    "peer_reviewer": "Asia",
-    "_at": "2026-08-11T20:17:14.145Z",
-    "author": "Jessica"
+    "peer_reviewer": "Asia Rosso",
+    "_at": "2026-08-11T20:18:25.602Z",
+    "author": "Jessica",
+    "teacher": "Asia Rosso"
   },
   "JA-00003": {
     "peer_reviewer": "Izumi Favia",
