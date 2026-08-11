@@ -47024,18 +47024,20 @@
     "duration": "10"
   },
   "EXT-1488": {
-    "peer_reviewer": "Zach",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "peer_reviewer": "Zach Bourne",
+    "_at": "2026-08-11T20:30:40.795Z",
     "language": "English",
     "author": "Zach",
-    "duration": "5"
+    "duration": "5",
+    "teacher": "Zach Bourne"
   },
   "EXT-1489": {
-    "peer_reviewer": "Zach",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "peer_reviewer": "Zach Bourne",
+    "_at": "2026-08-11T20:30:40.795Z",
     "language": "English",
     "author": "Zach",
-    "duration": "5"
+    "duration": "5",
+    "teacher": "Zach Bourne"
   },
   "EXT-0073": {
     "author": "Madeline McGuire",
@@ -49916,10 +49918,11 @@
     "teacher": "Manon Hallay"
   },
   "EN-00024": {
-    "peer_reviewer": "Zach",
-    "_at": "2026-08-11T20:17:14.145Z",
+    "peer_reviewer": "Zach Bourne",
+    "_at": "2026-08-11T20:30:40.795Z",
     "language": "English",
-    "author": "Zach"
+    "author": "Zach",
+    "teacher": "Zach Bourne"
   },
   "PT-00038": {
     "peer_reviewer": "Cris Di Dario",
