@@ -32335,8 +32335,8 @@
     "duration": "7 min"
   },
   "VID-0294": {
-    "author": "Julika Von Stackelberg",
-    "_at": "2026-08-11T18:50:32.881Z",
+    "author": "Dr. Julika",
+    "_at": "2026-08-06T17:24:22.202Z",
     "duration": "6 min"
   },
   "VID-0290": {
@@ -37845,10 +37845,11 @@
   },
   "EXT-0486": {
     "type": "Video",
-    "_at": "2026-08-10T19:51:38.073Z",
+    "_at": "2026-08-11T18:50:49.226Z",
     "duration": "4 min",
-    "peer_reviewer": "Dr. Julia",
-    "category": "Heart Disease"
+    "peer_reviewer": "Dr. Julia Iafrate",
+    "category": "Heart Disease",
+    "teacher": "Dr. Julia Iafrate"
   },
   "EXT-0488": {
     "type": "Video",
@@ -38674,17 +38675,19 @@
   },
   "EXT-0633": {
     "type": "Video",
-    "_at": "2026-08-10T19:51:38.073Z",
+    "_at": "2026-08-11T18:50:49.226Z",
     "duration": "3 min",
-    "peer_reviewer": "Dr. Julia",
-    "category": "Heart Disease"
+    "peer_reviewer": "Dr. Julia Iafrate",
+    "category": "Heart Disease",
+    "teacher": "Dr. Julia Iafrate"
   },
   "EXT-0634": {
     "type": "Video",
-    "_at": "2026-08-10T19:51:38.073Z",
+    "_at": "2026-08-11T18:50:49.226Z",
     "duration": "4 min",
-    "peer_reviewer": "Dr. Julia",
-    "category": "Heart Disease"
+    "peer_reviewer": "Dr. Julia Iafrate",
+    "category": "Heart Disease",
+    "teacher": "Dr. Julia Iafrate"
   },
   "EXT-0635": {
     "type": "Video",
@@ -43024,8 +43027,9 @@
     "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1229": {
-    "peer_reviewer": "Dr. Julia",
-    "_at": "2026-08-07T16:57:01.689Z"
+    "peer_reviewer": "Dr. Julia Iafrate",
+    "_at": "2026-08-11T18:50:49.226Z",
+    "teacher": "Dr. Julia Iafrate"
   },
   "EXT-1230": {
     "peer_reviewer": "Dr. Joe",
@@ -43300,8 +43304,9 @@
     "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1337": {
-    "peer_reviewer": "Dr. Julia",
-    "_at": "2026-08-07T16:57:01.689Z"
+    "peer_reviewer": "Dr. Julia Iafrate",
+    "_at": "2026-08-11T18:50:49.226Z",
+    "teacher": "Dr. Julia Iafrate"
   },
   "EXT-1338": {
     "peer_reviewer": "Thai",
@@ -43320,24 +43325,29 @@
     "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1342": {
-    "peer_reviewer": "Dr. Julia",
-    "_at": "2026-08-07T16:57:01.689Z"
+    "peer_reviewer": "Dr. Julia Iafrate",
+    "_at": "2026-08-11T18:50:49.226Z",
+    "teacher": "Dr. Julia Iafrate"
   },
   "EXT-1343": {
-    "peer_reviewer": "Dr. Julia",
-    "_at": "2026-08-07T16:57:01.689Z"
+    "peer_reviewer": "Dr. Julia Iafrate",
+    "_at": "2026-08-11T18:50:49.226Z",
+    "teacher": "Dr. Julia Iafrate"
   },
   "EXT-1344": {
-    "peer_reviewer": "Dr. Julia",
-    "_at": "2026-08-07T16:57:01.689Z"
+    "peer_reviewer": "Dr. Julia Iafrate",
+    "_at": "2026-08-11T18:50:49.226Z",
+    "teacher": "Dr. Julia Iafrate"
   },
   "EXT-1345": {
-    "peer_reviewer": "Dr. Julia",
-    "_at": "2026-08-07T16:57:01.689Z"
+    "peer_reviewer": "Dr. Julia Iafrate",
+    "_at": "2026-08-11T18:50:49.226Z",
+    "teacher": "Dr. Julia Iafrate"
   },
   "EXT-1346": {
-    "peer_reviewer": "Dr. Julia",
-    "_at": "2026-08-07T16:57:01.689Z"
+    "peer_reviewer": "Dr. Julia Iafrate",
+    "_at": "2026-08-11T18:50:49.226Z",
+    "teacher": "Dr. Julia Iafrate"
   },
   "EXT-1347": {
     "peer_reviewer": "Thai",
@@ -43480,8 +43490,9 @@
     "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1382": {
-    "peer_reviewer": "Dr. Julia",
-    "_at": "2026-08-07T16:57:01.689Z"
+    "peer_reviewer": "Dr. Julia Iafrate",
+    "_at": "2026-08-11T18:50:49.226Z",
+    "teacher": "Dr. Julia Iafrate"
   },
   "EXT-1383": {
     "peer_reviewer": "Kaitlyn",
@@ -43516,8 +43527,9 @@
     "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1391": {
-    "peer_reviewer": "Dr. Julia",
-    "_at": "2026-08-07T16:57:01.689Z"
+    "peer_reviewer": "Dr. Julia Iafrate",
+    "_at": "2026-08-11T18:50:49.226Z",
+    "teacher": "Dr. Julia Iafrate"
   },
   "EXT-1392": {
     "peer_reviewer": "Joe",
@@ -43644,8 +43656,9 @@
     "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1423": {
-    "peer_reviewer": "Dr. Julia",
-    "_at": "2026-08-07T16:57:01.689Z"
+    "peer_reviewer": "Dr. Julia Iafrate",
+    "_at": "2026-08-11T18:50:49.226Z",
+    "teacher": "Dr. Julia Iafrate"
   },
   "EXT-1424": {
     "peer_reviewer": "Margo",
