@@ -40286,9 +40286,10 @@
   },
   "EXT-0529": {
     "type": "Video",
-    "_at": "2026-08-10T19:51:38.073Z",
-    "peer_reviewer": "Sam",
-    "category": "Workplace Wellness"
+    "_at": "2026-08-11T20:55:24.088Z",
+    "peer_reviewer": "Sam Dailey",
+    "category": "Workplace Wellness",
+    "teacher": "Sam Dailey"
   },
   "EXT-0530": {
     "type": "Video",
@@ -40487,11 +40488,12 @@
   },
   "EXT-0557": {
     "type": "Video",
-    "_at": "2026-08-11T20:11:02.822Z",
-    "peer_reviewer": "Sam",
+    "_at": "2026-08-11T20:55:24.088Z",
+    "peer_reviewer": "Sam Dailey",
     "category": "Workplace Wellness",
     "author": "Sam",
-    "duration": "3"
+    "duration": "3",
+    "teacher": "Sam Dailey"
   },
   "EXT-0558": {
     "type": "Video",
@@ -46437,39 +46439,44 @@
     "duration": "5"
   },
   "EXT-1365": {
-    "peer_reviewer": "Sam",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "peer_reviewer": "Sam Dailey",
+    "_at": "2026-08-11T20:55:24.088Z",
     "language": "English",
     "author": "Sam",
-    "duration": "3"
+    "duration": "3",
+    "teacher": "Sam Dailey"
   },
   "EXT-1366": {
-    "peer_reviewer": "Sam",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "peer_reviewer": "Sam Dailey",
+    "_at": "2026-08-11T20:55:24.088Z",
     "language": "English",
     "author": "Sam",
-    "duration": "3"
+    "duration": "3",
+    "teacher": "Sam Dailey"
   },
   "EXT-1367": {
-    "peer_reviewer": "Sam",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "peer_reviewer": "Sam Dailey",
+    "_at": "2026-08-11T20:55:24.088Z",
     "language": "English",
     "author": "Sam",
-    "duration": "3"
+    "duration": "3",
+    "teacher": "Sam Dailey"
   },
   "EXT-1368": {
-    "peer_reviewer": "Sam",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "peer_reviewer": "Sam Dailey",
+    "_at": "2026-08-11T20:55:24.088Z",
     "language": "English",
     "author": "Sam",
-    "duration": "3"
+    "duration": "3",
+    "teacher": "Sam Dailey"
   },
   "EXT-1369": {
-    "peer_reviewer": "Sam",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "peer_reviewer": "Sam Dailey",
+    "_at": "2026-08-11T20:55:24.088Z",
     "language": "English",
     "author": "Sam",
-    "duration": "3"
+    "duration": "3",
+    "teacher": "Sam Dailey"
   },
   "EXT-1370": {
     "peer_reviewer": "Dr. Joe",
@@ -47053,25 +47060,28 @@
     "teacher": "Gus Gosson"
   },
   "EXT-1482": {
-    "peer_reviewer": "Sam",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "peer_reviewer": "Sam Dailey",
+    "_at": "2026-08-11T20:55:24.088Z",
     "language": "English",
     "author": "Sam",
-    "duration": "3"
+    "duration": "3",
+    "teacher": "Sam Dailey"
   },
   "EXT-1483": {
-    "peer_reviewer": "Sam",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "peer_reviewer": "Sam Dailey",
+    "_at": "2026-08-11T20:55:24.088Z",
     "language": "English",
     "author": "Sam",
-    "duration": "3"
+    "duration": "3",
+    "teacher": "Sam Dailey"
   },
   "EXT-1484": {
-    "peer_reviewer": "Sam",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "peer_reviewer": "Sam Dailey",
+    "_at": "2026-08-11T20:55:24.088Z",
     "language": "English",
     "author": "Sam",
-    "duration": "3"
+    "duration": "3",
+    "teacher": "Sam Dailey"
   },
   "EXT-1485": {
     "peer_reviewer": "Dr. Ellie",
