@@ -39270,10 +39270,11 @@
   },
   "ZH-00034": {
     "type": "Video",
-    "_at": "2026-08-10T17:03:56.386Z",
+    "_at": "2026-08-11T20:57:44.653Z",
     "duration": "4 min",
-    "peer_reviewer": "Yitong (Adam)",
-    "language": "Chinese"
+    "peer_reviewer": "Adam Zhang",
+    "language": "Chinese",
+    "teacher": "Adam Zhang"
   },
   "ZH-00079": {
     "type": "Video",
@@ -44691,18 +44692,18 @@
     "peer_reviewer": "Zao Chan Yap"
   },
   "EXT-1254": {
-    "teacher": "Yitong (Adam)",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "teacher": "Adam Zhang",
+    "_at": "2026-08-11T20:57:44.653Z",
     "duration": "5",
-    "peer_reviewer": "Yitong (Adam)",
+    "peer_reviewer": "Adam Zhang",
     "language": "English",
     "author": "Jessica"
   },
   "EXT-1255": {
-    "teacher": "Yitong (Adam)",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "teacher": "Adam Zhang",
+    "_at": "2026-08-11T20:57:44.653Z",
     "duration": "10",
-    "peer_reviewer": "Yitong (Adam)",
+    "peer_reviewer": "Adam Zhang",
     "language": "English",
     "author": "Hailey"
   },
@@ -47337,9 +47338,10 @@
   },
   "ZH-00037": {
     "language": "Chinese",
-    "_at": "2026-08-11T20:17:14.145Z",
-    "peer_reviewer": "Yitong (Adam)",
-    "author": "Jessica"
+    "_at": "2026-08-11T20:57:44.653Z",
+    "peer_reviewer": "Adam Zhang",
+    "author": "Jessica",
+    "teacher": "Adam Zhang"
   },
   "ZH-00048": {
     "language": "Chinese",
@@ -47447,9 +47449,10 @@
   },
   "ZH-00039": {
     "language": "Chinese",
-    "_at": "2026-08-10T19:51:38.073Z",
+    "_at": "2026-08-11T20:57:44.653Z",
     "category": "Personality Clip",
-    "peer_reviewer": "Yitong (Adam)"
+    "peer_reviewer": "Adam Zhang",
+    "teacher": "Adam Zhang"
   },
   "ZH-00001": {
     "language": "Chinese",
@@ -47559,8 +47562,9 @@
   },
   "ZH-00035": {
     "language": "Chinese",
-    "_at": "2026-08-10T19:51:38.073Z",
-    "peer_reviewer": "Yitong (Adam)"
+    "_at": "2026-08-11T20:57:44.653Z",
+    "peer_reviewer": "Adam Zhang",
+    "teacher": "Adam Zhang"
   },
   "ZH-00040": {
     "language": "Chinese",
@@ -47571,10 +47575,11 @@
   },
   "ZH-00038": {
     "language": "Chinese",
-    "_at": "2026-08-11T20:17:14.145Z",
-    "peer_reviewer": "Yitong (Adam)",
+    "_at": "2026-08-11T20:57:44.653Z",
+    "peer_reviewer": "Adam Zhang",
     "author": "Hailey",
-    "duration": "10"
+    "duration": "10",
+    "teacher": "Adam Zhang"
   },
   "ZH-00023": {
     "language": "Chinese",
@@ -47625,8 +47630,9 @@
   },
   "ZH-00036": {
     "language": "Chinese",
-    "_at": "2026-08-10T19:51:38.073Z",
-    "peer_reviewer": "Yitong (Adam)"
+    "_at": "2026-08-11T20:57:44.653Z",
+    "peer_reviewer": "Adam Zhang",
+    "teacher": "Adam Zhang"
   },
   "ZH-00024": {
     "language": "Chinese",
