@@ -1762,7 +1762,6 @@ function cleanTitle(title) {
 document.getElementById('totalCount').textContent = ALL.length.toLocaleString();
 
 const REVIEW_SET  = new Set(['Article','Infographic','Video']);
-const ALL_TYPES   = ['Article','Infographic','Video'];
 
 // ── Colors ────────────────────────────────────────────────────────────────────
 const BG_COLORS = [
@@ -2509,7 +2508,12 @@ function showDetail(item) {
   const fSubOn   = gE(item.id,'subtitles_available','');
   const fSubLangs= gE(item.id,'subtitle_languages','');
 
-  const typeOpts = ALL_TYPES.map(t=>`<option${fType===t?' selected':''}>${t}</option>`).join('');
+  // Computed fresh from live data, same as category below — ALL_TYPES used to be
+  // a hardcoded ['Article','Infographic','Video'], missing every type introduced
+  // by imports (Video Library, Recipe, Audio, Guide, Presentation, etc.), so there
+  // was no way to change an item to any of those types from this panel.
+  const liveTypes = [...new Set([...ALL.map(i=>lv(i,'type')), fType])].filter(Boolean).sort();
+  const typeOpts = liveTypes.map(t=>`<option${fType===t?' selected':''}>${t}</option>`).join('');
   // Computed fresh (not a load-time snapshot) so a category introduced after page
   // load — via edits overlay, bulk import, etc. — always has a matching <option>.
   // A <select> whose bound value has no matching option silently displays the
