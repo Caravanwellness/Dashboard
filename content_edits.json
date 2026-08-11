@@ -38688,8 +38688,9 @@
   },
   "TR-00003": {
     "type": "Video",
-    "_at": "2026-08-07T16:57:01.689Z",
-    "peer_reviewer": "Siyar"
+    "_at": "2026-08-11T20:26:18.616Z",
+    "peer_reviewer": "Dr. Şiyar Bahadır",
+    "teacher": "Dr. Şiyar Bahadır"
   },
   "RU-00001": {
     "type": "Video",
@@ -38751,8 +38752,9 @@
   },
   "TR-00001": {
     "type": "Video",
-    "_at": "2026-08-07T16:57:01.689Z",
-    "peer_reviewer": "Siyar"
+    "_at": "2026-08-11T20:26:18.616Z",
+    "peer_reviewer": "Dr. Şiyar Bahadır",
+    "teacher": "Dr. Şiyar Bahadır"
   },
   "ES-00121": {
     "type": "Video",
@@ -38947,8 +38949,9 @@
   },
   "TR-00004": {
     "type": "Video",
-    "_at": "2026-08-07T16:57:01.689Z",
-    "peer_reviewer": "Siyar"
+    "_at": "2026-08-11T20:26:18.616Z",
+    "peer_reviewer": "Dr. Şiyar Bahadır",
+    "teacher": "Dr. Şiyar Bahadır"
   },
   "ES-00151": {
     "type": "Video",
@@ -49614,16 +49617,18 @@
     "author": "Victoria"
   },
   "TR-00002": {
-    "peer_reviewer": "Siyar",
-    "_at": "2026-08-11T20:17:14.145Z",
+    "peer_reviewer": "Dr. Şiyar Bahadır",
+    "_at": "2026-08-11T20:26:18.616Z",
     "author": "Zohar",
-    "duration": "10"
+    "duration": "10",
+    "teacher": "Dr. Şiyar Bahadır"
   },
   "TR-00005": {
-    "peer_reviewer": "Siyar",
-    "_at": "2026-08-11T20:17:14.145Z",
+    "peer_reviewer": "Dr. Şiyar Bahadır",
+    "_at": "2026-08-11T20:26:18.616Z",
     "author": "Jessica",
-    "duration": "10"
+    "duration": "10",
+    "teacher": "Dr. Şiyar Bahadır"
   },
   "DE-00010": {
     "peer_reviewer": "Enja Schenck",
@@ -50636,8 +50641,9 @@
   },
   "TR-00006": {
     "category": "Personality Clip",
-    "_at": "2026-08-10T19:51:38.073Z",
-    "peer_reviewer": "Siyar"
+    "_at": "2026-08-11T20:26:18.616Z",
+    "peer_reviewer": "Dr. Şiyar Bahadır",
+    "teacher": "Dr. Şiyar Bahadır"
   },
   "FR-00063": {
     "peer_reviewer": "Angéline Galinier-Warrain",
@@ -51918,8 +51924,9 @@
   },
   "EN-01513": {
     "category": "Personality Clip",
-    "_at": "2026-08-10T19:51:38.073Z",
-    "peer_reviewer": "Siyar"
+    "_at": "2026-08-11T20:26:18.616Z",
+    "peer_reviewer": "Dr. Şiyar Bahadır",
+    "teacher": "Dr. Şiyar Bahadır"
   },
   "EN-01520": {
     "category": "Personality Clip",
