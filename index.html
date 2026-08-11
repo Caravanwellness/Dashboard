@@ -357,6 +357,25 @@ textarea.field-edit { resize: vertical; }
   </div>
 </div>
 
+<!-- Creator Import Modal -->
+<div id="creatorImportModal" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:8000;align-items:center;justify-content:center">
+  <div style="background:white;border-radius:14px;padding:30px;max-width:560px;width:90%;box-shadow:0 12px 40px rgba(0,0,0,.25);max-height:90vh;overflow-y:auto">
+    <h3 style="margin:0 0 6px;font-size:16px;font-weight:700;color:#1a1a2e">Import Creator Info</h3>
+    <p style="font-size:13px;color:#666;margin:0 0 14px">Upload a CSV — the one exported from this page, or any CSV with <strong>Name</strong>, <strong>Credentials</strong>, and <strong>Bio</strong> columns. Rows are matched by Name; Credentials and Bio are updated, blank cells are left alone. Authored/Reviewed columns (if present) are ignored — those are computed from content, not editable.</p>
+    <div id="creatorImportDropzone" ondragover="event.preventDefault()" ondrop="handleCreatorImportDrop(event)" style="border:2px dashed #e0e0e0;border-radius:10px;padding:32px;text-align:center;cursor:pointer;margin-bottom:16px" onclick="document.getElementById('creatorImportFileInput').click()">
+      <div style="font-size:28px;margin-bottom:8px">📂</div>
+      <div style="font-size:13px;color:#666">Drag &amp; drop a CSV file here<br>or click to browse</div>
+      <input id="creatorImportFileInput" type="file" accept=".csv" style="display:none" onchange="handleCreatorImportFile(this.files[0])">
+    </div>
+    <div id="creatorImportPreview" style="display:none;margin-bottom:16px;border:1px solid #e0eaff;border-radius:8px;padding:14px;background:#f5f8ff;font-size:13px"></div>
+    <div id="creatorImportStatus" style="font-size:12px;color:#666;min-height:18px;margin-bottom:12px"></div>
+    <div style="display:flex;gap:10px;justify-content:flex-end">
+      <button id="creatorImportConfirmBtn" onclick="confirmCreatorImport()" style="display:none;padding:9px 20px;background:#6366f1;color:white;border:none;border-radius:7px;font-weight:700;font-size:13px;cursor:pointer">Save to Dashboard</button>
+      <button onclick="closeCreatorImportModal()" style="padding:9px 18px;border:1px solid #e0e0e0;border-radius:7px;background:white;cursor:pointer;font-size:13px;color:#666">Close</button>
+    </div>
+  </div>
+</div>
+
 <!-- Article Viewer Modal -->
 <!-- Admin Panel Modal -->
 <div id="adminModal" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:9500;align-items:center;justify-content:center">
@@ -565,6 +584,8 @@ textarea.field-edit { resize: vertical; }
     <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;flex-wrap:wrap">
       <input type="text" id="creatorSearch" placeholder="Search creators…" style="padding:8px 12px;border:1px solid #e0e0e0;border-radius:8px;font-size:13px;width:260px;outline:none">
       <span id="creatorCount" style="font-size:12px;color:#aaa"></span>
+      <button class="btn primary" onclick="exportCreatorsCSV()">⬇ Export CSV</button>
+      <button class="btn" onclick="document.getElementById('creatorImportModal').style.display='flex'" style="background:#6366f1;color:white;border-color:#6366f1">⬆ Import</button>
       <label style="margin-left:auto;display:flex;align-items:center;gap:7px;padding:7px 14px;background:#0d9488;color:white;border-radius:7px;font-size:12px;font-weight:600;cursor:pointer">
         📷 Bulk Upload Photos
         <input type="file" accept="image/*" multiple style="display:none" onchange="bulkUploadPhotos(this)">
@@ -3221,6 +3242,135 @@ function parseCSV(text) {
     headers.forEach((h, i) => { row[h] = (vals[i] || '').replace(/^"|"$/g,'').trim(); });
     return row;
   });
+}
+
+// ── Creator CSV Export/Import ──────────────────────────────────────────────
+function exportCreatorsCSV() {
+  const people = buildCreatorIndex();
+  const names = Object.keys(people).sort((a,b) => a.localeCompare(b));
+  const hdrs = ['Name','Credentials','Bio','Authored','Reviewed'];
+  const rows = [hdrs.join(',')];
+  names.forEach(name => {
+    const info = people[name];
+    const creds = getBio(name,'creds',info.creds||'');
+    const bio = getBio(name,'bio','');
+    const vals = [name, creds, bio, info.authored, info.reviewed]
+      .map(v => '"' + String(v||'').replace(/"/g,'""') + '"');
+    rows.push(vals.join(','));
+  });
+  const blob = new Blob([rows.join('\n')],{type:'text/csv'});
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'caravan-creators.csv';
+  a.click();
+}
+
+let _creatorImportParsed = null; // [{name, creds, bio}]
+
+function closeCreatorImportModal() {
+  document.getElementById('creatorImportModal').style.display = 'none';
+  document.getElementById('creatorImportPreview').style.display = 'none';
+  document.getElementById('creatorImportStatus').textContent = '';
+  document.getElementById('creatorImportConfirmBtn').style.display = 'none';
+  document.getElementById('creatorImportFileInput').value = '';
+  _creatorImportParsed = null;
+}
+
+function handleCreatorImportDrop(e) {
+  e.preventDefault();
+  const file = e.dataTransfer.files[0];
+  if (file) handleCreatorImportFile(file);
+}
+
+async function handleCreatorImportFile(file) {
+  if (!file) return;
+  const statusEl   = document.getElementById('creatorImportStatus');
+  const previewEl  = document.getElementById('creatorImportPreview');
+  const confirmBtn = document.getElementById('creatorImportConfirmBtn');
+  _creatorImportParsed = null;
+  previewEl.style.display = 'none';
+  confirmBtn.style.display = 'none';
+  statusEl.textContent = 'Reading file…';
+
+  try {
+    if (!file.name.endsWith('.csv')) throw new Error('Please upload a .csv file');
+    const rows = parseCSV(await file.text()).map(r => {
+      const o = {}; for (const [k,v] of Object.entries(r)) o[k.toLowerCase().trim()] = v; return o;
+    });
+
+    const known = new Set(Object.keys(buildCreatorIndex()));
+    const parsed = [];
+    let matched = 0, unmatched = 0, skippedNoName = 0;
+    for (const row of rows) {
+      const name = String(row['name'] || '').trim();
+      if (!name) { skippedNoName++; continue; }
+      // "Title / Credentials" is what the card UI calls this field — accept common aliases.
+      const credsRaw = row['credentials'] !== undefined ? row['credentials']
+        : row['title'] !== undefined ? row['title']
+        : row['title / credentials'];
+      const creds = credsRaw !== undefined ? String(credsRaw).trim() : undefined;
+      const bio   = row['bio'] !== undefined ? String(row['bio']).trim() : undefined;
+      parsed.push({ name, creds, bio });
+      if (known.has(name)) matched++; else unmatched++;
+    }
+
+    if (!parsed.length) throw new Error('No rows with a Name column found');
+
+    _creatorImportParsed = parsed;
+    previewEl.style.display = 'block';
+    previewEl.innerHTML = `
+      <strong>${parsed.length} row${parsed.length===1?'':'s'} found</strong><br>
+      ${matched} match existing creators &nbsp;·&nbsp; ${unmatched} are new names not currently on this page
+      ${skippedNoName ? `<br><span style="color:#c0392b">${skippedNoName} row(s) skipped — no Name value</span>` : ''}
+    `;
+    statusEl.textContent = '';
+    confirmBtn.style.display = 'inline-block';
+  } catch(e) {
+    statusEl.textContent = '⚠ ' + e.message;
+  }
+}
+
+async function confirmCreatorImport() {
+  if (!_creatorImportParsed) return;
+  const statusEl   = document.getElementById('creatorImportStatus');
+  const confirmBtn = document.getElementById('creatorImportConfirmBtn');
+  confirmBtn.disabled = true;
+  statusEl.textContent = 'Saving…';
+
+  // Blank cells are left alone (no data in the file for that column ≠ "clear this
+  // field") — same convention as the content Import. Also skip values that already
+  // match, so re-uploading an unchanged export doesn't generate no-op writes.
+  const bulk = [];
+  for (const { name, creds, bio } of _creatorImportParsed) {
+    if (creds !== undefined && creds !== '' && creds !== getBio(name,'creds','')) {
+      bulk.push({ name, field: 'creds', value: creds });
+    }
+    if (bio !== undefined && bio !== '' && bio !== getBio(name,'bio','')) {
+      bulk.push({ name, field: 'bio', value: bio });
+    }
+  }
+
+  if (!bulk.length) {
+    statusEl.textContent = 'Nothing to update — all values already match.';
+    confirmBtn.disabled = false;
+    return;
+  }
+
+  try {
+    const r = await fetch('/api/save-bio', {
+      method: 'POST', headers: {'Content-Type':'application/json'},
+      body: JSON.stringify({ bulk }),
+    });
+    if (!r.ok) throw new Error('Save failed');
+    bulk.forEach(({name,field,value}) => { if (!bios[name]) bios[name] = {}; bios[name][field] = value; });
+    statusEl.textContent = `✓ Updated ${bulk.length} field${bulk.length===1?'':'s'} across ${new Set(bulk.map(b=>b.name)).size} creators.`;
+    renderCreators();
+    setTimeout(closeCreatorImportModal, 1800);
+  } catch(e) {
+    statusEl.textContent = '⚠ ' + e.message;
+  } finally {
+    confirmBtn.disabled = false;
+  }
 }
 
 // ── Creator datalist ──────────────────────────────────────────────────────────
