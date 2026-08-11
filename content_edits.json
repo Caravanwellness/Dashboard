@@ -12,7 +12,7 @@
         "changed_by": "Unknown"
       }
     ],
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "reviewed_by": "Unknown",
     "review_date": "07/01/2026",
     "ver.": "1",
@@ -20,7 +20,7 @@
     "notes": "Duration: 4",
     "language": "English",
     "duration": "4",
-    "peer_reviewer": "Marlee"
+    "peer_reviewer": "Marlee Alanis"
   },
   "ART-0029": {
     "peer_reviewer": "Diane McNaught",
@@ -191,10 +191,10 @@
   },
   "ALB-0253": {
     "author": "Diane McNaught",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "references": "Cleveland Clinic. (2026). Social anxiety disorder (social phobia): Symptoms & treatment. https://my.clevelandclinic.org/health/diseases/22709-social-anxiety\nInternational Journal of Environmental Research and Public Health. (2023). Romantic duration, relationship quality, and attachment insecurity among dating couples. https://www.mdpi.com/1660-4601/20/1/856\nJournal of Marital and Family Therapy. (2025). Attachment anxiety and relationship satisfaction in the digital era: The contribution of social media jealousy and electronic partner surveillance. https://onlinelibrary.wiley.com/doi/10.1111/jmft.70074",
     "type": "Article",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "2",
     "link": "https://docs.google.com/document/d/16M9I4B-S__zNpCnqbcE6JK5FK4QBFCZTDti_97mw7Hw/edit?usp=sharing"
   },
@@ -2044,11 +2044,11 @@
   },
   "ALB-0053": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "references": "American Heart Association. (2022). Getting more exercise than guidelines suggest may further lower death risk. https://www.heart.org/en/news/2022/07/25/getting-more-exercise-than-guidelines-suggest-may-further-lower-death-risk\nCenters for Disease Control and Prevention. (2025). Benefits of physical activity. https://www.cdc.gov/physical-activity-basics/benefits/index.html\nCardiology in Review. (2022). Exercise, physical activity, and cardiometabolic health: Insights into the prevention and treatment of cardiometabolic diseases. https://pmc.ncbi.nlm.nih.gov/articles/PMC8920940/",
     "teacher": "Diane McNaught",
     "type": "Article",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "duration": "1"
   },
   "ALB-0054": {
@@ -31338,9 +31338,9 @@
   },
   "ART-0023": {
     "author": "Diane McNaught",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "language": "English",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "2",
     "link": "https://docs.google.com/document/d/16M9I4B-S__zNpCnqbcE6JK5FK4QBFCZTDti_97mw7Hw/edit?usp=sharing"
   },
@@ -31432,9 +31432,9 @@
   },
   "ALB-0254": {
     "references": "Cleveland Clinic. (2024). Benefits of Reducing your Alcohol Intake. https://newsroom.clevelandclinic.org/2024/04/22/benefits-of-reducing-your-alcohol-intake\n\nMayo Clinic. (2024). Alcohol use: Weighing risks and benefits. https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/alcohol/art-20044551\n\nCenters for Disease Control and Prevention. (2025). About Moderate Alcohol Use. https://www.cdc.gov/alcohol/about-alcohol-use/moderate-alcohol-use.html",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "type": "Article",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "4"
   },
   "VID-0175": {
@@ -35556,37 +35556,37 @@
   },
   "EXT-0022": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Financial Wellness",
     "author": "Emily Wilson",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "5",
     "link": "https://docs.google.com/document/d/1ImzpIpB4MheYPNcVgzhnXQboeO8dcWg-b3V-Ba0EFJQ/edit?usp=sharing"
   },
   "EXT-0023": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Financial Wellness",
     "author": "Emily Wilson",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "3",
     "link": "https://docs.google.com/document/d/1xaL2E5QHUJ88t33iDrrJhYCifFDgIvYqodvcJ8E37w4/edit?usp=sharing"
   },
   "EXT-0024": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Financial Wellness",
     "author": "Emily Wilson",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "3",
     "link": "https://docs.google.com/document/d/1efsautYS7iJzb7F9oEdUIzf2u86mzQDacjwAR4B86bM/edit?usp=sharing"
   },
   "EXT-0025": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Financial Wellness",
     "author": "Emily Wilson",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "5",
     "link": "https://docs.google.com/document/d/1Qq6vSU0NEJFdBh1Fz-bQ_Hb5LJnO6t4vxfrCAUjGO7A/edit?usp=sharing"
   },
@@ -35610,11 +35610,11 @@
   },
   "EXT-0033": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Financial Wellness",
     "author": "Emily Wilson",
     "notes": "Unlike income tax, sales tax is regressive, meaning it takes a larger percentage of income from low-income individuals. rewrite to Unlike income tax, which adjusts with earnings, sales tax is regressive because it takes a larger percentage of income from low-income individuals relative to their total income.",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "6"
   },
   "EXT-0037": {
@@ -35624,38 +35624,38 @@
   },
   "EXT-0038": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Financial Wellness / Parenting",
     "author": "Emily Wilson",
     "notes": "Healthy Financial Principles for Children of All Ages could possibly be a title that is easier to understand",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "3"
   },
   "EXT-0041": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Financial Wellness",
     "author": "Emily Wilson",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "4",
     "link": "https://docs.google.com/document/d/1uNbGI09luEYxpV6vOXVP2-F3jCCtVZWODPK7RkrJjLA/edit?usp=sharing"
   },
   "EXT-0045": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "duration": "6",
     "category": "Financial Wellness",
     "author": "Emily Wilson",
     "notes": "Very detailed and easy to understand",
-    "peer_reviewer": "Marlee"
+    "peer_reviewer": "Marlee Alanis"
   },
   "EXT-0048": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Financial Wellness",
     "author": "Emily Wilson",
     "notes": "Maybe include therapists as one of the professionals listed under seek professional support to emphasize the impact on mental health that financial strains cause",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "6"
   },
   "EXT-0049": {
@@ -35674,10 +35674,10 @@
   },
   "EXT-0055": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Financial Wellness",
     "author": "Emily Wilson",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "5"
   },
   "EXT-0056": {
@@ -35774,27 +35774,27 @@
   },
   "EXT-0100": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Financial Wellness",
     "author": "Emily Wilson",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "5"
   },
   "EXT-0101": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Financial Wellness",
     "author": "Emily Wilson",
     "notes": "adjust formatting, 2 columns per page",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "6",
     "link": "https://docs.google.com/document/d/1-GHNFJzq6U7N1NiJ78BYRC6a_sGRypsaDQkkV_inYzg/edit?usp=sharing"
   },
   "EXT-0104": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Nutrition",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "2"
   },
@@ -35810,9 +35810,9 @@
   },
   "EXT-0107": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Nutrition / Sleep",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "2"
   },
@@ -35823,18 +35823,18 @@
   },
   "EXT-0109": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "Emily Wilson",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "4",
     "link": "https://docs.google.com/document/d/1A2rkncQgd1yDd6BTtPbOqP6LJvBl9lGhnh6A5cADX8c/edit?usp=sharing"
   },
   "EXT-0110": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Fitness",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "notes": "Interesting article, encouraging for moms-to-be",
     "peer_reviewer": "Emily Wilson",
     "duration": "1",
@@ -35842,36 +35842,36 @@
   },
   "EXT-0111": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Fitness",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "2"
   },
   "EXT-0112": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Social Wellness & Relationships",
     "author": "Emily Wilson",
     "notes": "I really like this!",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "4",
     "link": "https://docs.google.com/document/d/1shDrwmx_nCpflz9V0r0PVN08vZgSz6RIT6Xphg2erA8/edit?tab=t.0"
   },
   "EXT-0113": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Nutrition",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "2",
     "link": "https://docs.google.com/document/d/1x-2TIDn8fOHhWTkFaerTAapc2HFAzlTu/edit?usp=sharing&ouid=104973203194055734700&rtpof=true&sd=true"
   },
   "EXT-0114": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Fitness",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "2"
   },
@@ -35887,9 +35887,9 @@
   },
   "EXT-0117": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Fitness",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "1"
   },
@@ -35906,67 +35906,67 @@
   },
   "EXT-0120": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Fitness",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "3"
   },
   "EXT-0121": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Performance & Positive Thinking",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "2"
   },
   "EXT-0124": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Sleep",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "2",
     "date_created": "06/03/2026"
   },
   "EXT-0125": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Mental Health",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson"
   },
   "EXT-0126": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "Emily Wilson",
     "notes": "We spell wellbeing as one word with no hyphen",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "2"
   },
   "EXT-0127": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Sleep",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "notes": "5th sentence- maybe remove But from the beginning for clarity?",
     "peer_reviewer": "Emily Wilson",
     "duration": "2"
   },
   "EXT-0128": {
     "type": "Article",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Relationships / Mental Health",
     "author": "Jade",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "3"
   },
   "EXT-0129": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Nutrition",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "notes": "1st line- maybe change to Maintaining a stable blood sugar level is vital... Also- this could be used with hypoglycemia as well if we add that to the 1st paragraph.",
     "peer_reviewer": "Emily Wilson",
     "duration": "2",
@@ -35983,52 +35983,52 @@
   },
   "EXT-0131": {
     "type": "Article",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Mental Health",
     "author": "Jade",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "3"
   },
   "EXT-0132": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Nutrition",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "notes": "second paragraph, last sentence        by-products",
     "peer_reviewer": "Emily Wilson",
     "duration": "2"
   },
   "EXT-0133": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Nutrition",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "notes": "R?",
     "peer_reviewer": "Emily Wilson",
     "duration": "2"
   },
   "EXT-0134": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "author": "Madeline",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "category": "Mental Health",
     "link": "https://docs.google.com/document/d/1NF4vjomSXSC__XqCa8DbB9QR6onoFI5B-Dy0IWMCBUs/edit?usp=sharing"
   },
   "EXT-0135": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Fitness",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "2"
   },
   "EXT-0136": {
     "type": "Article",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Fitness",
     "author": "Jade",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "2"
   },
   "EXT-0137": {
@@ -36038,9 +36038,9 @@
   },
   "EXT-0138": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Nutrition / Mental Health",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "4",
     "link": "https://docs.google.com/document/d/1mp7Q5rJ35PchrgT8AIVaTRZkwdzSazlM/edit?usp=sharing&ouid=104973203194055734700&rtpof=true&sd=true",
@@ -36048,35 +36048,35 @@
   },
   "EXT-0139": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Nutrition",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "notes": "R?",
     "peer_reviewer": "Emily Wilson",
     "duration": "5"
   },
   "EXT-0140": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "Emily Wilson",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "4",
     "link": "https://docs.google.com/document/d/1-rpMl0g6gX-J-QRqs56mYekkqnKtdfKeRrw62VnNW1c/edit?usp=sharing"
   },
   "EXT-0141": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
-    "author": "Marlee",
+    "_at": "2026-08-11T18:43:19.043Z",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Jade",
     "category": "Health / Mental Health",
     "link": "https://docs.google.com/document/d/1HYCDd1UiJvL-_mLbdGQiFP7QN1ULLOl9tQcaWmypcrw/edit?usp=sharing"
   },
   "EXT-0142": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Nutrition",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "notes": "Title say well-being",
     "peer_reviewer": "Emily Wilson",
     "duration": "2",
@@ -36084,19 +36084,19 @@
   },
   "EXT-0143": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Performance & Positive Thinking / Mental Health",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "2",
     "link": "https://docs.google.com/document/d/1qVnIXxvTvYt2CHIxfBGZxGHRWOQyfJk0m3bL08Ky6Fk/edit?usp=sharing"
   },
   "EXT-0144": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Mental Health",
     "author": "Jade",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "2",
     "link": "https://docs.google.com/document/d/1_v-EpPxrSzrD5cveygNQBwIruf-aKSiFpZbFCMNoK5I/edit?usp=sharing"
   },
@@ -36116,9 +36116,9 @@
   },
   "EXT-0147": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Mental Health",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "notes": "R?",
     "peer_reviewer": "Emily Wilson",
     "duration": "2",
@@ -36141,51 +36141,51 @@
   },
   "EXT-0151": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Performance & Positive Thinking / Workplace Wellness",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "notes": "Paragraph #3,Sentence #3 review for clarity",
     "peer_reviewer": "Emily Wilson",
     "duration": "2"
   },
   "EXT-0152": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Fitness / Nutrition",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "1"
   },
   "EXT-0153": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Mental Health",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson"
   },
   "EXT-0154": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Sleep / Health",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "1"
   },
   "EXT-0155": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Mental Health",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "notes": "R?",
     "peer_reviewer": "Emily Wilson",
     "duration": "2"
   },
   "EXT-0156": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "Sakina",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "link": "https://docs.google.com/document/d/1G2XTP80nM6uWPl3SXXEp_uQ3JjsR8wDrz336KUxjBO0/edit?usp=sharing"
   },
   "EXT-0157": {
@@ -36203,9 +36203,9 @@
   },
   "EXT-0159": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Nutrition",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "3",
     "link": "https://docs.google.com/document/d/1XCRe-T2xpPYuRBEaj4RsligFCqwteMeV/edit?usp=sharing&ouid=104973203194055734700&rtpof=true&sd=true",
@@ -36213,9 +36213,9 @@
   },
   "EXT-0160": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Nutrition",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "notes": "10th line, 2nd paragraph- typo",
     "peer_reviewer": "Emily Wilson",
     "duration": "3"
@@ -36227,9 +36227,9 @@
   },
   "EXT-0162": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "2"
   },
@@ -36240,27 +36240,27 @@
   },
   "EXT-0164": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "duration": "3",
     "category": "Health / Fitness",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "date_created": "01/28/2026",
     "link": "https://docs.google.com/document/d/1E-k1VFOLbTaJLL3IU1k1XsSO7F332qJc_NHT4dmfrEM/edit?usp=sharing"
   },
   "EXT-0165": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Fitness",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "1"
   },
   "EXT-0166": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Fitness",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "2",
     "date_created": "10/25/2023",
@@ -36268,19 +36268,19 @@
   },
   "EXT-0167": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Performance & Positive Thinking / Sleep",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "2",
     "link": "https://docs.google.com/document/d/1vwnz_0XWgiWI5hTZTLVNcm3fYh3zJ4z_OOfJZ27im10/edit?usp=sharing"
   },
   "EXT-0168": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "Sakina",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "link": "https://docs.google.com/document/d/1AXCxsxRlkkuXq7-GP2rCmBpDPYR5HdPP-NsE6VfuqHA/edit?usp=sharing"
   },
   "EXT-0169": {
@@ -36300,9 +36300,9 @@
   },
   "EXT-0172": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Nutrition",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "3"
   },
@@ -36313,9 +36313,9 @@
   },
   "EXT-0174": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Mental Health",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "notes": "R?",
     "peer_reviewer": "Emily Wilson",
     "duration": "2",
@@ -36323,51 +36323,51 @@
   },
   "EXT-0175": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Nutrition",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "1"
   },
   "EXT-0176": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Mental Health",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "2"
   },
   "EXT-0177": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Performance & Positive Thinking",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "2",
     "link": "https://docs.google.com/document/d/1XyW_etXOiQYpGTQY2uY6_8jO1TTl6nFs/edit?usp=sharing&ouid=104973203194055734700&rtpof=true&sd=true"
   },
   "EXT-0178": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "Sakina",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "link": "https://docs.google.com/document/d/1bq9qTo-QTQaM96080PjqCk4E_2jYiH42XMV6aRg5msY/edit?usp=sharing"
   },
   "EXT-0179": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "duration": "5",
     "category": "Nutrition/Sleep",
     "author": "Madeline",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "link": "https://docs.google.com/document/d/1L8VIjj9iuq0MuMo55jMcUL1pIaNuSgXbtCdaydpAKoY/edit?usp=sharing"
   },
   "EXT-0180": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Performance & Positive Thinking / Mental Health",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "2",
     "link": "https://docs.google.com/document/d/1Y_uZQnsDGBZ7nSdgtpvvmClgFGKBjI1l/edit?usp=sharing&ouid=104973203194055734700&rtpof=true&sd=true",
@@ -36375,9 +36375,9 @@
   },
   "EXT-0181": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "2"
   },
@@ -37412,9 +37412,9 @@
   },
   "EXT-0381": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "author": "Emily Wilson",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "4",
     "link": "https://docs.google.com/document/d/1B0oD-tgTK8NGZ9bkxE0PneVW207BBBkFu2LDBMfFtT0/edit?usp=sharing"
   },
@@ -37430,10 +37430,10 @@
   },
   "EXT-0387": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "author": "Emily Wilson",
     "notes": "Let's replace deprivation with withholding in This isn’t about deprivation;",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "5",
     "link": "https://docs.google.com/document/d/1wWXexorLEFtTsIroj9t2_6WGJ7LLFTSFdthmPI__4K4/edit?usp=sharing"
   },
@@ -37448,8 +37448,8 @@
   },
   "EXT-0394": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
-    "author": "Marlee",
+    "_at": "2026-08-11T18:43:19.043Z",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "2",
     "date_created": "05/27/2025"
@@ -37461,9 +37461,9 @@
   },
   "EXT-0398": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "author": "Emily Wilson",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "3",
     "link": "https://docs.google.com/document/d/1CShr3QsYqe2hcZLgohT_KLh2-La9rY0-rpMmmW1q8W4/edit?usp=sharing"
   },
@@ -37480,16 +37480,16 @@
   },
   "EXT-0412": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "author": "Emily Wilson",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "4"
   },
   "EXT-0414": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "author": "Emily Wilson",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "4",
     "link": "https://docs.google.com/document/d/1Jiie6sYRSoqLq1YLwVD_mHtjyqqvagZO/edit"
   },
@@ -38846,137 +38846,137 @@
   },
   "EXT-0662": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "Emily Wilson",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "4",
     "link": "https://docs.google.com/document/d/1eaOCylkpDG-pLjWrmcFWlLfe22Wqn-ph_7-nsLrfU14/edit?usp=sharing"
   },
   "EXT-0663": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "Emily Wilson",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "3",
     "link": "https://docs.google.com/document/d/1eWhvltsnVTlRAii-hiGbUEo3nclw4nQHEPTx2Hhyf-8/edit?usp=sharing"
   },
   "EXT-0664": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "Emily Wilson",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "3",
     "link": "https://docs.google.com/document/d/1gN9R9x7WV4FPR1wMfPlPhXRoXcKOEn5MZgRq_mO4sx8/edit?usp=sharing",
     "title": "Managing Cancer Treatment With Anxiety "
   },
   "EXT-0665": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "Emily Wilson",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "4",
     "link": "https://docs.google.com/document/d/1c6R6jX07MCSpISFYDflXad5IdsqZgycSBYMO31smo-8/edit?usp=sharing"
   },
   "EXT-0666": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "Emily Wilson",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "4",
     "link": "https://docs.google.com/document/d/1Uwvth_w3Kq54njUI0ibw1q3DnVFTE5Miy9S4EH4ydiw/edit?usp=sharing"
   },
   "EXT-0667": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "Emily Wilson",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "4",
     "link": "https://docs.google.com/document/d/1KYjesh1FcXBi1ObwnYsC6p3wNwf0nmVLPbawduR6aa8/edit?usp=sharing"
   },
   "EXT-0668": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "Emily Wilson",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "4",
     "link": "https://docs.google.com/document/d/1b4LybVEL5qLVnDkr6SgM7uoJes5ITU74q8wJ8cc3tmY/edit?usp=sharing"
   },
   "EXT-0669": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "Emily Wilson",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "3",
     "link": "https://docs.google.com/document/d/101qdx--uv2nI1lnzc6TY-IQfJJdetkvUUO9ggAyIq8c/edit?usp=sharing"
   },
   "EXT-0670": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "Emily Wilson",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "4",
     "link": "https://docs.google.com/document/d/1I9edobech2UamtkGWSgPZtDHWietvgf3p3JmHkAPyPQ/edit?usp=sharing"
   },
   "EXT-0671": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "Emily Wilson",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "3",
     "link": "https://docs.google.com/document/d/1RNuwUa6FtGEspR63rAAMyytc0bKmljNSShUFU6AzdKo/edit?usp=sharing"
   },
   "EXT-0672": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "Emily Wilson",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "3",
     "link": "https://docs.google.com/document/d/1hegrnoaW_BIOIfTPpp50aVawauyc7SAjo4CB1oV8bvk/edit?usp=sharing"
   },
   "EXT-0673": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "Emily Wilson",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "3",
     "link": "https://docs.google.com/document/d/1uWJ8tlqHsIl7N0yTrU8-Mt74U2v1tkcUJWc-UplY7SY/edit?usp=sharing"
   },
   "EXT-0674": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "Emily Wilson",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "4",
     "link": "https://docs.google.com/document/d/1zawkOEBmO4zB7Gey-kWYSKr9fwDc94Bxn8EiDYsXS8A/edit?usp=sharing"
   },
   "EXT-0675": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "Emily Wilson",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "3",
     "link": "https://docs.google.com/document/d/1icG4zL7dtNTp7XFnIMiCC6053YU6dHNzCVB5zENqMfs/edit?usp=sharing"
   },
   "EXT-0676": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "Emily Wilson",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "3",
     "link": "https://docs.google.com/document/d/1EdOFwsQG9rKW-0T2JF1YhQFV1bHCxpWzQLxzdaxQ2vk/edit?usp=sharing"
   },
@@ -39032,26 +39032,26 @@
   },
   "EXT-0836": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Financial Wellness",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "notes": "Financial Wellness and Financial Literacy seem to be used interchangably in this one- do we want to keep that or adjust?",
     "peer_reviewer": "Emily Wilson",
     "duration": "2"
   },
   "EXT-0837": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Financial Wellness",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "2"
   },
   "EXT-0838": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Financial Wellness",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "1"
   },
@@ -39062,17 +39062,17 @@
   },
   "EXT-0840": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "2"
   },
   "EXT-0841": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "2"
   },
@@ -39083,18 +39083,18 @@
   },
   "EXT-0843": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "2",
     "link": "https://docs.google.com/document/d/1ehlgG0NkHangiUI3Mw8tg2MxeTDoOywAPMqaQVElhv8/edit?tab=t.0"
   },
   "EXT-0844": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "notes": "R? & Is there a more trauma-informed way to word the 2nd sentence in the 1st paragraph?",
     "peer_reviewer": "Emily Wilson",
     "duration": "2",
@@ -39107,25 +39107,25 @@
   },
   "EXT-0846": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health / Nutrition",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "2"
   },
   "EXT-0847": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "2"
   },
   "EXT-0848": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health / Mental Health",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "notes": "R?",
     "peer_reviewer": "Emily Wilson",
     "duration": "2",
@@ -39168,18 +39168,18 @@
   },
   "EXT-0856": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Sleep / Health",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "1",
     "link": "https://docs.google.com/document/d/14hY5uVSFpf818AygPoRjkv-forw9XwOE/edit"
   },
   "EXT-0857": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Sleep / Health",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "1"
   },
@@ -39195,9 +39195,9 @@
   },
   "EXT-0860": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Social Wellness & Relationships",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "1",
     "date_created": "10/24/2023"
@@ -39229,9 +39229,9 @@
   },
   "EXT-0866": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Yoga & Movement",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "notes": "Last paragraph: enhanced posture- improved posture??",
     "peer_reviewer": "Emily Wilson",
     "duration": "3",
@@ -39244,9 +39244,9 @@
   },
   "EXT-0868": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Yoga & Movement",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "2",
     "date_created": "10/23/2023"
@@ -39288,35 +39288,35 @@
   },
   "EXT-0874": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Social Wellness & Relationships",
     "author": "Emily Wilson",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "5",
     "link": "https://docs.google.com/document/d/1WL-qnxU6yiGaED4Orz5sAq-1PxgKOM2Hdbr0br-Wjp8/edit?tab=t.0"
   },
   "EXT-0875": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health / Mental Health",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "2",
     "link": "https://docs.google.com/document/d/1MDp0nTgppJr6XV7kd5CeF7YG77lu7JbvEWVZML1jLsU/edit?usp=sharing"
   },
   "EXT-0876": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Meditation / Mental Health",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "1"
   },
   "EXT-0877": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Performance & Positive Thinking",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "notes": "This one made me clean my desk :)",
     "peer_reviewer": "Emily Wilson",
     "duration": "2",
@@ -39324,34 +39324,34 @@
   },
   "EXT-0878": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Performance & Positive Thinking",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "3"
   },
   "EXT-0879": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Performance & Positive Thinking",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "1"
   },
   "EXT-0880": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Performance & Positive Thinking / Health",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "2",
     "link": "https://docs.google.com/document/d/16MszrboQmeAcWMdwMh-k2ZiFj4CKUJEqZEp8KCJyqrc/edit?usp=sharing"
   },
   "EXT-0881": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Performance & Positive Thinking / Mental Health",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "notes": "Hanging conclusion section at end",
     "peer_reviewer": "Emily Wilson",
     "duration": "2",
@@ -39359,44 +39359,44 @@
   },
   "EXT-0882": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Social Wellness & Relationships / Mental Health",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "3",
     "date_created": "10/24/2023"
   },
   "EXT-0883": {
     "type": "Article",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "duration": "2",
     "category": "Workplace Wellness",
     "author": "Jade",
-    "peer_reviewer": "Marlee"
+    "peer_reviewer": "Marlee Alanis"
   },
   "EXT-0884": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Performance & Positive Thinking / Mental Health",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "notes": "I can't get this one to open",
     "duration": "3",
     "link": "https://docs.google.com/document/d/1UiLifZ9UDcB8Lq8Daw4itHeb6_E28ejiXVCk0ereV1I/edit?usp=sharing"
   },
   "EXT-0885": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Meditation / Mental Health",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "2",
     "link": "https://docs.google.com/document/d/10YByye2nAVTjXkrmg6FQbOHbReh7Mclp/edit?rtpof=true"
   },
   "EXT-0886": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Mental Health",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "notes": "R?",
     "peer_reviewer": "Emily Wilson",
     "duration": "2",
@@ -39404,9 +39404,9 @@
   },
   "EXT-0887": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Performance & Positive Thinking",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "notes": "R?",
     "peer_reviewer": "Emily Wilson",
     "duration": "2",
@@ -39414,9 +39414,9 @@
   },
   "EXT-0888": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Performance & Positive Thinking",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "3",
     "link": "https://docs.google.com/document/d/1tucmcpPep73AkNqbOlLoEFG5ZnXVSQVd/edit",
@@ -39424,9 +39424,9 @@
   },
   "EXT-0889": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Performance & Positive Thinking / Health",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "3",
     "date_created": "11/13/2023",
@@ -39434,9 +39434,9 @@
   },
   "EXT-0890": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Social Wellness & Relationships",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "notes": "Citations' - references",
     "peer_reviewer": "Emily Wilson",
     "duration": "2",
@@ -39445,9 +39445,9 @@
   },
   "EXT-0891": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Social Wellness & Relationships / Mental Health",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "notes": "References",
     "peer_reviewer": "Emily Wilson",
     "duration": "2",
@@ -39455,20 +39455,20 @@
   },
   "EXT-0892": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Financial Wellness / Mental Health",
     "author": "Emily Wilson",
     "notes": "Maybe add headings to the last three paragraphs to improve the visual flow",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "3",
     "link": "https://docs.google.com/document/d/1hu_RytbceJiuXpG-wvSKX34u1qPVY-WwNHArL7XGRaY/edit?usp=sharing"
   },
   "EXT-0893": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Social Wellness & Relationships",
     "author": "Emily Wilson",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "5",
     "link": "https://docs.google.com/document/d/1AbARkIjv9zgQqpRg5as68mSeVHM6QFVkqN6scr7muCA/edit?tab=t.0"
   },
@@ -39479,57 +39479,57 @@
   },
   "EXT-0895": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Performance & Positive Thinking",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "2"
   },
   "EXT-0896": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Performance & Positive Thinking / Workplace Wellness",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "3",
     "link": "https://docs.google.com/document/d/1kqHLGY-ov3xYd7vVJxcZvYoa9VdJTTdUVU0sVsNG_vo/edit?usp=sharing"
   },
   "EXT-0897": {
     "type": "Article",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "duration": "3",
     "category": "Financial Wellness",
     "author": "Jade",
-    "peer_reviewer": "Marlee"
+    "peer_reviewer": "Marlee Alanis"
   },
   "EXT-0898": {
     "type": "Article",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Workplace Wellness",
     "author": "Jade",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "2"
   },
   "EXT-0899": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
-    "author": "Marlee",
+    "_at": "2026-08-11T18:43:19.043Z",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Jade",
     "category": "Workplace Wellness",
     "link": "https://docs.google.com/document/d/1SiFiTj8Qza6mXX-hN0G8ZlbIynDiB23ZH-RTAnz3VIY/edit?usp=sharing"
   },
   "EXT-0900": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
-    "author": "Marlee",
+    "_at": "2026-08-11T18:43:19.043Z",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Jade",
     "category": "Workplace Wellness/ Performance/ Mental Health",
     "link": "https://docs.google.com/document/d/139w8vXmjfQeMiuyijAdCUlyX4rjAjRJZ4SB6bSskZSQ/edit?usp=sharing"
   },
   "EXT-0901": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
-    "author": "Marlee",
+    "_at": "2026-08-11T18:43:19.043Z",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Jade",
     "category": "Workplace Wellness",
     "link": "https://docs.google.com/document/d/1dzKyhsF9eraqbuk3FUAgjw1NjvMM5aIRUbgZYKCutKI/edit?usp=sharing"
@@ -39554,9 +39554,9 @@
   },
   "EXT-0904": {
     "type": "Article",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Emotional Wellness / Workplace Wellness",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "notes": "In the first para. maybe say research has illuminated xyz instead of ilumintaing to make it easier to read",
     "peer_reviewer": "Madeline",
     "duration": "2"
@@ -39581,19 +39581,19 @@
   },
   "EXT-0907": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Workplace Wellness / Relationships",
     "author": "Jade",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "2",
     "link": "https://docs.google.com/document/d/16mbHWyEQCiln4WlmXp3gnatpmzpiiWi5IU4rMBR4cM4/edit?usp=sharing"
   },
   "EXT-0908": {
     "type": "Article",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Workplace Wellness",
     "author": "Jade",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "2"
   },
   "EXT-0909": {
@@ -39645,17 +39645,17 @@
   },
   "EXT-0914": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "2"
   },
   "EXT-0915": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Mental Health",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "notes": "References?",
     "peer_reviewer": "Emily Wilson",
     "duration": "2"
@@ -39667,16 +39667,16 @@
   },
   "EXT-0917": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
-    "author": "Marlee",
+    "_at": "2026-08-11T18:43:19.043Z",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Jade",
     "category": "Mindfulness",
     "link": "https://docs.google.com/document/d/1n0K2Xc230lQf7WZT4dpnDD1xbKSMWuBcZ3GqEPo-dho/edit?usp=sharing"
   },
   "EXT-0918": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
-    "author": "Marlee",
+    "_at": "2026-08-11T18:43:19.043Z",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Jade",
     "category": "Mindfulness",
     "link": "https://docs.google.com/document/d/1RQUUc1_Gel5i8VS9FpI2z6ebhyyL3vEW45Gc4MDwr7E/edit?usp=sharing"
@@ -39688,122 +39688,122 @@
   },
   "EXT-0920": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "? (from blog)",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "3",
     "link": "https://docs.google.com/document/d/1v_UxtnwCf6XQqNZelRRjbHHUd0Ua5TbW2bN6Rt3y6pg/edit?usp=sharing"
   },
   "EXT-0921": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Nutrition",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "notes": "R?",
     "peer_reviewer": "Emily Wilson",
     "duration": "4"
   },
   "EXT-0922": {
     "type": "Article",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "duration": "2",
     "category": "Health",
     "author": "Jade",
-    "peer_reviewer": "Marlee"
+    "peer_reviewer": "Marlee Alanis"
   },
   "EXT-0923": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "? (from blog)",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "3",
     "link": "https://docs.google.com/document/d/1OMiEoFkXM5CH48gQXNAfNifslI2aTP-_f7XS-_EMF6A/edit?usp=sharing"
   },
   "EXT-0924": {
     "type": "Article",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "Jade",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "2"
   },
   "EXT-0925": {
     "type": "Article",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "Jade",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "2"
   },
   "EXT-0926": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "? (from blog)",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "3",
     "link": "https://docs.google.com/document/d/1LbRJXzsrUcBOghk3SRwQsOvTzqazpIqp5ojLT-qRuXI/edit?usp=sharing"
   },
   "EXT-0927": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "notes": "R?",
     "peer_reviewer": "Emily Wilson",
     "duration": "2"
   },
   "EXT-0928": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "Madeline",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "link": "https://docs.google.com/document/d/1p3_fhFD1uUD1rxJ1vS6Yx-4AXghGvPAsz8G-1zabFe4/edit?usp=sharing"
   },
   "EXT-0929": {
     "type": "Article",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "Jade",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "2"
   },
   "EXT-0930": {
     "type": "Article",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "duration": "2",
     "category": "Health",
     "author": "Jade",
-    "peer_reviewer": "Marlee"
+    "peer_reviewer": "Marlee Alanis"
   },
   "EXT-0931": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "Emily Wilson",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "4",
     "link": "https://docs.google.com/document/d/1jLZQ-Q-W0H2nFPLISQ2nYuno_vimXeKGXkFkaO-3YAo/edit?usp=sharing"
   },
   "EXT-0932": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Financial Wellness",
     "author": "Emily Wilson",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "4",
     "link": "https://docs.google.com/document/d/1GwBoXf4ACWZfMlMOGGdlv1KT6ULRt5y6EoQ3YpX3Y0g/edit?usp=sharing"
   },
   "EXT-0933": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Financial Wellness",
     "author": "Emily Wilson",
     "notes": "I like the list of app suggestions!",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "5",
     "link": "https://docs.google.com/document/d/1FFSBxCK2h1-cChnUCa_04KKsf6edMeM1oXhsqPuO5Hc/edit?usp=sharing"
   },
@@ -39819,17 +39819,17 @@
   },
   "EXT-0936": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Fitness",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "2"
   },
   "EXT-0937": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Nutrition",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "notes": "R?",
     "peer_reviewer": "Emily Wilson",
     "duration": "2"
@@ -39846,58 +39846,58 @@
   },
   "EXT-0940": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
-    "peer_reviewer": "Marlee",
+    "_at": "2026-08-11T18:43:19.043Z",
+    "peer_reviewer": "Marlee Alanis",
     "category": "General Heart Health",
     "link": "https://docs.google.com/document/d/1B25NTuMZvz0IbV6GtmUfclAAbEMDORVJpePtBiO4B6Q/edit?usp=sharing"
   },
   "EXT-0941": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Nutrition",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "2"
   },
   "EXT-0942": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Performance & Positive Thinking",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "2",
     "link": "https://docs.google.com/document/d/1XyW_etXOiQYpGTQY2uY6_8jO1TTl6nFs/edit?usp=sharing&ouid=104973203194055734700&rtpof=true&sd=true"
   },
   "EXT-0943": {
     "type": "Article",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Meditation",
     "author": "Jade",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "3"
   },
   "EXT-0944": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Meditation",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "notes": "R?",
     "peer_reviewer": "Emily Wilson",
     "duration": "2"
   },
   "EXT-0945": {
     "type": "Article",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health, Performance and Positive Thinking",
     "author": "Jade",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "3"
   },
   "EXT-0946": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Meditation",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "notes": "R?",
     "peer_reviewer": "Emily Wilson",
     "duration": "2"
@@ -39914,43 +39914,43 @@
   },
   "EXT-0949": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "Emily Wilson",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "4"
   },
   "EXT-0950": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Smoking Cessation",
     "author": "Emily Wilson",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "3"
   },
   "EXT-0951": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Smoking Cessation",
     "author": "Emily Wilson",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "3"
   },
   "EXT-0952": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Smoking Cessation",
     "author": "Emily Wilson",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "4",
     "link": "https://docs.google.com/document/d/1jd8PiA2l4njDnybVOvDAGU2C78p-Xnc9Hpbes-FWwwA/edit?usp=sharing"
   },
   "EXT-0953": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Smoking Cessation",
     "author": "Emily Wilson",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "3",
     "link": "https://docs.google.com/document/d/1ngojaa3rvFd8nxqCshLRTUq5Sv9yTZv_uvOJQiVaank/edit?usp=sharing"
   },
@@ -39965,51 +39965,51 @@
   },
   "EXT-0955": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Performance & Positive Thinking / Mental Health",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "2"
   },
   "EXT-0956": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "duration": "3",
     "category": "Health / Nutrition",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson"
   },
   "EXT-0957": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health / Mental Health",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "2"
   },
   "EXT-0958": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "duration": "1",
     "category": "Health",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson"
   },
   "EXT-0959": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Nutrition",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "3",
     "link": "https://docs.google.com/document/d/1W5tAV7miP6sgsNlvTfyBATolPc1UzInT/edit"
   },
   "EXT-0960": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Nutrition",
     "author": "? (from blog)",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "3",
     "link": "https://docs.google.com/document/d/12gTw7yvyyJLBQQD0Q_t1n79IMTBafsh0r7H7IZkQst4/edit?usp=sharing"
   },
@@ -40020,9 +40020,9 @@
   },
   "EXT-0962": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Nutrition",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "notes": "R? - DO you think it matters to mention that Green Tea has caffiene- migh t matter for hypertension or cardio",
     "peer_reviewer": "Emily Wilson",
     "duration": "3",
@@ -40030,9 +40030,9 @@
   },
   "EXT-0963": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health / Nutrition",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "notes": "This is banned in the UK and Switzerland due to its health hazards. Is this worth mentioning to make it more global? Reference: https://www.thedailymeal.com/travel/american-foods-banned-other-countries",
     "peer_reviewer": "Emily Wilson",
     "duration": "2",
@@ -40040,18 +40040,18 @@
   },
   "EXT-0964": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "Emily Wilson",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "4",
     "link": "https://docs.google.com/document/d/13FX0626WMa8KLQLd8VheLLqLJ8AvpQ4RnuHH-ycJbNo/edit?usp=sharing"
   },
   "EXT-0965": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Mental Health",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson"
   },
   "EXT-0966": {
@@ -40066,9 +40066,9 @@
   },
   "EXT-0967": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Social Wellness & Relationships",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "3",
     "date_created": "10/24/2023",
@@ -40076,103 +40076,103 @@
   },
   "EXT-0968": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Relationships",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "1"
   },
   "EXT-0969": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "Emily Wilson",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "3",
     "link": "https://docs.google.com/document/d/1m8QChnhXW1NXqNf8A522ufx0Xmnnst0rN334stEWFWg/edit?usp=sharing"
   },
   "EXT-0970": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "Emily Wilson",
     "notes": "Didn't include the last section self care for caregivers",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "4",
     "link": "https://docs.google.com/document/d/1qAoUbQ-0aQ2j-dOZnXagkKpy0FwObKR3CN0KF2MrNoo/edit?usp=sharing"
   },
   "EXT-0971": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "2",
     "link": "https://docs.google.com/document/d/1ePGfC44ENV0iuGEYwfGU3fpE9lc2tdSOh6zDEoLUKeU/edit?tab=t.0"
   },
   "EXT-0972": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "Emily Wilson",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "5",
     "link": "https://docs.google.com/document/d/1YoPwrOHEsatkxPUhwvPf9ldcvYFaxf4Grg52RC3jqFQ/edit?usp=sharing"
   },
   "EXT-0973": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "3"
   },
   "EXT-0974": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "4"
   },
   "EXT-0975": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "notes": "Lanugauge may be too complex to be used to create an AI audio",
     "peer_reviewer": "Emily Wilson",
     "duration": "4"
   },
   "EXT-0976": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Social Wellness & Relationships",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "duration": "4",
     "link": "https://docs.google.com/document/d/1dykkMREbLIiK5VQ83tsmmSciv2xEQK7k1YxSthgyjy8/edit?tab=t.0"
   },
   "EXT-0977": {
     "type": "Article",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Workplace Wellness / Performance & Positive Thinking",
     "author": "Jade",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "2"
   },
   "EXT-0978": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Fitness",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "1"
   },
   "EXT-0979": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Performance & Positive Thinking",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "3",
     "link": "https://docs.google.com/document/d/1tucmcpPep73AkNqbOlLoEFG5ZnXVSQVd/edit"
@@ -40188,254 +40188,254 @@
   },
   "EXT-0981": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "3"
   },
   "EXT-0982": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "notes": "R?",
     "peer_reviewer": "Emily Wilson",
     "duration": "2"
   },
   "EXT-0983": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Mental Health",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "2"
   },
   "EXT-0984": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
-    "author": "Marlee",
+    "_at": "2026-08-11T18:43:19.043Z",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Jade",
     "category": "Mindfulness",
     "link": "https://docs.google.com/document/d/1qAt7XMnGe_1OA5GRRRCcwDVxqsRvRu5W-QOWW_U320s/edit?usp=sharing"
   },
   "EXT-0985": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
-    "author": "Marlee",
+    "_at": "2026-08-11T18:43:19.043Z",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Jade",
     "category": "Managing Spending & Saving",
     "link": "https://docs.google.com/document/d/1J4rno_NfosAhr5UrTos5AkmHN2wpnCw7o0hYVh3iqik/edit?usp=sharing"
   },
   "EXT-0986": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
-    "author": "Marlee",
+    "_at": "2026-08-11T18:43:19.043Z",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Jade",
     "category": "Emotional Wellness",
     "link": "https://docs.google.com/document/d/1EVCjk5oXhxH878f_m7DUVoJP1n7BNNZu2lQNWsZsQic/edit?usp=sharing"
   },
   "EXT-0987": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Performance & Positive Thinking / Mental Health",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "2"
   },
   "EXT-0988": {
     "type": "Article",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Social Wellness & Relationships",
     "author": "Jade",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "3"
   },
   "EXT-0989": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "2",
     "link": "https://docs.google.com/document/d/1-I6n0PQwO5ODylwKKcbp2JvPUkl1REFbPnVguVm_FRw/edit?tab=t.0"
   },
   "EXT-0990": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
-    "author": "Marlee",
+    "_at": "2026-08-11T18:43:19.043Z",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Jade",
     "category": "Mental Health",
     "link": "https://docs.google.com/document/d/1Zo4NDPYJ1aNVXoS1Cmw_a-LBhwhWythMXQ0z0TOw1gc/edit?usp=sharing"
   },
   "EXT-0991": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "duration": "2",
     "category": "Health",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson"
   },
   "EXT-0992": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "2"
   },
   "EXT-0993": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "4"
   },
   "EXT-0994": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "Sakina",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "link": "https://docs.google.com/document/d/1VCSpxqQpvq4EQCcOeEjmngp7gxAObhAm40dAEgHxbvg/edit?usp=sharing"
   },
   "EXT-0995": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "Sakina",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "link": "https://docs.google.com/document/d/1yBubNg4szj1yvPIfOl8S2ZkIZuTqYgUntCRQ9UzHdJ8/edit?usp=sharing"
   },
   "EXT-0996": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "Sakina",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "link": "https://docs.google.com/document/d/1mC9qaZLQUJ6bYrkfvG3duL7wZxumL3clFeDqzynQDK0/edit?usp=sharing"
   },
   "EXT-0997": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Fitness",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "1"
   },
   "EXT-0998": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Nutrition",
     "author": "? (from blog)",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "3",
     "link": "https://docs.google.com/document/d/1Qf5Kgq7I6O-7BffCdoRQlbHtUMR64C5ziNLYpw-Ydh4/edit?usp=sharing"
   },
   "EXT-0999": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "Emily Wilson",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "3",
     "link": "https://docs.google.com/document/d/1VryjGTT2B145yR9kOVBeprn2TO9qK5iXbTbHkAOkgyg/edit?usp=sharing"
   },
   "EXT-1000": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "duration": "1",
     "category": "Health",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson"
   },
   "EXT-1001": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "Sakina",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "link": "https://docs.google.com/document/d/1hPAYuknzLOud9fp9xkrM_AsEyoHQZQ3xyXa9d-WcEqM/edit?usp=sharing"
   },
   "EXT-1002": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "Sakina",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "link": "https://docs.google.com/document/d/1_mM3tIdzQ-Z-onPsb7ixne86bLfDt63CvKJpZY2pXl4/edit?usp=sharing"
   },
   "EXT-1003": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "Sakina",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "link": "https://docs.google.com/document/d/1qhjgc-RmyMQ0CLrVIWAgDgeT3R82FD9xEY-W2O0KxHM/edit?usp=sharing"
   },
   "EXT-1004": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "duration": "2",
     "category": "Health",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson"
   },
   "EXT-1005": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "Sakina",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "link": "https://docs.google.com/document/d/1s1jBous_nbaSbSZCHIusiXnUqpjUTaNpQA6-KXXpPQs/edit?usp=sharing"
   },
   "EXT-1006": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "Sakina",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "link": "https://docs.google.com/document/d/16Wv_Olb9qZNw5179_9roFaLg5x3yH-EUufZT3W_V_70/edit?usp=sharing"
   },
   "EXT-1007": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "Sakina",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "link": "https://docs.google.com/document/d/1I_EBrb_MjT0zbKG-Ic1Q33PmPYGT9kVpsnFC_Xd0XiE/edit?usp=sharing"
   },
   "EXT-1008": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "Sakina",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "link": "https://docs.google.com/document/d/1-AvCl5u7hbB1omWPPfHGQ2OFkXKZpgLf9h3g3L5TK5Y/edit?usp=sharing"
   },
   "EXT-1009": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "Sakina",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "link": "https://docs.google.com/document/d/1CnWPMsZCukzAAISdt8o6V5Set-jFyZ6FBSWctPzHpjo/edit?usp=sharing"
   },
   "EXT-1010": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "Sakina",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "link": "https://docs.google.com/document/d/1ehP5ylU60crJ_mrS2gpPm9bTA4RS-PUJqsM5osvEfyQ/edit?usp=sharing"
   },
   "EXT-1011": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "Sakina",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "link": "https://docs.google.com/document/d/1-EIYq4nH1Oltt0J5VwbiNB1mkHTYMsx6La_-ZSUfI9I/edit?usp=sharing"
   },
   "EXT-1012": {
@@ -40445,10 +40445,10 @@
   },
   "EXT-1013": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "Emily Wilson",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "4",
     "link": "https://docs.google.com/document/d/1ZkaQuVt6oGrXYXe07Cr2EjxGvZ5oS7Sz52TaqCZcLrI/edit?usp=sharing"
   },
@@ -40464,18 +40464,18 @@
   },
   "EXT-1016": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "Madeline",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "link": "https://docs.google.com/document/d/1LKuLoL54y8bC1R0sXoUiRx0lLjulXDLNrUwLHm5WIvE/edit?usp=sharing"
   },
   "EXT-1017": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "Emily Wilson",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "4",
     "link": "https://docs.google.com/document/d/19fYv-76Eg-JZQTsU8cwbURSdZwx81lC6MbItuQI_eb4/edit?usp=sharing"
   },
@@ -40491,9 +40491,9 @@
   },
   "EXT-1020": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "author": "Sakina",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "category": "Health Screenings",
     "link": "https://docs.google.com/document/d/13jHZ8O00u-YFwPSLnJ9rp-oHdjpz8N0h8YwMfz08zJM/edit?usp=sharing"
   },
@@ -40519,17 +40519,17 @@
   },
   "EXT-1025": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "author": "Madeline",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "category": "Mental Health",
     "link": "https://docs.google.com/document/d/1eYqGp8Uhd1TH7SLMT2WXr_saxhJYf6900ibqVshITYA/edit?usp=sharing"
   },
   "EXT-1026": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "author": "Madeline",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "category": "Mental Health",
     "link": "https://docs.google.com/document/d/1a9GcyFze7Brc9BfsLCupQuu6BpUy4H9YdzWLRlkhBko/edit?usp=sharing"
   },
@@ -40540,33 +40540,33 @@
   },
   "EXT-1028": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "author": "Madeline",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "category": "Sleep",
     "link": "https://docs.google.com/document/d/1XcQAYxUtYemy1e9pPlLKkM2h3TKNpX6cGITZubcbivE/edit?usp=sharing"
   },
   "EXT-1029": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "author": "Madeline",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "category": "Mindful Aging",
     "link": "https://docs.google.com/document/d/1IIAqPodhexL0xbDJgPOghQkZtzeWmjMrFIF0qhaYDcY/edit?usp=sharing"
   },
   "EXT-1030": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "author": "Madeline",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "category": "Mindful Aging",
     "link": "https://docs.google.com/document/d/1HiNXtY2zGyjuvjrjY-l7x6bDF7tOpfgyarXKcuRMbdw/edit?usp=sharing"
   },
   "EXT-1031": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "notes": "The first paragraph tlks about vaccines and says it is especially important this week. Is this something we should adjust to make less specific to a moment in time?",
     "peer_reviewer": "Emily Wilson",
     "duration": "2",
@@ -40574,288 +40574,288 @@
   },
   "EXT-1032": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
-    "author": "Marlee",
+    "_at": "2026-08-11T18:43:19.043Z",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Jade",
     "category": "Health / Mental Health",
     "link": "https://docs.google.com/document/d/1Gg9xb4Qa8TIIAhR2lMM8XeftWhTERcDHOUXicsUsh08/edit?usp=sharing"
   },
   "EXT-1033": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "author": "Sakina",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "category": "Emotional Wellness",
     "link": "https://docs.google.com/document/d/1kOL1kt9MvUaBT5PStIaIxmXowuGxis3aiuPuQZbTXYs/edit?usp=sharing"
   },
   "EXT-1034": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Mental Health",
     "author": "Sakina",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "link": "https://docs.google.com/document/d/1bCww8-SfRgKO2LB91HSHZtesezcZ-wfUkehTjqiDOco/edit?usp=sharing"
   },
   "EXT-1035": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Mental Health",
     "author": "Sakina",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "link": "https://docs.google.com/document/d/1B26p0SwyOmwJ5hHrPLI4IL4ogBI1gg_84rOI58JiY0w/edit?usp=sharing"
   },
   "EXT-1036": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Mental Health",
     "author": "Sakina",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "link": "https://docs.google.com/document/d/1ab-5UC_RDI3FT3XyCJaqHm_778m2MPcjTlgOAWFJh74/edit?usp=sharing"
   },
   "EXT-1037": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Mental Health",
     "author": "Sakina",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "link": "https://docs.google.com/document/d/1eEUftmPwRPb6bCZcp30k-UedaHd4UZ0vYWx06_HknNk/edit?usp=sharing"
   },
   "EXT-1038": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Mental Health",
     "author": "Sakina",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "link": "https://docs.google.com/document/d/1aEFcAgoeTD8SWAidMCUff7lE5q9SXqKHkKZvf4wUynk/edit?usp=sharing"
   },
   "EXT-1039": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "Sakina",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "link": "https://docs.google.com/document/d/183VL2hcEQ2ZHBEuJdXoz0WZCe8CMqifHroZID0cqXmc/edit?usp=sharing"
   },
   "EXT-1040": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "Sakina",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "link": "https://docs.google.com/document/d/14BGt9dh5v6r3rfZQwMn6IGcyr01pWvJohhaIyl0WBxw/edit?usp=sharing"
   },
   "EXT-1041": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "Sakina",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "link": "https://docs.google.com/document/d/1qjJp6HyOuyd3FnWia0qryjV4ZPt-U5JLcYWGhNlLmO8/edit?usp=sharing"
   },
   "EXT-1042": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "Sakina",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "link": "https://docs.google.com/document/d/1C_OETttNoMKH7UmGqCzOMnzD6-dH6VzGvHIzYM5PUIs/edit?usp=sharing"
   },
   "EXT-1043": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "Sakina",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "link": "https://docs.google.com/document/d/1oH4GgUhSCtJQIt5M7_XGv5ipV_oESpSeZ0TC6_lAXJY/edit?usp=sharing"
   },
   "EXT-1044": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "Sakina",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "link": "https://docs.google.com/document/d/1lKEzCoXnPhNk_Cp1ffu2Id5zZp4OoN2WSqgl1OJ-6Co/edit?usp=sharing"
   },
   "EXT-1045": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "Sakina",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "link": "https://docs.google.com/document/d/1qy8gxAq0c3gmH0gGWV09FrqbmdUd2en6F9Nce4RLS90/edit?usp=sharing"
   },
   "EXT-1046": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "Sakina",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "link": "https://docs.google.com/document/d/1C9LHSno_i-MYjqRu7VSUfxghXPdkUPFU7jhfNMaTLhc/edit?usp=sharing"
   },
   "EXT-1047": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "Emily Wilson",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "3",
     "link": "https://docs.google.com/document/d/11Q_SsAcIMyh2yrTl_O1CO3ZlKVJnrypkb3wzhuX3AdY/edit?usp=sharing"
   },
   "EXT-1048": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "Emily Wilson",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "5",
     "link": "https://docs.google.com/document/d/1-sPsxyM8zUaekkHCtQjoPs-Xd47ZRGm8_fC-yg8mjC4/edit?usp=sharing"
   },
   "EXT-1049": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "Emily Wilson",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "3",
     "link": "https://docs.google.com/document/d/1r_Eb3Z_tKq_s0W71_8lqjUl6wt7c-q2pPKDmOQ-kxYc/edit?usp=sharing"
   },
   "EXT-1050": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "Emily Wilson",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "3",
     "link": "https://docs.google.com/document/d/1-ag91NSeHuQWWTbLYUgLsZkaopWyKZwQlInIpc1LURk/edit?usp=sharing"
   },
   "EXT-1051": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "author": "Madeline",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "category": "Health Screenings",
     "link": "https://docs.google.com/document/d/1ERYXsX8iVqAkSG1vfWh59VE4gGn9XF0qiUuXeFRz0m4/edit?usp=sharing"
   },
   "EXT-1052": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "Emily Wilson",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "5",
     "link": "https://docs.google.com/document/d/1tcHMEX64Sik6-JYI39ckHHs9hmRqoXI7tyEDbZihmaM/edit?usp=sharing"
   },
   "EXT-1053": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "Emily Wilson",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "3",
     "link": "https://docs.google.com/document/d/165MMzGYyS8fPq62SsIkRX26pZsmkWGgQ10TL9zhQzHQ/edit?usp=sharing"
   },
   "EXT-1054": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
-    "author": "Marlee",
+    "_at": "2026-08-11T18:43:19.043Z",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Jade",
     "category": "Parenting",
     "link": "https://docs.google.com/document/d/1iTgW79RDnSjnGp2JvlwypP_j0XuCflwZyN8qR281C_E/edit?usp=sharing"
   },
   "EXT-1055": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
-    "author": "Marlee",
+    "_at": "2026-08-11T18:43:19.043Z",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Jade",
     "category": "Social Wellness & Relationships",
     "link": "https://docs.google.com/document/d/15CHIqEfghvWKdOLm9VfWDoGV83RDNgvqw18bfRHGTsA/edit?usp=sharing"
   },
   "EXT-1056": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
-    "author": "Marlee",
+    "_at": "2026-08-11T18:43:19.043Z",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Jade",
     "category": "Social Wellness & Relationships",
     "link": "https://docs.google.com/document/d/1cbHN7bCvIFyQGHZeXDT2WTNGZz66wVX1p77NchCvm0U/edit?usp=sharing"
   },
   "EXT-1057": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "Emily Wilson",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "3",
     "link": "https://docs.google.com/document/d/1VdGZm5d2Nv7lZxa_2KKn2GK2gEMS9X5hI3jB_705naI/edit?usp=sharing"
   },
   "EXT-1058": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "Emily Wilson",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "4",
     "link": "https://docs.google.com/document/d/1bW03X0urItKspMQLau3MnzG47rgh0OGoJUMPsTMFU6o/edit?usp=sharing"
   },
   "EXT-1059": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "Emily Wilson",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "3",
     "link": "https://docs.google.com/document/d/1CK5qjza87fA4FmahbFNxAZX-gjq2LlkdFvzJj3YqPf8/edit?usp=sharing"
   },
   "EXT-1060": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "Emily Wilson",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "4",
     "link": "https://docs.google.com/document/d/1n8llcmQ4yIjIi5FYImbBg5tvbG0i4OvpAkDy2VkFTHo/edit?usp=sharing"
   },
   "EXT-1061": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "Emily Wilson",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "4",
     "link": "https://docs.google.com/document/d/1v76m7QWNK2-maR-V7-KXD15hJTmWaHFTzkfvQ99PFis/edit?usp=sharing"
   },
   "EXT-1062": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "Emily Wilson",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "4",
     "link": "https://docs.google.com/document/d/148ndJf1iLsU25YFIGYAjdEX5vXpRjHVHV7cdB0XMupc/edit?usp=sharing"
   },
   "EXT-1063": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "Emily Wilson",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "3",
     "link": "https://docs.google.com/document/d/1xMGtJvb4qu2tcLPj3Iafe1FEUhjNGvaZ7b62IPcbEcM/edit?usp=sharing"
   },
   "EXT-1064": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "Emily Wilson",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "4",
     "link": "https://docs.google.com/document/d/1FYvdRHPCLYvAaFy_JFwYFFAl7GtEoVlwYIp3t-jV2AA/edit?usp=sharing"
   },
   "EXT-1065": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "Emily Wilson",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "3",
     "link": "https://docs.google.com/document/d/1MRAhkX04qpEkgRP8Yc1_R0aEsFABnfpMVjyO1dPZ0HQ/edit?usp=sharing"
   },
@@ -40879,10 +40879,10 @@
   },
   "EXT-1068": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Relationships",
     "author": "? (from blog)",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "3",
     "link": "https://docs.google.com/document/d/1ihFVHW_Z_APJ74SwZe1WqvAgFXthdwaQRjZYL5F7qy4/edit?usp=sharing"
   },
@@ -40897,82 +40897,82 @@
   },
   "EXT-1070": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Relationships",
     "author": "? (from blog)",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "3",
     "link": "https://docs.google.com/document/d/1gB6dJqv8lHjIL_RNQJ2eCPlXmTS9RL7BkoA6oLJ1zKs/edit?usp=sharing"
   },
   "EXT-1071": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Relationships/ Health",
     "author": "? (from blog)",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "2",
     "link": "https://docs.google.com/document/d/1FeXa6So0NB3coue-4PvD4cXlM_T0c9uE3-uEhn0DZOw/edit?usp=sharing"
   },
   "EXT-1072": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Nutrition",
     "author": "? (from blog)",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "3",
     "link": "https://docs.google.com/document/d/1M8oQUUl02tJvPiOpkWwt_caglTZk6ymWx_RhY6cSnRc/edit?usp=sharing"
   },
   "EXT-1073": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "? (from blog)",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "3",
     "link": "https://docs.google.com/document/d/1aS81vd6-k1NSYK-OAQ9-20dF-xF1GNLj5botgZ9E37U/edit?usp=sharing"
   },
   "EXT-1074": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "? (from blog)",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "3",
     "link": "https://docs.google.com/document/d/1spoDofUDWKw4oEH3pLU_kGxXb-3bT-V7axHrKNa-5Mw/edit?usp=sharing"
   },
   "EXT-1075": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "? (from blog)",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "3",
     "link": "https://docs.google.com/document/d/1qU370QEqPqf2ZVfC1VvbuMHu1vHS-SS0KF8xBzdcvSE/edit?usp=sharing"
   },
   "EXT-1076": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "? (from blog)",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "2",
     "link": "https://docs.google.com/document/d/1DxgTDzrw4JiFzjLVk89pyHZBEyhZLGt7jhBnRwu90Mk/edit?usp=sharing"
   },
   "EXT-1077": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "? (from blog)",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "3",
     "link": "https://docs.google.com/document/d/1UXvHf0FysWq6nJp93kxeyUJ-XXclDZHDJPyNifLzpdg/edit?usp=sharing"
   },
   "EXT-1078": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "? (from blog)",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "2",
     "link": "https://docs.google.com/document/d/18z_5F9SWQfOptA_ccLbC0s0wqv2LwedanGI24kvE47k/edit?usp=sharing"
   },
@@ -40983,73 +40983,73 @@
   },
   "EXT-1080": {
     "type": "Article",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Performance & Positive Thinking / Mental Health",
     "author": "Jade",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "3"
   },
   "EXT-1081": {
     "type": "Article",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "Jade",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "3"
   },
   "EXT-1082": {
     "type": "Article",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "duration": "2",
     "category": "Yoga / Health",
     "author": "Jade",
-    "peer_reviewer": "Marlee"
+    "peer_reviewer": "Marlee Alanis"
   },
   "EXT-1083": {
     "type": "Article",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Nutrition",
     "author": "Jade",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "3"
   },
   "EXT-1084": {
     "type": "Article",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "Jade",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "2"
   },
   "EXT-1085": {
     "type": "Article",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Workplace Wellness / Relationships",
     "author": "Jade",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "1"
   },
   "EXT-1086": {
     "type": "Article",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "duration": "3",
     "category": "Nutrition",
     "author": "Jade",
-    "peer_reviewer": "Marlee"
+    "peer_reviewer": "Marlee Alanis"
   },
   "EXT-1087": {
     "type": "Article",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Madeline",
     "duration": "2"
   },
   "EXT-1088": {
     "type": "Article",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Madeline",
     "duration": "3"
   },
@@ -41064,181 +41064,181 @@
   },
   "EXT-1090": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "Emily Wilson",
     "notes": "unfinished sentence  When reading reviews, keep in mind that often, those who leave reviews",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "3",
     "link": "https://docs.google.com/document/d/1aLhZMVky_LRjReewXh7vBemj0X6cb_04Hd3cr29S4X4/edit?usp=sharing"
   },
   "EXT-1091": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "Emily Wilson",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "6",
     "link": "https://docs.google.com/document/d/1FkISucLriaJcl-iRhWhEIi8rguef4k99ga2uP35K-_g/edit?usp=sharing"
   },
   "EXT-1092": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "Emily Wilson",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "5",
     "link": "https://docs.google.com/document/d/1xlJJ0dLhf3_oLZNYOCTX6dxMEPuYTIBgkdPyh4jEVEE/edit?usp=sharing"
   },
   "EXT-1093": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health / Relationships",
     "author": "Emily Wilson",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "5",
     "link": "https://docs.google.com/document/d/165aznt3f06crWqhs4SzlpazLHz6BxF21rbSEzljQ83I/edit?usp=sharing"
   },
   "EXT-1094": {
     "type": "Article",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Social Wellness & Relationships",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "duration": "4"
   },
   "EXT-1095": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "duration": "3 min",
     "category": "Fitness",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson"
   },
   "EXT-1096": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Fitness",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "2",
     "link": "https://docs.google.com/document/d/16XqQ7kmby7paesDj4fjuOFne0rPV45p2/edit"
   },
   "EXT-1097": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Fitness",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "3"
   },
   "EXT-1098": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "notes": "R?",
     "peer_reviewer": "Emily Wilson",
     "duration": "3"
   },
   "EXT-1099": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "duration": "2",
     "category": "Health",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson"
   },
   "EXT-1100": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "3"
   },
   "EXT-1101": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "notes": "Lanugauge may be too complex to be used to create an AI audio",
     "peer_reviewer": "Emily Wilson",
     "duration": "2"
   },
   "EXT-1102": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "2"
   },
   "EXT-1103": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "notes": "Lanugauge may be too complex to be used to create an AI audio",
     "peer_reviewer": "Emily Wilson",
     "duration": "4"
   },
   "EXT-1104": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "notes": "R?",
     "peer_reviewer": "Emily Wilson",
     "duration": "2"
   },
   "EXT-1105": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "2"
   },
   "EXT-1106": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "2"
   },
   "EXT-1107": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "2",
     "link": "https://docs.google.com/document/d/1sbkLqIOKh0_ZJGdeV9JBd0av4v9VecYWFEKLziZmxq0/edit?usp=sharing"
   },
   "EXT-1108": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "notes": "R? 2nd sentence in 1st paragraph and title are about world cancer day. Would it make sense to remove that component and leave the rest to make it more versitile?",
     "peer_reviewer": "Emily Wilson",
     "duration": "2"
   },
   "EXT-1109": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Nutrition",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "3",
     "link": "https://docs.google.com/document/d/1vlrq5P4m-qLUw9y7FGTRx9p_5w7_KLHdXaFtM7xJdBI/edit?usp=sharing"
   },
   "EXT-1110": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Holistic Wellness / Health / Mental Health",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "notes": "R?",
     "peer_reviewer": "Emily Wilson",
     "duration": "3",
@@ -41246,50 +41246,50 @@
   },
   "EXT-1111": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health / Mental Health",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "3",
     "link": "https://docs.google.com/document/d/1R1EpJLQWaRS6fryfe73FaaKoTiJ0o1PtoOklwogJ21c/edit?usp=sharing"
   },
   "EXT-1112": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Meditation & Sleep",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "2"
   },
   "EXT-1113": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Nutrition",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "3"
   },
   "EXT-1114": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Nutrition",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "3"
   },
   "EXT-1115": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Nutrition",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "1"
   },
   "EXT-1116": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Nutrition",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "2",
     "link": "https://docs.google.com/document/d/1x-2TIDn8fOHhWTkFaerTAapc2HFAzlTu/edit?usp=sharing&ouid=104973203194055734700&rtpof=true&sd=true"
@@ -41346,10 +41346,10 @@
   },
   "EXT-1127": {
     "type": "Article",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "category": "Health",
     "author": "Emily Wilson",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "5",
     "link": "https://docs.google.com/document/d/13wIWP6ngi7xwuOM0X4UjkhaY8bRDoxDWW8IGT4fHMb8/edit?usp=sharing"
   },
@@ -44226,9 +44226,9 @@
   },
   "EXT-1490": {
     "category": "Nutrition",
-    "_at": "2026-08-11T18:37:10.946Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "language": "English",
-    "author": "Marlee",
+    "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "1"
   },
@@ -44257,18 +44257,18 @@
   },
   "EXT-1494": {
     "category": "Health",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "language": "English",
     "author": "Sakina",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "link": "https://docs.google.com/document/d/1NhMrjUepipNMIIAPc0PcVJAhuptigsTMMiGTmNes9Ww/edit?usp=sharing"
   },
   "EXT-1495": {
     "category": "Sleep",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T18:43:19.043Z",
     "language": "English",
     "author": "Jade",
-    "peer_reviewer": "Marlee",
+    "peer_reviewer": "Marlee Alanis",
     "duration": "2"
   },
   "EXT-0692": {
