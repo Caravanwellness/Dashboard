@@ -31384,9 +31384,9 @@
   },
   "ART-0148": {
     "category": "Vaping & Tobacco",
-    "_at": "2026-08-06T17:24:22.202Z",
+    "_at": "2026-08-11T18:56:46.910Z",
     "type": "Video",
-    "author": "Dr. David",
+    "author": "Dr. David Sanchez",
     "duration": "3 min"
   },
   "ART-0187": {
@@ -32118,8 +32118,8 @@
   },
   "ART-0142": {
     "type": "Video",
-    "_at": "2026-08-06T17:24:22.202Z",
-    "author": "Dr. David",
+    "_at": "2026-08-11T18:56:46.910Z",
+    "author": "Dr. David Sanchez",
     "duration": "2 min"
   },
   "INF-0015": {
@@ -37586,10 +37586,9 @@
   },
   "ES-00111": {
     "type": "Video",
-    "_at": "2026-08-11T18:56:23.539Z",
+    "_at": "2026-08-07T16:57:01.689Z",
     "duration": "5 min",
-    "peer_reviewer": "Dr. Damaris Raymondi",
-    "teacher": "Dr. Damaris Raymondi"
+    "peer_reviewer": "Dr. Raymondi"
   },
   "ES-00014": {
     "type": "Video",
@@ -45087,9 +45086,8 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "ES-00112": {
-    "peer_reviewer": "Dr. Damaris Raymondi",
-    "_at": "2026-08-11T18:56:23.539Z",
-    "teacher": "Dr. Damaris Raymondi"
+    "peer_reviewer": "Dr. Raymondi",
+    "_at": "2026-08-10T19:51:38.073Z"
   },
   "EN-01850": {
     "peer_reviewer": "Katie Attubato",
@@ -45233,9 +45231,8 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "ES-00114": {
-    "peer_reviewer": "Dr. Damaris Raymondi",
-    "_at": "2026-08-11T18:56:23.539Z",
-    "teacher": "Dr. Damaris Raymondi"
+    "peer_reviewer": "Dr. Raymondi",
+    "_at": "2026-08-10T19:51:38.073Z"
   },
   "HI-00020": {
     "peer_reviewer": "Sweta",
@@ -45493,9 +45490,8 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "ES-00113": {
-    "peer_reviewer": "Dr. Damaris Raymondi",
-    "_at": "2026-08-11T18:56:23.539Z",
-    "teacher": "Dr. Damaris Raymondi"
+    "peer_reviewer": "Dr. Raymondi",
+    "_at": "2026-08-10T19:51:38.073Z"
   },
   "EN-01889": {
     "peer_reviewer": "Mercedes",
@@ -46514,9 +46510,8 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "ES-00115": {
-    "peer_reviewer": "Dr. Damaris Raymondi",
-    "_at": "2026-08-11T18:56:23.539Z",
-    "teacher": "Dr. Damaris Raymondi"
+    "peer_reviewer": "Dr. Raymondi",
+    "_at": "2026-08-10T19:51:38.073Z"
   },
   "EN-01947": {
     "peer_reviewer": "Julika",
@@ -47295,9 +47290,8 @@
   },
   "EN-00826": {
     "category": "Personality Clip",
-    "_at": "2026-08-11T18:56:23.539Z",
-    "peer_reviewer": "Dr. Damaris Raymondi",
-    "teacher": "Dr. Damaris Raymondi"
+    "_at": "2026-08-10T19:51:38.073Z",
+    "peer_reviewer": "Dr. Raymondi"
   },
   "EN-00873": {
     "category": "Personality Clip",
