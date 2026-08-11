@@ -40847,9 +40847,10 @@
   },
   "EXT-0625": {
     "type": "Video",
-    "_at": "2026-08-10T19:51:38.073Z",
-    "peer_reviewer": "Stanford",
-    "category": "Estate Planning"
+    "_at": "2026-08-11T20:35:35.606Z",
+    "peer_reviewer": "Sanford",
+    "category": "Estate Planning",
+    "teacher": "Sanford"
   },
   "EXT-0626": {
     "type": "Video",
