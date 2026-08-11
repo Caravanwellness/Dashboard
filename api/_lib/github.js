@@ -9,7 +9,8 @@ export function ghHeaders(token) {
 }
 
 // Read JSON file — returns { data, sha }
-// Falls back to download_url (with auth) for files > 1MB
+// For files > 1MB, the Contents API omits inline content, so we fetch the blob
+// directly by its SHA instead.
 export async function ghReadJson(repo, path, token) {
   const headers = ghHeaders(token);
   const r = await fetch(`https://api.github.com/repos/${repo}/contents/${path}`, { headers });
@@ -20,11 +21,20 @@ export async function ghReadJson(repo, path, token) {
   let text;
   if (meta.content && meta.content.trim()) {
     text = Buffer.from(meta.content.replace(/\n/g, ''), 'base64').toString('utf-8');
-  } else if (meta.download_url) {
-    // File > 1MB — fetch raw content with auth (required for private repos)
-    const raw = await fetch(meta.download_url, { headers: { Authorization: `token ${token}` } });
-    if (!raw.ok) throw new Error(`download_url fetch ${raw.status}`);
-    text = await raw.text();
+  } else if (meta.sha) {
+    // File > 1MB. Fetch the blob by SHA (content-addressed — guaranteed to be
+    // exactly the content matching that SHA) rather than following
+    // download_url, which points at raw.githubusercontent.com. That CDN can
+    // serve a cached copy for a few minutes even after the SHA we just read
+    // has moved on, and since the write path only checks the SHA (not the
+    // content) before committing, a "successful" write built on that stale
+    // content silently reverted every change made since the CDN cache was
+    // last refreshed — confirmed happening in production (concurrent creator
+    // renames each reverting unrelated fields from ones just before them).
+    const blobRes = await fetch(`https://api.github.com/repos/${repo}/git/blobs/${meta.sha}`, { headers });
+    if (!blobRes.ok) throw new Error(`blob fetch ${blobRes.status}`);
+    const blob = await blobRes.json();
+    text = Buffer.from(blob.content.replace(/\n/g, ''), 'base64').toString('utf-8');
   } else {
     return { data: {}, sha: meta.sha };
   }
