@@ -349,6 +349,9 @@
     "creds": ""
   },
   "Emily Wilson": {
-    "creds": "Medical Assistant"
+    "creds": "Medical Assistant",
+    "_all": {
+      "creds": "Medical Assistant"
+    }
   }
 }
