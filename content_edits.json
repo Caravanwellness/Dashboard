@@ -31518,13 +31518,12 @@
     "licenses": [
       "YuLife"
     ],
-    "_at": "2026-08-11T18:57:17.001Z",
+    "_at": "2026-08-07T16:57:01.689Z",
     "vimeo_link": "https://vimeo.com/1063603366/f81a6a1e8a",
     "duration": "5 min",
     "language": "English",
     "type": "Video",
-    "peer_reviewer": "Dr. Julia Iafrate",
-    "teacher": "Dr. Julia Iafrate"
+    "peer_reviewer": "Dr. J"
   },
   "EN-00722": {
     "licenses": [
@@ -43732,8 +43731,9 @@
     "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1480": {
-    "peer_reviewer": "Alexandria",
-    "_at": "2026-08-07T16:57:01.689Z"
+    "peer_reviewer": "Alexandria DeVito",
+    "_at": "2026-08-11T18:57:38.418Z",
+    "teacher": "Alexandria DeVito"
   },
   "EXT-1481": {
     "peer_reviewer": "Gus",
