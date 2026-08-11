@@ -45585,20 +45585,22 @@
     "duration": "15"
   },
   "EXT-1224": {
-    "peer_reviewer": "Mariela",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "peer_reviewer": "Mariela Alarie",
+    "_at": "2026-08-11T20:30:48.536Z",
     "category": "Beauty",
     "language": "English",
     "author": "Mariela",
-    "duration": "10"
+    "duration": "10",
+    "teacher": "Mariela Alarie"
   },
   "EXT-1225": {
-    "peer_reviewer": "Mariela",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "peer_reviewer": "Mariela Alarie",
+    "_at": "2026-08-11T20:30:48.536Z",
     "category": "Beauty",
     "language": "English",
     "author": "Mariela",
-    "duration": "5"
+    "duration": "5",
+    "teacher": "Mariela Alarie"
   },
   "EXT-1226": {
     "peer_reviewer": "Sophia",
