@@ -36651,9 +36651,8 @@
   },
   "ES-00139": {
     "type": "Video",
-    "_at": "2026-08-11T18:46:46.462Z",
-    "peer_reviewer": "Dr. Ricardo Fuentes",
-    "teacher": "Dr. Ricardo Fuentes"
+    "_at": "2026-08-07T16:57:01.689Z",
+    "peer_reviewer": "Ricardo"
   },
   "DE-00044": {
     "type": "Video",
@@ -36963,10 +36962,9 @@
   },
   "ES-00137": {
     "type": "Video",
-    "_at": "2026-08-11T18:46:46.462Z",
+    "_at": "2026-08-07T16:57:01.689Z",
     "duration": "5 min",
-    "peer_reviewer": "Dr. Ricardo Fuentes",
-    "teacher": "Dr. Ricardo Fuentes"
+    "peer_reviewer": "Ricardo"
   },
   "FR-00070": {
     "type": "Video",
@@ -36980,10 +36978,9 @@
   },
   "ES-00138": {
     "type": "Video",
-    "_at": "2026-08-11T18:46:46.462Z",
+    "_at": "2026-08-07T16:57:01.689Z",
     "duration": "4 min",
-    "peer_reviewer": "Dr. Ricardo Fuentes",
-    "teacher": "Dr. Ricardo Fuentes"
+    "peer_reviewer": "Ricardo"
   },
   "TR-00004": {
     "type": "Video",
@@ -38704,18 +38701,16 @@
   },
   "EXT-0637": {
     "type": "Video",
-    "_at": "2026-08-11T18:46:46.462Z",
-    "peer_reviewer": "Dr. Ricardo Fuentes",
-    "category": "Heart Disease",
-    "teacher": "Dr. Ricardo Fuentes"
+    "_at": "2026-08-10T19:51:38.073Z",
+    "peer_reviewer": "Ricardo",
+    "category": "Heart Disease"
   },
   "EXT-0638": {
     "type": "Video",
-    "_at": "2026-08-11T18:46:46.462Z",
+    "_at": "2026-08-10T19:51:38.073Z",
     "duration": "4 min",
-    "peer_reviewer": "Dr. Ricardo Fuentes",
-    "category": "Arthritis",
-    "teacher": "Dr. Ricardo Fuentes"
+    "peer_reviewer": "Ricardo",
+    "category": "Arthritis"
   },
   "EXT-0639": {
     "type": "Video",
@@ -43705,8 +43700,9 @@
     "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1472": {
-    "peer_reviewer": "Dr Joe",
-    "_at": "2026-08-07T16:57:01.689Z"
+    "peer_reviewer": "Dr. Joe Feuerstein",
+    "_at": "2026-08-11T18:47:01.451Z",
+    "teacher": "Dr. Joe Feuerstein"
   },
   "EXT-1473": {
     "peer_reviewer": "Dr. Joe",
@@ -44996,8 +44992,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "EN-01858": {
-    "peer_reviewer": "Dr Joe",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Dr. Joe Feuerstein",
+    "_at": "2026-08-11T18:47:01.451Z",
+    "teacher": "Dr. Joe Feuerstein"
   },
   "FR-00035": {
     "peer_reviewer": "Manon",
@@ -45036,8 +45033,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "EN-01870": {
-    "peer_reviewer": "Dr Joe",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Dr. Joe Feuerstein",
+    "_at": "2026-08-11T18:47:01.451Z",
+    "teacher": "Dr. Joe Feuerstein"
   },
   "AR-00065": {
     "peer_reviewer": "Teriz",
@@ -45229,9 +45227,8 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "ES-00163": {
-    "peer_reviewer": "Dr. Ricardo Fuentes",
-    "_at": "2026-08-11T18:46:46.462Z",
-    "teacher": "Dr. Ricardo Fuentes"
+    "peer_reviewer": "Ricardo",
+    "_at": "2026-08-10T19:51:38.073Z"
   },
   "EN-01874": {
     "peer_reviewer": "Soja",
@@ -45294,9 +45291,8 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "ES-00132": {
-    "peer_reviewer": "Dr. Ricardo Fuentes",
-    "_at": "2026-08-11T18:46:46.462Z",
-    "teacher": "Dr. Ricardo Fuentes"
+    "peer_reviewer": "Ricardo",
+    "_at": "2026-08-10T19:51:38.073Z"
   },
   "IT-00012": {
     "peer_reviewer": "Stefano",
@@ -45446,8 +45442,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "EN-01861": {
-    "peer_reviewer": "Dr Joe",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Dr. Joe Feuerstein",
+    "_at": "2026-08-11T18:47:01.451Z",
+    "teacher": "Dr. Joe Feuerstein"
   },
   "HI-00003": {
     "peer_reviewer": "Pallavi",
@@ -45478,8 +45475,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "EN-01863": {
-    "peer_reviewer": "Dr Joe",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Dr. Joe Feuerstein",
+    "_at": "2026-08-11T18:47:01.451Z",
+    "teacher": "Dr. Joe Feuerstein"
   },
   "EN-00393": {
     "peer_reviewer": "Steven",
@@ -45520,8 +45518,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "EN-01854": {
-    "peer_reviewer": "Dr Joe",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Dr. Joe Feuerstein",
+    "_at": "2026-08-11T18:47:01.451Z",
+    "teacher": "Dr. Joe Feuerstein"
   },
   "ES-00168": {
     "peer_reviewer": "Victor",
@@ -45604,12 +45603,14 @@
     "teacher": "Katie Attubato"
   },
   "EN-01864": {
-    "peer_reviewer": "Dr Joe",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Dr. Joe Feuerstein",
+    "_at": "2026-08-11T18:47:01.451Z",
+    "teacher": "Dr. Joe Feuerstein"
   },
   "EN-01865": {
-    "peer_reviewer": "Dr Joe",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Dr. Joe Feuerstein",
+    "_at": "2026-08-11T18:47:01.451Z",
+    "teacher": "Dr. Joe Feuerstein"
   },
   "PT-00029": {
     "peer_reviewer": "Cris",
@@ -45697,9 +45698,8 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "ES-00130": {
-    "peer_reviewer": "Dr. Ricardo Fuentes",
-    "_at": "2026-08-11T18:46:46.462Z",
-    "teacher": "Dr. Ricardo Fuentes"
+    "peer_reviewer": "Ricardo",
+    "_at": "2026-08-10T19:51:38.073Z"
   },
   "EN-01636": {
     "peer_reviewer": "Candice",
@@ -45940,8 +45940,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "EN-01867": {
-    "peer_reviewer": "Dr Joe",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Dr. Joe Feuerstein",
+    "_at": "2026-08-11T18:47:01.451Z",
+    "teacher": "Dr. Joe Feuerstein"
   },
   "FR-00058": {
     "peer_reviewer": "Angeline",
@@ -46092,8 +46093,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "EN-01857": {
-    "peer_reviewer": "Dr Joe",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Dr. Joe Feuerstein",
+    "_at": "2026-08-11T18:47:01.451Z",
+    "teacher": "Dr. Joe Feuerstein"
   },
   "FR-00094": {
     "peer_reviewer": "Nathalie",
@@ -46104,13 +46106,13 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "ES-00136": {
-    "peer_reviewer": "Dr. Ricardo Fuentes",
-    "_at": "2026-08-11T18:46:46.462Z",
-    "teacher": "Dr. Ricardo Fuentes"
+    "peer_reviewer": "Ricardo",
+    "_at": "2026-08-10T19:51:38.073Z"
   },
   "EN-01856": {
-    "peer_reviewer": "Dr Joe",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Dr. Joe Feuerstein",
+    "_at": "2026-08-11T18:47:01.451Z",
+    "teacher": "Dr. Joe Feuerstein"
   },
   "ES-00050": {
     "peer_reviewer": "Oscar",
@@ -46309,9 +46311,8 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "ES-00131": {
-    "peer_reviewer": "Dr. Ricardo Fuentes",
-    "_at": "2026-08-11T18:46:46.462Z",
-    "teacher": "Dr. Ricardo Fuentes"
+    "peer_reviewer": "Ricardo",
+    "_at": "2026-08-10T19:51:38.073Z"
   },
   "YUE-00003": {
     "peer_reviewer": "Mandy",
@@ -46366,8 +46367,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "EN-01860": {
-    "peer_reviewer": "Dr Joe",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Dr. Joe Feuerstein",
+    "_at": "2026-08-11T18:47:01.451Z",
+    "teacher": "Dr. Joe Feuerstein"
   },
   "IT-00036": {
     "peer_reviewer": "Asia",
@@ -46771,9 +46773,8 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "ES-00160": {
-    "peer_reviewer": "Dr. Ricardo Fuentes",
-    "_at": "2026-08-11T18:46:46.462Z",
-    "teacher": "Dr. Ricardo Fuentes"
+    "peer_reviewer": "Ricardo",
+    "_at": "2026-08-10T19:51:38.073Z"
   },
   "ES-00175": {
     "peer_reviewer": "David",
@@ -46995,9 +46996,8 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "ES-00133": {
-    "peer_reviewer": "Dr. Ricardo Fuentes",
-    "_at": "2026-08-11T18:46:46.462Z",
-    "teacher": "Dr. Ricardo Fuentes"
+    "peer_reviewer": "Ricardo",
+    "_at": "2026-08-10T19:51:38.073Z"
   },
   "PT-00076": {
     "peer_reviewer": "Mila",
@@ -47012,8 +47012,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "EN-01855": {
-    "peer_reviewer": "Dr Joe",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Dr. Joe Feuerstein",
+    "_at": "2026-08-11T18:47:01.451Z",
+    "teacher": "Dr. Joe Feuerstein"
   },
   "ES-00097": {
     "category": "Personality Clip",
@@ -47022,15 +47023,13 @@
   },
   "ES-00140": {
     "category": "Personality Clip",
-    "_at": "2026-08-11T18:46:46.462Z",
-    "peer_reviewer": "Dr. Ricardo Fuentes",
-    "teacher": "Dr. Ricardo Fuentes"
+    "_at": "2026-08-10T19:51:38.073Z",
+    "peer_reviewer": "Ricardo"
   },
   "ES-00141": {
     "category": "Personality Clip",
-    "_at": "2026-08-11T18:46:46.462Z",
-    "peer_reviewer": "Dr. Ricardo Fuentes",
-    "teacher": "Dr. Ricardo Fuentes"
+    "_at": "2026-08-10T19:51:38.073Z",
+    "peer_reviewer": "Ricardo"
   },
   "ES-00147": {
     "peer_reviewer": "Karla",
@@ -47143,8 +47142,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "EN-01859": {
-    "peer_reviewer": "Dr Joe",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Dr. Joe Feuerstein",
+    "_at": "2026-08-11T18:47:01.451Z",
+    "teacher": "Dr. Joe Feuerstein"
   },
   "JA-00011": {
     "peer_reviewer": "Izumi",
@@ -47160,9 +47160,8 @@
     "teacher": "Katie Attubato"
   },
   "ES-00162": {
-    "peer_reviewer": "Dr. Ricardo Fuentes",
-    "_at": "2026-08-11T18:46:46.462Z",
-    "teacher": "Dr. Ricardo Fuentes"
+    "peer_reviewer": "Ricardo",
+    "_at": "2026-08-10T19:51:38.073Z"
   },
   "PT-00017": {
     "peer_reviewer": "Mila",
@@ -47292,9 +47291,8 @@
   },
   "EN-00935": {
     "category": "Personality Clip",
-    "_at": "2026-08-11T18:46:46.462Z",
-    "peer_reviewer": "Dr. Ricardo Fuentes",
-    "teacher": "Dr. Ricardo Fuentes"
+    "_at": "2026-08-10T19:51:38.073Z",
+    "peer_reviewer": "Ricardo"
   },
   "EN-00967": {
     "category": "Personality Clip",
@@ -47383,8 +47381,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "EN-01866": {
-    "peer_reviewer": "Dr Joe",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Dr. Joe Feuerstein",
+    "_at": "2026-08-11T18:47:01.451Z",
+    "teacher": "Dr. Joe Feuerstein"
   },
   "ES-00086": {
     "peer_reviewer": "Eneida",
@@ -47559,8 +47558,9 @@
     "peer_reviewer": "Nathalie"
   },
   "EN-01869": {
-    "peer_reviewer": "Dr Joe",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Dr. Joe Feuerstein",
+    "_at": "2026-08-11T18:47:01.451Z",
+    "teacher": "Dr. Joe Feuerstein"
   },
   "AR-00006": {
     "peer_reviewer": "Dr. Hassan",
@@ -47640,9 +47640,8 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "ES-00135": {
-    "peer_reviewer": "Dr. Ricardo Fuentes",
-    "_at": "2026-08-11T18:46:46.462Z",
-    "teacher": "Dr. Ricardo Fuentes"
+    "peer_reviewer": "Ricardo",
+    "_at": "2026-08-10T19:51:38.073Z"
   },
   "AR-00061": {
     "peer_reviewer": "Teriz",
@@ -47657,9 +47656,8 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "ES-00161": {
-    "peer_reviewer": "Dr. Ricardo Fuentes",
-    "_at": "2026-08-11T18:46:46.462Z",
-    "teacher": "Dr. Ricardo Fuentes"
+    "peer_reviewer": "Ricardo",
+    "_at": "2026-08-10T19:51:38.073Z"
   },
   "ES-00042": {
     "peer_reviewer": "Tony",
@@ -47739,9 +47737,8 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "ES-00134": {
-    "peer_reviewer": "Dr. Ricardo Fuentes",
-    "_at": "2026-08-11T18:46:46.462Z",
-    "teacher": "Dr. Ricardo Fuentes"
+    "peer_reviewer": "Ricardo",
+    "_at": "2026-08-10T19:51:38.073Z"
   },
   "AR-00015": {
     "peer_reviewer": "Dr. Hassan",
@@ -47820,8 +47817,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "EN-01862": {
-    "peer_reviewer": "Dr Joe",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Dr. Joe Feuerstein",
+    "_at": "2026-08-11T18:47:01.451Z",
+    "teacher": "Dr. Joe Feuerstein"
   },
   "EN-00125": {
     "peer_reviewer": "Alex",
