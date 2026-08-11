@@ -46129,11 +46129,12 @@
     "duration": "5"
   },
   "EXT-1354": {
-    "peer_reviewer": "Naz",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "peer_reviewer": "Nazirber Maduro",
+    "_at": "2026-08-11T20:16:12.744Z",
     "language": "English",
     "author": "Nazirber",
-    "duration": "3"
+    "duration": "3",
+    "teacher": "Nazirber Maduro"
   },
   "EXT-1355": {
     "peer_reviewer": "Chandra",
@@ -46151,11 +46152,12 @@
     "duration": "5"
   },
   "EXT-1357": {
-    "peer_reviewer": "Naz",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "peer_reviewer": "Nazirber Maduro",
+    "_at": "2026-08-11T20:16:12.744Z",
     "language": "English",
     "author": "Nazirber",
-    "duration": "5"
+    "duration": "5",
+    "teacher": "Nazirber Maduro"
   },
   "EXT-1358": {
     "peer_reviewer": "David",
