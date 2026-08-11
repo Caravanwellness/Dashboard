@@ -38399,9 +38399,10 @@
   },
   "JA-00007": {
     "type": "Video",
-    "_at": "2026-08-07T16:57:01.689Z",
+    "_at": "2026-08-11T20:15:36.501Z",
     "duration": "5 min",
-    "peer_reviewer": "Izumi"
+    "peer_reviewer": "Izumi Favia",
+    "teacher": "Izumi Favia"
   },
   "EXT-0219": {
     "type": "Video",
@@ -38420,9 +38421,10 @@
   },
   "JA-00009": {
     "type": "Video",
-    "_at": "2026-08-07T16:57:01.689Z",
+    "_at": "2026-08-11T20:15:36.501Z",
     "duration": "5 min",
-    "peer_reviewer": "Izumi"
+    "peer_reviewer": "Izumi Favia",
+    "teacher": "Izumi Favia"
   },
   "EXT-0222": {
     "type": "Video",
@@ -38746,9 +38748,10 @@
   },
   "JA-00005": {
     "type": "Video",
-    "_at": "2026-08-07T16:57:01.689Z",
+    "_at": "2026-08-11T20:15:36.501Z",
     "duration": "4 min",
-    "peer_reviewer": "Izumi"
+    "peer_reviewer": "Izumi Favia",
+    "teacher": "Izumi Favia"
   },
   "ES-00011": {
     "type": "Video",
@@ -38835,9 +38838,10 @@
   },
   "JA-00002": {
     "type": "Video",
-    "_at": "2026-08-07T16:57:01.689Z",
+    "_at": "2026-08-11T20:15:36.501Z",
     "duration": "4 min",
-    "peer_reviewer": "Izumi"
+    "peer_reviewer": "Izumi Favia",
+    "teacher": "Izumi Favia"
   },
   "ES-00117": {
     "type": "Video",
@@ -38897,9 +38901,10 @@
   },
   "JA-00010": {
     "type": "Video",
-    "_at": "2026-08-07T16:57:01.689Z",
+    "_at": "2026-08-11T20:15:36.501Z",
     "duration": "5 min",
-    "peer_reviewer": "Izumi"
+    "peer_reviewer": "Izumi Favia",
+    "teacher": "Izumi Favia"
   },
   "ES-00152": {
     "type": "Video",
@@ -39074,9 +39079,10 @@
   },
   "JA-00004": {
     "type": "Video",
-    "_at": "2026-08-07T16:57:01.689Z",
+    "_at": "2026-08-11T20:15:36.501Z",
     "duration": "4 min",
-    "peer_reviewer": "Izumi"
+    "peer_reviewer": "Izumi Favia",
+    "teacher": "Izumi Favia"
   },
   "DE-00057": {
     "type": "Video",
@@ -39231,9 +39237,10 @@
   },
   "JA-00006": {
     "type": "Video",
-    "_at": "2026-08-07T16:57:01.689Z",
+    "_at": "2026-08-11T20:15:36.501Z",
     "duration": "4 min",
-    "peer_reviewer": "Izumi"
+    "peer_reviewer": "Izumi Favia",
+    "teacher": "Izumi Favia"
   },
   "DE-00018": {
     "type": "Video",
@@ -39260,9 +39267,10 @@
   },
   "JA-00008": {
     "type": "Video",
-    "_at": "2026-08-07T16:57:01.689Z",
+    "_at": "2026-08-11T20:15:36.501Z",
     "duration": "4 min",
-    "peer_reviewer": "Izumi"
+    "peer_reviewer": "Izumi Favia",
+    "teacher": "Izumi Favia"
   },
   "ES-00070": {
     "type": "Video",
@@ -39290,9 +39298,10 @@
   },
   "JA-00001": {
     "type": "Video",
-    "_at": "2026-08-07T16:57:01.689Z",
+    "_at": "2026-08-11T20:15:36.501Z",
     "duration": "3 min",
-    "peer_reviewer": "Izumi"
+    "peer_reviewer": "Izumi Favia",
+    "teacher": "Izumi Favia"
   },
   "ES-00039": {
     "type": "Video",
@@ -44569,10 +44578,10 @@
     "language": "English"
   },
   "EXT-1267": {
-    "teacher": "Izumi",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "teacher": "Izumi Favia",
+    "_at": "2026-08-11T20:15:36.501Z",
     "duration": "15",
-    "peer_reviewer": "Izumi",
+    "peer_reviewer": "Izumi Favia",
     "language": "English",
     "author": "Dan'yelle"
   },
@@ -50911,8 +50920,9 @@
     "teacher": "Dr. Joe Feuerstein"
   },
   "JA-00011": {
-    "peer_reviewer": "Izumi",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Izumi Favia",
+    "_at": "2026-08-11T20:15:36.501Z",
+    "teacher": "Izumi Favia"
   },
   "IT-00017": {
     "peer_reviewer": "Ilaria Chiantore",
@@ -51510,8 +51520,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "JA-00003": {
-    "peer_reviewer": "Izumi",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Izumi Favia",
+    "_at": "2026-08-11T20:15:36.501Z",
+    "teacher": "Izumi Favia"
   },
   "ES-00007": {
     "peer_reviewer": "Dublin",
