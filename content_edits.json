@@ -36574,9 +36574,10 @@
   },
   "ES-00187": {
     "type": "Video",
-    "_at": "2026-08-07T16:57:01.689Z",
+    "_at": "2026-08-11T19:01:14.849Z",
     "duration": "5 min",
-    "peer_reviewer": "Inaudy"
+    "peer_reviewer": "Inaudy Gil",
+    "teacher": "Inaudy Gil"
   },
   "JA-00009": {
     "type": "Video",
@@ -36602,9 +36603,8 @@
   },
   "FR-00021": {
     "type": "Video",
-    "_at": "2026-08-11T19:01:04.119Z",
-    "peer_reviewer": "Candice White-Parker",
-    "teacher": "Candice White-Parker"
+    "_at": "2026-08-07T16:57:01.689Z",
+    "peer_reviewer": "Candice"
   },
   "PT-00063": {
     "type": "Video",
@@ -36786,8 +36786,9 @@
   },
   "ES-00186": {
     "type": "Video",
-    "_at": "2026-08-07T16:57:01.689Z",
-    "peer_reviewer": "Inaudy"
+    "_at": "2026-08-11T19:01:14.849Z",
+    "peer_reviewer": "Inaudy Gil",
+    "teacher": "Inaudy Gil"
   },
   "FR-00062": {
     "type": "Video",
@@ -37842,10 +37843,9 @@
   },
   "FR-00020": {
     "type": "Video",
-    "_at": "2026-08-11T19:01:04.119Z",
-    "peer_reviewer": "Candice White-Parker",
-    "category": "Back Pain",
-    "teacher": "Candice White-Parker"
+    "_at": "2026-08-10T19:51:38.073Z",
+    "peer_reviewer": "Candice",
+    "category": "Back Pain"
   },
   "FR-00037": {
     "type": "Video",
@@ -37906,11 +37906,10 @@
   },
   "FR-00019": {
     "type": "Video",
-    "_at": "2026-08-11T19:01:04.119Z",
+    "_at": "2026-08-10T19:51:38.073Z",
     "duration": "3 min",
-    "peer_reviewer": "Candice White-Parker",
-    "category": "Yoga",
-    "teacher": "Candice White-Parker"
+    "peer_reviewer": "Candice",
+    "category": "Yoga"
   },
   "ZH-00003": {
     "type": "Video",
@@ -38653,24 +38652,21 @@
   },
   "EXT-0627": {
     "type": "Video",
-    "_at": "2026-08-11T19:01:04.119Z",
-    "peer_reviewer": "Candice White-Parker",
-    "category": "Flexibility, Mobility & Recovery",
-    "teacher": "Candice White-Parker"
+    "_at": "2026-08-10T19:51:38.073Z",
+    "peer_reviewer": "Candice",
+    "category": "Flexibility, Mobility & Recovery"
   },
   "EXT-0628": {
     "type": "Video",
-    "_at": "2026-08-11T19:01:04.119Z",
-    "peer_reviewer": "Candice White-Parker",
-    "category": "Older Adults",
-    "teacher": "Candice White-Parker"
+    "_at": "2026-08-10T19:51:38.073Z",
+    "peer_reviewer": "Candice",
+    "category": "Older Adults"
   },
   "EXT-0629": {
     "type": "Video",
-    "_at": "2026-08-11T19:01:04.119Z",
-    "peer_reviewer": "Candice White-Parker",
-    "category": "Flexibility, Mobility & Recovery",
-    "teacher": "Candice White-Parker"
+    "_at": "2026-08-10T19:51:38.073Z",
+    "peer_reviewer": "Candice",
+    "category": "Flexibility, Mobility & Recovery"
   },
   "EXT-0630": {
     "type": "Video",
@@ -42993,10 +42989,9 @@
     "category": "Flexibility, Mobility & Recovery"
   },
   "EXT-1217": {
-    "peer_reviewer": "Candice White-Parker",
-    "_at": "2026-08-11T19:01:04.119Z",
-    "category": "Stretching",
-    "teacher": "Candice White-Parker"
+    "peer_reviewer": "Candice",
+    "_at": "2026-08-10T19:51:38.073Z",
+    "category": "Stretching"
   },
   "EXT-1218": {
     "peer_reviewer": "Sabrih",
@@ -43261,12 +43256,14 @@
     "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1321": {
-    "peer_reviewer": "Inaudy",
-    "_at": "2026-08-07T16:57:01.689Z"
+    "peer_reviewer": "Inaudy Gil",
+    "_at": "2026-08-11T19:01:14.849Z",
+    "teacher": "Inaudy Gil"
   },
   "EXT-1322": {
-    "peer_reviewer": "Inaudy",
-    "_at": "2026-08-07T16:57:01.689Z"
+    "peer_reviewer": "Inaudy Gil",
+    "_at": "2026-08-11T19:01:14.849Z",
+    "teacher": "Inaudy Gil"
   },
   "EXT-1323": {
     "peer_reviewer": "Linda",
@@ -43281,16 +43278,19 @@
     "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1326": {
-    "peer_reviewer": "Inaudy",
-    "_at": "2026-08-07T16:57:01.689Z"
+    "peer_reviewer": "Inaudy Gil",
+    "_at": "2026-08-11T19:01:14.849Z",
+    "teacher": "Inaudy Gil"
   },
   "EXT-1327": {
-    "peer_reviewer": "Inaudy",
-    "_at": "2026-08-07T16:57:01.689Z"
+    "peer_reviewer": "Inaudy Gil",
+    "_at": "2026-08-11T19:01:14.849Z",
+    "teacher": "Inaudy Gil"
   },
   "EXT-1328": {
-    "peer_reviewer": "Inaudy",
-    "_at": "2026-08-07T16:57:01.689Z"
+    "peer_reviewer": "Inaudy Gil",
+    "_at": "2026-08-11T19:01:14.849Z",
+    "teacher": "Inaudy Gil"
   },
   "EXT-1329": {
     "peer_reviewer": "Kaitlyn",
@@ -43614,8 +43614,9 @@
     "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1409": {
-    "peer_reviewer": "Inaudy",
-    "_at": "2026-08-07T16:57:01.689Z"
+    "peer_reviewer": "Inaudy Gil",
+    "_at": "2026-08-11T19:01:14.849Z",
+    "teacher": "Inaudy Gil"
   },
   "EXT-1410": {
     "peer_reviewer": "Eneida",
@@ -43658,9 +43659,8 @@
     "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1420": {
-    "peer_reviewer": "Candice White-Parker",
-    "_at": "2026-08-11T19:01:04.119Z",
-    "teacher": "Candice White-Parker"
+    "peer_reviewer": "Candice",
+    "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1421": {
     "peer_reviewer": "Lucelia",
@@ -44990,8 +44990,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "ES-00189": {
-    "peer_reviewer": "Inaudy",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Inaudy Gil",
+    "_at": "2026-08-11T19:01:14.849Z",
+    "teacher": "Inaudy Gil"
   },
   "DE-00041": {
     "peer_reviewer": "Jessica",
@@ -45006,9 +45007,8 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "FR-00005": {
-    "peer_reviewer": "Candice White-Parker",
-    "_at": "2026-08-11T19:01:04.119Z",
-    "teacher": "Candice White-Parker"
+    "peer_reviewer": "Candice",
+    "_at": "2026-08-10T19:51:38.073Z"
   },
   "EN-01811": {
     "peer_reviewer": "Cherilyn",
@@ -45100,8 +45100,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "ES-00191": {
-    "peer_reviewer": "Inaudy",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Inaudy Gil",
+    "_at": "2026-08-11T19:01:14.849Z",
+    "teacher": "Inaudy Gil"
   },
   "FR-00104": {
     "peer_reviewer": "Nathalie",
@@ -45403,8 +45404,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "ES-00192": {
-    "peer_reviewer": "Inaudy",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Inaudy Gil",
+    "_at": "2026-08-11T19:01:14.849Z",
+    "teacher": "Inaudy Gil"
   },
   "IT-00028": {
     "peer_reviewer": "Asia",
@@ -45563,9 +45565,8 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "FR-00002": {
-    "peer_reviewer": "Candice White-Parker",
-    "_at": "2026-08-11T19:01:04.119Z",
-    "teacher": "Candice White-Parker"
+    "peer_reviewer": "Candice",
+    "_at": "2026-08-10T19:51:38.073Z"
   },
   "EN-01854": {
     "peer_reviewer": "Dr Joe",
@@ -45664,8 +45665,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "ES-00188": {
-    "peer_reviewer": "Inaudy",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Inaudy Gil",
+    "_at": "2026-08-11T19:01:14.849Z",
+    "teacher": "Inaudy Gil"
   },
   "HI-00007": {
     "peer_reviewer": "Pallavi",
@@ -45750,9 +45752,8 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "EN-01636": {
-    "peer_reviewer": "Candice White-Parker",
-    "_at": "2026-08-11T19:01:04.119Z",
-    "teacher": "Candice White-Parker"
+    "peer_reviewer": "Candice",
+    "_at": "2026-08-10T19:51:38.073Z"
   },
   "PT-00073": {
     "title": "Incorporating Exercise Snacks Into Your Day",
@@ -46279,9 +46280,8 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "FR-00003": {
-    "peer_reviewer": "Candice White-Parker",
-    "_at": "2026-08-11T19:01:04.119Z",
-    "teacher": "Candice White-Parker"
+    "peer_reviewer": "Candice",
+    "_at": "2026-08-10T19:51:38.073Z"
   },
   "KO-00003": {
     "peer_reviewer": "Sally",
@@ -46470,9 +46470,8 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "EN-01326": {
-    "peer_reviewer": "Candice White-Parker",
-    "_at": "2026-08-11T19:01:04.119Z",
-    "teacher": "Candice White-Parker"
+    "peer_reviewer": "Candice",
+    "_at": "2026-08-10T19:51:38.073Z"
   },
   "IT-00023": {
     "peer_reviewer": "Ilaria",
@@ -46707,8 +46706,9 @@
     "teacher": "Katie Attubato"
   },
   "ES-00184": {
-    "peer_reviewer": "Inaudy",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Inaudy Gil",
+    "_at": "2026-08-11T19:01:14.849Z",
+    "teacher": "Inaudy Gil"
   },
   "PT-00028": {
     "peer_reviewer": "Cris",
@@ -46886,9 +46886,8 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "EN-01327": {
-    "peer_reviewer": "Candice White-Parker",
-    "_at": "2026-08-11T19:01:04.119Z",
-    "teacher": "Candice White-Parker"
+    "peer_reviewer": "Candice",
+    "_at": "2026-08-10T19:51:38.073Z"
   },
   "AR-00059": {
     "category": "Personality Clip",
@@ -46900,9 +46899,8 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "FR-00022": {
-    "peer_reviewer": "Candice White-Parker",
-    "_at": "2026-08-11T19:01:04.119Z",
-    "teacher": "Candice White-Parker"
+    "peer_reviewer": "Candice",
+    "_at": "2026-08-10T19:51:38.073Z"
   },
   "AR-00054": {
     "peer_reviewer": "Sandy",
@@ -47019,9 +47017,8 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "FR-00004": {
-    "peer_reviewer": "Candice White-Parker",
-    "_at": "2026-08-11T19:01:04.119Z",
-    "teacher": "Candice White-Parker"
+    "peer_reviewer": "Candice",
+    "_at": "2026-08-10T19:51:38.073Z"
   },
   "ES-00026": {
     "peer_reviewer": "Nicole",
@@ -47149,8 +47146,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "ES-00193": {
-    "peer_reviewer": "Inaudy",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Inaudy Gil",
+    "_at": "2026-08-11T19:01:14.849Z",
+    "teacher": "Inaudy Gil"
   },
   "EN-01019": {
     "peer_reviewer": "Linda",
@@ -47174,8 +47172,9 @@
     "teacher": "Katie Attubato"
   },
   "ES-00190": {
-    "peer_reviewer": "Inaudy",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Inaudy Gil",
+    "_at": "2026-08-11T19:01:14.849Z",
+    "teacher": "Inaudy Gil"
   },
   "PT-00060": {
     "peer_reviewer": "Mila",
@@ -47268,9 +47267,8 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "FR-00001": {
-    "peer_reviewer": "Candice White-Parker",
-    "_at": "2026-08-11T19:01:04.119Z",
-    "teacher": "Candice White-Parker"
+    "peer_reviewer": "Candice",
+    "_at": "2026-08-10T19:51:38.073Z"
   },
   "EN-00551": {
     "category": "Personality Clip",
@@ -47488,8 +47486,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "ES-00185": {
-    "peer_reviewer": "Inaudy",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Inaudy Gil",
+    "_at": "2026-08-11T19:01:14.849Z",
+    "teacher": "Inaudy Gil"
   },
   "EN-00033": {
     "peer_reviewer": "Edyta",
