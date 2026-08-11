@@ -42242,34 +42242,38 @@
   },
   "EXT-0687": {
     "title": "Avocado Toast With Poached Eggs",
-    "_at": "2026-08-10T19:51:38.073Z",
+    "_at": "2026-08-11T19:33:22.740Z",
     "author": "Jade Gordon",
     "date_created": "10/9/2025",
-    "category": "Nutrition"
+    "category": "Nutrition",
+    "duration": "10"
   },
   "EXT-0688": {
     "title": "Baked Egg Cups",
-    "_at": "2026-08-07T15:43:57.942Z",
+    "_at": "2026-08-11T19:33:22.740Z",
     "author": "Jade Gordon",
     "date_created": "1/14/2025",
     "category": "Alcohol Use",
     "notes": "",
     "references": "",
-    "reviewed_by": ""
+    "reviewed_by": "",
+    "duration": "30"
   },
   "EXT-0689": {
     "title": "Baked Sweet Potato Chips",
-    "_at": "2026-08-11T19:26:33.131Z",
+    "_at": "2026-08-11T19:33:22.740Z",
     "category": "Nutrition",
     "author": "Jade Gordon",
-    "date_created": "1/14/2026"
+    "date_created": "1/14/2026",
+    "duration": "40"
   },
   "EXT-0690": {
     "title": "Banana Oatmeal Pancakes",
-    "_at": "2026-08-07T02:03:03.156Z",
+    "_at": "2026-08-11T19:33:22.740Z",
     "author": "Jade Gordon",
     "category": "Nutrition",
-    "date_created": "1/14/2025"
+    "date_created": "1/14/2025",
+    "duration": "15"
   },
   "EXT-0407": {
     "author": "Dr. Julia Iafrate",
@@ -44623,13 +44627,17 @@
   },
   "EXT-0692": {
     "teacher": "",
-    "_at": "2026-08-10T19:51:38.073Z",
-    "category": "Nutrition"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "category": "Nutrition",
+    "author": "Jade Gordon",
+    "duration": "55"
   },
   "EXT-0693": {
     "teacher": "",
-    "_at": "2026-08-10T19:51:38.073Z",
-    "category": "Nutrition"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "category": "Nutrition",
+    "author": "Jade Gordon",
+    "duration": "30"
   },
   "EXT-0075": {
     "category": "Planning for Retirement",
@@ -44637,575 +44645,853 @@
   },
   "EXT-0691": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "20"
   },
   "EXT-0694": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "25"
   },
   "EXT-0695": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "22"
   },
   "EXT-0696": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon"
   },
   "EXT-0697": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "40"
   },
   "EXT-0698": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "20"
   },
   "EXT-0699": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "20"
   },
   "EXT-0700": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "30"
   },
   "EXT-0701": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "40"
   },
   "EXT-0702": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "20"
   },
   "EXT-0703": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "25"
   },
   "EXT-0704": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "30"
   },
   "EXT-0705": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "40"
   },
   "EXT-0706": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "70"
   },
   "EXT-0707": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "15"
   },
   "EXT-0708": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "45"
   },
   "EXT-0709": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "30"
   },
   "EXT-0710": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "10"
   },
   "EXT-0711": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "15"
   },
   "EXT-0712": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "15"
   },
   "EXT-0713": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "25"
   },
   "EXT-0714": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "25"
   },
   "EXT-0715": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "35"
   },
   "EXT-0716": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "30"
   },
   "EXT-0717": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "20"
   },
   "EXT-0718": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "20"
   },
   "EXT-0719": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "15"
   },
   "EXT-0720": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "10"
   },
   "EXT-0721": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "20"
   },
   "EXT-0722": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "30"
   },
   "EXT-0723": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "45"
   },
   "EXT-0724": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon"
   },
   "EXT-0725": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "5"
   },
   "EXT-0726": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "40"
   },
   "EXT-0727": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon"
   },
   "EXT-0728": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "15"
   },
   "EXT-0729": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "30"
   },
   "EXT-0730": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "25"
   },
   "EXT-0731": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "30"
   },
   "EXT-0732": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "20"
   },
   "EXT-0733": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "20"
   },
   "EXT-0734": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "25"
   },
   "EXT-0735": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "5"
   },
   "EXT-0736": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "15"
   },
   "EXT-0737": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "15"
   },
   "EXT-0738": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "10"
   },
   "EXT-0739": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "5"
   },
   "EXT-0740": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "5"
   },
   "EXT-0741": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "10"
   },
   "EXT-0742": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "5"
   },
   "EXT-0743": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "10"
   },
   "EXT-0744": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "10"
   },
   "EXT-0745": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "10"
   },
   "EXT-0746": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "10"
   },
   "EXT-0747": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "20"
   },
   "EXT-0748": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "10"
   },
   "EXT-0749": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "5"
   },
   "EXT-0750": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "20"
   },
   "EXT-0751": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "20"
   },
   "EXT-0752": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "30"
   },
   "EXT-0753": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "30"
   },
   "EXT-0754": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon"
   },
   "EXT-0755": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "20"
   },
   "EXT-0756": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "15"
   },
   "EXT-0757": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon"
   },
   "EXT-0758": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "10"
   },
   "EXT-0759": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "12"
   },
   "EXT-0760": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "12"
   },
   "EXT-0761": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "28"
   },
   "EXT-0762": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "10"
   },
   "EXT-0763": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "25"
   },
   "EXT-0764": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "13"
   },
   "EXT-0765": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "25"
   },
   "EXT-0766": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "20"
   },
   "EXT-0767": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "20"
   },
   "EXT-0768": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "20"
   },
   "EXT-0769": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "25"
   },
   "EXT-0770": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "20"
   },
   "EXT-0771": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "7"
   },
   "EXT-0772": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "25"
   },
   "EXT-0773": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "25"
   },
   "EXT-0774": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon"
   },
   "EXT-0775": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "40"
   },
   "EXT-0776": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "50"
   },
   "EXT-0777": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "40"
   },
   "EXT-0778": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "45"
   },
   "EXT-0779": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "45"
   },
   "EXT-0780": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "40"
   },
   "EXT-0781": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "45"
   },
   "EXT-0782": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "40"
   },
   "EXT-0783": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "45"
   },
   "EXT-0784": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "40"
   },
   "EXT-0785": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "50"
   },
   "EXT-0786": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "50"
   },
   "EXT-0787": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon"
   },
   "EXT-0788": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "5"
   },
   "EXT-0789": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "3"
   },
   "EXT-0790": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "55"
   },
   "EXT-0791": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "30"
   },
   "EXT-0792": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "35"
   },
   "EXT-0793": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "35"
   },
   "EXT-0794": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "40"
   },
   "EXT-0795": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "50"
   },
   "EXT-0796": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "35"
   },
   "EXT-0797": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "35"
   },
   "EXT-0798": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "35"
   },
   "EXT-0799": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "50"
   },
   "EXT-0800": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "55"
   },
   "EXT-0801": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "45"
   },
   "EXT-0802": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "65"
   },
   "EXT-0803": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "35"
   },
   "EXT-0804": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "15"
   },
   "EXT-0805": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon"
   },
   "EXT-0806": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "35"
   },
   "EXT-0807": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "50"
   },
   "EXT-0808": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "40"
   },
   "EXT-0809": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "45"
   },
   "EXT-0810": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "60"
   },
   "EXT-0811": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "30"
   },
   "EXT-0812": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "55"
   },
   "EXT-0813": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "30"
   },
   "EXT-0814": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "18"
   },
   "EXT-0815": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "32"
   },
   "EXT-0816": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "40"
   },
   "EXT-0817": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "23"
   },
   "EXT-0818": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "35"
   },
   "EXT-0819": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "27"
   },
   "EXT-0820": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "42"
   },
   "EXT-0821": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "35"
   },
   "EXT-0822": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "37"
   },
   "EXT-0823": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "40"
   },
   "EXT-0824": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "47"
   },
   "EXT-0825": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "27"
   },
   "EXT-0826": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "45"
   },
   "EXT-0827": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "25"
   },
   "EXT-0828": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "40"
   },
   "EXT-0829": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "30"
   },
   "EXT-0830": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "55"
   },
   "EXT-0831": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "23"
   },
   "EXT-0832": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "40"
   },
   "EXT-0833": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "60"
   },
   "EXT-0834": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "45"
   },
   "EXT-0835": {
     "category": "Nutrition",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "_at": "2026-08-11T19:33:22.740Z",
+    "author": "Jade Gordon",
+    "duration": "40"
   },
   "EXT-1269": {
     "category": "Financial Wellness",
