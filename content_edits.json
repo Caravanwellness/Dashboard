@@ -36936,9 +36936,10 @@
   },
   "HI-00001": {
     "type": "Video",
-    "_at": "2026-08-07T16:57:01.689Z",
+    "_at": "2026-08-11T20:08:51.120Z",
     "duration": "7 min",
-    "peer_reviewer": "Pallavi"
+    "peer_reviewer": "Pallavi Mohoni",
+    "teacher": "Pallavi Mohoni"
   },
   "ZH-00007": {
     "type": "Video",
@@ -37182,9 +37183,10 @@
   },
   "HI-00006": {
     "type": "Video",
-    "_at": "2026-08-07T16:57:01.689Z",
+    "_at": "2026-08-11T20:08:51.120Z",
     "duration": "5 min",
-    "peer_reviewer": "Pallavi"
+    "peer_reviewer": "Pallavi Mohoni",
+    "teacher": "Pallavi Mohoni"
   },
   "FR-00059": {
     "type": "Video",
@@ -37660,9 +37662,10 @@
   },
   "HI-00002": {
     "type": "Video",
-    "_at": "2026-08-07T16:57:01.689Z",
+    "_at": "2026-08-11T20:08:51.120Z",
     "duration": "6 min",
-    "peer_reviewer": "Pallavi"
+    "peer_reviewer": "Pallavi Mohoni",
+    "teacher": "Pallavi Mohoni"
   },
   "EXT-0428": {
     "type": "Video",
@@ -37724,9 +37727,10 @@
   },
   "HI-00005": {
     "type": "Video",
-    "_at": "2026-08-07T16:57:01.689Z",
+    "_at": "2026-08-11T20:08:51.120Z",
     "duration": "11 min",
-    "peer_reviewer": "Pallavi"
+    "peer_reviewer": "Pallavi Mohoni",
+    "teacher": "Pallavi Mohoni"
   },
   "FR-00008": {
     "type": "Video",
@@ -37743,9 +37747,10 @@
   },
   "HI-00004": {
     "type": "Video",
-    "_at": "2026-08-07T16:57:01.689Z",
+    "_at": "2026-08-11T20:08:51.120Z",
     "duration": "5 min",
-    "peer_reviewer": "Pallavi"
+    "peer_reviewer": "Pallavi Mohoni",
+    "teacher": "Pallavi Mohoni"
   },
   "ZH-00025": {
     "type": "Video",
@@ -38072,16 +38077,18 @@
   },
   "EXT-0498": {
     "type": "Video",
-    "_at": "2026-08-10T19:51:38.073Z",
-    "peer_reviewer": "Pallavi",
-    "category": "Breathwork"
+    "_at": "2026-08-11T20:08:51.120Z",
+    "peer_reviewer": "Pallavi Mohoni",
+    "category": "Breathwork",
+    "teacher": "Pallavi Mohoni"
   },
   "EXT-0499": {
     "type": "Video",
-    "_at": "2026-08-10T19:51:38.073Z",
+    "_at": "2026-08-11T20:08:51.120Z",
     "duration": "14 min",
-    "peer_reviewer": "Pallavi",
-    "category": "Yoga"
+    "peer_reviewer": "Pallavi Mohoni",
+    "category": "Yoga",
+    "teacher": "Pallavi Mohoni"
   },
   "PT-00003": {
     "type": "Video",
@@ -42534,22 +42541,22 @@
     "peer_reviewer": "Tzahi"
   },
   "EXT-1261": {
-    "teacher": "Pallavi",
-    "_at": "2026-08-07T16:57:01.689Z",
+    "teacher": "Pallavi Mohoni",
+    "_at": "2026-08-11T20:08:51.120Z",
     "duration": "5 min",
-    "peer_reviewer": "Pallavi"
+    "peer_reviewer": "Pallavi Mohoni"
   },
   "EXT-1262": {
-    "teacher": "Pallavi",
-    "_at": "2026-08-07T16:57:01.689Z",
+    "teacher": "Pallavi Mohoni",
+    "_at": "2026-08-11T20:08:51.120Z",
     "duration": "5 min",
-    "peer_reviewer": "Pallavi"
+    "peer_reviewer": "Pallavi Mohoni"
   },
   "EXT-1263": {
-    "teacher": "Pallavi",
-    "_at": "2026-08-07T16:57:01.689Z",
+    "teacher": "Pallavi Mohoni",
+    "_at": "2026-08-11T20:08:51.120Z",
     "duration": "5 min",
-    "peer_reviewer": "Pallavi"
+    "peer_reviewer": "Pallavi Mohoni"
   },
   "EXT-0039": {
     "author": "Emily Wilson",
@@ -46212,8 +46219,9 @@
     "teacher": "Dr. Joe Feuerstein"
   },
   "HI-00003": {
-    "peer_reviewer": "Pallavi",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Pallavi Mohoni",
+    "_at": "2026-08-11T20:08:51.120Z",
+    "teacher": "Pallavi Mohoni"
   },
   "DE-00053": {
     "peer_reviewer": "Isabel",
@@ -46408,8 +46416,9 @@
     "teacher": "Inaudy Gil"
   },
   "HI-00007": {
-    "peer_reviewer": "Pallavi",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Pallavi Mohoni",
+    "_at": "2026-08-11T20:08:51.120Z",
+    "teacher": "Pallavi Mohoni"
   },
   "EN-00094": {
     "peer_reviewer": "Victoria Davis",
@@ -46449,8 +46458,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "HI-00008": {
-    "peer_reviewer": "Pallavi",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Pallavi Mohoni",
+    "_at": "2026-08-11T20:08:51.120Z",
+    "teacher": "Pallavi Mohoni"
   },
   "EN-01455": {
     "peer_reviewer": "Nazirber",
@@ -46635,8 +46645,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "HI-00009": {
-    "peer_reviewer": "Pallavi",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Pallavi Mohoni",
+    "_at": "2026-08-11T20:08:51.120Z",
+    "teacher": "Pallavi Mohoni"
   },
   "PT-00044": {
     "peer_reviewer": "Mila Toribio",
@@ -47731,8 +47742,9 @@
     "teacher": "Dr. David Sanchez"
   },
   "HI-00010": {
-    "peer_reviewer": "Pallavi",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Pallavi Mohoni",
+    "_at": "2026-08-11T20:08:51.120Z",
+    "teacher": "Pallavi Mohoni"
   },
   "EN-01805": {
     "peer_reviewer": "Dr. Cherilyn Davis",
