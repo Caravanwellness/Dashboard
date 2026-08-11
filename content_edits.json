@@ -38653,9 +38653,10 @@
   },
   "YUE-00004": {
     "type": "Video",
-    "_at": "2026-08-07T16:57:01.689Z",
+    "_at": "2026-08-11T20:28:46.941Z",
     "duration": "5 min",
-    "peer_reviewer": "Mandy"
+    "peer_reviewer": "Mandy Lam",
+    "teacher": "Mandy Lam"
   },
   "AR-00004": {
     "type": "Video",
@@ -39165,9 +39166,10 @@
   },
   "YUE-00005": {
     "type": "Video",
-    "_at": "2026-08-07T16:57:01.689Z",
+    "_at": "2026-08-11T20:28:46.941Z",
     "duration": "4 min",
-    "peer_reviewer": "Mandy"
+    "peer_reviewer": "Mandy Lam",
+    "teacher": "Mandy Lam"
   },
   "EXT-0335": {
     "type": "Video",
@@ -39372,9 +39374,10 @@
   },
   "YUE-00001": {
     "type": "Video",
-    "_at": "2026-08-07T16:57:01.689Z",
+    "_at": "2026-08-11T20:28:46.941Z",
     "duration": "4 min",
-    "peer_reviewer": "Mandy"
+    "peer_reviewer": "Mandy Lam",
+    "teacher": "Mandy Lam"
   },
   "ES-00064": {
     "type": "Video",
@@ -48791,10 +48794,11 @@
     "author": "Katie"
   },
   "YUE-00002": {
-    "peer_reviewer": "Mandy",
-    "_at": "2026-08-11T20:17:14.145Z",
+    "peer_reviewer": "Mandy Lam",
+    "_at": "2026-08-11T20:28:46.941Z",
     "author": "Linda",
-    "duration": "5"
+    "duration": "5",
+    "teacher": "Mandy Lam"
   },
   "PL-00002": {
     "peer_reviewer": "Margo Gladys",
@@ -50527,8 +50531,9 @@
     "teacher": "Dr. Ricardo Fuentes"
   },
   "YUE-00003": {
-    "peer_reviewer": "Mandy",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Mandy Lam",
+    "_at": "2026-08-11T20:28:46.941Z",
+    "teacher": "Mandy Lam"
   },
   "EN-00162": {
     "peer_reviewer": "Briana Kurtz",
