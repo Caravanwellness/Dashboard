@@ -36396,10 +36396,11 @@
   },
   "EXT-0185": {
     "type": "Video",
-    "_at": "2026-08-10T19:51:38.073Z",
+    "_at": "2026-08-11T18:43:59.040Z",
     "duration": "3 min",
-    "peer_reviewer": "Mila",
-    "category": "Breathwork"
+    "peer_reviewer": "Mila Toribio",
+    "category": "Breathwork",
+    "teacher": "Mila Toribio"
   },
   "EXT-0186": {
     "type": "Video",
@@ -36600,8 +36601,9 @@
   },
   "PT-00063": {
     "type": "Video",
-    "_at": "2026-08-07T16:57:01.689Z",
-    "peer_reviewer": "Mila"
+    "_at": "2026-08-11T18:43:59.040Z",
+    "peer_reviewer": "Mila Toribio",
+    "teacher": "Mila Toribio"
   },
   "PT-00066": {
     "type": "Video",
@@ -37262,8 +37264,9 @@
   },
   "PT-00047": {
     "type": "Video",
-    "_at": "2026-08-07T16:57:01.689Z",
-    "peer_reviewer": "Mila"
+    "_at": "2026-08-11T18:43:59.040Z",
+    "peer_reviewer": "Mila Toribio",
+    "teacher": "Mila Toribio"
   },
   "NL-00018": {
     "type": "Video",
@@ -37790,9 +37793,10 @@
   },
   "EXT-0477": {
     "type": "Video",
-    "_at": "2026-08-10T19:51:38.073Z",
-    "peer_reviewer": "Mila",
-    "category": "Movement"
+    "_at": "2026-08-11T18:43:59.040Z",
+    "peer_reviewer": "Mila Toribio",
+    "category": "Movement",
+    "teacher": "Mila Toribio"
   },
   "EXT-0478": {
     "type": "Video",
@@ -37967,15 +37971,17 @@
   },
   "PT-00012": {
     "type": "Video",
-    "_at": "2026-08-10T19:51:38.073Z",
-    "peer_reviewer": "Mila",
-    "category": "Stretching"
+    "_at": "2026-08-11T18:43:59.040Z",
+    "peer_reviewer": "Mila Toribio",
+    "category": "Stretching",
+    "teacher": "Mila Toribio"
   },
   "EXT-0507": {
     "type": "Video",
-    "_at": "2026-08-10T19:51:38.073Z",
-    "peer_reviewer": "Mila",
-    "category": "Movement"
+    "_at": "2026-08-11T18:43:59.040Z",
+    "peer_reviewer": "Mila Toribio",
+    "category": "Movement",
+    "teacher": "Mila Toribio"
   },
   "EXT-0508": {
     "type": "Video",
@@ -38316,10 +38322,11 @@
   },
   "EXT-0567": {
     "type": "Video",
-    "_at": "2026-08-10T19:51:38.073Z",
+    "_at": "2026-08-11T18:43:59.040Z",
     "duration": "4 min",
-    "peer_reviewer": "Mila",
-    "category": "Yoga"
+    "peer_reviewer": "Mila Toribio",
+    "category": "Yoga",
+    "teacher": "Mila Toribio"
   },
   "EXT-0568": {
     "type": "Video",
@@ -39956,11 +39963,11 @@
   },
   "EXT-0954": {
     "type": "Article",
-    "_at": "2026-08-11T18:43:34.043Z",
+    "_at": "2026-08-11T18:37:10.946Z",
     "category": "Smoking Cessation",
     "author": "Emily Wilson",
     "notes": "Has financial disclaimer at the end instead of health disclaimer",
-    "peer_reviewer": "Marlee Alanis",
+    "peer_reviewer": "Marlee/Madeline",
     "duration": "5"
   },
   "EXT-0955": {
@@ -43280,20 +43287,24 @@
     "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1332": {
-    "peer_reviewer": "Mila",
-    "_at": "2026-08-07T16:57:01.689Z"
+    "peer_reviewer": "Mila Toribio",
+    "_at": "2026-08-11T18:43:59.040Z",
+    "teacher": "Mila Toribio"
   },
   "EXT-1333": {
-    "peer_reviewer": "Mila",
-    "_at": "2026-08-07T16:57:01.689Z"
+    "peer_reviewer": "Mila Toribio",
+    "_at": "2026-08-11T18:43:59.040Z",
+    "teacher": "Mila Toribio"
   },
   "EXT-1334": {
-    "peer_reviewer": "Mila",
-    "_at": "2026-08-07T16:57:01.689Z"
+    "peer_reviewer": "Mila Toribio",
+    "_at": "2026-08-11T18:43:59.040Z",
+    "teacher": "Mila Toribio"
   },
   "EXT-1335": {
-    "peer_reviewer": "Mila",
-    "_at": "2026-08-07T16:57:01.689Z"
+    "peer_reviewer": "Mila Toribio",
+    "_at": "2026-08-11T18:43:59.040Z",
+    "teacher": "Mila Toribio"
   },
   "EXT-1336": {
     "peer_reviewer": "Dr. Joe",
@@ -43716,8 +43727,9 @@
     "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1477": {
-    "peer_reviewer": "Mila",
-    "_at": "2026-08-07T16:57:01.689Z"
+    "peer_reviewer": "Mila Toribio",
+    "_at": "2026-08-11T18:43:59.040Z",
+    "teacher": "Mila Toribio"
   },
   "EXT-1478": {
     "peer_reviewer": "Dr. Joe",
@@ -44926,8 +44938,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "PT-00042": {
-    "peer_reviewer": "Mila",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Mila Toribio",
+    "_at": "2026-08-11T18:43:59.040Z",
+    "teacher": "Mila Toribio"
   },
   "EN-00173": {
     "peer_reviewer": "Anthony",
@@ -45074,8 +45087,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "PT-00011": {
-    "peer_reviewer": "Mila",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Mila Toribio",
+    "_at": "2026-08-11T18:43:59.040Z",
+    "teacher": "Mila Toribio"
   },
   "NL-00010": {
     "peer_reviewer": "Truike",
@@ -45100,8 +45114,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "PT-00083": {
-    "peer_reviewer": "Mila",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Mila Toribio",
+    "_at": "2026-08-11T18:43:59.040Z",
+    "teacher": "Mila Toribio"
   },
   "EN-01916": {
     "peer_reviewer": "Katie",
@@ -45132,8 +45147,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "PT-00016": {
-    "peer_reviewer": "Mila",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Mila Toribio",
+    "_at": "2026-08-11T18:43:59.040Z",
+    "teacher": "Mila Toribio"
   },
   "AR-00020": {
     "peer_reviewer": "Dr. Hassan",
@@ -45180,8 +45196,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "PT-00071": {
-    "peer_reviewer": "Mila",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Mila Toribio",
+    "_at": "2026-08-11T18:43:59.040Z",
+    "teacher": "Mila Toribio"
   },
   "EN-00128": {
     "peer_reviewer": "Liz",
@@ -45268,8 +45285,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "PT-00087": {
-    "peer_reviewer": "Mila",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Mila Toribio",
+    "_at": "2026-08-11T18:43:59.040Z",
+    "teacher": "Mila Toribio"
   },
   "EN-00799": {
     "peer_reviewer": "Dan'yelle",
@@ -45336,8 +45354,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "PT-00046": {
-    "peer_reviewer": "Mila",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Mila Toribio",
+    "_at": "2026-08-11T18:43:59.040Z",
+    "teacher": "Mila Toribio"
   },
   "IT-00007": {
     "peer_reviewer": "Ilaria",
@@ -45444,8 +45463,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "PT-00015": {
-    "peer_reviewer": "Mila",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Mila Toribio",
+    "_at": "2026-08-11T18:43:59.040Z",
+    "teacher": "Mila Toribio"
   },
   "EN-00058": {
     "peer_reviewer": "Yemie",
@@ -45550,8 +45570,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "PT-00078": {
-    "peer_reviewer": "Mila",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Mila Toribio",
+    "_at": "2026-08-11T18:43:59.040Z",
+    "teacher": "Mila Toribio"
   },
   "TH-00010": {
     "peer_reviewer": "Nathaorn",
@@ -45626,8 +45647,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "PT-00081": {
-    "peer_reviewer": "Mila",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Mila Toribio",
+    "_at": "2026-08-11T18:43:59.040Z",
+    "teacher": "Mila Toribio"
   },
   "EN-01941": {
     "peer_reviewer": "Sharisse",
@@ -45687,8 +45709,9 @@
   },
   "PT-00073": {
     "title": "Incorporating Exercise Snacks Into Your Day",
-    "_at": "2026-08-10T19:51:38.073Z",
-    "peer_reviewer": "Mila"
+    "_at": "2026-08-11T18:43:59.040Z",
+    "peer_reviewer": "Mila Toribio",
+    "teacher": "Mila Toribio"
   },
   "EN-01937": {
     "peer_reviewer": "Sharisse",
@@ -45744,8 +45767,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "PT-00074": {
-    "peer_reviewer": "Mila",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Mila Toribio",
+    "_at": "2026-08-11T18:43:59.040Z",
+    "teacher": "Mila Toribio"
   },
   "FR-00091": {
     "peer_reviewer": "Margaux",
@@ -45772,12 +45796,14 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "EN-01566": {
-    "peer_reviewer": "Mila",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Mila Toribio",
+    "_at": "2026-08-11T18:43:59.040Z",
+    "teacher": "Mila Toribio"
   },
   "PT-00062": {
-    "peer_reviewer": "Mila",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Mila Toribio",
+    "_at": "2026-08-11T18:43:59.040Z",
+    "teacher": "Mila Toribio"
   },
   "EN-00437": {
     "peer_reviewer": "Sabrih",
@@ -45808,20 +45834,23 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "PT-00044": {
-    "peer_reviewer": "Mila",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Mila Toribio",
+    "_at": "2026-08-11T18:43:59.040Z",
+    "teacher": "Mila Toribio"
   },
   "PT-00020": {
-    "peer_reviewer": "Mila",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Mila Toribio",
+    "_at": "2026-08-11T18:43:59.040Z",
+    "teacher": "Mila Toribio"
   },
   "ES-00169": {
     "peer_reviewer": "Victor",
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "PT-00082": {
-    "peer_reviewer": "Mila",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Mila Toribio",
+    "_at": "2026-08-11T18:43:59.040Z",
+    "teacher": "Mila Toribio"
   },
   "NL-00025": {
     "peer_reviewer": "Anna-Belle",
@@ -45892,8 +45921,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "PT-00079": {
-    "peer_reviewer": "Mila",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Mila Toribio",
+    "_at": "2026-08-11T18:43:59.040Z",
+    "teacher": "Mila Toribio"
   },
   "PT-00002": {
     "peer_reviewer": "Cris",
@@ -45932,8 +45962,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "PT-00085": {
-    "peer_reviewer": "Mila",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Mila Toribio",
+    "_at": "2026-08-11T18:43:59.040Z",
+    "teacher": "Mila Toribio"
   },
   "ES-00166": {
     "peer_reviewer": "Victor",
@@ -45944,8 +45975,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "PT-00084": {
-    "peer_reviewer": "Mila",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Mila Toribio",
+    "_at": "2026-08-11T18:43:59.040Z",
+    "teacher": "Mila Toribio"
   },
   "ES-00003": {
     "peer_reviewer": "Mary",
@@ -46028,8 +46060,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "PT-00019": {
-    "peer_reviewer": "Mila",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Mila Toribio",
+    "_at": "2026-08-11T18:43:59.040Z",
+    "teacher": "Mila Toribio"
   },
   "EN-01924": {
     "peer_reviewer": "Katie",
@@ -46224,8 +46257,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "PT-00077": {
-    "peer_reviewer": "Mila",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Mila Toribio",
+    "_at": "2026-08-11T18:43:59.040Z",
+    "teacher": "Mila Toribio"
   },
   "IT-00033": {
     "peer_reviewer": "Asia",
@@ -46256,8 +46290,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "PT-00013": {
-    "peer_reviewer": "Mila",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Mila Toribio",
+    "_at": "2026-08-11T18:43:59.040Z",
+    "teacher": "Mila Toribio"
   },
   "AR-00036": {
     "peer_reviewer": "Nada",
@@ -46320,8 +46355,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "PT-00018": {
-    "peer_reviewer": "Mila",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Mila Toribio",
+    "_at": "2026-08-11T18:43:59.040Z",
+    "teacher": "Mila Toribio"
   },
   "ES-00063": {
     "peer_reviewer": "Eneida",
@@ -46332,8 +46368,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "PT-00043": {
-    "peer_reviewer": "Mila",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Mila Toribio",
+    "_at": "2026-08-11T18:43:59.040Z",
+    "teacher": "Mila Toribio"
   },
   "EN-01860": {
     "peer_reviewer": "Dr Joe",
@@ -46352,16 +46389,18 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "PT-00014": {
-    "peer_reviewer": "Mila",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Mila Toribio",
+    "_at": "2026-08-11T18:43:59.040Z",
+    "teacher": "Mila Toribio"
   },
   "EN-01757": {
     "peer_reviewer": "David",
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "PT-00075": {
-    "peer_reviewer": "Mila",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Mila Toribio",
+    "_at": "2026-08-11T18:43:59.040Z",
+    "teacher": "Mila Toribio"
   },
   "NL-00016": {
     "peer_reviewer": "Truike",
@@ -46507,8 +46546,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "PT-00049": {
-    "peer_reviewer": "Mila",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Mila Toribio",
+    "_at": "2026-08-11T18:43:59.040Z",
+    "teacher": "Mila Toribio"
   },
   "AR-00012": {
     "peer_reviewer": "Dr. Hassan",
@@ -46535,8 +46575,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "EN-01572": {
-    "peer_reviewer": "Mila",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Mila Toribio",
+    "_at": "2026-08-11T18:43:59.040Z",
+    "teacher": "Mila Toribio"
   },
   "EN-01832": {
     "peer_reviewer": "Jessica",
@@ -46575,8 +46616,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "PT-00080": {
-    "peer_reviewer": "Mila",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Mila Toribio",
+    "_at": "2026-08-11T18:43:59.040Z",
+    "teacher": "Mila Toribio"
   },
   "ES-00052": {
     "peer_reviewer": "Tony",
@@ -46627,8 +46669,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "PT-00059": {
-    "peer_reviewer": "Mila",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Mila Toribio",
+    "_at": "2026-08-11T18:43:59.040Z",
+    "teacher": "Mila Toribio"
   },
   "PT-00025": {
     "peer_reviewer": "Cris",
@@ -46643,8 +46686,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "PT-00050": {
-    "peer_reviewer": "Mila",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Mila Toribio",
+    "_at": "2026-08-11T18:43:59.040Z",
+    "teacher": "Mila Toribio"
   },
   "FR-00010": {
     "peer_reviewer": "Cedric",
@@ -46955,12 +46999,14 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "PT-00076": {
-    "peer_reviewer": "Mila",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Mila Toribio",
+    "_at": "2026-08-11T18:43:59.040Z",
+    "teacher": "Mila Toribio"
   },
   "PT-00045": {
-    "peer_reviewer": "Mila",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Mila Toribio",
+    "_at": "2026-08-11T18:43:59.040Z",
+    "teacher": "Mila Toribio"
   },
   "ES-00182": {
     "peer_reviewer": "David",
@@ -47079,12 +47125,14 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "PT-00060": {
-    "peer_reviewer": "Mila",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Mila Toribio",
+    "_at": "2026-08-11T18:43:59.040Z",
+    "teacher": "Mila Toribio"
   },
   "PT-00048": {
-    "peer_reviewer": "Mila",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Mila Toribio",
+    "_at": "2026-08-11T18:43:59.040Z",
+    "teacher": "Mila Toribio"
   },
   "ES-00017": {
     "peer_reviewer": "Oscar",
@@ -47115,8 +47163,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "PT-00017": {
-    "peer_reviewer": "Mila",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Mila Toribio",
+    "_at": "2026-08-11T18:43:59.040Z",
+    "teacher": "Mila Toribio"
   },
   "AR-00064": {
     "peer_reviewer": "Teriz",
@@ -47151,8 +47200,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "PT-00041": {
-    "peer_reviewer": "Mila",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Mila Toribio",
+    "_at": "2026-08-11T18:43:59.040Z",
+    "teacher": "Mila Toribio"
   },
   "AR-00044": {
     "peer_reviewer": "Nada",
@@ -47343,8 +47393,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "PT-00086": {
-    "peer_reviewer": "Mila",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Mila Toribio",
+    "_at": "2026-08-11T18:43:59.040Z",
+    "teacher": "Mila Toribio"
   },
   "NL-00015": {
     "peer_reviewer": "Truike",
@@ -47439,8 +47490,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "EN-01565": {
-    "peer_reviewer": "Mila",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Mila Toribio",
+    "_at": "2026-08-11T18:43:59.040Z",
+    "teacher": "Mila Toribio"
   },
   "EN-01849": {
     "peer_reviewer": "Katie",
@@ -47723,8 +47775,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "PT-00061": {
-    "peer_reviewer": "Mila",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Mila Toribio",
+    "_at": "2026-08-11T18:43:59.040Z",
+    "teacher": "Mila Toribio"
   },
   "ES-00129": {
     "peer_reviewer": "Ana",
@@ -47751,8 +47804,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "PT-00072": {
-    "peer_reviewer": "Mila",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Mila Toribio",
+    "_at": "2026-08-11T18:43:59.040Z",
+    "teacher": "Mila Toribio"
   },
   "EN-01882": {
     "peer_reviewer": "Crystal",
