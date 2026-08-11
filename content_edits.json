@@ -37596,8 +37596,9 @@
   },
   "FR-00050": {
     "type": "Video",
-    "_at": "2026-08-07T16:57:01.689Z",
-    "peer_reviewer": "Manon"
+    "_at": "2026-08-11T18:54:23.621Z",
+    "peer_reviewer": "Manon Hallay",
+    "teacher": "Manon Hallay"
   },
   "HI-00005": {
     "type": "Video",
@@ -37748,17 +37749,15 @@
   },
   "EXT-0470": {
     "type": "Video",
-    "_at": "2026-08-11T18:53:46.270Z",
-    "peer_reviewer": "Maga Villarreal",
-    "category": "Meditation",
-    "teacher": "Maga Villarreal"
+    "_at": "2026-08-10T19:51:38.073Z",
+    "peer_reviewer": "Maga",
+    "category": "Meditation"
   },
   "EXT-0471": {
     "type": "Video",
-    "_at": "2026-08-11T18:53:46.270Z",
-    "peer_reviewer": "Maga Villarreal",
-    "category": "Meditation & Sleep",
-    "teacher": "Maga Villarreal"
+    "_at": "2026-08-10T19:51:38.073Z",
+    "peer_reviewer": "Maga",
+    "category": "Meditation & Sleep"
   },
   "EXT-0472": {
     "type": "Video",
@@ -37835,9 +37834,10 @@
   },
   "FR-00037": {
     "type": "Video",
-    "_at": "2026-08-10T19:51:38.073Z",
-    "peer_reviewer": "Manon",
-    "category": "Strength Training"
+    "_at": "2026-08-11T18:54:23.621Z",
+    "peer_reviewer": "Manon Hallay",
+    "category": "Strength Training",
+    "teacher": "Manon Hallay"
   },
   "EXT-0485": {
     "type": "Video",
@@ -38054,33 +38054,38 @@
   },
   "EXT-0520": {
     "type": "Video",
-    "_at": "2026-08-10T19:51:38.073Z",
-    "peer_reviewer": "Manon",
-    "category": "Strength Training"
+    "_at": "2026-08-11T18:54:23.621Z",
+    "peer_reviewer": "Manon Hallay",
+    "category": "Strength Training",
+    "teacher": "Manon Hallay"
   },
   "EXT-0521": {
     "type": "Video",
-    "_at": "2026-08-10T19:51:38.073Z",
-    "peer_reviewer": "Manon",
-    "category": "Strength Training"
+    "_at": "2026-08-11T18:54:23.621Z",
+    "peer_reviewer": "Manon Hallay",
+    "category": "Strength Training",
+    "teacher": "Manon Hallay"
   },
   "EXT-0522": {
     "type": "Video",
-    "_at": "2026-08-10T19:51:38.073Z",
-    "peer_reviewer": "Manon",
-    "category": "Strength Training"
+    "_at": "2026-08-11T18:54:23.621Z",
+    "peer_reviewer": "Manon Hallay",
+    "category": "Strength Training",
+    "teacher": "Manon Hallay"
   },
   "EXT-0523": {
     "type": "Video",
-    "_at": "2026-08-10T19:51:38.073Z",
-    "peer_reviewer": "Manon",
-    "category": "Strength Training"
+    "_at": "2026-08-11T18:54:23.621Z",
+    "peer_reviewer": "Manon Hallay",
+    "category": "Strength Training",
+    "teacher": "Manon Hallay"
   },
   "EXT-0524": {
     "type": "Video",
-    "_at": "2026-08-10T19:51:38.073Z",
-    "peer_reviewer": "Manon",
-    "category": "Strength Training"
+    "_at": "2026-08-11T18:54:23.621Z",
+    "peer_reviewer": "Manon Hallay",
+    "category": "Strength Training",
+    "teacher": "Manon Hallay"
   },
   "FR-00038": {
     "type": "Video",
@@ -44997,8 +45002,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "FR-00035": {
-    "peer_reviewer": "Manon",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Manon Hallay",
+    "_at": "2026-08-11T18:54:23.621Z",
+    "teacher": "Manon Hallay"
   },
   "EN-01807": {
     "peer_reviewer": "Cherilyn",
@@ -45121,8 +45127,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "FR-00052": {
-    "peer_reviewer": "Manon",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Manon Hallay",
+    "_at": "2026-08-11T18:54:23.621Z",
+    "teacher": "Manon Hallay"
   },
   "EN-01946": {
     "peer_reviewer": "Julika",
@@ -45174,16 +45181,18 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "FR-00053": {
-    "peer_reviewer": "Manon",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Manon Hallay",
+    "_at": "2026-08-11T18:54:23.621Z",
+    "teacher": "Manon Hallay"
   },
   "DE-00049": {
     "peer_reviewer": "Isabel",
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "FR-00036": {
-    "peer_reviewer": "Manon",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Manon Hallay",
+    "_at": "2026-08-11T18:54:23.621Z",
+    "teacher": "Manon Hallay"
   },
   "PT-00071": {
     "peer_reviewer": "Mila",
@@ -45335,8 +45344,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "FR-00048": {
-    "peer_reviewer": "Manon",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Manon Hallay",
+    "_at": "2026-08-11T18:54:23.621Z",
+    "teacher": "Manon Hallay"
   },
   "EN-01817": {
     "peer_reviewer": "Cherilyn",
@@ -45425,8 +45435,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "FR-00055": {
-    "peer_reviewer": "Manon",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Manon Hallay",
+    "_at": "2026-08-11T18:54:23.621Z",
+    "teacher": "Manon Hallay"
   },
   "EN-00310": {
     "peer_reviewer": "Sandy",
@@ -45461,8 +45472,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "FR-00033": {
-    "peer_reviewer": "Manon",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Manon Hallay",
+    "_at": "2026-08-11T18:54:23.621Z",
+    "teacher": "Manon Hallay"
   },
   "ES-00113": {
     "peer_reviewer": "Dr. Raymondi",
@@ -45846,8 +45858,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "FR-00051": {
-    "peer_reviewer": "Manon",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Manon Hallay",
+    "_at": "2026-08-11T18:54:23.621Z",
+    "teacher": "Manon Hallay"
   },
   "EN-00024": {
     "peer_reviewer": "Zach",
@@ -45898,12 +45911,14 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "FR-00054": {
-    "peer_reviewer": "Manon",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Manon Hallay",
+    "_at": "2026-08-11T18:54:23.621Z",
+    "teacher": "Manon Hallay"
   },
   "FR-00014": {
-    "peer_reviewer": "Manon",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Manon Hallay",
+    "_at": "2026-08-11T18:54:23.621Z",
+    "teacher": "Manon Hallay"
   },
   "PT-00079": {
     "peer_reviewer": "Mila",
@@ -46033,8 +46048,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "FR-00031": {
-    "peer_reviewer": "Manon",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Manon Hallay",
+    "_at": "2026-08-11T18:54:23.621Z",
+    "teacher": "Manon Hallay"
   },
   "EN-01747": {
     "peer_reviewer": "Nicole",
@@ -46255,8 +46271,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "FR-00016": {
-    "peer_reviewer": "Manon",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Manon Hallay",
+    "_at": "2026-08-11T18:54:23.621Z",
+    "teacher": "Manon Hallay"
   },
   "ES-00028": {
     "peer_reviewer": "Nicole",
@@ -46731,8 +46748,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "FR-00034": {
-    "peer_reviewer": "Manon",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Manon Hallay",
+    "_at": "2026-08-11T18:54:23.621Z",
+    "teacher": "Manon Hallay"
   },
   "NL-00008": {
     "peer_reviewer": "Truike",
@@ -46791,8 +46809,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "FR-00015": {
-    "peer_reviewer": "Manon",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Manon Hallay",
+    "_at": "2026-08-11T18:54:23.621Z",
+    "teacher": "Manon Hallay"
   },
   "AR-00047": {
     "peer_reviewer": "Nada",
@@ -46803,8 +46822,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "FR-00032": {
-    "peer_reviewer": "Manon",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Manon Hallay",
+    "_at": "2026-08-11T18:54:23.621Z",
+    "teacher": "Manon Hallay"
   },
   "IT-00030": {
     "peer_reviewer": "Asia",
@@ -46982,8 +47002,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "FR-00013": {
-    "peer_reviewer": "Manon",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Manon Hallay",
+    "_at": "2026-08-11T18:54:23.621Z",
+    "teacher": "Manon Hallay"
   },
   "ES-00133": {
     "peer_reviewer": "Ricardo",
@@ -47460,8 +47481,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "FR-00049": {
-    "peer_reviewer": "Manon",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Manon Hallay",
+    "_at": "2026-08-11T18:54:23.621Z",
+    "teacher": "Manon Hallay"
   },
   "EN-01929": {
     "peer_reviewer": "Katie Attubato",
