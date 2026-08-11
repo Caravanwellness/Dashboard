@@ -37736,10 +37736,9 @@
   },
   "EXT-0468": {
     "type": "Video",
-    "_at": "2026-08-11T18:49:26.607Z",
-    "peer_reviewer": "Diana Rilov",
-    "category": "Meditation & Sleep",
-    "teacher": "Diana Rilov"
+    "_at": "2026-08-10T19:51:38.073Z",
+    "peer_reviewer": "Diana",
+    "category": "Meditation & Sleep"
   },
   "EXT-0469": {
     "type": "Video",
@@ -37884,11 +37883,10 @@
   },
   "EXT-0493": {
     "type": "Video",
-    "_at": "2026-08-11T18:49:26.607Z",
+    "_at": "2026-08-10T19:51:38.073Z",
     "duration": "8 min",
-    "peer_reviewer": "Diana Rilov",
-    "category": "Yoga",
-    "teacher": "Diana Rilov"
+    "peer_reviewer": "Diana",
+    "category": "Yoga"
   },
   "FR-00019": {
     "type": "Video",
@@ -45314,8 +45312,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "EN-00260": {
-    "peer_reviewer": "Briana",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Briana Kurtz",
+    "_at": "2026-08-11T18:49:35.505Z",
+    "teacher": "Briana Kurtz"
   },
   "ES-00053": {
     "peer_reviewer": "Tony",
@@ -46310,8 +46309,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "EN-00162": {
-    "peer_reviewer": "Briana",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Briana Kurtz",
+    "_at": "2026-08-11T18:49:35.505Z",
+    "teacher": "Briana Kurtz"
   },
   "ES-00034": {
     "peer_reviewer": "Laura",
@@ -46546,8 +46546,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "EN-00211": {
-    "peer_reviewer": "Briana",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Briana Kurtz",
+    "_at": "2026-08-11T18:49:35.505Z",
+    "teacher": "Briana Kurtz"
   },
   "EN-01733": {
     "peer_reviewer": "Sadiya",
