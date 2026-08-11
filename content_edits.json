@@ -45218,9 +45218,10 @@
     "teacher": "Kanwal Haq"
   },
   "EXT-1180": {
-    "peer_reviewer": "Carol",
-    "_at": "2026-08-10T19:51:38.073Z",
-    "category": "Menstrual Cycle & Hormonal Health"
+    "peer_reviewer": "Carol Hilaire",
+    "_at": "2026-08-11T20:33:14.110Z",
+    "category": "Menstrual Cycle & Hormonal Health",
+    "teacher": "Carol Hilaire"
   },
   "EXT-1181": {
     "peer_reviewer": "Sadiya",
@@ -49863,10 +49864,11 @@
     "teacher": "Margo Gladys"
   },
   "EN-01123": {
-    "peer_reviewer": "Carol",
-    "_at": "2026-08-11T20:17:14.145Z",
+    "peer_reviewer": "Carol Hilaire",
+    "_at": "2026-08-11T20:33:14.110Z",
     "language": "English",
-    "author": "Carol"
+    "author": "Carol",
+    "teacher": "Carol Hilaire"
   },
   "FR-00093": {
     "peer_reviewer": "Nathalie Monin Voelker",
@@ -51854,8 +51856,9 @@
   },
   "EN-00586": {
     "category": "Personality Clip",
-    "_at": "2026-08-10T19:51:38.073Z",
-    "peer_reviewer": "Carol"
+    "_at": "2026-08-11T20:33:14.110Z",
+    "peer_reviewer": "Carol Hilaire",
+    "teacher": "Carol Hilaire"
   },
   "EN-00644": {
     "peer_reviewer": "Ana Gaston",
