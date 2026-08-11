@@ -38273,16 +38273,18 @@
   },
   "EXT-0183": {
     "type": "Video",
-    "_at": "2026-08-10T19:51:38.073Z",
+    "_at": "2026-08-11T20:58:08.331Z",
     "duration": "4 min",
-    "peer_reviewer": "Laura",
-    "category": "Relationships"
+    "peer_reviewer": "Dr. Laura Goorin",
+    "category": "Relationships",
+    "teacher": "Dr. Laura Goorin"
   },
   "EXT-0184": {
     "type": "Video",
-    "_at": "2026-08-10T19:51:38.073Z",
-    "peer_reviewer": "Laura",
-    "category": "Emotional Wellness"
+    "_at": "2026-08-11T20:58:08.331Z",
+    "peer_reviewer": "Dr. Laura Goorin",
+    "category": "Emotional Wellness",
+    "teacher": "Dr. Laura Goorin"
   },
   "EXT-0185": {
     "type": "Video",
@@ -39979,9 +39981,10 @@
   },
   "EXT-0485": {
     "type": "Video",
-    "_at": "2026-08-10T19:51:38.073Z",
-    "peer_reviewer": "Laura",
-    "category": "Nutrition"
+    "_at": "2026-08-11T20:58:08.331Z",
+    "peer_reviewer": "Dr. Laura Goorin",
+    "category": "Nutrition",
+    "teacher": "Dr. Laura Goorin"
   },
   "EXT-0486": {
     "type": "Video",
@@ -49361,8 +49364,9 @@
     "duration": "5"
   },
   "ES-00033": {
-    "peer_reviewer": "Laura",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Dr. Laura Goorin",
+    "_at": "2026-08-11T20:58:08.331Z",
+    "teacher": "Dr. Laura Goorin"
   },
   "PT-00040": {
     "peer_reviewer": "Cris Di Dario",
@@ -50108,8 +50112,9 @@
     "teacher": "Jon Anthony (Tony) Meyer"
   },
   "ES-00031": {
-    "peer_reviewer": "Laura",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Dr. Laura Goorin",
+    "_at": "2026-08-11T20:58:08.331Z",
+    "teacher": "Dr. Laura Goorin"
   },
   "FR-00090": {
     "peer_reviewer": "Margaux de Noiron",
@@ -50493,8 +50498,9 @@
     "teacher": "Anna-Belle Buyse"
   },
   "ES-00032": {
-    "peer_reviewer": "Laura",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Dr. Laura Goorin",
+    "_at": "2026-08-11T20:58:08.331Z",
+    "teacher": "Dr. Laura Goorin"
   },
   "ES-00157": {
     "peer_reviewer": "Victor Pereira Sanchez",
@@ -50727,8 +50733,9 @@
     "language": "English"
   },
   "ES-00034": {
-    "peer_reviewer": "Laura",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Dr. Laura Goorin",
+    "_at": "2026-08-11T20:58:08.331Z",
+    "teacher": "Dr. Laura Goorin"
   },
   "ES-00172": {
     "peer_reviewer": "Victor Pereira Sanchez",
@@ -51018,8 +51025,9 @@
     "duration": "2"
   },
   "ES-00030": {
-    "peer_reviewer": "Laura",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Dr. Laura Goorin",
+    "_at": "2026-08-11T20:58:08.331Z",
+    "teacher": "Dr. Laura Goorin"
   },
   "ES-00171": {
     "peer_reviewer": "Victor Pereira Sanchez",
