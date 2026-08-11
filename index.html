@@ -1105,10 +1105,14 @@ async function renameCreator(oldName, newName) {
     delete _editSaveTimers[key];
   });
 
-  // Move bio data to new name in memory
+  // Move bio data to new name in memory. Only copy non-empty fields — an oldName
+  // field that's blank (e.g. credentials nobody ever set for that alias) must not
+  // clobber a real value already saved on newName.
   if (bios[oldName]) {
     if (!bios[newName]) bios[newName] = {};
-    Object.assign(bios[newName], bios[oldName]);
+    for (const [k, v] of Object.entries(bios[oldName])) {
+      if (v) bios[newName][k] = v;
+    }
     delete bios[oldName];
   }
 
