@@ -36731,8 +36731,9 @@
   },
   "AR-00004": {
     "type": "Video",
-    "_at": "2026-08-07T16:57:01.689Z",
-    "peer_reviewer": "Dr. Hassan"
+    "_at": "2026-08-11T18:51:46.676Z",
+    "peer_reviewer": "Dr. Hassan Nagy",
+    "teacher": "Dr. Hassan Nagy"
   },
   "ES-00149": {
     "type": "Video",
@@ -36803,9 +36804,8 @@
   },
   "AR-00056": {
     "type": "Video",
-    "_at": "2026-08-11T18:51:32.538Z",
-    "peer_reviewer": "Sandy Lin",
-    "teacher": "Sandy Lin"
+    "_at": "2026-08-07T16:57:01.689Z",
+    "peer_reviewer": "Sandy"
   },
   "ES-00120": {
     "type": "Video",
@@ -37563,9 +37563,10 @@
   },
   "AR-00003": {
     "type": "Video",
-    "_at": "2026-08-07T16:57:01.689Z",
+    "_at": "2026-08-11T18:51:46.676Z",
     "duration": "5 min",
-    "peer_reviewer": "Dr. Hassan"
+    "peer_reviewer": "Dr. Hassan Nagy",
+    "teacher": "Dr. Hassan Nagy"
   },
   "ES-00066": {
     "type": "Video",
@@ -37579,9 +37580,10 @@
   },
   "EXT-0433": {
     "type": "Video",
-    "_at": "2026-08-07T16:57:01.689Z",
+    "_at": "2026-08-11T18:51:46.676Z",
     "duration": "5 min",
-    "peer_reviewer": "Dr. Hassan"
+    "peer_reviewer": "Dr. Hassan Nagy",
+    "teacher": "Dr. Hassan Nagy"
   },
   "ES-00111": {
     "type": "Video",
@@ -38143,37 +38145,42 @@
   },
   "EXT-0535": {
     "type": "Video",
-    "_at": "2026-08-10T19:51:38.073Z",
+    "_at": "2026-08-11T18:51:46.676Z",
     "duration": "5 min",
-    "peer_reviewer": "Dr. Hassan",
-    "category": "Anxiety & Depression"
+    "peer_reviewer": "Dr. Hassan Nagy",
+    "category": "Anxiety & Depression",
+    "teacher": "Dr. Hassan Nagy"
   },
   "AR-00002": {
     "type": "Video",
-    "_at": "2026-08-10T19:51:38.073Z",
+    "_at": "2026-08-11T18:51:46.676Z",
     "duration": "4 min",
-    "peer_reviewer": "Dr. Hassan",
-    "category": "Mental Health"
+    "peer_reviewer": "Dr. Hassan Nagy",
+    "category": "Mental Health",
+    "teacher": "Dr. Hassan Nagy"
   },
   "EXT-0537": {
     "type": "Video",
-    "_at": "2026-08-10T19:51:38.073Z",
+    "_at": "2026-08-11T18:51:46.676Z",
     "duration": "4 min",
-    "peer_reviewer": "Dr. Hassan",
-    "category": "Women's Health"
+    "peer_reviewer": "Dr. Hassan Nagy",
+    "category": "Women's Health",
+    "teacher": "Dr. Hassan Nagy"
   },
   "EXT-0538": {
     "type": "Video",
-    "_at": "2026-08-10T19:51:38.073Z",
+    "_at": "2026-08-11T18:51:46.676Z",
     "duration": "7 min",
-    "peer_reviewer": "Dr. Hassan",
-    "category": "Women's Health"
+    "peer_reviewer": "Dr. Hassan Nagy",
+    "category": "Women's Health",
+    "teacher": "Dr. Hassan Nagy"
   },
   "EXT-0539": {
     "type": "Video",
-    "_at": "2026-08-10T19:51:38.073Z",
-    "peer_reviewer": "Dr. Hassan",
-    "category": "Weight Management"
+    "_at": "2026-08-11T18:51:46.676Z",
+    "peer_reviewer": "Dr. Hassan Nagy",
+    "category": "Weight Management",
+    "teacher": "Dr. Hassan Nagy"
   },
   "NL-00026": {
     "type": "Video",
@@ -38242,17 +38249,15 @@
   },
   "AR-00058": {
     "type": "Video",
-    "_at": "2026-08-11T18:51:32.538Z",
-    "peer_reviewer": "Sandy Lin",
-    "category": "Weight Management",
-    "teacher": "Sandy Lin"
+    "_at": "2026-08-10T19:51:38.073Z",
+    "peer_reviewer": "Sandy",
+    "category": "Weight Management"
   },
   "AR-00055": {
     "type": "Video",
-    "_at": "2026-08-11T18:51:32.538Z",
-    "peer_reviewer": "Sandy Lin",
-    "category": "Nutrition / Mental Health",
-    "teacher": "Sandy Lin"
+    "_at": "2026-08-10T19:51:38.073Z",
+    "peer_reviewer": "Sandy",
+    "category": "Nutrition / Mental Health"
   },
   "EXT-0553": {
     "type": "Video",
@@ -43223,8 +43228,9 @@
     "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1317": {
-    "peer_reviewer": "Dr. Hassan",
-    "_at": "2026-08-07T16:57:01.689Z"
+    "peer_reviewer": "Dr. Hassan Nagy",
+    "_at": "2026-08-11T18:51:46.676Z",
+    "teacher": "Dr. Hassan Nagy"
   },
   "EXT-1318": {
     "peer_reviewer": "Cherilyn",
@@ -43539,9 +43545,8 @@
     "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1396": {
-    "peer_reviewer": "Sandy Lin",
-    "_at": "2026-08-11T18:51:32.538Z",
-    "teacher": "Sandy Lin"
+    "peer_reviewer": "Sandy",
+    "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1397": {
     "peer_reviewer": "Joe",
@@ -43576,9 +43581,8 @@
     "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1405": {
-    "peer_reviewer": "Sandy Lin",
-    "_at": "2026-08-11T18:51:32.538Z",
-    "teacher": "Sandy Lin"
+    "peer_reviewer": "Sandy",
+    "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1406": {
     "peer_reviewer": "Dr. Joe",
@@ -45144,8 +45148,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "AR-00020": {
-    "peer_reviewer": "Dr. Hassan",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Dr. Hassan Nagy",
+    "_at": "2026-08-11T18:51:46.676Z",
+    "teacher": "Dr. Hassan Nagy"
   },
   "NL-00021": {
     "peer_reviewer": "Anna-Belle",
@@ -45161,8 +45166,9 @@
     "teacher": "Katie Attubato"
   },
   "AR-00011": {
-    "peer_reviewer": "Dr. Hassan",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Dr. Hassan Nagy",
+    "_at": "2026-08-11T18:51:46.676Z",
+    "teacher": "Dr. Hassan Nagy"
   },
   "FR-00076": {
     "peer_reviewer": "Margaux",
@@ -45412,16 +45418,18 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "AR-00023": {
-    "peer_reviewer": "Dr. Hassan",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Dr. Hassan Nagy",
+    "_at": "2026-08-11T18:51:46.676Z",
+    "teacher": "Dr. Hassan Nagy"
   },
   "ES-00155": {
     "peer_reviewer": "Victor",
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "AR-00029": {
-    "peer_reviewer": "Dr. Hassan",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Dr. Hassan Nagy",
+    "_at": "2026-08-11T18:51:46.676Z",
+    "teacher": "Dr. Hassan Nagy"
   },
   "FR-00071": {
     "peer_reviewer": "Hafsa",
@@ -45432,9 +45440,8 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "EN-00310": {
-    "peer_reviewer": "Sandy Lin",
-    "_at": "2026-08-11T18:51:32.538Z",
-    "teacher": "Sandy Lin"
+    "peer_reviewer": "Sandy",
+    "_at": "2026-08-10T19:51:38.073Z"
   },
   "EN-00439": {
     "peer_reviewer": "Sabrih",
@@ -45544,8 +45551,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "AR-00017": {
-    "peer_reviewer": "Dr. Hassan",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Dr. Hassan Nagy",
+    "_at": "2026-08-11T18:51:46.676Z",
+    "teacher": "Dr. Hassan Nagy"
   },
   "DE-00051": {
     "peer_reviewer": "Isabel",
@@ -45750,8 +45758,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "AR-00027": {
-    "peer_reviewer": "Dr. Hassan",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Dr. Hassan Nagy",
+    "_at": "2026-08-11T18:51:46.676Z",
+    "teacher": "Dr. Hassan Nagy"
   },
   "EN-01899": {
     "peer_reviewer": "Shaimaine",
@@ -45930,12 +45939,14 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "AR-00001": {
-    "peer_reviewer": "Dr. Hassan",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Dr. Hassan Nagy",
+    "_at": "2026-08-11T18:51:46.676Z",
+    "teacher": "Dr. Hassan Nagy"
   },
   "AR-00005": {
-    "peer_reviewer": "Dr. Hassan",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Dr. Hassan Nagy",
+    "_at": "2026-08-11T18:51:46.676Z",
+    "teacher": "Dr. Hassan Nagy"
   },
   "EN-01867": {
     "peer_reviewer": "Dr Joe",
@@ -45975,8 +45986,9 @@
     "teacher": "Katie Attubato"
   },
   "AR-00024": {
-    "peer_reviewer": "Dr. Hassan",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Dr. Hassan Nagy",
+    "_at": "2026-08-11T18:51:46.676Z",
+    "teacher": "Dr. Hassan Nagy"
   },
   "FR-00072": {
     "peer_reviewer": "Hafsa",
@@ -46114,8 +46126,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "AR-00026": {
-    "peer_reviewer": "Dr. Hassan",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Dr. Hassan Nagy",
+    "_at": "2026-08-11T18:51:46.676Z",
+    "teacher": "Dr. Hassan Nagy"
   },
   "ES-00010": {
     "peer_reviewer": "Dublin",
@@ -46126,8 +46139,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "AR-00025": {
-    "peer_reviewer": "Dr. Hassan",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Dr. Hassan Nagy",
+    "_at": "2026-08-11T18:51:46.676Z",
+    "teacher": "Dr. Hassan Nagy"
   },
   "FR-00073": {
     "peer_reviewer": "Hafsa",
@@ -46138,8 +46152,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "AR-00007": {
-    "peer_reviewer": "Dr. Hassan",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Dr. Hassan Nagy",
+    "_at": "2026-08-11T18:51:46.676Z",
+    "teacher": "Dr. Hassan Nagy"
   },
   "NL-00007": {
     "peer_reviewer": "Truike",
@@ -46255,8 +46270,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "AR-00016": {
-    "peer_reviewer": "Dr. Hassan",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Dr. Hassan Nagy",
+    "_at": "2026-08-11T18:51:46.676Z",
+    "teacher": "Dr. Hassan Nagy"
   },
   "FR-00016": {
     "peer_reviewer": "Manon",
@@ -46473,8 +46489,9 @@
     "teacher": "Katie Attubato"
   },
   "AR-00030": {
-    "peer_reviewer": "Dr. Hassan",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Dr. Hassan Nagy",
+    "_at": "2026-08-11T18:51:46.676Z",
+    "teacher": "Dr. Hassan Nagy"
   },
   "DE-00019": {
     "peer_reviewer": "Julika",
@@ -46542,8 +46559,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "AR-00012": {
-    "peer_reviewer": "Dr. Hassan",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Dr. Hassan Nagy",
+    "_at": "2026-08-11T18:51:46.676Z",
+    "teacher": "Dr. Hassan Nagy"
   },
   "EN-00136": {
     "peer_reviewer": "Alex",
@@ -46558,8 +46576,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "AR-00018": {
-    "peer_reviewer": "Dr. Hassan",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Dr. Hassan Nagy",
+    "_at": "2026-08-11T18:51:46.676Z",
+    "teacher": "Dr. Hassan Nagy"
   },
   "ES-00104": {
     "peer_reviewer": "Ana",
@@ -46731,8 +46750,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "AR-00008": {
-    "peer_reviewer": "Dr. Hassan",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Dr. Hassan Nagy",
+    "_at": "2026-08-11T18:51:46.676Z",
+    "teacher": "Dr. Hassan Nagy"
   },
   "FR-00034": {
     "peer_reviewer": "Manon",
@@ -46836,9 +46856,8 @@
   },
   "AR-00059": {
     "category": "Personality Clip",
-    "_at": "2026-08-11T18:51:32.538Z",
-    "peer_reviewer": "Sandy Lin",
-    "teacher": "Sandy Lin"
+    "_at": "2026-08-10T19:51:38.073Z",
+    "peer_reviewer": "Sandy"
   },
   "AR-00049": {
     "peer_reviewer": "Nada",
@@ -46849,9 +46868,8 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "AR-00054": {
-    "peer_reviewer": "Sandy Lin",
-    "_at": "2026-08-11T18:51:32.538Z",
-    "teacher": "Sandy Lin"
+    "peer_reviewer": "Sandy",
+    "_at": "2026-08-10T19:51:38.073Z"
   },
   "ES-00059": {
     "peer_reviewer": "Eneida",
@@ -46892,8 +46910,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "AR-00009": {
-    "peer_reviewer": "Dr. Hassan",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Dr. Hassan Nagy",
+    "_at": "2026-08-11T18:51:46.676Z",
+    "teacher": "Dr. Hassan Nagy"
   },
   "EN-01852": {
     "peer_reviewer": "Katie Attubato",
@@ -46980,8 +46999,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "AR-00021": {
-    "peer_reviewer": "Dr. Hassan",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Dr. Hassan Nagy",
+    "_at": "2026-08-11T18:51:46.676Z",
+    "teacher": "Dr. Hassan Nagy"
   },
   "PT-00035": {
     "peer_reviewer": "Cris",
@@ -47179,9 +47199,8 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "AR-00057": {
-    "peer_reviewer": "Sandy Lin",
-    "_at": "2026-08-11T18:51:32.538Z",
-    "teacher": "Sandy Lin"
+    "peer_reviewer": "Sandy",
+    "_at": "2026-08-10T19:51:38.073Z"
   },
   "EN-01875": {
     "peer_reviewer": "Soja",
@@ -47455,8 +47474,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "AR-00010": {
-    "peer_reviewer": "Dr. Hassan",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Dr. Hassan Nagy",
+    "_at": "2026-08-11T18:51:46.676Z",
+    "teacher": "Dr. Hassan Nagy"
   },
   "ES-00089": {
     "peer_reviewer": "Eneida",
@@ -47521,8 +47541,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "AR-00028": {
-    "peer_reviewer": "Dr. Hassan",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Dr. Hassan Nagy",
+    "_at": "2026-08-11T18:51:46.676Z",
+    "teacher": "Dr. Hassan Nagy"
   },
   "FR-00068": {
     "peer_reviewer": "Hafsa",
@@ -47557,8 +47578,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "AR-00006": {
-    "peer_reviewer": "Dr. Hassan",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Dr. Hassan Nagy",
+    "_at": "2026-08-11T18:51:46.676Z",
+    "teacher": "Dr. Hassan Nagy"
   },
   "FR-00057": {
     "peer_reviewer": "Angeline",
@@ -47622,8 +47644,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "AR-00019": {
-    "peer_reviewer": "Dr. Hassan",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Dr. Hassan Nagy",
+    "_at": "2026-08-11T18:51:46.676Z",
+    "teacher": "Dr. Hassan Nagy"
   },
   "FR-00047": {
     "peer_reviewer": "Sandrine",
@@ -47703,8 +47726,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "AR-00014": {
-    "peer_reviewer": "Dr. Hassan",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Dr. Hassan Nagy",
+    "_at": "2026-08-11T18:51:46.676Z",
+    "teacher": "Dr. Hassan Nagy"
   },
   "TH-00007": {
     "peer_reviewer": "Nathaorn",
@@ -47735,8 +47759,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "AR-00015": {
-    "peer_reviewer": "Dr. Hassan",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Dr. Hassan Nagy",
+    "_at": "2026-08-11T18:51:46.676Z",
+    "teacher": "Dr. Hassan Nagy"
   },
   "FR-00080": {
     "peer_reviewer": "Margaux",
@@ -47767,8 +47792,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "AR-00022": {
-    "peer_reviewer": "Dr. Hassan",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Dr. Hassan Nagy",
+    "_at": "2026-08-11T18:51:46.676Z",
+    "teacher": "Dr. Hassan Nagy"
   },
   "FR-00029": {
     "peer_reviewer": "Angeline",
