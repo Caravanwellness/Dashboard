@@ -40845,10 +40845,11 @@
   },
   "EXT-0626": {
     "type": "Video",
-    "_at": "2026-08-10T19:51:38.073Z",
+    "_at": "2026-08-11T20:33:23.576Z",
     "duration": "5 min",
-    "peer_reviewer": "Allison",
-    "category": "Legal Wellness"
+    "peer_reviewer": "Allison Wyman",
+    "category": "Legal Wellness",
+    "teacher": "Allison Wyman"
   },
   "EXT-0627": {
     "type": "Video",
@@ -51947,8 +51948,9 @@
   },
   "EN-01149": {
     "category": "Personality Clip",
-    "_at": "2026-08-10T19:51:38.073Z",
-    "peer_reviewer": "Allison"
+    "_at": "2026-08-11T20:33:23.576Z",
+    "peer_reviewer": "Allison Wyman",
+    "teacher": "Allison Wyman"
   },
   "EN-01160": {
     "category": "Personality Clip",
