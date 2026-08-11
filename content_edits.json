@@ -45745,11 +45745,12 @@
     "teacher": "Ajani Phillips"
   },
   "EXT-1284": {
-    "peer_reviewer": "Jared",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "peer_reviewer": "Jared De Candia",
+    "_at": "2026-08-11T20:30:22.470Z",
     "language": "English",
     "author": "Jared",
-    "duration": "5"
+    "duration": "5",
+    "teacher": "Jared De Candia"
   },
   "EXT-1285": {
     "peer_reviewer": "Nadia",
@@ -49673,10 +49674,11 @@
     "teacher": "Enja Schenck"
   },
   "EN-01714": {
-    "peer_reviewer": "Jared",
-    "_at": "2026-08-11T20:17:14.145Z",
+    "peer_reviewer": "Jared De Candia",
+    "_at": "2026-08-11T20:30:22.470Z",
     "language": "English",
-    "author": "Jared"
+    "author": "Jared",
+    "teacher": "Jared De Candia"
   },
   "ES-00023": {
     "peer_reviewer": "Mary Solis",
@@ -51142,10 +51144,11 @@
     "teacher": "Truike Boekholt"
   },
   "EN-01289": {
-    "peer_reviewer": "Jared",
-    "_at": "2026-08-11T20:17:14.145Z",
+    "peer_reviewer": "Jared De Candia",
+    "_at": "2026-08-11T20:30:22.470Z",
     "language": "English",
-    "author": "Jared"
+    "author": "Jared",
+    "teacher": "Jared De Candia"
   },
   "EN-01945": {
     "peer_reviewer": "Julika Von Stackelberg",
@@ -51962,8 +51965,9 @@
   },
   "EN-01296": {
     "category": "Personality Clip",
-    "_at": "2026-08-10T19:51:38.073Z",
-    "peer_reviewer": "Jared"
+    "_at": "2026-08-11T20:30:22.470Z",
+    "peer_reviewer": "Jared De Candia",
+    "teacher": "Jared De Candia"
   },
   "EN-01376": {
     "category": "Personality Clip",
