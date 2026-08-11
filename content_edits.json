@@ -24,15 +24,17 @@
   },
   "ART-0029": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "author": "Marlee Alanis",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ALB-0179": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Alyssa Lagasca",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0212": {
     "peer_reviewer": "Alyssa Lagasca",
@@ -44,16 +46,18 @@
   },
   "ART-0237": {
     "author": "Marlee Alanis",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Marlee Alanis",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ALB-0033": {
     "author": "Marlee Alanis",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Marlee Alanis",
     "teacher": "Marlee Alanis",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0116": {
     "author": "Marlee Alanis",
@@ -74,10 +78,11 @@
   },
   "ART-0182": {
     "author": "Hope Zimmerman",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Alyssa Lagasca",
     "category": "Diabetes",
-    "language": "English"
+    "language": "English",
+    "duration": "1"
   },
   "EN-01608": {
     "author": "Dr. Fahim Pyarali",
@@ -178,16 +183,18 @@
   },
   "ART-0021": {
     "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Madeline McGuire",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ALB-0253": {
     "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "references": "Cleveland Clinic. (2026). Social anxiety disorder (social phobia): Symptoms & treatment. https://my.clevelandclinic.org/health/diseases/22709-social-anxiety\nInternational Journal of Environmental Research and Public Health. (2023). Romantic duration, relationship quality, and attachment insecurity among dating couples. https://www.mdpi.com/1660-4601/20/1/856\nJournal of Marital and Family Therapy. (2025). Attachment anxiety and relationship satisfaction in the digital era: The contribution of social media jealousy and electronic partner surveillance. https://onlinelibrary.wiley.com/doi/10.1111/jmft.70074",
     "type": "Article",
-    "peer_reviewer": "Marlee"
+    "peer_reviewer": "Marlee",
+    "duration": "2"
   },
   "VID-0346": {
     "author": "Dr. David Sanchez",
@@ -333,16 +340,18 @@
   },
   "ALB-0017": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "author": "Diane McNaught",
     "teacher": "Diane McNaught",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ART-0178": {
     "author": "Hope Zimmerman",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Alyssa Lagasca",
-    "language": "English"
+    "language": "English",
+    "duration": "3"
   },
   "ILB-0220": {
     "peer_reviewer": "Diane McNaught",
@@ -358,12 +367,13 @@
   },
   "ART-0003": {
     "category": "Vaping & Tobacco",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "author": "Marlee Alanis",
     "peer_reviewer": "Diane McNaught",
     "notes": "",
     "ver.": "1",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ILB-0290": {
     "author": "Marlee Alanis",
@@ -374,10 +384,11 @@
   },
   "ALB-0148": {
     "author": "Marlee Alanis",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Diane McNaught",
     "teacher": "Diane McNaught",
-    "type": "Article"
+    "type": "Article",
+    "duration": "1"
   },
   "ALB-0118": {
     "author": "Marlee Alanis",
@@ -390,110 +401,127 @@
   },
   "ART-0253": {
     "author": "Marlee Alanis",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Marlee Alanis",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0002": {
     "author": "Marlee Alanis",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Diane McNaught",
     "notes": "",
     "reviewed_by": "Marlee",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0004": {
     "author": "Marlee Alanis",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Diane McNaught",
     "reviewer": "Diane",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0005": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "notes": "",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0006": {
     "author": "Marlee Alanis",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Diane McNaught",
     "title": "How to Recognize High-Risk Drinking Patterns",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0007": {
     "author": "Marlee Alanis",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Diane McNaught",
     "revised": "",
     "category": "Alcohol Use",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0008": {
     "author": "Marlee Alanis",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Diane McNaught",
     "date_created": "01/15/2026",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0009": {
     "author": "Marlee Alanis",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Diane McNaught",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0026": {
     "author": "Marlee Alanis",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Diane McNaught",
     "last_reviewed": "11/12/2025",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0027": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "type": "Article",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0028": {
     "author": "Marlee Alanis",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Diane McNaught",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0030": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
-    "language": "English"
+    "_at": "2026-08-11T14:09:54.058Z",
+    "language": "English",
+    "duration": "2"
   },
   "ART-0032": {
     "author": "Marlee Alanis",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Diane McNaught",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0035": {
     "author": "Marlee Alanis",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Diane McNaught",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0043": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
-    "language": "English"
+    "_at": "2026-08-11T14:09:54.058Z",
+    "language": "English",
+    "duration": "2"
   },
   "ART-0044": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
-    "language": "English"
+    "_at": "2026-08-11T14:09:54.058Z",
+    "language": "English",
+    "duration": "2"
   },
   "ART-0045": {
     "author": "Madeline McGuire",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Diane McNaught",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0046": {
     "author": "Diane McNaught",
@@ -505,27 +533,31 @@
   },
   "ART-0047": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Diane McNaught",
-    "language": "English"
+    "language": "English",
+    "duration": "3"
   },
   "ART-0048": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Diane McNaught",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0049": {
     "author": "Marlee Alanis",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Diane McNaught",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0050": {
     "author": "Madeline McGuire",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Diane McNaught",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0051": {
     "author": "Marlee Alanis",
@@ -543,15 +575,16 @@
   },
   "ART-0053": {
     "author": "Marlee Alanis",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Diane McNaught",
-    "duration": "4 min",
+    "duration": "2",
     "language": "English"
   },
   "ART-0054": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
-    "language": "English"
+    "_at": "2026-08-11T14:09:54.058Z",
+    "language": "English",
+    "duration": "3"
   },
   "ART-0056": {
     "author": "Emily Wilson",
@@ -575,93 +608,106 @@
   },
   "ART-0059": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Diane McNaught",
-    "language": "English"
+    "language": "English",
+    "duration": "3"
   },
   "ART-0062": {
     "author": "Hope Zimmerman",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Diane McNaught",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0063": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
-    "language": "English"
+    "_at": "2026-08-11T14:09:54.058Z",
+    "language": "English",
+    "duration": "2"
   },
   "ART-0065": {
     "author": "Hope Zimmerman",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Diane McNaught",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0069": {
     "author": "Madeline McGuire",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Diane McNaught",
-    "duration": "5 min",
+    "duration": "2",
     "language": "English"
   },
   "ART-0072": {
     "author": "Madeline McGuire",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Diane McNaught",
-    "duration": "7 min",
+    "duration": "3",
     "language": "English"
   },
   "ART-0074": {
     "author": "Hope Zimmerman",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Diane McNaught",
-    "language": "English"
+    "language": "English",
+    "duration": "3"
   },
   "ART-0075": {
     "author": "Hope Zimmerman",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Diane McNaught",
-    "language": "English"
+    "language": "English",
+    "duration": "3"
   },
   "ART-0076": {
     "author": "Hope Zimmerman",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Diane McNaught",
-    "language": "English"
+    "language": "English",
+    "duration": "3"
   },
   "ART-0077": {
     "author": "Hope Zimmerman",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Diane McNaught",
-    "language": "English"
+    "language": "English",
+    "duration": "3"
   },
   "ART-0078": {
     "author": "Hope Zimmerman",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Diane McNaught",
-    "language": "English"
+    "language": "English",
+    "duration": "3"
   },
   "ART-0079": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
-    "language": "English"
+    "_at": "2026-08-11T14:09:54.058Z",
+    "language": "English",
+    "duration": "2"
   },
   "ART-0080": {
     "author": "Hope Zimmerman",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Diane McNaught",
-    "language": "English"
+    "language": "English",
+    "duration": "3"
   },
   "ART-0082": {
     "author": "Marlee Alanis",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Diane McNaught",
-    "language": "English"
+    "language": "English",
+    "duration": "3"
   },
   "ART-0084": {
     "author": "Hope Zimmerman",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Diane McNaught",
-    "language": "English"
+    "language": "English",
+    "duration": "3"
   },
   "ART-0085": {
     "author": "Hope Zimmerman",
@@ -672,9 +718,11 @@
   },
   "ART-0086": {
     "author": "Marlee Alanis",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Diane McNaught",
-    "language": "English"
+    "language": "English",
+    "date_created": "11/28/2024",
+    "duration": "3"
   },
   "ART-0087": {
     "author": "Hope Zimmerman",
@@ -686,25 +734,29 @@
   },
   "ART-0088": {
     "author": "Hope Zimmerman",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Diane McNaught",
-    "language": "English"
+    "language": "English",
+    "duration": "3"
   },
   "ART-0089": {
     "author": "Hope Zimmerman",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Diane McNaught",
-    "language": "English"
+    "language": "English",
+    "duration": "3"
   },
   "ART-0090": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
-    "language": "English"
+    "_at": "2026-08-11T14:09:54.058Z",
+    "language": "English",
+    "duration": "2"
   },
   "ART-0091": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
-    "language": "English"
+    "_at": "2026-08-11T14:09:54.058Z",
+    "language": "English",
+    "duration": "3"
   },
   "ART-0092": {
     "author": "Hope Zimmerman",
@@ -715,33 +767,38 @@
   },
   "ART-0093": {
     "author": "Hope Zimmerman",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Diane McNaught",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0094": {
     "author": "Hope Zimmerman",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Diane McNaught",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0095": {
     "author": "Hope Zimmerman",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Diane McNaught",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0096": {
     "author": "Hope Zimmerman",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Diane McNaught",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0097": {
     "author": "Hope Zimmerman",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Diane McNaught",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0098": {
     "peer_reviewer": "Diane McNaught",
@@ -786,15 +843,17 @@
   },
   "ART-0110": {
     "author": "Marlee Alanis",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Diane McNaught",
-    "language": "English"
+    "language": "English",
+    "duration": "3"
   },
   "ART-0111": {
     "author": "Marlee Alanis",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Diane McNaught",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0112": {
     "author": "Marlee Alanis",
@@ -805,106 +864,123 @@
   },
   "ART-0121": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Diane McNaught",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0122": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Diane McNaught",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0123": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Diane McNaught",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0124": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Diane McNaught",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0125": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Diane McNaught",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0126": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Diane McNaught",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0127": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Diane McNaught",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0128": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Diane McNaught",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0129": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Diane McNaught",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0130": {
     "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Diane McNaught",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0131": {
     "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Diane McNaught",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0132": {
     "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Diane McNaught",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0133": {
     "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Diane McNaught",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0134": {
     "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Diane McNaught",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0135": {
     "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Diane McNaught",
     "category": "Health",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0136": {
     "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Diane McNaught",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0138": {
     "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Diane McNaught",
-    "language": "English"
+    "language": "English",
+    "duration": "1"
   },
   "ART-0139": {
     "author": "Diane McNaught",
@@ -915,28 +991,32 @@
   },
   "ART-0140": {
     "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Diane McNaught",
     "category": "Health",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0143": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
-    "language": "English"
+    "_at": "2026-08-11T14:09:54.058Z",
+    "language": "English",
+    "duration": "2"
   },
   "ART-0144": {
     "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Diane McNaught",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0145": {
     "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Diane McNaught",
-    "duration": "2 min",
-    "language": "English"
+    "duration": "2",
+    "language": "English",
+    "date_created": "09/24/2025"
   },
   "ART-0146": {
     "author": "Diane McNaught",
@@ -947,30 +1027,34 @@
   },
   "ART-0149": {
     "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Diane McNaught",
     "category": "Health",
-    "language": "English"
+    "language": "English",
+    "duration": "1"
   },
   "ART-0150": {
     "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Diane McNaught",
     "category": "Health Screenings",
-    "language": "English"
+    "language": "English",
+    "duration": "1"
   },
   "ART-0151": {
     "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Diane McNaught",
     "category": "Health",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0152": {
     "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Diane McNaught",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0153": {
     "author": "Diane McNaught",
@@ -990,11 +1074,12 @@
   },
   "ART-0155": {
     "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "category": "Women's Health",
     "peer_reviewer": "Diane McNaught",
-    "duration": "4 min",
-    "language": "English"
+    "duration": "1",
+    "language": "English",
+    "date_created": "02/09/2026"
   },
   "ART-0156": {
     "author": "Diane McNaught",
@@ -1012,18 +1097,18 @@
   },
   "ART-0158": {
     "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "category": "Women's Health",
     "peer_reviewer": "Diane McNaught",
-    "duration": "4 min",
+    "duration": "2",
     "language": "English"
   },
   "ART-0159": {
     "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "category": "Women's Health",
     "peer_reviewer": "Diane McNaught",
-    "duration": "6 min",
+    "duration": "2",
     "language": "English"
   },
   "ART-0160": {
@@ -1042,10 +1127,11 @@
   },
   "ART-0162": {
     "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Diane McNaught",
     "category": "Women's Health",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0163": {
     "author": "Diane McNaught",
@@ -1070,10 +1156,11 @@
   },
   "ART-0168": {
     "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Diane McNaught",
     "category": "Physical Health & Exercise",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0169": {
     "peer_reviewer": "Diane McNaught",
@@ -1090,10 +1177,11 @@
   },
   "ART-0171": {
     "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Diane McNaught",
     "category": "Movement",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0172": {
     "author": "Diane McNaught",
@@ -1126,15 +1214,17 @@
   },
   "ART-0247": {
     "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Marlee Alanis",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0248": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "category": "Mental Health",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0249": {
     "peer_reviewer": "Marlee Alanis",
@@ -1145,28 +1235,32 @@
   },
   "ART-0250": {
     "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Diane McNaught",
     "category": "Heart Disease",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0251": {
     "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Diane McNaught",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0252": {
     "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Diane McNaught",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0254": {
     "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Marlee Alanis",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ILB-0002": {
     "peer_reviewer": "Diane McNaught",
@@ -1845,51 +1939,59 @@
   },
   "ALB-0041": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Diane McNaught",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0042": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Diane McNaught",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0043": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Diane McNaught",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0044": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Diane McNaught",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0045": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Diane McNaught",
-    "type": "Article"
+    "type": "Article",
+    "duration": "3"
   },
   "ALB-0046": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Diane McNaught",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0047": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Diane McNaught",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0048": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Diane McNaught",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0049": {
     "peer_reviewer": "Diane McNaught",
@@ -1908,17 +2010,19 @@
   },
   "ALB-0051": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-06T17:24:22.202Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "author": "Jennifer Leong",
     "teacher": "Diane McNaught",
     "type": "Article",
-    "duration": "4 min"
+    "duration": "2",
+    "date_created": "01/26/2026"
   },
   "ALB-0052": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Diane McNaught",
-    "type": "Article"
+    "type": "Article",
+    "duration": "3"
   },
   "ALB-0053": {
     "peer_reviewer": "Diane McNaught",
@@ -1953,100 +2057,115 @@
   },
   "ALB-0057": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Diane McNaught",
-    "type": "Article"
+    "type": "Article",
+    "duration": "3"
   },
   "ALB-0060": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Diane McNaught",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0061": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Diane McNaught",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0063": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Diane McNaught",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0067": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-06T17:24:22.202Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "author": "Mercedez Meza",
     "teacher": "Diane McNaught",
     "type": "Article",
-    "duration": "5 min"
+    "duration": "2",
+    "date_created": "06/23/2025"
   },
   "ALB-0070": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-06T17:24:22.202Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "author": "Carol Hilaire",
     "references": "Centers for Disease Control and Prevention. (2025). Are you up to date on your preventive care? https://www.cdc.gov/chronic-disease/prevention/preventive-care.html\nMedlinePlus (U.S. National Library of Medicine). (2025). Health screening. https://medlineplus.gov/healthscreening.html\nJournal of the National Cancer Center. (2022). Cancer screening in the aging population: Where do we stand and what can we do? https://pmc.ncbi.nlm.nih.gov/articles/PMC11256687/",
     "teacher": "Diane McNaught",
     "type": "Article",
-    "duration": "7 min"
+    "duration": "3",
+    "date_created": "06/17/2025"
   },
   "ALB-0072": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Diane McNaught",
-    "type": "Article"
+    "type": "Article",
+    "duration": "3"
   },
   "ALB-0073": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Diane McNaught",
-    "type": "Article"
+    "type": "Article",
+    "duration": "3"
   },
   "ALB-0074": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Diane McNaught",
-    "type": "Article"
+    "type": "Article",
+    "duration": "3"
   },
   "ALB-0075": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Diane McNaught",
-    "type": "Article"
+    "type": "Article",
+    "duration": "3"
   },
   "ALB-0076": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Diane McNaught",
-    "type": "Article"
+    "type": "Article",
+    "duration": "3"
   },
   "ALB-0077": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "references": "Centers for Disease Control and Prevention. (2024). LDL and HDL cholesterol and triglycerides. https://www.cdc.gov/cholesterol/about/ldl-and-hdl-cholesterol-and-triglycerides.html\nCirculation. (2023). Low-density lipoprotein cholesterol is predominantly associated with atherosclerotic cardiovascular disease events in patients with evidence of coronary atherosclerosis: The Western Denmark Heart Registry. https://www.ahajournals.org/doi/10.1161/CIRCULATIONAHA.122.061010\nCleveland Clinic. (2024). LDL cholesterol. https://my.clevelandclinic.org/health/articles/24391-ldl-cholesterol",
     "teacher": "Diane McNaught",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0078": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Diane McNaught",
-    "type": "Article"
+    "type": "Article",
+    "duration": "3"
   },
   "ALB-0080": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "references": "MedlinePlus. (2025). Cholesterol levels: What you need to know. https://medlineplus.gov/cholesterollevelswhatyouneedtoknow.html\nCleveland Clinic. (2024). Lipid panel: What it is, purpose & results. https://my.clevelandclinic.org/health/diagnostics/17176-lipid-panel\nNational Heart, Lung, and Blood Institute. (2024). Blood cholesterol—what is blood cholesterol? https://www.nhlbi.nih.gov/health/blood-cholesterol",
     "teacher": "Diane McNaught",
-    "type": "Article"
+    "type": "Article",
+    "duration": "3"
   },
   "ALB-0082": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Diane McNaught",
-    "type": "Article"
+    "type": "Article",
+    "duration": "3"
   },
   "ALB-0083": {
     "peer_reviewer": "Diane McNaught",
@@ -2057,9 +2176,11 @@
   },
   "ALB-0084": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Diane McNaught",
-    "type": "Article"
+    "type": "Article",
+    "date_created": "11/28/2024",
+    "duration": "3"
   },
   "ALB-0085": {
     "peer_reviewer": "Diane McNaught",
@@ -2071,27 +2192,31 @@
   },
   "ALB-0086": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Diane McNaught",
-    "type": "Article"
+    "type": "Article",
+    "duration": "3"
   },
   "ALB-0087": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Diane McNaught",
-    "type": "Article"
+    "type": "Article",
+    "duration": "3"
   },
   "ALB-0088": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Diane McNaught",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0089": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Diane McNaught",
-    "type": "Article"
+    "type": "Article",
+    "duration": "3"
   },
   "ALB-0090": {
     "peer_reviewer": "Diane McNaught",
@@ -2103,33 +2228,38 @@
   },
   "ALB-0091": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Diane McNaught",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0092": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Diane McNaught",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0093": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Diane McNaught",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0094": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Diane McNaught",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0095": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Diane McNaught",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0096": {
     "peer_reviewer": "Diane McNaught",
@@ -2149,7 +2279,7 @@
   },
   "ALB-0099": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "author": "Kaitlyn Bruneau",
     "licenses": [
       "YuLife"
@@ -2157,7 +2287,8 @@
     "vimeo_link": "https://vimeo.com/1062502367/04ec6ca132",
     "teacher": "Diane McNaught",
     "type": "Article",
-    "duration": "2"
+    "duration": "2",
+    "date_created": "11/04/2024"
   },
   "ALB-0100": {
     "peer_reviewer": "Diane McNaught",
@@ -2185,113 +2316,133 @@
   },
   "ALB-0119": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "references": "NIH News in Health. (2022). Nurture your resilience. https://newsinhealth.nih.gov/2022/04/nurture-your-resilience\nMayo Clinic Health System. (2025). Emotional recovery after cancer treatment. https://www.mayoclinichealthsystem.org/hometown-health/speaking-of-health/emotional-recovery-after-cancer-treatment\nFrontiers in Psychiatry. (2023). Social support and self-efficacy multiply mediate the relationship between medical coping style and resilience in patients with type A aortic dissection. https://www.frontiersin.org/articles/10.3389/fpsyt.2023.1174038/full",
     "teacher": "Diane McNaught",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0120": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "references": "Frontiers in Surgery. (2023). Assessment of preoperative anxiety and depression in patients with pulmonary ground-glass opacities: Risk factors and postoperative outcomes. https://www.frontiersin.org/journals/surgery/articles/10.3389/fsurg.2023.1102352/full\nJournal of Clinical and Translational Science. (2025). Preoperative anxiety and its impact on surgical outcomes: A systematic review and meta-analysis. https://www.cambridge.org/core/journals/journal-of-clinical-and-translational-science/article/preoperative-anxiety-and-its-impact-on-surgical-outcomes-a-systematic-review-and-metaanalysis/C51CEC6B50D656A7B8A9323439578692\nJournal of Clinical Medicine. (2023). Effects of preoperative anxiety on postoperative outcomes and sleep quality in patients undergoing laparoscopic gynecological surgery. https://www.mdpi.com/2077-0383/12/5/1835",
     "teacher": "Diane McNaught",
-    "type": "Article"
+    "type": "Article",
+    "date_created": "02/09/2026",
+    "duration": "2"
   },
   "ALB-0121": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Diane McNaught",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0122": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "references": "Supportive Care in Cancer. (2025). Fatigue trajectory and its associated factors in patients after pituitary adenoma surgery: A longitudinal study. https://link.springer.com/article/10.1007/s00520-025-09745-7\nBritish Journal of Surgery. (2023). Postoperative muscle loss, protein intake, physical activity and outcome associations. https://pmc.ncbi.nlm.nih.gov/articles/PMC10364506/\nFrontiers in Oncology. (2024). Various interventions for cancer-related fatigue in patients with breast cancer: A systematic review and network meta-analysis. https://www.frontiersin.org/journals/oncology/articles/10.3389/fonc.2024.1341927/full",
     "teacher": "Diane McNaught",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0123": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "references": "Medicina. (2025). The impact of social support on postoperative recovery in retinal detachment surgery. https://pmc.ncbi.nlm.nih.gov/articles/PMC11857662/\nJournal of Health Psychology. (2022). Social support and pre-operative anxiety in patients undergoing elective surgical procedures: A systematic review and meta-analysis. https://journals.sagepub.com/doi/10.1177/13591053221116969\nFrontiers in Psychology. (2023). Social support score in patients with malignant diseases—with sociodemographic and medical characteristics. https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1160020/full",
     "teacher": "Diane McNaught",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0124": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Diane McNaught",
-    "type": "Article"
+    "type": "Article",
+    "date_created": "02/09/2026",
+    "duration": "2"
   },
   "ALB-0125": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Diane McNaught",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0126": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Diane McNaught",
-    "type": "Article"
+    "type": "Article",
+    "date_created": "02/09/2026",
+    "duration": "2"
   },
   "ALB-0127": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Diane McNaught",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0128": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Diane McNaught",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0129": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Diane McNaught",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0130": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Diane McNaught",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0131": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Diane McNaught",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0132": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Diane McNaught",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0133": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Diane McNaught",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0134": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Diane McNaught",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0136": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Diane McNaught",
-    "type": "Article"
+    "type": "Article",
+    "duration": "1"
   },
   "ALB-0137": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "author": "Jane Mulvey",
     "references": "Centers for Disease Control and Prevention. (2024). How to quit smoking. https://www.cdc.gov/tobacco/about/how-to-quit.html\nAmerican Lung Association. (2024). Top tips for quitting. https://www.lung.org/quit-smoking/i-want-to-quit/top-tips-for-quitting-smoking\nDrug and Alcohol Dependence. (2023). Pilot randomized controlled trial of mindfulness-based relapse prevention vs cognitive behavioral therapy for smoking and alcohol use. https://pmc.ncbi.nlm.nih.gov/articles/PMC9975045/",
     "licenses": [
@@ -2300,18 +2451,20 @@
     "vimeo_link": "https://vimeo.com/953408783/50e33aedfa?share=copy",
     "teacher": "Diane McNaught",
     "type": "Article",
-    "duration": "3"
+    "duration": "3",
+    "date_created": "09/29/2025"
   },
   "ALB-0138": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "references": "\nNational Institute on Drug Abuse. (2026). Drug misuse and addiction (Drugs, brains, and behavior: The science of addiction). https://nida.nih.gov/publications/drugs-brains-behavior-science-addiction/drug-misuse-addiction\nCleveland Clinic. (2023). Addiction: What it is, causes, symptoms, types & treatment. https://my.clevelandclinic.org/health/diseases/6407-addiction\nNeuropsychopharmacology. (2022). The neurobiology of drug addiction: Cross-species insights into the dysfunction and recovery of the prefrontal cortex. https://pmc.ncbi.nlm.nih.gov/articles/PMC8617203/",
     "teacher": "Diane McNaught",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0139": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "author": "Jane Mulvey",
     "licenses": [
       "YuLife"
@@ -2319,34 +2472,39 @@
     "vimeo_link": "https://vimeo.com/1069599158/5c610ca399?share=copy",
     "teacher": "Diane McNaught",
     "type": "Article",
-    "duration": "3"
+    "duration": "3",
+    "date_created": "09/29/2025"
   },
   "ALB-0140": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-06T17:24:22.202Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Diane McNaught",
     "type": "Article",
-    "duration": "2 min"
+    "duration": "2",
+    "date_created": "09/24/2025"
   },
   "ALB-0141": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "references": "National Institute on Drug Abuse. (2021). Is nicotine addictive? https://nida.nih.gov/publications/research-reports/tobacco-nicotine-e-cigarettes/nicotine-addictive\nCleveland Clinic. (2022). Dopamine: What it is, function & symptoms. https://my.clevelandclinic.org/health/articles/22581-dopamine\nPharmacological Reviews. (2022). Neurobiological mechanisms of nicotine reward and aversion. https://pmc.ncbi.nlm.nih.gov/articles/PMC11060337/",
     "teacher": "Diane McNaught",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0142": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Diane McNaught",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0143": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-06T17:24:22.202Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Diane McNaught",
     "type": "Article",
-    "duration": "2 min"
+    "duration": "2",
+    "date_created": "09/24/2025"
   },
   "ALB-0144": {
     "peer_reviewer": "Diane McNaught",
@@ -2357,30 +2515,34 @@
   },
   "ALB-0146": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "references": "U.S. Food and Drug Administration. (2026). Chemicals in tobacco products and your health. https://www.fda.gov/tobacco-products/health-effects-tobacco-use/chemicals-tobacco-products-and-your-health\nCenters for Disease Control and Prevention. (2024). About e-cigarettes (vapes). https://www.cdc.gov/tobacco/e-cigarettes/about.html\nEnvironmental Health Perspectives. (2023). Metal concentrations in e-cigarette aerosol samples: A comparison by device type and flavor. https://pmc.ncbi.nlm.nih.gov/articles/PMC10695266/",
     "teacher": "Diane McNaught",
     "type": "Article",
     "duration": "2",
-    "author": "Madeline"
+    "author": "Madeline",
+    "date_created": "10/06/2025"
   },
   "ALB-0147": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Diane McNaught",
-    "type": "Article"
+    "type": "Article",
+    "duration": "1"
   },
   "ALB-0149": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Diane McNaught",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0150": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Diane McNaught",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0151": {
     "peer_reviewer": "Diane McNaught",
@@ -2399,10 +2561,11 @@
   },
   "ALB-0153": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-06T17:24:22.202Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Diane McNaught",
     "type": "Article",
-    "duration": "4 min"
+    "duration": "1",
+    "date_created": "02/09/2026"
   },
   "ALB-0154": {
     "peer_reviewer": "Diane McNaught",
@@ -2421,19 +2584,21 @@
   },
   "ALB-0156": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-06T17:24:22.202Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "author": "Carol Hilaire",
     "teacher": "Diane McNaught",
     "type": "Article",
-    "duration": "4 min"
+    "duration": "2",
+    "date_created": "02/09/2026"
   },
   "ALB-0157": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-06T17:24:22.202Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Diane McNaught",
     "references": "Menopause (The Menopause Society). (2022). The 2022 hormone therapy position statement of The North American Menopause Society. https://doi.org/10.1097/GME.0000000000002028\n\nMayo Clinic. (2026). Menopause — Symptoms and causes. https://www.mayoclinic.org/diseases-conditions/menopause/symptoms-causes/syc-20353397\n\nCleveland Clinic. (2024). Menopause: What It Is, Age, Stages, Signs & Side Effects. https://my.clevelandclinic.org/health/diseases/21841-menopause",
     "type": "Article",
-    "duration": "6 min"
+    "duration": "2",
+    "date_created": "02/09/2026"
   },
   "ALB-0158": {
     "peer_reviewer": "Diane McNaught",
@@ -2453,9 +2618,10 @@
   },
   "ALB-0160": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Diane McNaught",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0161": {
     "peer_reviewer": "Diane McNaught",
@@ -2483,10 +2649,11 @@
   },
   "ALB-0166": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "references": "Cleveland Clinic. (2024). 8 posture exercises to sit and stand straighter. https://health.clevelandclinic.org/posture-exercises\nMedlinePlus. (2025). Guide to good posture. https://medlineplus.gov/guidetogoodposture.html\nInteractive Journal of Medical Research. (2023). An artificial intelligence exercise coaching mobile app: Development and randomized controlled trial to verify its effectiveness in posture correction. https://www.i-jmr.org/2023/1/e37604",
     "teacher": "Diane McNaught",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0167": {
     "peer_reviewer": "Diane McNaught",
@@ -2504,10 +2671,11 @@
   },
   "ALB-0169": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "references": "Mayo Clinic. (2026). Desk stretches: Video collection. https://www.mayoclinic.org/healthy-lifestyle/adult-health/in-depth/office-stretches/art-20046041\nCleveland Clinic. (2023). 6 desk exercises that help you get stronger while working. https://health.clevelandclinic.org/sitting-all-day-try-these-stretches/\nMedicina. (2023). Effects of whole-body stretching exercise during lunch break for reducing musculoskeletal pain and physical exertion among healthcare professionals. https://pmc.ncbi.nlm.nih.gov/articles/PMC10222752/",
     "teacher": "Diane McNaught",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0170": {
     "peer_reviewer": "Diane McNaught",
@@ -2519,87 +2687,100 @@
   },
   "ALB-0248": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "references": "American Heart Association. (2025). What is atrial fibrillation (AFib or AF)? https://www.heart.org/en/health-topics/atrial-fibrillation/what-is-atrial-fibrillation-afib-or-af\nCenters for Disease Control and Prevention. (2024). About atrial fibrillation. https://www.cdc.gov/heart-disease/about/atrial-fibrillation.html\nMayo Clinic. (2026). Atrial fibrillation—symptoms and causes. https://www.mayoclinic.org/diseases-conditions/atrial-fibrillation/symptoms-causes/syc-20350624",
     "teacher": "Diane McNaught",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0249": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Diane McNaught",
     "references": "Circulation. (2023). 2023 ACC/AHA/ACCP/HRS Guideline for the Diagnosis and Management of Atrial Fibrillation. https://www.ahajournals.org/doi/10.1161/CIR.0000000000001193\n\nMayo Clinic Proceedings. (2021). Antiarrhythmic Drugs for Atrial Fibrillation in the Outpatient Setting: Common Clinical Scenarios and Pearls for the Primary Care Clinician. https://doi.org/10.1016/j.mayocp.2021.01.010\n\nCleveland Clinic. (2025). Atrial Fibrillation (AFib): Symptoms & Treatment. https://my.clevelandclinic.org/health/diseases/16765-atrial-fibrillation-afib",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0250": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "references": "Cleveland Clinic Journal of Medicine. (2024). Consumer-grade wearable cardiac monitors: What they do well, and what needs work. https://www.ccjm.org/content/91/1/23\n\nCenters for Disease Control and Prevention. (2024). About Atrial Fibrillation. https://www.cdc.gov/heart-disease/about/atrial-fibrillation.html\n\nCirculation (American Heart Association). (2024). 2023 ACC/AHA/ACCP/HRS Guideline for the Diagnosis and Management of Atrial Fibrillation. https://www.ahajournals.org/doi/10.1161/CIR.0000000000001193",
     "teacher": "Diane McNaught",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ART-0010": {
     "author": "Hope Zimmerman",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Marlee Alanis",
     "client_licenses": "",
-    "language": "English"
+    "language": "English",
+    "duration": "3"
   },
   "ART-0011": {
     "author": "Hope Zimmerman",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Marlee Alanis",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0012": {
     "author": "Hope Zimmerman",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Marlee Alanis",
     "ver.": "1",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0013": {
     "author": "Madeline McGuire",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Marlee Alanis",
     "last_reviewed": "11/10/2025",
     "category": "Anxiety & Depression",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0014": {
     "author": "Hope Zimmerman",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Marlee Alanis",
     "notes": "",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0015": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-10T20:06:24.297Z",
-    "language": "English"
+    "_at": "2026-08-11T14:09:54.058Z",
+    "language": "English",
+    "duration": "2"
   },
   "ART-0016": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-10T20:06:24.297Z",
-    "language": "English"
+    "_at": "2026-08-11T14:09:54.058Z",
+    "language": "English",
+    "duration": "2"
   },
   "ART-0017": {
     "author": "Hope Zimmerman",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Marlee Alanis",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0019": {
     "author": "Hope Zimmerman",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Marlee Alanis",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0020": {
     "author": "Madeline McGuire",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Marlee Alanis",
-    "language": "English"
+    "language": "English",
+    "duration": "3"
   },
   "ART-0024": {
     "author": "Hope Zimmerman",
@@ -2618,30 +2799,33 @@
   },
   "ART-0031": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Marlee Alanis",
     "notes": "",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0033": {
     "author": "Hope Zimmerman",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Marlee Alanis",
     "type": "Article",
-    "language": "English"
+    "language": "English",
+    "duration": "3"
   },
   "ART-0034": {
     "author": "Hope Zimmerman",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "6 min",
+    "duration": "3",
     "language": "English"
   },
   "ART-0036": {
     "author": "Hope Zimmerman",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Marlee Alanis",
-    "language": "English"
+    "language": "English",
+    "duration": "3"
   },
   "ART-0038": {
     "author": "Hope Zimmerman",
@@ -2673,59 +2857,67 @@
   },
   "ART-0042": {
     "author": "Madeline McGuire",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Marlee Alanis",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0060": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Marlee Alanis",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0061": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Marlee Alanis",
-    "language": "English"
+    "language": "English",
+    "date_created": "02/04/2026",
+    "duration": "2"
   },
   "ART-0066": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Marlee Alanis",
-    "language": "English"
+    "language": "English",
+    "duration": "3"
   },
   "ART-0068": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "5 min",
+    "duration": "2",
     "language": "English"
   },
   "ART-0070": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "5 min",
+    "duration": "2",
     "language": "English"
   },
   "ART-0073": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Marlee Alanis",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0081": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Marlee Alanis",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0083": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Marlee Alanis",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0099": {
     "peer_reviewer": "Marlee Alanis",
@@ -2735,15 +2927,17 @@
   },
   "ART-0107": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Marlee Alanis",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0109": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Marlee Alanis",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0115": {
     "peer_reviewer": "Marlee Alanis",
@@ -2767,16 +2961,18 @@
   },
   "ART-0228": {
     "author": "Marlee Alanis",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Marlee Alanis",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0229": {
     "author": "Marlee Alanis",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Marlee Alanis",
     "category": "Health",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0230": {
     "author": "Marlee Alanis",
@@ -2794,66 +2990,76 @@
   },
   "ART-0232": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "category": "Nutrition",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0233": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-10T20:06:24.297Z",
-    "language": "English"
+    "_at": "2026-08-11T14:09:54.058Z",
+    "language": "English",
+    "duration": "3"
   },
   "ART-0234": {
     "author": "Marlee Alanis",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Marlee Alanis",
     "category": "Nutrition",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0235": {
     "author": "Marlee Alanis",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Marlee Alanis",
     "category": "Health",
-    "language": "English"
+    "language": "English",
+    "duration": "3"
   },
   "ART-0236": {
     "author": "Marlee Alanis",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Marlee Alanis",
     "category": "Health",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0238": {
     "author": "Marlee Alanis",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Marlee Alanis",
     "category": "Older Adults",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0239": {
     "author": "Marlee Alanis",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Marlee Alanis",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0240": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "category": "Older Adults",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0241": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-10T20:06:24.297Z",
-    "language": "English"
+    "_at": "2026-08-11T14:09:54.058Z",
+    "language": "English",
+    "duration": "2"
   },
   "ART-0242": {
     "author": "Marlee Alanis",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Marlee Alanis",
     "category": "Physical Health & Exercise",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0245": {
     "peer_reviewer": "Marlee Alanis",
@@ -3144,119 +3350,139 @@
   },
   "ALB-0001": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "references": "Centers for Disease Control and Prevention. (2024). Alcohol use and your health. https://www.cdc.gov/alcohol/fact-sheets/alcohol-use.htm National Institute on Alcohol Abuse and Alcoholism. (2023). Rethinking drinking. https://www.niaaa.nih.gov/health-professionals-communities/rethinking-drinking National Institutes of Health. (2023). Alcohol’s effects on the body. https://www.niaaa.nih.gov/alcohols-effects-health/alcohols-effects-body ",
     "review_date": "1/15/2026",
     "teacher": "Marlee Alanis",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0002": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Marlee Alanis",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0003": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Marlee Alanis",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0004": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Marlee Alanis",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0005": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Marlee Alanis",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0006": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Marlee Alanis",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0007": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Marlee Alanis",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0008": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Marlee Alanis",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0009": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Marlee Alanis",
-    "type": "Article"
+    "type": "Article",
+    "duration": "3"
   },
   "ALB-0010": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Marlee Alanis",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0011": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Marlee Alanis",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0012": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Marlee Alanis",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0013": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Marlee Alanis",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0014": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Marlee Alanis",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0015": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Marlee Alanis",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0016": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Marlee Alanis",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0018": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Marlee Alanis",
-    "type": "Article"
+    "type": "Article",
+    "date_created": "01/05/2025",
+    "duration": "2"
   },
   "ALB-0019": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Marlee Alanis",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0021": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Marlee Alanis",
-    "type": "Article"
+    "type": "Article",
+    "duration": "3"
   },
   "ALB-0022": {
     "peer_reviewer": "Marlee Alanis",
@@ -3274,55 +3500,63 @@
   },
   "ALB-0024": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Marlee Alanis",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0025": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Marlee Alanis",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0026": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Marlee Alanis",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0027": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Marlee Alanis",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0028": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Marlee Alanis",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0029": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Marlee Alanis",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0030": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Marlee Alanis",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0031": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Marlee Alanis",
-    "type": "Article"
+    "type": "Article",
+    "duration": "3"
   },
   "ALB-0032": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-06T17:24:22.202Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "author": "Candice White-Parker",
     "references": "Mayo Clinic. (2023). *Office ergonomics: Your how-to guide.* Retrieved from https://www.mayoclinic.org/healthy-lifestyle/adult-health \n\nNational Institute for Occupational Safety and Health. (2023). *Ergonomics and musculoskeletal health.* Retrieved from https://www.cdc.gov/niosh \n\nAmerican Academy of Orthopaedic Surgeons. (2023). *Back health at work.* Retrieved from https://orthoinfo.aaos.org ",
     "teacher": "Marlee Alanis",
@@ -3330,21 +3564,24 @@
       "YuLife"
     ],
     "type": "Article",
-    "duration": "6 min"
+    "duration": "3",
+    "date_created": "11/18/2025"
   },
   "ALB-0034": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Marlee Alanis",
-    "type": "Article"
+    "type": "Article",
+    "duration": "3"
   },
   "ALB-0035": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Marlee Alanis",
     "type": "Article",
     "author": "Emily",
-    "duration": "7"
+    "duration": "7",
+    "date_created": "01/15/2026"
   },
   "ALB-0036": {
     "peer_reviewer": "Marlee Alanis",
@@ -3380,76 +3617,88 @@
   },
   "ALB-0040": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Marlee Alanis",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0058": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Marlee Alanis",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0059": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Marlee Alanis",
-    "type": "Article"
+    "type": "Article",
+    "date_created": "02/04/2026",
+    "duration": "2"
   },
   "ALB-0064": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Marlee Alanis",
-    "type": "Article"
+    "type": "Article",
+    "duration": "3"
   },
   "ALB-0065": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-06T17:24:22.202Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "author": "Dr. Cherilyn Davis",
     "teacher": "Marlee Alanis",
     "type": "Article",
-    "duration": "2 min"
+    "duration": "2",
+    "date_created": "02/04/2026"
   },
   "ALB-0066": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-06T17:24:22.202Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "references": "World Health Organization. (2023). *Child health*. World Health Organization. https://www.who.int/health-topics/child-health\n\nCanadian Paediatric Society. (2022). *Routine health screening for children*. Canadian Paediatric Society. https://cps.ca/en/documents/position/routine-health-screening\n\nNational Health Service. (2023). *Child health checks*. National Health Service. https://www.nhs.uk/conditions/child-health-checks/\n",
     "teacher": "Marlee Alanis",
     "type": "Article",
-    "duration": "5 min"
+    "duration": "2",
+    "date_created": "02/04/2026"
   },
   "ALB-0068": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-06T17:24:22.202Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Marlee Alanis",
     "type": "Article",
-    "duration": "5 min"
+    "duration": "2",
+    "date_created": "02/08/2026"
   },
   "ALB-0069": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-06T17:24:22.202Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "references": "World Health Organization. (2023). *Screening programmes*. World Health Organization. https://www.who.int/teams/noncommunicable-diseases/screening\n\nNational Health Service. (2023). *NHS health check*. National Health Service. https://www.nhs.uk/conditions/nhs-health-check/\n\nAustralian Institute of Health and Welfare. (2023). *Health checks and risk factors*. Australian Institute of Health and Welfare. https://www.aihw.gov.au/reports/australias-health/health-checks",
     "teacher": "Marlee Alanis",
     "type": "Article",
-    "duration": "6 min"
+    "duration": "2",
+    "date_created": "02/08/2026"
   },
   "ALB-0071": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Marlee Alanis",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0079": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Marlee Alanis",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0081": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Marlee Alanis",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0097": {
     "peer_reviewer": "Marlee Alanis",
@@ -3461,41 +3710,50 @@
   },
   "ALB-0104": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "references": "World Health Organization. (2023). *Integrated care for older people*. World Health Organization. https://www.who.int/publications/i/item/WHO-FWC-ALC-19.1\n\nNational Health Service. (2023). *Foot care and ageing*. National Health Service. https://www.nhs.uk/conditions/foot-pain/\n\n*European Journal of Ageing*. (2020). *Foot health and mobility in older adults*. *European Journal of Ageing, 17*(3), 245–254. https://link.springer.com/article/10.1007/s10433-019-00535-0",
     "teacher": "Marlee Alanis",
-    "type": "Article"
+    "type": "Article",
+    "date_created": "02/08/2026",
+    "duration": "2"
   },
   "ALB-0105": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Marlee Alanis",
-    "type": "Article"
+    "type": "Article",
+    "date_created": "02/08/2026",
+    "duration": "2"
   },
   "ALB-0106": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Marlee Alanis",
-    "type": "Article"
+    "type": "Article",
+    "date_created": "02/08/2026",
+    "duration": "2"
   },
   "ALB-0107": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Marlee Alanis",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0108": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "references": "MedlinePlus. (2025). Using a cane. https://medlineplus.gov/ency/patientinstructions/000343.htm\nMedlinePlus. (2025). Using a walker. https://medlineplus.gov/ency/patientinstructions/000342.htm\nNational Institute on Aging. (2022). Falls and fractures in older adults: Causes and prevention. https://www.nia.nih.gov/health/falls-and-falls-prevention/falls-and-fractures-older-adults-causes-and-prevention",
     "teacher": "Marlee Alanis",
-    "type": "Article"
+    "type": "Article",
+    "duration": "3"
   },
   "ALB-0109": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Marlee Alanis",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0110": {
     "peer_reviewer": "Marlee Alanis",
@@ -3562,27 +3820,30 @@
   },
   "ALB-0226": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Marlee Alanis",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0227": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "references": "NIH News in Health. (2021). Your body's bugs. https://newsinhealth.nih.gov/2021/08/your-body-s-bugs\nJohns Hopkins Bloomberg School of Public Health. (2022). 6 things to know about the microbiome and your health. https://publichealth.jhu.edu/2022/the-microbiome-and-your-health\nGut. (2022). Gut microbiome and health: Mechanistic insights. https://pmc.ncbi.nlm.nih.gov/articles/PMC8995832/",
     "teacher": "Marlee Alanis",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0228": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "author": "Hailey Miller",
     "teacher": "Marlee Alanis",
     "licenses": [
       "YuLife"
     ],
     "type": "Article",
-    "duration": "2"
+    "duration": "2",
+    "date_created": "10/25/2023"
   },
   "ALB-0229": {
     "peer_reviewer": "Marlee Alanis",
@@ -3594,74 +3855,85 @@
   },
   "ALB-0230": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "references": "Cleveland Clinic. (2023). What Is Your Gut Microbiome? https://my.clevelandclinic.org/health/body/25201-gut-microbiome\n\nHarvard T.H. Chan School of Public Health, The Nutrition Source. (2025). The Microbiome. https://nutritionsource.hsph.harvard.edu/microbiome/\n\nMicroorganisms. (2022). Dietary Fiber Intake and Gut Microbiota in Human Health. https://www.mdpi.com/2076-2607/10/12/2507",
     "teacher": "Marlee Alanis",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0231": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Marlee Alanis",
-    "type": "Article"
+    "type": "Article",
+    "duration": "3"
   },
   "ALB-0232": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Marlee Alanis",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0233": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Marlee Alanis",
-    "type": "Article"
+    "type": "Article",
+    "duration": "3"
   },
   "ALB-0234": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Marlee Alanis",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0235": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Marlee Alanis",
     "references": "Arthritis Foundation. (2024). Office Ergonomics: Tips for Arranging a Healthy Workspace. https://www.arthritis.org/health-wellness/healthy-living/daily-living/work-life-balance/office-ergonomics\n\nScientific Reports. (2025). Musculoskeletal disorders among office workers: prevalence, ergonomic risk factors, and their interrelationships. https://pmc.ncbi.nlm.nih.gov/articles/PMC12749865/\n\nCureus. (2023). The Effectiveness of Ergonomic Training and Therapeutic Exercise in Chronic Neck Pain in Accountants in the Healthcare System: A Review. https://pmc.ncbi.nlm.nih.gov/articles/PMC10072180/",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0236": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Marlee Alanis",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0237": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "references": "Cleveland Clinic. (2024). Arthritis Exercise: What To Try and What To Avoid. https://health.clevelandclinic.org/arthritis-exercises\n\nArthritis Care & Research. (2023). Examination of the Increased Risk for Falls Among Individuals With Knee Osteoarthritis: A Canadian Longitudinal Study on Aging Population-Based Study. https://doi.org/10.1002/acr.25163\n\nMedicine (Baltimore). (2022). Factors associated with falls in patients with knee osteoarthritis: A cross-sectional study. https://pmc.ncbi.nlm.nih.gov/articles/PMC9726291/",
     "teacher": "Marlee Alanis",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0238": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "references": "Centers for Disease Control and Prevention. (2026). Preventing Falls and Hip Fractures. https://www.cdc.gov/falls/prevention/index.html\n\nNational Institute on Aging. (2022). Preventing Falls at Home: Room by Room. https://www.nia.nih.gov/health/falls-and-falls-prevention/preventing-falls-home-room-room\n\nMayo Clinic. (2024). Fall prevention: Simple tips to prevent falls. https://www.mayoclinic.org/healthy-lifestyle/healthy-aging/in-depth/fall-prevention/art-20047358",
     "teacher": "Marlee Alanis",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0239": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "references": "Cleveland Clinic. (2024). Arthritis Exercise: What To Try and What To Avoid. https://health.clevelandclinic.org/arthritis-exercises\n\nArthritis Care & Research. (2023). Examination of the Increased Risk for Falls Among Individuals With Knee Osteoarthritis: A Canadian Longitudinal Study on Aging Population-Based Study. https://doi.org/10.1002/acr.25163\n\nMedicine (Baltimore). (2022). Factors associated with falls in patients with knee osteoarthritis: A cross-sectional study. https://pmc.ncbi.nlm.nih.gov/articles/PMC9726291/",
     "teacher": "Marlee Alanis",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0240": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Marlee Alanis",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0241": {
     "peer_reviewer": "Marlee Alanis",
@@ -3698,17 +3970,19 @@
   },
   "ALB-0245": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "references": "World Health Organization. (2024). Mental health at work. https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work\nMayo Clinic. (2023). Job burnout: How to spot it and take action. https://www.mayoclinic.org/healthy-lifestyle/adult-health/in-depth/burnout/art-20046642\nInternational Journal of Environmental Research and Public Health. (2022). Stress, burnout, anxiety and depression among teachers: A scoping review. https://www.mdpi.com/1660-4601/19/17/10706",
     "teacher": "Marlee Alanis",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0246": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "references": "Mayo Clinic. (2023). Chronic stress puts your health at risk. https://www.mayoclinic.org/healthy-lifestyle/stress-management/in-depth/stress/art-20046037\nCleveland Clinic. (2024). Stress: What it is, symptoms, management & prevention. https://my.clevelandclinic.org/health/diseases/11874-stress\nAmerican Journal of Preventive Medicine. (2022). Allostatic load and mortality: A systematic review and meta-analysis. https://pubmed.ncbi.nlm.nih.gov/35393143/",
     "teacher": "Marlee Alanis",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0247": {
     "peer_reviewer": "Marlee Alanis",
@@ -3720,17 +3994,19 @@
   },
   "ALB-0251": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "references": "Stroke (American Heart Association/American Stroke Association). (2021). 2021 Guideline for the Prevention of Stroke in Patients With Stroke and Transient Ischemic Attack. https://www.ahajournals.org/doi/10.1161/STR.0000000000000375\n\nMayo Clinic. (2026). Stroke rehabilitation: What to expect as you recover. https://www.mayoclinic.org/diseases-conditions/stroke/in-depth/stroke-rehabilitation/art-20045172\n\nCenters for Disease Control and Prevention. (2024). Treatment and Intervention for Stroke. https://www.cdc.gov/stroke/treatment/index.html",
     "teacher": "Marlee Alanis",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0252": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "references": "Centers for Disease Control and Prevention. (2024). Treatment and Intervention for Stroke. https://www.cdc.gov/stroke/treatment/index.html\n\nMayo Clinic. (2026). Stroke rehabilitation: What to expect as you recover. https://www.mayoclinic.org/diseases-conditions/stroke/in-depth/stroke-rehabilitation/art-20045172\n\nCochrane Database of Systematic Reviews. (2025). Physical rehabilitation approaches for the recovery of function and mobility following stroke. https://pmc.ncbi.nlm.nih.gov/articles/PMC11812092/",
     "teacher": "Marlee Alanis",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "INF-0223": {
     "author": "Diane McNaught",
@@ -6823,10 +7099,11 @@
   },
   "ART-0101": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Diane McNaught",
     "duration": "2",
-    "language": "English"
+    "language": "English",
+    "date_created": "11/04/2024"
   },
   "VID-0011": {
     "author": "Kaitlyn Bruneau",
@@ -9781,24 +10058,28 @@
   },
   "ART-0173": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-10T20:06:24.297Z",
-    "language": "English"
+    "_at": "2026-08-11T14:09:54.058Z",
+    "language": "English",
+    "duration": "2"
   },
   "ART-0174": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "category": "Women's Health",
-    "language": "English"
+    "language": "English",
+    "duration": "3"
   },
   "ART-0175": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-10T20:06:24.297Z",
-    "language": "English"
+    "_at": "2026-08-11T14:09:54.058Z",
+    "language": "English",
+    "duration": "3"
   },
   "ART-0176": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-10T20:06:24.297Z",
-    "language": "English"
+    "_at": "2026-08-11T14:09:54.058Z",
+    "language": "English",
+    "duration": "2"
   },
   "ART-0177": {
     "peer_reviewer": "Alyssa Lagasca",
@@ -9808,18 +10089,21 @@
   },
   "ART-0179": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-10T20:06:24.297Z",
-    "language": "English"
+    "_at": "2026-08-11T14:09:54.058Z",
+    "language": "English",
+    "duration": "3"
   },
   "ART-0180": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-10T20:06:24.297Z",
-    "language": "English"
+    "_at": "2026-08-11T14:09:54.058Z",
+    "language": "English",
+    "duration": "3"
   },
   "ART-0181": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-10T20:06:24.297Z",
-    "language": "English"
+    "_at": "2026-08-11T14:09:54.058Z",
+    "language": "English",
+    "duration": "2"
   },
   "ART-0183": {
     "peer_reviewer": "Alyssa Lagasca",
@@ -9829,13 +10113,15 @@
   },
   "ART-0184": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-10T20:06:24.297Z",
-    "language": "English"
+    "_at": "2026-08-11T14:09:54.058Z",
+    "language": "English",
+    "duration": "2"
   },
   "ART-0185": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-10T20:06:24.297Z",
-    "language": "English"
+    "_at": "2026-08-11T14:09:54.058Z",
+    "language": "English",
+    "duration": "2"
   },
   "ART-0186": {
     "peer_reviewer": "Alyssa Lagasca",
@@ -9866,29 +10152,34 @@
   },
   "ART-0195": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-10T20:06:24.297Z",
-    "language": "English"
+    "_at": "2026-08-11T14:09:54.058Z",
+    "language": "English",
+    "duration": "3"
   },
   "ART-0196": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-10T20:06:24.297Z",
-    "language": "English"
+    "_at": "2026-08-11T14:09:54.058Z",
+    "language": "English",
+    "duration": "3"
   },
   "ART-0198": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-10T20:06:24.297Z",
-    "language": "English"
+    "_at": "2026-08-11T14:09:54.058Z",
+    "language": "English",
+    "duration": "2"
   },
   "ART-0201": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "category": "Sleep",
-    "language": "English"
+    "language": "English",
+    "duration": "3"
   },
   "ART-0202": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-10T20:06:24.297Z",
-    "language": "English"
+    "_at": "2026-08-11T14:09:54.058Z",
+    "language": "English",
+    "duration": "3"
   },
   "ART-0203": {
     "peer_reviewer": "Alyssa Lagasca",
@@ -9898,14 +10189,16 @@
   },
   "ART-0204": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-10T20:06:24.297Z",
-    "language": "English"
+    "_at": "2026-08-11T14:09:54.058Z",
+    "language": "English",
+    "duration": "3"
   },
   "ART-0205": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "category": "Sleep",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0211": {
     "peer_reviewer": "Alyssa Lagasca",
@@ -10096,28 +10389,32 @@
   },
   "ALB-0171": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "references": "Centers for Disease Control and Prevention. (2026). Maternal diet and breastfeeding. https://www.cdc.gov/breastfeeding-special-circumstances/hcp/diet-micronutrients/maternal-diet.html\nMayo Clinic. (2025). Breastfeeding nutrition: Tips for moms. https://www.mayoclinic.org/healthy-lifestyle/infant-and-toddler-health/in-depth/breastfeeding-nutrition/art-20046912\nJournal of Family Medicine and Primary Care. (2024). Nutritional experiences of postpartum mothers—a qualitative study. https://pmc.ncbi.nlm.nih.gov/articles/PMC11141956/",
     "teacher": "Alyssa Lagasca",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0172": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Alyssa Lagasca",
-    "type": "Article"
+    "type": "Article",
+    "duration": "3"
   },
   "ALB-0173": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Alyssa Lagasca",
-    "type": "Article"
+    "type": "Article",
+    "duration": "3"
   },
   "ALB-0174": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Alyssa Lagasca",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0175": {
     "peer_reviewer": "Alyssa Lagasca",
@@ -10128,27 +10425,31 @@
   },
   "ALB-0176": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Alyssa Lagasca",
-    "type": "Article"
+    "type": "Article",
+    "duration": "3"
   },
   "ALB-0177": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Alyssa Lagasca",
-    "type": "Article"
+    "type": "Article",
+    "duration": "3"
   },
   "ALB-0178": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Alyssa Lagasca",
-    "type": "Article"
+    "type": "Article",
+    "duration": "3"
   },
   "ALB-0180": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Alyssa Lagasca",
-    "type": "Article"
+    "type": "Article",
+    "duration": "1"
   },
   "ALB-0181": {
     "peer_reviewer": "Alyssa Lagasca",
@@ -10159,15 +10460,17 @@
   },
   "ALB-0182": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Alyssa Lagasca",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0183": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Alyssa Lagasca",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0184": {
     "peer_reviewer": "Alyssa Lagasca",
@@ -10225,9 +10528,10 @@
   },
   "ALB-0191": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Alyssa Lagasca",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0192": {
     "peer_reviewer": "Alyssa Lagasca",
@@ -10239,28 +10543,32 @@
   },
   "ALB-0193": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Alyssa Lagasca",
-    "type": "Article"
+    "type": "Article",
+    "duration": "3"
   },
   "ALB-0194": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Alyssa Lagasca",
-    "type": "Article"
+    "type": "Article",
+    "duration": "3"
   },
   "ALB-0195": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Alyssa Lagasca",
     "references": "American College of Obstetricians and Gynecologists. (2021). Back Pain During Pregnancy. https://www.acog.org/womens-health/faqs/back-pain-during-pregnancy\n\nCleveland Clinic. (2024). Back Pain During Pregnancy: Lower, Causes & Treatment. https://my.clevelandclinic.org/health/symptoms/back-pain-during-pregnancy\n\nCureus. (2023). Effects of Conventional Exercises on Lower Back Pain and/or Pelvic Girdle Pain in Pregnancy: A Systematic Review. https://doi.org/10.7759/cureus.42010",
-    "type": "Article"
+    "type": "Article",
+    "duration": "3"
   },
   "ALB-0196": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Alyssa Lagasca",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0197": {
     "peer_reviewer": "Alyssa Lagasca",
@@ -10279,15 +10587,17 @@
   },
   "ALB-0199": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Alyssa Lagasca",
-    "type": "Article"
+    "type": "Article",
+    "duration": "3"
   },
   "ALB-0200": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Alyssa Lagasca",
-    "type": "Article"
+    "type": "Article",
+    "duration": "3"
   },
   "ALB-0201": {
     "peer_reviewer": "Alyssa Lagasca",
@@ -10298,23 +10608,26 @@
   },
   "ALB-0202": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "references": "Mayo Clinic. (2025). *Sleep apnea*. Retrieved from https://www.mayoclinic.org/diseases-conditions/sleep-apnea\n\nNational Heart, Lung, and Blood Institute. (2025). *What is sleep apnea?* Retrieved from https://www.nhlbi.nih.gov/health/sleep-apnea",
     "teacher": "Alyssa Lagasca",
-    "type": "Article"
+    "type": "Article",
+    "duration": "3"
   },
   "ALB-0203": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "teacher": "Alyssa Lagasca",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0204": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "references": "NIH News in Health. (2021). Good sleep for good health. https://newsinhealth.nih.gov/2021/04/good-sleep-good-health\nNational Heart, Lung, and Blood Institute. (2022). Sleep deprivation and deficiency—healthy sleep habits. https://www.nhlbi.nih.gov/health/sleep-deprivation/healthy-sleep-habits\nCleveland Clinic. (2026). Rest easy: 8 ways to improve your sleep hygiene. https://health.clevelandclinic.org/sleep-hygiene",
     "teacher": "Alyssa Lagasca",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0205": {
     "peer_reviewer": "Alyssa Lagasca",
@@ -10334,17 +10647,19 @@
   },
   "ALB-0207": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "references": "Cleveland Clinic. (2023). Yes, there is such a thing as stress sickness. https://health.clevelandclinic.org/what-happens-when-your-immune-system-gets-stressed-out\nObesity Reviews. (2023). Glucocorticoids, stress and eating: The mediating role of appetite-regulating hormones. https://pmc.ncbi.nlm.nih.gov/articles/PMC10077914/\nFrontiers in Psychology. (2024). The impact of stress on sleep quality: A mediation analysis based on longitudinal data. https://pmc.ncbi.nlm.nih.gov/articles/PMC11532129/",
     "teacher": "Alyssa Lagasca",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0208": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-06T17:13:42.451Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "references": "Cleveland Clinic. (2023). Sleep: What it is, why it's important, stages, REM & NREM. https://my.clevelandclinic.org/health/body/12148-sleep-basics\nJournal of Neuroscience. (2023). Emotional memory processing during REM sleep with implications for post-traumatic stress disorder. https://www.jneurosci.org/content/43/3/433\nNational Heart, Lung, and Blood Institute. (2022). How sleep works—sleep phases and stages. https://www.nhlbi.nih.gov/health/sleep/stages-of-sleep",
     "teacher": "Alyssa Lagasca",
-    "type": "Article"
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0209": {
     "peer_reviewer": "Alyssa Lagasca",
@@ -18831,10 +19146,11 @@
   },
   "ART-0067": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2 min",
-    "language": "English"
+    "duration": "2",
+    "language": "English",
+    "date_created": "02/04/2026"
   },
   "VID-0077": {
     "author": "Dr. Cherilyn Davis",
@@ -21391,9 +21707,9 @@
   },
   "ART-0165": {
     "author": "Natalie Zolotareva",
-    "_at": "2026-08-10T20:33:58.921Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "category": "Women's Health",
-    "duration": "4 min",
+    "duration": "3",
     "language": "English",
     "date_created": "04/10/2026"
   },
@@ -21644,9 +21960,9 @@
   },
   "ALB-0163": {
     "author": "Natalie Zolotareva",
-    "_at": "2026-08-06T17:24:22.202Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "type": "Article",
-    "duration": "4 min"
+    "duration": "3"
   },
   "VID-1368": {
     "author": "Ajani Phillips",
@@ -30968,9 +31284,10 @@
   },
   "ART-0023": {
     "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "language": "English",
-    "peer_reviewer": "Marlee"
+    "peer_reviewer": "Marlee",
+    "duration": "2"
   },
   "ILB-0034": {
     "author": "Diane McNaught",
@@ -31001,13 +31318,14 @@
   },
   "ART-0137": {
     "category": "Vaping & Tobacco",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "author": "Emily Wilson",
     "peer_reviewer": "Marlee Alanis",
     "references": "World Health Organization. (2023). Tobacco cessation. https://www.who.int\nCenters for Disease Control and Prevention. (2022). Quit smoking resources. https://www.cdc.gov\nNational Health Service. (2023). Stop smoking treatments. https://www.nhs.us\n",
     "date_created": "4/10/2026",
     "date_revised": "6/10/2026",
-    "language": "English"
+    "language": "English",
+    "duration": "3"
   },
   "ART-0148": {
     "category": "Vaping & Tobacco",
@@ -31025,9 +31343,10 @@
   },
   "ART-0193": {
     "category": "General",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Alyssa Lagasca",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0221": {
     "category": "Health",
@@ -31045,13 +31364,16 @@
   },
   "ALB-0135": {
     "references": "Centers for Disease Control and Prevention. (2024). 7 common withdrawal symptoms. https://www.cdc.gov/tobacco/campaign/tips/quit-smoking/7-common-withdrawal-symptoms/index.html\nAmerican Lung Association. (2024). What to expect when quitting. https://www.lung.org/quit-smoking/i-want-to-quit/what-to-expect\nJournal of Substance Abuse Treatment. (2022). Characterizing nicotine withdrawal in smokers experiencing homelessness. https://pmc.ncbi.nlm.nih.gov/articles/PMC9167248/",
-    "_at": "2026-08-06T17:13:42.451Z",
-    "type": "Article"
+    "_at": "2026-08-11T14:09:54.058Z",
+    "type": "Article",
+    "date_created": "04/10/2026",
+    "duration": "3"
   },
   "ALB-0145": {
     "references": "World Health Organization. (2024). Tobacco: E-cigarettes. https://www.who.int/news-room/questions-and-answers/item/tobacco-e-cigarettes\nCenters for Disease Control and Prevention. (2025). Health effects of vaping. https://www.cdc.gov/tobacco/e-cigarettes/health-effects.html\nAddiction. (2023). Biomarkers of potential harm in people switching from smoking tobacco to exclusive e-cigarette use, dual use or abstinence: Secondary analysis of Cochrane systematic review of trials of e-cigarettes for smoking cessation. https://pmc.ncbi.nlm.nih.gov/articles/PMC10092879/",
-    "_at": "2026-08-06T17:13:42.451Z",
-    "type": "Article"
+    "_at": "2026-08-11T14:09:54.058Z",
+    "type": "Article",
+    "duration": "2"
   },
   "ALB-0254": {
     "references": "Cleveland Clinic. (2024). Benefits of Reducing your Alcohol Intake. https://newsroom.clevelandclinic.org/2024/04/22/benefits-of-reducing-your-alcohol-intake\n\nMayo Clinic. (2024). Alcohol use: Weighing risks and benefits. https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/alcohol/art-20044551\n\nCenters for Disease Control and Prevention. (2025). About Moderate Alcohol Use. https://www.cdc.gov/alcohol/about-alcohol-use/moderate-alcohol-use.html",
@@ -31284,11 +31606,13 @@
   },
   "ART-0018": {
     "title": "Emotional Symptoms of Depression",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "author": "Hope Zimmerman",
     "author_creds": "Health Studies Contributor",
     "peer_reviewer": "Marlee Alanis",
-    "language": "English"
+    "language": "English",
+    "date_created": "01/05/2025",
+    "duration": "2"
   },
   "VID-0090": {
     "author": "Mercedez Meza",
@@ -31637,10 +31961,11 @@
   },
   "ART-0197": {
     "author": "Alyssa Lagasca",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "author_creds": "PharmD",
     "peer_reviewer": "Alyssa Lagasca",
-    "language": "English"
+    "language": "English",
+    "duration": "3"
   },
   "ART-0219": {
     "title": "Understanding The Long-Term Effects Of GLP-1 Medications For Obesity",
@@ -31680,11 +32005,12 @@
   },
   "ART-0037": {
     "author": "Marlee Alanis",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "author_creds": "Exercise Physiologist",
     "peer_reviewer": "Diane McNaught",
     "language": "English",
-    "duration": "7"
+    "duration": "7",
+    "date_created": "01/15/2026"
   },
   "ART-0055": {
     "author": "Hope Zimmerman",
@@ -31702,31 +32028,34 @@
   },
   "ART-0064": {
     "author": "Hope Zimmerman",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Diane McNaught",
     "date_created": "1/26/2025",
     "review_date": "1/26/2025",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0106": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "author_creds": "",
     "date_created": "2/8/2026",
     "reviewed_by": "Marlee Alanis",
     "review_date": "2/13/2026",
     "peer_reviewer": "Marlee Alanis",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0108": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "author_creds": "",
     "reviewed_by": "Marlee Alanis",
     "date_created": "2/8/2026",
     "review_date": "2/23/2026",
     "peer_reviewer": "Marlee Alanis",
-    "language": "English"
+    "language": "English",
+    "duration": "2"
   },
   "ART-0142": {
     "type": "Video",
@@ -33201,10 +33530,11 @@
   },
   "ART-0071": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "6 min",
-    "language": "English"
+    "duration": "2",
+    "language": "English",
+    "date_created": "02/08/2026"
   },
   "ART-0192": {
     "peer_reviewer": "Alyssa Lagasca",
@@ -33233,8 +33563,9 @@
   },
   "ART-0206": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-10T20:06:24.297Z",
-    "language": "English"
+    "_at": "2026-08-11T14:09:54.058Z",
+    "language": "English",
+    "duration": "2"
   },
   "ART-0207": {
     "peer_reviewer": "Alyssa Lagasca",
@@ -33250,13 +33581,15 @@
   },
   "ART-0209": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-10T20:06:24.297Z",
-    "language": "English"
+    "_at": "2026-08-11T14:09:54.058Z",
+    "language": "English",
+    "duration": "2"
   },
   "ART-0210": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-10T20:06:24.297Z",
-    "language": "English"
+    "_at": "2026-08-11T14:09:54.058Z",
+    "language": "English",
+    "duration": "2"
   },
   "ART-0212": {
     "peer_reviewer": "Emily Wilson",
@@ -35519,11 +35852,12 @@
   },
   "EXT-0124": {
     "type": "Article",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "category": "Sleep",
     "author": "Marlee",
     "peer_reviewer": "Emily",
-    "duration": "2"
+    "duration": "2",
+    "date_created": "06/03/2026"
   },
   "EXT-0125": {
     "type": "Article",
@@ -35534,11 +35868,12 @@
   },
   "EXT-0126": {
     "type": "Article",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "category": "Health",
     "author": "Emily",
     "notes": "We spell wellbeing as one word with no hyphen",
-    "peer_reviewer": "Marlee"
+    "peer_reviewer": "Marlee",
+    "duration": "2"
   },
   "EXT-0127": {
     "type": "Article",
@@ -35568,10 +35903,11 @@
   },
   "EXT-0130": {
     "type": "Article",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "category": "Meditation",
     "author": "? (from blog)",
-    "peer_reviewer": "Madeline"
+    "peer_reviewer": "Madeline",
+    "duration": "2"
   },
   "EXT-0131": {
     "type": "Article",
@@ -35686,10 +36022,11 @@
   },
   "EXT-0145": {
     "type": "Article",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "category": "Meditation",
     "author": "? (from blog)",
-    "peer_reviewer": "Madeline"
+    "peer_reviewer": "Madeline",
+    "duration": "2"
   },
   "EXT-0146": {
     "type": "Article",
@@ -35817,11 +36154,12 @@
   },
   "EXT-0164": {
     "type": "Article",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "duration": "3",
     "category": "Health / Fitness",
     "author": "Marlee",
-    "peer_reviewer": "Emily"
+    "peer_reviewer": "Emily",
+    "date_created": "01/28/2026"
   },
   "EXT-0165": {
     "type": "Article",
@@ -35833,11 +36171,12 @@
   },
   "EXT-0166": {
     "type": "Article",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "category": "Fitness",
     "author": "Marlee",
     "peer_reviewer": "Emily",
-    "duration": "2"
+    "duration": "2",
+    "date_created": "10/25/2023"
   },
   "EXT-0167": {
     "type": "Article",
@@ -37011,10 +37350,11 @@
   },
   "EXT-0394": {
     "type": "Article",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "author": "Marlee",
     "peer_reviewer": "Emily",
-    "duration": "2"
+    "duration": "2",
+    "date_created": "05/27/2025"
   },
   "EXT-0396": {
     "type": "Video",
@@ -38735,11 +39075,12 @@
   },
   "EXT-0860": {
     "type": "Article",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "category": "Social Wellness & Relationships",
     "author": "Marlee",
     "peer_reviewer": "Emily",
-    "duration": "1"
+    "duration": "1",
+    "date_created": "10/24/2023"
   },
   "EXT-0861": {
     "type": "Article",
@@ -38768,12 +39109,13 @@
   },
   "EXT-0866": {
     "type": "Article",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "category": "Yoga & Movement",
     "author": "Marlee",
     "notes": "Last paragraph: enhanced posture- improved posture??",
     "peer_reviewer": "Emily",
-    "duration": "3"
+    "duration": "3",
+    "date_created": "10/24/2023"
   },
   "EXT-0867": {
     "type": "Article",
@@ -38782,11 +39124,12 @@
   },
   "EXT-0868": {
     "type": "Article",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "category": "Yoga & Movement",
     "author": "Marlee",
     "peer_reviewer": "Emily",
-    "duration": "2"
+    "duration": "2",
+    "date_created": "10/23/2023"
   },
   "EXT-0869": {
     "type": "Infographic",
@@ -38891,11 +39234,12 @@
   },
   "EXT-0882": {
     "type": "Article",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "category": "Social Wellness & Relationships / Mental Health",
     "author": "Marlee",
     "peer_reviewer": "Emily",
-    "duration": "3"
+    "duration": "3",
+    "date_created": "10/24/2023"
   },
   "EXT-0883": {
     "type": "Article",
@@ -38949,29 +39293,32 @@
   },
   "EXT-0889": {
     "type": "Article",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "category": "Performance & Positive Thinking / Health",
     "author": "Marlee",
     "peer_reviewer": "Emily",
-    "duration": "3"
+    "duration": "3",
+    "date_created": "11/13/2023"
   },
   "EXT-0890": {
     "type": "Article",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "category": "Social Wellness & Relationships",
     "author": "Marlee",
     "notes": "Citations' - references",
     "peer_reviewer": "Emily",
-    "duration": "2"
+    "duration": "2",
+    "date_created": "11/13/2023"
   },
   "EXT-0891": {
     "type": "Article",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "category": "Social Wellness & Relationships / Mental Health",
     "author": "Marlee",
     "notes": "References",
     "peer_reviewer": "Emily",
-    "duration": "2"
+    "duration": "2",
+    "date_created": "10/24/2023"
   },
   "EXT-0892": {
     "type": "Article",
@@ -39050,39 +39397,44 @@
   },
   "EXT-0902": {
     "type": "Article",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "category": "Workplace Wellness",
     "author": "? (from blog)",
-    "peer_reviewer": "Madeline"
+    "peer_reviewer": "Madeline",
+    "duration": "3"
   },
   "EXT-0903": {
     "type": "Article",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "category": "Workplace Wellness",
     "author": "? (from blog)",
-    "peer_reviewer": "Madeline"
+    "peer_reviewer": "Madeline",
+    "duration": "2"
   },
   "EXT-0904": {
     "type": "Article",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "category": "Emotional Wellness / Workplace Wellness",
     "author": "Marlee",
     "notes": "In the first para. maybe say research has illuminated xyz instead of ilumintaing to make it easier to read",
-    "peer_reviewer": "Madeline"
+    "peer_reviewer": "Madeline",
+    "duration": "2"
   },
   "EXT-0905": {
     "type": "Article",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "category": "Performance",
     "author": "? (from blog)",
-    "peer_reviewer": "Madeline"
+    "peer_reviewer": "Madeline",
+    "duration": "2"
   },
   "EXT-0906": {
     "type": "Article",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "category": "Performance",
     "author": "? (from blog)",
-    "peer_reviewer": "Madeline"
+    "peer_reviewer": "Madeline",
+    "duration": "2"
   },
   "EXT-0907": {
     "type": "Article",
@@ -39546,11 +39898,12 @@
   },
   "EXT-0967": {
     "type": "Article",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "category": "Social Wellness & Relationships",
     "author": "Marlee",
     "peer_reviewer": "Emily",
-    "duration": "3"
+    "duration": "3",
+    "date_created": "10/24/2023"
   },
   "EXT-0968": {
     "type": "Article",
@@ -39651,10 +40004,11 @@
   },
   "EXT-0980": {
     "type": "Article",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "category": "Relationships",
     "author": "? (from blog)",
-    "peer_reviewer": "Madeline"
+    "peer_reviewer": "Madeline",
+    "duration": "2"
   },
   "EXT-0981": {
     "type": "Article",
@@ -40267,17 +40621,19 @@
   },
   "EXT-1066": {
     "type": "Article",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "category": "Nutrition",
     "author": "? (from blog)",
-    "peer_reviewer": "Madeline"
+    "peer_reviewer": "Madeline",
+    "duration": "2"
   },
   "EXT-1067": {
     "type": "Article",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "category": "Mental Health",
     "author": "? (from blog)",
-    "peer_reviewer": "Madeline"
+    "peer_reviewer": "Madeline",
+    "duration": "2"
   },
   "EXT-1068": {
     "type": "Article",
@@ -40289,10 +40645,11 @@
   },
   "EXT-1069": {
     "type": "Article",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "category": "Workplace Wellness/ Performance/ Mental Health",
     "author": "? (from blog)",
-    "peer_reviewer": "Madeline"
+    "peer_reviewer": "Madeline",
+    "duration": "3"
   },
   "EXT-1070": {
     "type": "Article",
@@ -43599,7 +43956,8 @@
   },
   "ART-0147": {
     "language": "English",
-    "_at": "2026-08-10T20:06:24.297Z"
+    "_at": "2026-08-11T14:09:54.058Z",
+    "duration": "2"
   },
   "EXT-1490": {
     "category": "Nutrition",
@@ -43616,17 +43974,19 @@
   },
   "EXT-1492": {
     "category": "Performance/Mental Health",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "language": "English",
     "author": "? (from blog)",
-    "peer_reviewer": "Madeline"
+    "peer_reviewer": "Madeline",
+    "duration": "3"
   },
   "EXT-1493": {
     "category": "Performance/Mental Health",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "language": "English",
     "author": "? (from blog)",
-    "peer_reviewer": "Madeline"
+    "peer_reviewer": "Madeline",
+    "duration": "2"
   },
   "EXT-1494": {
     "category": "Health",
