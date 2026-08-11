@@ -34178,8 +34178,8 @@
     "language": "English"
   },
   "VID-0301": {
-    "author": "Eliot",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "author": "Eliot Goldman",
+    "_at": "2026-08-11T20:31:21.467Z",
     "duration": "5",
     "language": "English"
   },
@@ -52240,9 +52240,10 @@
   },
   "EN-01365": {
     "category": "Personality Clip",
-    "_at": "2026-08-11T20:17:14.145Z",
-    "peer_reviewer": "Eliot",
-    "language": "English"
+    "_at": "2026-08-11T20:31:21.467Z",
+    "peer_reviewer": "Eliot Goldman",
+    "language": "English",
+    "teacher": "Eliot Goldman"
   },
   "FR-00098": {
     "peer_reviewer": "Nathalie Monin Voelker",
