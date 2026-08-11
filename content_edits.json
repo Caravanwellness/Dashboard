@@ -40463,9 +40463,10 @@
   },
   "EXT-0559": {
     "type": "Video",
-    "_at": "2026-08-10T19:51:38.073Z",
-    "peer_reviewer": "Kanwal",
-    "category": "Women's Health"
+    "_at": "2026-08-11T20:30:55.546Z",
+    "peer_reviewer": "Kanwal Haq",
+    "category": "Women's Health",
+    "teacher": "Kanwal Haq"
   },
   "EXT-0561": {
     "type": "Video",
@@ -45207,12 +45208,13 @@
     "duration": "10"
   },
   "EXT-1179": {
-    "peer_reviewer": "Kanwal",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "peer_reviewer": "Kanwal Haq",
+    "_at": "2026-08-11T20:30:55.546Z",
     "category": "Menstrual Cycle & Hormonal Health",
     "language": "English",
     "author": "Kanwal",
-    "duration": "5"
+    "duration": "5",
+    "teacher": "Kanwal Haq"
   },
   "EXT-1180": {
     "peer_reviewer": "Carol",
@@ -51844,8 +51846,9 @@
   },
   "EN-00575": {
     "category": "Personality Clip",
-    "_at": "2026-08-10T19:51:38.073Z",
-    "peer_reviewer": "Kanwal"
+    "_at": "2026-08-11T20:30:55.546Z",
+    "peer_reviewer": "Kanwal Haq",
+    "teacher": "Kanwal Haq"
   },
   "EN-00586": {
     "category": "Personality Clip",
