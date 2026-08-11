@@ -38367,9 +38367,10 @@
   },
   "HI-00024": {
     "type": "Video",
-    "_at": "2026-08-07T16:57:01.689Z",
+    "_at": "2026-08-11T20:58:25.574Z",
     "duration": "3 min",
-    "peer_reviewer": "Veera"
+    "peer_reviewer": "Veera Mookerjee",
+    "teacher": "Veera Mookerjee"
   },
   "ES-00025": {
     "type": "Video",
@@ -44753,10 +44754,10 @@
     "peer_reviewer": "Sweta Srivastava Vikram"
   },
   "EXT-1265": {
-    "teacher": "Veera",
-    "_at": "2026-08-07T16:57:01.689Z",
+    "teacher": "Veera Mookerjee",
+    "_at": "2026-08-11T20:58:25.574Z",
     "duration": "5 min",
-    "peer_reviewer": "Veera"
+    "peer_reviewer": "Veera Mookerjee"
   },
   "EXT-1266": {
     "teacher": "Isabel Kirsch",
@@ -50019,8 +50020,9 @@
     "author": "Truike"
   },
   "HI-00027": {
-    "peer_reviewer": "Veera",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Veera Mookerjee",
+    "_at": "2026-08-11T20:58:25.574Z",
+    "teacher": "Veera Mookerjee"
   },
   "HI-00009": {
     "peer_reviewer": "Pallavi Mohoni",
@@ -50283,8 +50285,9 @@
     "author": "Mercedes"
   },
   "HI-00025": {
-    "peer_reviewer": "Veera",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Veera Mookerjee",
+    "_at": "2026-08-11T20:58:25.574Z",
+    "teacher": "Veera Mookerjee"
   },
   "EN-01734": {
     "peer_reviewer": "Sadiya Shackey-El",
@@ -50545,13 +50548,15 @@
   },
   "HI-00028": {
     "category": "Personality Clip",
-    "_at": "2026-08-10T19:51:38.073Z",
-    "peer_reviewer": "Veera"
+    "_at": "2026-08-11T20:58:25.574Z",
+    "peer_reviewer": "Veera Mookerjee",
+    "teacher": "Veera Mookerjee"
   },
   "HI-00029": {
     "category": "Personality Clip",
-    "_at": "2026-08-10T19:51:38.073Z",
-    "peer_reviewer": "Veera"
+    "_at": "2026-08-11T20:58:25.574Z",
+    "peer_reviewer": "Veera Mookerjee",
+    "teacher": "Veera Mookerjee"
   },
   "EN-01887": {
     "peer_reviewer": "Crystal Williams",
@@ -52328,10 +52333,11 @@
     "author": "Christina"
   },
   "HI-00023": {
-    "peer_reviewer": "Veera",
-    "_at": "2026-08-11T20:17:14.145Z",
+    "peer_reviewer": "Veera Mookerjee",
+    "_at": "2026-08-11T20:58:25.574Z",
     "author": "Nadia",
-    "duration": "3"
+    "duration": "3",
+    "teacher": "Veera Mookerjee"
   },
   "AR-00010": {
     "peer_reviewer": "Dr. Hassan Nagy",
@@ -52754,10 +52760,11 @@
     "teacher": "Sweta Srivastava Vikram"
   },
   "HI-00026": {
-    "peer_reviewer": "Veera",
-    "_at": "2026-08-11T20:17:14.145Z",
+    "peer_reviewer": "Veera Mookerjee",
+    "_at": "2026-08-11T20:58:25.574Z",
     "author": "N/A",
-    "duration": "2"
+    "duration": "2",
+    "teacher": "Veera Mookerjee"
   },
   "ES-00047": {
     "peer_reviewer": "Oscar Rodriguez",
