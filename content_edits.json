@@ -38795,8 +38795,9 @@
   },
   "DE-00056": {
     "type": "Video",
-    "_at": "2026-08-07T16:57:01.689Z",
-    "peer_reviewer": "Isabel"
+    "_at": "2026-08-11T20:24:17.579Z",
+    "peer_reviewer": "Isabel Kirsch",
+    "teacher": "Isabel Kirsch"
   },
   "JA-00005": {
     "type": "Video",
@@ -38844,8 +38845,9 @@
   },
   "DE-00054": {
     "type": "Video",
-    "_at": "2026-08-07T16:57:01.689Z",
-    "peer_reviewer": "Isabel"
+    "_at": "2026-08-11T20:24:17.579Z",
+    "peer_reviewer": "Isabel Kirsch",
+    "teacher": "Isabel Kirsch"
   },
   "PL-00011": {
     "type": "Video",
@@ -39049,9 +39051,10 @@
   },
   "DE-00055": {
     "type": "Video",
-    "_at": "2026-08-07T16:57:01.689Z",
+    "_at": "2026-08-11T20:24:17.579Z",
     "duration": "12 min",
-    "peer_reviewer": "Isabel"
+    "peer_reviewer": "Isabel Kirsch",
+    "teacher": "Isabel Kirsch"
   },
   "FR-00026": {
     "type": "Video",
@@ -39142,8 +39145,9 @@
   },
   "DE-00057": {
     "type": "Video",
-    "_at": "2026-08-07T16:57:01.689Z",
-    "peer_reviewer": "Isabel"
+    "_at": "2026-08-11T20:24:17.579Z",
+    "peer_reviewer": "Isabel Kirsch",
+    "teacher": "Isabel Kirsch"
   },
   "YUE-00005": {
     "type": "Video",
@@ -39184,8 +39188,9 @@
   },
   "DE-00050": {
     "type": "Video",
-    "_at": "2026-08-07T16:57:01.689Z",
-    "peer_reviewer": "Isabel"
+    "_at": "2026-08-11T20:24:17.579Z",
+    "peer_reviewer": "Isabel Kirsch",
+    "teacher": "Isabel Kirsch"
   },
   "ZH-00032": {
     "type": "Video",
@@ -39268,8 +39273,9 @@
   },
   "EXT-0354": {
     "type": "Video",
-    "_at": "2026-08-07T16:57:01.689Z",
-    "peer_reviewer": "Isabel"
+    "_at": "2026-08-11T20:24:17.579Z",
+    "peer_reviewer": "Isabel Kirsch",
+    "teacher": "Isabel Kirsch"
   },
   "NL-00030": {
     "type": "Video",
@@ -44656,10 +44662,10 @@
     "peer_reviewer": "Veera"
   },
   "EXT-1266": {
-    "teacher": "Isabel",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "teacher": "Isabel Kirsch",
+    "_at": "2026-08-11T20:24:17.579Z",
     "duration": "5",
-    "peer_reviewer": "Isabel",
+    "peer_reviewer": "Isabel Kirsch",
     "language": "English"
   },
   "EXT-1267": {
@@ -48887,8 +48893,9 @@
     "teacher": "Manon Hallay"
   },
   "DE-00049": {
-    "peer_reviewer": "Isabel",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Isabel Kirsch",
+    "_at": "2026-08-11T20:24:17.579Z",
+    "teacher": "Isabel Kirsch"
   },
   "FR-00036": {
     "peer_reviewer": "Manon Hallay",
@@ -49266,8 +49273,9 @@
     "teacher": "Pallavi Mohoni"
   },
   "DE-00053": {
-    "peer_reviewer": "Isabel",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Isabel Kirsch",
+    "_at": "2026-08-11T20:24:17.579Z",
+    "teacher": "Isabel Kirsch"
   },
   "PT-00015": {
     "peer_reviewer": "Mila Toribio",
@@ -49396,8 +49404,9 @@
     "teacher": "Dr. Hassan Nagy"
   },
   "DE-00051": {
-    "peer_reviewer": "Isabel",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Isabel Kirsch",
+    "_at": "2026-08-11T20:24:17.579Z",
+    "teacher": "Isabel Kirsch"
   },
   "FR-00078": {
     "peer_reviewer": "Margaux de Noiron",
@@ -51956,8 +51965,9 @@
     "teacher": "Angéline Galinier-Warrain"
   },
   "DE-00058": {
-    "peer_reviewer": "Isabel",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Isabel Kirsch",
+    "_at": "2026-08-11T20:24:17.579Z",
+    "teacher": "Isabel Kirsch"
   },
   "ES-00088": {
     "peer_reviewer": "Eneida Farro",
@@ -52381,9 +52391,10 @@
     "language": "English"
   },
   "DE-00052": {
-    "peer_reviewer": "Isabel",
-    "_at": "2026-08-11T20:17:14.145Z",
-    "author": "Christina"
+    "peer_reviewer": "Isabel Kirsch",
+    "_at": "2026-08-11T20:24:17.579Z",
+    "author": "Christina",
+    "teacher": "Isabel Kirsch"
   },
   "EN-00104": {
     "peer_reviewer": "Veronica",
