@@ -31384,9 +31384,9 @@
   },
   "ART-0148": {
     "category": "Vaping & Tobacco",
-    "_at": "2026-08-11T18:56:46.910Z",
+    "_at": "2026-08-06T17:24:22.202Z",
     "type": "Video",
-    "author": "Dr. David Sanchez",
+    "author": "Dr. David",
     "duration": "3 min"
   },
   "ART-0187": {
@@ -32118,8 +32118,8 @@
   },
   "ART-0142": {
     "type": "Video",
-    "_at": "2026-08-11T18:56:46.910Z",
-    "author": "Dr. David Sanchez",
+    "_at": "2026-08-06T17:24:22.202Z",
+    "author": "Dr. David",
     "duration": "2 min"
   },
   "INF-0015": {
@@ -47315,8 +47315,9 @@
   },
   "EN-01054": {
     "category": "Personality Clip",
-    "_at": "2026-08-10T19:51:38.073Z",
-    "peer_reviewer": "Dr. Brian"
+    "_at": "2026-08-11T18:57:02.440Z",
+    "peer_reviewer": "Dr. Brian Glassman",
+    "teacher": "Dr. Brian Glassman"
   },
   "EN-01088": {
     "peer_reviewer": "Margo",
