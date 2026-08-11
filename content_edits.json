@@ -32264,8 +32264,8 @@
     "duration": "3 min"
   },
   "VID-0373": {
-    "author": "Kaitlyn",
-    "_at": "2026-08-04T23:24:32.016Z"
+    "author": "Kaitlyn Bruneau",
+    "_at": "2026-08-11T18:51:12.931Z"
   },
   "VID-0347": {
     "author": "Dr. David Rosen",
@@ -36410,17 +36410,19 @@
   },
   "EXT-0187": {
     "type": "Video",
-    "_at": "2026-08-10T19:51:38.073Z",
+    "_at": "2026-08-11T18:51:12.931Z",
     "duration": "0 min",
-    "peer_reviewer": "Kaitlyn",
-    "category": "Mental Health"
+    "peer_reviewer": "Kaitlyn Bruneau",
+    "category": "Mental Health",
+    "teacher": "Kaitlyn Bruneau"
   },
   "EXT-0188": {
     "type": "Video",
-    "_at": "2026-08-10T19:51:38.073Z",
+    "_at": "2026-08-11T18:51:12.931Z",
     "duration": "5 min",
-    "peer_reviewer": "Kaitlyn",
-    "category": "Workplace Wellness"
+    "peer_reviewer": "Kaitlyn Bruneau",
+    "category": "Workplace Wellness",
+    "teacher": "Kaitlyn Bruneau"
   },
   "EXT-0189": {
     "type": "Video",
@@ -37708,8 +37710,9 @@
   },
   "EXT-0463": {
     "type": "Video",
-    "_at": "2026-08-07T16:57:01.689Z",
-    "peer_reviewer": "Kaitlyn"
+    "_at": "2026-08-11T18:51:12.931Z",
+    "peer_reviewer": "Kaitlyn Bruneau",
+    "teacher": "Kaitlyn Bruneau"
   },
   "EXT-0464": {
     "type": "Video",
@@ -37724,9 +37727,10 @@
   },
   "EXT-0466": {
     "type": "Video",
-    "_at": "2026-08-07T16:57:01.689Z",
+    "_at": "2026-08-11T18:51:12.931Z",
     "duration": "6 min",
-    "peer_reviewer": "Kaitlyn"
+    "peer_reviewer": "Kaitlyn Bruneau",
+    "teacher": "Kaitlyn Bruneau"
   },
   "EXT-0467": {
     "type": "Video",
@@ -37772,24 +37776,21 @@
   },
   "EXT-0474": {
     "type": "Video",
-    "_at": "2026-08-11T18:50:58.632Z",
-    "peer_reviewer": "Julia Chan",
-    "category": "Strength Training",
-    "teacher": "Julia Chan"
+    "_at": "2026-08-10T19:51:38.073Z",
+    "peer_reviewer": "Julia",
+    "category": "Strength Training"
   },
   "EXT-0475": {
     "type": "Video",
-    "_at": "2026-08-11T18:50:58.632Z",
-    "peer_reviewer": "Julia Chan",
-    "category": "Strength Training",
-    "teacher": "Julia Chan"
+    "_at": "2026-08-10T19:51:38.073Z",
+    "peer_reviewer": "Julia",
+    "category": "Strength Training"
   },
   "EXT-0476": {
     "type": "Video",
-    "_at": "2026-08-11T18:50:58.632Z",
-    "peer_reviewer": "Julia Chan",
-    "category": "Strength Training",
-    "teacher": "Julia Chan"
+    "_at": "2026-08-10T19:51:38.073Z",
+    "peer_reviewer": "Julia",
+    "category": "Strength Training"
   },
   "EXT-0477": {
     "type": "Video",
@@ -38620,10 +38621,9 @@
   },
   "EXT-0623": {
     "type": "Video",
-    "_at": "2026-08-11T18:50:58.632Z",
-    "peer_reviewer": "Julia Chan",
-    "category": "Strength Training",
-    "teacher": "Julia Chan"
+    "_at": "2026-08-10T19:51:38.073Z",
+    "peer_reviewer": "Julia",
+    "category": "Strength Training"
   },
   "EXT-0625": {
     "type": "Video",
@@ -42892,16 +42892,14 @@
     "category": "Strength Training"
   },
   "EXT-1200": {
-    "peer_reviewer": "Julia Chan",
-    "_at": "2026-08-11T18:50:58.632Z",
-    "category": "Strength Training",
-    "teacher": "Julia Chan"
+    "peer_reviewer": "Julia",
+    "_at": "2026-08-10T19:51:38.073Z",
+    "category": "Strength Training"
   },
   "EXT-1201": {
-    "peer_reviewer": "Julia Chan",
-    "_at": "2026-08-11T18:50:58.632Z",
-    "category": "Strength Training",
-    "teacher": "Julia Chan"
+    "peer_reviewer": "Julia",
+    "_at": "2026-08-10T19:51:38.073Z",
+    "category": "Strength Training"
   },
   "EXT-1202": {
     "peer_reviewer": "Sadiya",
@@ -42994,15 +42992,13 @@
     "category": "Dance & Zumba"
   },
   "EXT-1221": {
-    "peer_reviewer": "Julia Chan",
-    "_at": "2026-08-11T18:50:58.632Z",
-    "teacher": "Julia Chan"
+    "peer_reviewer": "Julia",
+    "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1222": {
-    "peer_reviewer": "Julia Chan",
-    "_at": "2026-08-11T18:50:58.632Z",
-    "category": "Sleep",
-    "teacher": "Julia Chan"
+    "peer_reviewer": "Julia",
+    "_at": "2026-08-10T19:51:38.073Z",
+    "category": "Sleep"
   },
   "EXT-1223": {
     "peer_reviewer": "Danyelle",
@@ -43276,8 +43272,9 @@
     "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1329": {
-    "peer_reviewer": "Kaitlyn",
-    "_at": "2026-08-07T16:57:01.689Z"
+    "peer_reviewer": "Kaitlyn Bruneau",
+    "_at": "2026-08-11T18:51:12.931Z",
+    "teacher": "Kaitlyn Bruneau"
   },
   "EXT-1330": {
     "peer_reviewer": "Thai",
@@ -43320,12 +43317,14 @@
     "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1340": {
-    "peer_reviewer": "Kaitlyn",
-    "_at": "2026-08-07T16:57:01.689Z"
+    "peer_reviewer": "Kaitlyn Bruneau",
+    "_at": "2026-08-11T18:51:12.931Z",
+    "teacher": "Kaitlyn Bruneau"
   },
   "EXT-1341": {
-    "peer_reviewer": "Kaitlyn",
-    "_at": "2026-08-07T16:57:01.689Z"
+    "peer_reviewer": "Kaitlyn Bruneau",
+    "_at": "2026-08-11T18:51:12.931Z",
+    "teacher": "Kaitlyn Bruneau"
   },
   "EXT-1342": {
     "peer_reviewer": "Dr. Julia",
@@ -43352,8 +43351,9 @@
     "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1348": {
-    "peer_reviewer": "Kaitlyn",
-    "_at": "2026-08-07T16:57:01.689Z"
+    "peer_reviewer": "Kaitlyn Bruneau",
+    "_at": "2026-08-11T18:51:12.931Z",
+    "teacher": "Kaitlyn Bruneau"
   },
   "EXT-1349": {
     "peer_reviewer": "Nazirber",
@@ -43452,20 +43452,24 @@
     "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1373": {
-    "peer_reviewer": "Kaitlyn",
-    "_at": "2026-08-07T16:57:01.689Z"
+    "peer_reviewer": "Kaitlyn Bruneau",
+    "_at": "2026-08-11T18:51:12.931Z",
+    "teacher": "Kaitlyn Bruneau"
   },
   "EXT-1374": {
-    "peer_reviewer": "Kaitlyn",
-    "_at": "2026-08-07T16:57:01.689Z"
+    "peer_reviewer": "Kaitlyn Bruneau",
+    "_at": "2026-08-11T18:51:12.931Z",
+    "teacher": "Kaitlyn Bruneau"
   },
   "EXT-1375": {
-    "peer_reviewer": "Kaitlyn",
-    "_at": "2026-08-07T16:57:01.689Z"
+    "peer_reviewer": "Kaitlyn Bruneau",
+    "_at": "2026-08-11T18:51:12.931Z",
+    "teacher": "Kaitlyn Bruneau"
   },
   "EXT-1376": {
-    "peer_reviewer": "Kaitlyn",
-    "_at": "2026-08-07T16:57:01.689Z"
+    "peer_reviewer": "Kaitlyn Bruneau",
+    "_at": "2026-08-11T18:51:12.931Z",
+    "teacher": "Kaitlyn Bruneau"
   },
   "EXT-1377": {
     "peer_reviewer": "Cherilyn",
@@ -43492,8 +43496,9 @@
     "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1383": {
-    "peer_reviewer": "Kaitlyn",
-    "_at": "2026-08-07T16:57:01.689Z"
+    "peer_reviewer": "Kaitlyn Bruneau",
+    "_at": "2026-08-11T18:51:12.931Z",
+    "teacher": "Kaitlyn Bruneau"
   },
   "EXT-1384": {
     "peer_reviewer": "Victor",
@@ -43684,8 +43689,9 @@
     "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1431": {
-    "peer_reviewer": "Kaitlyn",
-    "_at": "2026-08-07T16:57:01.689Z"
+    "peer_reviewer": "Kaitlyn Bruneau",
+    "_at": "2026-08-11T18:51:12.931Z",
+    "teacher": "Kaitlyn Bruneau"
   },
   "EXT-1432": {
     "peer_reviewer": "Nazirber",
@@ -46503,8 +46509,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "EN-01842": {
-    "peer_reviewer": "Kaitlyn",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Kaitlyn Bruneau",
+    "_at": "2026-08-11T18:51:12.931Z",
+    "teacher": "Kaitlyn Bruneau"
   },
   "IT-00018": {
     "peer_reviewer": "Ilaria",
@@ -47281,8 +47288,9 @@
   },
   "EN-00884": {
     "category": "Personality Clip",
-    "_at": "2026-08-10T19:51:38.073Z",
-    "peer_reviewer": "Kaitlyn"
+    "_at": "2026-08-11T18:51:12.931Z",
+    "peer_reviewer": "Kaitlyn Bruneau",
+    "teacher": "Kaitlyn Bruneau"
   },
   "EN-00935": {
     "category": "Personality Clip",
