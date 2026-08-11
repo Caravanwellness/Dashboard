@@ -40426,11 +40426,12 @@
   },
   "EXT-0553": {
     "type": "Video",
-    "_at": "2026-08-11T20:11:02.822Z",
-    "peer_reviewer": "Julius",
+    "_at": "2026-08-11T20:36:13.087Z",
+    "peer_reviewer": "Julius Betila",
     "category": "Emotional Wellness",
     "author": "Julius",
-    "duration": "5"
+    "duration": "5",
+    "teacher": "Julius Betila"
   },
   "EXT-0554": {
     "type": "Video",
