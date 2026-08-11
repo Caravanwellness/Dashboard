@@ -2543,12 +2543,12 @@
   },
   "ALB-0146": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-11T18:47:40.896Z",
+    "_at": "2026-08-11T14:15:30.879Z",
     "references": "U.S. Food and Drug Administration. (2026). Chemicals in tobacco products and your health. https://www.fda.gov/tobacco-products/health-effects-tobacco-use/chemicals-tobacco-products-and-your-health\nCenters for Disease Control and Prevention. (2024). About e-cigarettes (vapes). https://www.cdc.gov/tobacco/e-cigarettes/about.html\nEnvironmental Health Perspectives. (2023). Metal concentrations in e-cigarette aerosol samples: A comparison by device type and flavor. https://pmc.ncbi.nlm.nih.gov/articles/PMC10695266/",
     "teacher": "Diane McNaught",
     "type": "Article",
     "duration": "2",
-    "author": "Madeline McGuire",
+    "author": "Madeline",
     "date_created": "10/06/2025",
     "link": "https://docs.google.com/document/d/11sTBSgOGs7gQt1ESywmICl7brIU6OMvcQXw2ynhdWkg/edit?usp=sharing"
   },
@@ -35974,10 +35974,10 @@
   },
   "EXT-0130": {
     "type": "Article",
-    "_at": "2026-08-11T18:47:40.896Z",
+    "_at": "2026-08-11T14:15:30.879Z",
     "category": "Meditation",
     "author": "? (from blog)",
-    "peer_reviewer": "Madeline McGuire",
+    "peer_reviewer": "Madeline",
     "duration": "2",
     "link": "https://docs.google.com/document/d/1mc3B2uKSDBjppVBTGEiL6uqQ6Cq8aYvyaeG06XnKbII/edit?usp=sharing"
   },
@@ -36009,8 +36009,8 @@
   },
   "EXT-0134": {
     "type": "Article",
-    "_at": "2026-08-11T18:47:40.896Z",
-    "author": "Madeline McGuire",
+    "_at": "2026-08-11T14:15:30.879Z",
+    "author": "Madeline",
     "peer_reviewer": "Marlee",
     "category": "Mental Health",
     "link": "https://docs.google.com/document/d/1NF4vjomSXSC__XqCa8DbB9QR6onoFI5B-Dy0IWMCBUs/edit?usp=sharing"
@@ -36102,10 +36102,10 @@
   },
   "EXT-0145": {
     "type": "Article",
-    "_at": "2026-08-11T18:47:40.896Z",
+    "_at": "2026-08-11T14:15:30.879Z",
     "category": "Meditation",
     "author": "? (from blog)",
-    "peer_reviewer": "Madeline McGuire",
+    "peer_reviewer": "Madeline",
     "duration": "2",
     "link": "https://docs.google.com/document/d/1Dj9HtFJhqAczqbLDGjP7GagrRy1UOILKtNPGiHTweWo/edit?usp=sharing"
   },
@@ -36195,10 +36195,10 @@
   },
   "EXT-0158": {
     "type": "Article",
-    "_at": "2026-08-11T18:47:40.896Z",
+    "_at": "2026-08-11T14:15:30.879Z",
     "category": "Performance",
     "author": "? (from blog)",
-    "peer_reviewer": "Madeline McGuire",
+    "peer_reviewer": "Madeline",
     "link": "https://docs.google.com/document/d/1clbiYoMO8_8zV1dWQbMv4uNl7nuMaYhaduxPNRmnCSE/edit?usp=sharing"
   },
   "EXT-0159": {
@@ -36356,10 +36356,10 @@
   },
   "EXT-0179": {
     "type": "Article",
-    "_at": "2026-08-11T18:47:40.896Z",
+    "_at": "2026-08-11T14:15:30.879Z",
     "duration": "5",
     "category": "Nutrition/Sleep",
-    "author": "Madeline McGuire",
+    "author": "Madeline",
     "peer_reviewer": "Marlee",
     "link": "https://docs.google.com/document/d/1L8VIjj9iuq0MuMo55jMcUL1pIaNuSgXbtCdaydpAKoY/edit?usp=sharing"
   },
@@ -37802,9 +37802,10 @@
   },
   "EXT-0479": {
     "type": "Video",
-    "_at": "2026-08-10T19:51:38.073Z",
-    "peer_reviewer": "Thai",
-    "category": "Meditation"
+    "_at": "2026-08-11T18:47:55.892Z",
+    "peer_reviewer": "Thai James",
+    "category": "Meditation",
+    "teacher": "Thai James"
   },
   "EXT-0480": {
     "type": "Video",
@@ -38611,9 +38612,10 @@
   },
   "EXT-0620": {
     "type": "Video",
-    "_at": "2026-08-10T19:51:38.073Z",
-    "peer_reviewer": "Thai",
-    "category": "Yoga"
+    "_at": "2026-08-11T18:47:55.892Z",
+    "peer_reviewer": "Thai James",
+    "category": "Yoga",
+    "teacher": "Thai James"
   },
   "EXT-0623": {
     "type": "Video",
@@ -39536,46 +39538,46 @@
   },
   "EXT-0902": {
     "type": "Article",
-    "_at": "2026-08-11T18:47:40.896Z",
+    "_at": "2026-08-11T14:15:30.879Z",
     "category": "Workplace Wellness",
     "author": "? (from blog)",
-    "peer_reviewer": "Madeline McGuire",
+    "peer_reviewer": "Madeline",
     "duration": "3",
     "link": "https://docs.google.com/document/d/18s-jW7a6DxagxHf9Vf3efp9AbM4CjSwo9OBtJ1RG2xs/edit?usp=sharing"
   },
   "EXT-0903": {
     "type": "Article",
-    "_at": "2026-08-11T18:47:40.896Z",
+    "_at": "2026-08-11T14:15:30.879Z",
     "category": "Workplace Wellness",
     "author": "? (from blog)",
-    "peer_reviewer": "Madeline McGuire",
+    "peer_reviewer": "Madeline",
     "duration": "2",
     "link": "https://docs.google.com/document/d/1BkO9bruojetAnLugaLXmL0lFnnqdywMXJB4N-83mhrM/edit?usp=sharing"
   },
   "EXT-0904": {
     "type": "Article",
-    "_at": "2026-08-11T18:47:40.896Z",
+    "_at": "2026-08-11T14:09:54.058Z",
     "category": "Emotional Wellness / Workplace Wellness",
     "author": "Marlee",
     "notes": "In the first para. maybe say research has illuminated xyz instead of ilumintaing to make it easier to read",
-    "peer_reviewer": "Madeline McGuire",
+    "peer_reviewer": "Madeline",
     "duration": "2"
   },
   "EXT-0905": {
     "type": "Article",
-    "_at": "2026-08-11T18:47:40.896Z",
+    "_at": "2026-08-11T14:15:30.879Z",
     "category": "Performance",
     "author": "? (from blog)",
-    "peer_reviewer": "Madeline McGuire",
+    "peer_reviewer": "Madeline",
     "duration": "2",
     "link": "https://docs.google.com/document/d/1DfzeS_FOg_vSA08RGpwZaLIeCEL7zgdkPR05czAVoKM/edit?usp=sharing"
   },
   "EXT-0906": {
     "type": "Article",
-    "_at": "2026-08-11T18:47:40.896Z",
+    "_at": "2026-08-11T14:15:30.879Z",
     "category": "Performance",
     "author": "? (from blog)",
-    "peer_reviewer": "Madeline McGuire",
+    "peer_reviewer": "Madeline",
     "duration": "2",
     "link": "https://docs.google.com/document/d/1ForqWc3L0bvw5ErQ4YHdDJtZpWYeaDkCNqMXnHlxn6Q/edit?usp=sharing"
   },
@@ -39757,9 +39759,9 @@
   },
   "EXT-0928": {
     "type": "Article",
-    "_at": "2026-08-11T18:47:40.896Z",
+    "_at": "2026-08-11T14:15:30.879Z",
     "category": "Health",
-    "author": "Madeline McGuire",
+    "author": "Madeline",
     "peer_reviewer": "Marlee",
     "link": "https://docs.google.com/document/d/1p3_fhFD1uUD1rxJ1vS6Yx-4AXghGvPAsz8G-1zabFe4/edit?usp=sharing"
   },
@@ -40179,10 +40181,10 @@
   },
   "EXT-0980": {
     "type": "Article",
-    "_at": "2026-08-11T18:47:40.896Z",
+    "_at": "2026-08-11T14:15:30.879Z",
     "category": "Relationships",
     "author": "? (from blog)",
-    "peer_reviewer": "Madeline McGuire",
+    "peer_reviewer": "Madeline",
     "duration": "2",
     "link": "https://docs.google.com/document/d/1Z7JBjjgFXrJT1vMhcDgLxNVngeFr6kSoANXcrB08vn0/edit?usp=sharing"
   },
@@ -40464,9 +40466,9 @@
   },
   "EXT-1016": {
     "type": "Article",
-    "_at": "2026-08-11T18:47:40.896Z",
+    "_at": "2026-08-11T14:15:30.879Z",
     "category": "Health",
-    "author": "Madeline McGuire",
+    "author": "Madeline",
     "peer_reviewer": "Marlee",
     "link": "https://docs.google.com/document/d/1LKuLoL54y8bC1R0sXoUiRx0lLjulXDLNrUwLHm5WIvE/edit?usp=sharing"
   },
@@ -40519,16 +40521,16 @@
   },
   "EXT-1025": {
     "type": "Article",
-    "_at": "2026-08-11T18:47:40.896Z",
-    "author": "Madeline McGuire",
+    "_at": "2026-08-11T14:15:30.879Z",
+    "author": "Madeline",
     "peer_reviewer": "Marlee",
     "category": "Mental Health",
     "link": "https://docs.google.com/document/d/1eYqGp8Uhd1TH7SLMT2WXr_saxhJYf6900ibqVshITYA/edit?usp=sharing"
   },
   "EXT-1026": {
     "type": "Article",
-    "_at": "2026-08-11T18:47:40.896Z",
-    "author": "Madeline McGuire",
+    "_at": "2026-08-11T14:15:30.879Z",
+    "author": "Madeline",
     "peer_reviewer": "Marlee",
     "category": "Mental Health",
     "link": "https://docs.google.com/document/d/1a9GcyFze7Brc9BfsLCupQuu6BpUy4H9YdzWLRlkhBko/edit?usp=sharing"
@@ -40540,24 +40542,24 @@
   },
   "EXT-1028": {
     "type": "Article",
-    "_at": "2026-08-11T18:47:40.896Z",
-    "author": "Madeline McGuire",
+    "_at": "2026-08-11T14:15:30.879Z",
+    "author": "Madeline",
     "peer_reviewer": "Marlee",
     "category": "Sleep",
     "link": "https://docs.google.com/document/d/1XcQAYxUtYemy1e9pPlLKkM2h3TKNpX6cGITZubcbivE/edit?usp=sharing"
   },
   "EXT-1029": {
     "type": "Article",
-    "_at": "2026-08-11T18:47:40.896Z",
-    "author": "Madeline McGuire",
+    "_at": "2026-08-11T14:15:30.879Z",
+    "author": "Madeline",
     "peer_reviewer": "Marlee",
     "category": "Mindful Aging",
     "link": "https://docs.google.com/document/d/1IIAqPodhexL0xbDJgPOghQkZtzeWmjMrFIF0qhaYDcY/edit?usp=sharing"
   },
   "EXT-1030": {
     "type": "Article",
-    "_at": "2026-08-11T18:47:40.896Z",
-    "author": "Madeline McGuire",
+    "_at": "2026-08-11T14:15:30.879Z",
+    "author": "Madeline",
     "peer_reviewer": "Marlee",
     "category": "Mindful Aging",
     "link": "https://docs.google.com/document/d/1HiNXtY2zGyjuvjrjY-l7x6bDF7tOpfgyarXKcuRMbdw/edit?usp=sharing"
@@ -40730,8 +40732,8 @@
   },
   "EXT-1051": {
     "type": "Article",
-    "_at": "2026-08-11T18:47:40.896Z",
-    "author": "Madeline McGuire",
+    "_at": "2026-08-11T14:15:30.879Z",
+    "author": "Madeline",
     "peer_reviewer": "Marlee",
     "category": "Health Screenings",
     "link": "https://docs.google.com/document/d/1ERYXsX8iVqAkSG1vfWh59VE4gGn9XF0qiUuXeFRz0m4/edit?usp=sharing"
@@ -40861,19 +40863,19 @@
   },
   "EXT-1066": {
     "type": "Article",
-    "_at": "2026-08-11T18:47:40.896Z",
+    "_at": "2026-08-11T14:15:30.879Z",
     "category": "Nutrition",
     "author": "? (from blog)",
-    "peer_reviewer": "Madeline McGuire",
+    "peer_reviewer": "Madeline",
     "duration": "2",
     "link": "https://docs.google.com/document/d/1Fht5nXKJplQaCkkgVzLF9DjncJpL1tgyq7XdZgrt02g/edit?usp=sharing"
   },
   "EXT-1067": {
     "type": "Article",
-    "_at": "2026-08-11T18:47:40.896Z",
+    "_at": "2026-08-11T14:15:30.879Z",
     "category": "Mental Health",
     "author": "? (from blog)",
-    "peer_reviewer": "Madeline McGuire",
+    "peer_reviewer": "Madeline",
     "duration": "2",
     "link": "https://docs.google.com/document/d/1PEIt3OH-Sq4C4-_2BaeKiegCQgDrlyx4lCOiZJvLWXA/edit?usp=sharing"
   },
@@ -40888,10 +40890,10 @@
   },
   "EXT-1069": {
     "type": "Article",
-    "_at": "2026-08-11T18:47:40.896Z",
+    "_at": "2026-08-11T14:15:30.879Z",
     "category": "Workplace Wellness/ Performance/ Mental Health",
     "author": "? (from blog)",
-    "peer_reviewer": "Madeline McGuire",
+    "peer_reviewer": "Madeline",
     "duration": "3",
     "link": "https://docs.google.com/document/d/1Cw921tiHOKCLWa6UEJiVXbWBH8v3GodRb0iVrap9124/edit?usp=sharing"
   },
@@ -41039,18 +41041,18 @@
   },
   "EXT-1087": {
     "type": "Article",
-    "_at": "2026-08-11T18:47:40.896Z",
+    "_at": "2026-08-10T20:06:24.297Z",
     "category": "Health",
     "author": "Marlee",
-    "peer_reviewer": "Madeline McGuire",
+    "peer_reviewer": "Madeline",
     "duration": "2"
   },
   "EXT-1088": {
     "type": "Article",
-    "_at": "2026-08-11T18:47:40.896Z",
+    "_at": "2026-08-10T20:06:24.297Z",
     "category": "Health",
     "author": "Marlee",
-    "peer_reviewer": "Madeline McGuire",
+    "peer_reviewer": "Madeline",
     "duration": "3"
   },
   "EXT-1089": {
@@ -43272,8 +43274,9 @@
     "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1330": {
-    "peer_reviewer": "Thai",
-    "_at": "2026-08-07T16:57:01.689Z"
+    "peer_reviewer": "Thai James",
+    "_at": "2026-08-11T18:47:55.892Z",
+    "teacher": "Thai James"
   },
   "EXT-1331": {
     "peer_reviewer": "Enja",
@@ -43304,8 +43307,9 @@
     "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1338": {
-    "peer_reviewer": "Thai",
-    "_at": "2026-08-07T16:57:01.689Z"
+    "peer_reviewer": "Thai James",
+    "_at": "2026-08-11T18:47:55.892Z",
+    "teacher": "Thai James"
   },
   "EXT-1339": {
     "peer_reviewer": "Leonaura",
@@ -43340,8 +43344,9 @@
     "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1347": {
-    "peer_reviewer": "Thai",
-    "_at": "2026-08-07T16:57:01.689Z"
+    "peer_reviewer": "Thai James",
+    "_at": "2026-08-11T18:47:55.892Z",
+    "teacher": "Thai James"
   },
   "EXT-1348": {
     "peer_reviewer": "Kaitlyn",
@@ -43436,8 +43441,9 @@
     "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1371": {
-    "peer_reviewer": "Thai",
-    "_at": "2026-08-07T16:57:01.689Z"
+    "peer_reviewer": "Thai James",
+    "_at": "2026-08-11T18:47:55.892Z",
+    "teacher": "Thai James"
   },
   "EXT-1372": {
     "peer_reviewer": "Dr. Joe",
@@ -43624,12 +43630,14 @@
     "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1418": {
-    "peer_reviewer": "Thai",
-    "_at": "2026-08-07T16:57:01.689Z"
+    "peer_reviewer": "Thai James",
+    "_at": "2026-08-11T18:47:55.892Z",
+    "teacher": "Thai James"
   },
   "EXT-1419": {
-    "peer_reviewer": "Thai",
-    "_at": "2026-08-07T16:57:01.689Z"
+    "peer_reviewer": "Thai James",
+    "_at": "2026-08-11T18:47:55.892Z",
+    "teacher": "Thai James"
   },
   "EXT-1420": {
     "peer_reviewer": "Candice",
@@ -43660,16 +43668,19 @@
     "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1427": {
-    "peer_reviewer": "Thai",
-    "_at": "2026-08-07T16:57:01.689Z"
+    "peer_reviewer": "Thai James",
+    "_at": "2026-08-11T18:47:55.892Z",
+    "teacher": "Thai James"
   },
   "EXT-1428": {
-    "peer_reviewer": "Thai",
-    "_at": "2026-08-07T16:57:01.689Z"
+    "peer_reviewer": "Thai James",
+    "_at": "2026-08-11T18:47:55.892Z",
+    "teacher": "Thai James"
   },
   "EXT-1429": {
-    "peer_reviewer": "Thai",
-    "_at": "2026-08-07T16:57:01.689Z"
+    "peer_reviewer": "Thai James",
+    "_at": "2026-08-11T18:47:55.892Z",
+    "teacher": "Thai James"
   },
   "EXT-1430": {
     "peer_reviewer": "Jiva",
@@ -44239,19 +44250,19 @@
   },
   "EXT-1492": {
     "category": "Performance/Mental Health",
-    "_at": "2026-08-11T18:47:40.896Z",
+    "_at": "2026-08-11T14:15:30.879Z",
     "language": "English",
     "author": "? (from blog)",
-    "peer_reviewer": "Madeline McGuire",
+    "peer_reviewer": "Madeline",
     "duration": "3",
     "link": "https://docs.google.com/document/d/14iH-agKON1vbRmbzdnKVkcL3jluh53df7HSAl-CGevg/edit?usp=sharing"
   },
   "EXT-1493": {
     "category": "Performance/Mental Health",
-    "_at": "2026-08-11T18:47:40.896Z",
+    "_at": "2026-08-11T14:15:30.879Z",
     "language": "English",
     "author": "? (from blog)",
-    "peer_reviewer": "Madeline McGuire",
+    "peer_reviewer": "Madeline",
     "duration": "2",
     "link": "https://docs.google.com/document/d/1Gs4R-8a5AfqCY9roCrCnnzB1T_NwadEtiAYEKdKbY_Q/edit?usp=sharing"
   },
@@ -46813,8 +46824,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "EN-00862": {
-    "peer_reviewer": "Thai",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Thai James",
+    "_at": "2026-08-11T18:47:55.892Z",
+    "teacher": "Thai James"
   },
   "EN-01598": {
     "peer_reviewer": "Leonaura",
