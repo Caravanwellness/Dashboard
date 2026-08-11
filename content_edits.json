@@ -39443,9 +39443,10 @@
   },
   "EXT-0380": {
     "type": "Video",
-    "_at": "2026-08-07T16:57:01.689Z",
+    "_at": "2026-08-11T20:28:29.870Z",
     "duration": "10 min",
-    "peer_reviewer": "Steven"
+    "peer_reviewer": "Steven Rousseau",
+    "teacher": "Steven Rousseau"
   },
   "EXT-0381": {
     "type": "Article",
@@ -39840,9 +39841,10 @@
   },
   "EXT-0472": {
     "type": "Video",
-    "_at": "2026-08-10T19:51:38.073Z",
-    "peer_reviewer": "Steven",
-    "category": "Stretching"
+    "_at": "2026-08-11T20:28:29.870Z",
+    "peer_reviewer": "Steven Rousseau",
+    "category": "Stretching",
+    "teacher": "Steven Rousseau"
   },
   "EXT-0473": {
     "type": "Video",
@@ -49045,9 +49047,10 @@
     "language": "English"
   },
   "EN-00371": {
-    "peer_reviewer": "Steven",
-    "_at": "2026-08-11T20:17:14.145Z",
-    "language": "English"
+    "peer_reviewer": "Steven Rousseau",
+    "_at": "2026-08-11T20:28:29.870Z",
+    "language": "English",
+    "teacher": "Steven Rousseau"
   },
   "IT-00009": {
     "peer_reviewer": "Ilaria Chiantore",
@@ -49360,10 +49363,11 @@
     "author": "Dr Joe"
   },
   "EN-00393": {
-    "peer_reviewer": "Steven",
-    "_at": "2026-08-11T20:17:14.145Z",
+    "peer_reviewer": "Steven Rousseau",
+    "_at": "2026-08-11T20:28:29.870Z",
     "language": "English",
-    "author": "Steven"
+    "author": "Steven",
+    "teacher": "Steven Rousseau"
   },
   "TH-00009": {
     "peer_reviewer": "Nathaorn",
@@ -52419,9 +52423,10 @@
     "duration": "15"
   },
   "EN-00369": {
-    "peer_reviewer": "Steven",
-    "_at": "2026-08-11T20:17:14.145Z",
-    "language": "English"
+    "peer_reviewer": "Steven Rousseau",
+    "_at": "2026-08-11T20:28:29.870Z",
+    "language": "English",
+    "teacher": "Steven Rousseau"
   },
   "EN-00197": {
     "peer_reviewer": "Allie",
