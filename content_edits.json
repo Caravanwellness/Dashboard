@@ -153,8 +153,8 @@
     "peer_reviewer": "Dr. Julia Iafrate"
   },
   "VID-0403": {
-    "author": "Gisele",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "author": "Gisele Espin",
+    "_at": "2026-08-11T20:36:27.668Z",
     "duration": "5",
     "language": "English"
   },
@@ -5226,7 +5226,7 @@
   },
   "EN-00927": {
     "author": "Dr. Joe Feuerstein",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-11T20:36:27.668Z",
     "licenses": [
       "The Difference Card"
     ],
@@ -5234,7 +5234,8 @@
     "duration": "10",
     "language": "English",
     "type": "Video",
-    "peer_reviewer": "Gisele"
+    "peer_reviewer": "Gisele Espin",
+    "teacher": "Gisele Espin"
   },
   "EN-01097": {
     "teacher": "Dr. Joe Feuerstein",
@@ -29847,54 +29848,56 @@
     "duration": "5"
   },
   "VID-0167": {
-    "author": "Gisele",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "author": "Gisele Espin",
+    "_at": "2026-08-11T20:36:27.668Z",
     "duration": "10",
     "language": "English"
   },
   "VID-0168": {
-    "author": "Gisele",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "author": "Gisele Espin",
+    "_at": "2026-08-11T20:36:27.668Z",
     "duration": "5",
     "language": "English"
   },
   "VID-0169": {
-    "author": "Gisele",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "author": "Gisele Espin",
+    "_at": "2026-08-11T20:36:27.668Z",
     "duration": "5",
     "language": "English"
   },
   "VID-0180": {
-    "author": "Gisele",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "author": "Gisele Espin",
+    "_at": "2026-08-11T20:36:27.668Z",
     "duration": "5",
     "language": "English"
   },
   "VID-0396": {
-    "author": "Gisele",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "author": "Gisele Espin",
+    "_at": "2026-08-11T20:36:27.668Z",
     "duration": "10",
     "language": "English"
   },
   "EN-00604": {
-    "author": "Gisele",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "author": "Gisele Espin",
+    "_at": "2026-08-11T20:36:27.668Z",
     "duration": "5",
     "language": "English",
     "type": "Video",
-    "peer_reviewer": "Gisele"
+    "peer_reviewer": "Gisele Espin",
+    "teacher": "Gisele Espin"
   },
   "EN-00905": {
-    "author": "Gisele",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "author": "Gisele Espin",
+    "_at": "2026-08-11T20:36:27.668Z",
     "duration": "10",
     "language": "English",
     "type": "Video",
-    "peer_reviewer": "Gisele"
+    "peer_reviewer": "Gisele Espin",
+    "teacher": "Gisele Espin"
   },
   "EN-00906": {
-    "author": "Gisele",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "author": "Gisele Espin",
+    "_at": "2026-08-11T20:36:27.668Z",
     "licenses": [
       "Wellsort"
     ],
@@ -29902,26 +29905,29 @@
     "duration": "5",
     "language": "English",
     "type": "Video",
-    "peer_reviewer": "Gisele"
+    "peer_reviewer": "Gisele Espin",
+    "teacher": "Gisele Espin"
   },
   "EN-00908": {
-    "author": "Gisele",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "author": "Gisele Espin",
+    "_at": "2026-08-11T20:36:27.668Z",
     "duration": "5",
     "language": "English",
     "type": "Video",
-    "peer_reviewer": "Gisele"
+    "peer_reviewer": "Gisele Espin",
+    "teacher": "Gisele Espin"
   },
   "EN-00929": {
-    "author": "Gisele",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "author": "Gisele Espin",
+    "_at": "2026-08-11T20:36:27.668Z",
     "duration": "10",
     "language": "English",
     "licenses": [
       "YuLife"
     ],
     "type": "Video",
-    "peer_reviewer": "Gisele"
+    "peer_reviewer": "Gisele Espin",
+    "teacher": "Gisele Espin"
   },
   "VID-0912": {
     "author": "Kanwal Haq",
@@ -33623,46 +33629,57 @@
   },
   "EN-00778": {
     "duration": "3",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-11T20:36:27.668Z",
     "language": "English",
     "type": "Video",
-    "peer_reviewer": "Gisele"
+    "peer_reviewer": "Gisele Espin",
+    "author": "Gisele Espin",
+    "teacher": "Gisele Espin"
   },
   "EN-00779": {
     "duration": "10",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-11T20:36:27.668Z",
     "language": "English",
     "type": "Video",
-    "peer_reviewer": "Gisele"
+    "peer_reviewer": "Gisele Espin",
+    "author": "Gisele Espin",
+    "teacher": "Gisele Espin"
   },
   "EN-00780": {
     "duration": "10",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-11T20:36:27.668Z",
     "language": "English",
     "type": "Video",
-    "peer_reviewer": "Gisele"
+    "peer_reviewer": "Gisele Espin",
+    "author": "Gisele Espin",
+    "teacher": "Gisele Espin"
   },
   "EN-00781": {
     "duration": "5",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-11T20:36:27.668Z",
     "language": "English",
     "type": "Video",
-    "peer_reviewer": "Gisele"
+    "peer_reviewer": "Gisele Espin",
+    "author": "Gisele Espin",
+    "teacher": "Gisele Espin"
   },
   "EN-00907": {
     "duration": "5",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-11T20:36:27.668Z",
     "language": "English",
     "type": "Video",
-    "peer_reviewer": "Gisele",
-    "author": "Gisele"
+    "peer_reviewer": "Gisele Espin",
+    "author": "Gisele",
+    "teacher": "Gisele Espin"
   },
   "EN-00928": {
     "duration": "10",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-11T20:36:27.668Z",
     "language": "English",
     "type": "Video",
-    "peer_reviewer": "Gisele"
+    "peer_reviewer": "Gisele Espin",
+    "author": "Gisele Espin",
+    "teacher": "Gisele Espin"
   },
   "EN-01349": {
     "language": "English",
@@ -43946,13 +43963,15 @@
   },
   "VID-1039": {
     "duration": "10",
-    "_at": "2026-08-11T20:11:02.822Z",
-    "language": "English"
+    "_at": "2026-08-11T20:36:27.668Z",
+    "language": "English",
+    "author": "Gisele Espin"
   },
   "VID-1040": {
     "duration": "10",
-    "_at": "2026-08-11T20:11:02.822Z",
-    "language": "English"
+    "_at": "2026-08-11T20:36:27.668Z",
+    "language": "English",
+    "author": "Gisele Espin"
   },
   "VID-1048": {
     "duration": "15",
@@ -43968,8 +43987,9 @@
   },
   "VID-1146": {
     "duration": "10",
-    "_at": "2026-08-11T20:11:02.822Z",
-    "language": "English"
+    "_at": "2026-08-11T20:36:27.668Z",
+    "language": "English",
+    "author": "Gisele Espin"
   },
   "VID-1443": {
     "duration": "1 min",
@@ -50441,8 +50461,9 @@
     "author": "Anthony"
   },
   "PT-00054": {
-    "peer_reviewer": "Gisele",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Gisele Espin",
+    "_at": "2026-08-11T20:36:27.668Z",
+    "teacher": "Gisele Espin"
   },
   "ES-00125": {
     "peer_reviewer": "Ana Gaston",
@@ -50605,8 +50626,9 @@
     "teacher": "Victor Pereira Sanchez"
   },
   "PT-00051": {
-    "peer_reviewer": "Gisele",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Gisele Espin",
+    "_at": "2026-08-11T20:36:27.668Z",
+    "teacher": "Gisele Espin"
   },
   "NL-00003": {
     "peer_reviewer": "Anna-Belle Buyse",
@@ -50985,8 +51007,9 @@
     "author": "Sharisse"
   },
   "PT-00053": {
-    "peer_reviewer": "Gisele",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Gisele Espin",
+    "_at": "2026-08-11T20:36:27.668Z",
+    "teacher": "Gisele Espin"
   },
   "EN-01891": {
     "peer_reviewer": "Mercedez Meza",
@@ -51053,8 +51076,9 @@
     "duration": "5"
   },
   "PT-00055": {
-    "peer_reviewer": "Gisele",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Gisele Espin",
+    "_at": "2026-08-11T20:36:27.668Z",
+    "teacher": "Gisele Espin"
   },
   "EN-01764": {
     "peer_reviewer": "Dr. David Sanchez",
@@ -51687,8 +51711,9 @@
     "teacher": "Oscar Rodriguez"
   },
   "PT-00052": {
-    "peer_reviewer": "Gisele",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Gisele Espin",
+    "_at": "2026-08-11T20:36:27.668Z",
+    "teacher": "Gisele Espin"
   },
   "AR-00040": {
     "peer_reviewer": "Nada Doueiry",
@@ -51917,8 +51942,9 @@
   },
   "EN-00782": {
     "category": "Personality Clip",
-    "_at": "2026-08-10T19:51:38.073Z",
-    "peer_reviewer": "Gisele"
+    "_at": "2026-08-11T20:36:27.668Z",
+    "peer_reviewer": "Gisele Espin",
+    "teacher": "Gisele Espin"
   },
   "EN-00815": {
     "category": "Personality Clip",
@@ -52799,13 +52825,15 @@
   },
   "VID-1038": {
     "language": "English",
-    "_at": "2026-08-11T20:11:02.822Z",
-    "duration": "3"
+    "_at": "2026-08-11T20:36:27.668Z",
+    "duration": "3",
+    "author": "Gisele Espin"
   },
   "VID-1041": {
     "language": "English",
-    "_at": "2026-08-11T20:11:02.822Z",
-    "duration": "5"
+    "_at": "2026-08-11T20:36:27.668Z",
+    "duration": "5",
+    "author": "Gisele Espin"
   },
   "VID-1444": {
     "language": "English",
