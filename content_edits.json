@@ -35956,9 +35956,9 @@
   },
   "EXT-0128": {
     "type": "Article",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T18:46:28.215Z",
     "category": "Relationships / Mental Health",
-    "author": "Jade",
+    "author": "Jade Gordon",
     "peer_reviewer": "Marlee",
     "duration": "3"
   },
@@ -35983,9 +35983,9 @@
   },
   "EXT-0131": {
     "type": "Article",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T18:46:28.215Z",
     "category": "Mental Health",
-    "author": "Jade",
+    "author": "Jade Gordon",
     "peer_reviewer": "Marlee",
     "duration": "3"
   },
@@ -36025,9 +36025,9 @@
   },
   "EXT-0136": {
     "type": "Article",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T18:46:28.215Z",
     "category": "Fitness",
-    "author": "Jade",
+    "author": "Jade Gordon",
     "peer_reviewer": "Marlee",
     "duration": "2"
   },
@@ -36066,9 +36066,9 @@
   },
   "EXT-0141": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:46:28.215Z",
     "author": "Marlee",
-    "peer_reviewer": "Jade",
+    "peer_reviewer": "Jade Gordon",
     "category": "Health / Mental Health",
     "link": "https://docs.google.com/document/d/1HYCDd1UiJvL-_mLbdGQiFP7QN1ULLOl9tQcaWmypcrw/edit?usp=sharing"
   },
@@ -36093,9 +36093,9 @@
   },
   "EXT-0144": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:46:28.215Z",
     "category": "Mental Health",
-    "author": "Jade",
+    "author": "Jade Gordon",
     "peer_reviewer": "Marlee",
     "duration": "2",
     "link": "https://docs.google.com/document/d/1_v-EpPxrSzrD5cveygNQBwIruf-aKSiFpZbFCMNoK5I/edit?usp=sharing"
@@ -37643,10 +37643,9 @@
   },
   "EXT-0447": {
     "type": "Video",
-    "_at": "2026-08-11T18:46:09.769Z",
+    "_at": "2026-08-07T16:57:01.689Z",
     "duration": "3 min",
-    "peer_reviewer": "Dr. Joe Feuerstein",
-    "teacher": "Dr. Joe Feuerstein"
+    "peer_reviewer": "Dr. Joe"
   },
   "EXT-0448": {
     "type": "Video",
@@ -37980,10 +37979,9 @@
   },
   "EXT-0508": {
     "type": "Video",
-    "_at": "2026-08-11T18:46:09.769Z",
-    "peer_reviewer": "Dr. Joe Feuerstein",
-    "category": "Health",
-    "teacher": "Dr. Joe Feuerstein"
+    "_at": "2026-08-10T19:51:38.073Z",
+    "peer_reviewer": "Dr. Joe",
+    "category": "Health"
   },
   "IT-00001": {
     "type": "Video",
@@ -38305,10 +38303,9 @@
   },
   "EXT-0562": {
     "type": "Video",
-    "_at": "2026-08-11T18:46:09.769Z",
-    "peer_reviewer": "Dr. Joe Feuerstein",
-    "category": "Cancer",
-    "teacher": "Dr. Joe Feuerstein"
+    "_at": "2026-08-10T19:51:38.073Z",
+    "peer_reviewer": "Dr. Joe",
+    "category": "Cancer"
   },
   "EXT-0566": {
     "type": "Video",
@@ -38657,26 +38654,23 @@
   },
   "EXT-0630": {
     "type": "Video",
-    "_at": "2026-08-11T18:46:09.769Z",
-    "peer_reviewer": "Dr. Joe Feuerstein",
-    "category": "Cancer",
-    "teacher": "Dr. Joe Feuerstein"
+    "_at": "2026-08-10T19:51:38.073Z",
+    "peer_reviewer": "Dr. Joe",
+    "category": "Cancer"
   },
   "EXT-0631": {
     "type": "Video",
-    "_at": "2026-08-11T18:46:09.769Z",
+    "_at": "2026-08-10T19:51:38.073Z",
     "duration": "4 min",
-    "peer_reviewer": "Dr. Joe Feuerstein",
-    "category": "Vaping & Tobacco",
-    "teacher": "Dr. Joe Feuerstein"
+    "peer_reviewer": "Dr. Joe",
+    "category": "Vaping & Tobacco"
   },
   "EXT-0632": {
     "type": "Video",
-    "_at": "2026-08-11T18:46:09.769Z",
+    "_at": "2026-08-10T19:51:38.073Z",
     "duration": "3 min",
-    "peer_reviewer": "Dr. Joe Feuerstein",
-    "category": "Diabetes",
-    "teacher": "Dr. Joe Feuerstein"
+    "peer_reviewer": "Dr. Joe",
+    "category": "Diabetes"
   },
   "EXT-0633": {
     "type": "Video",
@@ -39374,10 +39368,10 @@
   },
   "EXT-0883": {
     "type": "Article",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T18:46:28.215Z",
     "duration": "2",
     "category": "Workplace Wellness",
-    "author": "Jade",
+    "author": "Jade Gordon",
     "peer_reviewer": "Marlee"
   },
   "EXT-0884": {
@@ -39502,41 +39496,41 @@
   },
   "EXT-0897": {
     "type": "Article",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T18:46:28.215Z",
     "duration": "3",
     "category": "Financial Wellness",
-    "author": "Jade",
+    "author": "Jade Gordon",
     "peer_reviewer": "Marlee"
   },
   "EXT-0898": {
     "type": "Article",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T18:46:28.215Z",
     "category": "Workplace Wellness",
-    "author": "Jade",
+    "author": "Jade Gordon",
     "peer_reviewer": "Marlee",
     "duration": "2"
   },
   "EXT-0899": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:46:28.215Z",
     "author": "Marlee",
-    "peer_reviewer": "Jade",
+    "peer_reviewer": "Jade Gordon",
     "category": "Workplace Wellness",
     "link": "https://docs.google.com/document/d/1SiFiTj8Qza6mXX-hN0G8ZlbIynDiB23ZH-RTAnz3VIY/edit?usp=sharing"
   },
   "EXT-0900": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:46:28.215Z",
     "author": "Marlee",
-    "peer_reviewer": "Jade",
+    "peer_reviewer": "Jade Gordon",
     "category": "Workplace Wellness/ Performance/ Mental Health",
     "link": "https://docs.google.com/document/d/139w8vXmjfQeMiuyijAdCUlyX4rjAjRJZ4SB6bSskZSQ/edit?usp=sharing"
   },
   "EXT-0901": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:46:28.215Z",
     "author": "Marlee",
-    "peer_reviewer": "Jade",
+    "peer_reviewer": "Jade Gordon",
     "category": "Workplace Wellness",
     "link": "https://docs.google.com/document/d/1dzKyhsF9eraqbuk3FUAgjw1NjvMM5aIRUbgZYKCutKI/edit?usp=sharing"
   },
@@ -39587,18 +39581,18 @@
   },
   "EXT-0907": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:46:28.215Z",
     "category": "Workplace Wellness / Relationships",
-    "author": "Jade",
+    "author": "Jade Gordon",
     "peer_reviewer": "Marlee",
     "duration": "2",
     "link": "https://docs.google.com/document/d/16mbHWyEQCiln4WlmXp3gnatpmzpiiWi5IU4rMBR4cM4/edit?usp=sharing"
   },
   "EXT-0908": {
     "type": "Article",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T18:46:28.215Z",
     "category": "Workplace Wellness",
-    "author": "Jade",
+    "author": "Jade Gordon",
     "peer_reviewer": "Marlee",
     "duration": "2"
   },
@@ -39673,17 +39667,17 @@
   },
   "EXT-0917": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:46:28.215Z",
     "author": "Marlee",
-    "peer_reviewer": "Jade",
+    "peer_reviewer": "Jade Gordon",
     "category": "Mindfulness",
     "link": "https://docs.google.com/document/d/1n0K2Xc230lQf7WZT4dpnDD1xbKSMWuBcZ3GqEPo-dho/edit?usp=sharing"
   },
   "EXT-0918": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:46:28.215Z",
     "author": "Marlee",
-    "peer_reviewer": "Jade",
+    "peer_reviewer": "Jade Gordon",
     "category": "Mindfulness",
     "link": "https://docs.google.com/document/d/1RQUUc1_Gel5i8VS9FpI2z6ebhyyL3vEW45Gc4MDwr7E/edit?usp=sharing"
   },
@@ -39712,10 +39706,10 @@
   },
   "EXT-0922": {
     "type": "Article",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T18:46:28.215Z",
     "duration": "2",
     "category": "Health",
-    "author": "Jade",
+    "author": "Jade Gordon",
     "peer_reviewer": "Marlee"
   },
   "EXT-0923": {
@@ -39729,17 +39723,17 @@
   },
   "EXT-0924": {
     "type": "Article",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T18:46:28.215Z",
     "category": "Health",
-    "author": "Jade",
+    "author": "Jade Gordon",
     "peer_reviewer": "Marlee",
     "duration": "2"
   },
   "EXT-0925": {
     "type": "Article",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T18:46:28.215Z",
     "category": "Health",
-    "author": "Jade",
+    "author": "Jade Gordon",
     "peer_reviewer": "Marlee",
     "duration": "2"
   },
@@ -39771,18 +39765,18 @@
   },
   "EXT-0929": {
     "type": "Article",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T18:46:28.215Z",
     "category": "Health",
-    "author": "Jade",
+    "author": "Jade Gordon",
     "peer_reviewer": "Marlee",
     "duration": "2"
   },
   "EXT-0930": {
     "type": "Article",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T18:46:28.215Z",
     "duration": "2",
     "category": "Health",
-    "author": "Jade",
+    "author": "Jade Gordon",
     "peer_reviewer": "Marlee"
   },
   "EXT-0931": {
@@ -39876,9 +39870,9 @@
   },
   "EXT-0943": {
     "type": "Article",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T18:46:28.215Z",
     "category": "Meditation",
-    "author": "Jade",
+    "author": "Jade Gordon",
     "peer_reviewer": "Marlee",
     "duration": "3"
   },
@@ -39893,9 +39887,9 @@
   },
   "EXT-0945": {
     "type": "Article",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T18:46:28.215Z",
     "category": "Health, Performance and Positive Thinking",
-    "author": "Jade",
+    "author": "Jade Gordon",
     "peer_reviewer": "Marlee",
     "duration": "3"
   },
@@ -40160,9 +40154,9 @@
   },
   "EXT-0977": {
     "type": "Article",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T18:46:28.215Z",
     "category": "Workplace Wellness / Performance & Positive Thinking",
-    "author": "Jade",
+    "author": "Jade Gordon",
     "peer_reviewer": "Marlee",
     "duration": "2"
   },
@@ -40219,25 +40213,25 @@
   },
   "EXT-0984": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:46:28.215Z",
     "author": "Marlee",
-    "peer_reviewer": "Jade",
+    "peer_reviewer": "Jade Gordon",
     "category": "Mindfulness",
     "link": "https://docs.google.com/document/d/1qAt7XMnGe_1OA5GRRRCcwDVxqsRvRu5W-QOWW_U320s/edit?usp=sharing"
   },
   "EXT-0985": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:46:28.215Z",
     "author": "Marlee",
-    "peer_reviewer": "Jade",
+    "peer_reviewer": "Jade Gordon",
     "category": "Managing Spending & Saving",
     "link": "https://docs.google.com/document/d/1J4rno_NfosAhr5UrTos5AkmHN2wpnCw7o0hYVh3iqik/edit?usp=sharing"
   },
   "EXT-0986": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:46:28.215Z",
     "author": "Marlee",
-    "peer_reviewer": "Jade",
+    "peer_reviewer": "Jade Gordon",
     "category": "Emotional Wellness",
     "link": "https://docs.google.com/document/d/1EVCjk5oXhxH878f_m7DUVoJP1n7BNNZu2lQNWsZsQic/edit?usp=sharing"
   },
@@ -40251,9 +40245,9 @@
   },
   "EXT-0988": {
     "type": "Article",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T18:46:28.215Z",
     "category": "Social Wellness & Relationships",
-    "author": "Jade",
+    "author": "Jade Gordon",
     "peer_reviewer": "Marlee",
     "duration": "3"
   },
@@ -40268,9 +40262,9 @@
   },
   "EXT-0990": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:46:28.215Z",
     "author": "Marlee",
-    "peer_reviewer": "Jade",
+    "peer_reviewer": "Jade Gordon",
     "category": "Mental Health",
     "link": "https://docs.google.com/document/d/1Zo4NDPYJ1aNVXoS1Cmw_a-LBhwhWythMXQ0z0TOw1gc/edit?usp=sharing"
   },
@@ -40580,9 +40574,9 @@
   },
   "EXT-1032": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:46:28.215Z",
     "author": "Marlee",
-    "peer_reviewer": "Jade",
+    "peer_reviewer": "Jade Gordon",
     "category": "Health / Mental Health",
     "link": "https://docs.google.com/document/d/1Gg9xb4Qa8TIIAhR2lMM8XeftWhTERcDHOUXicsUsh08/edit?usp=sharing"
   },
@@ -40762,25 +40756,25 @@
   },
   "EXT-1054": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:46:28.215Z",
     "author": "Marlee",
-    "peer_reviewer": "Jade",
+    "peer_reviewer": "Jade Gordon",
     "category": "Parenting",
     "link": "https://docs.google.com/document/d/1iTgW79RDnSjnGp2JvlwypP_j0XuCflwZyN8qR281C_E/edit?usp=sharing"
   },
   "EXT-1055": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:46:28.215Z",
     "author": "Marlee",
-    "peer_reviewer": "Jade",
+    "peer_reviewer": "Jade Gordon",
     "category": "Social Wellness & Relationships",
     "link": "https://docs.google.com/document/d/15CHIqEfghvWKdOLm9VfWDoGV83RDNgvqw18bfRHGTsA/edit?usp=sharing"
   },
   "EXT-1056": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:46:28.215Z",
     "author": "Marlee",
-    "peer_reviewer": "Jade",
+    "peer_reviewer": "Jade Gordon",
     "category": "Social Wellness & Relationships",
     "link": "https://docs.google.com/document/d/1cbHN7bCvIFyQGHZeXDT2WTNGZz66wVX1p77NchCvm0U/edit?usp=sharing"
   },
@@ -40989,58 +40983,58 @@
   },
   "EXT-1080": {
     "type": "Article",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T18:46:28.215Z",
     "category": "Performance & Positive Thinking / Mental Health",
-    "author": "Jade",
+    "author": "Jade Gordon",
     "peer_reviewer": "Marlee",
     "duration": "3"
   },
   "EXT-1081": {
     "type": "Article",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T18:46:28.215Z",
     "category": "Health",
-    "author": "Jade",
+    "author": "Jade Gordon",
     "peer_reviewer": "Marlee",
     "duration": "3"
   },
   "EXT-1082": {
     "type": "Article",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T18:46:28.215Z",
     "duration": "2",
     "category": "Yoga / Health",
-    "author": "Jade",
+    "author": "Jade Gordon",
     "peer_reviewer": "Marlee"
   },
   "EXT-1083": {
     "type": "Article",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T18:46:28.215Z",
     "category": "Nutrition",
-    "author": "Jade",
+    "author": "Jade Gordon",
     "peer_reviewer": "Marlee",
     "duration": "3"
   },
   "EXT-1084": {
     "type": "Article",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T18:46:28.215Z",
     "category": "Health",
-    "author": "Jade",
+    "author": "Jade Gordon",
     "peer_reviewer": "Marlee",
     "duration": "2"
   },
   "EXT-1085": {
     "type": "Article",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T18:46:28.215Z",
     "category": "Workplace Wellness / Relationships",
-    "author": "Jade",
+    "author": "Jade Gordon",
     "peer_reviewer": "Marlee",
     "duration": "1"
   },
   "EXT-1086": {
     "type": "Article",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T18:46:28.215Z",
     "duration": "3",
     "category": "Nutrition",
-    "author": "Jade",
+    "author": "Jade Gordon",
     "peer_reviewer": "Marlee"
   },
   "EXT-1087": {
@@ -43034,28 +43028,24 @@
     "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1230": {
-    "peer_reviewer": "Dr. Joe Feuerstein",
-    "_at": "2026-08-11T18:46:09.769Z",
-    "teacher": "Dr. Joe Feuerstein"
+    "peer_reviewer": "Dr. Joe",
+    "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1231": {
-    "peer_reviewer": "Dr. Joe Feuerstein",
-    "_at": "2026-08-11T18:46:09.769Z",
-    "teacher": "Dr. Joe Feuerstein"
+    "peer_reviewer": "Dr. Joe",
+    "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1232": {
     "peer_reviewer": "Linda",
     "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1233": {
-    "peer_reviewer": "Dr. Joe Feuerstein",
-    "_at": "2026-08-11T18:46:09.769Z",
-    "teacher": "Dr. Joe Feuerstein"
+    "peer_reviewer": "Dr. Joe",
+    "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1234": {
-    "peer_reviewer": "Dr. Joe Feuerstein",
-    "_at": "2026-08-11T18:46:09.769Z",
-    "teacher": "Dr. Joe Feuerstein"
+    "peer_reviewer": "Dr. Joe",
+    "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1235": {
     "peer_reviewer": "Sadiya",
@@ -43306,9 +43296,8 @@
     "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1336": {
-    "peer_reviewer": "Dr. Joe Feuerstein",
-    "_at": "2026-08-11T18:46:09.769Z",
-    "teacher": "Dr. Joe Feuerstein"
+    "peer_reviewer": "Dr. Joe",
+    "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1337": {
     "peer_reviewer": "Dr. Julia",
@@ -43387,9 +43376,8 @@
     "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1356": {
-    "peer_reviewer": "Dr. Joe Feuerstein",
-    "_at": "2026-08-11T18:46:09.769Z",
-    "teacher": "Dr. Joe Feuerstein"
+    "peer_reviewer": "Dr. Joe",
+    "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1357": {
     "peer_reviewer": "Naz",
@@ -43444,18 +43432,16 @@
     "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1370": {
-    "peer_reviewer": "Dr. Joe Feuerstein",
-    "_at": "2026-08-11T18:46:09.769Z",
-    "teacher": "Dr. Joe Feuerstein"
+    "peer_reviewer": "Dr. Joe",
+    "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1371": {
     "peer_reviewer": "Thai",
     "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1372": {
-    "peer_reviewer": "Dr. Joe Feuerstein",
-    "_at": "2026-08-11T18:46:09.769Z",
-    "teacher": "Dr. Joe Feuerstein"
+    "peer_reviewer": "Dr. Joe",
+    "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1373": {
     "peer_reviewer": "Kaitlyn",
@@ -43526,9 +43512,8 @@
     "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1390": {
-    "peer_reviewer": "Dr. Joe Feuerstein",
-    "_at": "2026-08-11T18:46:09.769Z",
-    "teacher": "Dr. Joe Feuerstein"
+    "peer_reviewer": "Dr. Joe",
+    "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1391": {
     "peer_reviewer": "Dr. Julia",
@@ -43575,14 +43560,12 @@
     "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1402": {
-    "peer_reviewer": "Dr. Joe Feuerstein",
-    "_at": "2026-08-11T18:46:09.769Z",
-    "teacher": "Dr. Joe Feuerstein"
+    "peer_reviewer": "Dr. Joe",
+    "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1403": {
-    "peer_reviewer": "Dr. Joe Feuerstein",
-    "_at": "2026-08-11T18:46:09.769Z",
-    "teacher": "Dr. Joe Feuerstein"
+    "peer_reviewer": "Dr. Joe",
+    "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1404": {
     "peer_reviewer": "Truike",
@@ -43593,9 +43576,8 @@
     "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1406": {
-    "peer_reviewer": "Dr. Joe Feuerstein",
-    "_at": "2026-08-11T18:46:09.769Z",
-    "teacher": "Dr. Joe Feuerstein"
+    "peer_reviewer": "Dr. Joe",
+    "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1407": {
     "peer_reviewer": "Mary",
@@ -43658,9 +43640,8 @@
     "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1422": {
-    "peer_reviewer": "Dr. Joe Feuerstein",
-    "_at": "2026-08-11T18:46:09.769Z",
-    "teacher": "Dr. Joe Feuerstein"
+    "peer_reviewer": "Dr. Joe",
+    "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1423": {
     "peer_reviewer": "Dr. Julia",
@@ -43703,32 +43684,28 @@
     "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1468": {
-    "peer_reviewer": "Dr. Joe Feuerstein",
-    "_at": "2026-08-11T18:46:09.769Z",
-    "teacher": "Dr. Joe Feuerstein"
+    "peer_reviewer": "Dr. Joe",
+    "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1469": {
     "peer_reviewer": "Jessica",
     "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1470": {
-    "peer_reviewer": "Dr. Joe Feuerstein",
-    "_at": "2026-08-11T18:46:09.769Z",
-    "teacher": "Dr. Joe Feuerstein"
+    "peer_reviewer": "Dr. Joe",
+    "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1471": {
-    "peer_reviewer": "Dr. Joe Feuerstein",
-    "_at": "2026-08-11T18:46:09.769Z",
-    "teacher": "Dr. Joe Feuerstein"
+    "peer_reviewer": "Dr. Joe",
+    "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1472": {
     "peer_reviewer": "Dr Joe",
     "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1473": {
-    "peer_reviewer": "Dr. Joe Feuerstein",
-    "_at": "2026-08-11T18:46:09.769Z",
-    "teacher": "Dr. Joe Feuerstein"
+    "peer_reviewer": "Dr. Joe",
+    "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1475": {
     "peer_reviewer": "Albus",
@@ -43743,9 +43720,8 @@
     "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1478": {
-    "peer_reviewer": "Dr. Joe Feuerstein",
-    "_at": "2026-08-11T18:46:09.769Z",
-    "teacher": "Dr. Joe Feuerstein"
+    "peer_reviewer": "Dr. Joe",
+    "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1479": {
     "peer_reviewer": "Jessica",
@@ -44289,9 +44265,9 @@
   },
   "EXT-1495": {
     "category": "Sleep",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T18:46:28.215Z",
     "language": "English",
-    "author": "Jade",
+    "author": "Jade Gordon",
     "peer_reviewer": "Marlee",
     "duration": "2"
   },
@@ -46686,9 +46662,8 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "EN-01459": {
-    "peer_reviewer": "Dr. Joe Feuerstein",
-    "_at": "2026-08-11T18:46:09.769Z",
-    "teacher": "Dr. Joe Feuerstein"
+    "peer_reviewer": "Dr. Joe",
+    "_at": "2026-08-10T19:51:38.073Z"
   },
   "HI-00013": {
     "peer_reviewer": "Sweta",
