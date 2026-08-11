@@ -32362,8 +32362,8 @@
     "_at": "2026-08-05T02:32:56.681Z"
   },
   "VID-0267": {
-    "author": "Nada",
-    "_at": "2026-08-05T02:35:46.508Z"
+    "author": "Nada Doueiry",
+    "_at": "2026-08-11T18:58:29.112Z"
   },
   "EXT-0018": {
     "author": "Madeline McGuire",
@@ -36476,9 +36476,10 @@
   },
   "AR-00038": {
     "type": "Video",
-    "_at": "2026-08-07T16:57:01.689Z",
+    "_at": "2026-08-11T18:58:29.112Z",
     "duration": "9 min",
-    "peer_reviewer": "Nada"
+    "peer_reviewer": "Nada Doueiry",
+    "teacher": "Nada Doueiry"
   },
   "PL-00008": {
     "type": "Video",
@@ -36545,9 +36546,8 @@
   },
   "FR-00006": {
     "type": "Video",
-    "_at": "2026-08-11T18:58:07.222Z",
-    "peer_reviewer": "Cedric St. Croix",
-    "teacher": "Cedric St. Croix"
+    "_at": "2026-08-07T16:57:01.689Z",
+    "peer_reviewer": "Cedric"
   },
   "ES-00040": {
     "type": "Video",
@@ -36705,9 +36705,10 @@
   },
   "AR-00050": {
     "type": "Video",
-    "_at": "2026-08-07T16:57:01.689Z",
+    "_at": "2026-08-11T18:58:29.112Z",
     "duration": "10 min",
-    "peer_reviewer": "Nada"
+    "peer_reviewer": "Nada Doueiry",
+    "teacher": "Nada Doueiry"
   },
   "EXT-0247": {
     "type": "Video",
@@ -36925,9 +36926,8 @@
   },
   "FR-00018": {
     "type": "Video",
-    "_at": "2026-08-11T18:58:07.222Z",
-    "peer_reviewer": "Cedric St. Croix",
-    "teacher": "Cedric St. Croix"
+    "_at": "2026-08-07T16:57:01.689Z",
+    "peer_reviewer": "Cedric"
   },
   "ES-00037": {
     "type": "Video",
@@ -37345,8 +37345,9 @@
   },
   "AR-00052": {
     "type": "Video",
-    "_at": "2026-08-07T16:57:01.689Z",
-    "peer_reviewer": "Nada"
+    "_at": "2026-08-11T18:58:29.112Z",
+    "peer_reviewer": "Nada Doueiry",
+    "teacher": "Nada Doueiry"
   },
   "YUE-00001": {
     "type": "Video",
@@ -37611,9 +37612,8 @@
   },
   "FR-00008": {
     "type": "Video",
-    "_at": "2026-08-11T18:58:07.222Z",
-    "peer_reviewer": "Cedric St. Croix",
-    "teacher": "Cedric St. Croix"
+    "_at": "2026-08-07T16:57:01.689Z",
+    "peer_reviewer": "Cedric"
   },
   "ZH-00010": {
     "type": "Video",
@@ -37858,10 +37858,9 @@
   },
   "EXT-0488": {
     "type": "Video",
-    "_at": "2026-08-11T18:58:07.222Z",
-    "peer_reviewer": "Cedric St. Croix",
-    "category": "Meditation",
-    "teacher": "Cedric St. Croix"
+    "_at": "2026-08-10T19:51:38.073Z",
+    "peer_reviewer": "Cedric",
+    "category": "Meditation"
   },
   "EXT-0489": {
     "type": "Video",
@@ -38207,44 +38206,50 @@
   },
   "AR-00031": {
     "type": "Video",
-    "_at": "2026-08-10T19:51:38.073Z",
+    "_at": "2026-08-11T18:58:29.112Z",
     "duration": "11 min",
-    "peer_reviewer": "Nada",
-    "category": "Yoga"
+    "peer_reviewer": "Nada Doueiry",
+    "category": "Yoga",
+    "teacher": "Nada Doueiry"
   },
   "AR-00035": {
     "type": "Video",
-    "_at": "2026-08-10T19:51:38.073Z",
+    "_at": "2026-08-11T18:58:29.112Z",
     "duration": "22 min",
-    "peer_reviewer": "Nada",
-    "category": "Yoga"
+    "peer_reviewer": "Nada Doueiry",
+    "category": "Yoga",
+    "teacher": "Nada Doueiry"
   },
   "AR-00042": {
     "type": "Video",
-    "_at": "2026-08-10T19:51:38.073Z",
+    "_at": "2026-08-11T18:58:29.112Z",
     "duration": "9 min",
-    "peer_reviewer": "Nada",
-    "category": "Yoga"
+    "peer_reviewer": "Nada Doueiry",
+    "category": "Yoga",
+    "teacher": "Nada Doueiry"
   },
   "AR-00034": {
     "type": "Video",
-    "_at": "2026-08-10T19:51:38.073Z",
+    "_at": "2026-08-11T18:58:29.112Z",
     "duration": "8 min",
-    "peer_reviewer": "Nada",
-    "category": "Yoga"
+    "peer_reviewer": "Nada Doueiry",
+    "category": "Yoga",
+    "teacher": "Nada Doueiry"
   },
   "AR-00053": {
     "type": "Video",
-    "_at": "2026-08-10T19:51:38.073Z",
-    "peer_reviewer": "Nada",
-    "category": "Healthcare and Caregiving"
+    "_at": "2026-08-11T18:58:29.112Z",
+    "peer_reviewer": "Nada Doueiry",
+    "category": "Healthcare and Caregiving",
+    "teacher": "Nada Doueiry"
   },
   "AR-00033": {
     "type": "Video",
-    "_at": "2026-08-10T19:51:38.073Z",
+    "_at": "2026-08-11T18:58:29.112Z",
     "duration": "16 min",
-    "peer_reviewer": "Nada",
-    "category": "Yoga"
+    "peer_reviewer": "Nada Doueiry",
+    "category": "Yoga",
+    "teacher": "Nada Doueiry"
   },
   "AR-00058": {
     "type": "Video",
@@ -43603,8 +43608,9 @@
     "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1411": {
-    "peer_reviewer": "Nada",
-    "_at": "2026-08-07T16:57:01.689Z"
+    "peer_reviewer": "Nada Doueiry",
+    "_at": "2026-08-11T18:58:29.112Z",
+    "teacher": "Nada Doueiry"
   },
   "EXT-1412": {
     "peer_reviewer": "Eneida",
@@ -44945,8 +44951,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "AR-00046": {
-    "peer_reviewer": "Nada",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Nada Doueiry",
+    "_at": "2026-08-11T18:58:29.112Z",
+    "teacher": "Nada Doueiry"
   },
   "EN-01728": {
     "peer_reviewer": "Sadiya",
@@ -44981,8 +44988,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "AR-00045": {
-    "peer_reviewer": "Nada",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Nada Doueiry",
+    "_at": "2026-08-11T18:58:29.112Z",
+    "teacher": "Nada Doueiry"
   },
   "FR-00005": {
     "peer_reviewer": "Candice",
@@ -45034,9 +45042,8 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "FR-00007": {
-    "peer_reviewer": "Cedric St. Croix",
-    "_at": "2026-08-11T18:58:07.222Z",
-    "teacher": "Cedric St. Croix"
+    "peer_reviewer": "Cedric",
+    "_at": "2026-08-10T19:51:38.073Z"
   },
   "EN-00121": {
     "peer_reviewer": "Alex",
@@ -45244,8 +45251,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "AR-00048": {
-    "peer_reviewer": "Nada",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Nada Doueiry",
+    "_at": "2026-08-11T18:58:29.112Z",
+    "teacher": "Nada Doueiry"
   },
   "EN-00157": {
     "peer_reviewer": "Alex",
@@ -45328,8 +45336,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "AR-00043": {
-    "peer_reviewer": "Nada",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Nada Doueiry",
+    "_at": "2026-08-11T18:58:29.112Z",
+    "teacher": "Nada Doueiry"
   },
   "IT-00011": {
     "peer_reviewer": "Stefano",
@@ -46071,8 +46080,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "AR-00039": {
-    "peer_reviewer": "Nada",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Nada Doueiry",
+    "_at": "2026-08-11T18:58:29.112Z",
+    "teacher": "Nada Doueiry"
   },
   "PT-00019": {
     "peer_reviewer": "Mila",
@@ -46112,8 +46122,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "AR-00037": {
-    "peer_reviewer": "Nada",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Nada Doueiry",
+    "_at": "2026-08-11T18:58:29.112Z",
+    "teacher": "Nada Doueiry"
   },
   "EN-01857": {
     "peer_reviewer": "Dr Joe",
@@ -46293,8 +46304,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "AR-00032": {
-    "peer_reviewer": "Nada",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Nada Doueiry",
+    "_at": "2026-08-11T18:58:29.112Z",
+    "teacher": "Nada Doueiry"
   },
   "TH-00008": {
     "peer_reviewer": "Nathaorn",
@@ -46309,8 +46321,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "AR-00036": {
-    "peer_reviewer": "Nada",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Nada Doueiry",
+    "_at": "2026-08-11T18:58:29.112Z",
+    "teacher": "Nada Doueiry"
   },
   "EN-01905": {
     "peer_reviewer": "Katie Attubato",
@@ -46706,9 +46719,8 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "FR-00010": {
-    "peer_reviewer": "Cedric St. Croix",
-    "_at": "2026-08-11T18:58:07.222Z",
-    "teacher": "Cedric St. Croix"
+    "peer_reviewer": "Cedric",
+    "_at": "2026-08-10T19:51:38.073Z"
   },
   "EN-01880": {
     "peer_reviewer": "Soja",
@@ -46729,8 +46741,9 @@
   },
   "AR-00041": {
     "category": "Personality Clip",
-    "_at": "2026-08-10T19:51:38.073Z",
-    "peer_reviewer": "Nada"
+    "_at": "2026-08-11T18:58:29.112Z",
+    "peer_reviewer": "Nada Doueiry",
+    "teacher": "Nada Doueiry"
   },
   "FR-00075": {
     "category": "Personality Clip",
@@ -46826,8 +46839,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "AR-00047": {
-    "peer_reviewer": "Nada",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Nada Doueiry",
+    "_at": "2026-08-11T18:58:29.112Z",
+    "teacher": "Nada Doueiry"
   },
   "PT-00068": {
     "peer_reviewer": "Lucelia",
@@ -46867,8 +46881,9 @@
     "peer_reviewer": "Sandy"
   },
   "AR-00049": {
-    "peer_reviewer": "Nada",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Nada Doueiry",
+    "_at": "2026-08-11T18:58:29.112Z",
+    "teacher": "Nada Doueiry"
   },
   "FR-00022": {
     "peer_reviewer": "Candice",
@@ -47077,9 +47092,8 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "FR-00009": {
-    "peer_reviewer": "Cedric St. Croix",
-    "_at": "2026-08-11T18:58:07.222Z",
-    "teacher": "Cedric St. Croix"
+    "peer_reviewer": "Cedric",
+    "_at": "2026-08-10T19:51:38.073Z"
   },
   "TH-00003": {
     "peer_reviewer": "Nathaorn",
@@ -47114,8 +47128,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "AR-00040": {
-    "peer_reviewer": "Nada",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Nada Doueiry",
+    "_at": "2026-08-11T18:58:29.112Z",
+    "teacher": "Nada Doueiry"
   },
   "ES-00193": {
     "peer_reviewer": "Inaudy",
@@ -47201,9 +47216,8 @@
     "teacher": "Katie Attubato"
   },
   "FR-00017": {
-    "peer_reviewer": "Cedric St. Croix",
-    "_at": "2026-08-11T18:58:07.222Z",
-    "teacher": "Cedric St. Croix"
+    "peer_reviewer": "Cedric",
+    "_at": "2026-08-10T19:51:38.073Z"
   },
   "AR-00057": {
     "peer_reviewer": "Sandy",
@@ -47226,8 +47240,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "AR-00044": {
-    "peer_reviewer": "Nada",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Nada Doueiry",
+    "_at": "2026-08-11T18:58:29.112Z",
+    "teacher": "Nada Doueiry"
   },
   "PL-00010": {
     "peer_reviewer": "Margo",
@@ -47615,8 +47630,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "AR-00051": {
-    "peer_reviewer": "Nada",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Nada Doueiry",
+    "_at": "2026-08-11T18:58:29.112Z",
+    "teacher": "Nada Doueiry"
   },
   "PT-00027": {
     "peer_reviewer": "Cris",
