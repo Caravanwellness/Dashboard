@@ -39091,8 +39091,9 @@
   },
   "AR-00069": {
     "type": "Video",
-    "_at": "2026-08-07T16:57:01.689Z",
-    "peer_reviewer": "Teriz"
+    "_at": "2026-08-11T20:55:46.126Z",
+    "peer_reviewer": "Teriz Michael",
+    "teacher": "Teriz Michael"
   },
   "DE-00055": {
     "type": "Video",
@@ -39173,8 +39174,9 @@
   },
   "AR-00060": {
     "type": "Video",
-    "_at": "2026-08-07T16:57:01.689Z",
-    "peer_reviewer": "Teriz"
+    "_at": "2026-08-11T20:55:46.126Z",
+    "peer_reviewer": "Teriz Michael",
+    "teacher": "Teriz Michael"
   },
   "DE-00012": {
     "type": "Video",
@@ -48861,9 +48863,10 @@
     "duration": "3"
   },
   "AR-00065": {
-    "peer_reviewer": "Teriz",
-    "_at": "2026-08-11T20:17:14.145Z",
-    "author": "Dr. Ellie"
+    "peer_reviewer": "Teriz Michael",
+    "_at": "2026-08-11T20:55:46.126Z",
+    "author": "Dr. Ellie",
+    "teacher": "Teriz Michael"
   },
   "FR-00085": {
     "peer_reviewer": "Margaux de Noiron",
@@ -49183,10 +49186,11 @@
     "teacher": "Ilaria Chiantore"
   },
   "AR-00062": {
-    "peer_reviewer": "Teriz",
-    "_at": "2026-08-11T20:17:14.145Z",
+    "peer_reviewer": "Teriz Michael",
+    "_at": "2026-08-11T20:55:46.126Z",
     "author": "Dr. Ellie",
-    "duration": "3"
+    "duration": "3",
+    "teacher": "Teriz Michael"
   },
   "ES-00051": {
     "peer_reviewer": "Jon Anthony (Tony) Meyer",
@@ -49255,8 +49259,9 @@
     "teacher": "Asia Rosso"
   },
   "AR-00063": {
-    "peer_reviewer": "Teriz",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Teriz Michael",
+    "_at": "2026-08-11T20:55:46.126Z",
+    "teacher": "Teriz Michael"
   },
   "EN-00260": {
     "peer_reviewer": "Briana Kurtz",
@@ -49595,10 +49600,11 @@
     "teacher": "Margaux de Noiron"
   },
   "AR-00067": {
-    "peer_reviewer": "Teriz",
-    "_at": "2026-08-11T20:17:14.145Z",
+    "peer_reviewer": "Teriz Michael",
+    "_at": "2026-08-11T20:55:46.126Z",
     "author": "Nadia",
-    "duration": "3"
+    "duration": "3",
+    "teacher": "Teriz Michael"
   },
   "FR-00081": {
     "peer_reviewer": "Margaux de Noiron",
@@ -51509,8 +51515,9 @@
     "teacher": "Cris Di Dario"
   },
   "AR-00068": {
-    "peer_reviewer": "Teriz",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Teriz Michael",
+    "_at": "2026-08-11T20:55:46.126Z",
+    "teacher": "Teriz Michael"
   },
   "FR-00082": {
     "peer_reviewer": "Margaux de Noiron",
@@ -51909,12 +51916,14 @@
     "teacher": "Mila Toribio"
   },
   "AR-00064": {
-    "peer_reviewer": "Teriz",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Teriz Michael",
+    "_at": "2026-08-11T20:55:46.126Z",
+    "teacher": "Teriz Michael"
   },
   "AR-00066": {
-    "peer_reviewer": "Teriz",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Teriz Michael",
+    "_at": "2026-08-11T20:55:46.126Z",
+    "teacher": "Teriz Michael"
   },
   "EN-01921": {
     "peer_reviewer": "Katie Attubato",
@@ -52539,10 +52548,11 @@
     "teacher": "Dr. Ricardo Fuentes"
   },
   "AR-00061": {
-    "peer_reviewer": "Teriz",
-    "_at": "2026-08-11T20:17:14.145Z",
+    "peer_reviewer": "Teriz Michael",
+    "_at": "2026-08-11T20:55:46.126Z",
     "author": "Linda",
-    "duration": "5"
+    "duration": "5",
+    "teacher": "Teriz Michael"
   },
   "NL-00005": {
     "peer_reviewer": "Anna-Belle Buyse",
