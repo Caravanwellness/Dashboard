@@ -2543,12 +2543,12 @@
   },
   "ALB-0146": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:47:40.896Z",
     "references": "U.S. Food and Drug Administration. (2026). Chemicals in tobacco products and your health. https://www.fda.gov/tobacco-products/health-effects-tobacco-use/chemicals-tobacco-products-and-your-health\nCenters for Disease Control and Prevention. (2024). About e-cigarettes (vapes). https://www.cdc.gov/tobacco/e-cigarettes/about.html\nEnvironmental Health Perspectives. (2023). Metal concentrations in e-cigarette aerosol samples: A comparison by device type and flavor. https://pmc.ncbi.nlm.nih.gov/articles/PMC10695266/",
     "teacher": "Diane McNaught",
     "type": "Article",
     "duration": "2",
-    "author": "Madeline",
+    "author": "Madeline McGuire",
     "date_created": "10/06/2025",
     "link": "https://docs.google.com/document/d/11sTBSgOGs7gQt1ESywmICl7brIU6OMvcQXw2ynhdWkg/edit?usp=sharing"
   },
@@ -35974,10 +35974,10 @@
   },
   "EXT-0130": {
     "type": "Article",
-    "_at": "2026-08-11T18:47:27.816Z",
+    "_at": "2026-08-11T18:47:40.896Z",
     "category": "Meditation",
-    "author": "Marlee Alanis",
-    "peer_reviewer": "Madeline",
+    "author": "? (from blog)",
+    "peer_reviewer": "Madeline McGuire",
     "duration": "2",
     "link": "https://docs.google.com/document/d/1mc3B2uKSDBjppVBTGEiL6uqQ6Cq8aYvyaeG06XnKbII/edit?usp=sharing"
   },
@@ -36009,8 +36009,8 @@
   },
   "EXT-0134": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
-    "author": "Madeline",
+    "_at": "2026-08-11T18:47:40.896Z",
+    "author": "Madeline McGuire",
     "peer_reviewer": "Marlee",
     "category": "Mental Health",
     "link": "https://docs.google.com/document/d/1NF4vjomSXSC__XqCa8DbB9QR6onoFI5B-Dy0IWMCBUs/edit?usp=sharing"
@@ -36102,10 +36102,10 @@
   },
   "EXT-0145": {
     "type": "Article",
-    "_at": "2026-08-11T18:47:27.816Z",
+    "_at": "2026-08-11T18:47:40.896Z",
     "category": "Meditation",
-    "author": "Marlee Alanis",
-    "peer_reviewer": "Madeline",
+    "author": "? (from blog)",
+    "peer_reviewer": "Madeline McGuire",
     "duration": "2",
     "link": "https://docs.google.com/document/d/1Dj9HtFJhqAczqbLDGjP7GagrRy1UOILKtNPGiHTweWo/edit?usp=sharing"
   },
@@ -36195,10 +36195,10 @@
   },
   "EXT-0158": {
     "type": "Article",
-    "_at": "2026-08-11T18:47:27.816Z",
+    "_at": "2026-08-11T18:47:40.896Z",
     "category": "Performance",
-    "author": "Marlee Alanis",
-    "peer_reviewer": "Madeline",
+    "author": "? (from blog)",
+    "peer_reviewer": "Madeline McGuire",
     "link": "https://docs.google.com/document/d/1clbiYoMO8_8zV1dWQbMv4uNl7nuMaYhaduxPNRmnCSE/edit?usp=sharing"
   },
   "EXT-0159": {
@@ -36356,10 +36356,10 @@
   },
   "EXT-0179": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:47:40.896Z",
     "duration": "5",
     "category": "Nutrition/Sleep",
-    "author": "Madeline",
+    "author": "Madeline McGuire",
     "peer_reviewer": "Marlee",
     "link": "https://docs.google.com/document/d/1L8VIjj9iuq0MuMo55jMcUL1pIaNuSgXbtCdaydpAKoY/edit?usp=sharing"
   },
@@ -39536,46 +39536,46 @@
   },
   "EXT-0902": {
     "type": "Article",
-    "_at": "2026-08-11T18:47:27.816Z",
+    "_at": "2026-08-11T18:47:40.896Z",
     "category": "Workplace Wellness",
-    "author": "Marlee Alanis",
-    "peer_reviewer": "Madeline",
+    "author": "? (from blog)",
+    "peer_reviewer": "Madeline McGuire",
     "duration": "3",
     "link": "https://docs.google.com/document/d/18s-jW7a6DxagxHf9Vf3efp9AbM4CjSwo9OBtJ1RG2xs/edit?usp=sharing"
   },
   "EXT-0903": {
     "type": "Article",
-    "_at": "2026-08-11T18:47:27.816Z",
+    "_at": "2026-08-11T18:47:40.896Z",
     "category": "Workplace Wellness",
-    "author": "Marlee Alanis",
-    "peer_reviewer": "Madeline",
+    "author": "? (from blog)",
+    "peer_reviewer": "Madeline McGuire",
     "duration": "2",
     "link": "https://docs.google.com/document/d/1BkO9bruojetAnLugaLXmL0lFnnqdywMXJB4N-83mhrM/edit?usp=sharing"
   },
   "EXT-0904": {
     "type": "Article",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "_at": "2026-08-11T18:47:40.896Z",
     "category": "Emotional Wellness / Workplace Wellness",
     "author": "Marlee",
     "notes": "In the first para. maybe say research has illuminated xyz instead of ilumintaing to make it easier to read",
-    "peer_reviewer": "Madeline",
+    "peer_reviewer": "Madeline McGuire",
     "duration": "2"
   },
   "EXT-0905": {
     "type": "Article",
-    "_at": "2026-08-11T18:47:27.816Z",
+    "_at": "2026-08-11T18:47:40.896Z",
     "category": "Performance",
-    "author": "Marlee Alanis",
-    "peer_reviewer": "Madeline",
+    "author": "? (from blog)",
+    "peer_reviewer": "Madeline McGuire",
     "duration": "2",
     "link": "https://docs.google.com/document/d/1DfzeS_FOg_vSA08RGpwZaLIeCEL7zgdkPR05czAVoKM/edit?usp=sharing"
   },
   "EXT-0906": {
     "type": "Article",
-    "_at": "2026-08-11T18:47:27.816Z",
+    "_at": "2026-08-11T18:47:40.896Z",
     "category": "Performance",
-    "author": "Marlee Alanis",
-    "peer_reviewer": "Madeline",
+    "author": "? (from blog)",
+    "peer_reviewer": "Madeline McGuire",
     "duration": "2",
     "link": "https://docs.google.com/document/d/1ForqWc3L0bvw5ErQ4YHdDJtZpWYeaDkCNqMXnHlxn6Q/edit?usp=sharing"
   },
@@ -39688,9 +39688,9 @@
   },
   "EXT-0920": {
     "type": "Article",
-    "_at": "2026-08-11T18:47:27.816Z",
+    "_at": "2026-08-11T14:15:30.879Z",
     "category": "Health",
-    "author": "Marlee Alanis",
+    "author": "? (from blog)",
     "peer_reviewer": "Marlee",
     "duration": "3",
     "link": "https://docs.google.com/document/d/1v_UxtnwCf6XQqNZelRRjbHHUd0Ua5TbW2bN6Rt3y6pg/edit?usp=sharing"
@@ -39714,9 +39714,9 @@
   },
   "EXT-0923": {
     "type": "Article",
-    "_at": "2026-08-11T18:47:27.816Z",
+    "_at": "2026-08-11T14:15:30.879Z",
     "category": "Health",
-    "author": "Marlee Alanis",
+    "author": "? (from blog)",
     "peer_reviewer": "Marlee",
     "duration": "3",
     "link": "https://docs.google.com/document/d/1OMiEoFkXM5CH48gQXNAfNifslI2aTP-_f7XS-_EMF6A/edit?usp=sharing"
@@ -39739,9 +39739,9 @@
   },
   "EXT-0926": {
     "type": "Article",
-    "_at": "2026-08-11T18:47:27.816Z",
+    "_at": "2026-08-11T14:15:30.879Z",
     "category": "Health",
-    "author": "Marlee Alanis",
+    "author": "? (from blog)",
     "peer_reviewer": "Marlee",
     "duration": "3",
     "link": "https://docs.google.com/document/d/1LbRJXzsrUcBOghk3SRwQsOvTzqazpIqp5ojLT-qRuXI/edit?usp=sharing"
@@ -39757,9 +39757,9 @@
   },
   "EXT-0928": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:47:40.896Z",
     "category": "Health",
-    "author": "Madeline",
+    "author": "Madeline McGuire",
     "peer_reviewer": "Marlee",
     "link": "https://docs.google.com/document/d/1p3_fhFD1uUD1rxJ1vS6Yx-4AXghGvPAsz8G-1zabFe4/edit?usp=sharing"
   },
@@ -40006,9 +40006,9 @@
   },
   "EXT-0960": {
     "type": "Article",
-    "_at": "2026-08-11T18:47:27.816Z",
+    "_at": "2026-08-11T14:15:30.879Z",
     "category": "Nutrition",
-    "author": "Marlee Alanis",
+    "author": "? (from blog)",
     "peer_reviewer": "Marlee",
     "duration": "3",
     "link": "https://docs.google.com/document/d/12gTw7yvyyJLBQQD0Q_t1n79IMTBafsh0r7H7IZkQst4/edit?usp=sharing"
@@ -40179,10 +40179,10 @@
   },
   "EXT-0980": {
     "type": "Article",
-    "_at": "2026-08-11T18:47:27.816Z",
+    "_at": "2026-08-11T18:47:40.896Z",
     "category": "Relationships",
-    "author": "Marlee Alanis",
-    "peer_reviewer": "Madeline",
+    "author": "? (from blog)",
+    "peer_reviewer": "Madeline McGuire",
     "duration": "2",
     "link": "https://docs.google.com/document/d/1Z7JBjjgFXrJT1vMhcDgLxNVngeFr6kSoANXcrB08vn0/edit?usp=sharing"
   },
@@ -40326,9 +40326,9 @@
   },
   "EXT-0998": {
     "type": "Article",
-    "_at": "2026-08-11T18:47:27.816Z",
+    "_at": "2026-08-11T14:15:30.879Z",
     "category": "Nutrition",
-    "author": "Marlee Alanis",
+    "author": "? (from blog)",
     "peer_reviewer": "Marlee",
     "duration": "3",
     "link": "https://docs.google.com/document/d/1Qf5Kgq7I6O-7BffCdoRQlbHtUMR64C5ziNLYpw-Ydh4/edit?usp=sharing"
@@ -40464,9 +40464,9 @@
   },
   "EXT-1016": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-11T18:47:40.896Z",
     "category": "Health",
-    "author": "Madeline",
+    "author": "Madeline McGuire",
     "peer_reviewer": "Marlee",
     "link": "https://docs.google.com/document/d/1LKuLoL54y8bC1R0sXoUiRx0lLjulXDLNrUwLHm5WIvE/edit?usp=sharing"
   },
@@ -40519,16 +40519,16 @@
   },
   "EXT-1025": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
-    "author": "Madeline",
+    "_at": "2026-08-11T18:47:40.896Z",
+    "author": "Madeline McGuire",
     "peer_reviewer": "Marlee",
     "category": "Mental Health",
     "link": "https://docs.google.com/document/d/1eYqGp8Uhd1TH7SLMT2WXr_saxhJYf6900ibqVshITYA/edit?usp=sharing"
   },
   "EXT-1026": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
-    "author": "Madeline",
+    "_at": "2026-08-11T18:47:40.896Z",
+    "author": "Madeline McGuire",
     "peer_reviewer": "Marlee",
     "category": "Mental Health",
     "link": "https://docs.google.com/document/d/1a9GcyFze7Brc9BfsLCupQuu6BpUy4H9YdzWLRlkhBko/edit?usp=sharing"
@@ -40540,24 +40540,24 @@
   },
   "EXT-1028": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
-    "author": "Madeline",
+    "_at": "2026-08-11T18:47:40.896Z",
+    "author": "Madeline McGuire",
     "peer_reviewer": "Marlee",
     "category": "Sleep",
     "link": "https://docs.google.com/document/d/1XcQAYxUtYemy1e9pPlLKkM2h3TKNpX6cGITZubcbivE/edit?usp=sharing"
   },
   "EXT-1029": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
-    "author": "Madeline",
+    "_at": "2026-08-11T18:47:40.896Z",
+    "author": "Madeline McGuire",
     "peer_reviewer": "Marlee",
     "category": "Mindful Aging",
     "link": "https://docs.google.com/document/d/1IIAqPodhexL0xbDJgPOghQkZtzeWmjMrFIF0qhaYDcY/edit?usp=sharing"
   },
   "EXT-1030": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
-    "author": "Madeline",
+    "_at": "2026-08-11T18:47:40.896Z",
+    "author": "Madeline McGuire",
     "peer_reviewer": "Marlee",
     "category": "Mindful Aging",
     "link": "https://docs.google.com/document/d/1HiNXtY2zGyjuvjrjY-l7x6bDF7tOpfgyarXKcuRMbdw/edit?usp=sharing"
@@ -40730,8 +40730,8 @@
   },
   "EXT-1051": {
     "type": "Article",
-    "_at": "2026-08-11T14:15:30.879Z",
-    "author": "Madeline",
+    "_at": "2026-08-11T18:47:40.896Z",
+    "author": "Madeline McGuire",
     "peer_reviewer": "Marlee",
     "category": "Health Screenings",
     "link": "https://docs.google.com/document/d/1ERYXsX8iVqAkSG1vfWh59VE4gGn9XF0qiUuXeFRz0m4/edit?usp=sharing"
@@ -40861,117 +40861,117 @@
   },
   "EXT-1066": {
     "type": "Article",
-    "_at": "2026-08-11T18:47:27.816Z",
+    "_at": "2026-08-11T18:47:40.896Z",
     "category": "Nutrition",
-    "author": "Marlee Alanis",
-    "peer_reviewer": "Madeline",
+    "author": "? (from blog)",
+    "peer_reviewer": "Madeline McGuire",
     "duration": "2",
     "link": "https://docs.google.com/document/d/1Fht5nXKJplQaCkkgVzLF9DjncJpL1tgyq7XdZgrt02g/edit?usp=sharing"
   },
   "EXT-1067": {
     "type": "Article",
-    "_at": "2026-08-11T18:47:27.816Z",
+    "_at": "2026-08-11T18:47:40.896Z",
     "category": "Mental Health",
-    "author": "Marlee Alanis",
-    "peer_reviewer": "Madeline",
+    "author": "? (from blog)",
+    "peer_reviewer": "Madeline McGuire",
     "duration": "2",
     "link": "https://docs.google.com/document/d/1PEIt3OH-Sq4C4-_2BaeKiegCQgDrlyx4lCOiZJvLWXA/edit?usp=sharing"
   },
   "EXT-1068": {
     "type": "Article",
-    "_at": "2026-08-11T18:47:27.816Z",
+    "_at": "2026-08-11T14:15:30.879Z",
     "category": "Relationships",
-    "author": "Marlee Alanis",
+    "author": "? (from blog)",
     "peer_reviewer": "Marlee",
     "duration": "3",
     "link": "https://docs.google.com/document/d/1ihFVHW_Z_APJ74SwZe1WqvAgFXthdwaQRjZYL5F7qy4/edit?usp=sharing"
   },
   "EXT-1069": {
     "type": "Article",
-    "_at": "2026-08-11T18:47:27.816Z",
+    "_at": "2026-08-11T18:47:40.896Z",
     "category": "Workplace Wellness/ Performance/ Mental Health",
-    "author": "Marlee Alanis",
-    "peer_reviewer": "Madeline",
+    "author": "? (from blog)",
+    "peer_reviewer": "Madeline McGuire",
     "duration": "3",
     "link": "https://docs.google.com/document/d/1Cw921tiHOKCLWa6UEJiVXbWBH8v3GodRb0iVrap9124/edit?usp=sharing"
   },
   "EXT-1070": {
     "type": "Article",
-    "_at": "2026-08-11T18:47:27.816Z",
+    "_at": "2026-08-11T14:15:30.879Z",
     "category": "Relationships",
-    "author": "Marlee Alanis",
+    "author": "? (from blog)",
     "peer_reviewer": "Marlee",
     "duration": "3",
     "link": "https://docs.google.com/document/d/1gB6dJqv8lHjIL_RNQJ2eCPlXmTS9RL7BkoA6oLJ1zKs/edit?usp=sharing"
   },
   "EXT-1071": {
     "type": "Article",
-    "_at": "2026-08-11T18:47:27.816Z",
+    "_at": "2026-08-11T14:15:30.879Z",
     "category": "Relationships/ Health",
-    "author": "Marlee Alanis",
+    "author": "? (from blog)",
     "peer_reviewer": "Marlee",
     "duration": "2",
     "link": "https://docs.google.com/document/d/1FeXa6So0NB3coue-4PvD4cXlM_T0c9uE3-uEhn0DZOw/edit?usp=sharing"
   },
   "EXT-1072": {
     "type": "Article",
-    "_at": "2026-08-11T18:47:27.816Z",
+    "_at": "2026-08-11T14:15:30.879Z",
     "category": "Nutrition",
-    "author": "Marlee Alanis",
+    "author": "? (from blog)",
     "peer_reviewer": "Marlee",
     "duration": "3",
     "link": "https://docs.google.com/document/d/1M8oQUUl02tJvPiOpkWwt_caglTZk6ymWx_RhY6cSnRc/edit?usp=sharing"
   },
   "EXT-1073": {
     "type": "Article",
-    "_at": "2026-08-11T18:47:27.816Z",
+    "_at": "2026-08-11T14:15:30.879Z",
     "category": "Health",
-    "author": "Marlee Alanis",
+    "author": "? (from blog)",
     "peer_reviewer": "Marlee",
     "duration": "3",
     "link": "https://docs.google.com/document/d/1aS81vd6-k1NSYK-OAQ9-20dF-xF1GNLj5botgZ9E37U/edit?usp=sharing"
   },
   "EXT-1074": {
     "type": "Article",
-    "_at": "2026-08-11T18:47:27.816Z",
+    "_at": "2026-08-11T14:15:30.879Z",
     "category": "Health",
-    "author": "Marlee Alanis",
+    "author": "? (from blog)",
     "peer_reviewer": "Marlee",
     "duration": "3",
     "link": "https://docs.google.com/document/d/1spoDofUDWKw4oEH3pLU_kGxXb-3bT-V7axHrKNa-5Mw/edit?usp=sharing"
   },
   "EXT-1075": {
     "type": "Article",
-    "_at": "2026-08-11T18:47:27.816Z",
+    "_at": "2026-08-11T14:15:30.879Z",
     "category": "Health",
-    "author": "Marlee Alanis",
+    "author": "? (from blog)",
     "peer_reviewer": "Marlee",
     "duration": "3",
     "link": "https://docs.google.com/document/d/1qU370QEqPqf2ZVfC1VvbuMHu1vHS-SS0KF8xBzdcvSE/edit?usp=sharing"
   },
   "EXT-1076": {
     "type": "Article",
-    "_at": "2026-08-11T18:47:27.816Z",
+    "_at": "2026-08-11T14:15:30.879Z",
     "category": "Health",
-    "author": "Marlee Alanis",
+    "author": "? (from blog)",
     "peer_reviewer": "Marlee",
     "duration": "2",
     "link": "https://docs.google.com/document/d/1DxgTDzrw4JiFzjLVk89pyHZBEyhZLGt7jhBnRwu90Mk/edit?usp=sharing"
   },
   "EXT-1077": {
     "type": "Article",
-    "_at": "2026-08-11T18:47:27.816Z",
+    "_at": "2026-08-11T14:15:30.879Z",
     "category": "Health",
-    "author": "Marlee Alanis",
+    "author": "? (from blog)",
     "peer_reviewer": "Marlee",
     "duration": "3",
     "link": "https://docs.google.com/document/d/1UXvHf0FysWq6nJp93kxeyUJ-XXclDZHDJPyNifLzpdg/edit?usp=sharing"
   },
   "EXT-1078": {
     "type": "Article",
-    "_at": "2026-08-11T18:47:27.816Z",
+    "_at": "2026-08-11T14:15:30.879Z",
     "category": "Health",
-    "author": "Marlee Alanis",
+    "author": "? (from blog)",
     "peer_reviewer": "Marlee",
     "duration": "2",
     "link": "https://docs.google.com/document/d/18z_5F9SWQfOptA_ccLbC0s0wqv2LwedanGI24kvE47k/edit?usp=sharing"
@@ -41039,18 +41039,18 @@
   },
   "EXT-1087": {
     "type": "Article",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T18:47:40.896Z",
     "category": "Health",
     "author": "Marlee",
-    "peer_reviewer": "Madeline",
+    "peer_reviewer": "Madeline McGuire",
     "duration": "2"
   },
   "EXT-1088": {
     "type": "Article",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-11T18:47:40.896Z",
     "category": "Health",
     "author": "Marlee",
-    "peer_reviewer": "Madeline",
+    "peer_reviewer": "Madeline McGuire",
     "duration": "3"
   },
   "EXT-1089": {
@@ -44239,19 +44239,19 @@
   },
   "EXT-1492": {
     "category": "Performance/Mental Health",
-    "_at": "2026-08-11T18:47:27.816Z",
+    "_at": "2026-08-11T18:47:40.896Z",
     "language": "English",
-    "author": "Marlee Alanis",
-    "peer_reviewer": "Madeline",
+    "author": "? (from blog)",
+    "peer_reviewer": "Madeline McGuire",
     "duration": "3",
     "link": "https://docs.google.com/document/d/14iH-agKON1vbRmbzdnKVkcL3jluh53df7HSAl-CGevg/edit?usp=sharing"
   },
   "EXT-1493": {
     "category": "Performance/Mental Health",
-    "_at": "2026-08-11T18:47:27.816Z",
+    "_at": "2026-08-11T18:47:40.896Z",
     "language": "English",
-    "author": "Marlee Alanis",
-    "peer_reviewer": "Madeline",
+    "author": "? (from blog)",
+    "peer_reviewer": "Madeline McGuire",
     "duration": "2",
     "link": "https://docs.google.com/document/d/1Gs4R-8a5AfqCY9roCrCnnzB1T_NwadEtiAYEKdKbY_Q/edit?usp=sharing"
   },
