@@ -45721,11 +45721,12 @@
     "teacher": "Kim Ross"
   },
   "EXT-1276": {
-    "peer_reviewer": "Gus",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "peer_reviewer": "Gus Gosson",
+    "_at": "2026-08-11T20:38:02.150Z",
     "language": "English",
     "author": "Gus",
-    "duration": "3"
+    "duration": "3",
+    "teacher": "Gus Gosson"
   },
   "EXT-1277": {
     "peer_reviewer": "Edwin Rivadeneryra",
@@ -47023,11 +47024,12 @@
     "duration": "5"
   },
   "EXT-1481": {
-    "peer_reviewer": "Gus",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "peer_reviewer": "Gus Gosson",
+    "_at": "2026-08-11T20:38:02.150Z",
     "language": "English",
     "author": "Gus",
-    "duration": "3"
+    "duration": "3",
+    "teacher": "Gus Gosson"
   },
   "EXT-1482": {
     "peer_reviewer": "Sam",
