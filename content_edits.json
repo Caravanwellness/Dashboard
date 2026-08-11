@@ -45327,35 +45327,39 @@
     "duration": "5"
   },
   "EXT-1189": {
-    "peer_reviewer": "Crystal",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "peer_reviewer": "Crystal Williams",
+    "_at": "2026-08-11T20:38:29.373Z",
     "language": "English",
     "author": "Crystal",
-    "duration": "15"
+    "duration": "15",
+    "teacher": "Crystal Williams"
   },
   "EXT-1190": {
-    "peer_reviewer": "Crystal",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "peer_reviewer": "Crystal Williams",
+    "_at": "2026-08-11T20:38:29.373Z",
     "category": "Cardio",
     "language": "English",
     "author": "Crystal",
-    "duration": "10"
+    "duration": "10",
+    "teacher": "Crystal Williams"
   },
   "EXT-1191": {
-    "peer_reviewer": "Crystal",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "peer_reviewer": "Crystal Williams",
+    "_at": "2026-08-11T20:38:29.373Z",
     "category": "Cardio",
     "language": "English",
     "author": "Crystal",
-    "duration": "10"
+    "duration": "10",
+    "teacher": "Crystal Williams"
   },
   "EXT-1192": {
-    "peer_reviewer": "Crystal",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "peer_reviewer": "Crystal Williams",
+    "_at": "2026-08-11T20:38:29.373Z",
     "category": "Cardio",
     "language": "English",
     "author": "Crystal",
-    "duration": "10"
+    "duration": "10",
+    "teacher": "Crystal Williams"
   },
   "EXT-1193": {
     "peer_reviewer": "Sabrih Short",
@@ -45376,27 +45380,30 @@
     "teacher": "Sabrih Short"
   },
   "EXT-1195": {
-    "peer_reviewer": "Crystal",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "peer_reviewer": "Crystal Williams",
+    "_at": "2026-08-11T20:38:29.373Z",
     "language": "English",
     "author": "Crystal",
-    "duration": "15"
+    "duration": "15",
+    "teacher": "Crystal Williams"
   },
   "EXT-1196": {
-    "peer_reviewer": "Crystal",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "peer_reviewer": "Crystal Williams",
+    "_at": "2026-08-11T20:38:29.373Z",
     "category": "Strength Training",
     "language": "English",
     "author": "Crystal",
-    "duration": "15"
+    "duration": "15",
+    "teacher": "Crystal Williams"
   },
   "EXT-1197": {
-    "peer_reviewer": "Crystal",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "peer_reviewer": "Crystal Williams",
+    "_at": "2026-08-11T20:38:29.373Z",
     "category": "Strength Training",
     "language": "English",
     "author": "Crystal",
-    "duration": "15"
+    "duration": "15",
+    "teacher": "Crystal Williams"
   },
   "EXT-1198": {
     "peer_reviewer": "Sabrih Short",
@@ -45494,11 +45501,12 @@
     "teacher": "Sally Choi"
   },
   "EXT-1209": {
-    "peer_reviewer": "Crystal",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "peer_reviewer": "Crystal Williams",
+    "_at": "2026-08-11T20:38:29.373Z",
     "language": "English",
     "author": "Crystal",
-    "duration": "15"
+    "duration": "15",
+    "teacher": "Crystal Williams"
   },
   "EXT-1210": {
     "peer_reviewer": "Sadiya",
@@ -49823,10 +49831,11 @@
     "teacher": "Sandrine Marlier"
   },
   "EN-01881": {
-    "peer_reviewer": "Crystal",
-    "_at": "2026-08-11T20:17:14.145Z",
+    "peer_reviewer": "Crystal Williams",
+    "_at": "2026-08-11T20:38:29.373Z",
     "language": "English",
-    "author": "Crystal"
+    "author": "Crystal",
+    "teacher": "Crystal Williams"
   },
   "AR-00027": {
     "peer_reviewer": "Dr. Hassan Nagy",
@@ -50455,10 +50464,11 @@
     "peer_reviewer": "Veera"
   },
   "EN-01887": {
-    "peer_reviewer": "Crystal",
-    "_at": "2026-08-11T20:17:14.145Z",
+    "peer_reviewer": "Crystal Williams",
+    "_at": "2026-08-11T20:38:29.373Z",
     "language": "English",
-    "author": "Crystal"
+    "author": "Crystal",
+    "teacher": "Crystal Williams"
   },
   "EN-00176": {
     "peer_reviewer": "Anthony",
@@ -50680,10 +50690,11 @@
     "duration": "3"
   },
   "EN-01885": {
-    "peer_reviewer": "Crystal",
-    "_at": "2026-08-11T20:17:14.145Z",
+    "peer_reviewer": "Crystal Williams",
+    "_at": "2026-08-11T20:38:29.373Z",
     "language": "English",
-    "author": "Crystal"
+    "author": "Crystal",
+    "teacher": "Crystal Williams"
   },
   "PT-00043": {
     "peer_reviewer": "Mila Toribio",
@@ -50942,10 +50953,11 @@
     "author": "Katie"
   },
   "EN-01883": {
-    "peer_reviewer": "Crystal",
-    "_at": "2026-08-11T20:17:14.145Z",
+    "peer_reviewer": "Crystal Williams",
+    "_at": "2026-08-11T20:38:29.373Z",
     "language": "English",
-    "author": "Crystal"
+    "author": "Crystal",
+    "teacher": "Crystal Williams"
   },
   "FR-00066": {
     "peer_reviewer": "Hafsa Benzzi",
@@ -51710,10 +51722,11 @@
     "author": "Julika"
   },
   "EN-01884": {
-    "peer_reviewer": "Crystal",
-    "_at": "2026-08-11T20:17:14.145Z",
+    "peer_reviewer": "Crystal Williams",
+    "_at": "2026-08-11T20:38:29.373Z",
     "language": "English",
-    "author": "Crystal"
+    "author": "Crystal",
+    "teacher": "Crystal Williams"
   },
   "ES-00077": {
     "peer_reviewer": "Mary Solis",
@@ -52030,8 +52043,9 @@
     "teacher": "Wendy Battles"
   },
   "EN-01206": {
-    "peer_reviewer": "Crystal",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Crystal Williams",
+    "_at": "2026-08-11T20:38:29.373Z",
+    "teacher": "Crystal Williams"
   },
   "EN-01251": {
     "peer_reviewer": "Ajani Phillips",
@@ -52496,10 +52510,11 @@
     "author": "Sharisse"
   },
   "EN-01886": {
-    "peer_reviewer": "Crystal",
-    "_at": "2026-08-11T20:17:14.145Z",
+    "peer_reviewer": "Crystal Williams",
+    "_at": "2026-08-11T20:38:29.373Z",
     "language": "English",
-    "author": "Crystal"
+    "author": "Crystal",
+    "teacher": "Crystal Williams"
   },
   "FR-00105": {
     "category": "Personality Clip",
@@ -52696,10 +52711,11 @@
     "duration": "2"
   },
   "EN-01882": {
-    "peer_reviewer": "Crystal",
-    "_at": "2026-08-11T20:17:14.145Z",
+    "peer_reviewer": "Crystal Williams",
+    "_at": "2026-08-11T20:38:29.373Z",
     "language": "English",
-    "author": "Crystal"
+    "author": "Crystal",
+    "teacher": "Crystal Williams"
   },
   "EN-01862": {
     "peer_reviewer": "Dr. Joe Feuerstein",
