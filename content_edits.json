@@ -24404,8 +24404,8 @@
     "peer_reviewer": "Margi Douglas"
   },
   "ART-0141": {
-    "author": "Jane Mulvey",
-    "_at": "2026-08-11T18:55:38.237Z",
+    "author": "Jane",
+    "_at": "2026-08-06T17:24:22.202Z",
     "author_creds": "",
     "peer_reviewer": "",
     "date_created": "",
@@ -38691,11 +38691,10 @@
   },
   "EXT-0635": {
     "type": "Video",
-    "_at": "2026-08-11T18:55:38.237Z",
+    "_at": "2026-08-10T19:51:38.073Z",
     "duration": "4 min",
-    "peer_reviewer": "Jane Mulvey",
-    "category": "Smoking Cessation",
-    "teacher": "Jane Mulvey"
+    "peer_reviewer": "Jane",
+    "category": "Smoking Cessation"
   },
   "EXT-0636": {
     "type": "Video",
@@ -43752,12 +43751,14 @@
     "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1485": {
-    "peer_reviewer": "Dr. Ellie",
-    "_at": "2026-08-07T16:57:01.689Z"
+    "peer_reviewer": "Dr. Ellie Cobb",
+    "_at": "2026-08-11T18:55:55.875Z",
+    "teacher": "Dr. Ellie Cobb"
   },
   "EXT-1486": {
-    "peer_reviewer": "Dr. Ellie",
-    "_at": "2026-08-07T16:57:01.689Z"
+    "peer_reviewer": "Dr. Ellie Cobb",
+    "_at": "2026-08-11T18:55:55.875Z",
+    "teacher": "Dr. Ellie Cobb"
   },
   "EXT-1487": {
     "peer_reviewer": "Hailey",
@@ -45385,8 +45386,9 @@
     "_at": "2026-08-10T19:51:38.073Z"
   },
   "EN-00031": {
-    "peer_reviewer": "Dr. Ellie",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Dr. Ellie Cobb",
+    "_at": "2026-08-11T18:55:55.875Z",
+    "teacher": "Dr. Ellie Cobb"
   },
   "EN-01927": {
     "peer_reviewer": "Katie Attubato",
