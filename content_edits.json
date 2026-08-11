@@ -37772,21 +37772,24 @@
   },
   "EXT-0474": {
     "type": "Video",
-    "_at": "2026-08-10T19:51:38.073Z",
-    "peer_reviewer": "Julia",
-    "category": "Strength Training"
+    "_at": "2026-08-11T18:50:58.632Z",
+    "peer_reviewer": "Julia Chan",
+    "category": "Strength Training",
+    "teacher": "Julia Chan"
   },
   "EXT-0475": {
     "type": "Video",
-    "_at": "2026-08-10T19:51:38.073Z",
-    "peer_reviewer": "Julia",
-    "category": "Strength Training"
+    "_at": "2026-08-11T18:50:58.632Z",
+    "peer_reviewer": "Julia Chan",
+    "category": "Strength Training",
+    "teacher": "Julia Chan"
   },
   "EXT-0476": {
     "type": "Video",
-    "_at": "2026-08-10T19:51:38.073Z",
-    "peer_reviewer": "Julia",
-    "category": "Strength Training"
+    "_at": "2026-08-11T18:50:58.632Z",
+    "peer_reviewer": "Julia Chan",
+    "category": "Strength Training",
+    "teacher": "Julia Chan"
   },
   "EXT-0477": {
     "type": "Video",
@@ -37845,11 +37848,10 @@
   },
   "EXT-0486": {
     "type": "Video",
-    "_at": "2026-08-11T18:50:49.226Z",
+    "_at": "2026-08-10T19:51:38.073Z",
     "duration": "4 min",
-    "peer_reviewer": "Dr. Julia Iafrate",
-    "category": "Heart Disease",
-    "teacher": "Dr. Julia Iafrate"
+    "peer_reviewer": "Dr. Julia",
+    "category": "Heart Disease"
   },
   "EXT-0488": {
     "type": "Video",
@@ -38618,9 +38620,10 @@
   },
   "EXT-0623": {
     "type": "Video",
-    "_at": "2026-08-10T19:51:38.073Z",
-    "peer_reviewer": "Julia",
-    "category": "Strength Training"
+    "_at": "2026-08-11T18:50:58.632Z",
+    "peer_reviewer": "Julia Chan",
+    "category": "Strength Training",
+    "teacher": "Julia Chan"
   },
   "EXT-0625": {
     "type": "Video",
@@ -38675,19 +38678,17 @@
   },
   "EXT-0633": {
     "type": "Video",
-    "_at": "2026-08-11T18:50:49.226Z",
+    "_at": "2026-08-10T19:51:38.073Z",
     "duration": "3 min",
-    "peer_reviewer": "Dr. Julia Iafrate",
-    "category": "Heart Disease",
-    "teacher": "Dr. Julia Iafrate"
+    "peer_reviewer": "Dr. Julia",
+    "category": "Heart Disease"
   },
   "EXT-0634": {
     "type": "Video",
-    "_at": "2026-08-11T18:50:49.226Z",
+    "_at": "2026-08-10T19:51:38.073Z",
     "duration": "4 min",
-    "peer_reviewer": "Dr. Julia Iafrate",
-    "category": "Heart Disease",
-    "teacher": "Dr. Julia Iafrate"
+    "peer_reviewer": "Dr. Julia",
+    "category": "Heart Disease"
   },
   "EXT-0635": {
     "type": "Video",
@@ -42891,14 +42892,16 @@
     "category": "Strength Training"
   },
   "EXT-1200": {
-    "peer_reviewer": "Julia",
-    "_at": "2026-08-10T19:51:38.073Z",
-    "category": "Strength Training"
+    "peer_reviewer": "Julia Chan",
+    "_at": "2026-08-11T18:50:58.632Z",
+    "category": "Strength Training",
+    "teacher": "Julia Chan"
   },
   "EXT-1201": {
-    "peer_reviewer": "Julia",
-    "_at": "2026-08-10T19:51:38.073Z",
-    "category": "Strength Training"
+    "peer_reviewer": "Julia Chan",
+    "_at": "2026-08-11T18:50:58.632Z",
+    "category": "Strength Training",
+    "teacher": "Julia Chan"
   },
   "EXT-1202": {
     "peer_reviewer": "Sadiya",
@@ -42991,13 +42994,15 @@
     "category": "Dance & Zumba"
   },
   "EXT-1221": {
-    "peer_reviewer": "Julia",
-    "_at": "2026-08-07T16:57:01.689Z"
+    "peer_reviewer": "Julia Chan",
+    "_at": "2026-08-11T18:50:58.632Z",
+    "teacher": "Julia Chan"
   },
   "EXT-1222": {
-    "peer_reviewer": "Julia",
-    "_at": "2026-08-10T19:51:38.073Z",
-    "category": "Sleep"
+    "peer_reviewer": "Julia Chan",
+    "_at": "2026-08-11T18:50:58.632Z",
+    "category": "Sleep",
+    "teacher": "Julia Chan"
   },
   "EXT-1223": {
     "peer_reviewer": "Danyelle",
@@ -43027,9 +43032,8 @@
     "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1229": {
-    "peer_reviewer": "Dr. Julia Iafrate",
-    "_at": "2026-08-11T18:50:49.226Z",
-    "teacher": "Dr. Julia Iafrate"
+    "peer_reviewer": "Dr. Julia",
+    "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1230": {
     "peer_reviewer": "Dr. Joe",
@@ -43304,9 +43308,8 @@
     "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1337": {
-    "peer_reviewer": "Dr. Julia Iafrate",
-    "_at": "2026-08-11T18:50:49.226Z",
-    "teacher": "Dr. Julia Iafrate"
+    "peer_reviewer": "Dr. Julia",
+    "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1338": {
     "peer_reviewer": "Thai",
@@ -43325,29 +43328,24 @@
     "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1342": {
-    "peer_reviewer": "Dr. Julia Iafrate",
-    "_at": "2026-08-11T18:50:49.226Z",
-    "teacher": "Dr. Julia Iafrate"
+    "peer_reviewer": "Dr. Julia",
+    "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1343": {
-    "peer_reviewer": "Dr. Julia Iafrate",
-    "_at": "2026-08-11T18:50:49.226Z",
-    "teacher": "Dr. Julia Iafrate"
+    "peer_reviewer": "Dr. Julia",
+    "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1344": {
-    "peer_reviewer": "Dr. Julia Iafrate",
-    "_at": "2026-08-11T18:50:49.226Z",
-    "teacher": "Dr. Julia Iafrate"
+    "peer_reviewer": "Dr. Julia",
+    "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1345": {
-    "peer_reviewer": "Dr. Julia Iafrate",
-    "_at": "2026-08-11T18:50:49.226Z",
-    "teacher": "Dr. Julia Iafrate"
+    "peer_reviewer": "Dr. Julia",
+    "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1346": {
-    "peer_reviewer": "Dr. Julia Iafrate",
-    "_at": "2026-08-11T18:50:49.226Z",
-    "teacher": "Dr. Julia Iafrate"
+    "peer_reviewer": "Dr. Julia",
+    "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1347": {
     "peer_reviewer": "Thai",
@@ -43490,9 +43488,8 @@
     "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1382": {
-    "peer_reviewer": "Dr. Julia Iafrate",
-    "_at": "2026-08-11T18:50:49.226Z",
-    "teacher": "Dr. Julia Iafrate"
+    "peer_reviewer": "Dr. Julia",
+    "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1383": {
     "peer_reviewer": "Kaitlyn",
@@ -43527,9 +43524,8 @@
     "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1391": {
-    "peer_reviewer": "Dr. Julia Iafrate",
-    "_at": "2026-08-11T18:50:49.226Z",
-    "teacher": "Dr. Julia Iafrate"
+    "peer_reviewer": "Dr. Julia",
+    "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1392": {
     "peer_reviewer": "Joe",
@@ -43656,9 +43652,8 @@
     "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1423": {
-    "peer_reviewer": "Dr. Julia Iafrate",
-    "_at": "2026-08-11T18:50:49.226Z",
-    "teacher": "Dr. Julia Iafrate"
+    "peer_reviewer": "Dr. Julia",
+    "_at": "2026-08-07T16:57:01.689Z"
   },
   "EXT-1424": {
     "peer_reviewer": "Margo",
