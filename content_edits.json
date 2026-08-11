@@ -34178,8 +34178,8 @@
     "language": "English"
   },
   "VID-0311": {
-    "author": "Nicole",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "author": "Nicole Guerrero",
+    "_at": "2026-08-11T20:38:11.988Z",
     "language": "English",
     "duration": "2"
   },
@@ -38370,9 +38370,10 @@
   },
   "ES-00025": {
     "type": "Video",
-    "_at": "2026-08-07T16:57:01.689Z",
+    "_at": "2026-08-11T20:38:11.988Z",
     "duration": "4 min",
-    "peer_reviewer": "Nicole"
+    "peer_reviewer": "Nicole Guerrero",
+    "teacher": "Nicole Guerrero"
   },
   "AR-00038": {
     "type": "Video",
@@ -38915,9 +38916,10 @@
   },
   "ES-00029": {
     "type": "Video",
-    "_at": "2026-08-07T16:57:01.689Z",
+    "_at": "2026-08-11T20:38:11.988Z",
     "duration": "4 min",
-    "peer_reviewer": "Nicole"
+    "peer_reviewer": "Nicole Guerrero",
+    "teacher": "Nicole Guerrero"
   },
   "ES-00072": {
     "type": "Video",
@@ -44549,18 +44551,18 @@
     "category": "Financial Wellness"
   },
   "EXT-1237": {
-    "teacher": "Nicole",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "teacher": "Nicole Guerrero",
+    "_at": "2026-08-11T20:38:11.988Z",
     "duration": "3",
-    "peer_reviewer": "Nicole",
+    "peer_reviewer": "Nicole Guerrero",
     "language": "English",
     "author": "Nadia"
   },
   "EXT-1238": {
-    "teacher": "Nicole",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "teacher": "Nicole Guerrero",
+    "_at": "2026-08-11T20:38:11.988Z",
     "duration": "3",
-    "peer_reviewer": "Nicole",
+    "peer_reviewer": "Nicole Guerrero",
     "language": "English",
     "author": "Nadia"
   },
@@ -49872,9 +49874,10 @@
     "teacher": "Truike Boekholt"
   },
   "ES-00027": {
-    "peer_reviewer": "Nicole",
-    "_at": "2026-08-11T20:17:14.145Z",
-    "author": "Nadia"
+    "peer_reviewer": "Nicole Guerrero",
+    "_at": "2026-08-11T20:38:11.988Z",
+    "author": "Nadia",
+    "teacher": "Nicole Guerrero"
   },
   "EN-00093": {
     "peer_reviewer": "Victoria Davis",
@@ -50246,10 +50249,11 @@
     "teacher": "Manon Hallay"
   },
   "EN-01747": {
-    "peer_reviewer": "Nicole",
-    "_at": "2026-08-11T20:17:14.145Z",
+    "peer_reviewer": "Nicole Guerrero",
+    "_at": "2026-08-11T20:38:11.988Z",
     "language": "English",
-    "author": "Nicole"
+    "author": "Nicole",
+    "teacher": "Nicole Guerrero"
   },
   "AR-00039": {
     "peer_reviewer": "Nada Doueiry",
@@ -50552,9 +50556,10 @@
     "teacher": "Manon Hallay"
   },
   "ES-00028": {
-    "peer_reviewer": "Nicole",
-    "_at": "2026-08-11T20:17:14.145Z",
-    "author": "Nadia"
+    "peer_reviewer": "Nicole Guerrero",
+    "_at": "2026-08-11T20:38:11.988Z",
+    "author": "Nadia",
+    "teacher": "Nicole Guerrero"
   },
   "AR-00032": {
     "peer_reviewer": "Nada Doueiry",
@@ -51362,10 +51367,11 @@
     "author": "Leonaura"
   },
   "EN-01693": {
-    "peer_reviewer": "Nicole",
-    "_at": "2026-08-11T20:17:14.145Z",
+    "peer_reviewer": "Nicole Guerrero",
+    "_at": "2026-08-11T20:38:11.988Z",
     "language": "English",
-    "author": "Nicole"
+    "author": "Nicole",
+    "teacher": "Nicole Guerrero"
   },
   "EN-01327": {
     "peer_reviewer": "Candice White-Parker",
@@ -51560,9 +51566,10 @@
     "author": "Briana"
   },
   "ES-00026": {
-    "peer_reviewer": "Nicole",
-    "_at": "2026-08-11T20:17:14.145Z",
-    "author": "Nadia"
+    "peer_reviewer": "Nicole Guerrero",
+    "_at": "2026-08-11T20:38:11.988Z",
+    "author": "Nadia",
+    "teacher": "Nicole Guerrero"
   },
   "ES-00167": {
     "peer_reviewer": "Victor Pereira Sanchez",
@@ -52078,8 +52085,9 @@
     "teacher": "Dr. Fahim Pyarali"
   },
   "EN-01694": {
-    "peer_reviewer": "Nicole",
-    "_at": "2026-08-10T19:51:38.073Z"
+    "peer_reviewer": "Nicole Guerrero",
+    "_at": "2026-08-11T20:38:11.988Z",
+    "teacher": "Nicole Guerrero"
   },
   "EN-01707": {
     "peer_reviewer": "Kim Ross",
