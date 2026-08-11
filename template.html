@@ -1482,6 +1482,19 @@ async function handleImportFile(file) {
                 updates.push({ id: existing.id, field, value: val });
               }
             }
+            // A forward-filled Section/Topic column works as the category for new
+            // items (below) — it must work the same way for existing items matched
+            // by ID, or a file using that header silently updates nothing at all.
+            // Only applies when there's no dedicated Category column on the row.
+            if (row['category'] === undefined && lastCategory) {
+              const val = lastCategory.trim();
+              const cur = String(lv(existing, 'category') || '').trim();
+              if (val && val !== cur) {
+                if (!edits[existing.id]) edits[existing.id] = {};
+                edits[existing.id].category = val;
+                updates.push({ id: existing.id, field: 'category', value: val });
+              }
+            }
             const url = String(row['url'] || row['link'] || row['vimeo'] || '').trim();
             if (url) {
               const urlField = url.includes('vimeo') ? 'vimeo_link' : 'link';
@@ -1719,7 +1732,6 @@ document.getElementById('totalCount').textContent = ALL.length.toLocaleString();
 
 const REVIEW_SET  = new Set(['Article','Infographic','Video']);
 const ALL_TYPES   = ['Article','Infographic','Video'];
-const ALL_CATS    = [...new Set(ALL.map(i=>i.category))].sort();
 
 // ── Colors ────────────────────────────────────────────────────────────────────
 const BG_COLORS = [
@@ -2464,7 +2476,12 @@ function showDetail(item) {
   const fSubLangs= gE(item.id,'subtitle_languages','');
 
   const typeOpts = ALL_TYPES.map(t=>`<option${fType===t?' selected':''}>${t}</option>`).join('');
-  const catOpts  = ALL_CATS.map(c=>`<option${fCat===c?' selected':''}>${c}</option>`).join('');
+  // Computed fresh (not a load-time snapshot) so a category introduced after page
+  // load — via edits overlay, bulk import, etc. — always has a matching <option>.
+  // A <select> whose bound value has no matching option silently displays the
+  // first option instead, which made correctly-saved categories look unsaved.
+  const liveCats = [...new Set([...ALL.map(i=>lv(i,'category')), fCat])].filter(Boolean).sort();
+  const catOpts  = liveCats.map(c=>`<option${fCat===c?' selected':''}>${c}</option>`).join('');
   const prioOpts = ['','High','Moderate','Low'].map(p=>`<option value="${p}"${fPrio===p?' selected':''}>${p||'—'}</option>`).join('');
 
   function toggler(key, val) {
