@@ -45639,12 +45639,13 @@
   },
   "INF-0097": {
     "author": "Jade Gordon",
-    "_at": "2026-08-12T14:02:48.725Z",
+    "_at": "2026-08-12T14:57:52.930Z",
     "date_created": "5/5/2026",
     "language": "English",
     "link": "Recipe - Chicken, Pea & Potato Bake.pdf",
     "category": "Nutrition",
-    "author_creds": "Behavioral Technician"
+    "author_creds": "Behavioral Technician",
+    "type": "Recipe"
   },
   "INF-0099": {
     "author": "Jade Gordon",
