@@ -168,9 +168,10 @@
   },
   "VID-0403": {
     "author": "Gisele Espin",
-    "_at": "2026-08-11T20:36:27.668Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "5",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/24/2025"
   },
   "EN-00349": {
     "author": "Julika Von Stackelberg",
@@ -247,9 +248,10 @@
   },
   "VID-0322": {
     "author": "Kanwal Haq",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "3",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/24/2025"
   },
   "EN-00572": {
     "author": "Kanwal Haq",
@@ -4668,8 +4670,9 @@
   },
   "VID-0110": {
     "author": "Dr. Joe Feuerstein",
-    "_at": "2026-08-11T20:11:02.822Z",
-    "duration": "5"
+    "_at": "2026-08-12T20:48:46.194Z",
+    "duration": "5",
+    "date_created": "3/25/2025"
   },
   "VID-0114": {
     "author": "Dr. Joe Feuerstein",
@@ -4683,15 +4686,17 @@
   },
   "VID-0116": {
     "author": "Dr. Joe Feuerstein",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "3",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/26/2025"
   },
   "VID-0117": {
     "author": "Dr. Joe Feuerstein",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "3",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/26/2025"
   },
   "VID-0178": {
     "author": "Dr. Joe Feuerstein",
@@ -4701,8 +4706,9 @@
   },
   "VID-0216": {
     "author": "Dr. Joe Feuerstein",
-    "_at": "2026-08-11T20:11:02.822Z",
-    "duration": "5"
+    "_at": "2026-08-12T20:48:46.194Z",
+    "duration": "5",
+    "date_created": "3/26/2025"
   },
   "VID-0229": {
     "author": "Dr. Joe Feuerstein",
@@ -4742,8 +4748,9 @@
   },
   "VID-0328": {
     "author": "Dr. Joe Feuerstein",
-    "_at": "2026-08-11T20:11:02.822Z",
-    "duration": "3"
+    "_at": "2026-08-12T20:48:46.194Z",
+    "duration": "3",
+    "date_created": "3/26/2025"
   },
   "VID-0349": {
     "author": "Dr. Joe Feuerstein",
@@ -4759,9 +4766,10 @@
   },
   "VID-0387": {
     "author": "Dr. Joe Feuerstein",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "3",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/26/2025"
   },
   "VID-0388": {
     "author": "Dr. Joe Feuerstein",
@@ -4771,9 +4779,10 @@
   },
   "VID-0399": {
     "author": "Dr. Joe Feuerstein",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "10",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/24/2025"
   },
   "VID-0408": {
     "author": "Dr. Joe Feuerstein",
@@ -6149,9 +6158,10 @@
   },
   "VID-0251": {
     "author": "Linda Johnson",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "language": "English",
-    "duration": "5"
+    "duration": "5",
+    "date_created": "2/6/2026"
   },
   "VID-0252": {
     "author": "Linda Johnson",
@@ -6209,15 +6219,17 @@
   },
   "VID-0379": {
     "author": "Linda Johnson",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "5",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/7/2025"
   },
   "VID-0380": {
     "author": "Linda Johnson",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "3",
-    "language": "English"
+    "language": "English",
+    "date_created": "2/10/2025"
   },
   "VID-0382": {
     "author": "Linda Johnson",
@@ -7843,16 +7855,18 @@
   },
   "VID-0014": {
     "author": "Kaitlyn Bruneau",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "7 min",
     "references": "Cleveland Clinic. (2023). Panic Attacks & Panic Disorder: Causes, Symptoms & Treatment. https://my.clevelandclinic.org/health/diseases/4451-panic-attack-panic-disorder\n\nJohns Hopkins Medicine. (2021). Panic Disorder. https://www.hopkinsmedicine.org/health/conditions-and-diseases/panic-disorder\n\nScientific Reports. (2023). Effect of breathwork on stress and mental health: A meta-analysis of randomised-controlled trials. https://pmc.ncbi.nlm.nih.gov/articles/PMC9828383/",
-    "language": "English"
+    "language": "English",
+    "date_created": "5/7/2026"
   },
   "VID-0016": {
     "author": "Kaitlyn Bruneau",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "5",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/7/2025"
   },
   "VID-0020": {
     "author": "Kaitlyn Bruneau",
@@ -7862,9 +7876,10 @@
   },
   "VID-0024": {
     "author": "Kaitlyn Bruneau",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "5",
-    "language": "English"
+    "language": "English",
+    "date_created": "2/6/2026"
   },
   "VID-0027": {
     "author": "Kaitlyn Bruneau",
@@ -7886,9 +7901,10 @@
   },
   "VID-0262": {
     "author": "Kaitlyn Bruneau",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "4 min",
-    "language": "English"
+    "language": "English",
+    "date_created": "5/7/2026"
   },
   "VID-0295": {
     "author": "Kaitlyn Bruneau",
@@ -7910,9 +7926,10 @@
   },
   "VID-0310": {
     "author": "Kaitlyn Bruneau",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "4 min",
-    "language": "English"
+    "language": "English",
+    "date_created": "5/7/2026"
   },
   "VID-0318": {
     "author": "Kaitlyn Bruneau",
@@ -8934,9 +8951,10 @@
   },
   "VID-0004": {
     "author": "Jessica Cording",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "2 min",
-    "language": "English"
+    "language": "English",
+    "date_created": "5/6/2026"
   },
   "VID-0005": {
     "author": "Jessica Cording",
@@ -8946,10 +8964,11 @@
   },
   "VID-0006": {
     "author": "Jessica Cording",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "5",
     "references": "Molecules. (2022). Effect of Ginger on Inflammatory Diseases. https://www.mdpi.com/1420-3049/27/21/7223\n\nFrontiers in Immunology. (2021). Effects of Citrus Fruit Juices and Their Bioactive Components on Inflammation and Immunity: A Narrative Review. https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2021.712608/full\n\nHarvard Health Publishing. (2025). Alcohol and your health: Risks, benefits, and controversies. https://www.health.harvard.edu/blog/alcohol-and-your-health-risks-benefits-and-controversies-202501273088",
-    "language": "English"
+    "language": "English",
+    "date_created": "4/28/2025"
   },
   "VID-0007": {
     "author": "Jessica Cording",
@@ -8968,15 +8987,17 @@
   },
   "VID-0702": {
     "author": "Jessica Cording",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "5",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/24/2025"
   },
   "VID-0703": {
     "author": "Jessica Cording",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "5",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/25/2025"
   },
   "VID-0704": {
     "author": "Jessica Cording",
@@ -9028,9 +9049,10 @@
   },
   "VID-0741": {
     "author": "Jessica Cording",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "5",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/25/2025"
   },
   "VID-1681": {
     "author": "Jessica Cording",
@@ -13504,21 +13526,24 @@
   },
   "VID-0490": {
     "author": "Liz Ilgenfritz",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "10",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/24/2025"
   },
   "VID-0491": {
     "author": "Liz Ilgenfritz",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "10",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/25/2025"
   },
   "VID-0492": {
     "author": "Liz Ilgenfritz",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "5",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/26/2025"
   },
   "VID-0496": {
     "author": "Liz Ilgenfritz",
@@ -13534,9 +13559,10 @@
   },
   "VID-0498": {
     "author": "Liz Ilgenfritz",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "10",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/25/2025"
   },
   "VID-0499": {
     "author": "Liz Ilgenfritz",
@@ -13546,9 +13572,10 @@
   },
   "VID-0500": {
     "author": "Liz Ilgenfritz",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "10",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/24/2025"
   },
   "VID-0515": {
     "author": "Liz Ilgenfritz",
@@ -13564,9 +13591,10 @@
   },
   "VID-0518": {
     "author": "Liz Ilgenfritz",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "10",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/25/2025"
   },
   "VID-0519": {
     "author": "Liz Ilgenfritz",
@@ -13576,15 +13604,17 @@
   },
   "VID-0520": {
     "author": "Liz Ilgenfritz",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "10",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/25/2025"
   },
   "VID-0521": {
     "author": "Liz Ilgenfritz",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "10",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/25/2025"
   },
   "VID-0522": {
     "author": "Liz Ilgenfritz",
@@ -13600,15 +13630,17 @@
   },
   "VID-0524": {
     "author": "Liz Ilgenfritz",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "10",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/26/2025"
   },
   "VID-0525": {
     "author": "Liz Ilgenfritz",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "10",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/26/2025"
   },
   "VID-0526": {
     "author": "Liz Ilgenfritz",
@@ -13618,15 +13650,17 @@
   },
   "VID-0527": {
     "author": "Liz Ilgenfritz",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "5",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/25/2025"
   },
   "VID-0533": {
     "author": "Liz Ilgenfritz",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "10",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/25/2025"
   },
   "VID-0534": {
     "author": "Liz Ilgenfritz",
@@ -13647,21 +13681,24 @@
   },
   "VID-0541": {
     "author": "Liz Ilgenfritz",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "5",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/25/2025"
   },
   "VID-0542": {
     "author": "Liz Ilgenfritz",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "5",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/25/2025"
   },
   "VID-0558": {
     "author": "Liz Ilgenfritz",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "10",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/25/2025"
   },
   "VID-0559": {
     "author": "Liz Ilgenfritz",
@@ -13677,15 +13714,17 @@
   },
   "VID-0561": {
     "author": "Liz Ilgenfritz",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "10",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/24/2025"
   },
   "VID-0564": {
     "author": "Liz Ilgenfritz",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "15",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/26/2025"
   },
   "VID-0565": {
     "author": "Liz Ilgenfritz",
@@ -13707,9 +13746,10 @@
   },
   "VID-0571": {
     "author": "Liz Ilgenfritz",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "10",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/25/2025"
   },
   "VID-0572": {
     "author": "Liz Ilgenfritz",
@@ -13719,9 +13759,10 @@
   },
   "VID-0573": {
     "author": "Liz Ilgenfritz",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "10",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/25/2025"
   },
   "VID-0617": {
     "author": "Liz Ilgenfritz",
@@ -13731,9 +13772,10 @@
   },
   "VID-0618": {
     "author": "Liz Ilgenfritz",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "10",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/25/2025"
   },
   "VID-0619": {
     "author": "Liz Ilgenfritz",
@@ -14180,15 +14222,17 @@
   },
   "VID-0015": {
     "author": "Thai James",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "10",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/7/2025"
   },
   "VID-0744": {
     "author": "Thai James",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "10",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/26/2025"
   },
   "VID-0745": {
     "author": "Thai James",
@@ -14198,9 +14242,10 @@
   },
   "VID-0746": {
     "author": "Thai James",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "10",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/26/2025"
   },
   "VID-0747": {
     "author": "Thai James",
@@ -14228,9 +14273,10 @@
   },
   "VID-0759": {
     "author": "Thai James",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "5",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/7/2025"
   },
   "VID-0833": {
     "author": "Thai James",
@@ -14968,9 +15014,10 @@
   },
   "VID-0126": {
     "author": "Kim Ross",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "3",
-    "language": "English"
+    "language": "English",
+    "date_created": "4/24/2025"
   },
   "VID-0128": {
     "author": "Kim Ross",
@@ -14980,7 +15027,7 @@
   },
   "VID-0129": {
     "author": "Kim Ross",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "licenses": [
       "Healthee",
       "Numbase",
@@ -14988,7 +15035,8 @@
     ],
     "vimeo_link": "https://vimeo.com/1069379503/f884010212?share=copy",
     "duration": "3",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/25/2025"
   },
   "VID-0130": {
     "author": "Kim Ross",
@@ -14998,27 +15046,31 @@
   },
   "VID-0132": {
     "author": "Kim Ross",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "5",
-    "language": "English"
+    "language": "English",
+    "date_created": "4/28/2025"
   },
   "VID-0133": {
     "author": "Kim Ross",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "3",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/7/2025"
   },
   "VID-0134": {
     "author": "Kim Ross",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "3",
-    "language": "English"
+    "language": "English",
+    "date_created": "4/24/2025"
   },
   "VID-0331": {
     "author": "Kim Ross",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "5",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/25/2025"
   },
   "VID-0392": {
     "author": "Kim Ross",
@@ -15028,21 +15080,24 @@
   },
   "VID-0393": {
     "author": "Kim Ross",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "3",
-    "language": "English"
+    "language": "English",
+    "date_created": "4/28/2025"
   },
   "VID-0394": {
     "author": "Kim Ross",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "5",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/25/2025"
   },
   "VID-0417": {
     "author": "Kim Ross",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "5",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/25/2025"
   },
   "VID-0873": {
     "author": "Kim Ross",
@@ -15611,27 +15666,31 @@
   },
   "VID-0481": {
     "author": "Briana Kurtz",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "5",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/25/2025"
   },
   "VID-0482": {
     "author": "Briana Kurtz",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "3",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/25/2025"
   },
   "VID-0483": {
     "author": "Briana Kurtz",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "language": "English",
-    "duration": "3"
+    "duration": "3",
+    "date_created": "3/25/2025"
   },
   "VID-0484": {
     "author": "Briana Kurtz",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "5",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/25/2025"
   },
   "VID-0554": {
     "author": "Briana Kurtz",
@@ -15641,21 +15700,24 @@
   },
   "VID-0556": {
     "author": "Briana Kurtz",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "10",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/26/2025"
   },
   "VID-0557": {
     "author": "Briana Kurtz",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "15",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/25/2025"
   },
   "VID-0568": {
     "author": "Briana Kurtz",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "2 min",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/24/2025"
   },
   "VID-0582": {
     "author": "Briana Kurtz",
@@ -15665,9 +15727,10 @@
   },
   "VID-0583": {
     "author": "Briana Kurtz",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "5",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/24/2025"
   },
   "VID-0584": {
     "author": "Briana Kurtz",
@@ -15677,9 +15740,10 @@
   },
   "VID-0585": {
     "author": "Briana Kurtz",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "5",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/24/2025"
   },
   "VID-0586": {
     "author": "Briana Kurtz",
@@ -15701,9 +15765,10 @@
   },
   "VID-0589": {
     "author": "Briana Kurtz",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "5",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/25/2025"
   },
   "VID-0609": {
     "author": "Briana Kurtz",
@@ -15725,63 +15790,73 @@
   },
   "VID-0620": {
     "author": "Briana Kurtz",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "10",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/25/2025"
   },
   "VID-0621": {
     "author": "Briana Kurtz",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "language": "English",
-    "duration": "10"
+    "duration": "10",
+    "date_created": "3/25/2025"
   },
   "VID-0622": {
     "author": "Briana Kurtz",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "language": "English",
-    "duration": "10"
+    "duration": "10",
+    "date_created": "3/25/2025"
   },
   "VID-0623": {
     "author": "Briana Kurtz",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "language": "English",
-    "duration": "10"
+    "duration": "10",
+    "date_created": "3/25/2025"
   },
   "VID-0624": {
     "author": "Briana Kurtz",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "language": "English",
-    "duration": "10"
+    "duration": "10",
+    "date_created": "3/25/2025"
   },
   "VID-0625": {
     "author": "Briana Kurtz",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "10",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/25/2025"
   },
   "VID-0626": {
     "author": "Briana Kurtz",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "language": "English",
-    "duration": "10"
+    "duration": "10",
+    "date_created": "3/25/2025"
   },
   "VID-0627": {
     "author": "Briana Kurtz",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "language": "English",
-    "duration": "10"
+    "duration": "10",
+    "date_created": "3/25/2025"
   },
   "VID-0628": {
     "author": "Briana Kurtz",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "language": "English",
-    "duration": "15"
+    "duration": "15",
+    "date_created": "3/25/2025"
   },
   "VID-0629": {
     "author": "Briana Kurtz",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "15",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/25/2025"
   },
   "VID-0630": {
     "author": "Briana Kurtz",
@@ -15791,15 +15866,17 @@
   },
   "VID-0631": {
     "author": "Briana Kurtz",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "10",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/25/2025"
   },
   "VID-0632": {
     "author": "Briana Kurtz",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "10",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/25/2025"
   },
   "VID-0663": {
     "author": "Briana Kurtz",
@@ -15820,9 +15897,10 @@
   },
   "VID-0668": {
     "author": "Briana Kurtz",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "10",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/25/2025"
   },
   "EN-00043": {
     "author": "Briana Kurtz",
@@ -16170,33 +16248,38 @@
   },
   "VID-0148": {
     "author": "Crystal Williams",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "2",
-    "language": "English"
+    "language": "English",
+    "date_created": "5/13/2025"
   },
   "VID-0149": {
     "author": "Crystal Williams",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "2",
-    "language": "English"
+    "language": "English",
+    "date_created": "5/13/2025"
   },
   "VID-0150": {
     "author": "Crystal Williams",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "2",
-    "language": "English"
+    "language": "English",
+    "date_created": "5/13/2025"
   },
   "VID-0151": {
     "author": "Crystal Williams",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "2",
-    "language": "English"
+    "language": "English",
+    "date_created": "5/13/2025"
   },
   "VID-0152": {
     "author": "Crystal Williams",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "2",
-    "language": "English"
+    "language": "English",
+    "date_created": "5/13/2025"
   },
   "VID-0153": {
     "author": "Crystal Williams",
@@ -16205,9 +16288,10 @@
   },
   "VID-0154": {
     "author": "Crystal Williams",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "2",
-    "language": "English"
+    "language": "English",
+    "date_created": "5/13/2025"
   },
   "VID-0156": {
     "author": "Crystal Williams",
@@ -16247,15 +16331,17 @@
   },
   "VID-0172": {
     "author": "Crystal Williams",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "2",
-    "language": "English"
+    "language": "English",
+    "date_created": "5/13/2025"
   },
   "VID-0176": {
     "author": "Crystal Williams",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "2",
-    "language": "English"
+    "language": "English",
+    "date_created": "5/13/2025"
   },
   "VID-1338": {
     "author": "Crystal Williams",
@@ -16750,9 +16836,10 @@
   },
   "VID-0071": {
     "author": "Jennifer Leong",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "3",
-    "language": "English"
+    "language": "English",
+    "date_created": "4/10/2025"
   },
   "VID-0893": {
     "author": "Jennifer Leong",
@@ -17352,9 +17439,10 @@
   },
   "VID-0174": {
     "author": "Candice White-Parker",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "2",
-    "language": "English"
+    "language": "English",
+    "date_created": "7/15/2025"
   },
   "VID-0249": {
     "author": "Candice White-Parker",
@@ -18929,9 +19017,10 @@
   },
   "VID-0240": {
     "author": "Carol Hilaire",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "5",
-    "language": "English"
+    "language": "English",
+    "date_created": "2/6/2026"
   },
   "VID-0245": {
     "author": "Carol Hilaire",
@@ -18941,9 +19030,10 @@
   },
   "VID-0246": {
     "author": "Carol Hilaire",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "2",
-    "language": "English"
+    "language": "English",
+    "date_created": "2/6/2026"
   },
   "VID-0323": {
     "author": "Carol Hilaire",
@@ -18953,9 +19043,10 @@
   },
   "VID-0326": {
     "author": "Carol Hilaire",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "3",
-    "language": "English"
+    "language": "English",
+    "date_created": "2/6/2026"
   },
   "VID-0332": {
     "author": "Carol Hilaire",
@@ -20294,21 +20385,24 @@
   },
   "VID-0352": {
     "author": "Christina Ionno",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "5",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/25/2025"
   },
   "VID-0353": {
     "author": "Christina Ionno",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "5",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/25/2025"
   },
   "VID-0517": {
     "author": "Christina Ionno",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "10",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/25/2025"
   },
   "VID-0682": {
     "author": "Christina Ionno",
@@ -20336,9 +20430,10 @@
   },
   "VID-0686": {
     "author": "Christina Ionno",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "5",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/25/2025"
   },
   "VID-0694": {
     "author": "Christina Ionno",
@@ -20354,15 +20449,17 @@
   },
   "VID-0707": {
     "author": "Christina Ionno",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "5",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/25/2025"
   },
   "VID-0708": {
     "author": "Christina Ionno",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "5",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/24/2025"
   },
   "VID-0709": {
     "author": "Christina Ionno",
@@ -20714,9 +20811,10 @@
   },
   "VID-0082": {
     "author": "Dr. Cherilyn Davis",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "2",
-    "language": "English"
+    "language": "English",
+    "date_created": "6/3/2026"
   },
   "VID-0083": {
     "author": "Dr. Cherilyn Davis",
@@ -20724,15 +20822,17 @@
   },
   "VID-0084": {
     "author": "Dr. Cherilyn Davis",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "2 min",
-    "language": "English"
+    "language": "English",
+    "date_created": "6/3/2026"
   },
   "VID-0087": {
     "author": "Dr. Cherilyn Davis",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "1",
-    "language": "English"
+    "language": "English",
+    "date_created": "6/3/2026"
   },
   "VID-0088": {
     "author": "Dr. Cherilyn Davis",
@@ -20785,9 +20885,10 @@
   },
   "VID-0237": {
     "author": "Dr. Cherilyn Davis",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "3",
-    "language": "English"
+    "language": "English",
+    "date_created": "6/3/2026"
   },
   "VID-0265": {
     "author": "Dr. Cherilyn Davis",
@@ -20817,15 +20918,17 @@
   },
   "VID-0278": {
     "author": "Dr. Cherilyn Davis",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "2",
-    "language": "English"
+    "language": "English",
+    "date_created": "6/3/2026"
   },
   "VID-0279": {
     "author": "Dr. Cherilyn Davis",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "2",
-    "language": "English"
+    "language": "English",
+    "date_created": "6/3/2026"
   },
   "VID-0280": {
     "author": "Dr. Cherilyn Davis",
@@ -20833,9 +20936,10 @@
   },
   "VID-0293": {
     "author": "Dr. Cherilyn Davis",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "3",
-    "language": "English"
+    "language": "English",
+    "date_created": "4/10/2025"
   },
   "VID-0314": {
     "author": "Dr. Cherilyn Davis",
@@ -20849,21 +20953,24 @@
   },
   "VID-0773": {
     "author": "Sadiya Shackey-El",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "10",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/25/2025"
   },
   "VID-0774": {
     "author": "Sadiya Shackey-El",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "10",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/25/2025"
   },
   "VID-0775": {
     "author": "Sadiya Shackey-El",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "10",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/25/2025"
   },
   "VID-0842": {
     "author": "Sadiya Shackey-El",
@@ -22039,9 +22146,10 @@
   },
   "VID-0637": {
     "author": "Hollis Williams",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "2",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/25/2025"
   },
   "VID-0638": {
     "author": "Hollis Williams",
@@ -22069,9 +22177,10 @@
   },
   "VID-0642": {
     "author": "Hollis Williams",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "2",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/25/2025"
   },
   "VID-0643": {
     "author": "Hollis Williams",
@@ -22081,9 +22190,10 @@
   },
   "VID-0644": {
     "author": "Hollis Williams",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "2",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/25/2025"
   },
   "VID-0645": {
     "author": "Hollis Williams",
@@ -22093,9 +22203,10 @@
   },
   "VID-0646": {
     "author": "Hollis Williams",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "date_created": "3/25/2025"
   },
   "VID-0647": {
     "author": "Hollis Williams",
@@ -24492,8 +24603,9 @@
   },
   "VID-0350": {
     "author": "Sophia Manassei",
-    "_at": "2026-08-11T20:11:02.822Z",
-    "duration": "5"
+    "_at": "2026-08-12T20:48:46.194Z",
+    "duration": "5",
+    "date_created": "3/24/2025"
   },
   "VID-1167": {
     "author": "Sophia Manassei",
@@ -24784,15 +24896,17 @@
   },
   "VID-0544": {
     "author": "Alex Scolari",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "10",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/24/2025"
   },
   "VID-0545": {
     "author": "Alex Scolari",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "10",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/26/2025"
   },
   "VID-0549": {
     "author": "Alex Scolari",
@@ -24814,9 +24928,10 @@
   },
   "VID-0562": {
     "author": "Alex Scolari",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "10",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/26/2025"
   },
   "VID-0563": {
     "author": "Alex Scolari",
@@ -24826,15 +24941,17 @@
   },
   "VID-0574": {
     "author": "Alex Scolari",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "3",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/24/2025"
   },
   "VID-0575": {
     "author": "Alex Scolari",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "3",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/24/2025"
   },
   "VID-0576": {
     "author": "Alex Scolari",
@@ -24850,9 +24967,10 @@
   },
   "VID-0578": {
     "author": "Alex Scolari",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "3",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/24/2025"
   },
   "VID-0579": {
     "author": "Alex Scolari",
@@ -24862,9 +24980,10 @@
   },
   "VID-0580": {
     "author": "Alex Scolari",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "5",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/25/2025"
   },
   "VID-0581": {
     "author": "Alex Scolari",
@@ -25028,9 +25147,10 @@
   },
   "VID-0590": {
     "author": "Anthony Crouchelli",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "language": "English",
-    "duration": "10"
+    "duration": "10",
+    "date_created": "3/25/2025"
   },
   "VID-0591": {
     "author": "Anthony Crouchelli",
@@ -25040,9 +25160,10 @@
   },
   "VID-0592": {
     "author": "Anthony Crouchelli",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "language": "English",
-    "duration": "10"
+    "duration": "10",
+    "date_created": "3/25/2025"
   },
   "VID-0593": {
     "author": "Anthony Crouchelli",
@@ -25052,39 +25173,45 @@
   },
   "VID-0594": {
     "author": "Anthony Crouchelli",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "language": "English",
-    "duration": "5"
+    "duration": "5",
+    "date_created": "3/24/2025"
   },
   "VID-0595": {
     "author": "Anthony Crouchelli",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "10",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/24/2025"
   },
   "VID-0596": {
     "author": "Anthony Crouchelli",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "5",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/24/2025"
   },
   "VID-0597": {
     "author": "Anthony Crouchelli",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "5",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/25/2025"
   },
   "VID-0598": {
     "author": "Anthony Crouchelli",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "5",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/25/2025"
   },
   "VID-0599": {
     "author": "Anthony Crouchelli",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "5",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/25/2025"
   },
   "VID-0600": {
     "author": "Anthony Crouchelli",
@@ -25106,9 +25233,10 @@
   },
   "VID-0603": {
     "author": "Anthony Crouchelli",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "10",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/24/2025"
   },
   "EN-00168": {
     "author": "Anthony Crouchelli",
@@ -25290,15 +25418,17 @@
   },
   "VID-0676": {
     "author": "Sabrih Short",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "9 min",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/25/2025"
   },
   "VID-0776": {
     "author": "Sabrih Short",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "10",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/24/2025"
   },
   "VID-0777": {
     "author": "Sabrih Short",
@@ -25845,9 +25975,10 @@
   },
   "VID-0458": {
     "author": "Zach Bourne",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "2",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/7/2025"
   },
   "VID-0459": {
     "author": "Zach Bourne",
@@ -25881,9 +26012,10 @@
   },
   "VID-0464": {
     "author": "Zach Bourne",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "5",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/25/2025"
   },
   "VID-0465": {
     "author": "Zach Bourne",
@@ -25899,9 +26031,10 @@
   },
   "VID-0467": {
     "author": "Zach Bourne",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "language": "English",
-    "duration": "5"
+    "duration": "5",
+    "date_created": "3/25/2025"
   },
   "VID-0468": {
     "author": "Zach Bourne",
@@ -26051,9 +26184,10 @@
   },
   "VID-0502": {
     "author": "Margi Douglas",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "10",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/26/2025"
   },
   "VID-0503": {
     "author": "Margi Douglas",
@@ -26087,21 +26221,24 @@
   },
   "VID-0508": {
     "author": "Margi Douglas",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "3",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/25/2025"
   },
   "VID-0509": {
     "author": "Margi Douglas",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "3",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/24/2025"
   },
   "VID-0510": {
     "author": "Margi Douglas",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "2",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/26/2025"
   },
   "VID-0511": {
     "author": "Margi Douglas",
@@ -26111,9 +26248,10 @@
   },
   "VID-0512": {
     "author": "Margi Douglas",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "5",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/24/2025"
   },
   "VID-0513": {
     "author": "Margi Douglas",
@@ -26267,9 +26405,10 @@
   },
   "VID-0181": {
     "author": "Jane Mulvey",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "5",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/24/2025"
   },
   "VID-0182": {
     "author": "Jane Mulvey",
@@ -26279,9 +26418,10 @@
   },
   "VID-0183": {
     "author": "Jane Mulvey",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "language": "English",
-    "duration": "5"
+    "duration": "5",
+    "date_created": "3/25/2025"
   },
   "VID-0210": {
     "author": "Jane Mulvey",
@@ -26297,9 +26437,10 @@
   },
   "VID-0217": {
     "author": "Jane Mulvey",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "5",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/26/2025"
   },
   "VID-1030": {
     "author": "Jane Mulvey",
@@ -26470,8 +26611,9 @@
   },
   "VID-0238": {
     "author": "Katie Attubato",
-    "_at": "2026-08-11T20:11:02.822Z",
-    "duration": "5"
+    "_at": "2026-08-12T20:48:46.194Z",
+    "duration": "5",
+    "date_created": "3/25/2025"
   },
   "VID-0320": {
     "author": "Katie Attubato",
@@ -26575,21 +26717,24 @@
   },
   "VID-0120": {
     "author": "Chandra Lee",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "5",
-    "language": "English"
+    "language": "English",
+    "date_created": "4/28/2025"
   },
   "VID-0122": {
     "author": "Chandra Lee",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "5",
-    "language": "English"
+    "language": "English",
+    "date_created": "4/24/2025"
   },
   "VID-0123": {
     "author": "Chandra Lee",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "5",
-    "language": "English"
+    "language": "English",
+    "date_created": "4/28/2025"
   },
   "VID-0869": {
     "author": "Chandra Lee",
@@ -26804,15 +26949,17 @@
   },
   "VID-0242": {
     "author": "Mary Solis",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "5",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/25/2025"
   },
   "VID-0243": {
     "author": "Mary Solis",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "5",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/25/2025"
   },
   "VID-0250": {
     "author": "Mary Solis",
@@ -26822,9 +26969,10 @@
   },
   "VID-0762": {
     "author": "Mary Solis",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "10",
-    "language": "English"
+    "language": "English",
+    "date_created": "12/17/2024"
   },
   "VID-0763": {
     "author": "Mary Solis",
@@ -26834,9 +26982,10 @@
   },
   "VID-0764": {
     "author": "Mary Solis",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "10",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/25/2025"
   },
   "VID-1042": {
     "author": "Mary Solis",
@@ -27290,9 +27439,10 @@
   },
   "VID-0442": {
     "author": "Dr. Ellie Cobb",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "3",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/25/2025"
   },
   "VID-0443": {
     "author": "Dr. Ellie Cobb",
@@ -27331,9 +27481,10 @@
   },
   "VID-0470": {
     "author": "Dr. Ellie Cobb",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "3",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/25/2025"
   },
   "EN-00001": {
     "author": "Dr. Ellie Cobb",
@@ -27500,9 +27651,10 @@
   },
   "VID-0693": {
     "author": "Hailey Miller",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "10",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/25/2025"
   },
   "EN-00010": {
     "author": "Hailey Miller",
@@ -27610,21 +27762,24 @@
   },
   "VID-0680": {
     "author": "Diana Rilov",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "5",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/25/2025"
   },
   "VID-0681": {
     "author": "Diana Rilov",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "5",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/25/2025"
   },
   "VID-0712": {
     "author": "Diana Rilov",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "5",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/24/2025"
   },
   "VID-0713": {
     "author": "Diana Rilov",
@@ -28148,45 +28303,52 @@
   },
   "VID-0141": {
     "author": "Jason Goldsmith",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "5",
-    "language": "English"
+    "language": "English",
+    "date_created": "12/11/2025"
   },
   "VID-0142": {
     "author": "Jason Goldsmith",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "5",
-    "language": "English"
+    "language": "English",
+    "date_created": "12/11/2025"
   },
   "VID-0143": {
     "author": "Jason Goldsmith",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "5",
-    "language": "English"
+    "language": "English",
+    "date_created": "12/11/2025"
   },
   "VID-0144": {
     "author": "Jason Goldsmith",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "5",
-    "language": "English"
+    "language": "English",
+    "date_created": "12/11/2025"
   },
   "VID-0145": {
     "author": "Jason Goldsmith",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "5",
-    "language": "English"
+    "language": "English",
+    "date_created": "12/11/2025"
   },
   "VID-0146": {
     "author": "Jason Goldsmith",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "5",
-    "language": "English"
+    "language": "English",
+    "date_created": "12/11/2025"
   },
   "VID-0147": {
     "author": "Jason Goldsmith",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "5",
-    "language": "English"
+    "language": "English",
+    "date_created": "12/11/2025"
   },
   "VID-1621": {
     "author": "Jason Goldsmith",
@@ -28911,9 +29073,10 @@
   },
   "VID-0370": {
     "author": "Nazirber Maduro",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "2",
-    "language": "English"
+    "language": "English",
+    "date_created": "10/2/2024"
   },
   "VID-0371": {
     "author": "Nazirber Maduro",
@@ -29040,9 +29203,10 @@
   },
   "VID-0155": {
     "author": "Steven Rousseau",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "10",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/24/2025"
   },
   "VID-0615": {
     "author": "Steven Rousseau",
@@ -29058,9 +29222,10 @@
   },
   "VID-0751": {
     "author": "Steven Rousseau",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "20",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/25/2025"
   },
   "VID-0752": {
     "author": "Steven Rousseau",
@@ -29076,9 +29241,10 @@
   },
   "VID-0770": {
     "author": "Steven Rousseau",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "10",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/26/2025"
   },
   "VID-0771": {
     "author": "Steven Rousseau",
@@ -29252,9 +29418,10 @@
   },
   "VID-0480": {
     "author": "Adelaide Burich",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "language": "English",
-    "duration": "5"
+    "duration": "5",
+    "date_created": "3/26/2025"
   },
   "VID-0485": {
     "author": "Adelaide Burich",
@@ -29276,9 +29443,10 @@
   },
   "VID-0494": {
     "author": "Adelaide Burich",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "10",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/25/2025"
   },
   "EN-00038": {
     "author": "Adelaide Burich",
@@ -29965,9 +30133,10 @@
   },
   "VID-0675": {
     "author": "Justice Kelly",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "language": "English",
-    "duration": "10"
+    "duration": "10",
+    "date_created": "3/24/2025"
   },
   "VID-0677": {
     "author": "Justice Kelly",
@@ -29977,15 +30146,17 @@
   },
   "VID-0678": {
     "author": "Justice Kelly",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "10",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/25/2025"
   },
   "VID-0696": {
     "author": "Justice Kelly",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "language": "English",
-    "duration": "10"
+    "duration": "10",
+    "date_created": "3/25/2025"
   },
   "VID-0698": {
     "author": "Justice Kelly",
@@ -30001,9 +30172,10 @@
   },
   "VID-0700": {
     "author": "Justice Kelly",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "30",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/25/2025"
   },
   "EN-00196": {
     "author": "Justice Kelly",
@@ -30430,14 +30602,16 @@
   },
   "VID-0253": {
     "author": "Dr. Leonaura Rhodes",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "5",
-    "language": "English"
+    "language": "English",
+    "date_created": "1/14/2026"
   },
   "VID-0425": {
     "author": "Dr. Leonaura Rhodes",
-    "_at": "2026-08-11T20:11:02.822Z",
-    "duration": "5"
+    "_at": "2026-08-12T20:48:46.194Z",
+    "duration": "5",
+    "date_created": "4/28/2025"
   },
   "VID-0167": {
     "author": "Gisele Espin",
@@ -30447,9 +30621,10 @@
   },
   "VID-0168": {
     "author": "Gisele Espin",
-    "_at": "2026-08-11T20:36:27.668Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "5",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/26/2025"
   },
   "VID-0169": {
     "author": "Gisele Espin",
@@ -30459,15 +30634,17 @@
   },
   "VID-0180": {
     "author": "Gisele Espin",
-    "_at": "2026-08-11T20:36:27.668Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "5",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/26/2025"
   },
   "VID-0396": {
     "author": "Gisele Espin",
-    "_at": "2026-08-11T20:36:27.668Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "10",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/24/2025"
   },
   "EN-00604": {
     "author": "Gisele Espin",
@@ -30617,9 +30794,10 @@
   },
   "VID-0048": {
     "author": "Dr. Hassan Nagy",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "3",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/7/2025"
   },
   "VID-0422": {
     "author": "Dr. Hassan Nagy",
@@ -30736,15 +30914,17 @@
   },
   "VID-0313": {
     "author": "Nada Doueiry",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "10",
-    "language": "English"
+    "language": "English",
+    "date_created": "9/22/2025"
   },
   "VID-0315": {
     "author": "Nada Doueiry",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "10",
-    "language": "English"
+    "language": "English",
+    "date_created": "9/22/2025"
   },
   "VID-1437": {
     "author": "Nada Doueiry",
@@ -30853,21 +31033,24 @@
   },
   "VID-0361": {
     "author": "Lara Zakaria",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "5",
-    "language": "English"
+    "language": "English",
+    "date_created": "12/17/2024"
   },
   "VID-0362": {
     "author": "Lara Zakaria",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "5",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/7/2025"
   },
   "VID-0363": {
     "author": "Lara Zakaria",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "5",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/7/2025"
   },
   "VID-0364": {
     "author": "Lara Zakaria",
@@ -30979,9 +31162,10 @@
   },
   "VID-0705": {
     "author": "Sandy Lin",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "20",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/24/2025"
   },
   "VID-0706": {
     "author": "Sandy Lin",
@@ -31328,15 +31512,17 @@
   },
   "VID-0718": {
     "author": "Julia Chan",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "15",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/7/2025"
   },
   "VID-0719": {
     "author": "Julia Chan",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "10",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/25/2025"
   },
   "EN-00319": {
     "author": "Julia Chan",
@@ -31438,9 +31624,10 @@
   },
   "VID-0671": {
     "author": "Shab Caspara",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "5",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/26/2025"
   },
   "VID-0672": {
     "author": "Shab Caspara",
@@ -31450,15 +31637,17 @@
   },
   "VID-0673": {
     "author": "Shab Caspara",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "date_created": "3/25/2025"
   },
   "VID-0674": {
     "author": "Shab Caspara",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "date_created": "3/25/2025"
   },
   "EN-00264": {
     "author": "Shab Caspara",
@@ -31516,15 +31705,17 @@
   },
   "VID-0018": {
     "author": "Nadia Murdock",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "3",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/7/2025"
   },
   "VID-0754": {
     "author": "Nadia Murdock",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "3",
-    "language": "English"
+    "language": "English",
+    "date_created": "12/17/2024"
   },
   "VID-0755": {
     "author": "Nadia Murdock",
@@ -31686,9 +31877,10 @@
   },
   "VID-0407": {
     "author": "Margo Gladys",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "10",
-    "language": "English"
+    "language": "English",
+    "date_created": "5/2/2025"
   },
   "VID-1252": {
     "author": "Margo Gladys",
@@ -31872,9 +32064,10 @@
   },
   "VID-0547": {
     "author": "Veronica Zhang",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "30",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/25/2025"
   },
   "VID-0548": {
     "author": "Veronica Zhang",
@@ -31941,15 +32134,17 @@
   },
   "VID-0720": {
     "author": "Gus Gosson",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "3",
-    "language": "English"
+    "language": "English",
+    "date_created": "12/17/2024"
   },
   "VID-0721": {
     "author": "Gus Gosson",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "3",
-    "language": "English"
+    "language": "English",
+    "date_created": "12/17/2024"
   },
   "VID-0722": {
     "author": "Gus Gosson",
@@ -31959,15 +32154,17 @@
   },
   "VID-0723": {
     "author": "Gus Gosson",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "3",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/25/2025"
   },
   "VID-0724": {
     "author": "Gus Gosson",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "3",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/24/2025"
   },
   "EN-00327": {
     "author": "Gus Gosson",
@@ -32042,33 +32239,38 @@
   },
   "VID-0731": {
     "author": "Julius Betila",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "5",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/25/2025"
   },
   "VID-0732": {
     "author": "Julius Betila",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "5",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/25/2025"
   },
   "VID-0733": {
     "author": "Julius Betila",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "5",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/25/2025"
   },
   "VID-0734": {
     "author": "Julius Betila",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "5",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/25/2025"
   },
   "VID-0735": {
     "author": "Julius Betila",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "5",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/25/2025"
   },
   "EN-00340": {
     "author": "Julius Betila",
@@ -32663,21 +32865,24 @@
   },
   "VID-0068": {
     "author": "Julika Von Stackelberg",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "3",
-    "language": "English"
+    "language": "English",
+    "date_created": "1/20/2026"
   },
   "VID-0070": {
     "author": "Julika Von Stackelberg",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "3",
-    "language": "English"
+    "language": "English",
+    "date_created": "1/14/2026"
   },
   "VID-0303": {
     "author": "Julika Von Stackelberg",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "5",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/25/2025"
   },
   "VID-0304": {
     "author": "Julika Von Stackelberg",
@@ -32816,9 +33021,10 @@
   },
   "VID-0528": {
     "author": "Victoria Davis",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "10",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/26/2025"
   },
   "VID-0529": {
     "author": "Victoria Davis",
@@ -32828,9 +33034,10 @@
   },
   "VID-0530": {
     "author": "Victoria Davis",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "10",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/26/2025"
   },
   "VID-0531": {
     "author": "Victoria Davis",
@@ -32840,9 +33047,10 @@
   },
   "VID-0532": {
     "author": "Victoria Davis",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "language": "English",
-    "duration": "10"
+    "duration": "10",
+    "date_created": "3/26/2025"
   },
   "EN-00143": {
     "teacher": "Victoria Davis",
@@ -32889,9 +33097,10 @@
   },
   "VID-0612": {
     "author": "Cailyn O'Donnell",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "10",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/24/2025"
   },
   "VID-0613": {
     "author": "Cailyn O'Donnell",
@@ -32901,15 +33110,17 @@
   },
   "VID-0614": {
     "author": "Cailyn O'Donnell",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "10",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/24/2025"
   },
   "VID-0616": {
     "author": "Cailyn O'Donnell",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "5",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/25/2025"
   },
   "EN-00202": {
     "author": "Cailyn O'Donnell",
@@ -33115,21 +33326,24 @@
   },
   "VID-0488": {
     "author": "Yemie Sonuga",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "13 min",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/24/2025"
   },
   "VID-0495": {
     "author": "Yemie Sonuga",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "language": "English",
-    "duration": "5"
+    "duration": "5",
+    "date_created": "3/26/2025"
   },
   "VID-0667": {
     "author": "Yemie Sonuga",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "language": "English",
-    "duration": "20"
+    "duration": "20",
+    "date_created": "3/26/2025"
   },
   "EN-00050": {
     "author": "Yemie Sonuga",
@@ -33172,9 +33386,10 @@
   },
   "VID-0666": {
     "author": "Lindsey Carothers",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "5",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/25/2025"
   },
   "EN-00105": {
     "author": "Lindsey Carothers",
@@ -33216,9 +33431,10 @@
   },
   "VID-0608": {
     "author": "Alli Felsenthal",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "5",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/24/2025"
   },
   "EN-00194": {
     "author": "Alli Felsenthal",
@@ -33336,21 +33552,24 @@
   },
   "VID-0736": {
     "author": "Mariela Alarie",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "language": "English",
-    "duration": "10"
+    "duration": "10",
+    "date_created": "3/24/2025"
   },
   "VID-0737": {
     "author": "Mariela Alarie",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "5",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/25/2025"
   },
   "VID-0738": {
     "author": "Mariela Alarie",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "language": "English",
-    "duration": "10"
+    "duration": "10",
+    "date_created": "3/24/2025"
   },
   "EN-00345": {
     "author": "Mariela Alarie",
@@ -33529,9 +33748,10 @@
   },
   "VID-0489": {
     "author": "Leo Rising",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "10",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/25/2025"
   },
   "EN-00049": {
     "author": "Leo Rising",
@@ -33553,15 +33773,17 @@
   },
   "VID-0567": {
     "author": "Deena Berger",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "30",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/24/2025"
   },
   "VID-0569": {
     "author": "Deena Berger",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "10",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/26/2025"
   },
   "EN-00141": {
     "author": "Deena Berger",
@@ -33580,9 +33802,10 @@
   },
   "VID-0661": {
     "author": "Brana Dane",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "10",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/25/2025"
   },
   "EN-00254": {
     "author": "Brana Dane",
@@ -34100,9 +34323,10 @@
   },
   "VID-0214": {
     "author": "Mercedez Meza",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "5",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/26/2025"
   },
   "VID-0381": {
     "author": "Mercedez Meza",
@@ -34791,8 +35015,9 @@
   },
   "VID-0397": {
     "author": "Dr. Joe Feuerstein",
-    "_at": "2026-08-11T20:11:02.822Z",
-    "duration": "2"
+    "_at": "2026-08-12T20:48:46.194Z",
+    "duration": "2",
+    "date_created": "3/26/2025"
   },
   "VID-0391": {
     "author": "Dr. Joe Feuerstein",
@@ -34807,9 +35032,10 @@
   },
   "VID-0386": {
     "author": "Dr. Joe Feuerstein",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "2",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/25/2025"
   },
   "VID-0385": {
     "author": "Dr. Joe Feuerstein",
@@ -34854,26 +35080,30 @@
   },
   "VID-0329": {
     "author": "Dr. Joe Feuerstein",
-    "_at": "2026-08-11T20:11:02.822Z",
-    "duration": "5"
+    "_at": "2026-08-12T20:48:46.194Z",
+    "duration": "5",
+    "date_created": "3/26/2025"
   },
   "VID-0327": {
     "author": "Carol Hilaire",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "10",
-    "language": "English"
+    "language": "English",
+    "date_created": "2/6/2026"
   },
   "VID-0325": {
     "author": "Carol Hilaire",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "5",
-    "language": "English"
+    "language": "English",
+    "date_created": "5/13/2025"
   },
   "VID-0321": {
     "author": "Carol Hilaire",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "5",
-    "language": "English"
+    "language": "English",
+    "date_created": "5/13/2025"
   },
   "VID-0312": {
     "author": "Jessica Cording",
@@ -34888,8 +35118,9 @@
   },
   "VID-0308": {
     "author": "Dr. Leonaura Rhodes",
-    "_at": "2026-08-12T14:56:42.811Z",
-    "duration": "5"
+    "_at": "2026-08-12T20:48:46.194Z",
+    "duration": "5",
+    "date_created": "3/25/2025"
   },
   "VID-0306": {
     "author": "Julika Von Stackelberg",
@@ -34905,14 +35136,16 @@
   },
   "VID-0296": {
     "author": "Dr. Leonaura Rhodes",
-    "_at": "2026-08-12T14:56:42.811Z",
-    "duration": "5"
+    "_at": "2026-08-12T20:48:46.194Z",
+    "duration": "5",
+    "date_created": "3/25/2025"
   },
   "VID-0294": {
     "author": "Julika Von Stackelberg",
-    "_at": "2026-08-12T14:56:42.811Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "duration": "5",
-    "language": "English"
+    "language": "English",
+    "date_created": "3/25/2025"
   },
   "VID-0290": {
     "author": "Dr. Emma Guzman",
@@ -44754,22 +44987,25 @@
   },
   "VID-0021": {
     "duration": "3",
-    "_at": "2026-08-12T14:56:42.811Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "language": "English",
-    "author": "Kaitlyn Bruneau"
+    "author": "Kaitlyn Bruneau",
+    "date_created": "3/26/2025"
   },
   "VID-0022": {
     "duration": "5",
-    "_at": "2026-08-12T14:56:42.811Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "references": "Centers for Disease Control and Prevention. (2026). About Adverse Childhood Experiences. https://www.cdc.gov/aces/about/index.html\n\nCleveland Clinic. (2025). How To Heal From Childhood Trauma. https://health.clevelandclinic.org/childhood-traumas-lasting-effects-on-mental-and-physical-health\n\nChild Abuse & Neglect. (2022). A systematic review and meta-analysis of trauma-focused cognitive behavioral therapy for children and adolescents. https://doi.org/10.1016/j.chiabu.2022.105899",
     "language": "English",
-    "author": "Kaitlyn Bruneau"
+    "author": "Kaitlyn Bruneau",
+    "date_created": "2/6/2026"
   },
   "VID-0023": {
     "duration": "5",
-    "_at": "2026-08-12T14:56:42.811Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "language": "English",
-    "author": "Kaitlyn Bruneau"
+    "author": "Kaitlyn Bruneau",
+    "date_created": "2/6/2026"
   },
   "VID-0025": {
     "duration": "5",
@@ -44779,15 +45015,17 @@
   },
   "VID-0026": {
     "duration": "3",
-    "_at": "2026-08-12T14:56:42.811Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "language": "English",
-    "author": "Dr. Hassan Nagy"
+    "author": "Dr. Hassan Nagy",
+    "date_created": "3/25/2025"
   },
   "VID-0030": {
     "duration": "5",
-    "_at": "2026-08-12T14:56:42.811Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "language": "English",
-    "author": "Kaitlyn Bruneau"
+    "author": "Kaitlyn Bruneau",
+    "date_created": "2/6/2026"
   },
   "VID-0033": {
     "duration": "5",
@@ -44796,8 +45034,9 @@
   },
   "VID-0035": {
     "duration": "5",
-    "_at": "2026-08-12T14:52:18.961Z",
-    "author": "Dr. Leonaura Rhodes"
+    "_at": "2026-08-12T20:48:46.194Z",
+    "author": "Dr. Leonaura Rhodes",
+    "date_created": "4/28/2025"
   },
   "VID-0036": {
     "duration": "5",
@@ -44807,8 +45046,9 @@
   },
   "VID-0039": {
     "duration": "5",
-    "_at": "2026-08-11T20:11:02.822Z",
-    "language": "English"
+    "_at": "2026-08-12T20:48:46.194Z",
+    "language": "English",
+    "date_created": "3/24/2025"
   },
   "VID-0043": {
     "duration": "3",
@@ -44879,8 +45119,9 @@
   },
   "VID-0213": {
     "duration": "5",
-    "_at": "2026-08-11T20:11:02.822Z",
-    "language": "English"
+    "_at": "2026-08-12T20:48:46.194Z",
+    "language": "English",
+    "date_created": "3/26/2025"
   },
   "VID-0215": {
     "duration": "5",
@@ -44951,13 +45192,15 @@
   },
   "VID-0247": {
     "duration": "5",
-    "_at": "2026-08-11T20:11:02.822Z",
-    "language": "English"
+    "_at": "2026-08-12T20:48:46.194Z",
+    "language": "English",
+    "date_created": "2/6/2026"
   },
   "VID-0309": {
     "duration": "1",
-    "_at": "2026-08-11T20:11:02.822Z",
-    "language": "English"
+    "_at": "2026-08-12T20:48:46.194Z",
+    "language": "English",
+    "date_created": "5/6/2026"
   },
   "VID-0316": {
     "duration": "5",
@@ -44983,19 +45226,22 @@
   },
   "VID-0366": {
     "duration": "5",
-    "_at": "2026-08-11T20:11:02.822Z",
-    "language": "English"
+    "_at": "2026-08-12T20:48:46.194Z",
+    "language": "English",
+    "date_created": "3/7/2025"
   },
   "VID-0419": {
     "duration": "3",
-    "_at": "2026-08-11T20:11:02.822Z",
-    "language": "English"
+    "_at": "2026-08-12T20:48:46.194Z",
+    "language": "English",
+    "date_created": "3/7/2025"
   },
   "VID-0758": {
     "duration": "5",
-    "_at": "2026-08-11T20:20:51.932Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "language": "English",
-    "author": "Dan'yelle Williamson"
+    "author": "Dan'yelle Williamson",
+    "date_created": "3/25/2025"
   },
   "VID-0760": {
     "duration": "5",
@@ -45284,12 +45530,13 @@
   },
   "VID-0058": {
     "title": "Foam Rolling for Mid-Back Relief",
-    "_at": "2026-08-12T14:56:42.811Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "category": "General",
     "link": "",
     "language": "English",
     "author": "Mila Toribio",
-    "duration": "5"
+    "duration": "5",
+    "date_created": "12/11/2025"
   },
   "VID-0059": {
     "title": "Meditation To Release Back Pain",
@@ -45316,12 +45563,13 @@
   },
   "VID-0063": {
     "title": "Breast Health Self-Exam Guide",
-    "_at": "2026-08-12T14:52:18.961Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "category": "General",
     "link": "",
     "language": "English",
     "author": "Kanwal Haq",
-    "duration": "5"
+    "duration": "5",
+    "date_created": "3/24/2025"
   },
   "VID-0064": {
     "title": "Air Quality & Respiratory Health",
@@ -45333,21 +45581,23 @@
   },
   "VID-0065": {
     "title": "Mental Health Benefits of Connecting With Nature",
-    "_at": "2026-08-12T14:56:42.811Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "category": "Workplace Wellness",
     "link": "",
     "language": "English",
     "author": "Julika Von Stackelberg",
-    "duration": "3"
+    "duration": "3",
+    "date_created": "1/14/2026"
   },
   "VID-0073": {
     "title": "Managing Debt Before & During Retirement",
-    "_at": "2026-08-12T14:56:42.811Z",
+    "_at": "2026-08-12T20:48:46.194Z",
     "category": "Financial Wellness",
     "link": "",
     "language": "English",
     "author": "Jennifer Leong",
-    "duration": "3"
+    "duration": "3",
+    "date_created": "3/6/2025"
   },
   "VID-0074": {
     "title": "Emotional Triggers Behind Money Choices",
