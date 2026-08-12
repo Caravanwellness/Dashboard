@@ -44756,13 +44756,14 @@
   },
   "INF-0094": {
     "references": "Harvard T.H. Chan School of Public Health, The Nutrition Source. (2023). Healthy Eating Plate. https://nutritionsource.hsph.harvard.edu/healthy-eating-plate/\n\nMayo Clinic. (2025). Whole grains: Hearty options for a healthy diet. https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/whole-grains/art-20047826\n\nNutrients. (2023). Poultry Consumption and Human Cardiometabolic Health-Related Outcomes: A Narrative Review. https://doi.org/10.3390/nu15163550",
-    "_at": "2026-08-12T14:02:48.725Z",
+    "_at": "2026-08-12T14:57:22.886Z",
     "author": "Jade Gordon",
     "date_created": "5/5/2026",
     "language": "English",
     "link": "Recipe - Chicken Wrap.pdf",
     "category": "Nutrition",
-    "author_creds": "Behavioral Technician"
+    "author_creds": "Behavioral Technician",
+    "type": "Recipe"
   },
   "INF-0095": {
     "references": "Mayo Clinic. (2026). Mediterranean diet for heart health. https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/mediterranean-diet/art-20047801\n\nOxidative Medicine and Cellular Longevity. (2021). Lycopene: Food Sources, Biological Activities, and Human Health Benefits. https://doi.org/10.1155/2021/2713511\n\nCells. (2024). Cardiovascular and Metabolic Benefits of Extra Virgin Olive Oil Phenolic Compounds: Mechanistic Insights from In Vivo Studies. https://pmc.ncbi.nlm.nih.gov/articles/PMC11430205/",
