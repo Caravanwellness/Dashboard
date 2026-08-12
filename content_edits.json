@@ -49052,17 +49052,19 @@
   },
   "EXT-0692": {
     "teacher": "",
-    "_at": "2026-08-11T19:33:22.740Z",
+    "_at": "2026-08-12T19:24:04.718Z",
     "category": "Nutrition",
     "author": "Jade Gordon",
-    "duration": "55"
+    "duration": "55",
+    "date_created": "1/15/2025"
   },
   "EXT-0693": {
     "teacher": "",
-    "_at": "2026-08-11T19:33:22.740Z",
+    "_at": "2026-08-12T19:24:04.718Z",
     "category": "Nutrition",
     "author": "Jade Gordon",
-    "duration": "30"
+    "duration": "30",
+    "date_created": "1/21/2025"
   },
   "EXT-0075": {
     "category": "Planning for Retirement",
@@ -49089,8 +49091,9 @@
   },
   "EXT-0696": {
     "category": "Nutrition",
-    "_at": "2026-08-11T19:33:22.740Z",
-    "author": "Jade Gordon"
+    "_at": "2026-08-12T19:24:04.718Z",
+    "author": "Jade Gordon",
+    "date_created": "1/21/2025"
   },
   "EXT-0697": {
     "category": "Nutrition",
@@ -49118,15 +49121,17 @@
   },
   "EXT-0701": {
     "category": "Nutrition",
-    "_at": "2026-08-11T19:33:22.740Z",
+    "_at": "2026-08-12T19:24:04.718Z",
     "author": "Jade Gordon",
-    "duration": "40"
+    "duration": "40",
+    "date_created": "1/27/2025"
   },
   "EXT-0702": {
     "category": "Nutrition",
-    "_at": "2026-08-11T19:33:22.740Z",
+    "_at": "2026-08-12T19:24:04.718Z",
     "author": "Jade Gordon",
-    "duration": "20"
+    "duration": "20",
+    "date_created": "1/14/2025"
   },
   "EXT-0703": {
     "category": "Nutrition",
@@ -49142,15 +49147,17 @@
   },
   "EXT-0705": {
     "category": "Nutrition",
-    "_at": "2026-08-11T19:33:22.740Z",
+    "_at": "2026-08-12T19:24:04.718Z",
     "author": "Jade Gordon",
-    "duration": "40"
+    "duration": "40",
+    "date_created": "1/27/2025"
   },
   "EXT-0706": {
     "category": "Nutrition",
-    "_at": "2026-08-11T19:33:22.740Z",
+    "_at": "2026-08-12T19:24:04.718Z",
     "author": "Jade Gordon",
-    "duration": "70"
+    "duration": "70",
+    "date_created": "1/27/2025"
   },
   "EXT-0707": {
     "category": "Nutrition",
@@ -49166,9 +49173,10 @@
   },
   "EXT-0709": {
     "category": "Nutrition",
-    "_at": "2026-08-11T19:33:22.740Z",
+    "_at": "2026-08-12T19:24:04.718Z",
     "author": "Jade Gordon",
-    "duration": "30"
+    "duration": "30",
+    "date_created": "3/11/2025"
   },
   "EXT-0710": {
     "category": "Nutrition",
@@ -49208,9 +49216,10 @@
   },
   "EXT-0716": {
     "category": "Nutrition",
-    "_at": "2026-08-11T19:33:22.740Z",
+    "_at": "2026-08-12T19:24:04.718Z",
     "author": "Jade Gordon",
-    "duration": "30"
+    "duration": "30",
+    "date_created": "2/19/2025"
   },
   "EXT-0717": {
     "category": "Nutrition",
@@ -49220,21 +49229,24 @@
   },
   "EXT-0718": {
     "category": "Nutrition",
-    "_at": "2026-08-11T19:33:22.740Z",
+    "_at": "2026-08-12T19:24:04.718Z",
     "author": "Jade Gordon",
-    "duration": "20"
+    "duration": "20",
+    "date_created": "3/5/2025"
   },
   "EXT-0719": {
     "category": "Nutrition",
-    "_at": "2026-08-11T19:33:22.740Z",
+    "_at": "2026-08-12T19:24:04.718Z",
     "author": "Jade Gordon",
-    "duration": "15"
+    "duration": "15",
+    "date_created": "3/5/2025"
   },
   "EXT-0720": {
     "category": "Nutrition",
-    "_at": "2026-08-11T19:33:22.740Z",
+    "_at": "2026-08-12T19:24:04.718Z",
     "author": "Jade Gordon",
-    "duration": "10"
+    "duration": "10",
+    "date_created": "3/5/2025"
   },
   "EXT-0721": {
     "category": "Nutrition",
@@ -49581,9 +49593,10 @@
   },
   "EXT-0779": {
     "category": "Nutrition",
-    "_at": "2026-08-11T19:33:22.740Z",
+    "_at": "2026-08-12T19:24:04.718Z",
     "author": "Jade Gordon",
-    "duration": "45"
+    "duration": "45",
+    "date_created": "4/21/2026"
   },
   "EXT-0780": {
     "category": "Nutrition",
@@ -49623,9 +49636,10 @@
   },
   "EXT-0786": {
     "category": "Nutrition",
-    "_at": "2026-08-11T19:33:22.740Z",
+    "_at": "2026-08-12T19:24:04.718Z",
     "author": "Jade Gordon",
-    "duration": "50"
+    "duration": "50",
+    "date_created": "4/21/2026"
   },
   "EXT-0787": {
     "category": "Nutrition",
