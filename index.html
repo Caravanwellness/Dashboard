@@ -1502,12 +1502,22 @@ async function handleImportFile(file) {
             // Credentials are keyed by person, not item (see the Creators page) —
             // route an "Author Creds" column to the shared per-name store instead
             // of the old per-item field. Uses whichever name is current for this
-            // row, including one just updated by the Author column above.
+            // row, including one just updated by the Author column above. Peer
+            // Reviewer Credentials works the same way, keyed off the reviewer's
+            // name instead — a person's credentials don't depend on which role
+            // they're filling on a given item.
             const credsVal = String(row['author creds'] || row['author_creds'] || '').trim();
             if (credsVal) {
               const rowAuthorName = lv(existing,'author') || lv(existing,'teacher');
               if (rowAuthorName && credsVal !== getBio(rowAuthorName,'creds','')) {
                 updates.push({ id: existing.id, field: 'author_creds', value: credsVal, _bioName: rowAuthorName });
+              }
+            }
+            const reviewerCredsVal = String(row['peer reviewer creds'] || row['peer_reviewer_creds'] || row['peer reviewer credentials'] || '').trim();
+            if (reviewerCredsVal) {
+              const rowReviewerName = lv(existing,'peer_reviewer');
+              if (rowReviewerName && reviewerCredsVal !== getBio(rowReviewerName,'creds','')) {
+                updates.push({ id: existing.id, field: 'peer_reviewer_creds', value: reviewerCredsVal, _bioName: rowReviewerName });
               }
             }
             const url = String(row['url'] || row['link'] || row['vimeo'] || '').trim();
@@ -1586,14 +1596,14 @@ async function confirmImport() {
     // so this can't clobber tags someone else added concurrently.
     const licenseAdds = {};
     const fieldUpdates = []; // non-license field changes, e.g. category/duration/reviewer/references
-    const credsByName = {}; // author_creds routes to the shared per-name store, not per-item
+    const credsByName = {}; // author_creds / peer_reviewer_creds route to the shared per-name store, not per-item
     for (const u of updates) {
       if (u.field === 'licenses') {
         const cur = _licenses[u.id] || [];
         if (!cur.includes(u.value)) _licenses[u.id] = [...cur, u.value]; // optimistic in-memory update
         if (!licenseAdds[u.id]) licenseAdds[u.id] = [];
         if (!licenseAdds[u.id].includes(u.value)) licenseAdds[u.id].push(u.value);
-      } else if (u.field === 'author_creds') {
+      } else if (u.field === 'author_creds' || u.field === 'peer_reviewer_creds') {
         credsByName[u._bioName] = u.value;
       } else {
         fieldUpdates.push({ id: u.id, field: u.field, value: u.value });
@@ -2477,6 +2487,9 @@ function showDetail(item) {
   // per-item author_creds field is only a fallback for names nobody's set yet.
   const fCreds   = getBio(fAuthor, 'creds', T('author_creds'));
   const fReviewer= T('peer_reviewer');
+  // Same per-person store as Credentials above — a reviewer's credentials don't
+  // change depending on which item they're reviewing.
+  const fReviewerCreds = getBio(fReviewer, 'creds', '');
   const fVer     = T('version');
   const fLang     = T('language');
   const fTitleOriginal = T('title_original');
@@ -2613,9 +2626,12 @@ function showDetail(item) {
       </div>
       <div class="detail-field"><label>Peer Reviewer</label>
         <div style="display:flex;align-items:center;gap:7px">
-          <input class="field-edit" data-f="peer_reviewer" value="${esc(fReviewer)}" list="creatorList" style="flex:1" autocomplete="off">
+          <input class="field-edit" id="reviewerNameField" data-f="peer_reviewer" value="${esc(fReviewer)}" list="creatorList" style="flex:1" autocomplete="off">
           ${profileBtn(fReviewer)}
         </div>
+      </div>
+      <div class="detail-field"><label>Peer Reviewer Credentials</label>
+        <input class="field-edit-creds" id="reviewerCredsField" data-name="${esc(fReviewer)}" value="${esc(fReviewerCreds)}" placeholder="e.g. Registered Nurse">
       </div>
       <div class="detail-field"><label>Version</label>
         <input class="field-edit" data-f="version" value="${esc(fVer)}" style="width:70px">
@@ -2806,9 +2822,16 @@ function showDetail(item) {
 
   // Credentials is keyed by person (data-name), not by item — saves through the
   // shared Creators bio store instead of the generic per-item field-edit path
-  // above, so editing it here updates every item that person is listed on.
-  const credsEl = panel.querySelector('.field-edit-creds');
-  if (credsEl) {
+  // above, so editing it here updates every item that person is listed on. Two
+  // pairs on this panel: Author/Teacher + its Credentials, and Peer Reviewer +
+  // its Credentials — same mechanism, since a person's credentials don't change
+  // depending on whether they're acting as author or reviewer on a given item.
+  [
+    { credsId: 'credsField', nameId: 'authorNameField' },
+    { credsId: 'reviewerCredsField', nameId: 'reviewerNameField' },
+  ].forEach(({ credsId, nameId }) => {
+    const credsEl = document.getElementById(credsId);
+    if (!credsEl) return;
     let ct;
     const credsFlush = () => {
       clearTimeout(ct);
@@ -2824,18 +2847,18 @@ function showDetail(item) {
     credsEl.addEventListener('input', credsFn);
     credsEl.addEventListener('change', credsFn);
 
-    // If the Author/Teacher name itself is edited, Credentials should follow the
-    // new person — re-point the save target and show whatever's already saved
-    // for them (blank if this is a name nobody's set credentials for yet).
-    const authorEl = document.getElementById('authorNameField');
-    if (authorEl) {
-      authorEl.addEventListener('input', () => {
-        const newName = authorEl.value.trim();
+    // If the name field itself is edited, Credentials should follow the new
+    // person — re-point the save target and show whatever's already saved for
+    // them (blank if this is a name nobody's set credentials for yet).
+    const nameEl = document.getElementById(nameId);
+    if (nameEl) {
+      nameEl.addEventListener('input', () => {
+        const newName = nameEl.value.trim();
         credsEl.dataset.name = newName;
         credsEl.value = newName ? getBio(newName, 'creds', '') : '';
       });
     }
-  }
+  });
 
   // Tag events
   document.getElementById('tagInput').addEventListener('keydown', e=>{
