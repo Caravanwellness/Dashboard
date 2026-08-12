@@ -49779,17 +49779,19 @@
   },
   "EXT-1472": {
     "peer_reviewer": "Dr. Joe Feuerstein",
-    "_at": "2026-08-12T14:56:42.811Z",
+    "_at": "2026-08-12T20:56:12.685Z",
     "teacher": "Dr. Joe Feuerstein",
     "author": "Dr. Joe Feuerstein",
-    "duration": "2"
+    "duration": "2",
+    "date_created": "3/26/2025"
   },
   "EXT-1473": {
     "peer_reviewer": "Dr. Joe Feuerstein",
-    "_at": "2026-08-12T14:56:42.811Z",
+    "_at": "2026-08-12T20:56:12.685Z",
     "teacher": "Dr. Joe Feuerstein",
     "author": "Dr. Joe Feuerstein",
-    "duration": "5"
+    "duration": "5",
+    "date_created": "3/26/2025"
   },
   "EXT-1475": {
     "peer_reviewer": "Albus Cheng",
@@ -49817,10 +49819,11 @@
   },
   "EXT-1478": {
     "peer_reviewer": "Dr. Joe Feuerstein",
-    "_at": "2026-08-12T14:56:42.811Z",
+    "_at": "2026-08-12T20:56:12.685Z",
     "teacher": "Dr. Joe Feuerstein",
     "author": "Dr. Joe Feuerstein",
-    "duration": "3"
+    "duration": "3",
+    "date_created": "3/24/2025"
   },
   "EXT-1479": {
     "peer_reviewer": "Jessica Cording",
@@ -49832,19 +49835,21 @@
   },
   "EXT-1480": {
     "peer_reviewer": "Alexandria DeVito",
-    "_at": "2026-08-12T14:56:42.811Z",
+    "_at": "2026-08-12T20:56:12.685Z",
     "teacher": "Alexandria DeVito",
     "language": "English",
     "author": "Alexandria DeVito",
-    "duration": "5"
+    "duration": "5",
+    "date_created": "3/25/2025"
   },
   "EXT-1481": {
     "peer_reviewer": "Gus Gosson",
-    "_at": "2026-08-12T14:52:18.961Z",
+    "_at": "2026-08-12T20:56:12.685Z",
     "language": "English",
     "author": "Gus Gosson",
     "duration": "3",
-    "teacher": "Gus Gosson"
+    "teacher": "Gus Gosson",
+    "date_created": "12/17/2024"
   },
   "EXT-1482": {
     "peer_reviewer": "Sam Dailey",
@@ -49880,11 +49885,12 @@
   },
   "EXT-1486": {
     "peer_reviewer": "Dr. Ellie Cobb",
-    "_at": "2026-08-12T14:56:42.811Z",
+    "_at": "2026-08-12T20:56:12.685Z",
     "teacher": "Dr. Ellie Cobb",
     "language": "English",
     "author": "Dr. Ellie Cobb",
-    "duration": "3"
+    "duration": "3",
+    "date_created": "3/25/2025"
   },
   "EXT-1487": {
     "peer_reviewer": "Hailey Miller",
@@ -49904,11 +49910,12 @@
   },
   "EXT-1489": {
     "peer_reviewer": "Zach Bourne",
-    "_at": "2026-08-12T14:52:18.961Z",
+    "_at": "2026-08-12T20:56:12.685Z",
     "language": "English",
     "author": "Zach Bourne",
     "duration": "5",
-    "teacher": "Zach Bourne"
+    "teacher": "Zach Bourne",
+    "date_created": "3/25/2025"
   },
   "EXT-0073": {
     "author": "Madeline McGuire",
@@ -56289,15 +56296,17 @@
   },
   "EXT-1467": {
     "language": "English",
-    "_at": "2026-08-12T14:52:18.961Z",
+    "_at": "2026-08-12T20:56:12.685Z",
     "author": "Dr. Leonaura Rhodes",
-    "duration": "5"
+    "duration": "5",
+    "date_created": "1/14/2026"
   },
   "EXT-1474": {
     "language": "English",
-    "_at": "2026-08-12T14:52:18.961Z",
+    "_at": "2026-08-12T20:56:12.685Z",
     "author": "Mary Solis",
-    "duration": "10"
+    "duration": "10",
+    "date_created": "12/17/2024"
   },
   "INF-0252": {
     "language": "Spanish",
@@ -58507,5 +58516,9 @@
   "VID-0062": {
     "author": "Jon Anthony (Tony) Meyer",
     "_at": "2026-08-12T17:42:38.637Z"
+  },
+  "EXT-2349": {
+    "date_created": "8/19/2025",
+    "_at": "2026-08-12T20:56:12.685Z"
   }
 }
