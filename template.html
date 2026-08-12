@@ -357,6 +357,18 @@ textarea.field-edit { resize: vertical; }
   </div>
 </div>
 
+<!-- Possible-duplicate confirmation (manual edit of Title/Language/Type) -->
+<div id="dupeConfirmModal" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:9000;align-items:center;justify-content:center">
+  <div style="background:white;border-radius:14px;padding:24px;max-width:420px;width:90%;box-shadow:0 12px 40px rgba(0,0,0,.25)">
+    <h3 style="margin:0 0 10px;font-size:15px;font-weight:700;color:#1a1a2e">Possible duplicate</h3>
+    <p id="dupeConfirmMsg" style="font-size:13px;color:#555;margin:0 0 18px;line-height:1.5"></p>
+    <div style="display:flex;gap:10px;justify-content:flex-end">
+      <button onclick="_dupeConfirmResolve(false)" style="padding:9px 16px;border:1px solid #e0e0e0;border-radius:7px;background:white;cursor:pointer;font-size:13px;color:#666">Undo edit</button>
+      <button onclick="_dupeConfirmResolve(true)" style="padding:9px 16px;background:#6366f1;color:white;border:none;border-radius:7px;font-weight:700;font-size:13px;cursor:pointer">Save anyway</button>
+    </div>
+  </div>
+</div>
+
 <!-- Creator Import Modal -->
 <div id="creatorImportModal" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:8000;align-items:center;justify-content:center">
   <div style="background:white;border-radius:14px;padding:30px;max-width:560px;width:90%;box-shadow:0 12px 40px rgba(0,0,0,.25);max-height:90vh;overflow-y:auto">
@@ -1310,6 +1322,39 @@ function handleImportDrop(e) {
   if (file) handleImportFile(file);
 }
 
+// Renders the "possible duplicate" review list in the import preview — new
+// rows whose title+language+type matched something already in the dashboard.
+// Each defaults to Skip; confirmImport() only adds the ones flipped to "Add
+// anyway". Re-render (not just a style toggle) keeps each button's active
+// state driven by the single source of truth in _importParsed.possibleDupes,
+// so there's no separate DOM state that could drift out of sync with it.
+function renderDupeReviewHtml() {
+  const dupes = (_importParsed && _importParsed.possibleDupes) || [];
+  if (!dupes.length) return '';
+  return `<div style="margin-top:14px;padding-top:12px;border-top:1px solid #e0eaff">
+    <div style="font-weight:700;color:#1a1a2e;margin-bottom:6px">⚠ ${dupes.length} possible duplicate${dupes.length===1?'':'s'} — review before adding</div>
+    <div style="color:#666;font-size:12px;margin-bottom:8px">Same title, language, and type as something already in the dashboard.</div>
+    ${dupes.map((d,i)=>`
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:10px;padding:7px 0;border-top:1px solid #e8ecff">
+        <div style="flex:1;min-width:0">
+          <div style="font-weight:600;color:#1a1a2e;font-size:12.5px">${esc(d.item.title)}</div>
+          <div style="color:#888;font-size:11px">${esc(d.item.language)} · ${esc(d.item.type)} — matches <code>${esc(d.matchId)}</code></div>
+        </div>
+        <div style="display:flex;gap:4px;flex-shrink:0">
+          <button type="button" onclick="setDupeDecision(${i},'skip')" style="padding:5px 10px;border-radius:6px;font-size:11px;cursor:pointer;border:1px solid ${d.decision==='skip'?'#6366f1':'#e0e0e0'};background:${d.decision==='skip'?'#eef0ff':'white'};color:${d.decision==='skip'?'#6366f1':'#666'};font-weight:${d.decision==='skip'?'700':'500'}">Skip</button>
+          <button type="button" onclick="setDupeDecision(${i},'add')" style="padding:5px 10px;border-radius:6px;font-size:11px;cursor:pointer;border:1px solid ${d.decision==='add'?'#6366f1':'#e0e0e0'};background:${d.decision==='add'?'#eef0ff':'white'};color:${d.decision==='add'?'#6366f1':'#666'};font-weight:${d.decision==='add'?'700':'500'}">Add anyway</button>
+        </div>
+      </div>
+    `).join('')}
+  </div>`;
+}
+function setDupeDecision(i, decision) {
+  if (!_importParsed || !_importParsed.possibleDupes[i]) return;
+  _importParsed.possibleDupes[i].decision = decision;
+  const container = document.getElementById('dupeReviewSection');
+  if (container) container.innerHTML = renderDupeReviewHtml();
+}
+
 function parseDuration(raw) {
   if (!raw) return '';
   const s = String(raw).trim();
@@ -1432,6 +1477,7 @@ async function handleImportFile(file) {
     const updates  = []; // changes to existing items
     const newItems = []; // items not found in dashboard
     const newByTitle = {};
+    const possibleDupes = []; // new items matching an existing item's title+language+type — held for review
 
     for (const { client, rows } of norm) {
       let lastCategory = '';
@@ -1547,17 +1593,22 @@ async function handleImportFile(file) {
             const item = { title: rawTitle, type, language: lang, category, teacher, duration, client_licenses: rowClient ? [rowClient] : [] };
             if (url.includes('vimeo')) item.vimeo_link = url;
             else if (url) item.link = url;
-            newItems.push(item);
+            const dupeMatch = findDuplicateMatch(rawTitle, lang, type, null);
+            if (dupeMatch) {
+              possibleDupes.push({ item, matchId: dupeMatch.id, decision: 'skip' });
+            } else {
+              newItems.push(item);
+            }
             newByTitle[key] = item;
           }
         }
       }
     }
 
-    if (!updates.length && !newItems.length) { statusEl.textContent = '⚠ No matches or new items found — check column names.'; return; }
+    if (!updates.length && !newItems.length && !possibleDupes.length) { statusEl.textContent = '⚠ No matches or new items found — check column names.'; return; }
 
 
-    _importParsed = { updates, newItems };
+    _importParsed = { updates, newItems, possibleDupes };
     const clientsFound = [...new Set([
       ...updates.flatMap(u => u.field==='licenses' ? u.value : []),
       ...newItems.flatMap(i => i.client_licenses),
@@ -1574,7 +1625,8 @@ async function handleImportFile(file) {
         ${fieldUpdateIds.size ? `<div>✓ <strong>${fieldUpdateIds.size}</strong> existing items will be updated (<strong>${fieldUpdates.length}</strong> field changes)</div>` : ''}
         ${newItems.length ? `<div>✓ <strong>${newItems.length}</strong> new items will be added to the library</div>` : ''}
         ${clientsFound.length ? `<div style="color:#666;font-size:12px;margin-top:4px">Clients: ${clientsFound.join(', ')}</div>` : ''}
-      </div>`;
+      </div>
+      <div id="dupeReviewSection">${renderDupeReviewHtml()}</div>`;
     previewEl.style.display = '';
     confirmBtn.style.display = '';
     statusEl.textContent = '';
@@ -1585,7 +1637,10 @@ async function handleImportFile(file) {
 
 async function confirmImport() {
   if (!_importParsed) return;
-  const { updates, newItems } = _importParsed;
+  const { updates, newItems: cleanNewItems, possibleDupes } = _importParsed;
+  // Only rows explicitly flipped to "Add anyway" join the clean new items —
+  // everything else defaults to Skip and is left out of what gets saved.
+  const newItems = [...cleanNewItems, ...(possibleDupes||[]).filter(d=>d.decision==='add').map(d=>d.item)];
   const statusEl   = document.getElementById('importStatus');
   const confirmBtn = document.getElementById('importConfirmBtn');
   confirmBtn.disabled = true;
@@ -1773,9 +1828,60 @@ function cleanTitle(title) {
   return String(title||'').replace(/^\d+\s*[Mm]in\s+/, '');
 }
 
+function normDupeTitle(s) {
+  return String(s||'').toLowerCase().trim().replace(/[^a-z0-9]+/g,' ').trim();
+}
+// Finds an existing catalog item whose (title, language, type) triple exactly
+// matches — the same signal this session's dedup pass used, minus ID prefix,
+// which proved unreliable (Type itself can be wrong on import). Used both by
+// the import preview (flag new rows before they're added) and by manual
+// panel edits (flag a Title/Language/Type change that now collides with
+// something else). excludeId keeps an item being edited from matching itself.
+function findDuplicateMatch(title, language, type, excludeId) {
+  const nt = normDupeTitle(title);
+  if (!nt) return null;
+  const nl  = String(language||'').toLowerCase().trim();
+  const nty = String(type||'').toLowerCase().trim();
+  return ALL.find(it =>
+    it.id !== excludeId &&
+    normDupeTitle(lv(it,'title')) === nt &&
+    String(lv(it,'language')||'').toLowerCase().trim() === nl &&
+    String(lv(it,'type')||'').toLowerCase().trim() === nty
+  ) || null;
+}
+
 document.getElementById('totalCount').textContent = ALL.length.toLocaleString();
 
 const REVIEW_SET  = new Set(['Article','Infographic','Video']);
+
+// ── Duplicate-on-edit confirmation ────────────────────────────────────────────
+const DUPE_CHECK_FIELDS = new Set(['title','language','type']);
+let _dupeConfirmCtx = null; // { onConfirm, onCancel } while the modal is open
+
+function confirmDupeEdit(matchItem, onConfirm, onCancel) {
+  _cancelPendingDupeConfirm(); // resolve any prior prompt (shouldn't normally overlap) before opening a new one
+  _dupeConfirmCtx = { onConfirm, onCancel };
+  document.getElementById('dupeConfirmMsg').innerHTML =
+    `This matches <strong>${esc(matchItem.id)}</strong> — "${esc(lv(matchItem,'title'))}" ` +
+    `(${esc(lv(matchItem,'language')||'English')}, ${esc(lv(matchItem,'type'))}), already in the dashboard. Save this change anyway, or undo it?`;
+  document.getElementById('dupeConfirmModal').style.display = 'flex';
+}
+function _dupeConfirmResolve(proceed) {
+  const ctx = _dupeConfirmCtx;
+  document.getElementById('dupeConfirmModal').style.display = 'none';
+  _dupeConfirmCtx = null;
+  if (!ctx) return;
+  if (proceed) ctx.onConfirm(); else ctx.onCancel();
+}
+// Called when the panel closes or switches items while the prompt is still up —
+// defaults to undoing the edit rather than leaving it saved-nowhere-but-in-the-input.
+function _cancelPendingDupeConfirm() {
+  if (!_dupeConfirmCtx) return;
+  document.getElementById('dupeConfirmModal').style.display = 'none';
+  const ctx = _dupeConfirmCtx;
+  _dupeConfirmCtx = null;
+  ctx.onCancel();
+}
 
 // ── Colors ────────────────────────────────────────────────────────────────────
 const BG_COLORS = [
@@ -2449,6 +2555,7 @@ function toggleTranscript(id) {
 // ── Detail Panel ──────────────────────────────────────────────────────────────
 function showDetail(item) {
   flushPendingEdits(); // don't lose an unsaved edit from whatever was open before
+  _cancelPendingDupeConfirm(); // don't leave a stale prompt from whatever was open before
   selectedId = item.id;
   document.querySelectorAll('#tbody tr').forEach(r=>r.classList.remove('selected'));
   const row = document.querySelector(`#tbody tr[data-id="${item.id}"]`);
@@ -2797,17 +2904,35 @@ function showDetail(item) {
   // Field edit events (debounced)
   panel.querySelectorAll('.field-edit').forEach(el=>{
     let t;
-    const flush = () => {
-      clearTimeout(t); // no-op if already fired naturally; matters when force-flushed early
-      _pendingFieldFlushes.delete(flush);
-      sE(item.id, el.dataset.f, el.value);
+    const applySave = (field, value) => {
+      sE(item.id, field, value);
       reRow(item.id);
-      if (el.dataset.f==='title') { const h=document.getElementById('titleBoxH2'); if(h) h.textContent=el.value; }
+      if (field==='title') { const h=document.getElementById('titleBoxH2'); if(h) h.textContent=value; }
       // Keep filter dropdowns (Type/Category/Author-Teacher/Language/Duration) in
       // sync with the edit — otherwise a value that no longer exists on any item
       // (e.g. clearing the last "j" author) lingers as a selectable, dead option.
       seedFilters();
       applyFilters();
+    };
+    const flush = () => {
+      clearTimeout(t); // no-op if already fired naturally; matters when force-flushed early
+      _pendingFieldFlushes.delete(flush);
+      const field = el.dataset.f, value = el.value;
+      // Title/Language/Type together are what a duplicate is judged on — check
+      // whether this edit would make the item collide with something else
+      // already in the catalog before saving, instead of after.
+      if (DUPE_CHECK_FIELDS.has(field)) {
+        const curTitle    = field==='title'    ? value : lv(item,'title');
+        const curLanguage = field==='language' ? value : lv(item,'language');
+        const curType     = field==='type'     ? value : lv(item,'type');
+        const match = findDuplicateMatch(curTitle, curLanguage, curType, item.id);
+        if (match) {
+          const oldValue = lv(item, field);
+          confirmDupeEdit(match, () => applySave(field, value), () => { el.value = oldValue; });
+          return;
+        }
+      }
+      applySave(field, value);
     };
     const fn = () => {
       clearTimeout(t);
@@ -2936,6 +3061,7 @@ function toggleSidebar(collapse) {
 
 function closeDetail() {
   flushPendingEdits();
+  _cancelPendingDupeConfirm();
   toggleSidebar(false);
   selectedId = null;
   document.getElementById('detailPanel').classList.remove('open');
