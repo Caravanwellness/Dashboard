@@ -6,7 +6,7 @@
     "creds": "Breathing, Yoga, & Pilates Coach"
   },
   "Dr. Fahim Pyarali": {
-    "creds": "Pulmonologist, Medical Doctor "
+    "creds": "Pulmonologist, Medical Doctor"
   },
   "Dr. Ricardo Fuentes": {
     "creds": "Medical Doctor"
@@ -15,25 +15,25 @@
     "creds": "Dance Instructor"
   },
   "Jared De Candia": {
-    "creds": "Financial Representative "
+    "creds": "Financial Representative"
   },
   "Martine Cadet": {
     "creds": "Marketing Educator"
   },
   "Ajani Phillips": {
-    "creds": "Financial Literacy Educator "
+    "creds": "Financial Literacy Educator"
   },
   "Alex Scolari": {
-    "creds": "Fitness Trainer "
+    "creds": "Fitness Trainer"
   },
   "Anthony Crouchelli": {
-    "creds": "Personal Trainer "
+    "creds": "Personal Trainer"
   },
   "Sabrih Short": {
     "creds": "Yoga & Meditation Teacher"
   },
   "Allison Wyman": {
-    "creds": " Family Caregiving Attorney"
+    "creds": "Family Caregiving Attorney"
   },
   "Zach Bourne": {
     "creds": "Personal Development Coach"
@@ -66,7 +66,7 @@
     "creds": "Meditation Teacher"
   },
   "Dr. Brian Glassman": {
-    "creds": "Generative AI Expert "
+    "creds": "Generative AI Expert"
   },
   "Sanford Brown": {
     "creds": "Financial Wellness Coach"
@@ -90,7 +90,7 @@
     "creds": "Critical Care Nurse"
   },
   "Sandy Lin": {
-    "creds": "Fitness Coach "
+    "creds": "Fitness Coach"
   },
   "Shab Caspara": {
     "creds": "Hair Growth Expert"
@@ -117,7 +117,7 @@
     "creds": "Financial Wellness Coach"
   },
   "Marcus Johnson": {
-    "creds": "Credentialed Alcohol & Substance Abuse Counselor, Certified Clinical Trauma Professional, Certified DEI Leader, Certified Advanced Grief Counseling Specialist, Licensed Mental Health Counselor "
+    "creds": "Credentialed Alcohol & Substance Abuse Counselor, Certified Clinical Trauma Professional, Certified DEI Leader, Certified Advanced Grief Counseling Specialist, Licensed Mental Health Counselor"
   },
   "Dr. Laura Goorin": {
     "creds": "Clinical Psychologist"
@@ -147,7 +147,7 @@
     "creds": "Yoga & Meditation Teacher"
   },
   "Lindsey Carothers": {
-    "creds": "Certified Yoga Teacher "
+    "creds": "Certified Yoga Teacher"
   },
   "Alli Felsenthal": {
     "creds": "Certified Personal Trainer"
@@ -195,7 +195,7 @@
     "creds": "Pelvic Floor Specialist"
   },
   "Dan'yelle Williamson": {
-    "creds": "Yoga and Meditation Teacher",
+    "creds": "Yoga & Meditation Teacher",
     "bio": ""
   },
   "Eneida Farro": {
@@ -223,7 +223,7 @@
     "creds": "Licensed Clinical Social Worker, Certified Cognitive Therapist"
   },
   "Linda Johnson": {
-    "creds": "Leadership Coach & Consultant"
+    "creds": "Leadership & Executive Coach"
   },
   "Linda": {
     "creds": ""
@@ -232,7 +232,8 @@
     "creds": "Meditation Teacher"
   },
   "Shaimaine Loiacono": {
-    "bio": ""
+    "bio": "",
+    "creds": "Pilates Teacher"
   },
   "Karla Vazquez": {
     "creds": "Certified Yoga Teacher"
@@ -319,7 +320,7 @@
     "creds": "Allergist & Immunologist"
   },
   "Dan'yelle": {
-    "creds": "Yoga and Meditation Teacher"
+    "creds": "Yoga & Meditation Teacher"
   },
   "Dr. Emma Guzman": {
     "creds": "Dentist"
@@ -382,7 +383,7 @@
         "creds": "Registered Nurse "
       }
     },
-    "creds": "Registered Nurse "
+    "creds": "Registered Nurse"
   },
   "Julika Von Stackelberg": {
     "creds": "Family & Community Resilience Resource Educator, Parenting Coach"
@@ -560,5 +561,23 @@
   },
   "Maria Cardenas": {
     "creds": ""
+  },
+  "Jemma Park": {
+    "creds": "UXUI Designer"
+  },
+  "Lisa Wang": {
+    "creds": "CEO, Yoga Teacher"
+  },
+  "Sakina Asghar": {
+    "creds": "Health Studies Contributor"
+  },
+  "Sharisse Victor-Newmam": {
+    "creds": "Board-certified Podiatrist"
+  },
+  "Shiyun Chen": {
+    "creds": "Doctoral Student in Clinical Psychology"
+  },
+  "Soja Moore": {
+    "creds": "Physical Therapist"
   }
 }
