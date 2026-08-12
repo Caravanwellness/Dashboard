@@ -12,7 +12,7 @@
         "changed_by": "Unknown"
       }
     ],
-    "_at": "2026-08-11T19:08:51.084Z",
+    "_at": "2026-08-12T15:57:19.499Z",
     "reviewed_by": "Unknown",
     "review_date": "07/01/2026",
     "ver.": "1",
@@ -20,14 +20,21 @@
     "notes": "Duration: 4",
     "language": "English",
     "duration": "4",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "title": "What Is Low-Impact Movement?",
+    "category": "Yoga & Movement",
+    "author": "Marlee"
   },
   "ART-0029": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-11T14:09:54.058Z",
-    "author": "Marlee Alanis",
+    "_at": "2026-08-12T15:57:19.499Z",
+    "author": "Marlee",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "The Power Of Mindset For Peak Performance",
+    "category": "Performance & Positive Thinking / Mental Health",
+    "date_created": "11/10/2023",
+    "notes": "Hanging conclusion section at end"
   },
   "ALB-0179": {
     "peer_reviewer": "Alyssa Lagasca",
@@ -45,11 +52,14 @@
     "duration": "3"
   },
   "ART-0237": {
-    "author": "Marlee Alanis",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Emily",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Marlee Alanis",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Understanding The 50/30/20 Budgeting Rule",
+    "category": "Financial Wellness",
+    "date_created": "7/25/2024"
   },
   "ALB-0033": {
     "author": "Marlee Alanis",
@@ -70,19 +80,23 @@
     "duration": "2"
   },
   "ART-0188": {
-    "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Alyssa Lagasca",
     "language": "English",
-    "duration": "3"
+    "duration": "3",
+    "title": "The Importance Of Dental Health For Overall Wellness",
+    "category": "Health"
   },
   "ART-0182": {
-    "author": "Hope Zimmerman",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Alyssa Lagasca",
-    "category": "Diabetes",
+    "category": "Health",
     "language": "English",
-    "duration": "1"
+    "duration": "1",
+    "title": "Understanding & Managing High Cholesterol",
+    "date_created": "7/1/2024"
   },
   "EN-01608": {
     "author": "Dr. Fahim Pyarali",
@@ -185,12 +199,14 @@
     "peer_reviewer": "Julika Von Stackelberg"
   },
   "ART-0021": {
-    "author": "Diane McNaught",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Madeline McGuire",
     "language": "English",
     "duration": "2",
-    "link": "https://docs.google.com/document/d/1Q2bKnUpN-tQZaGtc7br8CgRSC5H1EGaSMNT1UBTBYzI/edit?usp=sharing"
+    "link": "https://docs.google.com/document/d/1Q2bKnUpN-tQZaGtc7br8CgRSC5H1EGaSMNT1UBTBYzI/edit?usp=sharing",
+    "title": "10 Signs Of Healthy Sleep",
+    "category": "Sleep"
   },
   "ALB-0253": {
     "author": "Diane McNaught",
@@ -278,9 +294,12 @@
   },
   "ART-0114": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T15:57:19.499Z",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Understanding Parkinson's Disease",
+    "category": "Health",
+    "author": "Marlee"
   },
   "ILB-0218": {
     "peer_reviewer": "Diane McNaught",
@@ -290,17 +309,25 @@
   },
   "ART-0113": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-11T14:15:30.879Z",
-    "author": "Marlee Alanis",
+    "_at": "2026-08-12T15:57:19.499Z",
+    "author": "Marlee",
     "language": "English",
     "duration": "2",
-    "link": "https://docs.google.com/document/d/1plT0VpzoO7rQuo7V037Ad4t9G1QmcLh-/edit"
+    "link": "https://docs.google.com/document/d/1plT0VpzoO7rQuo7V037Ad4t9G1QmcLh-/edit",
+    "title": "Embracing Wellness Every Day",
+    "category": "Health / Mental Health",
+    "date_created": "11/9/2023",
+    "notes": "R?"
   },
   "ART-0117": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T15:57:19.499Z",
     "language": "English",
-    "duration": "4"
+    "duration": "4",
+    "title": "How Sleep Is Crucial For Weight Management",
+    "category": "Sleep / Health",
+    "author": "Marlee",
+    "notes": "In the bullet about creating a relaxing sleep environment- I wonder if adding something about not scrolling on your phone?"
   },
   "ILB-0226": {
     "peer_reviewer": "Diane McNaught",
@@ -316,17 +343,22 @@
   },
   "ART-0116": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
-    "author": "Marlee Alanis",
+    "_at": "2026-08-12T15:57:19.499Z",
+    "author": "Marlee",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "How Weight Loss Boosts Overall Health",
+    "category": "Health"
   },
   "ART-0118": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T15:57:19.499Z",
     "language": "English",
-    "notes": "Should the 1st bullet end in a colon -OR- should the bullet be removed and have that be an opening paragraph?, says well-being",
-    "duration": "2"
+    "notes": "The first paragraph tlks about vaccines and says it is especially important this week. Is this something we should adjust to make less specific to a moment in time?",
+    "duration": "2",
+    "title": "Protecting Health & Community With Immunizations",
+    "category": "Health",
+    "author": "Marlee"
   },
   "ILB-0228": {
     "peer_reviewer": "Diane McNaught",
@@ -341,11 +373,13 @@
     "type": "Infographic"
   },
   "ART-0225": {
-    "author": "Hope Zimmerman",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Alyssa Lagasca",
     "language": "English",
-    "duration": "4"
+    "duration": "4",
+    "title": "The Benefits Of Regular Strength Training",
+    "category": "Fitness"
   },
   "ALB-0017": {
     "peer_reviewer": "Diane McNaught",
@@ -357,11 +391,14 @@
     "link": "https://docs.google.com/document/d/1Q2bKnUpN-tQZaGtc7br8CgRSC5H1EGaSMNT1UBTBYzI/edit?usp=sharing"
   },
   "ART-0178": {
-    "author": "Hope Zimmerman",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Alyssa Lagasca",
     "language": "English",
-    "duration": "3"
+    "duration": "3",
+    "title": "The Benefits Of Regular Walking",
+    "category": "Health",
+    "date_created": "6/28/2024"
   },
   "ILB-0220": {
     "peer_reviewer": "Diane McNaught",
@@ -371,20 +408,24 @@
   },
   "ART-0120": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-12T15:57:19.499Z",
     "language": "English",
     "duration": "2",
-    "link": "https://docs.google.com/document/d/1VxG5AxQWT_Sz_uiWbQq7gEApav9R7KI1/edit"
+    "link": "https://docs.google.com/document/d/1VxG5AxQWT_Sz_uiWbQq7gEApav9R7KI1/edit",
+    "title": "Fermented Foods & Their Health Benefits",
+    "category": "Nutrition",
+    "author": "Marlee"
   },
   "ART-0003": {
-    "category": "Vaping & Tobacco",
-    "_at": "2026-08-11T14:09:54.058Z",
-    "author": "Marlee Alanis",
+    "category": "Yoga & Movement",
+    "_at": "2026-08-12T15:57:19.499Z",
+    "author": "Marlee",
     "peer_reviewer": "Diane McNaught",
     "notes": "",
     "ver.": "1",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Yoga For Cardiovascular Health"
   },
   "ILB-0290": {
     "author": "Marlee Alanis",
@@ -412,877 +453,1200 @@
     "link": "https://docs.google.com/document/d/1VxG5AxQWT_Sz_uiWbQq7gEApav9R7KI1/edit"
   },
   "ART-0253": {
-    "author": "Marlee Alanis",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Emily",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Marlee Alanis",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Understanding Various Types Of Insurance",
+    "category": "Financial Wellness",
+    "date_created": "8/5/2024",
+    "notes": "Very detailed and easy to understand"
   },
   "ART-0002": {
-    "author": "Marlee Alanis",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "notes": "",
     "reviewed_by": "Marlee",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "The Benefits Of Children's Yoga.docx",
+    "category": "Yoga & Movement"
   },
   "ART-0004": {
-    "author": "Marlee Alanis",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "reviewer": "Diane",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Seated Cat-Cow Pose For Travel",
+    "category": "Yoga & Movement"
   },
   "ART-0005": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "_at": "2026-08-12T15:57:19.499Z",
     "notes": "",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Promoting Joint Health Through Yoga",
+    "category": "Yoga & Movement",
+    "author": "Marlee"
   },
   "ART-0006": {
-    "author": "Marlee Alanis",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
-    "title": "How to Recognize High-Risk Drinking Patterns",
+    "title": "Have You Ever Tried Working Out Your Face?",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "category": "Yoga & Movement"
   },
   "ART-0007": {
-    "author": "Marlee Alanis",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "revised": "",
-    "category": "Alcohol Use",
+    "category": "Yoga & Movement",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Flow With Vinyasa"
   },
   "ART-0008": {
-    "author": "Marlee Alanis",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "date_created": "01/15/2026",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Discovering The Long-Term Benefits Of The Alexander Technique",
+    "category": "Yoga & Movement",
+    "notes": "Last paragraph: enhanced posture- improved posture??"
   },
   "ART-0009": {
-    "author": "Marlee Alanis",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "The Power Of Workplace Friendship",
+    "category": "Workplace Wellness / Relationships"
   },
   "ART-0026": {
-    "author": "Marlee Alanis",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "last_reviewed": "11/12/2025",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Mindful Habits For A Positive Mindset At Work",
+    "category": "Performance & Positive Thinking",
+    "date_created": "11/13/2023"
   },
   "ART-0027": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "_at": "2026-08-12T15:57:19.499Z",
     "type": "Article",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "The Art Of Strategic Time Management",
+    "category": "Performance & Positive Thinking",
+    "author": "Marlee",
+    "date_created": "11/10/2023",
+    "notes": "This one made me clean my desk :)"
   },
   "ART-0028": {
-    "author": "Marlee Alanis",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Infusing Joy & Positivity Into Daily Habits",
+    "category": "Performance & Positive Thinking",
+    "date_created": "11/10/2023",
+    "notes": "R?"
   },
   "ART-0030": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "_at": "2026-08-12T15:57:19.499Z",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Elevating Leadership Skills With Lifestyle Changes",
+    "category": "Performance & Positive Thinking / Workplace Wellness",
+    "author": "Marlee"
   },
   "ART-0032": {
-    "author": "Marlee Alanis",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Tips For Mindful Productivity At Work",
+    "category": "Performance & Positive Thinking / Workplace Wellness",
+    "date_created": "11/10/2023"
   },
   "ART-0035": {
-    "author": "Marlee Alanis",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Lifestyle Tips For A Positive Mindset",
+    "category": "Performance & Positive Thinking / Mental Health",
+    "date_created": "11/10/2023"
   },
   "ART-0043": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "_at": "2026-08-12T15:57:19.499Z",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Why Breaks Boost Productivity & Mental Health.docx",
+    "category": "Performance & Positive Thinking / Mental Health",
+    "author": "Marlee",
+    "date_created": "10/25/2023"
   },
   "ART-0044": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "_at": "2026-08-12T15:57:19.499Z",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Power Posing For Confidence",
+    "category": "Performance & Positive Thinking",
+    "author": "Marlee"
   },
   "ART-0045": {
-    "author": "Madeline McGuire",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Understanding The Importance Of Vacation Time.docx",
+    "category": "Performance & Positive Thinking",
+    "date_created": "10/25/2023"
   },
   "ART-0046": {
-    "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
-    "title": "COPD Early Warning Signs To Watch For",
-    "category": "COPD",
+    "title": "Exploring The Spiritual Side Of Self",
+    "category": "Performance & Positive Thinking",
     "language": "English"
   },
   "ART-0047": {
-    "author": "Emily Wilson",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "language": "English",
-    "duration": "3"
+    "duration": "3",
+    "title": "Discover The Power Of Journaling.docx",
+    "category": "Performance & Positive Thinking",
+    "date_created": "10/25/2023"
   },
   "ART-0048": {
-    "author": "Emily Wilson",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Cultivating A Positive Mindset For Weight Management.docx",
+    "category": "Performance & Positive Thinking"
   },
   "ART-0049": {
-    "author": "Marlee Alanis",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Build Your Best Morning Routine",
+    "category": "Performance & Positive Thinking",
+    "date_created": "10/25/2023"
   },
   "ART-0050": {
-    "author": "Madeline McGuire",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Understanding Liver Detoxification",
+    "category": "Nutrition",
+    "date_created": "10/25/2023"
   },
   "ART-0051": {
-    "author": "Marlee Alanis",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "language": "English",
     "notes": "Is there a reason why only certain countries are included? It is really interesting to learn about",
-    "duration": "5"
+    "duration": "5",
+    "title": "The Power Of Intuitive & Mindful Eating.docx",
+    "category": "Nutrition",
+    "date_created": "10/25/2023"
   },
   "ART-0052": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T15:57:19.499Z",
     "language": "English",
-    "duration": "4"
+    "duration": "4",
+    "title": "How Nutrition Supports Better Mental Health .docx",
+    "category": "Nutrition / Mental Health",
+    "author": "Marlee",
+    "date_created": "10/25/2023"
   },
   "ART-0053": {
-    "author": "Marlee Alanis",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "duration": "2",
     "language": "English",
-    "link": "https://docs.google.com/document/d/19kL_d-KNhSxpZVsFbxnWcAwkt9l8iliIRM5QJxUZfqo/edit?usp=sharing"
+    "link": "https://docs.google.com/document/d/19kL_d-KNhSxpZVsFbxnWcAwkt9l8iliIRM5QJxUZfqo/edit?usp=sharing",
+    "title": "The Impact Of Diet On Your Sleep Quality",
+    "category": "Nutrition / Sleep",
+    "date_created": "10/25/2023"
   },
   "ART-0054": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "_at": "2026-08-12T15:57:19.499Z",
     "language": "English",
-    "duration": "3"
+    "duration": "3",
+    "title": "The Benefits & Risks Of Morning Coffee.docx",
+    "category": "Nutrition",
+    "author": "Marlee",
+    "date_created": "10/25/2023"
   },
   "ART-0056": {
-    "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "language": "English",
-    "duration": "5"
+    "duration": "5",
+    "title": "Gut Health 101",
+    "category": "Nutrition"
   },
   "ART-0057": {
-    "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "language": "English",
-    "duration": "5"
+    "duration": "5",
+    "title": "Eating Mindfully",
+    "category": "Nutrition",
+    "date_created": "10/25/2023",
+    "notes": "R?"
   },
   "ART-0058": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T15:57:19.499Z",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Digestion & Stress",
+    "category": "Nutrition",
+    "author": "Marlee",
+    "date_created": "10/25/2023"
   },
   "ART-0059": {
-    "author": "Emily Wilson",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "language": "English",
-    "duration": "3"
+    "duration": "3",
+    "title": "Diet Choices For Hair Health",
+    "category": "Nutrition"
   },
   "ART-0062": {
-    "author": "Hope Zimmerman",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Bone Broth For Gut Health",
+    "category": "Nutrition"
   },
   "ART-0063": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "_at": "2026-08-12T15:57:19.499Z",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Blood Sugar Management",
+    "category": "Nutrition",
+    "author": "Marlee"
   },
   "ART-0065": {
-    "author": "Hope Zimmerman",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Tips For A Balanced Diet On GLP-1s",
+    "category": "Nutrition"
   },
   "ART-0069": {
-    "author": "Madeline McGuire",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "duration": "2",
     "language": "English",
-    "link": "https://docs.google.com/document/d/1SiKL8zDz1MYTmfSbdDIhDuJbyn06g88FNeogvKWjxz0/edit?usp=sharing"
+    "link": "https://docs.google.com/document/d/1SiKL8zDz1MYTmfSbdDIhDuJbyn06g88FNeogvKWjxz0/edit?usp=sharing",
+    "title": "The Impact Of Processed Foods On Health",
+    "category": "Nutrition"
   },
   "ART-0072": {
-    "author": "Madeline McGuire",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "duration": "3",
     "language": "English",
-    "link": "https://docs.google.com/document/d/1qnk_eZmdva87KoQDAWewKZIRymavov_8huMxgWlCHrE/edit?usp=sharing"
+    "link": "https://docs.google.com/document/d/1qnk_eZmdva87KoQDAWewKZIRymavov_8huMxgWlCHrE/edit?usp=sharing",
+    "title": "The Benefits Of High-Fiber Foods",
+    "category": "Nutrition",
+    "date_created": "7/1/2024",
+    "notes": "10th line, 2nd paragraph- typo"
   },
   "ART-0074": {
-    "author": "Hope Zimmerman",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "language": "English",
-    "duration": "3"
+    "duration": "3",
+    "title": "How To Read Food Labels Effectively",
+    "category": "Nutrition",
+    "date_created": "7/2/2024",
+    "notes": "R?"
   },
   "ART-0075": {
-    "author": "Hope Zimmerman",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "language": "English",
-    "duration": "3"
+    "duration": "3",
+    "title": "A Healthy & Balanced Vegetarian Diet",
+    "category": "Nutrition",
+    "notes": "R?"
   },
   "ART-0076": {
-    "author": "Hope Zimmerman",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "language": "English",
-    "duration": "3"
+    "duration": "3",
+    "title": "How To Reduce Inflammation Through Diet",
+    "category": "Nutrition",
+    "date_created": "7/2/2024",
+    "notes": "R?"
   },
   "ART-0077": {
-    "author": "Hope Zimmerman",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "language": "English",
-    "duration": "3"
+    "duration": "3",
+    "title": "A Different Approach To Men’s Mental Health",
+    "category": "Mental Health",
+    "date_created": "11/6/2024"
   },
   "ART-0078": {
-    "author": "Hope Zimmerman",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "language": "English",
-    "duration": "3"
+    "duration": "3",
+    "title": "A Guide To Self-Care For Caregivers",
+    "category": "Mental Health",
+    "date_created": "7/19/2024"
   },
   "ART-0079": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "_at": "2026-08-12T15:57:19.499Z",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Science-Backed Steps For Better Mental Health",
+    "category": "Mental Health",
+    "author": "Marlee",
+    "date_created": "4/8/2025"
   },
   "ART-0080": {
-    "author": "Hope Zimmerman",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "language": "English",
-    "duration": "3"
+    "duration": "3",
+    "title": "Your Body On Cortisol",
+    "category": "Health",
+    "date_created": "10/25/2023"
   },
   "ART-0082": {
-    "author": "Marlee Alanis",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "language": "English",
-    "duration": "3"
+    "duration": "3",
+    "title": "What Is Nadi Shodhan Pranayama",
+    "category": "Meditation & Sleep"
   },
   "ART-0084": {
-    "author": "Hope Zimmerman",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "language": "English",
-    "duration": "3"
+    "duration": "3",
+    "title": "The Transformative Power Of Meditation",
+    "category": "Meditation & Sleep"
   },
   "ART-0085": {
-    "author": "Hope Zimmerman",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Heal With Your Fingertips Through Tapping.docx",
+    "category": "Meditation & Sleep"
   },
   "ART-0086": {
-    "author": "Marlee Alanis",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "language": "English",
-    "date_created": "11/28/2024",
-    "duration": "3"
+    "date_created": "10/25/2023",
+    "duration": "3",
+    "title": "Strategies For Living Fully In The Moment",
+    "category": "Mental Health",
+    "notes": "R?"
   },
   "ART-0087": {
-    "author": "Hope Zimmerman",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "language": "English",
     "notes": "remove conclusion subtitle",
-    "duration": "3"
+    "duration": "3",
+    "title": "Sleep Longer, Live Stronger",
+    "category": "Sleep / Health",
+    "date_created": "10/25/2023"
   },
   "ART-0088": {
-    "author": "Hope Zimmerman",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "language": "English",
-    "duration": "3"
+    "duration": "3",
+    "title": "Sleep & Screen Time",
+    "category": "Sleep / Health",
+    "date_created": "10/25/2023"
   },
   "ART-0089": {
-    "author": "Hope Zimmerman",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "language": "English",
-    "duration": "3"
+    "duration": "3",
+    "title": "Sa-Ta-Na-Ma For Peace Of Mind",
+    "category": "Meditation & Sleep"
   },
   "ART-0090": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "_at": "2026-08-12T15:57:19.499Z",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Nurturing Mindfulness In Children",
+    "category": "Relationships",
+    "author": "Marlee",
+    "date_created": "10/25/2023"
   },
   "ART-0091": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "_at": "2026-08-12T15:57:19.499Z",
     "language": "English",
-    "duration": "3"
+    "duration": "3",
+    "title": "Light Your Way With Palo Santo",
+    "category": "Meditation / Mental Health",
+    "author": "Marlee",
+    "notes": "R?"
   },
   "ART-0092": {
-    "author": "Hope Zimmerman",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "How Meditation Impacts Hormonal Release For Wellbeing.docx",
+    "category": "Meditation / Health",
+    "notes": "Says Well-being"
   },
   "ART-0093": {
-    "author": "Hope Zimmerman",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Unlocking Stress Relief Through Meditation",
+    "category": "Meditation / Mental Health",
+    "date_created": "10/25/2023"
   },
   "ART-0094": {
-    "author": "Hope Zimmerman",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Exploring The Science Of Breathing",
+    "category": "Meditation / Health"
   },
   "ART-0095": {
-    "author": "Hope Zimmerman",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Exploring The Benefits Of Body Scan Meditation",
+    "category": "Meditation",
+    "date_created": "10/25/2023",
+    "notes": "R?"
   },
   "ART-0096": {
-    "author": "Hope Zimmerman",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Anger Management & Meditation",
+    "category": "Meditation / Mental Health",
+    "date_created": "10/25/2023"
   },
   "ART-0097": {
-    "author": "Hope Zimmerman",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Achieving The Restorative Sleep You Deserve",
+    "category": "Sleep",
+    "date_created": "10/25/2023",
+    "notes": "5th sentence- maybe remove But from the beginning for clarity?"
   },
   "ART-0098": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T15:57:19.499Z",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Achieve Mindfulness Through Sound",
+    "category": "Meditation / Mental Health",
+    "author": "Marlee",
+    "notes": "I had to google Superior Olivary Complex- that's pretty cool!"
   },
   "ART-0100": {
-    "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "duration": "3",
-    "language": "English"
+    "language": "English",
+    "title": "Healthy Travel Tips For GLP-1 Users",
+    "category": "Health"
   },
   "ART-0102": {
-    "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "duration": "3",
-    "language": "English"
+    "language": "English",
+    "title": "Wellness For College Students",
+    "category": "Health / Mental Health",
+    "notes": "Maybe some bolded headers could break up the text?"
   },
   "ART-0103": {
-    "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "language": "English",
-    "duration": "3"
+    "duration": "3",
+    "title": "Bridging Physical & Mental Wellbeing Gap.docx",
+    "category": "Holistic Wellness / Health / Mental Health",
+    "notes": "R?"
   },
   "ART-0104": {
-    "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "A Holistic Approach To Health",
+    "category": "Holistic Wellness / Health"
   },
   "ART-0105": {
-    "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Vitamin C As A Superfood For Health"
   },
   "ART-0110": {
-    "author": "Marlee Alanis",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "language": "English",
-    "duration": "3"
+    "duration": "3",
+    "title": "Woman’s Lifestyle Tips for Optimal Health",
+    "category": "Health / Mental Health"
   },
   "ART-0111": {
-    "author": "Marlee Alanis",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "The Profound Benefits Of Reducing Alcohol Consumption",
+    "category": "Health / Nutrition",
+    "date_created": "11/9/2023"
   },
   "ART-0112": {
-    "author": "Marlee Alanis",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "language": "English",
-    "duration": "4"
+    "duration": "4",
+    "title": "How The Outdoors Can Improve Health",
+    "category": "Health",
+    "date_created": "11/9/2023"
   },
   "ART-0121": {
-    "author": "Emily Wilson",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Nurturing The Brain-Gut Axis For Health",
+    "category": "Health"
   },
   "ART-0122": {
-    "author": "Emily Wilson",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Safe Sun Exposure Tips For Healthy Skin",
+    "category": "Health",
+    "notes": "2nd to last paragraph- I wonder if there is a word other than relish that might make more sense? Also- is it worth adding that it is a good idea to understand if there are any restrictions on certain types of sunscreens at specific vavaciot spots (like Hawaii?)"
   },
   "ART-0123": {
-    "author": "Emily Wilson",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "A Clear Focus on Eye Health",
+    "category": "Health",
+    "date_created": "10/31/2023",
+    "notes": "R? & Is there a more trauma-informed way to word the 2nd sentence in the 1st paragraph?"
   },
   "ART-0124": {
-    "author": "Emily Wilson",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Navigating Life's Challenges with Resilience",
+    "category": "Mental Health",
+    "date_created": "10/31/2023",
+    "notes": "R?"
   },
   "ART-0125": {
-    "author": "Emily Wilson",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Uniting For A Cancer-Free Future",
+    "category": "Health",
+    "notes": "R? 2nd sentence in 1st paragraph and title are about world cancer day. Would it make sense to remove that component and leave the rest to make it more versitile?"
   },
   "ART-0126": {
-    "author": "Emily Wilson",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "language": "English",
     "duration": "2",
-    "link": "https://docs.google.com/document/d/1qjMDnDacxvDZ4c9uNIjDVczIgnYfyLBjP40VheQ-jfY/edit?usp=sharing"
+    "link": "https://docs.google.com/document/d/1qjMDnDacxvDZ4c9uNIjDVczIgnYfyLBjP40VheQ-jfY/edit?usp=sharing",
+    "title": "Nurturing Harmony for a Balanced Life",
+    "category": "Health / Mental Health",
+    "date_created": "10/31/2023"
   },
   "ART-0127": {
-    "author": "Emily Wilson",
-    "_at": "2026-08-11T14:09:54.058Z",
-    "peer_reviewer": "Diane McNaught",
-    "language": "English",
-    "duration": "2"
-  },
-  "ART-0128": {
-    "author": "Emily Wilson",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "language": "English",
     "duration": "2",
-    "link": "https://docs.google.com/document/d/1I_Ill4WPArUjwYWnEWcEKy9VPJgAbonMf_7t9uP8r1k/edit?usp=sharing"
+    "title": "A Smoke-Free Future for Health and Happiness",
+    "category": "Health"
+  },
+  "ART-0128": {
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
+    "peer_reviewer": "Diane McNaught",
+    "language": "English",
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1I_Ill4WPArUjwYWnEWcEKy9VPJgAbonMf_7t9uP8r1k/edit?usp=sharing",
+    "title": "Finding Peace In The Present Moment",
+    "category": "Meditation",
+    "date_created": "10/31/2023",
+    "notes": "R?"
   },
   "ART-0129": {
-    "author": "Emily Wilson",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Protecting the Global Workforce",
+    "category": "Workplace Wellness / Health",
+    "notes": "R? Should OSHA be discussed or mentioned? Or unions? Does mentioning OSHA make this not an international-use article?"
   },
   "ART-0130": {
-    "author": "Diane McNaught",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Spreading Joy Around the World",
+    "category": "Mental Health",
+    "date_created": "10/31/2023",
+    "notes": "R?"
   },
   "ART-0131": {
-    "author": "Diane McNaught",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Diabetes Awareness",
+    "category": "Health",
+    "date_created": "10/31/2023"
   },
   "ART-0132": {
-    "author": "Diane McNaught",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Taking Charge of Your Cardiovascular Health",
+    "category": "Health",
+    "date_created": "10/31/2023"
   },
   "ART-0133": {
-    "author": "Diane McNaught",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Understanding & Coping With Post-Traumatic Stress Disorder",
+    "category": "Mental Health",
+    "date_created": "11/1/2023",
+    "notes": "R?"
   },
   "ART-0134": {
-    "author": "Diane McNaught",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Alzheimer's & Brain Health Awareness",
+    "category": "Health"
   },
   "ART-0135": {
-    "author": "Diane McNaught",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "category": "Health",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Ways To Boost Your Immune System"
   },
   "ART-0136": {
-    "author": "Diane McNaught",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Skin Care With Natural Ingredients",
+    "category": "Health",
+    "notes": "1st paragraph, 2nd line- is to are"
   },
   "ART-0138": {
-    "author": "Diane McNaught",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "language": "English",
-    "duration": "1"
+    "duration": "1",
+    "title": "The Role Of Self-Breast Examinations In Early Detection Of Breast Cancer",
+    "category": "Health"
   },
   "ART-0139": {
-    "author": "Diane McNaught",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "duration": "3",
     "language": "English",
-    "link": "https://docs.google.com/document/d/1zxVtDGw9OyI-8Quwe3Z3pY8LbTaU17tzvkkZfiLG_TQ/edit?usp=sharing"
+    "link": "https://docs.google.com/document/d/1zxVtDGw9OyI-8Quwe3Z3pY8LbTaU17tzvkkZfiLG_TQ/edit?usp=sharing",
+    "title": "The Benefits Of Reducing Sugar Consumption",
+    "category": "Health",
+    "date_created": "11/6/2025"
   },
   "ART-0140": {
-    "author": "Diane McNaught",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "category": "Health",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "The Importance Of Pelvic Floor Health For Men & Women"
   },
   "ART-0143": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "_at": "2026-08-12T15:57:19.499Z",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "How Sleep Is Crucial For Weight Management",
+    "category": "Sleep",
+    "author": "Marlee"
   },
   "ART-0144": {
-    "author": "Diane McNaught",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "The Gentle Touch Of Bee Byproducts For Sensitive Skin",
+    "category": "Health"
   },
   "ART-0145": {
-    "author": "Diane McNaught",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "duration": "2",
     "language": "English",
     "date_created": "09/24/2025",
-    "link": "https://docs.google.com/document/d/1MOQ-pFGB3HpdZfyuOkenBmt2hhhuuH9JTXftPNi4aeY/edit?usp=sharing"
+    "link": "https://docs.google.com/document/d/1MOQ-pFGB3HpdZfyuOkenBmt2hhhuuH9JTXftPNi4aeY/edit?usp=sharing",
+    "title": "Honey Is Transforming Hair Care",
+    "category": "Health"
   },
   "ART-0146": {
-    "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "language": "English",
-    "duration": "4"
+    "duration": "4",
+    "title": "Essential Tips For A Healthy Spine",
+    "category": "Health"
   },
   "ART-0149": {
-    "author": "Diane McNaught",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "category": "Health",
     "language": "English",
-    "duration": "1"
+    "duration": "1",
+    "title": "Preventing Muscle Loss While On GLP-1 Therapy"
   },
   "ART-0150": {
-    "author": "Diane McNaught",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
-    "category": "Health Screenings",
+    "category": "Health",
     "language": "English",
-    "duration": "1"
+    "duration": "1",
+    "title": "The Role Of GLP-1 In Diabetes Management"
   },
   "ART-0151": {
-    "author": "Diane McNaught",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
-    "category": "Health",
+    "category": "Health / Nutrition",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Combining Diet & GLP-1 For Optimal Health"
   },
   "ART-0152": {
-    "author": "Diane McNaught",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "How To Handle Common Side Effects Of GLP-1 Medications",
+    "category": "Health"
   },
   "ART-0153": {
-    "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "category": "Health",
     "language": "English",
-    "duration": "4"
+    "duration": "4",
+    "title": "Balancing Blood Sugar With GLP-1"
   },
   "ART-0154": {
-    "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
-    "category": "Women's Health",
+    "category": "Health",
     "language": "English",
-    "duration": "3"
+    "duration": "3",
+    "title": "What You Need to Know About GLP-1 and Heart Health"
   },
   "ART-0155": {
-    "author": "Diane McNaught",
-    "_at": "2026-08-11T14:15:30.879Z",
-    "category": "Women's Health",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
+    "category": "Health",
     "peer_reviewer": "Diane McNaught",
     "duration": "1",
     "language": "English",
     "date_created": "02/09/2026",
-    "link": "https://docs.google.com/document/d/1L-eujHzWYG6PwBe5Q3t5TKP9elCGqnLAtpnlI_UrKJA/edit?usp=sharing"
+    "link": "https://docs.google.com/document/d/1L-eujHzWYG6PwBe5Q3t5TKP9elCGqnLAtpnlI_UrKJA/edit?usp=sharing",
+    "title": "Supporting Digestive Health On GLP-1 Therapy"
   },
   "ART-0156": {
-    "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "language": "English",
-    "duration": "4"
+    "duration": "4",
+    "title": "Hydration Tips For GLP-1 Users",
+    "category": "Health",
+    "notes": "May be too complex to be used to create an AI audio"
   },
   "ART-0157": {
-    "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "language": "English",
-    "duration": "3"
+    "duration": "3",
+    "title": "Boosting Energy Levels With GLP-1",
+    "category": "Health",
+    "notes": "Lanugauge may be too complex to be used to create an AI audio"
   },
   "ART-0158": {
-    "author": "Diane McNaught",
-    "_at": "2026-08-11T14:15:30.879Z",
-    "category": "Women's Health",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
+    "category": "Health",
     "peer_reviewer": "Diane McNaught",
     "duration": "2",
     "language": "English",
-    "link": "https://docs.google.com/document/d/1r9ns-7X2WSzOuOYxHD28lZ70f4ajt-UNMYc2sKyXGl0/edit?usp=sharing"
+    "link": "https://docs.google.com/document/d/1r9ns-7X2WSzOuOYxHD28lZ70f4ajt-UNMYc2sKyXGl0/edit?usp=sharing",
+    "title": "Understanding Weight Loss With GLP-1"
   },
   "ART-0159": {
-    "author": "Diane McNaught",
-    "_at": "2026-08-11T14:15:30.879Z",
-    "category": "Women's Health",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
+    "category": "Health / Nutrition",
     "peer_reviewer": "Diane McNaught",
     "duration": "2",
     "language": "English",
-    "link": "https://docs.google.com/document/d/1pdnMsYgVBivzYK5BgDVixZ1TxceOOpkjMR-7ynw0U3s/edit?usp=sharing"
+    "link": "https://docs.google.com/document/d/1pdnMsYgVBivzYK5BgDVixZ1TxceOOpkjMR-7ynw0U3s/edit?usp=sharing",
+    "title": "Managing Appetite Changes On GLP-1",
+    "date_created": "6/27/2024"
   },
   "ART-0160": {
-    "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "language": "English",
-    "duration": "4"
+    "duration": "4",
+    "title": "GLP-1 & It's Impact On Mental Health",
+    "category": "Health / Mental Health"
   },
   "ART-0161": {
-    "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "language": "English",
-    "duration": "4"
+    "duration": "4",
+    "title": "How To Discuss GLP-1 Therapy With Your Doctor",
+    "category": "Health",
+    "date_created": "6/27/2024"
   },
   "ART-0162": {
-    "author": "Diane McNaught",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
-    "category": "Women's Health",
+    "category": "Health",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Practical Tips For Starting GLP-1 Therapy"
   },
   "ART-0163": {
-    "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "language": "English",
-    "duration": "4"
+    "duration": "4",
+    "title": "Understanding The Link Between GLP-1 & Inflammation",
+    "category": "Health"
   },
   "ART-0164": {
-    "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
-    "category": "Women's Health",
-    "language": "English"
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
+    "category": "Health",
+    "language": "English",
+    "title": "Tips For Managing GLP-1 Injections",
+    "notes": "R?"
   },
   "ART-0167": {
-    "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
-    "category": "Movement",
+    "category": "Health",
     "language": "English",
-    "duration": "3"
+    "duration": "3",
+    "title": "The Importance Of Oral Health For Overall Wellness"
   },
   "ART-0168": {
-    "author": "Diane McNaught",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
-    "category": "Physical Health & Exercise",
+    "category": "Health",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Tips for Managing Allergies",
+    "date_created": "6/27/2024"
   },
   "ART-0169": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T15:57:19.499Z",
     "language": "English",
-    "duration": "3"
+    "duration": "3",
+    "title": "How To Safely Use Over-The-Counter Medications",
+    "category": "Health",
+    "author": "Marlee"
   },
   "ART-0170": {
-    "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "language": "English",
-    "duration": "4"
+    "duration": "4",
+    "title": "Maintaining Healthy Cholesterol Levels",
+    "category": "Health",
+    "date_created": "6/27/2024"
   },
   "ART-0171": {
-    "author": "Diane McNaught",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
-    "category": "Movement",
+    "category": "Health",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "The Importance Of Regular Health Screenings",
+    "date_created": "6/27/2024",
+    "notes": "R?"
   },
   "ART-0172": {
-    "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "language": "English",
-    "duration": "5"
+    "duration": "5",
+    "title": "Preventing & Managing Seasonal Flu",
+    "category": "Health",
+    "date_created": "6/27/2024",
+    "notes": "R?"
   },
   "ART-0243": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T15:57:19.499Z",
     "language": "English",
-    "duration": "3"
+    "duration": "3",
+    "title": "A Guide To Cortisol Management & Effects",
+    "category": "Health",
+    "author": "Emily",
+    "date_created": "8/4/2024",
+    "notes": "We spell wellbeing as one word with no hyphen"
   },
   "ART-0244": {
-    "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "author": "Emily",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Marlee Alanis",
     "language": "English",
     "notes": "2nd to last paragraph- I wonder if there is a word other than relish that might make more sense? Also- is it worth adding that it is a good idea to understand if there are any restrictions on certain types of sunscreens at specific vavaciot spots (like Hawaii?)",
-    "duration": "3"
+    "duration": "3",
+    "title": "Having Resilience Through All Of Life's Momements",
+    "category": "Social Wellness & Relationships",
+    "date_created": "8/4/2024"
   },
   "ART-0246": {
-    "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "author": "Emily",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Marlee Alanis",
-    "category": "Health",
+    "category": "Social Wellness & Relationships",
     "language": "English",
-    "duration": "3"
+    "duration": "3",
+    "title": "Understanding The Stress Continuum",
+    "date_created": "8/4/2024",
+    "notes": "I really like this!"
   },
   "ART-0247": {
-    "author": "Diane McNaught",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Emily",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Marlee Alanis",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Achieving Success With SMART Goals",
+    "category": "Financial Wellness"
   },
   "ART-0248": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-11T14:09:54.058Z",
-    "category": "Mental Health",
+    "_at": "2026-08-12T15:57:19.499Z",
+    "category": "Financial Wellness",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Building Savings With Divided Deposits",
+    "author": "Emily"
   },
   "ART-0249": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-10T20:06:24.297Z",
-    "category": "Men's Health",
+    "_at": "2026-08-12T15:57:19.499Z",
+    "category": "Financial Wellness",
     "language": "English",
-    "duration": "4"
+    "duration": "4",
+    "title": "The Differences Between HSAs & FSAs",
+    "author": "Emily"
   },
   "ART-0250": {
-    "author": "Diane McNaught",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Emily",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
-    "category": "Heart Disease",
+    "category": "Financial Wellness",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Managing Your Retirement Plan Through Career Changes"
   },
   "ART-0251": {
-    "author": "Diane McNaught",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Emily",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Strategic Retirement Savings for Each Decade",
+    "category": "Financial Wellness",
+    "date_created": "8/5/2024",
+    "notes": "The conclusion paragraph is below the references"
   },
   "ART-0252": {
-    "author": "Diane McNaught",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Emily",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Planning For Retirement",
+    "category": "Financial Wellness",
+    "date_created": "8/5/2024"
   },
   "ART-0254": {
-    "author": "Diane McNaught",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Emily",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Marlee Alanis",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Health Insurance In The US",
+    "category": "Financial Wellness"
   },
   "ILB-0002": {
     "peer_reviewer": "Diane McNaught",
@@ -2747,369 +3111,496 @@
     "duration": "2"
   },
   "ART-0010": {
-    "author": "Hope Zimmerman",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Marlee Alanis",
     "client_licenses": "",
     "language": "English",
-    "duration": "3"
+    "duration": "3",
+    "title": "Cultivating Accessibility For People With Disabilities",
+    "category": "Social Wellness & Workplace Wellness"
   },
   "ART-0011": {
-    "author": "Hope Zimmerman",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Marlee Alanis",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Building Resilient Relationships For Personal Fulfillment",
+    "category": "Social Wellness & Relationships",
+    "notes": "Citations' - references"
   },
   "ART-0012": {
-    "author": "Hope Zimmerman",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Marlee Alanis",
     "ver.": "1",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Tips For Cultivating Optimism",
+    "category": "Social Wellness & Relationships",
+    "notes": "References"
   },
   "ART-0013": {
-    "author": "Madeline McGuire",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Marlee Alanis",
     "last_reviewed": "11/10/2025",
-    "category": "Anxiety & Depression",
+    "category": "Social Wellness & Relationships / Mental Health",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "The Value Of Gratitude",
+    "notes": "References"
   },
   "ART-0014": {
-    "author": "Hope Zimmerman",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Marlee Alanis",
     "notes": "",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Prioritizing Quality Relationships For A Fulfilling Life",
+    "category": "Social Wellness & Relationships"
   },
   "ART-0015": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "_at": "2026-08-12T15:57:19.499Z",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Gentle Parenting For Harmonious Parent-Child Relationships.docx",
+    "category": "Social Wellness & Relationships",
+    "author": "Marlee",
+    "date_created": "10/25/2023"
   },
   "ART-0016": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "_at": "2026-08-12T15:57:19.499Z",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Finding Your Type & Nurturing Healthy Relationships",
+    "category": "Social Wellness & Relationships",
+    "author": "Marlee"
   },
   "ART-0017": {
-    "author": "Hope Zimmerman",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Marlee Alanis",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Effective Communication Benefits Social & Emotional Health",
+    "category": "Social Wellness & Relationships"
   },
   "ART-0019": {
-    "author": "Hope Zimmerman",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Marlee Alanis",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "How Art Contributes To Health & Wellness",
+    "category": "Social Wellness & Relationships / Mental Health"
   },
   "ART-0020": {
-    "author": "Madeline McGuire",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Marlee Alanis",
     "language": "English",
-    "duration": "3"
+    "duration": "3",
+    "title": "Discovering Happiness Through A Simple Smile",
+    "category": "Social Wellness & Relationships / Mental Health"
   },
   "ART-0024": {
-    "author": "Hope Zimmerman",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Marlee Alanis",
     "language": "English",
-    "duration": "3"
+    "duration": "3",
+    "title": "How Proper Hydration Affects Performance",
+    "category": "Performance / Health"
   },
   "ART-0025": {
-    "author": "Hope Zimmerman",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Marlee Alanis",
     "date_created": "12/29/2025",
     "language": "English",
-    "duration": "3"
+    "duration": "3",
+    "title": "The Power Of Rest For A Positive Mood",
+    "category": "Performance & Positive Thinking / Health"
   },
   "ART-0031": {
-    "author": "Emily Wilson",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Marlee Alanis",
-    "notes": "",
+    "notes": "I can't get this one to open",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Boost Your Workday With Short Walks",
+    "category": "Performance & Positive Thinking / Mental Health",
+    "date_created": "11/10/2023"
   },
   "ART-0033": {
-    "author": "Hope Zimmerman",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Marlee Alanis",
     "type": "Article",
     "language": "English",
-    "duration": "3"
+    "duration": "3",
+    "title": "Practical Strategies For Workplace Stress Management",
+    "category": "Performance & Positive Thinking / Workplace Wellness",
+    "date_created": "11/10/2023",
+    "notes": "Paragraph #3,Sentence #3 review for clarity"
   },
   "ART-0034": {
-    "author": "Hope Zimmerman",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Marlee Alanis",
     "duration": "3",
     "language": "English",
-    "link": "https://docs.google.com/document/d/1Qu2NrhBIw0LHOl2ust-6_pl_HWws7GwS-_N001R00uw/edit?usp=sharing"
+    "link": "https://docs.google.com/document/d/1Qu2NrhBIw0LHOl2ust-6_pl_HWws7GwS-_N001R00uw/edit?usp=sharing",
+    "title": "Health Benefits Of Cognitive Reframing",
+    "category": "Performance & Positive Thinking / Health",
+    "date_created": "11/10/2023"
   },
   "ART-0036": {
-    "author": "Hope Zimmerman",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Marlee Alanis",
     "language": "English",
-    "duration": "3"
+    "duration": "3",
+    "title": "The Link Between Performance & Quality Sleep",
+    "category": "Performance & Positive Thinking / Sleep",
+    "date_created": "11/10/2023"
   },
   "ART-0038": {
-    "author": "Hope Zimmerman",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Marlee Alanis",
     "language": "English",
-    "duration": "4"
+    "duration": "4",
+    "title": "What Is Purpose & How To Find It",
+    "category": "Performance & Positive Thinking",
+    "date_created": "10/25/2023"
   },
   "ART-0039": {
-    "author": "Hope Zimmerman",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Marlee Alanis",
     "language": "English",
-    "duration": "3"
+    "duration": "3",
+    "title": "Visualization For Success",
+    "category": "Performance & Positive Thinking",
+    "date_created": "10/25/2023"
   },
   "ART-0040": {
-    "author": "Hope Zimmerman",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Marlee Alanis",
     "language": "English",
-    "duration": "3"
+    "duration": "3",
+    "title": "Unveiling The Law Of Attraction",
+    "category": "Performance & Positive Thinking / Relationships"
   },
   "ART-0041": {
-    "author": "Hope Zimmerman",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Marlee Alanis",
     "language": "English",
-    "duration": "3"
+    "duration": "3",
+    "title": "Travel For Self-Growth",
+    "category": "Performance & Positive Thinking"
   },
   "ART-0042": {
-    "author": "Madeline McGuire",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Marlee Alanis",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "The Secret To Body Positivity",
+    "category": "Performance & Positive Thinking / Mental Health",
+    "date_created": "10/25/2023"
   },
   "ART-0060": {
-    "author": "Emily Wilson",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Marlee Alanis",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Detox After A Weekend Of Letting Go",
+    "category": "Nutrition",
+    "date_created": "10/25/2023",
+    "notes": "second paragraph, last sentence        by-products"
   },
   "ART-0061": {
-    "author": "Emily Wilson",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Marlee Alanis",
     "language": "English",
     "date_created": "02/04/2026",
     "duration": "2",
-    "link": "https://docs.google.com/document/d/1RfuSGbPm7_GVAKvFnAHww0J7yX8O8GFSLu8c-6_kglI/edit?usp=sharing"
+    "link": "https://docs.google.com/document/d/1RfuSGbPm7_GVAKvFnAHww0J7yX8O8GFSLu8c-6_kglI/edit?usp=sharing",
+    "title": "Carbohydrates Explained.docx",
+    "category": "Nutrition"
   },
   "ART-0066": {
-    "author": "Emily Wilson",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Marlee Alanis",
     "language": "English",
-    "duration": "3"
+    "duration": "3",
+    "title": "Healthy Snacking For GLP-1 Users",
+    "category": "Nutrition"
   },
   "ART-0068": {
-    "author": "Emily Wilson",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Marlee Alanis",
     "duration": "2",
     "language": "English",
-    "link": "https://docs.google.com/document/d/1w5QgP0CvTaFP9ggY9FGOJ74UcHrBWFFn2viK79RQVm4/edit?usp=sharing"
+    "link": "https://docs.google.com/document/d/1w5QgP0CvTaFP9ggY9FGOJ74UcHrBWFFn2viK79RQVm4/edit?usp=sharing",
+    "title": "How Omega-3 Fatty Acids Impact Heart Health",
+    "category": "Nutrition",
+    "date_created": "6/28/2024",
+    "notes": "R?"
   },
   "ART-0070": {
-    "author": "Emily Wilson",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Marlee Alanis",
     "duration": "2",
     "language": "English",
-    "link": "https://docs.google.com/document/d/1NrBKRUuQFOSBUIbobtHai3BpYEmvmCYEDM6lc54-BDg/edit?usp=sharing"
+    "link": "https://docs.google.com/document/d/1NrBKRUuQFOSBUIbobtHai3BpYEmvmCYEDM6lc54-BDg/edit?usp=sharing",
+    "title": "Creating A Balanced Diet For Vegetarians",
+    "category": "Nutrition"
   },
   "ART-0073": {
-    "author": "Emily Wilson",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Marlee Alanis",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "How Whole Grains Benefit Your Diet",
+    "category": "Nutrition"
   },
   "ART-0081": {
-    "author": "Emily Wilson",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Marlee Alanis",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "You Deserve A Mid-Day Nap",
+    "category": "Sleep"
   },
   "ART-0083": {
-    "author": "Emily Wilson",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Marlee Alanis",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Understanding Mindfulness",
+    "category": "Mental Health",
+    "date_created": "10/25/2023"
   },
   "ART-0099": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T15:57:19.499Z",
     "duration": "2",
-    "language": "English"
+    "language": "English",
+    "title": "A Beginner's Guide To Meditation",
+    "category": "Meditation & Sleep",
+    "author": "Marlee"
   },
   "ART-0107": {
-    "author": "Emily Wilson",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Marlee Alanis",
     "language": "English",
     "duration": "2",
-    "link": "https://docs.google.com/document/d/1AJ-DXl3sX8drYtPakFjGLQRQ6Gifb4BsDGpDoZ3Fp34/edit?usp=sharing"
+    "link": "https://docs.google.com/document/d/1AJ-DXl3sX8drYtPakFjGLQRQ6Gifb4BsDGpDoZ3Fp34/edit?usp=sharing",
+    "title": "Embracing The Benefits Of Morning Tea",
+    "category": "Nutrition",
+    "notes": "R?"
   },
   "ART-0109": {
-    "author": "Emily Wilson",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Marlee Alanis",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Blood Sugar Friendly Foods For Optimal Health",
+    "category": "Nutrition",
+    "date_created": "11/9/2023",
+    "notes": "1st line- maybe change to Maintaining a stable blood sugar level is vital... Also- this could be used with hypoglycemia as well if we add that to the 1st paragraph."
   },
   "ART-0115": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T15:57:19.499Z",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Nutrition Tips for Healthy Weight Management",
+    "category": "Health",
+    "author": "Marlee",
+    "notes": "R?"
   },
   "ART-0119": {
-    "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Marlee Alanis",
     "language": "English",
-    "duration": "3"
+    "duration": "3",
+    "title": "Red Dye 40 & Its Health Impacts",
+    "category": "Health / Nutrition",
+    "date_created": "11/7/2023",
+    "notes": "This is banned in the UK and Switzerland due to its health hazards. Is this worth mentioning to make it more global? Reference: https://www.thedailymeal.com/travel/american-foods-banned-other-countries"
   },
   "ART-0166": {
-    "author": "Marlee Alanis",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Marlee Alanis",
     "language": "English",
-    "duration": "3"
+    "duration": "3",
+    "title": "Understanding The Long-Term Effects Of GLP-1 Medications For Obesity",
+    "category": "Health"
   },
   "ART-0228": {
-    "author": "Marlee Alanis",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Marlee Alanis",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Connections Between Financial Wellness & Retirement Planning .docx",
+    "category": "Financial Wellness"
   },
   "ART-0229": {
-    "author": "Marlee Alanis",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Marlee Alanis",
-    "category": "Health",
+    "category": "Financial Wellness",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "How Financial Wellness Sets Healthy Habits For Generations to Follow",
+    "date_created": "10/25/2023"
   },
   "ART-0230": {
-    "author": "Marlee Alanis",
-    "_at": "2026-08-11T14:15:30.879Z",
-    "category": "Health",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
+    "category": "Financial Wellness",
     "peer_reviewer": "Marlee Alanis",
     "duration": "2",
     "language": "English",
-    "link": "https://docs.google.com/document/d/1amXmmf2RK2h-qZz8JMmIfdu4YIefHVy4/edit"
+    "link": "https://docs.google.com/document/d/1amXmmf2RK2h-qZz8JMmIfdu4YIefHVy4/edit",
+    "title": "Mindful Spending & Smart Shopping"
   },
   "ART-0231": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T15:57:19.499Z",
     "language": "English",
-    "duration": "3"
+    "duration": "3",
+    "title": "Financial Wellness & Mental Health",
+    "category": "Financial Wellness",
+    "author": "Marlee"
   },
   "ART-0232": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-11T14:09:54.058Z",
-    "category": "Nutrition",
+    "_at": "2026-08-12T15:57:19.499Z",
+    "category": "Financial Wellness",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "A Comprehensive Guide To Conducting Your Financial Check-Up",
+    "author": "Marlee"
   },
   "ART-0233": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "_at": "2026-08-12T15:57:19.499Z",
     "language": "English",
-    "duration": "3"
+    "duration": "3",
+    "title": "A Global Guide to Student Loans",
+    "category": "Financial Wellness",
+    "author": "Marlee"
   },
   "ART-0234": {
-    "author": "Marlee Alanis",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Emily",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Marlee Alanis",
-    "category": "Nutrition",
+    "category": "Financial Wellness",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Reduce Financial Stress While Living Paycheck-To-Paycheck"
   },
   "ART-0235": {
-    "author": "Marlee Alanis",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Emily",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Marlee Alanis",
-    "category": "Health",
+    "category": "Financial Wellness",
     "language": "English",
-    "duration": "3"
+    "duration": "3",
+    "title": "Debt Repayment While On A Tight Budget",
+    "date_created": "7/25/2024"
   },
   "ART-0236": {
-    "author": "Marlee Alanis",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Emily",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Marlee Alanis",
-    "category": "Health",
+    "category": "Financial Wellness",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Financial Wellness Vs. Financial Literacy",
+    "notes": "Love this one!"
   },
   "ART-0238": {
-    "author": "Marlee Alanis",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Marlee Alanis",
-    "category": "Older Adults",
+    "category": "Workplace Wellness",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Navigating Political Conversations In The Workplace"
   },
   "ART-0239": {
-    "author": "Marlee Alanis",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Marlee Alanis",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "How to Diffuse Political Conversations at Work",
+    "category": "Workplace Wellness"
   },
   "ART-0240": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-11T14:09:54.058Z",
-    "category": "Older Adults",
+    "_at": "2026-08-12T15:57:19.499Z",
+    "category": "Social Wellness & Relationships",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "How To Manage Your Emotions In Response To News Stress",
+    "author": "Marlee"
   },
   "ART-0241": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "_at": "2026-08-12T15:57:19.499Z",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "A Guide To Mindful Social Media Use",
+    "category": "Social Wellness & Relationships",
+    "author": "Marlee",
+    "date_created": "7/26/2024"
   },
   "ART-0242": {
-    "author": "Marlee Alanis",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Marlee Alanis",
-    "category": "Physical Health & Exercise",
+    "category": "Workplace Wellness",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Psychological Safety In The Workplace"
   },
   "ART-0245": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-10T20:06:24.297Z",
-    "category": "Mental Health",
+    "_at": "2026-08-12T15:57:19.499Z",
+    "category": "Social Wellness & Relationships",
     "language": "English",
-    "duration": "5"
+    "duration": "5",
+    "title": "Surviving Vs. Thriving",
+    "author": "Emily",
+    "date_created": "8/4/2024"
   },
   "EN-00517": {
     "peer_reviewer": "Kim Ross",
@@ -7334,13 +7825,15 @@
     "peer_reviewer": "Linda Johnson"
   },
   "ART-0101": {
-    "author": "Jade Gordon",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "duration": "2",
     "language": "English",
     "date_created": "11/04/2024",
-    "link": "https://docs.google.com/document/d/1xQJsnKS4aioGUfWf1F_x0mG9ZTen7tCLm6PswGcpw8I/edit?tab=t.0"
+    "link": "https://docs.google.com/document/d/1xQJsnKS4aioGUfWf1F_x0mG9ZTen7tCLm6PswGcpw8I/edit?tab=t.0",
+    "title": "Daily Strategies For Coping With Chronic Illness",
+    "category": "Health / Mental Health"
   },
   "VID-0011": {
     "author": "Kaitlyn Bruneau",
@@ -10483,159 +10976,246 @@
   },
   "ART-0173": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "_at": "2026-08-12T15:57:19.499Z",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "The Importance Of Oral Health For Overall Wellness",
+    "category": "Health",
+    "author": "Marlee"
   },
   "ART-0174": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-11T14:09:54.058Z",
-    "category": "Women's Health",
+    "_at": "2026-08-12T15:57:19.499Z",
+    "category": "Health",
     "language": "English",
-    "duration": "3"
+    "duration": "3",
+    "title": "Recognizing & Treating Acid Reflux",
+    "author": "Marlee",
+    "notes": "Lanugauge may be too complex to be used to create an AI audio"
   },
   "ART-0175": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "_at": "2026-08-12T15:57:19.499Z",
     "language": "English",
-    "duration": "3"
+    "duration": "3",
+    "title": "Tips For Managing Chronic Fatigue",
+    "category": "Health",
+    "author": "Marlee"
   },
   "ART-0176": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "_at": "2026-08-12T15:57:19.499Z",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Understanding & Managing Asthma",
+    "category": "Health",
+    "author": "Marlee",
+    "notes": "R?"
   },
   "ART-0177": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T15:57:19.499Z",
     "duration": "2",
-    "language": "English"
+    "language": "English",
+    "title": "Managing Arthritis Pain Naturally",
+    "category": "Health",
+    "author": "Marlee",
+    "notes": "Do we wantto keep the formatting of the numbered citations within the text?"
   },
   "ART-0179": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "_at": "2026-08-12T15:57:19.499Z",
     "language": "English",
-    "duration": "3"
+    "duration": "3",
+    "title": "The Role Of Magnesium In Muscle Health",
+    "category": "Health",
+    "author": "Marlee",
+    "notes": "Lanugauge may be too complex to be used to create an AI audio"
   },
   "ART-0180": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "_at": "2026-08-12T15:57:19.499Z",
     "language": "English",
-    "duration": "3"
+    "duration": "3",
+    "title": "Preventing & Managing Common Cold Symptoms",
+    "category": "Health",
+    "author": "Marlee"
   },
   "ART-0181": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "_at": "2026-08-12T15:57:19.499Z",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Managing Seasonal Affective Disorder",
+    "category": "Mental Health",
+    "author": "Marlee",
+    "date_created": "7/1/2024"
   },
   "ART-0183": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T15:57:19.499Z",
     "language": "English",
-    "duration": "4"
+    "duration": "4",
+    "title": "Understanding & Managing Hypothyroidism",
+    "category": "Health",
+    "author": "Marlee",
+    "notes": "Lanugauge may be too complex to be used to create an AI audio"
   },
   "ART-0184": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "_at": "2026-08-12T15:57:19.499Z",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "How To Maintain Healthy Bones As You Age",
+    "category": "Health",
+    "author": "Marlee",
+    "date_created": "7/1/2024"
   },
   "ART-0185": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "_at": "2026-08-12T15:57:19.499Z",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Recognizing & Treating Iron Deficiency Anemia",
+    "category": "Health",
+    "author": "Marlee"
   },
   "ART-0186": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-10T20:06:24.297Z",
-    "category": "Dental Health",
+    "_at": "2026-08-12T15:57:19.499Z",
+    "category": "Health",
     "language": "English",
-    "duration": "3"
+    "duration": "3",
+    "title": "How To Manage Acid Reflux Naturally",
+    "author": "Marlee"
   },
   "ART-0189": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-10T20:06:24.297Z",
-    "category": "Dental Health",
+    "_at": "2026-08-12T15:57:19.499Z",
+    "category": "Health",
     "language": "English",
-    "duration": "4"
+    "duration": "4",
+    "title": "Tips For Preventing & Managing Hypertension",
+    "author": "Marlee",
+    "date_created": "7/2/2024"
   },
   "ART-0190": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-10T20:06:24.297Z",
-    "category": "Dental Health",
+    "_at": "2026-08-12T15:57:19.499Z",
+    "category": "Health",
     "language": "English",
-    "duration": "5"
+    "duration": "5",
+    "title": "How To Support Your Liver Health Naturally",
+    "author": "Marlee",
+    "notes": "R?"
   },
   "ART-0191": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T15:57:19.499Z",
     "language": "English",
-    "duration": "4"
+    "duration": "4",
+    "title": "Managing Symptoms Of Irritable Bowel Syndrome",
+    "category": "Health",
+    "author": "Marlee",
+    "notes": "R?"
   },
   "ART-0195": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "_at": "2026-08-12T15:57:19.499Z",
     "language": "English",
-    "duration": "3"
+    "duration": "3",
+    "title": "The Role Of Genetics In Cancer Risk",
+    "category": "Health",
+    "author": "Marlee",
+    "date_created": "7/18/2024",
+    "notes": "Lanugauge may be too complex to be used to create an AI audio"
   },
   "ART-0196": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "_at": "2026-08-12T15:57:19.499Z",
     "language": "English",
-    "duration": "3"
+    "duration": "3",
+    "title": "Understanding Carcinogens & Everyday Exposures",
+    "category": "Health",
+    "author": "Marlee",
+    "notes": "Lanugauge may be too complex to be used to create an AI audio"
   },
   "ART-0198": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "_at": "2026-08-12T15:57:19.499Z",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Preventing Muscle Loss With Diet & Exercise",
+    "category": "Fitness / Nutrition",
+    "author": "Marlee",
+    "date_created": "7/19/2023"
   },
   "ART-0201": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-11T14:09:54.058Z",
-    "category": "Sleep",
+    "_at": "2026-08-12T15:57:19.499Z",
+    "category": "Fitness",
     "language": "English",
-    "duration": "3"
+    "duration": "3",
+    "title": "Transform Your Health In Just 10 Minutes a Day",
+    "author": "Marlee",
+    "date_created": "10/25/2023"
   },
   "ART-0202": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "_at": "2026-08-12T15:57:19.499Z",
     "language": "English",
-    "duration": "3"
+    "duration": "3",
+    "title": "The Transformative Power Of Exercise For Seniors",
+    "category": "Fitness",
+    "author": "Marlee",
+    "date_created": "10/25/2023"
   },
   "ART-0203": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T15:57:19.499Z",
     "language": "English",
-    "duration": "5"
+    "duration": "5",
+    "title": "The Therapeutic Power Of Dance",
+    "category": "Fitness",
+    "author": "Marlee"
   },
   "ART-0204": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "_at": "2026-08-12T15:57:19.499Z",
     "language": "English",
-    "duration": "3"
+    "duration": "3",
+    "title": "The Power Of Outdoor Exercise For Wellbeing.docx",
+    "category": "Fitness",
+    "author": "Marlee",
+    "notes": "Should the 1st bullet end in a colon -OR- should the bullet be removed and have that be an opening paragraph?, says well-being"
   },
   "ART-0205": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-11T14:09:54.058Z",
-    "category": "Sleep",
+    "_at": "2026-08-12T15:57:19.499Z",
+    "category": "Fitness",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "How Excerise Treats Heart Disease.docx",
+    "author": "Marlee"
   },
   "ART-0211": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T15:57:19.499Z",
     "language": "English",
-    "duration": "1"
+    "duration": "1",
+    "title": "Pilates Supports Mental Health",
+    "category": "Fitness",
+    "author": "Marlee"
   },
   "ART-0227": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T15:57:19.499Z",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "The Importance Of Financial Wellness In Your Life",
+    "category": "Financial Wellness",
+    "author": "Marlee",
+    "date_created": "10/25/2023"
   },
   "ILB-0336": {
     "peer_reviewer": "Alyssa Lagasca",
@@ -20114,13 +20694,15 @@
     "peer_reviewer": "Christina Ionno"
   },
   "ART-0067": {
-    "author": "Emily Wilson",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Marlee Alanis",
     "duration": "2",
     "language": "English",
-    "date_created": "02/04/2026",
-    "link": "https://docs.google.com/document/d/1KNUMYqT_9pOZszBSMJGLJHZlWuUo-Dau96VL8-sA8Lk/edit?usp=sharing"
+    "date_created": "6/28/2024",
+    "link": "https://docs.google.com/document/d/1KNUMYqT_9pOZszBSMJGLJHZlWuUo-Dau96VL8-sA8Lk/edit?usp=sharing",
+    "title": "The Role Of Protein In A Healthy Diet",
+    "category": "Nutrition"
   },
   "VID-0077": {
     "author": "Dr. Cherilyn Davis",
@@ -22854,13 +23436,14 @@
     "peer_reviewer": "Martine Cadet"
   },
   "ART-0165": {
-    "author": "Natalie Zolotareva",
-    "_at": "2026-08-11T14:15:30.879Z",
-    "category": "Women's Health",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
+    "category": "Health",
     "duration": "3",
     "language": "English",
     "date_created": "04/10/2026",
-    "link": "https://docs.google.com/document/d/1vQY4sRGvcCTfOeyz4DRsu45z0x-lOiBdWYJtVXxEuzk/edit?usp=sharing"
+    "link": "https://docs.google.com/document/d/1vQY4sRGvcCTfOeyz4DRsu45z0x-lOiBdWYJtVXxEuzk/edit?usp=sharing",
+    "title": "Managing Food Sensitivities On GLP-1 Therapy"
   },
   "VID-0008": {
     "author": "Natalie Zolotareva",
@@ -25671,14 +26254,16 @@
     "peer_reviewer": "Margi Douglas"
   },
   "ART-0141": {
-    "author": "Jane Mulvey",
-    "_at": "2026-08-12T14:56:42.811Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "author_creds": "",
     "peer_reviewer": "",
     "date_created": "",
     "type": "Video",
     "duration": "5",
-    "language": "English"
+    "language": "English",
+    "title": "The Connection Between Microplastics & Heart Attacks",
+    "category": "Health"
   },
   "VID-0181": {
     "author": "Jane Mulvey",
@@ -33116,12 +33701,14 @@
     "peer_reviewer": "Haoyu Li"
   },
   "ART-0023": {
-    "author": "Diane McNaught",
-    "_at": "2026-08-11T19:26:33.131Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "language": "English",
     "peer_reviewer": "Marlee Alanis",
     "duration": "2",
-    "link": "https://docs.google.com/document/d/16M9I4B-S__zNpCnqbcE6JK5FK4QBFCZTDti_97mw7Hw/edit?usp=sharing"
+    "link": "https://docs.google.com/document/d/16M9I4B-S__zNpCnqbcE6JK5FK4QBFCZTDti_97mw7Hw/edit?usp=sharing",
+    "title": "Navigating Social Situations While On GLP-1",
+    "category": "Relationships / Health"
   },
   "ILB-0034": {
     "author": "Diane McNaught",
@@ -33151,51 +33738,62 @@
     "peer_reviewer": "Vanessa"
   },
   "ART-0137": {
-    "category": "Vaping & Tobacco",
-    "_at": "2026-08-11T14:09:54.058Z",
-    "author": "Emily Wilson",
+    "category": "Health",
+    "_at": "2026-08-12T15:57:19.499Z",
+    "author": "Marlee",
     "peer_reviewer": "Marlee Alanis",
     "references": "World Health Organization. (2023). Tobacco cessation. https://www.who.int\nCenters for Disease Control and Prevention. (2022). Quit smoking resources. https://www.cdc.gov\nNational Health Service. (2023). Stop smoking treatments. https://www.nhs.us\n",
     "date_created": "4/10/2026",
     "date_revised": "6/10/2026",
     "language": "English",
-    "duration": "3"
+    "duration": "3",
+    "title": "Migraine Medicine Created Naturally"
   },
   "ART-0148": {
-    "category": "Vaping & Tobacco",
-    "_at": "2026-08-12T14:56:42.811Z",
+    "category": "Health",
+    "_at": "2026-08-12T15:57:19.499Z",
     "type": "Video",
-    "author": "Dr. David Sanchez",
+    "author": "Marlee",
     "duration": "2",
-    "language": "English"
+    "language": "English",
+    "title": "Managing Nausea While Using GLP-1"
   },
   "ART-0187": {
-    "category": "Dental Health",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "category": "Health / Nutrition",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Alyssa Lagasca",
     "language": "English",
-    "duration": "3"
+    "duration": "3",
+    "title": "Understanding The Role Of B Vitamins In Energy Production",
+    "author": "Marlee"
   },
   "ART-0193": {
-    "category": "General",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "category": "Health",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Alyssa Lagasca",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Why Regular Screenings Are Crucial For Early Cancer Detection",
+    "author": "Marlee",
+    "date_created": "7/18/2024"
   },
   "ART-0221": {
-    "category": "Health",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "category": "Fitness",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Alyssa Lagasca",
     "language": "English",
-    "duration": "5"
+    "duration": "5",
+    "title": "The Science Behind Barre.docx",
+    "author": "Marlee"
   },
   "ART-0222": {
-    "category": "Older Adults",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "category": "Fitness",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Alyssa Lagasca",
     "language": "English",
-    "duration": "4"
+    "duration": "4",
+    "title": "A Beginner's Guide To Pilates",
+    "author": "Marlee"
   },
   "ALB-0135": {
     "references": "Centers for Disease Control and Prevention. (2024). 7 common withdrawal symptoms. https://www.cdc.gov/tobacco/campaign/tips/quit-smoking/7-common-withdrawal-symptoms/index.html\nAmerican Lung Association. (2024). What to expect when quitting. https://www.lung.org/quit-smoking/i-want-to-quit/what-to-expect\nJournal of Substance Abuse Treatment. (2022). Characterizing nicotine withdrawal in smokers experiencing homelessness. https://pmc.ncbi.nlm.nih.gov/articles/PMC9167248/",
@@ -33478,14 +34076,15 @@
     "duration": "4 min"
   },
   "ART-0018": {
-    "title": "Emotional Symptoms of Depression",
-    "_at": "2026-08-11T14:09:54.058Z",
-    "author": "Hope Zimmerman",
+    "title": "Easing AI Anxiety",
+    "_at": "2026-08-12T15:57:19.499Z",
+    "author": "Marlee",
     "author_creds": "Health Studies Contributor",
     "peer_reviewer": "Marlee Alanis",
     "language": "English",
     "date_created": "01/05/2025",
-    "duration": "2"
+    "duration": "2",
+    "category": "Social Wellness & Relationships"
   },
   "VID-0090": {
     "author": "Mercedez Meza",
@@ -33911,23 +34510,26 @@
     "author_creds": "Registered Medical Assistant"
   },
   "ART-0197": {
-    "author": "Alyssa Lagasca",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "author_creds": "PharmD",
     "peer_reviewer": "Alyssa Lagasca",
     "language": "English",
-    "duration": "3"
+    "duration": "3",
+    "title": "The Impact Of Exercise On Cancer Prevention & Treatment",
+    "category": "Health / Fitness"
   },
   "ART-0219": {
-    "title": "Understanding The Long-Term Effects Of GLP-1 Medications For Obesity",
-    "_at": "2026-08-11T14:15:30.879Z",
-    "author": "Alyssa Lagasca",
+    "title": "Combining Meditation & Exercise To Combat Depression",
+    "_at": "2026-08-12T15:57:19.499Z",
+    "author": "Marlee",
     "author_creds": "PharmD",
     "date_created": "1/31/2026",
     "peer_reviewer": "Alyssa Lagasca",
     "language": "English",
     "duration": "2",
-    "link": "https://docs.google.com/document/d/1_aNk_LgRKAopRCwx05QF_qnzYeh4-AIuzgIkQ29dnXg/edit?usp=sharing"
+    "link": "https://docs.google.com/document/d/1_aNk_LgRKAopRCwx05QF_qnzYeh4-AIuzgIkQ29dnXg/edit?usp=sharing",
+    "category": "Fitness"
   },
   "INF-0012": {
     "author": "Emily Wilson",
@@ -33963,22 +34565,28 @@
     "category": "Anxiety, Depression, & Mental Health"
   },
   "ART-0037": {
-    "author": "Marlee Alanis",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "author_creds": "Exercise Physiologist",
     "peer_reviewer": "Diane McNaught",
     "language": "English",
     "duration": "7",
     "date_created": "01/15/2026",
-    "link": "https://docs.google.com/document/d/16__0t2XZsf-QZZsQ1o0cTcmtJcR68gDzOQ7ay3Fr5R0/edit?usp=sharing"
+    "link": "https://docs.google.com/document/d/16__0t2XZsf-QZZsQ1o0cTcmtJcR68gDzOQ7ay3Fr5R0/edit?usp=sharing",
+    "title": "New Year's Habits For A Healthier You",
+    "category": "Performance & Positive Thinking / Mental Health"
   },
   "ART-0055": {
-    "author": "Hope Zimmerman",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "author_creds": "Health Studies Contributor",
     "peer_reviewer": "Diane McNaught",
     "language": "English",
-    "duration": "1"
+    "duration": "1",
+    "title": "Hydration For Optimal Performance & Wellbeing.docx",
+    "category": "Nutrition",
+    "date_created": "10/25/2023",
+    "notes": "Title say well-being"
   },
   "ILB-0003": {
     "author": "Jade Gordon",
@@ -33987,17 +34595,19 @@
     "type": "Infographic"
   },
   "ART-0064": {
-    "author": "Hope Zimmerman",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Diane McNaught",
     "date_created": "1/26/2025",
     "review_date": "1/26/2025",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "The Power Of Nutrition In Menopause",
+    "category": "Nutrition"
   },
   "ART-0106": {
-    "author": "Emily Wilson",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "author_creds": "",
     "date_created": "2/8/2026",
     "reviewed_by": "Marlee Alanis",
@@ -34005,26 +34615,33 @@
     "peer_reviewer": "Marlee Alanis",
     "language": "English",
     "duration": "2",
-    "link": "https://docs.google.com/document/d/1rrUR7mTRDWxdXRCDn9yn0QnzGC12WzdCuHVyY9eyMQY/edit?usp=sharing"
+    "link": "https://docs.google.com/document/d/1rrUR7mTRDWxdXRCDn9yn0QnzGC12WzdCuHVyY9eyMQY/edit?usp=sharing",
+    "title": "Stretching For Joint Health & Mobility",
+    "category": "Health / Fitness"
   },
   "ART-0108": {
-    "author": "Emily Wilson",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "author_creds": "",
     "reviewed_by": "Marlee Alanis",
-    "date_created": "2/8/2026",
+    "date_created": "11/13/2023",
     "review_date": "2/23/2026",
     "peer_reviewer": "Marlee Alanis",
     "language": "English",
     "duration": "2",
-    "link": "https://docs.google.com/document/d/1J3QRCVWewCREbAJLarLEFZHrG1xNz-y5EseG7WFqDCA/edit?usp=sharing"
+    "link": "https://docs.google.com/document/d/1J3QRCVWewCREbAJLarLEFZHrG1xNz-y5EseG7WFqDCA/edit?usp=sharing",
+    "title": "Nutrient-Rich Foods Packed With Antioxidants",
+    "category": "Nutrition",
+    "notes": "R? - DO you think it matters to mention that Green Tea has caffiene- migh t matter for hypertension or cardio"
   },
   "ART-0142": {
     "type": "Video",
-    "_at": "2026-08-12T14:56:42.811Z",
-    "author": "Dr. David Sanchez",
+    "_at": "2026-08-12T15:57:19.499Z",
+    "author": "Marlee",
     "duration": "2",
-    "language": "English"
+    "language": "English",
+    "title": "How Weight Loss Boosts Heart, Lung, Brain, & Overall Health",
+    "category": "Health"
   },
   "INF-0015": {
     "author": "Emily Wilson",
@@ -35854,136 +36471,206 @@
     "author_creds": "Behavioral Technician"
   },
   "ART-0071": {
-    "author": "Emily Wilson",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "author": "Marlee",
+    "_at": "2026-08-12T15:57:19.499Z",
     "peer_reviewer": "Marlee Alanis",
     "duration": "2",
     "language": "English",
     "date_created": "02/08/2026",
-    "link": "https://docs.google.com/document/d/1kbkv7ZgvBiX7eQKP_adRbXfyboMAVEfB7QB6hgZqPII/edit?usp=sharing"
+    "link": "https://docs.google.com/document/d/1kbkv7ZgvBiX7eQKP_adRbXfyboMAVEfB7QB6hgZqPII/edit?usp=sharing",
+    "title": "Health Benefits Of A Plant-Based Diet",
+    "category": "Nutrition"
   },
   "ART-0192": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T15:57:19.499Z",
     "language": "English",
-    "notes": "Having the word occupy in the title twice makes it a bit harder to read. Possibly consider changing one of them to another word",
-    "duration": "5"
+    "notes": "References?",
+    "duration": "5",
+    "title": "Understanding & Managing Anxiety Disorders",
+    "category": "Mental Health",
+    "author": "Marlee"
   },
   "ART-0194": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T15:57:19.499Z",
     "language": "English",
-    "duration": "4"
+    "duration": "4",
+    "title": "Lifestyle Changes To Reduce Cancer Risk",
+    "category": "Health",
+    "author": "Marlee",
+    "date_created": "7/18/2024"
   },
   "ART-0199": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T15:57:19.499Z",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Unlocking The Advantages Of Bootcamps",
+    "category": "Fitness",
+    "author": "Marlee"
   },
   "ART-0200": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T15:57:19.499Z",
     "language": "English",
-    "duration": "3"
+    "duration": "3",
+    "title": "Unlocking Good Posture Through Heart-Opening Practices",
+    "category": "Fitness",
+    "author": "Marlee",
+    "date_created": "10/25/2023"
   },
   "ART-0206": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "_at": "2026-08-12T15:57:19.499Z",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "The Importance Of Joint Mobility & Exercises For Optimal Movement",
+    "category": "Fitness",
+    "author": "Marlee"
   },
   "ART-0207": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T15:57:19.499Z",
     "language": "English",
-    "duration": "3"
+    "duration": "3",
+    "title": "The Impact Of Posture On Mind & Body",
+    "category": "Fitness",
+    "author": "Marlee"
   },
   "ART-0208": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T15:57:19.499Z",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Warming Up & Cooling Down In Exercise.docx",
+    "category": "Fitness",
+    "author": "Marlee"
   },
   "ART-0209": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "_at": "2026-08-12T15:57:19.499Z",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Scientific Benefits Of A HIIT Workout",
+    "category": "Fitness",
+    "author": "Marlee"
   },
   "ART-0210": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "_at": "2026-08-12T15:57:19.499Z",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Running For Longevity",
+    "category": "Fitness",
+    "author": "Marlee"
   },
   "ART-0212": {
     "peer_reviewer": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T15:57:19.499Z",
     "language": "English",
     "notes": "R?",
-    "duration": "3"
+    "duration": "3",
+    "title": "Neurotransmitters & Exercise",
+    "category": "Fitness",
+    "author": "Marlee",
+    "date_created": "10/25/2023"
   },
   "ART-0213": {
     "peer_reviewer": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T15:57:19.499Z",
     "language": "English",
-    "duration": "3"
+    "duration": "3",
+    "title": "A Guide To Fitness In Your Home.docx",
+    "category": "Fitness",
+    "author": "Marlee",
+    "notes": "R?"
   },
   "ART-0214": {
     "peer_reviewer": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T15:57:19.499Z",
     "language": "English",
-    "notes": "In the bullet about creating a relaxing sleep environment- I wonder if adding something about not scrolling on your phone?",
-    "duration": "3"
+    "notes": "Interesting article, encouraging for moms-to-be",
+    "duration": "3",
+    "title": "Fitness For New & Expecting Moms",
+    "category": "Fitness",
+    "author": "Marlee",
+    "date_created": "10/25/2023"
   },
   "ART-0215": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T15:57:19.499Z",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Exercise Benefits Immunity",
+    "category": "Fitness",
+    "author": "Marlee"
   },
   "ART-0216": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T15:57:19.499Z",
     "language": "English",
-    "duration": "3"
+    "duration": "3",
+    "title": "Everything You Need To Know About Lower Body Workouts",
+    "category": "Fitness",
+    "author": "Marlee",
+    "date_created": "10/25/2023"
   },
   "ART-0217": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T15:57:19.499Z",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Enhancing Your Balance",
+    "category": "Fitness",
+    "author": "Marlee",
+    "date_created": "10/25/2023"
   },
   "ART-0218": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T15:57:19.499Z",
     "duration": "2",
-    "language": "English"
+    "language": "English",
+    "title": "Embrace The Benefits Of Stretching",
+    "category": "Fitness",
+    "author": "Marlee"
   },
   "ART-0220": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T15:57:19.499Z",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "Cardio Workout For A Healthy Heart",
+    "category": "Fitness",
+    "author": "Marlee"
   },
   "ART-0223": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T15:57:19.499Z",
     "language": "English",
-    "duration": "4"
+    "duration": "4",
+    "title": "10 Refreshing Outdoor Activities To Elevate Your Leisure Time",
+    "category": "Fitness",
+    "author": "Marlee"
   },
   "ART-0224": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T15:57:19.499Z",
     "language": "English",
-    "duration": "3"
+    "duration": "3",
+    "title": "Exercise Tips For GLP-1 Users",
+    "category": "Fitness",
+    "author": "Marlee"
   },
   "ART-0226": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T15:57:19.499Z",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "title": "The Symbiotic Relationship Between Financial Wellness & Physical Wellbeing",
+    "category": "Financial Wellness",
+    "author": "Marlee",
+    "notes": "Financial Wellness and Financial Literacy seem to be used interchangably in this one- do we want to keep that or adjust?"
   },
   "EN-01461": {
     "type": "Video",
@@ -48299,12 +48986,18 @@
   },
   "ART-0022": {
     "language": "English",
-    "_at": "2026-08-10T20:06:24.297Z"
+    "_at": "2026-08-12T15:57:19.499Z",
+    "title": "Cultivating A Healthy Retirement Lifestyle",
+    "category": "Relationships",
+    "author": "Marlee"
   },
   "ART-0147": {
     "language": "English",
-    "_at": "2026-08-11T14:09:54.058Z",
-    "duration": "2"
+    "_at": "2026-08-12T15:57:19.499Z",
+    "duration": "2",
+    "title": "Understanding GLP-1 &  How It Works in Your Body",
+    "category": "Health",
+    "author": "Marlee"
   },
   "EXT-1490": {
     "category": "Nutrition",
