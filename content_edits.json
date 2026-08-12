@@ -4064,19 +4064,26 @@
     "duration": "2"
   },
   "INF-0223": {
-    "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "author": "Jade Gordon",
+    "_at": "2026-08-12T14:02:48.725Z",
     "type": "Infographic",
     "duration": "3 min",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "https://drive.google.com/file/d/1ETVCPUN0UHqz-t0x3w74ta7qJQrwPPPy/view?usp=sharing",
+    "category": "Health",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0239": {
-    "author": "Dr. Joe Feuerstein",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "author": "Jade Gordon",
+    "_at": "2026-08-12T14:02:48.725Z",
     "type": "Video",
-    "duration": "5"
+    "duration": "5",
+    "link": "https://drive.google.com/file/d/1MkE99Zqwbl0t9hGkxYb4-o-nEtkZjorx/view?usp=sharing",
+    "category": "Mental Health",
+    "language": "English",
+    "author_creds": "Behavioral Technician"
   },
   "VID-0037": {
     "author": "Dr. Joe Feuerstein",
@@ -33759,109 +33766,141 @@
   },
   "INF-0184": {
     "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
-    "author_creds": "Behavioral Technician",
+    "_at": "2026-08-12T14:02:48.725Z",
+    "author_creds": "Registered Nurse",
     "date_created": "5/5/2026",
     "date_revised": "5/6/2026",
     "peer_reviewer": "Jade Gordon",
-    "language": "English"
+    "language": "English",
+    "link": "Baby’s Growth By Week Visual Timeline.pdf",
+    "category": "Pregnancy and Birth",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0185": {
     "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "peer_reviewer": "Jade Gordon",
-    "author_creds": "Behavioral Technician",
+    "author_creds": "Registered Nurse",
     "date_created": "5/5/2026",
     "date_revised": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Sleep Positions & Comfort Tips For The 2nd Trimester.pdf",
+    "category": "Pregnancy and Birth",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0001": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "author_creds": "Behavioral Technician",
     "date_created": "5/5/2026",
     "date_revised": "5/6/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Small Steps To Cut Back On Drinking.pdf",
+    "category": "Alcohol Use"
   },
   "INF-0002": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
-    "author_creds": "Behavioral Technician ",
+    "_at": "2026-08-12T14:02:48.725Z",
+    "author_creds": "Behavioral Technician",
     "date_created": "5/5/2026",
     "date_revised": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Finding Your Support Network.pdf",
+    "category": "Alcohol Use"
   },
   "INF-0003": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "author_creds": "Behavioral Technician",
     "date_created": "5/5/2026",
     "date_revised": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Daily Habits That Support Recovery.pdf",
+    "category": "Alcohol Use"
   },
   "INF-0004": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "author_creds": "Behavioral Technician",
     "date_created": "5/5/2026",
     "date_revised": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Emotional Triggers For Overdrinking.pdf",
+    "category": "Alcohol Use"
   },
   "INF-0005": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
-    "author_creds": "Behavioral Technician ",
+    "_at": "2026-08-12T14:02:48.725Z",
+    "author_creds": "Behavioral Technician",
     "date_created": "5/5/2026",
     "date_revised": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "How Alcohol Use Disorder Is Diagnosed.pdf",
+    "category": "Alcohol Use"
   },
   "INF-0006": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "author_creds": "Behavioral Technician",
     "date_created": "5/5/2026",
     "date_revised": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Recognizing The Denial Stage In At-Risk Drinking.pdf",
+    "category": "Alcohol Use"
   },
   "INF-0007": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "author_creds": "Behavioral Technician",
     "date_created": "5/5/2026",
     "date_revised": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "The Dangers Of Mixing Alcohol With Prescription Drugs.pdf",
+    "category": "Alcohol Use"
   },
   "INF-0008": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "author_creds": "Behavioral Technician",
     "date_created": "5/5/2026",
     "date_revised": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "How Alcohol Affects Sleep, Memory, & Productivity.pdf",
+    "category": "Alcohol Use"
   },
   "INF-0009": {
     "date_created": "5/5/2026",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_revised": "5/5/2026",
     "author": "Jade Gordon",
     "author_creds": "Behavioral Technician",
-    "language": "English"
+    "language": "English",
+    "link": "How To Identify Risky Drinking Habits.pdf",
+    "category": "Alcohol Use"
   },
   "INF-0010": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
     "date_revised": "5/5/2026",
     "peer_reviewer": "Jade Gordon",
-    "language": "English"
+    "language": "English",
+    "link": "Recognizing Early Signs Of Stress Or Anxiety.pdf",
+    "category": "Anxiety, Depression, & Mental Health",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0011": {
     "date_created": "5/5/2026",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_revised": "5/5/2026",
     "author": "Emily Wilson",
     "peer_reviewer": "Jade Gordon",
-    "language": "English"
+    "language": "English",
+    "link": "5-Minute Grounding Techniques.pdf",
+    "category": "Anxiety, Depression, & Mental Health",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "ART-0197": {
     "author": "Alyssa Lagasca",
@@ -33884,29 +33923,39 @@
   },
   "INF-0012": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
     "date_revised": "5/5/2026",
     "peer_reviewer": "Jade Gordon",
-    "language": "English"
+    "language": "English",
+    "link": "Quick Stress Relief Techniques.pdf",
+    "category": "Anxiety, Depression, & Mental Health",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0013": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
-    "author_creds": "Behavioral Technician",
+    "_at": "2026-08-12T14:02:48.725Z",
+    "author_creds": "Registered Medical Assistant",
     "date_created": "5/5/2026",
     "date_revised": "5/5/2026",
     "peer_reviewer": "Jade Gordon",
-    "language": "English"
+    "language": "English",
+    "link": "How To Manage Negative Thoughts.pdf",
+    "category": "Anxiety, Depression, & Mental Health",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0014": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
-    "author_creds": "Behavioral Technician",
+    "_at": "2026-08-12T14:02:48.725Z",
+    "author_creds": "Registered Medical Assistant",
     "date_created": "5/5/2026",
     "date_revised": "5/5/2026",
     "peer_reviewer": "Jade Gordon",
-    "language": "English"
+    "language": "English",
+    "link": "How To Celebrate Small Wins.pdf",
+    "category": "Anxiety, Depression, & Mental Health",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "ART-0037": {
     "author": "Marlee Alanis",
@@ -33974,102 +34023,157 @@
   },
   "INF-0015": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
     "peer_reviewer": "Jade Gordon",
-    "language": "English"
+    "language": "English",
+    "link": "How Thoughts Affects Feelings & Behavior.pdf",
+    "category": "Anxiety, Depression, & Mental Health",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0016": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
     "peer_reviewer": "Jade Gordon",
-    "language": "English"
+    "language": "English",
+    "link": "Recognizing Burnout Before It Starts.pdf",
+    "category": "Anxiety, Depression, & Mental Health",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0017": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
     "peer_reviewer": "Jade Gordon",
-    "language": "English"
+    "language": "English",
+    "link": "The Science Of Stress Fight Or Flight Explained.pdf",
+    "category": "Anxiety, Depression, & Mental Health",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0018": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
     "peer_reviewer": "Jade Gordon",
-    "language": "English"
+    "language": "English",
+    "link": "Anxiety Triggers Related To Hormonal Fluctuations.pdf",
+    "category": "Anxiety, Depression, & Mental Health",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0019": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
     "peer_reviewer": "Jade Gordon",
-    "language": "English"
+    "language": "English",
+    "link": "Setting Achievable Mental Health Goals.pdf",
+    "category": "Anxiety, Depression, & Mental Health",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0020": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
     "peer_reviewer": "Jade Gordon",
-    "language": "English"
+    "language": "English",
+    "link": "Common Symptoms & Early Warning Signs Of Arthritis.pdf",
+    "category": "Arthritis",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0021": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
     "peer_reviewer": "Jade Gordon",
-    "language": "English"
+    "language": "English",
+    "link": "Types Of Arthritis.pdf",
+    "category": "Arthritis",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0022": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
     "peer_reviewer": "Jade Gordon",
-    "language": "English"
+    "language": "English",
+    "link": "How Arthritis Affects Joints Over Time.pdf",
+    "category": "Arthritis",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0023": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
     "peer_reviewer": "Jade Gordon",
-    "language": "English"
+    "language": "English",
+    "link": "Recognizing & Managing Arthritis-Related Fatigue.pdf",
+    "category": "Arthritis",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0024": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
     "peer_reviewer": "Jade Gordon",
-    "language": "English"
+    "language": "English",
+    "link": "Managing Seasonal Allergies To Help Prevent Asthma Flare-Ups.pdf",
+    "category": "Asthma",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0025": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
     "peer_reviewer": "Jade Gordon",
-    "language": "English"
+    "language": "English",
+    "link": "Building A Long-Term Asthma Management Routine.pdf",
+    "category": "Asthma",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0026": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
     "peer_reviewer": "Jade Gordon",
-    "language": "English"
+    "language": "English",
+    "link": "Creating A Personal Asthma Action Plan.pdf",
+    "category": "Asthma",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0027": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
     "peer_reviewer": "Jade Gordon",
-    "language": "English"
+    "language": "English",
+    "link": "Identifying Nighttime Asthma Issues.pdf",
+    "category": "Asthma",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0183": {
-    "author_creds": "",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "author_creds": "Registered Nurse",
+    "_at": "2026-08-12T14:02:48.725Z",
     "author": "Diane McNaught",
     "date_created": "5/5/2026",
     "peer_reviewer": "Jade Gordon",
-    "language": "English"
+    "language": "English",
+    "link": "Safe & Unsafe Exercises During The 1st Trimester.pdf",
+    "category": "Pregnancy and Birth",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0182": {
     "title": "Hormonal Changes Explained: Why You Might Feel Emotional",
@@ -34560,60 +34664,90 @@
   },
   "INF-0028": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
     "peer_reviewer": "Jade Gordon",
-    "language": "English"
+    "language": "English",
+    "link": "Safe Physical Activities For People With Asthma.pdf",
+    "category": "Asthma",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0029": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Recognizing Early Symptoms Of Asthma.pdf",
+    "category": "Asthma",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0030": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Acute Vs. Chronic Back Pain.pdf",
+    "category": "Back Pain",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0031": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Common Back Pain Diagnostic Tests.pdf",
+    "category": "Back Pain",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0032": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Daily Posture Checks You Can Do In 10 Seconds.pdf",
+    "category": "Back Pain",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0033": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
     "peer_reviewer": "Jade Gordon",
-    "language": "English"
+    "language": "English",
+    "link": "Movement Strategies During Flare-Ups.pdf",
+    "category": "Back Pain",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0034": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Physical Therapy Vs. Chiropractic Care For Back Pain.pdf",
+    "category": "Back Pain",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0035": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Myths Vs. Facts About Concussions.pdf",
+    "category": "Brain and Neurological Health",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0036": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
     "peer_reviewer": "Jade Gordon",
-    "language": "English"
+    "language": "English",
+    "link": "Foods That Help Protect Against Pre-Cancer Changes.pdf",
+    "category": "Cancer",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0037": {
     "title": "Common Precancerous Conditions and How They Are Detected",
@@ -34624,23 +34758,34 @@
   },
   "INF-0038": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
     "peer_reviewer": "Jade Gordon",
-    "language": "English"
+    "language": "English",
+    "link": "Early Symptoms Of Cancer Your Should Not Ignore.pdf",
+    "category": "Cancer",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0039": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
     "peer_reviewer": "Jade Gordon",
-    "language": "English"
+    "language": "English",
+    "link": "Early Signs Of Ovarian & Cervical Cancer.pdf",
+    "category": "Cancer",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0040": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Breast Cancer 101.pdf",
+    "category": "Cancer",
+    "author_creds": "Behavioral Technician"
   },
   "VID-0264": {
     "author": "Kaitlyn Bruneau",
@@ -34653,103 +34798,155 @@
   },
   "INF-0251": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
-    "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026",
-    "language": "English"
-  },
-  "INF-0250": {
-    "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
-    "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026",
-    "language": "English"
-  },
-  "INF-0249": {
-    "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
-    "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026",
-    "language": "English"
-  },
-  "INF-0248": {
-    "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
-    "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026",
-    "language": "English"
-  },
-  "INF-0247": {
-    "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
-    "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026",
-    "language": "English"
-  },
-  "INF-0246": {
-    "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
-    "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026",
-    "language": "English"
-  },
-  "INF-0245": {
-    "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
-    "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026",
-    "language": "English"
-  },
-  "INF-0244": {
-    "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
-    "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026",
-    "language": "English"
-  },
-  "INF-0243": {
-    "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
-    "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026",
-    "language": "English"
-  },
-  "INF-0242": {
-    "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
-    "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026",
-    "language": "English"
-  },
-  "INF-0241": {
-    "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
     "language": "English",
-    "duration": "1"
+    "link": "Stroke Recovery Timeline.pdf",
+    "category": "Stroke",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
+  },
+  "INF-0250": {
+    "author": "Emily Wilson",
+    "_at": "2026-08-12T14:02:48.725Z",
+    "peer_reviewer": "Jade Gordon",
+    "date_created": "5/5/2026",
+    "language": "English",
+    "link": "How To Manage Multiple Stroke Medications.pdf",
+    "category": "Stroke",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
+  },
+  "INF-0249": {
+    "author": "Emily Wilson",
+    "_at": "2026-08-12T14:02:48.725Z",
+    "peer_reviewer": "Jade Gordon",
+    "date_created": "5/5/2026",
+    "language": "English",
+    "link": "How High Blood Pressure Can Lead To Stroke.pdf",
+    "category": "Stroke",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
+  },
+  "INF-0248": {
+    "author": "Emily Wilson",
+    "_at": "2026-08-12T14:02:48.725Z",
+    "peer_reviewer": "Jade Gordon",
+    "date_created": "5/5/2026",
+    "language": "English",
+    "link": "How Heart Rhythm Can Affect Stroke Risk.pdf",
+    "category": "Stroke",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
+  },
+  "INF-0247": {
+    "author": "Emily Wilson",
+    "_at": "2026-08-12T14:02:48.725Z",
+    "peer_reviewer": "Jade Gordon",
+    "date_created": "5/5/2026",
+    "language": "English",
+    "link": "How Blood Thinners Prevent Stroke.pdf",
+    "category": "Stroke",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
+  },
+  "INF-0246": {
+    "author": "Diane McNaught",
+    "_at": "2026-08-12T14:02:48.725Z",
+    "peer_reviewer": "Jade Gordon",
+    "date_created": "5/5/2026",
+    "language": "English",
+    "link": "AFib Vs. Normal Heart Rhythm.pdf",
+    "category": "Afib",
+    "author_creds": "Registered Nurse",
+    "peer_reviewer_creds": "Behavioral Technician"
+  },
+  "INF-0245": {
+    "author": "Diane McNaught",
+    "_at": "2026-08-12T14:02:48.725Z",
+    "peer_reviewer": "Jade Gordon",
+    "date_created": "5/5/2026",
+    "language": "English",
+    "link": "Common Symptoms Of aFib.pdf",
+    "category": "Afib",
+    "author_creds": "Registered Nurse",
+    "peer_reviewer_creds": "Behavioral Technician"
+  },
+  "INF-0244": {
+    "author": "Diane McNaught",
+    "_at": "2026-08-12T14:02:48.725Z",
+    "peer_reviewer": "Jade Gordon",
+    "date_created": "5/5/2026",
+    "language": "English",
+    "link": "Micro-Break.pdf",
+    "category": "Preventative Health",
+    "author_creds": "Registered Nurse",
+    "peer_reviewer_creds": "Behavioral Technician"
+  },
+  "INF-0243": {
+    "author": "Jade Gordon",
+    "_at": "2026-08-12T14:02:48.725Z",
+    "peer_reviewer": "Jade Gordon",
+    "date_created": "5/5/2026",
+    "language": "English",
+    "link": "https://drive.google.com/file/d/1rvIhK701e7i_dg7q2VjsqUKWiP4cT2bY/view?usp=sharing",
+    "category": "Health",
+    "author_creds": "Behavioral Technician"
+  },
+  "INF-0242": {
+    "author": "Diane McNaught",
+    "_at": "2026-08-12T14:02:48.725Z",
+    "peer_reviewer": "Jade Gordon",
+    "date_created": "5/5/2026",
+    "language": "English",
+    "link": "Cardio Workouts & Heart Health.pdf",
+    "category": "Preventative Health",
+    "author_creds": "Registered Nurse",
+    "peer_reviewer_creds": "Behavioral Technician"
+  },
+  "INF-0241": {
+    "author": "Marlee Alanis",
+    "_at": "2026-08-12T14:02:48.725Z",
+    "peer_reviewer": "Jade Gordon",
+    "date_created": "5/5/2026",
+    "language": "English",
+    "duration": "1",
+    "link": "https://drive.google.com/file/d/18GHwhLisC0jh2zxr4s33MTTwb4TByPQo/view?usp=share_link",
+    "category": "Fitness, Health",
+    "author_creds": "Exercise Physiologist"
   },
   "INF-0240": {
     "title": "Heart Disease Risk Factors & Prevention.pdf",
-    "_at": "2026-08-10T20:06:24.297Z",
-    "author": "Diane McNaught",
+    "_at": "2026-08-12T14:02:48.725Z",
+    "author": "Jade Gordon",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "https://drive.google.com/file/d/1XC2EyCw1DHo0v9y7RBJx1pG8XNFiSTBt/view?usp=sharing",
+    "category": "Health",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0238": {
-    "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "author": "Jade Gordon",
+    "_at": "2026-08-12T14:02:48.725Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "https://drive.google.com/file/d/1QGzZp849Afyaa400mO1ppXv_PBqCCjme/view?usp=sharing",
+    "category": "Health",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0237": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Breast Self-Exams.pdf",
+    "category": "Preventative Health",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0236": {
     "author": "Diane McNaught",
@@ -34760,368 +34957,550 @@
   },
   "INF-0235": {
     "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "How Vision, Hearing, & Footwear Impact Fall Risk.pdf",
+    "category": "Balance & Fall Prevention",
+    "author_creds": "Registered Nurse",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0234": {
     "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Fall Prevention At Home Visual Guide.pdf",
+    "category": "Balance & Fall Prevention",
+    "author_creds": "Registered Nurse",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0233": {
     "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "How Weather Affects Joint Pain.pdf",
+    "category": "Bone & Joint Health",
+    "author_creds": "Registered Nurse",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0232": {
     "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Preventing Joint Flare-Ups.pdf",
+    "category": "Bone & Joint Health",
+    "author_creds": "Registered Nurse",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0231": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Understanding Joint Inflammation.pdf",
+    "category": "Bone & Joint Health",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0230": {
     "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "What A DEXA Scan Reveals.pdf",
+    "category": "Bone & Joint Health",
+    "author_creds": "Registered Nurse",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0229": {
     "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "How Bones Change With Age.pdf",
+    "category": "Bone & Joint Health",
+    "author_creds": "Registered Nurse",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0228": {
     "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "The Science Of Bone Density.pdf",
+    "category": "Bone & Joint Health",
+    "author_creds": "Registered Nurse",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0227": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Tips For Gastrointestinal Relief.pdf",
+    "category": "Nutrition",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0226": {
-    "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "author": "Marlee Alanis",
+    "_at": "2026-08-12T14:02:48.725Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
     "language": "English",
-    "duration": "1"
+    "duration": "1",
+    "link": "https://drive.google.com/file/d/1wRMJcp9ezXWUc6rqU2dKrA0MMJIWT9af/view?usp=sharing",
+    "category": "Health",
+    "author_creds": "Exercise Physiologist"
   },
   "INF-0225": {
-    "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "author": "Jade Gordon",
+    "_at": "2026-08-12T14:02:48.725Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "https://drive.google.com/file/d/1SXoDrOumzILQZzPKJz0wm65mA8pSbavR/view?usp=sharing",
+    "category": "Nutrition",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0224": {
     "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "When To See A Doctor For Digestive Issues.pdf",
+    "category": "Gut Health",
+    "author_creds": "Registered Nurse",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0222": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Digestive Health Strategies For Women.pdf",
+    "category": "Gut Health",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0221": {
-    "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "author": "Jade Gordon",
+    "_at": "2026-08-12T14:02:48.725Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "https://drive.google.com/file/d/1ioaq0Up6mt0CwHgLM-IEfH1BC4JVFjmM/view?usp=sharing",
+    "category": "Financial Wellness",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0220": {
-    "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "author": "Jade Gordon",
+    "_at": "2026-08-12T14:02:48.725Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "https://drive.google.com/file/d/1fu89SScytynn2MaBOx7oamp62fkbqP_E/view?usp=sharing",
+    "category": "Nutrition",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0219": {
-    "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "author": "Marlee Alanis",
+    "_at": "2026-08-12T14:02:48.725Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
     "language": "English",
-    "duration": "1"
+    "duration": "1",
+    "link": "https://drive.google.com/file/d/1yLmQ4zrV5vGhutRzDSFtVsgS3txEnhtS/view?usp=share_link",
+    "category": "Fitness",
+    "author_creds": "Exercise Physiologist"
   },
   "INF-0218": {
-    "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "author": "Marlee Alanis",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
     "language": "English",
-    "duration": "1"
+    "duration": "1",
+    "link": "https://drive.google.com/file/d/1sIxl-7sa7NAolNVJP-WinYpNv2pk2gCX/view?usp=share_link",
+    "category": "Nutrition",
+    "author_creds": "Exercise Physiologist"
   },
   "INF-0217": {
-    "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "author": "Marlee Alanis",
+    "_at": "2026-08-12T14:02:48.725Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
     "language": "English",
-    "duration": "1"
+    "duration": "1",
+    "link": "https://drive.google.com/file/d/1hE5xy5IAdjpeHjwk6tJDLRv5VDaYs0Eh/view?usp=share_link",
+    "category": "Fitness",
+    "author_creds": "Exercise Physiologist"
   },
   "INF-0216": {
     "peer_reviewer": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
-    "author": "Diane McNaught",
+    "_at": "2026-08-12T14:02:48.725Z",
+    "author": "Marlee Alanis",
     "date_created": "5/5/2026",
     "language": "English",
-    "duration": "1"
+    "duration": "1",
+    "link": "https://drive.google.com/file/d/1xaDdvazgsSYsx8_NbxAM1Y05vp72X57U/view?usp=share_link",
+    "category": "Fitness, Health",
+    "author_creds": "Exercise Physiologist"
   },
   "INF-0215": {
-    "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "author": "Marlee Alanis",
+    "_at": "2026-08-12T14:02:48.725Z",
     "references": "Cleveland Clinic. (2022). 9 Benefits of Hiking. https://health.clevelandclinic.org/9-benefits-of-hiking\n\nInternational Journal of Environmental Research and Public Health. (2023). The Effects of Outdoor versus Indoor Exercise on Psychological Health, Physical Health, and Physical Activity Behaviour: A Systematic Review of Longitudinal Trials. https://pmc.ncbi.nlm.nih.gov/articles/PMC9914639/\n\nInternational Journal of Exercise Science. (2021). Simple Bodyweight Training Improves Cardiorespiratory Fitness with Minimal Time Commitment: A Contemporary Application of the 5BX Approach. https://pmc.ncbi.nlm.nih.gov/articles/PMC8136567/",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
     "language": "English",
-    "duration": "1"
+    "duration": "1",
+    "link": "https://drive.google.com/file/d/1wQEnB1F4CkwTUrLjP9SZOSeo2-1S6LPG/view?usp=share_link",
+    "category": "Fitness",
+    "author_creds": "Exercise Physiologist"
   },
   "INF-0214": {
-    "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "author": "Marlee Alanis",
+    "_at": "2026-08-12T14:02:48.725Z",
     "references": "Centers for Disease Control and Prevention. (2025). Steps for Losing Weight. https://www.cdc.gov/healthy-weight-growth/losing-weight/index.html\n\nMayo Clinic. (2024). Weight loss: 6 strategies for success. https://www.mayoclinic.org/healthy-lifestyle/weight-loss/in-depth/weight-loss/art-20047752\n\nObesity. (2022). Benefits of weight loss of 10% or more in patients with overweight or obesity: A review. https://doi.org/10.1002/oby.23371",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://drive.google.com/file/d/1YC-LwJzqILgOA9Sk1GqOCTZbnpitoIvI/view?usp=share_link",
+    "category": "Health, Fitness, Nutrition",
+    "author_creds": "Exercise Physiologist"
   },
   "INF-0213": {
-    "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "author": "Marlee Alanis",
+    "_at": "2026-08-12T14:02:48.725Z",
     "references": "Centers for Disease Control and Prevention. (2024). Adult BMI Categories. https://www.cdc.gov/bmi/adult-calculator/bmi-categories.html\n\nWorld Health Organization. (2025). Obesity and overweight. https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight\n\nInternational Journal of Environmental Research and Public Health. (2024). Advantages and Limitations of the Body Mass Index (BMI) to Assess Adult Obesity. https://pmc.ncbi.nlm.nih.gov/articles/PMC11204233/",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://drive.google.com/file/d/1FO3zC88S0M64KxTVqGPKSJ59OM0olT3A/view?usp=share_link",
+    "category": "Nutrition",
+    "author_creds": "Exercise Physiologist"
   },
   "INF-0212": {
-    "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "author": "Marlee Alanis",
+    "_at": "2026-08-12T14:02:48.725Z",
     "references": "Frontiers in Sports and Active Living. (2022). Strategic Self-Talk Assists Basketball Free Throw Performance Under Conditions of Physical Exertion. https://pmc.ncbi.nlm.nih.gov/articles/PMC9247139/\n\nCleveland Clinic. (2025). 35 Positive Affirmations To Say Each Day. https://health.clevelandclinic.org/do-positive-affirmations-work\n\nMayo Clinic. (2023). Positive thinking: Stop negative self-talk to reduce stress. https://www.mayoclinic.org/healthy-lifestyle/stress-management/in-depth/positive-thinking/art-20043950",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
     "language": "English",
-    "duration": "1"
+    "duration": "1",
+    "link": "https://drive.google.com/file/d/13NSrnS2d6tNYev4NF7JzZHvnIsNwRkFv/view?usp=share_link",
+    "category": "Fitness, Mindfulness",
+    "author_creds": "Exercise Physiologist"
   },
   "INF-0211": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Morning Sunlight & Circadian Rhythm.pdf",
+    "category": "Sleep Conditions & Health",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0210": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "How Smoking Affects Your Sleep.pdf",
+    "category": "Sleep Conditions & Health",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0209": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "How To Support Sleep Hygiene Every Night.pdf",
+    "category": "Sleep Conditions & Health",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0208": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "duration": "4 min",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Understanding The Importance Of Melatonin.pdf",
+    "category": "Sleep Conditions & Health",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0207": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Stages Of Sleep.pdf",
+    "category": "Sleep Conditions & Health",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0206": {
     "peer_reviewer": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "author": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "How Salt, Stress, & Sleep Affect Blood Pressure.pdf",
+    "category": "Sleep Conditions & Health",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0205": {
     "title": "Traveling With CPAP Equipment: Tips and Tricks",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "author": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Traveling With CPAP Equipment.pdf",
+    "category": "Sleep Apnea",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0204": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Sleep Positioning For Better Breathing.pdf",
+    "category": "Sleep Apnea",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0203": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "What Happens In The Body During An Apnea Episode.pdf",
+    "category": "Sleep Apnea",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0202": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "How Airway Obstruction Disrupts Rest.pdf",
+    "category": "Sleep Apnea",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0201": {
     "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "CPAP, BiPAP, & APAP Breathing Support Machines.pdf",
+    "category": "Sleep Apnea",
+    "author_creds": "Registered Nurse",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0200": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Safe Sex Practices.pdf",
+    "category": "Reproductive Health",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0199": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Understanding Bacterial Vaginosis.pdf",
+    "category": "Reproductive Health",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0198": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Why Prostate Screenings Are Important.pdf",
+    "category": "Reproductive Health",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0197": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "references": "Endocrine Society. (2022). Hypogonadism in Men. https://www.endocrine.org/patient-engagement/endocrine-library/hypogonadism\n\nMayo Clinic. (2024). Male hypogonadism — Symptoms & causes. https://www.mayoclinic.org/diseases-conditions/male-hypogonadism/symptoms-causes/syc-20354881\n\nDiagnostics. (2023). Adult Male Hypogonadism: A Laboratory Medicine Perspective on Its Diagnosis and Management. https://pmc.ncbi.nlm.nih.gov/articles/PMC10743125/",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Signs Of Low Testosterone.pdf",
+    "category": "Reproductive Health",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0196": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "references": "Cleveland Clinic. (2026). Low Testosterone (Low T): Hypogonadism, Symptoms & Treatment. https://my.clevelandclinic.org/health/diseases/15603-low-testosterone-male-hypogonadism\n\nMayo Clinic. (2025). Male menopause: Myth or reality? https://www.mayoclinic.org/healthy-lifestyle/mens-health/in-depth/male-menopause/art-20048056\n\nThe Aging Male. (2023). Testosterone and aging male, a perspective from a developing country. https://doi.org/10.1080/13685538.2023.2223712",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Signs Of Andropause & How To Respond.pdf",
+    "category": "Reproductive Health",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0195": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Prostate-Friendly Nutrition Habits.pdf",
+    "category": "Reproductive Health",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0194": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Stress & Its Impact On Testosterone.pdf",
+    "category": "Reproductive Health",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0193": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Guidelines For Mammograms.pdf",
+    "category": "Reproductive Health",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0192": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Recognizing Early Signs Of Fibroids.pdf",
+    "category": "Reproductive Health",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0191": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Preventing UTIs.pdf",
+    "category": "Reproductive Health",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0190": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Maintaining A Health pH Balance.pdf",
+    "category": "Reproductive Health",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0189": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Understanding Your Menstrual Cycle.pdf",
+    "category": "Reproductive Health",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0188": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Managing Symptoms Of Premenstrual Syndrome.pdf",
+    "category": "Reproductive Health",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0187": {
     "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Signs Of Labor Vs. False Labor.pdf",
+    "category": "Pregnancy and Birth",
+    "author_creds": "Registered Nurse",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0186": {
     "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Gentle Stretches For Pregnancy Back Pain.pdf",
+    "category": "Pregnancy and Birth",
+    "author_creds": "Registered Nurse",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0181": {
     "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "duration": "5 min",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Preparing Nutritious Lunches For Your Preschooler.pdf",
+    "category": "Parenting Support",
+    "author_creds": "Registered Nurse",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0180": {
     "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Planning A Safe & Fun Playdate For Your Child.pdf",
+    "category": "Parenting Support",
+    "author_creds": "Registered Nurse",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0179": {
     "title": "How To Choose The Best Before & After-School Progra",
@@ -35134,111 +35513,170 @@
   },
   "INF-0178": {
     "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "duration": "4 min",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Facilitating Smooth School Transitions For Kids.pdf",
+    "category": "Parenting Support",
+    "author_creds": "Registered Nurse",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0177": {
     "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "What Are Cavities & How To Prevent Them.pdf",
+    "category": "Oral Health",
+    "author_creds": "Registered Nurse",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0176": {
     "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "The Role Of Fluoride In Protecting Your Teeth.pdf",
+    "category": "Oral Health",
+    "author_creds": "Registered Nurse",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0175": {
     "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Protect Your Enamel With Daily Habits.pdf",
+    "category": "Oral Health",
+    "author_creds": "Registered Nurse",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0174": {
     "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Identifying Triggers & Solutions For Bad Breath.pdf",
+    "category": "Oral Health",
+    "author_creds": "Registered Nurse",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0173": {
     "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "How Diet Is Connected To Oral Health.pdf",
+    "category": "Oral Health",
+    "author_creds": "Registered Nurse",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0172": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "The Oral Health & Heart Disease Link.pdf",
+    "category": "Oral Health",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0171": {
-    "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "author": "Marlee Alanis",
+    "_at": "2026-08-12T14:02:48.725Z",
     "references": "Centers for Disease Control and Prevention. (2024). Type 1 Diabetes. https://www.cdc.gov/diabetes/about/about-type-1-diabetes.html\n\nMayo Clinic. (2024). Type 1 diabetes – Symptoms and causes. https://www.mayoclinic.org/diseases-conditions/type-1-diabetes/symptoms-causes/syc-20353011\n\nThe Lancet. (2023). Type 1 diabetes. https://doi.org/10.1016/S0140-6736(23)00223-4",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
     "language": "English",
-    "duration": "1"
+    "duration": "1",
+    "link": "https://drive.google.com/file/d/1_QlE9xyKSyskTzZO-dAg75u9I5R6pN4e/view?usp=share_link",
+    "category": "Health",
+    "author_creds": "Exercise Physiologist"
   },
   "INF-0170": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Staying Hydrated_ Why It Matters.pdf",
+    "category": "Diabetes",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0169": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "How Sleep Impacts Diabetes.pdf",
+    "category": "Diabetes",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0168": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Recognizing Early Signs Of Complications.pdf",
+    "category": "Diabetes",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0167": {
     "author": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Monitoring Heart Health With Diabetes.pdf",
+    "category": "Diabetes",
+    "author_creds": "Registered Nurse",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0166": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Kidney Health Basics For Diabetes Management.pdf",
+    "category": "Diabetes",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0165": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Foot Care Tips For People With Diabates.pdf",
+    "category": "Diabetes",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0164": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Eye Health When To Get Screened.pdf",
+    "category": "Diabetes",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0163": {
     "title": "Creating a Support System for Long-Term Diabetes Man",
@@ -35251,111 +35689,167 @@
   },
   "INF-0162": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "How Often To Test Blood Sugar.pdf",
+    "category": "Diabetes",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0161": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "When To Contact Your Doctor About Blood Sugar Readings.pdf",
+    "category": "Diabetes",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0160": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Balancing Baby Care With Your Wellbeing.pdf",
+    "category": "Pregnancy and Birth",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0159": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Understanding Postpartum Depression.pdf",
+    "category": "Pregnancy and Birth",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0158": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Safe Sleep Guidelines For Newborns.pdf",
+    "category": "Pregnancy and Birth",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0157": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Postpartum Self-Care Routine Checklist For Moms & Babies.pdf",
+    "category": "Pregnancy and Birth",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0156": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "references": "Cleveland Clinic. (2024). Postpartum: Stages, Symptoms & Recovery Time. https://my.clevelandclinic.org/health/articles/postpartum\n\nOffice on Women's Health. (2025). Recovering from birth. https://womenshealth.gov/pregnancy/childbirth-and-beyond/recovering-birth\n\nAJOG Global Reports. (2023). Postpartum recovery of nulliparous women following scheduled cesarean delivery and spontaneous vaginal delivery: a prospective observational study. https://pmc.ncbi.nlm.nih.gov/articles/PMC10276254/",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Postpartum Recovery Timeline.pdf",
+    "category": "Pregnancy and Birth",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0155": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Self-Care After A Stressful Workday.pdf",
+    "category": "Workplace Wellness",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0154": {
     "type": "Infographic",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "author": "Emily Wilson",
     "references": "Mayo Clinic. (2023). Resilience: Build skills to endure hardship. https://www.mayoclinic.org/tests-procedures/resilience-training/in-depth/resilience/art-20046311\n\nHarvard Health Publishing. (2024). Life can be challenging: Build your own resilience plan. https://www.health.harvard.edu/blog/life-can-be-challenging-build-your-own-resilience-plan-202406123049\n\nFrontiers in Psychology. (2023). Effectiveness of resilience-based interventions in schools for adolescents: a systematic review and meta-analysis. https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1211113/full",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Building Resilience Through Challenges.pdf",
+    "category": "Workplace Wellness",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0153": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "references": "Johns Hopkins Medicine. (2025). The Power of Positive Thinking. https://www.hopkinsmedicine.org/health/wellness-and-prevention/the-power-of-positive-thinking\n\nCleveland Clinic. (2025). How To Practice Positive Thinking. https://health.clevelandclinic.org/positive-thinking\n\nFrontiers in Psychology. (2022). Hope and Optimism as an Opportunity to Improve the \"Positive Mental Health\" Demand. https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2022.827320/full",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Tips For Cultivating Optimism.pdf",
+    "category": "Workplace Wellness",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0152": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Leading & Following In The Workplace.pdf",
+    "category": "Workplace Wellness",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0151": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "How Posture Affects Long-Term Health.pdf",
+    "category": "Workplace Wellness, Ergonomics",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0150": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Nutrition For Bone Strength In Perimenopause.pdf",
+    "category": "Menopause",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0149": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Menopause-Related Weight Gain.pdf",
+    "category": "Menopause",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0148": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Menopause & Bone Health.pdf",
+    "category": "Menopause",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0147": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Managing Perimenopause Sleep Changes.pdf",
+    "category": "Menopause",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0146": {
     "title": "Understanding Perimenopause & What to Expect in You",
@@ -35368,46 +35862,68 @@
   },
   "INF-0145": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Cognitive Changes During Menopause.pdf",
+    "category": "Menopause",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0144": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Foods That Support Kidney Function.pdf",
+    "category": "Chronic Kidney Disease",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0143": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Kidney Disease 101.pdf",
+    "category": "Chronic Kidney Disease",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0142": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "How Kidneys Work.pdf",
+    "category": "Chronic Kidney Disease",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0141": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Understanding Kidney Transplants.pdf",
+    "category": "Chronic Kidney Disease",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0140": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Treatment Options For Chronic Kidney Disease.pdf",
+    "category": "Chronic Kidney Disease",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0139": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "How Kidney Function Is Measured.pdf",
+    "category": "Chronic Kidney Disease",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0138": {
     "title": "Communicating About CKD Dietary Restrictions With Fa",
@@ -35419,39 +35935,57 @@
   },
   "INF-0137": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Vaping Among Teens.pdf",
+    "category": "Vaping & Tobacco",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0136": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Pre-Quit Checklist For Success.pdf",
+    "category": "Vaping & Tobacco",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0135": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "The Hidden Toxins In A Cigarette.pdf",
+    "category": "Vaping & Tobacco",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0134": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Effects Of Tobacco On Skin & Aging.pdf",
+    "category": "Vaping & Tobacco",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0133": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Timeline Of Physical Recovery.pdf",
+    "category": "Vaping & Tobacco",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0132": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Benefits Of Improved Lung Function.pdf",
+    "category": "Vaping & Tobacco",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0131": {
     "title": "The Connection Between Mental Health and Tobacco U",
@@ -44298,10 +44832,13 @@
   },
   "INF-0064": {
     "references": "U.S. Preventive Services Task Force. (2024). Breast Cancer: Screening. https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/breast-cancer-screening\n\nAmerican Cancer Society. (2026). American Cancer Society Recommendations for the Early Detection of Breast Cancer. https://www.cancer.org/cancer/types/breast-cancer/screening-tests-and-early-detection/american-cancer-society-recommendations-for-the-early-detection-of-breast-cancer.html\n\nCenters for Disease Control and Prevention. (2024). Screening for Breast Cancer. https://www.cdc.gov/breast-cancer/screening/index.html",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "author": "Jade Gordon",
     "date_created": "6/22/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Guidelines For Mammograms.pdf",
+    "category": "Health Screenings",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0067": {
     "references": "Centers for Disease Control and Prevention. (2023). Heart disease facts. U.S. Department of Health and Human Services. Office of Minority Health. (2024). Heart disease and Black/African Americans. U.S. Department of Health and Human Services. Office of Minority Health. (2024). Heart disease and Hispanic/Latino Americans. U.S. Department of Health and Human Services. Office of Minority Health. (2024). Heart disease and Asian Americans. U.S. Department of Health and Human Services. Office of Minority Health. (2024). Heart disease and American Indian/Alaska Native populations. U.S. Department of Health and Human Services.",
@@ -44312,26 +44849,37 @@
   },
   "INF-0068": {
     "references": "Cleveland Clinic. (2026). Try These Five Practices To Improve Your Blood Circulation. https://health.clevelandclinic.org/how-to-improve-blood-circulation-naturally\n\nCells. (2023). Training the Vessels: Molecular and Clinical Effects of Exercise on Vascular Health—A Narrative Review. https://pmc.ncbi.nlm.nih.gov/articles/PMC10649652/\n\nJournal of Education and Health Promotion. (2024). Effect of physical activity breaks during prolonged sitting on vascular outcomes: A scoping review. https://pmc.ncbi.nlm.nih.gov/articles/PMC11482367/",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "author": "Emily Wilson",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Practical Tips To Improve Circulation.pdf",
+    "category": "Heart Disease",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0069": {
     "references": "National Heart, Lung, and Blood Institute. (2024). Why mental stress can take a toll on the heart. https://www.nhlbi.nih.gov/news/2024/why-mental-stress-can-take-toll-heart Centers for Disease Control and Prevention. (2024). About sleep and your heart health. https://www.cdc.gov/heart-disease/about/sleep-and-heart-health.html Centers for Disease Control and Prevention. (2026). Health benefits of physical activity for adults. https://www.cdc.gov/physical-activity-basics/health-benefits/adults.html",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "author": "Emily Wilson",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Heart Rate Variability & What It Means For Your Heart.pdf",
+    "category": "Heart Disease",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0079": {
     "references": "Centers for Disease Control and Prevention. (2024). Physical activity basics. https://www.cdc.gov/physicalactivity/basics/index.htm Centers for Disease Control and Prevention. (2026). Preventing high blood pressure. https://www.cdc.gov/high-blood-pressure/prevention/index.html  National Heart, Lung, and Blood Institute. (2024). High blood pressure. https://www.nhlbi.nih.gov/health/high-blood-pressure",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "author": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Best Types Of Exercise For Lowering Blood Pressure.pdf",
+    "category": "Hypertension",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0090": {
     "references": "Centers for Disease Control and Prevention. (2024). Travelers with chronic illnesses. https://wwwnc.cdc.gov/travel/page/chronic-illnesses U.S. Food and Drug Administration. (2024). Buying & using medicine safely. https://www.fda.gov/drugs/information-consumers-and-patients-drugs/buying-using-medicine-safely MedlinePlus. (2021). Traveler’s health. https://medlineplus.gov/travelershealth.html",
@@ -44343,54 +44891,75 @@
   },
   "INF-0091": {
     "references": "National Institutes of Health. (2022). Nutrition: Nutrients and health. https://www.nhlbi.nih.gov/health/educational/wecan/eat-right/nutrition.htm World Health Organization. (2023). Healthy diet. https://www.who.int/news-room/fact-sheets/detail/healthy-diet National Health Service. (2023). Eat well. https://www.nhs.uk/live-well/eat-well/",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "author": "Emily Wilson",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Basics Of Building A Balanced Diet.pdf",
+    "category": "Nutrition",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0092": {
     "references": "Harvard Health Publishing. (2024). Eggs, protein, and cholesterol: How to make eggs part of a heart-healthy diet. https://www.health.harvard.edu/diet-and-nutrition/eggs-protein-and-cholesterol-how-to-make-eggs-part-of-a-heart-healthy-diet\n\nJohns Hopkins Medicine. (2024). Healthy Breakfasts. https://www.hopkinsmedicine.org/health/wellness-and-prevention/healthy-breakfasts\n\nCleveland Clinic. (2026). How Much Protein Should I Eat a Day? https://health.clevelandclinic.org/how-much-protein-you-need",
-    "_at": "2026-08-10T20:48:20.396Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "author": "Jade Gordon",
     "date_created": "5/5/2026",
     "language": "English",
-    "category": "Nutrition"
+    "category": "Nutrition",
+    "link": "Recipe - Baked Egg Cups.pdf",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0093": {
     "references": "Harvard T.H. Chan School of Public Health. (2021). Berries are among the healthiest foods you can eat. https://hsph.harvard.edu/news/fresh-berries-are-among-the-healthiest-foods-you-can-eat/\n\nNutrients. (2021). A Review of the Properties of Anthocyanins and Their Influence on Factors Affecting Cardiometabolic and Cognitive Health. https://www.mdpi.com/2072-6643/13/8/2831\n\nCleveland Clinic. (2024). 7 Health Benefits of Spinach. https://health.clevelandclinic.org/benefits-of-spinach",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "author": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Recipe - Berry Spinach Smoothie.pdf",
+    "category": "Nutrition",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0094": {
     "references": "Harvard T.H. Chan School of Public Health, The Nutrition Source. (2023). Healthy Eating Plate. https://nutritionsource.hsph.harvard.edu/healthy-eating-plate/\n\nMayo Clinic. (2025). Whole grains: Hearty options for a healthy diet. https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/whole-grains/art-20047826\n\nNutrients. (2023). Poultry Consumption and Human Cardiometabolic Health-Related Outcomes: A Narrative Review. https://doi.org/10.3390/nu15163550",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "author": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Recipe - Chicken Wrap.pdf",
+    "category": "Nutrition",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0095": {
     "references": "Mayo Clinic. (2026). Mediterranean diet for heart health. https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/mediterranean-diet/art-20047801\n\nOxidative Medicine and Cellular Longevity. (2021). Lycopene: Food Sources, Biological Activities, and Human Health Benefits. https://doi.org/10.1155/2021/2713511\n\nCells. (2024). Cardiovascular and Metabolic Benefits of Extra Virgin Olive Oil Phenolic Compounds: Mechanistic Insights from In Vivo Studies. https://pmc.ncbi.nlm.nih.gov/articles/PMC11430205/",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "author": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Recipe - Caprese Salad Wrap.pdf",
+    "category": "Nutrition",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0096": {
     "references": "Cleveland Clinic. (2025). 4 Impressive Benefits of Black Beans. https://health.clevelandclinic.org/benefits-of-black-beans\n\nMayo Clinic Health System. (2024). The benefits of black beans. https://communityhealth.mayoclinic.org/featured-stories/black-bean-benefits\n\nInternational Journal of Molecular Sciences. (2025). The Cardioprotective Properties of Pulses and the Molecular Mechanisms of Their Action. https://pmc.ncbi.nlm.nih.gov/articles/PMC11899252/",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "author": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Recipe - Black Bean Soup.pdf",
+    "category": "Nutrition",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0098": {
     "references": "Cleveland Clinic. (2025). How Sweet Potatoes Can Beat Your Sugar Cravings. https://health.clevelandclinic.org/sweet-potato-benefits\n\nFrontiers in Nutrition. (2024). Legumes and common beans in sustainable diets: nutritional quality, environmental benefits, spread and use in food preparations. https://pmc.ncbi.nlm.nih.gov/articles/PMC11104268/\n\nNutrients. (2023). Exploring Benefits and Barriers of Plant-Based Diets: Health, Environmental Impact, Food Accessibility and Acceptability. https://www.mdpi.com/2072-6643/15/22/4723",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "author": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Recipe - Vegan Sweet Potato & Black Bean Bake.pdf",
+    "category": "Nutrition",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0100": {
     "references": "Harvard T.H. Chan School of Public Health, The Nutrition Source. (2024). Chia Seeds. https://nutritionsource.hsph.harvard.edu/food-features/chia-seeds/\n\nFoods. (2023). A Review of Plant-Based Drinks Addressing Nutrients, Flavor, and Processing Technologies. https://www.mdpi.com/2304-8158/12/21/3952\n\nCleveland Clinic. (2025). Peel It Back: Let's Look at the Health Benefits of Bananas. https://health.clevelandclinic.org/benefits-of-bananas",
@@ -44401,67 +44970,92 @@
   },
   "INF-0106": {
     "references": "Centers for Disease Control and Prevention. (2025). What You Can Do to Meet Physical Activity Recommendations. https://www.cdc.gov/physical-activity-basics/guidelines/index.html\n\nNational Institute on Aging. (2025). Three Types of Exercise Can Improve Your Health and Physical Ability. https://www.nia.nih.gov/health/exercise-and-physical-activity/three-types-exercise-can-improve-your-health-and-physical\n\nAmerican Heart Association. (2024). American Heart Association Recommendations for Physical Activity in Adults and Kids. https://www.heart.org/en/healthy-living/exercise-and-physical-activity/fitness-basics/aha-recs-for-physical-activity-in-adults",
-    "_at": "2026-08-10T20:06:24.297Z",
-    "author": "Jade Gordon",
+    "_at": "2026-08-12T14:02:48.725Z",
+    "author": "Marlee Alanis",
     "date_created": "5/5/2026",
     "language": "English",
-    "duration": "1"
+    "duration": "1",
+    "link": "https://drive.google.com/file/d/1mIs8Nb0nNe3liaZ8QYF5jH8GetIIGdiO/view?usp=share_link",
+    "category": "Fitness",
+    "author_creds": "Exercise Physiologist"
   },
   "INF-0108": {
     "references": "Centers for Disease Control and Prevention. (2025). Adding Physical Activity as an Adult. https://www.cdc.gov/physical-activity-basics/adding-adults/index.html\n\nInternational Journal of Behavioral Nutrition and Physical Activity. (2023). Effects of habit formation interventions on physical activity habit strength: meta-analysis and meta-regression. https://pmc.ncbi.nlm.nih.gov/articles/PMC10498635/\n\nMayo Clinic. (2023). Fitness program: 5 steps to get started. https://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/fitness/art-20048269",
-    "_at": "2026-08-10T20:06:24.297Z",
-    "author": "Jade Gordon",
+    "_at": "2026-08-12T14:02:48.725Z",
+    "author": "Marlee Alanis",
     "date_created": "5/5/2026",
     "language": "English",
-    "duration": "1"
+    "duration": "1",
+    "link": "https://drive.google.com/file/d/1gF2geMVgkkitbK9Sdc8KSSGYBhkhBPeE/view?usp=share_link",
+    "category": "Fitness",
+    "author_creds": "Exercise Physiologist"
   },
   "INF-0109": {
     "references": "European Journal of Preventive Cardiology. (2023). The association between daily step count and all-cause and cardiovascular mortality: a meta-analysis. https://academic.oup.com/eurjpc/article/30/18/1975/7226309\n\nMayo Clinic. (2026). Walking: Trim your waistline, improve your health. https://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/walking/art-20046261\n\nHarvard Health. (2023). Power up your walking routine. https://www.health.harvard.edu/exercise-and-fitness/power-up-your-walking-routine",
-    "_at": "2026-08-10T20:06:24.297Z",
-    "author": "Jade Gordon",
+    "_at": "2026-08-12T14:02:48.725Z",
+    "author": "Marlee Alanis",
     "date_created": "5/5/2026",
     "language": "English",
-    "duration": "1"
+    "duration": "1",
+    "link": "https://drive.google.com/file/d/1LlqxB4gS-kPNhaOQOFkpCGnr9iSniqqo/view?usp=share_link",
+    "category": "Fitness",
+    "author_creds": "Exercise Physiologist"
   },
   "INF-0110": {
     "references": "American Heart Association. (2024). Getting Started: Tips for Long-term Exercise Success. https://www.heart.org/en/healthy-living/fitness/getting-active/getting-started---tips-for-long-term-exercise-success\n\nCleveland Clinic. (2024). Workout Motivation: Do's and Don'ts To Help You Actually Stick to Your New Exercise Routine. https://health.clevelandclinic.org/how-to-get-motivated-to-workout\n\nEuropean Review of Aging and Physical Activity. (2025). Staying engaged: a scoping review of psychological and motivational drivers of adherence to technology-supported physical activity in older adults. https://pmc.ncbi.nlm.nih.gov/articles/PMC12604158/",
-    "_at": "2026-08-10T20:06:24.297Z",
-    "author": "Jade Gordon",
+    "_at": "2026-08-12T14:02:48.725Z",
+    "author": "Marlee Alanis",
     "date_created": "5/5/2026",
     "language": "English",
-    "duration": "1"
+    "duration": "1",
+    "link": "https://drive.google.com/file/d/1wof9YesvDDU1Ba1a_CnWo28xngJfSnux/view?usp=share_link",
+    "category": "Fitness",
+    "author_creds": "Exercise Physiologist"
   },
   "INF-0111": {
     "references": "Frontiers in Psychology. (2022). Enjoyment as a Predictor of Exercise Habit, Intention to Continue Exercising, and Exercise Frequency: The Intensity Traits Discrepancy Moderation Role. https://pmc.ncbi.nlm.nih.gov/articles/PMC8894246/\n\nCenters for Disease Control and Prevention. (2025). Overcoming Barriers to Physical Activity. https://www.cdc.gov/physical-activity-basics/overcoming-barriers/index.html\n\nInternational Journal of Environmental Research and Public Health. (2022). The Relationship between Social Support and Exercise Adherence among Chinese College Students during the COVID-19 Pandemic: The Mediating Effects of Subjective Exercise Experience and Commitment. https://pmc.ncbi.nlm.nih.gov/articles/PMC9517627/",
-    "_at": "2026-08-10T20:06:24.297Z",
-    "author": "Jade Gordon",
+    "_at": "2026-08-12T14:02:48.725Z",
+    "author": "Marlee Alanis",
     "date_created": "5/5/2026",
     "language": "English",
-    "duration": "1"
+    "duration": "1",
+    "link": "https://drive.google.com/file/d/1uXnyzg4tayjEnD5wf_kW7KEfG4U8sYds/view?usp=share_link",
+    "category": "Fitness",
+    "author_creds": "Exercise Physiologist"
   },
   "INF-0112": {
     "references": "Harvard Health. (2026). The ideal stretching routine. https://www.health.harvard.edu/staying-healthy/the-ideal-stretching-routine\n\nCleveland Clinic. (2024). Dynamic vs. Static Stretching: Is One Better? https://health.clevelandclinic.org/dynamic-stretching-vs-static-stretching\n\nHeliyon. (2023). Dynamic and static stretching on hamstring flexibility and stiffness: A systematic review and meta-analysis. https://pmc.ncbi.nlm.nih.gov/articles/PMC10407730/",
-    "_at": "2026-08-10T20:06:24.297Z",
-    "author": "Jade Gordon",
+    "_at": "2026-08-12T14:02:48.725Z",
+    "author": "Marlee Alanis",
     "date_created": "5/5/2026",
     "language": "English",
-    "duration": "1"
+    "duration": "1",
+    "link": "https://drive.google.com/file/d/1ye4sMvBl4OprWGUGnq6Q4jrJwFJS5inV/view?usp=share_link",
+    "category": "Fitness",
+    "author_creds": "Exercise Physiologist"
   },
   "INF-0113": {
     "references": "Mayo Clinic. (2023). Aerobic exercise: How to warm up and cool down. https://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/exercise/art-20045517\n\nAmerican Heart Association. (2024). Warm Up, Cool Down. https://www.heart.org/en/healthy-living/exercise-and-physical-activity/fitness-basics/warm-up-cool-down\n\nSports. (2026). Exercise-Based Strategies from Warm-Up to Training: A Systematic Review of Performance Enhancement and Injury Prevention. https://doi.org/10.3390/sports14050187",
-    "_at": "2026-08-10T20:06:24.297Z",
-    "author": "Jade Gordon",
+    "_at": "2026-08-12T14:02:48.725Z",
+    "author": "Marlee Alanis",
     "date_created": "5/5/2026",
     "language": "English",
-    "duration": "1"
+    "duration": "1",
+    "link": "https://drive.google.com/file/d/1VscQI9O-E5BsigIV7upOGnXMF4yCHj9S/view?usp=share_link",
+    "category": "Fitness",
+    "author_creds": "Exercise Physiologist"
   },
   "INF-0115": {
     "references": "Perioperative Medicine. (2025). Assessment of perioperative anxiety levels at three time-points during hospital stay in patients undergoing elective surgery. https://pmc.ncbi.nlm.nih.gov/articles/PMC11905583/\n\nFrontiers in Pediatrics. (2024). Preoperative anxiety management in pediatric patients: a systematic review and meta-analysis of randomized controlled trials on the efficacy of distraction techniques. https://pmc.ncbi.nlm.nih.gov/articles/PMC10909818/\n\nScientific Reports. (2023). Patient-reported perioperative anaesthesia-related anxiety is associated with impaired patient satisfaction: a secondary analysis from a prospective observational study in Switzerland. https://www.nature.com/articles/s41598-023-43447-6",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "author": "Emily Wilson",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Recognizing Signs Of Pre-Surgery Anxiety.pdf",
+    "category": "Surgery Preparation & Recovery",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "VID-0013": {
     "references": "Cleveland Clinic. (2022). Psychotherapy: What It Is, Why It Is Done & Types. https://my.clevelandclinic.org/health/treatments/23445-psychotherapy\n\nMayo Clinic. (2023). Psychotherapy. https://www.mayoclinic.org/tests-procedures/psychotherapy/about/pac-20384616\n\nWorld Psychiatry. (2022). The efficacy of psychotherapies and pharmacotherapies for mental disorders in adults: an umbrella review and meta-analytic evaluation of recent meta-analyses. https://doi.org/10.1002/wps.20941",
@@ -44845,24 +45439,36 @@
   },
   "INF-0042": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "How Air Pollution Affects COPD.pdf",
+    "category": "COPD",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0043": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Avoiding Common COPD Triggers At Home.pdf",
+    "category": "COPD",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0044": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "How To Reduce Exposure To Dust, Mold, & Smoke.pdf",
+    "category": "COPD",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0045": {
     "author": "Emily Wilson",
@@ -44873,387 +45479,585 @@
   },
   "INF-0046": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "A Timeline Of Climate Change Milestones.pdf",
+    "category": "Environmental Sustainability",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0047": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "How Air Pollution Travels Across Borders.pdf",
+    "category": "Environmental Sustainability",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0048": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "How Methane Contributes To Global Warming.pdf",
+    "category": "Environmental Sustainability",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0049": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "https://drive.google.com/file/d/11AL1Em4nl3n7Fx73u0ga_ncJMSMuFo5N/view?usp=sharing",
+    "category": "Financial Wellness",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0050": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "https://drive.google.com/file/d/1hjofIhoE8kcFwT16rqShSOvdgoE2U2sQ/view?usp=sharing",
+    "category": "Financial Wellness",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0051": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "https://drive.google.com/file/d/1S1HL8uaixuAeJNVZ2kARWMEm1NOvfA-V/view?usp=sharing",
+    "category": "Financial Wellness",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0052": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "https://drive.google.com/file/d/1WRCr8Fo7hBufcxUPLGULhtnecMeXiC-F/view?usp=sharing",
+    "category": "Financial Wellness",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0053": {
-    "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "author": "Marlee Alanis",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://drive.google.com/file/d/1zm4jC100IhA0af3tU2L5y0GnNk_N1kAA/view?usp=share_link",
+    "category": "Health",
+    "author_creds": "Exercise Physiologist"
   },
   "INF-0054": {
-    "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "author": "Marlee Alanis",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://drive.google.com/file/d/1cXKjo-G-o57Z86Y3KFr5tCmDTZa3mnRd/view?usp=share_link",
+    "category": "Health, Fitness",
+    "author_creds": "Exercise Physiologist"
   },
   "INF-0055": {
-    "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "author": "Marlee Alanis",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
     "language": "English",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://drive.google.com/file/d/1eor50Ppj75GdNqWcMbYjJVpBMwli4oMh/view?usp=share_link",
+    "category": "Health",
+    "author_creds": "Exercise Physiologist"
   },
   "INF-0056": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Prescription Vs. OTC Medicines.pdf",
+    "category": "General Medication",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0057": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Avoiding Common Medication Mistakes.pdf",
+    "category": "General Medication",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0058": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Understanding Black Box Warnings.pdf",
+    "category": "General Medication",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0059": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "How Antibiotics Fight Infection.pdf",
+    "category": "General Medication",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0062": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "How Screening Tests Find Pre-Cancer.pdf",
+    "category": "Health Screenings",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0063": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "The Value Of Yearly Gynecological Exams.pdf",
+    "category": "Health Screenings",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0065": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Why Annual Check-Ups Matter For Men 40+.pdf",
+    "category": "Health Screenings",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0066": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "How Infections Can Trigger Heart Complications.pdf",
+    "category": "Heart Disease",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0070": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "How Cholesterol Tests Work.pdf",
+    "category": "High Cholesterol",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0071": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Interpreting Cholesterol Results.pdf",
+    "category": "High Cholesterol",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0072": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Good Vs. Bad Cholesterol.pdf",
+    "category": "High Cholesterol",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0073": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Lifestyle Strategies To Lower Cholesterol.pdf",
+    "category": "High Cholesterol",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0074": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Common Myths & Facts About High Blood Pressure.pdf",
+    "category": "Hypertension",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0075": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "How Blood Pressure Affects Long-Term Health.pdf",
+    "category": "Hypertension",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0076": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Hypertension 101.pdf",
+    "category": "Hypertension",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0077": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Understanding The Different Types Of Hypertension.pdf",
+    "category": "Hypertension",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0078": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "When To Get Screened For High Blood Pressure.pdf",
+    "category": "Hypertension",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0080": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Breathing Techniques To Regulate Blood Pressure.pdf",
+    "category": "Hypertension",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0081": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Hydration & Blood Pressure.pdf",
+    "category": "Hypertension",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0082": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Measuring Blood Pressure At Home.pdf",
+    "category": "Hypertension",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0083": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "The Importance Of Regular Follow-Ups & Lab Tests.pdf",
+    "category": "Hypertension",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0084": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Using Journals Or Apps To Manage Hypertension.pdf",
+    "category": "Hypertension",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0085": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "How To Take Diabetes Medications Correctly.pdf",
+    "category": "Medication",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0086": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Guide To Stroke Medications.pdf",
+    "category": "Medication",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0087": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Common Arthritis Medications Explained.pdf",
+    "category": "Medication",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0088": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "How To Safely Dispose Of Unused Medications.pdf",
+    "category": "Medication",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0089": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Using Pill Organizers Effectively.pdf",
+    "category": "Medication",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0097": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Recipe - Chicken, Pea & Potato Bake.pdf",
+    "category": "Nutrition",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0099": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Recipe - Baked Lemon Cod.pdf",
+    "category": "Nutrition",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0101": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Age-Related Foot Changes.pdf",
+    "category": "Older Adult Education",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0102": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Age-Related Hearing Loss.pdf",
+    "category": "Older Adult Education",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0103": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Age-Related Macular Degeneration.pdf",
+    "category": "Older Adult Education",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0104": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Understanding The Causes Of Falls.pdf",
+    "category": "Older Adult Education",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0105": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "How To Fall-Proof Your Bathroom, Bedroom, & Kitchen.pdf",
+    "category": "Older Adult Education",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0107": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Aerobic Exercise For Cardiovascular & Brain Health.pdf",
+    "category": "Physical Health",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0114": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Involving Family Or Friends For Emotional Support.pdf",
+    "category": "Surgery Preparation & Recovery",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0116": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Organizing Home & Essentials For Easy Recovery.pdf",
+    "category": "Surgery Preparation & Recovery",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0117": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "How To Talk About Your Fears With Your Surgeon.pdf",
+    "category": "Surgical Preparation",
+    "author_creds": "Registered Medical Assistant",
+    "peer_reviewer_creds": "Behavioral Technician"
   },
   "INF-0118": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Asking Questions To Reduce Anxiety.pdf",
+    "category": "Surgical Preparation",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0119": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "How COVID Vaccines Reduce Severe Illness.pdf",
+    "category": "Vaccinations",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0120": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Common Myths About Vaccines.pdf",
+    "category": "Vaccinations",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0121": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Why The Measles Vaccine Is Essential.pdf",
+    "category": "Vaccinations",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0122": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Who Needs The Hepatitis Vaccine & Why.pdf",
+    "category": "Vaccinations",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0123": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "What To Know About Travel Vaccines.pdf",
+    "category": "Vaccinations",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0124": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "The Importance Of Getting Your Vaccinations.pdf",
+    "category": "Vaccinations",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0125": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Who Should Get The Flu Vaccine & When.pdf",
+    "category": "Vaccinations",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0126": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "HPV & Cancer Prevention Through Vaccination.pdf",
+    "category": "Vaccinations",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0127": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Why The HPV Vaccine Is Important For Teens & Adults.pdf",
+    "category": "Vaccinations",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0128": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "How To Be A Quit Buddy.pdf",
+    "category": "Vaping & Tobacco",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0129": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Comparing NRT Options.pdf",
+    "category": "Vaping & Tobacco",
+    "author_creds": "Behavioral Technician"
   },
   "INF-0130": {
     "author": "Jade Gordon",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-12T14:02:48.725Z",
     "date_created": "5/5/2026",
-    "language": "English"
+    "language": "English",
+    "link": "Understanding Nicotine Replacement Therapy.pdf",
+    "category": "Vaping & Tobacco",
+    "author_creds": "Behavioral Technician"
   },
   "EXT-1178": {
     "peer_reviewer": "Sadiya",
