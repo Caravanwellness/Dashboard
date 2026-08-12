@@ -49218,10 +49218,11 @@
   },
   "EXT-0714": {
     "category": "Nutrition",
-    "_at": "2026-08-12T20:12:16.037Z",
+    "_at": "2026-08-12T20:12:15.519Z",
     "author": "Jade Gordon",
     "duration": "25",
-    "date_created": "1/27/2025"
+    "date_created": "1/27/2025",
+    "subtitles_available": "yes"
   },
   "EXT-0715": {
     "category": "Nutrition",
