@@ -1328,15 +1328,24 @@ function parseDuration(raw) {
   return s.replace(/\s*min.*/i, '').trim() + ' min';
 }
 
+// "Video/Article/Infographic Library" isn't a distinct type — it's a legacy
+// import-era label for the exact same content. Collapsing it here means every
+// entry point (new-item detection below, and the existing-item sync in
+// FIELD_MAP) converges on just Video/Article/Infographic going forward,
+// instead of reintroducing the "Library" split a prior cleanup already merged
+// away (see the Aug 6 "Merge ...Library types into their base type" commit).
+function normalizeType(raw) {
+  const t = String(raw || '').trim();
+  const tl = t.toLowerCase();
+  if (tl === 'video' || tl === 'video library') return 'Video';
+  if (tl === 'article' || tl === 'article library') return 'Article';
+  if (tl === 'infographic' || tl === 'infographic library') return 'Infographic';
+  return t; // keep as-is (Presentation, Guide, Audio, Recipe, etc.)
+}
+
 function detectRowType(row) {
   const typeVal = String(row['content type'] || row['format'] || row['type'] || '').trim();
-  if (typeVal) {
-    const tl = typeVal.toLowerCase();
-    if (tl === 'video') return 'Video';
-    if (tl === 'article') return 'Article';
-    if (tl === 'infographic') return 'Infographic';
-    return typeVal; // keep as-is (Presentation, Guide, Audio, etc.)
-  }
+  if (typeVal) return normalizeType(typeVal);
   if (row['video title'] !== undefined) return 'Video';
   const url = String(row['url'] || row['link'] || '').toLowerCase();
   if (url.includes('vimeo.com') || url.includes('allinonewellbeing.com/video')) return 'Video';
@@ -1477,8 +1486,9 @@ async function handleImportFile(file) {
           if (matchedById) {
             for (const [header, field] of Object.entries(FIELD_MAP)) {
               if (row[header] === undefined) continue;
-              const val = String(row[header]).trim();
+              let val = String(row[header]).trim();
               if (!val) continue;
+              if (field === 'type') val = normalizeType(val);
               const cur = String(lv(existing, field) || '').trim();
               if (val !== cur) {
                 if (!edits[existing.id]) edits[existing.id] = {};
@@ -2478,6 +2488,7 @@ function showDetail(item) {
   const fCreds   = getBio(fAuthor, 'creds', T('author_creds'));
   const fReviewer= T('peer_reviewer');
   const fVer     = T('version');
+  const fDuration = T('duration');
   const fLang     = T('language');
   const fTitleOriginal = T('title_original');
   const fBranding = T('branding');
@@ -2619,6 +2630,9 @@ function showDetail(item) {
       </div>
       <div class="detail-field"><label>Version</label>
         <input class="field-edit" data-f="version" value="${esc(fVer)}" style="width:70px">
+      </div>
+      <div class="detail-field"><label>Duration (min)</label>
+        <input class="field-edit" data-f="duration" value="${esc(fDuration)}" style="width:70px">
       </div>
       ${fLang!==undefined&&fLang!==''||item.language!==undefined?`<div class="detail-field"><label>Language</label>
         <input class="field-edit" data-f="language" value="${esc(fLang)}">
