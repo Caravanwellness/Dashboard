@@ -7556,7 +7556,7 @@
   },
   "EN-00403": {
     "teacher": "Linda Johnson",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:59:43.718Z",
     "title": "What Size Is Your “Leader- ship?",
     "duration": "5",
     "language": "English",
@@ -7568,7 +7568,8 @@
     "licenses": [
       "Wellness360"
     ],
-    "version": "1"
+    "version": "1",
+    "date_created": "3/2"
   },
   "EN-00404": {
     "author": "Linda Johnson",
