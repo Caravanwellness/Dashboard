@@ -202,7 +202,7 @@
   },
   "EN-00349": {
     "author": "Julika Von Stackelberg",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Julika Von Stackelberg",
     "licenses": [
       "JAAQ"
@@ -212,7 +212,8 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/25/2025"
   },
   "EN-00352": {
     "author": "Julika Von Stackelberg",
@@ -10670,12 +10671,13 @@
   },
   "EN-00302": {
     "author": "Jessica Cording",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Jessica Cording",
     "duration": "5",
     "language": "English",
     "type": "Video",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "date_created": "3/25/2025"
   },
   "EN-00303": {
     "author": "Jessica Cording",
@@ -10759,7 +10761,7 @@
   },
   "EN-00334": {
     "teacher": "Jessica Cording",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "licenses": [
       "YuLife",
       "Hapstar"
@@ -10775,71 +10777,78 @@
       "Lyra Health",
       "Spectrum.life"
     ],
-    "version": "1"
+    "version": "1",
+    "date_created": "3/24/2025"
   },
   "EN-00335": {
     "author": "Jessica Cording",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Jessica Cording",
     "duration": "5",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "6/5/2024"
   },
   "EN-00336": {
     "author": "Jessica Cording",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Jessica Cording",
     "duration": "5",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/25/2025"
   },
   "EN-00337": {
     "author": "Jessica Cording",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Jessica Cording",
     "duration": "5",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "6/5/2024"
   },
   "EN-00338": {
     "author": "Jessica Cording",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Jessica Cording",
     "duration": "5",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "6/5/2024"
   },
   "EN-00339": {
     "author": "Jessica Cording",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Jessica Cording",
     "duration": "5",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/25/2025"
   },
   "EN-00353": {
     "author": "Jessica Cording",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Jessica Cording",
     "duration": "5",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "6/5/2024"
   },
   "EN-00354": {
     "teacher": "Jessica Cording",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "licenses": [
       "Hapstar"
     ],
@@ -10847,7 +10856,8 @@
     "duration": "10",
     "language": "English",
     "type": "Video",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "date_created": "6/5/2024"
   },
   "EN-00355": {
     "author": "Jessica Cording",
@@ -10867,7 +10877,7 @@
   },
   "EN-00356": {
     "author": "Jessica Cording",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Jessica Cording",
     "licenses": [
       "YuLife",
@@ -10883,7 +10893,8 @@
       "Hapstar",
       "Spectrum.life"
     ],
-    "version": "1"
+    "version": "1",
+    "date_created": "3/24/2025"
   },
   "EN-00357": {
     "author": "Jessica Cording",
@@ -16015,14 +16026,14 @@
   },
   "EN-00062": {
     "author": "Liz Ilgenfritz",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Liz Ilgenfritz",
     "duration": "10",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "date_created": "10/3/2024"
+    "date_created": "3/24/2025"
   },
   "EN-00063": {
     "author": "Liz Ilgenfritz",
@@ -16037,17 +16048,18 @@
   },
   "EN-00079": {
     "author": "Liz Ilgenfritz",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Liz Ilgenfritz",
     "duration": "10",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/25/2025"
   },
   "EN-00080": {
     "author": "Liz Ilgenfritz",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Liz Ilgenfritz",
     "licenses": [
       "Luro Health"
@@ -16057,7 +16069,8 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/24/2025"
   },
   "EN-00081": {
     "teacher": "Liz Ilgenfritz",
@@ -16083,14 +16096,14 @@
   },
   "EN-00083": {
     "author": "Liz Ilgenfritz",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Liz Ilgenfritz",
     "duration": "5",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "date_created": "3/24/202"
+    "date_created": "3/24/2025"
   },
   "EN-00084": {
     "author": "Liz Ilgenfritz",
@@ -16116,24 +16129,25 @@
   },
   "EN-00086": {
     "author": "Liz Ilgenfritz",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Liz Ilgenfritz",
     "duration": "10",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "date_created": "10/3/"
+    "date_created": "3/24/2025"
   },
   "EN-00087": {
     "author": "Liz Ilgenfritz",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Liz Ilgenfritz",
     "duration": "5",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/26/2025"
   },
   "EN-00088": {
     "author": "Liz Ilgenfritz",
@@ -16161,13 +16175,14 @@
   },
   "EN-00090": {
     "author": "Liz Ilgenfritz",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Liz Ilgenfritz",
     "duration": "10",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/26/2025"
   },
   "EN-00091": {
     "author": "Liz Ilgenfritz",
@@ -16197,43 +16212,47 @@
   },
   "EN-00098": {
     "author": "Liz Ilgenfritz",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Liz Ilgenfritz",
     "duration": "5",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/25/2025"
   },
   "EN-00099": {
     "author": "Liz Ilgenfritz",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Liz Ilgenfritz",
     "duration": "10 min",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/24/2025"
   },
   "EN-00102": {
     "teacher": "Liz Ilgenfritz",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "author": "Alex Scolari",
     "duration": "29 min",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/26/2025"
   },
   "EN-00107": {
     "author": "Liz Ilgenfritz",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Liz Ilgenfritz",
     "duration": "3 min",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/25/2025"
   },
   "EN-00108": {
     "author": "Liz Ilgenfritz",
@@ -16402,23 +16421,25 @@
   },
   "EN-00209": {
     "author": "Liz Ilgenfritz",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Liz Ilgenfritz",
     "duration": "5",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/26/2025"
   },
   "EN-00249": {
     "author": "Liz Ilgenfritz",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Liz Ilgenfritz",
     "duration": "10",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/26/2025"
   },
   "EN-00250": {
     "author": "Liz Ilgenfritz",
@@ -16433,13 +16454,14 @@
   },
   "EN-00251": {
     "author": "Liz Ilgenfritz",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Liz Ilgenfritz",
     "duration": "3",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/24/2025"
   },
   "VID-0015": {
     "author": "Thai James",
@@ -16765,7 +16787,7 @@
   },
   "EN-00361": {
     "author": "Thai James",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Thai James",
     "licenses": [
       "Passport & Co.",
@@ -16776,7 +16798,8 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "1/24/2024"
   },
   "EN-00362": {
     "author": "Thai James",
@@ -16797,7 +16820,7 @@
   },
   "EN-00363": {
     "author": "Thai James",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Thai James",
     "licenses": [
       "Passport & Co.",
@@ -16809,11 +16832,12 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/26/2025"
   },
   "EN-00364": {
     "author": "Thai James",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Thai James",
     "licenses": [
       "Passport & Co.",
@@ -16825,11 +16849,12 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/26/2025"
   },
   "EN-00365": {
     "author": "Thai James",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Thai James",
     "licenses": [
       "Passport & Co.",
@@ -16841,11 +16866,12 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/26/2025"
   },
   "EN-00366": {
     "author": "Thai James",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Thai James",
     "licenses": [
       "Passport & Co.",
@@ -16857,7 +16883,8 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/26/2025"
   },
   "EN-00378": {
     "author": "Thai James",
@@ -18593,13 +18620,14 @@
   },
   "EN-00200": {
     "author": "Briana Kurtz",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Briana Kurtz",
     "duration": "10",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/25/2025"
   },
   "EN-00201": {
     "author": "Briana Kurtz",
@@ -18738,13 +18766,14 @@
   },
   "EN-00222": {
     "author": "Briana Kurtz",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Briana Kurtz",
     "duration": "10",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/24/2025"
   },
   "EN-00223": {
     "author": "Briana Kurtz",
@@ -18770,33 +18799,36 @@
   },
   "EN-00257": {
     "author": "Briana Kurtz",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Briana Kurtz",
     "duration": "5",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/25/2025"
   },
   "EN-00258": {
     "author": "Briana Kurtz",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Briana Kurtz",
     "duration": "10",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/25/2025"
   },
   "EN-00259": {
     "author": "Briana Kurtz",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Briana Kurtz",
     "duration": "15 min",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/24/2025"
   },
   "EN-00263": {
     "author": "Briana Kurtz",
@@ -20444,7 +20476,7 @@
   },
   "EN-00358": {
     "author": "Candice White-Parker",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Candice White-Parker",
     "licenses": [
       "Healthee",
@@ -20462,11 +20494,12 @@
     "client_licenses": [
       "Lyra Health"
     ],
-    "version": "1"
+    "version": "1",
+    "date_created": "12/15/2023"
   },
   "EN-00359": {
     "author": "Candice White-Parker",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Candice White-Parker",
     "licenses": [
       "Luro Health",
@@ -20484,7 +20517,8 @@
       "Loune.co (needs to be confirmed",
       "Lyra Health"
     ],
-    "version": "1"
+    "version": "1",
+    "date_created": "3/25/2025"
   },
   "EN-00650": {
     "author": "Candice White-Parker",
@@ -23333,7 +23367,7 @@
   },
   "EN-00348": {
     "author": "Julika Von Stackelberg",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Julika Von Stackelberg",
     "licenses": [
       "JAAQ"
@@ -23342,11 +23376,12 @@
     "duration": "5",
     "language": "English",
     "type": "Video",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "date_created": "3/25/2025"
   },
   "EN-00350": {
     "teacher": "Julika Von Stackelberg",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "licenses": [
       "Hapstar"
     ],
@@ -23356,7 +23391,8 @@
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "author": "Julika Von Stackelberg",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/26/2025"
   },
   "EN-00351": {
     "teacher": "Julika Von Stackelberg",
@@ -23893,31 +23929,34 @@
   },
   "EN-00278": {
     "author": "Christina Ionno",
-    "_at": "2026-08-13T21:34:34.091Z",
-    "teacher": "Christina Ionno",
-    "duration": "10",
-    "language": "English",
-    "type": "Video",
-    "peer_reviewer": "Marlee Alanis"
-  },
-  "EN-00279": {
-    "author": "Christina Ionno",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Christina Ionno",
     "duration": "10",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "date_created": "3/25/2025"
   },
-  "EN-00280": {
+  "EN-00279": {
     "author": "Christina Ionno",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Christina Ionno",
     "duration": "10",
     "language": "English",
     "type": "Video",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "version": "1",
+    "date_created": "3/25/2025"
+  },
+  "EN-00280": {
+    "author": "Christina Ionno",
+    "_at": "2026-08-13T21:47:52.079Z",
+    "teacher": "Christina Ionno",
+    "duration": "10",
+    "language": "English",
+    "type": "Video",
+    "peer_reviewer": "Marlee Alanis",
+    "date_created": "3/25/2025"
   },
   "EN-00281": {
     "author": "Christina Ionno",
@@ -23944,17 +23983,18 @@
   },
   "EN-00292": {
     "author": "Christina Ionno",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Christina Ionno",
     "duration": "10",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/25/2025"
   },
   "EN-00293": {
     "author": "Christina Ionno",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Christina Ionno",
     "duration": "10",
     "language": "English",
@@ -23962,7 +24002,8 @@
       "YuLife"
     ],
     "type": "Video",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "date_created": "3/25/2025"
   },
   "EN-00311": {
     "author": "Christina Ionno",
@@ -23988,27 +24029,29 @@
   },
   "EN-00313": {
     "author": "Christina Ionno",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Christina Ionno",
     "duration": "10",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/25/2025"
   },
   "EN-00314": {
     "author": "Christina Ionno",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Christina Ionno",
     "duration": "10",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/25/2025"
   },
   "EN-00315": {
     "author": "Christina Ionno",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Christina Ionno",
     "licenses": [
       "Numbase"
@@ -24018,7 +24061,8 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/25/2025"
   },
   "EN-00430": {
     "author": "Christina Ionno",
@@ -25927,13 +25971,14 @@
   },
   "EN-00110": {
     "author": "Hollis Williams",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Alex Scolari",
     "duration": "10",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/26/2025"
   },
   "EN-00114": {
     "author": "Hollis Williams",
@@ -25948,43 +25993,47 @@
   },
   "EN-00225": {
     "author": "Hollis Williams",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Hollis Williams",
     "duration": "10",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/24/2025"
   },
   "EN-00226": {
     "author": "Hollis Williams",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Hollis Williams",
     "duration": "2",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/24/2025"
   },
   "EN-00227": {
     "author": "Hollis Williams",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Hollis Williams",
     "duration": "2",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/25/2025"
   },
   "EN-00228": {
     "author": "Hollis Williams",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Hollis Williams",
     "duration": "2",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/25/2025"
   },
   "EN-00229": {
     "author": "Hollis Williams",
@@ -26019,23 +26068,25 @@
   },
   "EN-00232": {
     "author": "Hollis Williams",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Hollis Williams",
     "duration": "2",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/24/2025"
   },
   "EN-00233": {
     "author": "Hollis Williams",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Hollis Williams",
     "duration": "2",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/24/2025"
   },
   "EN-00234": {
     "author": "Hollis Williams",
@@ -26050,13 +26101,14 @@
   },
   "EN-00235": {
     "author": "Hollis Williams",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Hollis Williams",
     "duration": "2",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/24/2025"
   },
   "EN-00236": {
     "author": "Hollis Williams",
@@ -26071,13 +26123,14 @@
   },
   "EN-00237": {
     "author": "Hollis Williams",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Hollis Williams",
     "duration": "2",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/26/2025"
   },
   "EN-00238": {
     "author": "Hollis Williams",
@@ -26092,13 +26145,14 @@
   },
   "EN-00239": {
     "author": "Hollis Williams",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Hollis Williams",
     "duration": "2",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/25/2025"
   },
   "EN-00240": {
     "author": "Hollis Williams",
@@ -26112,33 +26166,36 @@
   },
   "EN-00242": {
     "author": "Hollis Williams",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Hollis Williams",
     "duration": "10",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/24/2025"
   },
   "EN-00243": {
     "author": "Hollis Williams",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Hollis Williams",
     "duration": "10",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/24/2025"
   },
   "EN-00244": {
     "author": "Hollis Williams",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Hollis Williams",
     "duration": "10",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/24/2025"
   },
   "VID-1147": {
     "author": "Dr. Ricardo Fuentes",
@@ -29650,7 +29707,7 @@
   },
   "EN-00193": {
     "teacher": "Anthony Crouchelli",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "author": "Sabrih Short",
     "licenses": [
       "Luro Health",
@@ -29662,7 +29719,8 @@
     "duration": "14 min",
     "language": "English",
     "type": "Video",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "date_created": "3/24/2025"
   },
   "VID-0604": {
     "author": "Sabrih Short",
@@ -29819,7 +29877,7 @@
   },
   "EN-00400": {
     "author": "Sabrih Short",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Sabrih Short",
     "licenses": [
       "Luro Health",
@@ -29835,7 +29893,8 @@
     "client_licenses": [
       "Loune.co (needs to be confirmed"
     ],
-    "version": "1"
+    "version": "1",
+    "date_created": "3/24/2025"
   },
   "EN-00401": {
     "author": "Sabrih Short",
@@ -29860,7 +29919,7 @@
   },
   "EN-00402": {
     "author": "Sabrih Short",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Sabrih Short",
     "licenses": [
       "Wellness360"
@@ -29870,7 +29929,8 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/25/2025"
   },
   "EN-00435": {
     "author": "Sabrih Short",
@@ -30572,13 +30632,14 @@
   },
   "EN-00256": {
     "author": "Zach Bourne",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Zach Bourne",
     "duration": "20",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/26/2025"
   },
   "VID-0501": {
     "author": "Margi Douglas",
@@ -30685,14 +30746,14 @@
   },
   "EN-00064": {
     "author": "Margi Douglas",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Margi Douglas",
     "duration": "5",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "date_created": "6/26/2026"
+    "date_created": "3/24/2025"
   },
   "EN-00065": {
     "author": "Margi Douglas",
@@ -30707,53 +30768,58 @@
   },
   "EN-00066": {
     "author": "Margi Douglas",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Margi Douglas",
     "duration": "10",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/25/2025"
   },
   "EN-00067": {
     "author": "Margi Douglas",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Margi Douglas",
     "duration": "10",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/24/2025"
   },
   "EN-00068": {
     "author": "Margi Douglas",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Margi Douglas",
     "duration": "10",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/24/2025"
   },
   "EN-00076": {
     "author": "Margi Douglas",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Margi Douglas",
     "duration": "5 min",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/25/2025"
   },
   "EN-00070": {
     "author": "Margi Douglas",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Margi Douglas",
     "duration": "3",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/25/2025"
   },
   "EN-00071": {
     "author": "Margi Douglas",
@@ -30790,13 +30856,14 @@
   },
   "EN-00074": {
     "author": "Margi Douglas",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Margi Douglas",
     "duration": "5",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/25/2025"
   },
   "EN-00075": {
     "author": "Margi Douglas",
@@ -30811,23 +30878,25 @@
   },
   "EN-00077": {
     "author": "Margi Douglas",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Margi Douglas",
     "duration": "5",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/24/2025"
   },
   "EN-00078": {
     "author": "Margi Douglas",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Margi Douglas",
     "duration": "5",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/24/2025"
   },
   "ART-0141": {
     "author": "Marlee Alanis",
@@ -31603,7 +31672,7 @@
   },
   "EN-00383": {
     "author": "Mary Solis",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Mary Solis",
     "licenses": [
       "YuLife"
@@ -31617,7 +31686,8 @@
       "YuLife",
       "Loune.co (needs to be confirmed"
     ],
-    "version": "1"
+    "version": "1",
+    "date_created": "3/25/2025"
   },
   "EN-00384": {
     "author": "Mary Solis",
@@ -31642,7 +31712,7 @@
   },
   "EN-00385": {
     "author": "Mary Solis",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Mary Solis",
     "licenses": [
       "Passport & Co.",
@@ -31657,11 +31727,12 @@
     "client_licenses": [
       "Loune.co (needs to be confirmed"
     ],
-    "version": "1"
+    "version": "1",
+    "date_created": "3/25/2025"
   },
   "EN-00386": {
     "author": "Mary Solis",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Mary Solis",
     "licenses": [
       "YuLife"
@@ -31675,7 +31746,8 @@
       "YuLife",
       "Loune.co (needs to be confirmed"
     ],
-    "version": "1"
+    "version": "1",
+    "date_created": "3/25/2025"
   },
   "EN-00558": {
     "author": "Mary Solis",
@@ -32442,36 +32514,39 @@
   },
   "EN-00252": {
     "author": "Hailey Miller",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Hailey Miller",
     "duration": "10",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/26/2025"
   },
   "EN-00253": {
     "author": "Hailey Miller",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Hailey Miller",
     "duration": "10",
     "language": "English",
     "type": "Video",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "date_created": "3/25/2025"
   },
   "EN-00286": {
     "author": "Hailey Miller",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Hailey Miller",
     "duration": "5",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/25/2025"
   },
   "EN-00287": {
     "teacher": "Hailey Miller",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "duration": "10",
     "language": "English",
     "type": "Video",
@@ -32479,17 +32554,19 @@
     "author": "Hailey Miller",
     "references": "National Institutes of Health. (2022). Trait mindfulness, self-compassion, and self-talk: A correlational analysis of young adults. PMC. https://pmc.ncbi.nlm.nih.gov/articles/PMC9495966/ National Institutes of Health. (2023). Effects of self-compassion interventions on reducing depressive symptoms, anxiety, and stress: A meta-analysis. PMC. https://pmc.ncbi.nlm.nih.gov/articles/PMC10239723/ National Institutes of Health. (2025). Effects of self-compassion and mindfulness interventions on mental health and work-related outcomes among Japanese workers: A randomized controlled trial. PMC. https://pmc.ncbi.nlm.nih.gov/articles/PMC12994763/",
     "link": "https://app.allinonewellbeing.com/mindful-dating/videos/cultivating-self-love",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/24/2025"
   },
   "EN-00288": {
     "author": "Hailey Miller",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Hailey Miller",
     "duration": "10",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/24/2025"
   },
   "EN-00290": {
     "author": "Hailey Miller",
@@ -32594,13 +32671,14 @@
   },
   "EN-00275": {
     "author": "Diana Rilov",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Diana Rilov",
     "duration": "5",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/25/2025"
   },
   "EN-00276": {
     "author": "Diana Rilov",
@@ -32636,23 +32714,25 @@
   },
   "EN-00317": {
     "author": "Diana Rilov",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Diana Rilov",
     "duration": "5",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/26/2025"
   },
   "EN-00318": {
     "author": "Diana Rilov",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Diana Rilov",
     "duration": "5",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/25/2025"
   },
   "EN-00451": {
     "author": "Diana Rilov",
@@ -34335,7 +34415,7 @@
   },
   "EN-00295": {
     "author": "Steven Rousseau",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Justice Kelly",
     "licenses": [
       "Numbase",
@@ -34347,7 +34427,8 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/26/2025"
   },
   "EN-00367": {
     "author": "Steven Rousseau",
@@ -34369,7 +34450,7 @@
   },
   "EN-00368": {
     "author": "Steven Rousseau",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Steven Rousseau",
     "licenses": [
       "Luro Health",
@@ -34382,11 +34463,12 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/24/2025"
   },
   "EN-00370": {
     "author": "Steven Rousseau",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Steven Rousseau",
     "licenses": [
       "Luro Health",
@@ -34399,7 +34481,8 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/25/2025"
   },
   "EN-00392": {
     "author": "Steven Rousseau",
@@ -35400,7 +35483,7 @@
   },
   "EN-00196": {
     "author": "Justice Kelly",
-    "_at": "2026-08-12T22:40:55.158Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "licenses": [
       "Luro Health"
     ],
@@ -35410,7 +35493,8 @@
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "teacher": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/24/2025"
   },
   "EN-00270": {
     "author": "Justice Kelly",
@@ -35424,13 +35508,14 @@
   },
   "EN-00273": {
     "author": "Justice Kelly",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Justice Kelly",
     "duration": "10",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/25/2025"
   },
   "EN-00274": {
     "author": "Justice Kelly",
@@ -35460,7 +35545,7 @@
   },
   "EN-00297": {
     "author": "Justice Kelly",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Justice Kelly",
     "licenses": [
       "Luro Health"
@@ -35470,11 +35555,12 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/24/2025"
   },
   "EN-00298": {
     "author": "Justice Kelly",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Justice Kelly",
     "licenses": [
       "Luro Health"
@@ -35483,7 +35569,8 @@
     "duration": "10",
     "language": "English",
     "type": "Video",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "date_created": "3/25/2025"
   },
   "EN-00299": {
     "author": "Justice Kelly",
@@ -36650,13 +36737,14 @@
   },
   "EN-00309": {
     "author": "Sandy Lin",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Sandy Lin",
     "duration": "20",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/25/2025"
   },
   "EN-01502": {
     "author": "Sandy Lin",
@@ -37006,7 +37094,7 @@
   },
   "EN-00319": {
     "author": "Julia Chan",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Julia Chan",
     "licenses": [
       "Luro Health"
@@ -37022,11 +37110,12 @@
       "Licensed Videos",
       "Loune.co (needs to be confirmed"
     ],
-    "version": "1"
+    "version": "1",
+    "date_created": "3/26/2025"
   },
   "EN-00320": {
     "author": "Julia Chan",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Julia Chan",
     "duration": "15",
     "language": "English",
@@ -37039,11 +37128,12 @@
       "Solas Mind",
       "Loune.co (needs to be confirmed"
     ],
-    "version": "1"
+    "version": "1",
+    "date_created": "3/26/2025"
   },
   "EN-00321": {
     "author": "Julia Chan",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Julia Chan",
     "licenses": [
       "Luro Health"
@@ -37053,11 +37143,12 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/26/2025"
   },
   "EN-00322": {
     "author": "Julia Chan",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Julia Chan",
     "licenses": [
       "Luro Health",
@@ -37073,7 +37164,8 @@
     "client_licenses": [
       "Loune.co (needs to be confirmed"
     ],
-    "version": "1"
+    "version": "1",
+    "date_created": "3/25/2025"
   },
   "EN-00323": {
     "author": "Julia Chan",
@@ -37160,23 +37252,25 @@
   },
   "EN-00264": {
     "author": "Shab Caspara",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Shab Caspara",
     "duration": "5",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/26/2025"
   },
   "EN-00265": {
     "author": "Shab Caspara",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Shab Caspara",
     "duration": "5",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/25/2025"
   },
   "EN-00266": {
     "author": "Shab Caspara",
@@ -37191,13 +37285,14 @@
   },
   "EN-00267": {
     "author": "Shab Caspara",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Shab Caspara",
     "duration": "2",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/25/2025"
   },
   "EN-00268": {
     "author": "Shab Caspara",
@@ -37294,7 +37389,7 @@
   },
   "EN-00374": {
     "author": "Nadia Murdock",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Nadia Murdock",
     "licenses": [
       "Hapstar"
@@ -37303,7 +37398,8 @@
     "duration": "3",
     "language": "English",
     "type": "Video",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "date_created": "6/5/2024"
   },
   "EN-00375": {
     "author": "Nadia Murdock",
@@ -37321,7 +37417,7 @@
   },
   "EN-00376": {
     "author": "Nadia Murdock",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Nadia Murdock",
     "licenses": [
       "Hapstar"
@@ -37330,7 +37426,8 @@
     "duration": "3",
     "language": "English",
     "type": "Video",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "date_created": "3/24/2025"
   },
   "VID-0098": {
     "author": "Kara Schiff",
@@ -37670,13 +37767,14 @@
   },
   "EN-00103": {
     "author": "Veronica Zhang",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Veronica Zhang",
     "duration": "15 min",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/24/2025"
   },
   "EN-00115": {
     "author": "Veronica Zhang",
@@ -37800,7 +37898,7 @@
   },
   "EN-00329": {
     "author": "Gus Gosson",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Gus Gosson",
     "licenses": [
       "Walkingspree",
@@ -37811,7 +37909,8 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/11/2025"
   },
   "EN-00330": {
     "author": "Gus Gosson",
@@ -38008,7 +38107,7 @@
   },
   "EN-00387": {
     "teacher": "Tracie Osborne",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "duration": "5",
     "language": "English",
     "type": "Video",
@@ -38026,11 +38125,12 @@
       "Walkingspree",
       "Wellness360"
     ],
-    "version": "1"
+    "version": "1",
+    "date_created": "3/26/2025"
   },
   "EN-00388": {
     "author": "Tracie Osborne",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Tracie Osborne",
     "licenses": [
       "YuLife",
@@ -38046,7 +38146,8 @@
       "Hapstar",
       "Lyra Health"
     ],
-    "version": "1"
+    "version": "1",
+    "date_created": "3/24/2025"
   },
   "EN-00389": {
     "author": "Tracie Osborne",
@@ -38068,7 +38169,7 @@
   },
   "EN-00390": {
     "author": "Tracie Osborne",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Tracie Osborne",
     "licenses": [
       "YuLife"
@@ -38082,11 +38183,12 @@
       "YuLife",
       "Lyra Health"
     ],
-    "version": "1"
+    "version": "1",
+    "date_created": "3/24/2025"
   },
   "EN-00391": {
     "author": "Tracie Osborne",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Tracie Osborne",
     "licenses": [
       "YuLife"
@@ -38100,7 +38202,8 @@
       "YuLife",
       "Lyra Health"
     ],
-    "version": "1"
+    "version": "1",
+    "date_created": "3/24/2025"
   },
   "VID-0797": {
     "author": "Edwin Rivadeneryra",
@@ -38926,13 +39029,14 @@
   },
   "EN-00203": {
     "author": "Cailyn O'Donnell",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Cailyn O'Donnell",
     "duration": "10",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/25/2025"
   },
   "EN-00204": {
     "author": "Cailyn O'Donnell",
@@ -39239,23 +39343,25 @@
   },
   "EN-00105": {
     "author": "Lindsey Carothers",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Lindsey Carothers",
     "duration": "20",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/24/2025"
   },
   "EN-00106": {
     "author": "Lindsey Carothers",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Lindsey Carothers",
     "duration": "10",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/24/2025"
   },
   "EN-00261": {
     "author": "Lindsey Carothers",
@@ -39345,33 +39451,36 @@
   },
   "EN-00246": {
     "author": "Amy Shapiro",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Amy Shapiro",
     "duration": "3",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/25/2025"
   },
   "EN-00247": {
     "author": "Amy Shapiro",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Amy Shapiro",
     "duration": "3",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/25/2025"
   },
   "EN-00248": {
     "author": "Amy Shapiro",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Amy Shapiro",
     "duration": "3",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/25/2025"
   },
   "VID-0687": {
     "author": "Brecke Swan",
@@ -39412,13 +39521,14 @@
   },
   "EN-00285": {
     "author": "Brecke Swan",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Brecke Swan",
     "duration": "20",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/24/2025"
   },
   "VID-0736": {
     "author": "Mariela Alarie",
@@ -39615,7 +39725,7 @@
   },
   "EN-00325": {
     "author": "Maga Villarreal",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Maga Villarreal",
     "licenses": [
       "Healthee",
@@ -39630,11 +39740,12 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/25/2025"
   },
   "EN-00326": {
     "author": "Maga Villarreal",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Maga Villarreal",
     "licenses": [
       "Numbase",
@@ -39647,7 +39758,8 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/25/2025"
   },
   "VID-0487": {
     "author": "Leo Rising",
@@ -39730,13 +39842,14 @@
   },
   "EN-00254": {
     "author": "Brana Dane",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Brana Dane",
     "duration": "10",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/24/2025"
   },
   "EN-00255": {
     "author": "Brana Dane",
@@ -40014,7 +40127,7 @@
     "licenses": [
       "YuLife"
     ],
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "vimeo_link": "https://vimeo.com/1169566354/74cd8f34bf?share=copy&fl=sv&fe=ci",
     "duration": "5",
     "language": "English",
@@ -40026,7 +40139,8 @@
       "YuLife",
       "Lyra Health"
     ],
-    "version": "1"
+    "version": "1",
+    "date_created": "5/30/2024"
   },
   "VLB-0340": {
     "licenses": [
@@ -40064,14 +40178,15 @@
       "Walkingspree",
       "Wellness360"
     ],
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "vimeo_link": "https://vimeo.com/1169567604/8ab69a2117?share=copy&fl=sv&fe=ci",
     "duration": "5",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "author": "Dan'yelle Williamson",
-    "teacher": "Dan'yelle Williamson"
+    "teacher": "Dan'yelle Williamson",
+    "date_created": "5/30/2024"
   },
   "VID-0028": {
     "licenses": [
@@ -57614,10 +57729,11 @@
   },
   "EN-00135": {
     "peer_reviewer": "Alex Scolari",
-    "_at": "2026-08-12T22:52:25.610Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "language": "English",
     "teacher": "Alex Scolari",
-    "type": "Video"
+    "type": "Video",
+    "date_created": "3/24/2025"
   },
   "EN-00169": {
     "peer_reviewer": "Anthony Crouchelli",
@@ -57826,10 +57942,11 @@
   },
   "EN-00121": {
     "peer_reviewer": "Alex Scolari",
-    "_at": "2026-08-12T22:52:25.610Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "language": "English",
     "teacher": "Alex Scolari",
-    "type": "Video"
+    "type": "Video",
+    "date_created": "3/26/2025"
   },
   "EN-00133": {
     "peer_reviewer": "Alex Scolari",
@@ -58260,10 +58377,11 @@
   },
   "EN-00301": {
     "peer_reviewer": "Justice Kelly",
-    "_at": "2026-08-12T22:52:25.610Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "language": "English",
     "teacher": "Justice Kelly",
-    "type": "Video"
+    "type": "Video",
+    "date_created": "3/25/2025"
   },
   "EN-00371": {
     "peer_reviewer": "Steven Rousseau",
@@ -58462,11 +58580,12 @@
   },
   "EN-00031": {
     "peer_reviewer": "Dr. Ellie Cobb",
-    "_at": "2026-08-12T22:52:25.610Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Dr. Ellie Cobb",
     "language": "English",
     "author": "Dr. Ellie Cobb",
-    "type": "Video"
+    "type": "Video",
+    "date_created": "3/26/2025"
   },
   "EN-01927": {
     "peer_reviewer": "Katie Attubato",
@@ -58589,10 +58708,11 @@
   },
   "EN-00310": {
     "peer_reviewer": "Sandy Lin",
-    "_at": "2026-08-12T22:52:25.610Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "teacher": "Sandy Lin",
     "language": "English",
-    "type": "Video"
+    "type": "Video",
+    "date_created": "3/25/2025"
   },
   "EN-00439": {
     "peer_reviewer": "Sabrih Short",
@@ -60652,11 +60772,12 @@
   },
   "EN-00136": {
     "peer_reviewer": "Alex Scolari",
-    "_at": "2026-08-13T15:41:54.896Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "language": "English",
     "teacher": "Alex Scolari",
     "type": "Video",
-    "author": "Alex Scolari"
+    "author": "Alex Scolari",
+    "date_created": "3/25/2025"
   },
   "EN-00211": {
     "peer_reviewer": "Briana Kurtz",
@@ -62436,11 +62557,12 @@
   },
   "EN-00283": {
     "peer_reviewer": "Brecke Swan",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "language": "English",
     "author": "Brecke Swan",
     "teacher": "Brecke Swan",
-    "type": "Video"
+    "type": "Video",
+    "date_created": "3/24/2025"
   },
   "EN-01565": {
     "peer_reviewer": "Mila Toribio",
@@ -63087,11 +63209,12 @@
   },
   "EN-00125": {
     "peer_reviewer": "Alex Scolari",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:47:52.079Z",
     "language": "English",
     "teacher": "Alex Scolari",
     "type": "Video",
-    "author": "Alex Scolari"
+    "author": "Alex Scolari",
+    "date_created": "3/24/2025"
   },
   "EN-00245": {
     "peer_reviewer": "Hollis Williams",
