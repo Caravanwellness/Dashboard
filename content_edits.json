@@ -38154,7 +38154,7 @@
   },
   "EN-00389": {
     "author": "Tracie Osborne",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:57:52.334Z",
     "teacher": "Tracie Osborne",
     "licenses": [
       "YuLife"
@@ -38168,7 +38168,8 @@
       "YuLife",
       "Lyra Health"
     ],
-    "version": "1"
+    "version": "1",
+    "date_created": "6/2"
   },
   "EN-00390": {
     "author": "Tracie Osborne",
