@@ -38663,14 +38663,15 @@
   },
   "EN-00017": {
     "author": "Zohar Adner",
-    "_at": "2026-08-12T22:40:55.158Z",
+    "_at": "2026-08-13T20:11:17.122Z",
     "teacher": "Zohar Adner",
     "notes": "",
     "duration": "2",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Zohar Adner",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/7/"
   },
   "VID-0528": {
     "author": "Victoria Davis",
