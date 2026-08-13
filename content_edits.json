@@ -52024,9 +52024,10 @@
   },
   "EXT-0031": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T19:51:38.073Z",
+    "_at": "2026-08-13T17:43:27.600Z",
     "date_created": "10/29/2024",
-    "category": "Financial Wellness"
+    "category": "Financial Wellness",
+    "duration": "821"
   },
   "EXT-0036": {
     "author": "Madeline McGuire",
@@ -52290,18 +52291,20 @@
   },
   "EXT-0042": {
     "author": "Madeline McGuire",
-    "_at": "2026-08-11T19:26:33.131Z",
+    "_at": "2026-08-13T17:43:27.600Z",
     "peer_reviewer": "Jemma Park",
     "date_created": "10/23/2024",
     "review_date": "4/30/2025",
-    "category": "Investing 101"
+    "category": "Investing 101",
+    "duration": "1159"
   },
   "EXT-0050": {
     "author_creds": "",
-    "_at": "2026-08-10T19:51:38.073Z",
+    "_at": "2026-08-13T17:43:27.600Z",
     "author": "Emily Wilson",
     "date_created": "10/18/2024",
-    "category": "Financial Stress + Gaining Stabiltiy"
+    "category": "Financial Stress + Gaining Stabiltiy",
+    "duration": "716"
   },
   "EXT-0060": {
     "author": "Madeline McGuire",
@@ -54924,27 +54927,31 @@
   },
   "EXT-0078": {
     "author": "Madeline McGuire",
-    "_at": "2026-08-10T19:51:38.073Z",
+    "_at": "2026-08-13T17:43:27.600Z",
     "date_created": "11/18/2024",
-    "category": "Investing 101"
+    "category": "Investing 101",
+    "duration": "1091"
   },
   "EXT-0080": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T19:51:38.073Z",
+    "_at": "2026-08-13T17:43:27.600Z",
     "date_created": "10/15/2024",
-    "category": "Introduction to Budgeting"
+    "category": "Introduction to Budgeting",
+    "duration": "153"
   },
   "EXT-0095": {
     "author": "Madeline McGuire",
-    "_at": "2026-08-10T19:51:38.073Z",
+    "_at": "2026-08-13T17:43:27.600Z",
     "date_created": "10/17/2024",
-    "category": "Advanced Budgeting Strategies"
+    "category": "Advanced Budgeting Strategies",
+    "duration": "833"
   },
   "EXT-0098": {
     "author": "Emily Wilson",
-    "_at": "2026-08-10T19:51:38.073Z",
+    "_at": "2026-08-13T17:43:27.600Z",
     "date_created": "10/24/2024",
-    "category": "Advanced Budgeting Strategies"
+    "category": "Advanced Budgeting Strategies",
+    "duration": "685"
   },
   "EXT-0102": {
     "author": "Emily Wilson",
@@ -54954,40 +54961,47 @@
   },
   "EXT-0383": {
     "author": "Madeline McGuire",
-    "_at": "2026-08-07T17:27:29.544Z",
-    "date_created": "10/17/2024"
+    "_at": "2026-08-13T17:43:27.600Z",
+    "date_created": "10/17/2024",
+    "duration": "1086"
   },
   "EXT-0388": {
     "author": "Madeline McGuire",
-    "_at": "2026-08-07T17:27:29.544Z",
-    "date_created": "10/15/2024"
+    "_at": "2026-08-13T17:43:27.600Z",
+    "date_created": "10/15/2024",
+    "duration": "905"
   },
   "EXT-0395": {
     "author": "Madeline McGuire",
-    "_at": "2026-08-07T17:27:29.544Z",
-    "date_created": "10/21/2024"
+    "_at": "2026-08-13T17:43:27.600Z",
+    "date_created": "10/21/2024",
+    "duration": "914"
   },
   "EXT-0399": {
     "author": "Madeline McGuire",
-    "_at": "2026-08-07T17:27:29.544Z",
-    "date_created": "10/17/2024"
+    "_at": "2026-08-13T17:43:27.600Z",
+    "date_created": "10/17/2024",
+    "duration": "1150"
   },
   "EXT-0401": {
     "author": "Emily Wilson",
-    "_at": "2026-08-07T17:27:29.544Z",
-    "date_created": "10/23/2024"
+    "_at": "2026-08-13T17:43:27.600Z",
+    "date_created": "10/23/2024",
+    "duration": "754"
   },
   "EXT-0410": {
     "author": "Emily Wilson",
-    "_at": "2026-08-07T17:27:29.544Z",
-    "date_created": "10/23/2024"
+    "_at": "2026-08-13T17:43:27.600Z",
+    "date_created": "10/23/2024",
+    "duration": "927"
   },
   "EXT-1275": {
     "author": "Madeline McGuire",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-13T17:43:27.600Z",
     "date_created": "10/30/2024",
     "language": "English",
-    "category": "Financial Stress + Gaining Stabiltiy"
+    "category": "Financial Stress + Gaining Stabiltiy",
+    "duration": "843"
   },
   "ZH-00006": {
     "language": "Chinese",
