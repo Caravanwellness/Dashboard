@@ -6262,21 +6262,23 @@
   },
   "EN-00885": {
     "teacher": "Dr. Joe Feuerstein",
-    "_at": "2026-08-12T14:56:42.811Z",
+    "_at": "2026-08-13T19:53:52.021Z",
     "duration": "5",
     "language": "English (UK)",
     "type": "Video",
     "peer_reviewer": "Dr. Joe Feuerstein",
-    "author": "Dr. Joe Feuerstein"
+    "author": "Dr. Joe Feuerstein",
+    "date_created": "3/4/2025"
   },
   "EN-00886": {
     "teacher": "Dr. Joe Feuerstein",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-13T19:53:52.021Z",
     "author": "Dr. Fahim Pyarali",
     "duration": "5",
     "language": "English (UK)",
     "type": "Video",
-    "peer_reviewer": "Dr. Joe Feuerstein"
+    "peer_reviewer": "Dr. Joe Feuerstein",
+    "date_created": "3/4/2025"
   },
   "EN-00887": {
     "author": "Dr. Joe Feuerstein",
@@ -6298,7 +6300,7 @@
   },
   "EN-00889": {
     "teacher": "Dr. Joe Feuerstein",
-    "_at": "2026-08-12T14:56:42.811Z",
+    "_at": "2026-08-13T19:53:52.021Z",
     "duration": "5",
     "language": "English (UK)",
     "licenses": [
@@ -6306,7 +6308,8 @@
     ],
     "type": "Video",
     "peer_reviewer": "Dr. Joe Feuerstein",
-    "author": "Dr. Joe Feuerstein"
+    "author": "Dr. Joe Feuerstein",
+    "date_created": "3/4/2025"
   },
   "EN-00890": {
     "teacher": "Dr. Joe Feuerstein",
@@ -6472,12 +6475,13 @@
   },
   "EN-01105": {
     "author": "Dr. Joe Feuerstein",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-13T19:53:52.021Z",
     "teacher": "Dr. Joe Feuerstein",
     "duration": "3",
     "language": "English (UK)",
     "type": "Video",
-    "peer_reviewer": "Dr. Joe Feuerstein"
+    "peer_reviewer": "Dr. Joe Feuerstein",
+    "date_created": "3/4/2025"
   },
   "EN-01106": {
     "author": "Dr. Joe Feuerstein",
@@ -9495,7 +9499,7 @@
   },
   "EN-00912": {
     "teacher": "Kaitlyn Bruneau",
-    "_at": "2026-08-12T22:40:55.158Z",
+    "_at": "2026-08-13T19:53:52.021Z",
     "licenses": [
       "Hapstar"
     ],
@@ -9509,7 +9513,8 @@
       "Hapstar",
       "Lyra Health"
     ],
-    "version": "1"
+    "version": "1",
+    "date_created": "3/4/2025"
   },
   "EN-00913": {
     "author": "Kaitlyn Bruneau",
@@ -9547,7 +9552,7 @@
   },
   "EN-00915": {
     "author": "Kaitlyn Bruneau",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-13T19:53:52.021Z",
     "teacher": "Kaitlyn Bruneau",
     "licenses": [
       "Hapstar"
@@ -9556,11 +9561,12 @@
     "duration": "5",
     "language": "English",
     "type": "Video",
-    "peer_reviewer": "Kaitlyn Bruneau"
+    "peer_reviewer": "Kaitlyn Bruneau",
+    "date_created": "3/4/2025"
   },
   "EN-00916": {
     "author": "Kaitlyn Bruneau",
-    "_at": "2026-08-12T22:40:55.158Z",
+    "_at": "2026-08-13T19:53:52.021Z",
     "teacher": "Kaitlyn Bruneau",
     "licenses": [
       "Hapstar"
@@ -9570,11 +9576,12 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Kaitlyn Bruneau",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/4/2025"
   },
   "EN-00917": {
     "teacher": "Kaitlyn Bruneau",
-    "_at": "2026-08-12T22:40:55.158Z",
+    "_at": "2026-08-13T19:53:52.021Z",
     "licenses": [
       "Hapstar"
     ],
@@ -9584,11 +9591,12 @@
     "type": "Video",
     "peer_reviewer": "Kaitlyn Bruneau",
     "author": "Kaitlyn Bruneau",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/4/2025"
   },
   "EN-00918": {
     "author": "Kaitlyn Bruneau",
-    "_at": "2026-08-11T20:11:02.822Z",
+    "_at": "2026-08-13T19:53:52.021Z",
     "teacher": "Kaitlyn Bruneau",
     "licenses": [
       "Hapstar"
@@ -9597,7 +9605,8 @@
     "duration": "5",
     "language": "English",
     "type": "Video",
-    "peer_reviewer": "Kaitlyn Bruneau"
+    "peer_reviewer": "Kaitlyn Bruneau",
+    "date_created": "3/4/2025"
   },
   "EN-01207": {
     "teacher": "Kaitlyn Bruneau",
@@ -14059,7 +14068,7 @@
   },
   "EN-00939": {
     "teacher": "Dr. Cherilyn Davis",
-    "_at": "2026-08-12T22:40:55.158Z",
+    "_at": "2026-08-13T19:53:52.021Z",
     "author": "Dr. Cherilyn Davis",
     "licenses": [
       "Wellness360"
@@ -14069,11 +14078,12 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Dr. Cherilyn Davis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/4/2025"
   },
   "EN-00940": {
     "author": "Dr. Cherilyn Davis",
-    "_at": "2026-08-12T22:40:55.158Z",
+    "_at": "2026-08-13T19:53:52.021Z",
     "teacher": "Dr. Cherilyn Davis",
     "licenses": [
       "Wellness360"
@@ -14083,7 +14093,8 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Dr. Cherilyn Davis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/4/2025"
   },
   "EN-00941": {
     "author": "Dr. Cherilyn Davis",
@@ -14105,7 +14116,7 @@
   },
   "EN-00942": {
     "author": "Dr. Cherilyn Davis",
-    "_at": "2026-08-12T22:40:55.158Z",
+    "_at": "2026-08-13T19:53:52.021Z",
     "teacher": "Dr. Cherilyn Davis",
     "duration": "2",
     "language": "English",
@@ -14114,7 +14125,8 @@
     "client_licenses": [
       "Lyra Health"
     ],
-    "version": "1"
+    "version": "1",
+    "date_created": "3/4/2025"
   },
   "EN-00943": {
     "author": "Dr. Cherilyn Davis",
@@ -14132,7 +14144,7 @@
   },
   "EN-00944": {
     "author": "Dr. Cherilyn Davis",
-    "_at": "2026-08-12T22:40:55.158Z",
+    "_at": "2026-08-13T19:53:52.021Z",
     "teacher": "Dr. Cherilyn Davis",
     "duration": "2",
     "language": "English",
@@ -14141,7 +14153,8 @@
     "client_licenses": [
       "Lyra Health"
     ],
-    "version": "1"
+    "version": "1",
+    "date_created": "3/4/2025"
   },
   "EN-00945": {
     "author": "Dr. Cherilyn Davis",
@@ -14159,7 +14172,7 @@
   },
   "EN-00946": {
     "author": "Dr. Cherilyn Davis",
-    "_at": "2026-08-12T22:40:55.158Z",
+    "_at": "2026-08-13T19:53:52.021Z",
     "teacher": "Dr. Cherilyn Davis",
     "duration": "2",
     "language": "English",
@@ -14168,11 +14181,12 @@
     "client_licenses": [
       "Lyra Health"
     ],
-    "version": "1"
+    "version": "1",
+    "date_created": "3/4/2025"
   },
   "EN-00947": {
     "author": "Dr. Cherilyn Davis",
-    "_at": "2026-08-12T22:40:55.158Z",
+    "_at": "2026-08-13T19:53:52.021Z",
     "teacher": "Dr. Cherilyn Davis",
     "duration": "2",
     "language": "English",
@@ -14181,7 +14195,8 @@
     "client_licenses": [
       "Lyra Health"
     ],
-    "version": "1"
+    "version": "1",
+    "date_created": "3/4/2025"
   },
   "EN-00948": {
     "author": "Dr. Cherilyn Davis",
@@ -14198,7 +14213,7 @@
   },
   "EN-00949": {
     "author": "Dr. Cherilyn Davis",
-    "_at": "2026-08-12T22:40:55.158Z",
+    "_at": "2026-08-13T19:53:52.021Z",
     "teacher": "Dr. Cherilyn Davis",
     "duration": "2",
     "language": "English",
@@ -14207,7 +14222,8 @@
     "client_licenses": [
       "Lyra Health"
     ],
-    "version": "1"
+    "version": "1",
+    "date_created": "3/4/2025"
   },
   "EN-00950": {
     "author": "Dr. Cherilyn Davis",
@@ -57241,11 +57257,12 @@
   },
   "EN-01807": {
     "peer_reviewer": "Dr. Cherilyn Davis",
-    "_at": "2026-08-12T22:52:25.610Z",
+    "_at": "2026-08-13T19:53:52.021Z",
     "teacher": "Dr. Cherilyn Davis",
     "language": "English",
     "author": "Dr. Cherilyn Davis",
-    "type": "Video"
+    "type": "Video",
+    "date_created": "6/3/2026"
   },
   "FR-00007": {
     "peer_reviewer": "Cedric St. Croix",
@@ -57852,11 +57869,12 @@
   },
   "EN-01817": {
     "peer_reviewer": "Dr. Cherilyn Davis",
-    "_at": "2026-08-12T22:52:25.610Z",
+    "_at": "2026-08-13T19:53:52.021Z",
     "teacher": "Dr. Cherilyn Davis",
     "language": "English",
     "author": "Dr. Cherilyn Davis",
-    "type": "Video"
+    "type": "Video",
+    "date_created": "6/3/2026"
   },
   "PT-00046": {
     "peer_reviewer": "Mila Toribio",
@@ -58148,11 +58166,12 @@
   },
   "EN-01806": {
     "peer_reviewer": "Dr. Cherilyn Davis",
-    "_at": "2026-08-12T22:52:25.610Z",
+    "_at": "2026-08-13T19:53:52.021Z",
     "teacher": "Dr. Cherilyn Davis",
     "language": "English",
     "author": "Dr. Cherilyn Davis",
-    "type": "Video"
+    "type": "Video",
+    "date_created": "6/3/2026"
   },
   "FR-00002": {
     "peer_reviewer": "Candice White-Parker",
@@ -58822,11 +58841,12 @@
   },
   "EN-01804": {
     "peer_reviewer": "Dr. Cherilyn Davis",
-    "_at": "2026-08-12T22:52:25.610Z",
+    "_at": "2026-08-13T19:53:52.021Z",
     "teacher": "Dr. Cherilyn Davis",
     "language": "English",
     "author": "Dr. Cherilyn Davis",
-    "type": "Video"
+    "type": "Video",
+    "date_created": "6/3/2026"
   },
   "ES-00044": {
     "peer_reviewer": "Jon Anthony (Tony) Meyer",
@@ -60871,11 +60891,12 @@
   },
   "EN-01112": {
     "peer_reviewer": "Ana Gaston",
-    "_at": "2026-08-12T22:52:25.610Z",
+    "_at": "2026-08-13T19:53:52.021Z",
     "teacher": "Ana Gaston",
     "language": "English",
     "author": "Ana Gaston",
-    "type": "Video"
+    "type": "Video",
+    "date_created": "5/8/2025"
   },
   "ES-00054": {
     "peer_reviewer": "Jon Anthony (Tony) Meyer",
