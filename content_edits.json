@@ -32305,7 +32305,7 @@
   },
   "EN-00010": {
     "author": "Hailey Miller",
-    "_at": "2026-08-12T22:40:55.158Z",
+    "_at": "2026-08-13T20:25:25.091Z",
     "teacher": "Hailey Miller",
     "category": "Relationships",
     "notes": "",
@@ -32316,7 +32316,8 @@
     "client_licenses": [
       "Spectrum.life"
     ],
-    "version": "1"
+    "version": "1",
+    "date_created": "3/2"
   },
   "EN-00011": {
     "teacher": "Hailey Miller",
