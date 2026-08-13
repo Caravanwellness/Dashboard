@@ -1614,6 +1614,11 @@ async function handleImportFile(file) {
             if (rowClient && !newByTitle[key].client_licenses.includes(rowClient)) newByTitle[key].client_licenses.push(rowClient);
           } else {
             const item = { title: rawTitle, type, language: lang, category, teacher, duration, client_licenses: rowClient ? [rowClient] : [] };
+            // Carry the file's own ID through instead of discarding it — rowId
+            // only got us here because it didn't match anything already in the
+            // dashboard, not because it doesn't exist. The server (save-content.js)
+            // uses it as long as it doesn't collide with something already saved.
+            if (rowId) item.id = rowId;
             if (url.includes('vimeo')) item.vimeo_link = url;
             else if (url) item.link = url;
             const dupeMatch = findDuplicateMatch(rawTitle, lang, type, null);
@@ -1695,7 +1700,10 @@ async function confirmImport() {
     for (const d of (possibleDupes||[]).filter(d=>d.decision==='merge')) {
       const target = BY_ID[d.matchId];
       if (!target) continue;
-      const { client_licenses: mergeLics, ...restFields } = d.item;
+      // Exclude id explicitly (not just implicitly via "target already has one")
+      // now that a possible-dupe candidate can carry its own file-provided id —
+      // a merge must never overwrite the target's real id with the source row's.
+      const { client_licenses: mergeLics, id: _srcId, ...restFields } = d.item;
       for (const c of (mergeLics||[])) {
         if (!licenseAdds[d.matchId]) licenseAdds[d.matchId] = [];
         if (!licenseAdds[d.matchId].includes(c)) licenseAdds[d.matchId].push(c);

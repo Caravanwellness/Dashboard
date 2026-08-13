@@ -53,6 +53,10 @@ export default async function handler(req, res) {
           return isNaN(n) ? max : Math.max(max, n);
         }, 0) + 1;
 
+        // Read fresh each attempt (this whole block is inside the retry loop),
+        // so a concurrent import's IDs are already accounted for.
+        const usedIds = new Set(existing.map(i => i.id).filter(Boolean));
+
         let added = 0, merged = 0;
         for (const item of newItems) {
           const key = (item.title||'').toLowerCase().trim();
@@ -64,8 +68,13 @@ export default async function handler(req, res) {
             }
             merged++;
           } else {
-            const id = `EXT-${String(nextId++).padStart(4, '0')}`;
-            const entry = { id, ...item, _addedAt: new Date().toISOString(), _addedBy: userName };
+            // Prefer the imported row's own ID when it has one and it isn't
+            // already taken here — falls back to an auto EXT- id otherwise,
+            // same as for rows that never had an ID to begin with.
+            const { id: rowId, ...rest } = item;
+            const id = rowId && !usedIds.has(rowId) ? rowId : `EXT-${String(nextId++).padStart(4, '0')}`;
+            usedIds.add(id);
+            const entry = { ...rest, id, _addedAt: new Date().toISOString(), _addedBy: userName };
             existing.push(entry);
             byTitle[key] = entry;
             added++;
