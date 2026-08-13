@@ -362,9 +362,10 @@ textarea.field-edit { resize: vertical; }
   <div style="background:white;border-radius:14px;padding:24px;max-width:420px;width:90%;box-shadow:0 12px 40px rgba(0,0,0,.25)">
     <h3 style="margin:0 0 10px;font-size:15px;font-weight:700;color:#1a1a2e">Possible duplicate</h3>
     <p id="dupeConfirmMsg" style="font-size:13px;color:#555;margin:0 0 18px;line-height:1.5"></p>
-    <div style="display:flex;gap:10px;justify-content:flex-end">
-      <button onclick="_dupeConfirmResolve(false)" style="padding:9px 16px;border:1px solid #e0e0e0;border-radius:7px;background:white;cursor:pointer;font-size:13px;color:#666">Undo edit</button>
-      <button onclick="_dupeConfirmResolve(true)" style="padding:9px 16px;background:#6366f1;color:white;border:none;border-radius:7px;font-weight:700;font-size:13px;cursor:pointer">Save anyway</button>
+    <div style="display:flex;gap:10px;justify-content:flex-end;flex-wrap:wrap">
+      <button onclick="_dupeConfirmResolve('cancel')" style="padding:9px 16px;border:1px solid #e0e0e0;border-radius:7px;background:white;cursor:pointer;font-size:13px;color:#666">Undo edit</button>
+      <button id="dupeConfirmMergeBtn" onclick="_dupeConfirmResolve('merge')" style="padding:9px 16px;border:1px solid #6366f1;border-radius:7px;background:white;cursor:pointer;font-size:13px;color:#6366f1;font-weight:600">Merge</button>
+      <button onclick="_dupeConfirmResolve('confirm')" style="padding:9px 16px;background:#6366f1;color:white;border:none;border-radius:7px;font-weight:700;font-size:13px;cursor:pointer">Save anyway</button>
     </div>
   </div>
 </div>
@@ -1328,12 +1329,16 @@ function handleImportDrop(e) {
 // anyway". Re-render (not just a style toggle) keeps each button's active
 // state driven by the single source of truth in _importParsed.possibleDupes,
 // so there's no separate DOM state that could drift out of sync with it.
+function dupeDecisionBtn(i, decision, label, current) {
+  const on = decision === current;
+  return `<button type="button" onclick="setDupeDecision(${i},'${decision}')" style="padding:5px 10px;border-radius:6px;font-size:11px;cursor:pointer;border:1px solid ${on?'#6366f1':'#e0e0e0'};background:${on?'#eef0ff':'white'};color:${on?'#6366f1':'#666'};font-weight:${on?'700':'500'}">${label}</button>`;
+}
 function renderDupeReviewHtml() {
   const dupes = (_importParsed && _importParsed.possibleDupes) || [];
   if (!dupes.length) return '';
   return `<div style="margin-top:14px;padding-top:12px;border-top:1px solid #e0eaff">
     <div style="font-weight:700;color:#1a1a2e;margin-bottom:6px">⚠ ${dupes.length} possible duplicate${dupes.length===1?'':'s'} — review before adding</div>
-    <div style="color:#666;font-size:12px;margin-bottom:8px">Same title, language, and type as something already in the dashboard.</div>
+    <div style="color:#666;font-size:12px;margin-bottom:8px">Same title, language, and type as something already in the dashboard. Merge folds this row's data (and client tag) into the existing item instead of adding a new one — never overwrites a field the existing item already has.</div>
     ${dupes.map((d,i)=>`
       <div style="display:flex;justify-content:space-between;align-items:center;gap:10px;padding:7px 0;border-top:1px solid #e8ecff">
         <div style="flex:1;min-width:0">
@@ -1341,8 +1346,9 @@ function renderDupeReviewHtml() {
           <div style="color:#888;font-size:11px">${esc(d.item.language)} · ${esc(d.item.type)} — matches <code>${esc(d.matchId)}</code></div>
         </div>
         <div style="display:flex;gap:4px;flex-shrink:0">
-          <button type="button" onclick="setDupeDecision(${i},'skip')" style="padding:5px 10px;border-radius:6px;font-size:11px;cursor:pointer;border:1px solid ${d.decision==='skip'?'#6366f1':'#e0e0e0'};background:${d.decision==='skip'?'#eef0ff':'white'};color:${d.decision==='skip'?'#6366f1':'#666'};font-weight:${d.decision==='skip'?'700':'500'}">Skip</button>
-          <button type="button" onclick="setDupeDecision(${i},'add')" style="padding:5px 10px;border-radius:6px;font-size:11px;cursor:pointer;border:1px solid ${d.decision==='add'?'#6366f1':'#e0e0e0'};background:${d.decision==='add'?'#eef0ff':'white'};color:${d.decision==='add'?'#6366f1':'#666'};font-weight:${d.decision==='add'?'700':'500'}">Add anyway</button>
+          ${dupeDecisionBtn(i,'skip','Skip',d.decision)}
+          ${dupeDecisionBtn(i,'merge','Merge',d.decision)}
+          ${dupeDecisionBtn(i,'add','Add anyway',d.decision)}
         </div>
       </div>
     `).join('')}
@@ -1426,7 +1432,7 @@ async function handleImportFile(file) {
     // sharing the exact same title text). So this indexes ALL items sharing a
     // title, not just the last one processed.
     const byTitleIdx = {};
-    ALL.forEach(i => {
+    visibleAll().forEach(i => {
       const k = (i.title||'').toLowerCase().trim();
       if (!byTitleIdx[k]) byTitleIdx[k] = [];
       byTitleIdx[k].push(i);
@@ -1664,6 +1670,28 @@ async function confirmImport() {
         fieldUpdates.push({ id: u.id, field: u.field, value: u.value });
       }
     }
+
+    // Rows marked "Merge" fold their data into the matched existing item
+    // instead of becoming a separate row: client license gets added, and any
+    // field the row has that the existing item is missing gets filled in.
+    // Never overwrites a field the existing item already has.
+    for (const d of (possibleDupes||[]).filter(d=>d.decision==='merge')) {
+      const target = BY_ID[d.matchId];
+      if (!target) continue;
+      const { client_licenses: mergeLics, ...restFields } = d.item;
+      for (const c of (mergeLics||[])) {
+        if (!licenseAdds[d.matchId]) licenseAdds[d.matchId] = [];
+        if (!licenseAdds[d.matchId].includes(c)) licenseAdds[d.matchId].push(c);
+        const cur = _licenses[d.matchId] || [];
+        if (!cur.includes(c)) _licenses[d.matchId] = [...cur, c];
+      }
+      for (const [field, val] of Object.entries(restFields)) {
+        if (!val) continue;
+        const cur = String(lv(target, field) || '').trim();
+        if (!cur) fieldUpdates.push({ id: d.matchId, field, value: val });
+      }
+    }
+
     const credsUpdates = Object.entries(credsByName).map(([name, value]) => ({ name, field: 'creds', value }));
 
     const results = await Promise.all([
@@ -1828,6 +1856,15 @@ function cleanTitle(title) {
   return String(title||'').replace(/^\d+\s*[Mm]in\s+/, '');
 }
 
+// A merged-away item (see mergeIntoExisting()) stays in ALL/BY_ID so its ID
+// still resolves — content_edits, license history, etc. can keep referencing
+// it — but every user-facing listing should treat it as gone. visibleAll()
+// is that filtered view; ALL itself is still the right thing to use for
+// identity lookups (BY_ID) and cross-item bulk field ops that intentionally
+// don't care about hidden state (e.g. renameCreator).
+function isHidden(item) { return !!lv(item,'_hidden'); }
+function visibleAll() { return ALL.filter(it => !isHidden(it)); }
+
 function normDupeTitle(s) {
   return String(s||'').toLowerCase().trim().replace(/[^a-z0-9]+/g,' ').trim();
 }
@@ -1842,7 +1879,7 @@ function findDuplicateMatch(title, language, type, excludeId) {
   if (!nt) return null;
   const nl  = String(language||'').toLowerCase().trim();
   const nty = String(type||'').toLowerCase().trim();
-  return ALL.find(it =>
+  return visibleAll().find(it =>
     it.id !== excludeId &&
     normDupeTitle(lv(it,'title')) === nt &&
     String(lv(it,'language')||'').toLowerCase().trim() === nl &&
@@ -1856,22 +1893,26 @@ const REVIEW_SET  = new Set(['Article','Infographic','Video']);
 
 // ── Duplicate-on-edit confirmation ────────────────────────────────────────────
 const DUPE_CHECK_FIELDS = new Set(['title','language','type']);
-let _dupeConfirmCtx = null; // { onConfirm, onCancel } while the modal is open
+let _dupeConfirmCtx = null; // { onConfirm, onCancel, onMerge } while the modal is open
 
-function confirmDupeEdit(matchItem, onConfirm, onCancel) {
+function confirmDupeEdit(matchItem, onConfirm, onCancel, onMerge) {
   _cancelPendingDupeConfirm(); // resolve any prior prompt (shouldn't normally overlap) before opening a new one
-  _dupeConfirmCtx = { onConfirm, onCancel };
+  _dupeConfirmCtx = { onConfirm, onCancel, onMerge };
   document.getElementById('dupeConfirmMsg').innerHTML =
     `This matches <strong>${esc(matchItem.id)}</strong> — "${esc(lv(matchItem,'title'))}" ` +
-    `(${esc(lv(matchItem,'language')||'English')}, ${esc(lv(matchItem,'type'))}), already in the dashboard. Save this change anyway, or undo it?`;
+    `(${esc(lv(matchItem,'language')||'English')}, ${esc(lv(matchItem,'type'))}), already in the dashboard. ` +
+    `Save this change anyway, merge this item into ${esc(matchItem.id)}, or undo the edit?`;
+  document.getElementById('dupeConfirmMergeBtn').textContent = `Merge into ${matchItem.id}`;
   document.getElementById('dupeConfirmModal').style.display = 'flex';
 }
-function _dupeConfirmResolve(proceed) {
+function _dupeConfirmResolve(action) {
   const ctx = _dupeConfirmCtx;
   document.getElementById('dupeConfirmModal').style.display = 'none';
   _dupeConfirmCtx = null;
   if (!ctx) return;
-  if (proceed) ctx.onConfirm(); else ctx.onCancel();
+  if (action === 'confirm') ctx.onConfirm();
+  else if (action === 'merge') ctx.onMerge();
+  else ctx.onCancel();
 }
 // Called when the panel closes or switches items while the prompt is still up —
 // defaults to undoing the edit rather than leaving it saved-nowhere-but-in-the-input.
@@ -1881,6 +1922,55 @@ function _cancelPendingDupeConfirm() {
   const ctx = _dupeConfirmCtx;
   _dupeConfirmCtx = null;
   ctx.onCancel();
+}
+
+// Folds `loser` into `keeper`: any field blank on the keeper gets filled from
+// the loser, client_licenses are unioned, then the loser is flagged _hidden —
+// every listing (table, exports, creator index, client counts, etc.) filters
+// on that via visibleAll(), so it disappears from view without an actual
+// delete capability, which this app has never had (see conversation history —
+// every prior cleanup went through a locally-run script with git push access,
+// not something safe to expose as a one-click, unsupervised action).
+async function mergeIntoExisting(loserItem, keeperItem) {
+  const bulk = [];
+  const skipFields = new Set(['id','type','_at','_hidden','_merged_into','client_licenses']);
+
+  for (const [field, val] of Object.entries(loserItem)) {
+    if (skipFields.has(field)) continue;
+    const lval = lv(loserItem, field); // respects any unsaved-but-flushed edit overlay
+    const blank = v => v===undefined || v===null || (Array.isArray(v) && !v.length) || (typeof v==='string' && !v.trim());
+    if (blank(lval)) continue;
+    if (!blank(lv(keeperItem, field))) continue; // never clobber something the keeper already has
+    if (!edits[keeperItem.id]) edits[keeperItem.id] = {};
+    edits[keeperItem.id][field] = lval;
+    bulk.push({ id: keeperItem.id, field, value: lval });
+  }
+
+  const keeperLics = gE(keeperItem.id,'licenses', keeperItem.client_licenses||[]);
+  const loserLics  = gE(loserItem.id,'licenses', loserItem.client_licenses||[]);
+  const newLics    = loserLics.filter(c=>!keeperLics.includes(c));
+  if (newLics.length) {
+    _licenses[keeperItem.id] = [...keeperLics, ...newLics];
+    await _flushLicense(keeperItem.id, newLics, []);
+  }
+
+  if (!edits[loserItem.id]) edits[loserItem.id] = {};
+  edits[loserItem.id]._hidden = true;
+  edits[loserItem.id]._merged_into = keeperItem.id;
+  bulk.push({ id: loserItem.id, field: '_hidden', value: true });
+  bulk.push({ id: loserItem.id, field: '_merged_into', value: keeperItem.id });
+
+  if (bulk.length) {
+    await fetch('/api/save-edits', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', ...authHeader() },
+      body: JSON.stringify({ bulk, message: `Merge ${loserItem.id} into ${keeperItem.id}` }),
+    });
+  }
+  reRow(keeperItem.id);
+  reRow(loserItem.id);
+  seedFilters();
+  applyFilters();
 }
 
 // ── Colors ────────────────────────────────────────────────────────────────────
@@ -1955,7 +2045,7 @@ async function doAiSearch() {
     const cats = new Set(d.categories || []);
     const types= new Set(d.types || []);
 
-    const matched = ALL.filter(item => {
+    const matched = visibleAll().filter(item => {
       const title      = lv(item,'title').toLowerCase();
       const transcript = (TRANSCRIPTS[item.id] || '').toLowerCase();
       const tags       = (item.tags || []).join(' ').toLowerCase();
@@ -1977,7 +2067,7 @@ async function doAiSearch() {
   } catch(e) {
     // Fallback: keyword search
     const q = query.toLowerCase();
-    const matched = ALL.filter(i => lv(i,'title').toLowerCase().includes(q) || (TRANSCRIPTS[i.id]||'').toLowerCase().includes(q) || (i.tags||[]).join(' ').toLowerCase().includes(q) || (i.condition||'').toLowerCase().includes(q) || (i.demographics||'').toLowerCase().includes(q));
+    const matched = visibleAll().filter(i => lv(i,'title').toLowerCase().includes(q) || (TRANSCRIPTS[i.id]||'').toLowerCase().includes(q) || (i.tags||[]).join(' ').toLowerCase().includes(q) || (i.condition||'').toLowerCase().includes(q) || (i.demographics||'').toLowerCase().includes(q));
     aiIds = new Set(matched.map(i=>i.id));
     document.getElementById('aiBar').classList.add('show');
     document.getElementById('aiExpl').textContent  = `Keyword match for "${query}"`;
@@ -1998,7 +2088,7 @@ function clearAi() {
 
 // ── Filters ───────────────────────────────────────────────────────────────────
 function baseItems() {
-  return ALL;
+  return visibleAll();
 }
 
 // ── Multi-select filter dropdowns ──────────────────────────────────────────
@@ -2153,7 +2243,7 @@ function renderDueSchedule() {
     { key:'due6mo',  label:'Due within 6 months',color:'#b5860d', bg:'rgba(181,134,13,0.12)' },
   ];
   const byBand = { overdue:[], due3mo:[], due6mo:[] };
-  ALL.forEach(item => { const s=reviewStatus(item); if(byBand[s]) byBand[s].push(item); });
+  visibleAll().forEach(item => { const s=reviewStatus(item); if(byBand[s]) byBand[s].push(item); });
 
   const fmtDate = d => d ? d.toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'}) : '—';
 
@@ -2634,13 +2724,13 @@ function showDetail(item) {
   // a hardcoded ['Article','Infographic','Video'], missing every type introduced
   // by imports (Video Library, Recipe, Audio, Guide, Presentation, etc.), so there
   // was no way to change an item to any of those types from this panel.
-  const liveTypes = [...new Set([...ALL.map(i=>lv(i,'type')), fType])].filter(Boolean).sort();
+  const liveTypes = [...new Set([...visibleAll().map(i=>lv(i,'type')), fType])].filter(Boolean).sort();
   const typeOpts = liveTypes.map(t=>`<option${fType===t?' selected':''}>${t}</option>`).join('');
   // Computed fresh (not a load-time snapshot) so a category introduced after page
   // load — via edits overlay, bulk import, etc. — always has a matching <option>.
   // A <select> whose bound value has no matching option silently displays the
   // first option instead, which made correctly-saved categories look unsaved.
-  const liveCats = [...new Set([...ALL.map(i=>lv(i,'category')), fCat])].filter(Boolean).sort();
+  const liveCats = [...new Set([...visibleAll().map(i=>lv(i,'category')), fCat])].filter(Boolean).sort();
   const catOpts  = liveCats.map(c=>`<option${fCat===c?' selected':''}>${c}</option>`).join('');
   const prioOpts = ['','High','Moderate','Low'].map(p=>`<option value="${p}"${fPrio===p?' selected':''}>${p||'—'}</option>`).join('');
 
@@ -2928,7 +3018,11 @@ function showDetail(item) {
         const match = findDuplicateMatch(curTitle, curLanguage, curType, item.id);
         if (match) {
           const oldValue = lv(item, field);
-          confirmDupeEdit(match, () => applySave(field, value), () => { el.value = oldValue; });
+          confirmDupeEdit(match,
+            () => applySave(field, value),
+            () => { el.value = oldValue; },
+            async () => { await mergeIntoExisting(item, match); showDetail(BY_ID[match.id]); }
+          );
           return;
         }
       }
@@ -3073,7 +3167,7 @@ function closeDetail() {
 // ── Creators ──────────────────────────────────────────────────────────────────
 function buildCreatorIndex() {
   const people = {};
-  ALL.forEach(item => {
+  visibleAll().forEach(item => {
     const author = lv(item,'author') || lv(item,'teacher');
     const reviewer = lv(item,'peer_reviewer');
     [author, reviewer].forEach((name, idx) => {
@@ -3181,8 +3275,8 @@ document.getElementById('creatorSearch')?.addEventListener('input', () => render
 
 function showContrib(name) {
   if (!name) return;
-  const authored = ALL.filter(i=>(lv(i,'author')||lv(i,'teacher'))===name);
-  const reviewed = ALL.filter(i=>lv(i,'peer_reviewer')===name);
+  const authored = visibleAll().filter(i=>(lv(i,'author')||lv(i,'teacher'))===name);
+  const reviewed = visibleAll().filter(i=>lv(i,'peer_reviewer')===name);
   const creds    = authored.length ? lv(authored[0],'author_creds') : '';
 
   const bio = getBio(name, 'bio', '');
@@ -3233,7 +3327,7 @@ function maybeCloseContrib() {}
 // ── Client Licensing ──────────────────────────────────────────────────────────
 function renderClientBubbles() {
   const counts = {};
-  ALL.forEach(item => {
+  visibleAll().forEach(item => {
     gE(item.id,'licenses',item.client_licenses||[]).forEach(c => {
       counts[c] = (counts[c]||0) + 1;
     });
@@ -3289,7 +3383,7 @@ function selectClient(name) {
 function renderClientDetail(name) {
   if (!clientMeta[name]) clientMeta[name] = {delivery:'',notes:''};
   const meta   = clientMeta[name];
-  const items  = ALL.filter(i => gE(i.id,'licenses',i.client_licenses||[]).includes(name));
+  const items  = visibleAll().filter(i => gE(i.id,'licenses',i.client_licenses||[]).includes(name));
   const seeded = SEEDED_CLIENTS[name] || null;
 
   // Build seeded content table rows
@@ -3744,7 +3838,7 @@ async function runCuration() {
   const promptLow = prompt.toLowerCase();
   const words = promptLow.replace(/\d+%/g,'').split(/\W+/).filter(w => w.length > 3);
 
-  const scored = ALL.map(item => {
+  const scored = visibleAll().map(item => {
     const title = lv(item,'title').toLowerCase();
     const cat   = lv(item,'category').toLowerCase();
     const type  = lv(item,'type').toLowerCase();
@@ -3789,7 +3883,7 @@ async function runCuration() {
   if (selectedIds && selectedIds.length) {
     // Build result list in Fable's returned order
     const byId = {};
-    ALL.forEach(it => byId[it.id] = it);
+    visibleAll().forEach(it => byId[it.id] = it);
     curItems = selectedIds.map(id => byId[id]).filter(Boolean);
     // Fill to total if Fable returned fewer than requested
     if (curItems.length < total) {
@@ -3822,7 +3916,7 @@ function parseMixPrompt(prompt) {
 
 function selectContent(total, weights, prompt) {
   const promptLow = prompt.toLowerCase();
-  const scored = ALL.map(item => {
+  const scored = visibleAll().map(item => {
     let score = Math.random() * 0.3; // base randomness
     const title = lv(item,'title').toLowerCase();
     const cat   = lv(item,'category').toLowerCase();
