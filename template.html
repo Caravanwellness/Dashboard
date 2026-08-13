@@ -2070,6 +2070,7 @@ async function doAiSearch() {
     const cats = new Set(d.categories || []);
     const types= new Set(d.types || []);
 
+    const qLower = query.toLowerCase();
     const matched = visibleAll().filter(item => {
       const title      = lv(item,'title').toLowerCase();
       const transcript = (TRANSCRIPTS[item.id] || '').toLowerCase();
@@ -2077,6 +2078,10 @@ async function doAiSearch() {
       const condition  = (item.condition || '').toLowerCase();
       const demographics = (item.demographics || '').toLowerCase();
       const series     = (item.series || '').toLowerCase();
+      // Match the raw query against the ID directly rather than relying on the
+      // AI API's extracted keywords for this — an arbitrary code like "ART-0171"
+      // isn't the kind of thing a keyword extractor reliably passes through.
+      if (item.id.toLowerCase().includes(qLower)) return true;
       if (types.size && types.has(lv(item,'type'))) return true;
       if (cats.size  && cats.has(lv(item,'category'))) return true;
       if (kws.length && kws.some(k => title.includes(k) || transcript.includes(k) || tags.includes(k) || condition.includes(k) || demographics.includes(k) || series.includes(k))) return true;
@@ -2092,7 +2097,7 @@ async function doAiSearch() {
   } catch(e) {
     // Fallback: keyword search
     const q = query.toLowerCase();
-    const matched = visibleAll().filter(i => lv(i,'title').toLowerCase().includes(q) || (TRANSCRIPTS[i.id]||'').toLowerCase().includes(q) || (i.tags||[]).join(' ').toLowerCase().includes(q) || (i.condition||'').toLowerCase().includes(q) || (i.demographics||'').toLowerCase().includes(q));
+    const matched = visibleAll().filter(i => i.id.toLowerCase().includes(q) || lv(i,'title').toLowerCase().includes(q) || (TRANSCRIPTS[i.id]||'').toLowerCase().includes(q) || (i.tags||[]).join(' ').toLowerCase().includes(q) || (i.condition||'').toLowerCase().includes(q) || (i.demographics||'').toLowerCase().includes(q));
     aiIds = new Set(matched.map(i=>i.id));
     document.getElementById('aiBar').classList.add('show');
     document.getElementById('aiExpl').textContent  = `Keyword match for "${query}"`;
