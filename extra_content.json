@@ -46350,5 +46350,15 @@
     "id": "QA-TEST-0001",
     "_addedAt": "2026-08-13T15:48:20.585Z",
     "_addedBy": "Dashboard"
+  },
+  {
+    "title": "QA TEST — collision fallback verification (safe to delete)",
+    "type": "Video",
+    "language": "English",
+    "category": "Test",
+    "client_licenses": [],
+    "id": "EXT-3216",
+    "_addedAt": "2026-08-13T15:48:22.850Z",
+    "_addedBy": "Dashboard"
   }
 ]
