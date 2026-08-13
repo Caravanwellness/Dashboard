@@ -46075,10 +46075,12 @@
   },
   "EXT-0205": {
     "type": "Video",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T23:30:06.803Z",
     "peer_reviewer": "Sally Choi",
     "teacher": "Sally Choi",
-    "author": "Sally Choi"
+    "author": "Sally Choi",
+    "_hidden": true,
+    "_merged_into": "KO-00006"
   },
   "HE-00001": {
     "type": "Video",
