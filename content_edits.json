@@ -34506,7 +34506,7 @@
   },
   "VLB-0352": {
     "author": "Steven Rousseau",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T21:58:54.886Z",
     "teacher": "Steven Rousseau",
     "licenses": [
       "Luro Health",
@@ -34519,7 +34519,8 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/24/"
   },
   "EN-00394": {
     "author": "Steven Rousseau",
