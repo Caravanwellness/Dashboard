@@ -12079,7 +12079,7 @@
   },
   "EN-00703": {
     "author": "Mila Toribio",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T22:07:22.209Z",
     "teacher": "Mila Toribio",
     "licenses": [
       "Passport & Co.",
@@ -12091,7 +12091,8 @@
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "date_created": "3/7/2025",
-    "version": "1"
+    "version": "1",
+    "title": "Movement for Sleep"
   },
   "EN-00704": {
     "author": "Mila Toribio",
@@ -19371,7 +19372,7 @@
   },
   "EN-01282": {
     "author": "Crystal Williams",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T22:07:22.209Z",
     "teacher": "Crystal Williams",
     "licenses": [
       "Passport & Co.",
@@ -19382,7 +19383,8 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "title": "Total Body Endurance"
   },
   "EN-01283": {
     "author": "Crystal Williams",
@@ -46253,11 +46255,13 @@
   },
   "DE-00009": {
     "type": "Video",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-13T22:07:22.209Z",
     "peer_reviewer": "Enja Schenck",
     "teacher": "Enja Schenck",
     "title_original": "Unterkörpertraining",
-    "author": "Enja Schenck"
+    "author": "Enja Schenck",
+    "title": "Unterkörpertraining",
+    "vimeo_link": "https://vimeo.com/1067508637/fe05138fce"
   },
   "PL-00005": {
     "type": "Video",
@@ -58197,10 +58201,12 @@
   },
   "NL-00021": {
     "peer_reviewer": "Anna-Belle Buyse",
-    "_at": "2026-08-13T19:44:05.878Z",
+    "_at": "2026-08-13T22:07:22.209Z",
     "teacher": "Anna-Belle Buyse",
     "type": "Video",
-    "title_original": "Yoga voor kracht"
+    "title_original": "Yoga voor kracht",
+    "title": "Yoga Voor Kracht",
+    "vimeo_link": "https://vimeo.com/1074335220/8fc0e54e0c"
   },
   "PT-00004": {
     "peer_reviewer": "Cris Di Dario",
@@ -59130,11 +59136,13 @@
   },
   "EN-01455": {
     "peer_reviewer": "Nazirber Maduro",
-    "_at": "2026-08-12T22:52:25.610Z",
+    "_at": "2026-08-13T22:07:22.209Z",
     "teacher": "Nazirber Maduro",
     "language": "English",
     "author": "Nazirber Maduro",
-    "type": "Video"
+    "type": "Video",
+    "title": "Nutritional Supplements Explained",
+    "vimeo_link": "https://vimeo.com/1129592266/607d9683fe"
   },
   "FR-00067": {
     "peer_reviewer": "Hafsa Benzzi",
@@ -59170,11 +59178,13 @@
   },
   "DE-00010": {
     "peer_reviewer": "Enja Schenck",
-    "_at": "2026-08-13T19:44:05.878Z",
+    "_at": "2026-08-13T22:07:22.209Z",
     "author": "Anthony Crouchelli",
     "teacher": "Enja Schenck",
     "type": "Video",
-    "title_original": "Ganzkörpertraining"
+    "title_original": "Ganzkörpertraining",
+    "title": "Ganzkörpertraining",
+    "vimeo_link": "https://vimeo.com/1067491698/d70788acee"
   },
   "EN-01714": {
     "peer_reviewer": "Jared De Candia",
@@ -59836,10 +59846,12 @@
   },
   "FR-00031": {
     "peer_reviewer": "Manon Hallay",
-    "_at": "2026-08-13T19:44:05.878Z",
+    "_at": "2026-08-13T22:07:22.209Z",
     "teacher": "Manon Hallay",
     "type": "Video",
-    "title_original": "Entraînement de force pour le corps entier - intermédiaire"
+    "title_original": "Entraînement de force pour le corps entier - intermédiaire",
+    "title": "Entraînement de Force Pour Le Corps Entier – Intermédiaire",
+    "vimeo_link": "https://vimeo.com/1067508377/b949ff8019"
   },
   "EN-01747": {
     "peer_reviewer": "Nicole Guerrero",
@@ -59986,10 +59998,12 @@
   },
   "ES-00010": {
     "peer_reviewer": "Dublin Salas",
-    "_at": "2026-08-13T19:44:05.878Z",
+    "_at": "2026-08-13T22:07:22.209Z",
     "teacher": "Dublin Salas",
     "type": "Video",
-    "title_original": "Secuencia de yoga"
+    "title_original": "Secuencia de yoga",
+    "title": "Secuencia De Yoga",
+    "vimeo_link": "https://vimeo.com/1067806227/ebf5a34170"
   },
   "PL-00001": {
     "peer_reviewer": "Margo Gladys",
@@ -60037,11 +60051,13 @@
   },
   "NL-00024": {
     "peer_reviewer": "Anna-Belle Buyse",
-    "_at": "2026-08-13T19:44:05.878Z",
+    "_at": "2026-08-13T22:07:22.209Z",
     "author": "Liz Ilgenfritz",
     "teacher": "Anna-Belle Buyse",
     "type": "Video",
-    "title_original": "Yoga voor de buikspieren"
+    "title_original": "Yoga voor de buikspieren",
+    "title": "Yoga Voor De Buikspieren",
+    "vimeo_link": "https://vimeo.com/1074333233/c6a4c8c9d2"
   },
   "ES-00032": {
     "peer_reviewer": "Dr. Laura Goorin",
@@ -60464,11 +60480,13 @@
   },
   "PT-00014": {
     "peer_reviewer": "Mila Toribio",
-    "_at": "2026-08-13T19:44:05.878Z",
+    "_at": "2026-08-13T22:07:22.209Z",
     "teacher": "Mila Toribio",
     "type": "Video",
     "author": "Mila Toribio",
-    "title_original": "Pilates para braços e costas"
+    "title_original": "Pilates para braços e costas",
+    "title": "Pilates Para Braços E Costas",
+    "vimeo_link": "https://vimeo.com/1067861092/3aa0097bd0"
   },
   "EN-01757": {
     "peer_reviewer": "Dr. David Sanchez",
@@ -61297,11 +61315,13 @@
   },
   "FR-00032": {
     "peer_reviewer": "Manon Hallay",
-    "_at": "2026-08-13T19:44:05.878Z",
+    "_at": "2026-08-13T22:07:22.209Z",
     "teacher": "Manon Hallay",
     "author": "Manon Hallay",
     "type": "Video",
-    "title_original": "Entraînement cardio"
+    "title_original": "Entraînement cardio",
+    "title": "Entraînement Cardio",
+    "vimeo_link": "https://vimeo.com/1067507048/f500917fa8"
   },
   "IT-00030": {
     "peer_reviewer": "Asia Rosso",
