@@ -74,5 +74,10 @@
     "name": "Girault Seger",
     "passwordHash": "988386c21a1fd1c4f3da906a12077efbfa531f0f642ad13583d34332aebf25b5",
     "createdAt": "2026-08-13T11:47:13.425Z"
+  },
+  "hope.zimmerman@caravanwellness.com": {
+    "name": "Hope Zimmerman",
+    "passwordHash": "0e98fd43688a5a76814b07535682f545fe66a188b860fbebd81481d62b7adf11",
+    "createdAt": "2026-08-13T17:49:22.541Z"
   }
 }
