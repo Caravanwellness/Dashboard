@@ -16,11 +16,5 @@
     "passwordHash": "6e0fe12fd752d1bd3b3768dd044cb0e323f4ad2c2c8affef8bd73c10d1006acf",
     "otp": "790303",
     "expiresAt": "2026-08-05T19:18:06.813Z"
-  },
-  "hope.zimmerman@caravanwellness.com": {
-    "name": "Hope Zimmerman",
-    "passwordHash": "0e98fd43688a5a76814b07535682f545fe66a188b860fbebd81481d62b7adf11",
-    "otp": "318257",
-    "expiresAt": "2026-08-13T17:59:08.006Z"
   }
 }
