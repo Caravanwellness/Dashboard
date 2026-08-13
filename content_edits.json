@@ -56643,9 +56643,10 @@
   },
   "EXT-0835": {
     "category": "Nutrition",
-    "_at": "2026-08-11T19:33:22.740Z",
+    "_at": "2026-08-13T19:16:58.035Z",
     "author": "Jade Gordon",
-    "duration": "40"
+    "duration": "40",
+    "date_created": "7/27/2025"
   },
   "EXT-1269": {
     "category": "Financial Wellness",
