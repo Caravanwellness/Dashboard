@@ -69,5 +69,10 @@
     "name": "Lisa Wang",
     "passwordHash": "52abae623a01395907eae8b394957c89289e72d19fcce0e242ba2172c7eb1ab2",
     "createdAt": "2026-08-05T19:14:19.881Z"
+  },
+  "girault.seger@caravanwellness.com": {
+    "name": "Girault Seger",
+    "passwordHash": "988386c21a1fd1c4f3da906a12077efbfa531f0f642ad13583d34332aebf25b5",
+    "createdAt": "2026-08-13T11:47:13.425Z"
   }
 }
