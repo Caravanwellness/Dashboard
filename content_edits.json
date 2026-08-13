@@ -30351,13 +30351,14 @@
   },
   "EN-00019": {
     "author": "Zach Bourne",
-    "_at": "2026-08-12T22:40:55.158Z",
+    "_at": "2026-08-13T20:11:53.066Z",
     "teacher": "Zach Bourne",
     "duration": "2",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Zach Bourne",
-    "version": "1"
+    "version": "1",
+    "date_created": "3"
   },
   "EN-00020": {
     "author": "Zach Bourne",
