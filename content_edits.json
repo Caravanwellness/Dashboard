@@ -32107,14 +32107,15 @@
   },
   "EN-00002": {
     "author": "Dr. Ellie Cobb",
-    "_at": "2026-08-12T22:40:55.158Z",
+    "_at": "2026-08-13T20:02:49.201Z",
     "teacher": "Dr. Ellie Cobb",
     "language": "English",
     "client_licenses": "",
     "duration": "3",
     "type": "Video",
     "peer_reviewer": "Dr. Ellie Cobb",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/2"
   },
   "EN-00003": {
     "author": "Dr. Ellie Cobb",
