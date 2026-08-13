@@ -328,6 +328,23 @@ textarea.field-edit { resize: vertical; }
   </div>
 </div>
 
+<!-- ── Export Modal ───────────────────────────────────────────────────────────── -->
+<div id="exportModal" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:8000;align-items:center;justify-content:center">
+  <div style="background:white;border-radius:14px;padding:30px;max-width:480px;width:90%;box-shadow:0 12px 40px rgba(0,0,0,.25);max-height:90vh;overflow-y:auto">
+    <h3 style="margin:0 0 6px;font-size:16px;font-weight:700;color:#1a1a2e">Export Content Library</h3>
+    <p style="font-size:13px;color:#666;margin:0 0 18px">Both options export whatever's currently filtered/visible in the table.</p>
+    <button class="btn primary" onclick="exportCSV()" style="width:100%">⬇ Export Current View</button>
+    <div style="font-size:11px;color:#999;margin:6px 0 18px">Same columns as the table on screen.</div>
+    <div style="border-top:1px solid #eee;padding-top:16px">
+      <div style="font-weight:700;color:#1a1a2e;margin-bottom:4px;font-size:14px">Or choose columns</div>
+      <div style="font-size:12px;color:#666;margin-bottom:10px">ID, Title, and Language are always included. Everything else is selected by default — uncheck what you don't need.</div>
+      <div id="exportColList" style="max-height:280px;overflow-y:auto;border:1px solid #eee;border-radius:8px;padding:8px 14px"></div>
+      <button class="btn primary" onclick="exportCSVColumns()" style="width:100%;margin-top:14px">⬇ Export Selected Columns</button>
+    </div>
+    <button onclick="closeExportModal()" style="margin-top:14px;padding:9px 18px;border:1px solid #e0e0e0;border-radius:7px;background:white;cursor:pointer;font-size:13px;color:#666;width:100%">Close</button>
+  </div>
+</div>
+
 <!-- ── Import Modal ───────────────────────────────────────────────────────────── -->
 <div id="importModal" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:8000;align-items:center;justify-content:center">
   <div style="background:white;border-radius:14px;padding:30px;max-width:560px;width:90%;box-shadow:0 12px 40px rgba(0,0,0,.25);max-height:90vh;overflow-y:auto">
@@ -555,7 +572,7 @@ textarea.field-edit { resize: vertical; }
 
   <div class="content">
     <div class="toolbar">
-      <button class="btn primary" onclick="exportCSV()">⬇ Export CSV</button>
+      <button class="btn primary" onclick="openExportModal()">⬇ Export CSV</button>
       <button class="btn" onclick="document.getElementById('importModal').style.display='flex'" style="background:#6366f1;color:white;border-color:#6366f1">⬆ Import</button>
       <div id="importStatus" style="font-size:12px;color:#555;margin-left:4px"></div>
     </div>
@@ -3507,6 +3524,27 @@ function jumpToItem(id) {
 }
 
 // ── CSV Export ────────────────────────────────────────────────────────────────
+// Single source of truth for what a column key resolves to, in plain text —
+// shared by both export paths below. The underscore-prefixed keys (_clients,
+// _duration, etc.) are computed values that only exist as inline logic in
+// renderTable()'s cell HTML; exportCSV() previously called plain lv(item,c.k)
+// for every column, which silently exported blank for all of these since
+// none of them are real item fields — fixed by routing both exports through
+// this resolver instead.
+function colValue(item, key) {
+  if (key === '_clients') return gE(item.id,'licenses',item.client_licenses||[]).join('; ');
+  if (key === '_duration') return lv(item,'duration') || extractDuration(lv(item,'title')) || '';
+  if (key === '_review_date') return gE(item.id,'review_date','') || lv(item,'date_reviewed') || '';
+  if (key === '_reviewer_name') return gE(item.id,'reviewed_by','') || lv(item,'reviewed_by') || '';
+  if (key === '_credentials') {
+    const name = lv(item,'author') || lv(item,'teacher');
+    return getBio(name, 'creds', lv(item,'author_creds') || '');
+  }
+  if (key === 'teacher') return lv(item,'teacher') || lv(item,'peer_reviewer') || '';
+  if (key === 'notes') return gE(item.id,'notes', item.notes || '');
+  return lv(item, key) || '';
+}
+
 function exportCSV() {
   const cols = getCols();
   const hdrs = [...cols.map(c=>c.l),'Client Licenses','Notes'];
@@ -3515,10 +3553,7 @@ function exportCSV() {
     const lic   = gE(item.id,'licenses',item.client_licenses||[]);
     const notes = gE(item.id,'notes',item.notes||'');
     const vals  = [
-      ...cols.map(c=>{
-        const v = c.k==='teacher'?(lv(item,'teacher')||lv(item,'peer_reviewer')||''):lv(item,c.k);
-        return '"'+String(v||'').replace(/"/g,'""')+'"';
-      }),
+      ...cols.map(c => '"'+String(colValue(item,c.k)||'').replace(/"/g,'""')+'"'),
       '"'+lic.join('; ')+'"',
       '"'+notes.replace(/"/g,'""')+'"',
     ];
@@ -3529,6 +3564,75 @@ function exportCSV() {
   a.href = URL.createObjectURL(blob);
   a.download = 'caravan-export.csv';
   a.click();
+  closeExportModal();
+}
+
+// ── Export: choose columns ────────────────────────────────────────────────────
+const EXPORT_COLUMNS = [
+  {k:'id',                 l:'ID',                          locked:true},
+  {k:'title',               l:'Title',                       locked:true},
+  {k:'language',            l:'Language',                    locked:true},
+  {k:'_clients',            l:'Clients'},
+  {k:'type',                l:'Type'},
+  {k:'category',            l:'Category'},
+  {k:'_duration',           l:'Duration'},
+  {k:'teacher',             l:'Peer Reviewer'},
+  {k:'author',              l:'Author'},
+  {k:'_credentials',        l:'Credentials'},
+  {k:'review_priority',     l:'Review Priority'},
+  {k:'link',                l:'Content / Article Link'},
+  {k:'vimeo_link',          l:'Vimeo'},
+  {k:'references',          l:'References'},
+  {k:'description',         l:'Description'},
+  {k:'title_original',      l:'Title in Original Language'},
+  {k:'branding',            l:'Branding Status'},
+  {k:'version',             l:'Version'},
+  {k:'date_created',        l:'Date Created'},
+  {k:'date_revised',        l:'Date Revised'},
+  {k:'_review_date',        l:'Last Reviewed'},
+  {k:'_reviewer_name',      l:'Maintenance Reviewer'},
+  {k:'transcript_link',     l:'Transcript Link'},
+  {k:'subtitle_languages',  l:'Subtitles/Captions'},
+  {k:'notes',               l:'Notes'},
+];
+let _exportColSel = new Set(EXPORT_COLUMNS.map(c=>c.k)); // everything checked by default
+
+function openExportModal() {
+  renderExportColumnList();
+  document.getElementById('exportModal').style.display = 'flex';
+}
+function closeExportModal() {
+  document.getElementById('exportModal').style.display = 'none';
+}
+function toggleExportCol(key) {
+  const col = EXPORT_COLUMNS.find(c=>c.k===key);
+  if (!col || col.locked) return; // ID/Title/Language can't be unchecked
+  if (_exportColSel.has(key)) _exportColSel.delete(key); else _exportColSel.add(key);
+}
+function renderExportColumnList() {
+  const el = document.getElementById('exportColList');
+  el.innerHTML = EXPORT_COLUMNS.map(c => {
+    const checked = c.locked || _exportColSel.has(c.k);
+    return `<label style="display:flex;align-items:center;gap:8px;padding:5px 0;font-size:13px;color:${c.locked?'#999':'#333'};cursor:${c.locked?'default':'pointer'}">
+      <input type="checkbox" ${checked?'checked':''} ${c.locked?'disabled':''} onchange="toggleExportCol('${c.k}')">
+      ${esc(c.l)}${c.locked?' <span style="font-size:10px;color:#aaa">(always included)</span>':''}
+    </label>`;
+  }).join('');
+}
+function exportCSVColumns() {
+  const cols = EXPORT_COLUMNS.filter(c => c.locked || _exportColSel.has(c.k));
+  const hdrs = cols.map(c=>c.l);
+  const rows = [hdrs.join(',')];
+  visibleItems.forEach(item=>{
+    const vals = cols.map(c => '"'+String(colValue(item,c.k)||'').replace(/"/g,'""')+'"');
+    rows.push(vals.join(','));
+  });
+  const blob = new Blob([rows.join('\n')],{type:'text/csv'});
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'caravan-export.csv';
+  a.click();
+  closeExportModal();
 }
 
 // ── Edit Chart (bulk field update by ID) ─────────────────────────────────────
