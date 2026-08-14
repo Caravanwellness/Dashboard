@@ -30341,7 +30341,7 @@
   },
   "EN-01244": {
     "author": "Ajani Phillips",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T19:14:44.992Z",
     "teacher": "Ajani Phillips",
     "licenses": [
       "Walkingspree",
@@ -30356,7 +30356,8 @@
     "client_licenses": [
       "Lyra Health"
     ],
-    "version": "1"
+    "version": "1",
+    "date_created": "3/2/2026"
   },
   "EN-01245": {
     "author": "Ajani Phillips",
