@@ -30322,7 +30322,7 @@
   },
   "EN-01243": {
     "author": "Ajani Phillips",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T19:14:22.159Z",
     "teacher": "Ajani Phillips",
     "licenses": [
       "Walkingspree",
@@ -30336,7 +30336,8 @@
     "client_licenses": [
       "SAFE Federal Credit Union"
     ],
-    "version": "1"
+    "version": "1",
+    "date_created": "3/2/202"
   },
   "EN-01244": {
     "author": "Ajani Phillips",
