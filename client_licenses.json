@@ -49,7 +49,8 @@
     "Walkingspree",
     "Wellics",
     "Wellsort",
-    "PagerHealth"
+    "PagerHealth",
+    "GoJoe"
   ],
   "ALB-0032": [
     "YuLife"
@@ -1388,7 +1389,8 @@
     "Lyra Health",
     "Navigate Wellbeing",
     "Oncology Physicians Network",
-    "WPO"
+    "WPO",
+    "GoJoe"
   ],
   "EN-00467": [
     "Passport & Co.",
@@ -2390,7 +2392,8 @@
     "The Difference Card",
     "Wellness360",
     "Wellsort",
-    "PagerHealth"
+    "PagerHealth",
+    "GoJoe"
   ],
   "EN-00763": [
     "BSDI",
@@ -2415,7 +2418,8 @@
     "Kardi AI",
     "Lyra Health",
     "The Difference Card",
-    "Wellness360"
+    "Wellness360",
+    "GoJoe"
   ],
   "EN-00768": [
     "BSDI",
@@ -2423,7 +2427,8 @@
     "Healthee",
     "Lyra Health",
     "Wellness360",
-    "PagerHealth"
+    "PagerHealth",
+    "GoJoe"
   ],
   "EN-00931": [
     "YuLife",
@@ -4456,7 +4461,8 @@
     "WPO"
   ],
   "EN-00050": [
-    "Lyra Health"
+    "Lyra Health",
+    "GoJoe"
   ],
   "EN-00005": [
     "Lyra Health"
@@ -5316,7 +5322,8 @@
     "Marino Wellness"
   ],
   "VID-0115": [
-    "Marino Wellness"
+    "Marino Wellness",
+    "YuLife"
   ],
   "ALB-0038": [
     "Oncology Physicians Network"
@@ -7732,11 +7739,14 @@
   "VID-0394": [
     "GoJoe",
     "Sante Group",
-    "Spectrum.life"
+    "Spectrum.life",
+    "Lyra Health"
   ],
   "VID-0358": [
     "GoJoe",
-    "Spectrum.life"
+    "Spectrum.life",
+    "Hapstar",
+    "Lyra Health"
   ],
   "ZH-00079": [
     "GoJoe"
@@ -7802,7 +7812,9 @@
   ],
   "VID-0018": [
     "GoJoe",
-    "Spectrum.life"
+    "Spectrum.life",
+    "Hapstar",
+    "Lyra Health"
   ],
   "VID-0345": [
     "GoJoe"
@@ -7827,7 +7839,9 @@
   ],
   "VID-0756": [
     "GoJoe",
-    "Spectrum.life"
+    "Spectrum.life",
+    "Hapstar",
+    "Lyra Health"
   ],
   "INF-0223": [
     "GoJoe",
@@ -7898,7 +7912,9 @@
   "VID-0725": [
     "GoJoe",
     "Sante Group",
-    "Spectrum.life"
+    "Spectrum.life",
+    "Lyra Health",
+    "YuLife"
   ],
   "ES-00152": [
     "GoJoe"
@@ -8289,7 +8305,8 @@
   ],
   "VID-1217": [
     "Earn It",
-    "Sante Group"
+    "Sante Group",
+    "Hapstar"
   ],
   "VID-0122": [
     "Earn It"
@@ -8301,13 +8318,16 @@
     "Earn It"
   ],
   "VID-1215": [
-    "Earn It"
+    "Earn It",
+    "Hapstar",
+    "YuLife"
   ],
   "VID-1172": [
     "Earn It"
   ],
   "VID-1362": [
-    "Earn It"
+    "Earn It",
+    "Hapstar"
   ],
   "VID-1262": [
     "Earn It"
@@ -8318,7 +8338,10 @@
   ],
   "VID-1128": [
     "Earn It",
-    "Spectrum.life"
+    "Spectrum.life",
+    "Keel Mind",
+    "Lyra Health",
+    "YuLife"
   ],
   "VID-0123": [
     "Earn It"
@@ -8329,7 +8352,8 @@
   "VID-0876": [
     "Earn It",
     "Spectrum.life",
-    "Keel Mind"
+    "Keel Mind",
+    "Lyra Health"
   ],
   "VID-1293": [
     "Earn It"
@@ -8346,7 +8370,8 @@
   ],
   "VID-0723": [
     "Earn It",
-    "Sante Group"
+    "Sante Group",
+    "Lyra Health"
   ],
   "VID-1174": [
     "Earn It"
@@ -8366,18 +8391,22 @@
   "VID-1166": [
     "Earn It",
     "Sante Group",
-    "Keel Mind"
+    "Keel Mind",
+    "YuLife"
   ],
   "VID-1170": [
     "Earn It",
-    "Keel Mind"
+    "Keel Mind",
+    "YuLife"
   ],
   "VID-1318": [
     "Earn It",
-    "Sante Group"
+    "Sante Group",
+    "YuLife"
   ],
   "VID-1181": [
-    "Earn It"
+    "Earn It",
+    "YuLife"
   ],
   "VID-1180": [
     "Earn It"
@@ -8390,10 +8419,12 @@
   ],
   "VID-0879": [
     "Earn It",
-    "Keel Mind"
+    "Keel Mind",
+    "Lyra Health"
   ],
   "VID-0171": [
-    "Earn It"
+    "Earn It",
+    "Lyra Health"
   ],
   "VID-0377": [
     "Earn It"
@@ -8410,13 +8441,15 @@
   ],
   "VID-1169": [
     "Earn It",
-    "Keel Mind"
+    "Keel Mind",
+    "YuLife"
   ],
   "VID-1393": [
     "Earn It"
   ],
   "VID-1140": [
-    "Earn It"
+    "Earn It",
+    "Lyra Health"
   ],
   "VID-1168": [
     "Earn It"
@@ -8429,14 +8462,17 @@
   ],
   "VID-1212": [
     "Earn It",
-    "Sante Group"
+    "Sante Group",
+    "Hapstar"
   ],
   "VID-1232": [
     "Earn It"
   ],
   "VID-1213": [
     "Earn It",
-    "Sante Group"
+    "Sante Group",
+    "Hapstar",
+    "YuLife"
   ],
   "VID-1386": [
     "Earn It"
@@ -8445,18 +8481,26 @@
     "Earn It"
   ],
   "VID-1364": [
-    "Earn It"
+    "Earn It",
+    "Hapstar",
+    "Licensed Videos",
+    "YuLife"
   ],
   "VID-0384": [
     "Earn It",
     "Sante Group"
   ],
   "VID-0378": [
-    "Earn It"
+    "Earn It",
+    "Hapstar",
+    "Lyra Health",
+    "YuLife"
   ],
   "VID-1162": [
     "Earn It",
-    "Sante Group"
+    "Sante Group",
+    "Lyra Health",
+    "YuLife"
   ],
   "VID-1550": [
     "Earn It"
@@ -8466,7 +8510,8 @@
     "Keel Mind"
   ],
   "VID-1141": [
-    "Earn It"
+    "Earn It",
+    "Lyra Health"
   ],
   "VID-1317": [
     "Earn It"
@@ -8502,7 +8547,8 @@
     "Keel Mind"
   ],
   "VID-0878": [
-    "Earn It"
+    "Earn It",
+    "Lyra Health"
   ],
   "VID-1004": [
     "Earn It"
@@ -8517,7 +8563,9 @@
   ],
   "VID-0425": [
     "Earn It",
-    "Sante Group"
+    "Sante Group",
+    "Hapstar",
+    "Lyra Health"
   ],
   "VID-1137": [
     "Earn It",
@@ -8545,7 +8593,8 @@
     "Earn It"
   ],
   "VID-0170": [
-    "Earn It"
+    "Earn It",
+    "Lyra Health"
   ],
   "VID-1389": [
     "Earn It"
@@ -8575,7 +8624,8 @@
     "Sante Group"
   ],
   "VID-0416": [
-    "Sante Group"
+    "Sante Group",
+    "Lyra Health"
   ],
   "VID-0438": [
     "Sante Group"
@@ -8596,7 +8646,8 @@
     "Sante Group"
   ],
   "VID-1218": [
-    "Sante Group"
+    "Sante Group",
+    "Hapstar"
   ],
   "VID-0772": [
     "Sante Group"
@@ -8656,7 +8707,8 @@
     "Spectrum.life"
   ],
   "VID-1125": [
-    "Sante Group"
+    "Sante Group",
+    "Hapstar"
   ],
   "VID-0106": [
     "Sante Group",
@@ -8666,7 +8718,8 @@
     "Sante Group"
   ],
   "VID-0437": [
-    "Sante Group"
+    "Sante Group",
+    "Hapstar"
   ],
   "VID-0155": [
     "Sante Group"
@@ -8681,7 +8734,9 @@
     "Sante Group"
   ],
   "VID-1214": [
-    "Sante Group"
+    "Sante Group",
+    "Hapstar",
+    "Lyra Health"
   ],
   "VID-0385": [
     "Sante Group"
@@ -8708,7 +8763,8 @@
     "Sante Group"
   ],
   "VID-1211": [
-    "Sante Group"
+    "Sante Group",
+    "Hapstar"
   ],
   "VID-0697": [
     "Sante Group"
@@ -8959,7 +9015,9 @@
     "Spectrum.life"
   ],
   "VID-0757": [
-    "Spectrum.life"
+    "Spectrum.life",
+    "Hapstar",
+    "Lyra Health"
   ],
   "VID-0168": [
     "Spectrum.life",
@@ -8979,7 +9037,8 @@
   ],
   "VID-1139": [
     "Spectrum.life",
-    "Keel Mind"
+    "Keel Mind",
+    "Hapstar"
   ],
   "VID-0886": [
     "Spectrum.life"
@@ -9029,7 +9088,8 @@
   ],
   "VID-1127": [
     "Spectrum.life",
-    "Keel Mind"
+    "Keel Mind",
+    "Hapstar"
   ],
   "VID-0929": [
     "Spectrum.life"
@@ -9086,7 +9146,9 @@
     "Keel Mind"
   ],
   "VID-0793": [
-    "Keel Mind"
+    "Keel Mind",
+    "GoJoe",
+    "Lyra Health"
   ],
   "EXT-0125": [
     "Keel Mind"
@@ -9215,7 +9277,8 @@
     "Keel Mind"
   ],
   "VID-1034": [
-    "Keel Mind"
+    "Keel Mind",
+    "YuLife"
   ],
   "VID-0814": [
     "Keel Mind"
@@ -9230,7 +9293,8 @@
     "Keel Mind"
   ],
   "VID-1115": [
-    "Keel Mind"
+    "Keel Mind",
+    "Lyra Health"
   ],
   "VID-0815": [
     "Keel Mind"
@@ -9302,7 +9366,8 @@
     "Keel Mind"
   ],
   "VID-1011": [
-    "Keel Mind"
+    "Keel Mind",
+    "Lyra Health"
   ],
   "VID-1106": [
     "Keel Mind"
@@ -9311,7 +9376,9 @@
     "Keel Mind"
   ],
   "VID-1097": [
-    "Keel Mind"
+    "Keel Mind",
+    "GoJoe",
+    "Lyra Health"
   ],
   "VID-0015": [
     "Keel Mind"
@@ -9362,7 +9429,8 @@
     "Keel Mind"
   ],
   "VID-0011": [
-    "Keel Mind"
+    "Keel Mind",
+    "Hapstar"
   ],
   "EXT-0188": [
     "Keel Mind"
@@ -9383,7 +9451,8 @@
     "Keel Mind"
   ],
   "VID-0862": [
-    "Keel Mind"
+    "Keel Mind",
+    "Sante Group"
   ],
   "VID-0817": [
     "Keel Mind"
@@ -9398,7 +9467,10 @@
     "Keel Mind"
   ],
   "VID-0858": [
-    "Keel Mind"
+    "Keel Mind",
+    "Hapstar",
+    "Sante Group",
+    "Spectrum.life"
   ],
   "VID-0021": [
     "Keel Mind"
@@ -10037,5 +10109,266 @@
   ],
   "EN-01949": [
     "PagerHealth"
+  ],
+  "VID-0442": [
+    "Spectrum.life"
+  ],
+  "VID-0701": [
+    "GoJoe",
+    "Lyra Health",
+    "Spectrum.life"
+  ],
+  "VID-0739": [
+    "Lyra Health"
+  ],
+  "VID-0849": [
+    "Earn It",
+    "YuLife"
+  ],
+  "VID-0439": [
+    "Spectrum.life"
+  ],
+  "VID-0685": [
+    "GoJoe",
+    "Lyra Health",
+    "YuLife"
+  ],
+  "VID-0838": [
+    "Lyra Health",
+    "Sante Group"
+  ],
+  "VID-0415": [
+    "Lyra Health",
+    "Sante Group"
+  ],
+  "VID-1357": [
+    "Earn It"
+  ],
+  "VID-0860": [
+    "GoJoe",
+    "Spectrum.life"
+  ],
+  "VID-1565": [
+    "Lyra Health"
+  ],
+  "VID-0905": [
+    "Lyra Health"
+  ],
+  "VID-1699": [
+    "Hapstar",
+    "Lyra Health"
+  ],
+  "VID-0110": [
+    "Lyra Health",
+    "Sante Group"
+  ],
+  "VID-1165": [
+    "Lyra Health"
+  ],
+  "VID-0841": [
+    "Hapstar",
+    "Lyra Health"
+  ],
+  "VID-0443": [
+    "Lyra Health"
+  ],
+  "ES-00115": [
+    "GoJoe",
+    "Licensed Videos",
+    "Welldoc"
+  ],
+  "VID-0232": [
+    "YuLife"
+  ],
+  "VID-0760": [
+    "GoJoe",
+    "Lyra Health"
+  ],
+  "VID-1185": [
+    "Loune.co (needs to be confirmed"
+  ],
+  "VID-0498": [
+    "GoJoe",
+    "Lyra Health",
+    "YuLife"
+  ],
+  "VID-0467": [
+    "Lyra Health",
+    "Spectrum.life"
+  ],
+  "VID-0238": [
+    "GoJoe",
+    "Hapstar"
+  ],
+  "VID-1266": [
+    "Lyra Health",
+    "YuLife"
+  ],
+  "VID-0695": [
+    "YuLife"
+  ],
+  "VID-0686": [
+    "GoJoe",
+    "Lyra Health",
+    "Spectrum.life"
+  ],
+  "VID-0755": [
+    "GoJoe",
+    "Hapstar",
+    "Lyra Health"
+  ],
+  "VID-0216": [
+    "Lyra Health"
+  ],
+  "VID-0230": [
+    "Sante Group"
+  ],
+  "VID-1164": [
+    "Lyra Health"
+  ],
+  "VID-0557": [
+    "Lyra Health",
+    "YuLife"
+  ],
+  "VID-1163": [
+    "Lyra Health"
+  ],
+  "VID-1649": [
+    "Spectrum.life",
+    "YuLife"
+  ],
+  "VID-1008": [
+    "Hapstar",
+    "Lyra Health"
+  ],
+  "VID-1182": [
+    "YuLife"
+  ],
+  "VID-0659": [
+    "GoJoe",
+    "Spectrum.life"
+  ],
+  "VID-0840": [
+    "Hapstar",
+    "Lyra Health",
+    "Sante Group"
+  ],
+  "VID-1365": [
+    "Hapstar"
+  ],
+  "VID-0839": [
+    "Hapstar",
+    "Lyra Health",
+    "Sante Group",
+    "YuLife"
+  ],
+  "VID-0863": [
+    "Sante Group",
+    "Spectrum.life"
+  ],
+  "ES-00090": [
+    "Keel Mind"
+  ],
+  "VID-0604": [
+    "Licensed Videos",
+    "Loune.co (needs to be confirmed",
+    "WPO"
+  ],
+  "VID-0252": [
+    "Lyra Health"
+  ],
+  "VID-0039": [
+    "YuLife"
+  ],
+  "VID-0850": [
+    "Earn It",
+    "Lyra Health"
+  ],
+  "VID-0013": [
+    "Hapstar"
+  ],
+  "VID-0719": [
+    "Loune.co (needs to be confirmed",
+    "Lyra Health"
+  ],
+  "VID-0296": [
+    "Lyra Health"
+  ],
+  "VID-0676": [
+    "Loune.co (needs to be confirmed",
+    "YuLife"
+  ],
+  "VID-0414": [
+    "GoJoe",
+    "Lyra Health",
+    "Sante Group"
+  ],
+  "VID-1271": [
+    "YuLife"
+  ],
+  "VID-0851": [
+    "Lyra Health"
+  ],
+  "AR-00020": [
+    "Licensed Videos",
+    "Wellics"
+  ],
+  "VID-0935": [
+    "Spectrum.life"
+  ],
+  "VID-0524": [
+    "YuLife"
+  ],
+  "VID-0602": [
+    "Lyra Health",
+    "Spectrum.life"
+  ],
+  "VID-0758": [
+    "Lyra Health",
+    "Spectrum.life"
+  ],
+  "VID-0452": [
+    "GoJoe",
+    "Lyra Health",
+    "Spectrum.life"
+  ],
+  "VID-1010": [
+    "GoJoe",
+    "Lyra Health"
+  ],
+  "VID-1630": [
+    "Lyra Health"
+  ],
+  "VID-0861": [
+    "GoJoe",
+    "Sante Group",
+    "YuLife"
+  ],
+  "VID-1620": [
+    "Loune.co (needs to be confirmed"
+  ],
+  "VID-1049": [
+    "Loune.co (needs to be confirmed"
+  ],
+  "VID-0712": [
+    "GoJoe",
+    "Lyra Health"
+  ],
+  "VID-0397": [
+    "Sante Group"
+  ],
+  "DE-00023": [
+    "GoJoe",
+    "Spectrum.life"
+  ],
+  "TH-00005": [
+    "GoJoe",
+    "Lyra Health"
+  ],
+  "VID-0360": [
+    "GoJoe",
+    "Lyra Health",
+    "Sante Group",
+    "YuLife"
   ]
 }
