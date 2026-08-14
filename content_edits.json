@@ -20755,7 +20755,7 @@
   },
   "EN-01283": {
     "author": "Crystal Williams",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T19:20:39.014Z",
     "teacher": "Crystal Williams",
     "licenses": [
       "LifeSmart",
@@ -20771,7 +20771,8 @@
     "client_licenses": [
       "Loune.co (needs to be confirmed"
     ],
-    "version": "1"
+    "version": "1",
+    "date_created": "9/"
   },
   "EN-01284": {
     "author": "Crystal Williams",
