@@ -50376,13 +50376,14 @@
   },
   "DE-00046": {
     "type": "Video",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T20:56:06.808Z",
     "duration": "6 min",
     "peer_reviewer": "Jessica Cording",
     "teacher": "Jessica Cording",
     "title_original": "Herzerkrankungen und risikominderung",
     "author": "Jessica Cording",
-    "vimeo_link": "https://vimeo.com/1164124612/0c6383118f?share=copy&fl=sv&fe=ci"
+    "vimeo_link": "https://vimeo.com/1164124612/0c6383118f?share=copy&fl=sv&fe=ci",
+    "date_created": "2/11/"
   },
   "ES-00139": {
     "type": "Video",
