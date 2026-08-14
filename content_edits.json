@@ -48652,9 +48652,10 @@
   },
   "EXT-0027": {
     "type": "Video",
-    "_at": "2026-08-10T19:51:38.073Z",
+    "_at": "2026-08-14T18:23:48.366Z",
     "duration": "4 min",
-    "category": "Financial Wellness"
+    "category": "Financial Wellness",
+    "teacher": "J"
   },
   "EXT-0028": {
     "type": "Infographic",
