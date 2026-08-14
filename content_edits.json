@@ -50216,13 +50216,14 @@
   },
   "DE-00009": {
     "type": "Video",
-    "_at": "2026-08-13T22:13:34.947Z",
+    "_at": "2026-08-14T20:47:01.467Z",
     "peer_reviewer": "Enja Schenck",
     "teacher": "Enja Schenck",
     "title_original": "Unterkörpertraining",
     "author": "Enja Schenck",
     "title": "Lower Body Workout",
-    "vimeo_link": "https://vimeo.com/1067508637/fe05138fce"
+    "vimeo_link": "https://vimeo.com/1067508637/fe05138fce",
+    "date_created": "3/19/2025"
   },
   "PL-00005": {
     "type": "Video",
