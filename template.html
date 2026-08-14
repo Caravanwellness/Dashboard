@@ -1589,9 +1589,22 @@ async function handleImportFile(file) {
                 updates.push({ id: existing.id, field: 'author_creds', value: credsVal, _bioName: rowAuthorName });
               }
             }
-            const url = String(row['url'] || row['link'] || row['vimeo'] || '').trim();
-            if (url) {
-              const urlField = url.includes('vimeo') ? 'vimeo_link' : 'link';
+            // Vimeo and Wellbeing are two distinct URLs a file can carry for the
+            // same row (the team's master video list has both a "Vimeo" and a
+            // "Wellbeing" column) — checked independently so both can update in
+            // one pass, instead of the old single-url logic where a row with
+            // both columns present would only ever apply one of them. A row
+            // with just a generic url/link column still auto-detects vimeo vs.
+            // not, for backward compatibility with files that don't split them.
+            const vimeoVal = String(row['vimeo'] || '').trim();
+            const wellbeingVal = String(row['wellbeing'] || '').trim();
+            const genericUrl = String(row['url'] || row['link'] || '').trim();
+            const urlFieldUpdates = [];
+            if (vimeoVal) urlFieldUpdates.push(['vimeo_link', vimeoVal]);
+            else if (genericUrl.includes('vimeo')) urlFieldUpdates.push(['vimeo_link', genericUrl]);
+            if (wellbeingVal) urlFieldUpdates.push(['link', wellbeingVal]);
+            else if (genericUrl && !genericUrl.includes('vimeo')) urlFieldUpdates.push(['link', genericUrl]);
+            for (const [urlField, url] of urlFieldUpdates) {
               const cur = String(lv(existing, urlField) || '').trim();
               if (url !== cur) {
                 if (!edits[existing.id]) edits[existing.id] = {};
@@ -1602,6 +1615,8 @@ async function handleImportFile(file) {
           }
         } else {
           // New item
+          const vimeoVal = String(row['vimeo'] || '').trim();
+          const wellbeingVal = String(row['wellbeing'] || '').trim();
           const url = String(row['url'] || row['link'] || '').trim();
           const teacher = String(row['expert'] || row['teacher'] || row['instructor'] || '').trim();
           const rawLen = String(row['length'] || '').trim();
@@ -1619,8 +1634,12 @@ async function handleImportFile(file) {
             // dashboard, not because it doesn't exist. The server (save-content.js)
             // uses it as long as it doesn't collide with something already saved.
             if (rowId) item.id = rowId;
-            if (url.includes('vimeo')) item.vimeo_link = url;
-            else if (url) item.link = url;
+            // Vimeo and Wellbeing checked independently — see the comment on the
+            // existing-item branch above for why.
+            if (vimeoVal) item.vimeo_link = vimeoVal;
+            else if (url.includes('vimeo')) item.vimeo_link = url;
+            if (wellbeingVal) item.link = wellbeingVal;
+            else if (url && !url.includes('vimeo')) item.link = url;
             const dupeMatch = findDuplicateMatch(rawTitle, lang, type, null);
             if (dupeMatch) {
               possibleDupes.push({ item, matchId: dupeMatch.id, decision: 'skip' });
