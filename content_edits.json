@@ -12332,14 +12332,15 @@
   },
   "EN-01826": {
     "author": "Jessica Cording",
-    "_at": "2026-08-14T21:05:34.134Z",
+    "_at": "2026-08-14T21:38:46.866Z",
     "teacher": "Jessica Cording",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
     "vimeo_link": "https://vimeo.com/1189815254/fafbc704b0?share=copy&fl=sv&fe=ci",
-    "date_created": "5/6/2026"
+    "date_created": "5/6/2026",
+    "duration": "1"
   },
   "EN-01827": {
     "author": "Jessica Cording",
