@@ -7134,12 +7134,13 @@
   },
   "VLB-1382": {
     "teacher": "Dr. Joe Feuerstein",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T21:11:21.146Z",
     "duration": "4 min",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "author": "Dr. Joe Feuerstein"
+    "author": "Dr. Joe Feuerstein",
+    "date_created": "10/29"
   },
   "EN-01460": {
     "author": "Dr. Joe Feuerstein",
