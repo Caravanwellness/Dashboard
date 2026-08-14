@@ -50140,12 +50140,13 @@
   },
   "DE-00001": {
     "type": "Video",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T20:33:46.819Z",
     "peer_reviewer": "Julika Von Stackelberg",
     "teacher": "Julika Von Stackelberg",
     "title_original": "Resilienz und regeneratives Wohlbefinden",
     "author": "Julika Von Stackelberg",
-    "vimeo_link": "https://vimeo.com/1164117691/26e05e17d4?share=copy&fl=sv&fe=ci"
+    "vimeo_link": "https://vimeo.com/1164117691/26e05e17d4?share=copy&fl=sv&fe=ci",
+    "date_created": "2/11/2026"
   },
   "DE-00002": {
     "type": "Video",
