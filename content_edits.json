@@ -48683,10 +48683,11 @@
   },
   "EXT-0037": {
     "type": "Video",
-    "_at": "2026-08-14T18:26:28.736Z",
+    "_at": "2026-08-14T18:26:38.726Z",
     "category": "Financial Wellness / Parenting",
     "date_created": "1/22/2025",
-    "teacher": "Jennifer"
+    "teacher": "Jennifer",
+    "duration": "4"
   },
   "EXT-0038": {
     "type": "Article",
