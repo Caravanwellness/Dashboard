@@ -49687,12 +49687,13 @@
   },
   "EXT-0184": {
     "type": "Video",
-    "_at": "2026-08-14T18:37:42.585Z",
+    "_at": "2026-08-14T18:57:19.979Z",
     "peer_reviewer": "Dr. Laura Goorin",
     "category": "Emotional Wellness",
     "teacher": "Dr. Laura Goorin",
     "author": "Dr. Laura Goorin",
-    "date_created": "3/24/2025"
+    "date_created": "3/24/2025",
+    "duration": "3"
   },
   "EXT-0185": {
     "type": "Video",
