@@ -10606,7 +10606,7 @@
   },
   "EN-01239": {
     "author": "Kaitlyn Bruneau",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T19:12:18.420Z",
     "teacher": "Kaitlyn Bruneau",
     "licenses": [
       "YuLife"
@@ -10620,7 +10620,8 @@
       "YuLife",
       "Earn It"
     ],
-    "version": "1"
+    "version": "1",
+    "date_created": "10/16/2025"
   },
   "EN-01240": {
     "author": "Kaitlyn Bruneau",
