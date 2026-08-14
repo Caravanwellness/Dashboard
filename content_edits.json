@@ -31191,12 +31191,13 @@
   },
   "EN-01773": {
     "author": "Dr. Fahim Pyarali",
-    "_at": "2026-08-14T21:32:33.255Z",
+    "_at": "2026-08-14T21:32:33.619Z",
     "teacher": "Dr. Fahim Pyarali",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "date_created": "8/6/2026"
+    "date_created": "8/6/2026",
+    "duration": "2"
   },
   "EN-01775": {
     "author": "Dr. Fahim Pyarali",
