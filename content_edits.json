@@ -50386,13 +50386,14 @@
   },
   "ES-00139": {
     "type": "Video",
-    "_at": "2026-08-14T20:55:39.236Z",
+    "_at": "2026-08-14T20:55:42.801Z",
     "peer_reviewer": "Dr. Ricardo Fuentes",
     "teacher": "Dr. Ricardo Fuentes",
     "title_original": "Estrategia y plan de mejora de la salud cardiovascular",
     "author": "Dr. Ricardo Fuentes",
     "vimeo_link": "https://vimeo.com/1164371997/084ad70c3c?share=copy&fl=sv&fe=ci",
-    "date_created": "2/12/2026"
+    "date_created": "2/12/2026",
+    "duration": "3"
   },
   "DE-00044": {
     "type": "Video",
