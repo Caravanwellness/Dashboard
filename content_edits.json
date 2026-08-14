@@ -40058,14 +40058,15 @@
   },
   "EN-01228": {
     "teacher": "Hafsa Benzzi",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T19:11:44.646Z",
     "duration": "2",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "author": "Hafsa Benzzi",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1111661491/64475bf637?share=copy"
+    "vimeo_link": "https://vimeo.com/1111661491/64475bf637?share=copy",
+    "date_created": "8/"
   },
   "VID-0284": {
     "author": "Dr. Emma Guzman",
