@@ -50420,12 +50420,13 @@
   },
   "ES-00081": {
     "type": "Video",
-    "_at": "2026-08-14T20:57:43.029Z",
+    "_at": "2026-08-14T20:57:46.298Z",
     "peer_reviewer": "Nazirber Maduro",
     "teacher": "Nazirber Maduro",
     "title_original": "La nutrición es diferente para todos",
     "author": "Nazirber Maduro",
-    "date_created": "2/24/2026"
+    "date_created": "2/24/2026",
+    "duration": "4"
   },
   "ES-00093": {
     "type": "Video",
