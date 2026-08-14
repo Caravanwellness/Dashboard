@@ -50259,12 +50259,13 @@
   },
   "PL-00014": {
     "type": "Video",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-14T20:50:11.578Z",
     "peer_reviewer": "Margo Gladys",
     "teacher": "Margo Gladys",
     "title_original": "Oddychanie dla zdrowia serca",
     "author": "Margo Gladys",
-    "date_created": "01/12/2026"
+    "date_created": "01/12/2026",
+    "duration": "6"
   },
   "DE-00046": {
     "type": "Video",
