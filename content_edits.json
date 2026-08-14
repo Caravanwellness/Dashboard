@@ -50430,13 +50430,14 @@
   },
   "ES-00093": {
     "type": "Video",
-    "_at": "2026-08-14T20:58:14.013Z",
+    "_at": "2026-08-14T20:58:18.594Z",
     "peer_reviewer": "Angie Torres",
     "teacher": "Angie Torres",
     "title_original": "Equilibrio de macronutrientes",
     "author": "Angie Torres",
     "vimeo_link": "https://vimeo.com/1164361922/26e43158af?share=copy&fl=sv&fe=ci",
-    "date_created": "2/12/2026"
+    "date_created": "2/12/2026",
+    "duration": "5"
   },
   "ES-00082": {
     "type": "Video",
