@@ -38171,7 +38171,7 @@
   },
   "EN-01361": {
     "author": "Eliot Goldman",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T19:36:03.100Z",
     "teacher": "Eliot Goldman",
     "licenses": [
       "Walkingspree",
@@ -38185,7 +38185,8 @@
     "client_licenses": [
       "Earn It"
     ],
-    "version": "1"
+    "version": "1",
+    "date_created": "9/"
   },
   "EN-01362": {
     "author": "Eliot Goldman",
