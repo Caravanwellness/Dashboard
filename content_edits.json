@@ -50016,13 +50016,14 @@
   },
   "HE-00010": {
     "type": "Video",
-    "_at": "2026-08-14T18:54:29.057Z",
+    "_at": "2026-08-14T20:28:04.567Z",
     "peer_reviewer": "Tzahi Moskovitz",
     "teacher": "Tzahi Moskovitz",
     "title_original": "פיתולים להגברת האנרגיה",
     "author": "Tzahi Moskovitz",
     "vimeo_link": "https://vimeo.com/1067446040/3ea067f4d3?fl=ls&fe=ec",
-    "date_created": "6/26/2026"
+    "date_created": "6/26/2026",
+    "duration": "6"
   },
   "FR-00045": {
     "type": "Video",
