@@ -22104,7 +22104,7 @@
   },
   "EN-01333": {
     "author": "Candice White-Parker",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T19:31:31.337Z",
     "teacher": "Candice White-Parker",
     "licenses": [
       "Wellness360"
@@ -22114,7 +22114,8 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "7/"
   },
   "EN-01334": {
     "author": "Candice White-Parker",
