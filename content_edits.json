@@ -49759,12 +49759,13 @@
   },
   "ES-00092": {
     "type": "Video",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-14T18:59:04.765Z",
     "peer_reviewer": "Angie Torres",
     "teacher": "Angie Torres",
     "title_original": "Importancia de la hidratación",
     "author": "Angie Torres",
-    "date_created": "06/24/2024"
+    "date_created": "06/24/2024",
+    "duration": "4"
   },
   "DE-00031": {
     "type": "Video",
