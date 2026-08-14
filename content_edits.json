@@ -50005,13 +50005,14 @@
   },
   "HE-00004": {
     "type": "Video",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-14T20:27:47.500Z",
     "peer_reviewer": "Tzahi Moskovitz",
     "teacher": "Tzahi Moskovitz",
     "title_original": "פתיחת בית החזה להגברת האנרגיה",
     "author": "Tzahi Moskovitz",
     "vimeo_link": "https://vimeo.com/1067447596/67a447f9ed",
-    "date_created": "11/01/2024"
+    "date_created": "11/01/2024",
+    "duration": "6"
   },
   "HE-00010": {
     "type": "Video",
