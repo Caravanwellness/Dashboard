@@ -50485,12 +50485,13 @@
   },
   "IT-00026": {
     "type": "Video",
-    "_at": "2026-08-14T21:00:56.828Z",
+    "_at": "2026-08-14T21:00:59.495Z",
     "peer_reviewer": "Ilaria Chiantore",
     "teacher": "Ilaria Chiantore",
     "title_original": "Meditazione per i 5 sensi",
     "author": "Ilaria Chiantore",
-    "date_created": "2/24/2026"
+    "date_created": "2/24/2026",
+    "duration": "7"
   },
   "AR-00050": {
     "type": "Video",
