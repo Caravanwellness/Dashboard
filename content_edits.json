@@ -30241,13 +30241,14 @@
   },
   "EN-01541": {
     "author": "Natalie Zolotareva",
-    "_at": "2026-08-14T20:51:17.120Z",
+    "_at": "2026-08-14T21:44:14.470Z",
     "teacher": "Natalie Zolotareva",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "date_created": "1/30/2026"
+    "date_created": "1/30/2026",
+    "duration": "4"
   },
   "EN-01543": {
     "author": "Natalie Zolotareva",
