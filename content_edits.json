@@ -27199,7 +27199,7 @@
   },
   "VLB-1643": {
     "teacher": "Sadiya Shackey-El",
-    "_at": "2026-08-14T18:42:27.987Z",
+    "_at": "2026-08-14T21:25:12.032Z",
     "licenses": [
       "Promethium Medical"
     ],
@@ -27208,7 +27208,8 @@
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "author": "Sadiya Shackey-El",
-    "duration": "5"
+    "duration": "5",
+    "date_created": "3/24/2026"
   },
   "VLB-1644": {
     "teacher": "Sadiya Shackey-El",
