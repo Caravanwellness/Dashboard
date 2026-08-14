@@ -50058,13 +50058,14 @@
   },
   "ES-00036": {
     "type": "Video",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-14T20:28:32.793Z",
     "peer_reviewer": "Eneida Farro",
     "teacher": "Eneida Farro",
     "title_original": "Ejercicio para la relajación progresiva de los músculos",
     "author": "Eneida Farro",
     "vimeo_link": "https://vimeo.com/1067738857/782af395a1",
-    "date_created": "01/08/2024"
+    "date_created": "01/08/2024",
+    "duration": "7"
   },
   "FR-00006": {
     "type": "Video",
