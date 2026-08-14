@@ -2443,7 +2443,13 @@ function renderTable() {
       // never the actual reviewer, so it should never outrank a real
       // peer_reviewer value here even though it still works as a fallback when
       // peer_reviewer is blank.
-      const v = c.k==='teacher' ? (lv(item,'peer_reviewer')||lv(item,'teacher')||'') : lv(item,c.k);
+      // Author falls back to teacher the same way the detail panel's "Author /
+      // Teacher" field does (see fAuthorField in showDetail) — items with no
+      // dedicated author field were showing blank here while the panel showed
+      // the teacher's name, since only the panel had this fallback before.
+      const v = c.k==='teacher' ? (lv(item,'peer_reviewer')||lv(item,'teacher')||'')
+              : c.k==='author'  ? (lv(item,'author')||lv(item,'teacher')||'')
+              : lv(item,c.k);
       return `<td ${s}>${esc(v)}</td>`;
     }).join('')+'</tr>';
   }).join('');
@@ -3192,8 +3198,10 @@ function reRow(id) {
     }
     if (c.k==='type') return `<td ${s}><span class="badge badge-type">${esc(lv(item,'type'))}</span></td>`;
     if (c.k==='review_priority'){const p=lv(item,'review_priority');return `<td ${s}>${p?`<span class="badge badge-${p}">${p}</span>`:''}</td>`;}
-    // Same peer_reviewer-over-teacher preference as renderTable() — see its comment.
-    const v = c.k==='teacher'?(lv(item,'peer_reviewer')||lv(item,'teacher')||''):lv(item,c.k);
+    // Same peer_reviewer/teacher and author/teacher fallbacks as renderTable() — see its comments.
+    const v = c.k==='teacher' ? (lv(item,'peer_reviewer')||lv(item,'teacher')||'')
+            : c.k==='author'  ? (lv(item,'author')||lv(item,'teacher')||'')
+            : lv(item,c.k);
     return `<td ${s}>${esc(v)}</td>`;
   }).join('');
 
@@ -3579,8 +3587,9 @@ function colValue(item, key) {
     const name = lv(item,'author') || lv(item,'teacher');
     return getBio(name, 'creds', lv(item,'author_creds') || '');
   }
-  // Same peer_reviewer-over-teacher preference as renderTable() — see its comment.
+  // Same peer_reviewer/teacher and author/teacher fallbacks as renderTable() — see its comments.
   if (key === 'teacher') return lv(item,'peer_reviewer') || lv(item,'teacher') || '';
+  if (key === 'author') return lv(item,'author') || lv(item,'teacher') || '';
   if (key === 'notes') return gE(item.id,'notes', item.notes || '');
   return lv(item, key) || '';
 }
