@@ -43076,13 +43076,14 @@
   },
   "ART-0148": {
     "category": "Health",
-    "_at": "2026-08-13T16:13:11.302Z",
+    "_at": "2026-08-14T18:11:22.502Z",
     "type": "Article",
     "author": "Marlee Alanis",
     "duration": "2",
     "language": "English",
     "title": "Managing Nausea While Using GLP-1",
-    "peer_reviewer": "Madeline McGuire"
+    "peer_reviewer": "Madeline McGuire",
+    "date_created": "06"
   },
   "ART-0187": {
     "category": "Health / Nutrition",
