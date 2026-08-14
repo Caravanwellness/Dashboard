@@ -48666,10 +48666,11 @@
   },
   "EXT-0032": {
     "type": "Video",
-    "_at": "2026-08-14T18:25:04.138Z",
+    "_at": "2026-08-14T18:25:06.314Z",
     "duration": "5 min",
     "category": "Financial Wellness",
-    "date_created": "9/22/2025"
+    "date_created": "9/22/2025",
+    "teacher": "Anna"
   },
   "EXT-0033": {
     "type": "Article",
