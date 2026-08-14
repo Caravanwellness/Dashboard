@@ -50064,11 +50064,12 @@
   },
   "FR-00006": {
     "type": "Video",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T20:26:51.225Z",
     "peer_reviewer": "Cedric St. Croix",
     "teacher": "Cedric St. Croix",
     "title_original": "Méditation pour un meilleur sommeil",
-    "author": "Cedric St. Croix"
+    "author": "Cedric St. Croix",
+    "duration": "4"
   },
   "ES-00040": {
     "type": "Video",
