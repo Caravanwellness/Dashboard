@@ -50248,13 +50248,14 @@
   },
   "ES-00041": {
     "type": "Video",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-14T20:49:25.790Z",
     "peer_reviewer": "Eneida Farro",
     "teacher": "Eneida Farro",
     "title_original": "Ataques de pánico",
     "author": "Eneida Farro",
     "vimeo_link": "https://vimeo.com/1074023736/097318c4c0",
-    "date_created": "01/08/2024"
+    "date_created": "01/08/2024",
+    "duration": "4"
   },
   "PL-00014": {
     "type": "Video",
