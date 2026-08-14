@@ -27444,14 +27444,15 @@
   },
   "EN-01374": {
     "author": "Dr. David Rosen",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T19:38:49.496Z",
     "teacher": "Dr. David Rosen",
     "duration": "2",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1111320930/a2c3fa4796"
+    "vimeo_link": "https://vimeo.com/1111320930/a2c3fa4796",
+    "date_created": "8"
   },
   "EN-01375": {
     "author": "Dr. David Rosen",
