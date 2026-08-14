@@ -49876,12 +49876,13 @@
   },
   "NL-00027": {
     "type": "Video",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-14T19:06:50.703Z",
     "peer_reviewer": "Anna-Belle Buyse",
     "teacher": "Anna-Belle Buyse",
     "title_original": "Meditatie voor evenwichtige energie",
     "author": "Anna-Belle Buyse",
-    "date_created": "12/02/2024"
+    "date_created": "12/02/2024",
+    "duration": "5"
   },
   "EXT-0205": {
     "type": "Video",
