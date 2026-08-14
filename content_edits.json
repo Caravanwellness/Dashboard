@@ -20795,7 +20795,7 @@
   },
   "EN-01285": {
     "author": "Crystal Williams",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T19:21:02.446Z",
     "teacher": "Crystal Williams",
     "licenses": [
       "Luro Health",
@@ -20810,7 +20810,8 @@
     "client_licenses": [
       "Loune.co (needs to be confirmed"
     ],
-    "version": "1"
+    "version": "1",
+    "date_created": "9/"
   },
   "EN-01536": {
     "author": "Crystal Williams",
