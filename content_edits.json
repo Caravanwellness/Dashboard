@@ -49487,12 +49487,13 @@
   },
   "EXT-0185": {
     "type": "Video",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:38:20.750Z",
     "duration": "3 min",
     "peer_reviewer": "Mila Toribio",
     "category": "Breathwork",
     "teacher": "Mila Toribio",
-    "author": "Mila Toribio"
+    "author": "Mila Toribio",
+    "date_created": "3/"
   },
   "EXT-0186": {
     "type": "Video",
