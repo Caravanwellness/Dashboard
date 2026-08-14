@@ -49022,10 +49022,11 @@
   },
   "EXT-0082": {
     "type": "Video",
-    "_at": "2026-08-14T18:33:12.900Z",
+    "_at": "2026-08-14T18:56:45.230Z",
     "category": "Managing Spending & Saving",
     "date_created": "5/12/2026",
-    "teacher": "Anna"
+    "teacher": "Anna",
+    "duration": "5"
   },
   "EXT-0085": {
     "type": "Infographic",
