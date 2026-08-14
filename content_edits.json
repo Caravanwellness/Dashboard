@@ -50205,13 +50205,14 @@
   },
   "DE-00007": {
     "type": "Video",
-    "_at": "2026-08-14T20:46:34.847Z",
+    "_at": "2026-08-14T20:46:37.858Z",
     "peer_reviewer": "Enja Schenck",
     "teacher": "Enja Schenck",
     "title_original": "Wirbelsäulenrotation am Schreibtisch",
     "author": "Enja Schenck",
     "vimeo_link": "https://vimeo.com/1067512132/ced72a505f?fl=ls&fe=ec",
-    "date_created": "3/19/2025"
+    "date_created": "3/19/2025",
+    "duration": "5"
   },
   "DE-00009": {
     "type": "Video",
