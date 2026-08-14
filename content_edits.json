@@ -50183,13 +50183,14 @@
   },
   "PT-00066": {
     "type": "Video",
-    "_at": "2026-08-14T20:38:16.013Z",
+    "_at": "2026-08-14T20:38:21.955Z",
     "peer_reviewer": "Lucelia Amorim-Linton",
     "teacher": "Lucelia Amorim-Linton",
     "title_original": "Exercício sentado para relaxamento",
     "author": "Lucelia Amorim-Linton",
     "vimeo_link": "https://vimeo.com/1164116902/5eafec6b85?share=copy&fl=sv&fe=ci",
-    "date_created": "2/11/2026"
+    "date_created": "2/11/2026",
+    "duration": "9"
   },
   "DE-00006": {
     "type": "Video",
