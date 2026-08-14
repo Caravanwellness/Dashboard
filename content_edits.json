@@ -124,11 +124,13 @@
   },
   "EN-01774": {
     "teacher": "Dr. Fahim Pyarali",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "author": "Dr. Fahim Pyarali"
+    "author": "Dr. Fahim Pyarali",
+    "_hidden": true,
+    "_merged_into": "VID-0207"
   },
   "EN-01722": {
     "teacher": "Dr. Fahim Pyarali",
@@ -13612,12 +13614,14 @@
   },
   "ART-0173": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-12T18:01:33.124Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "language": "English",
     "duration": "2",
     "title": "The Importance Of Oral Health For Overall Wellness",
     "category": "Health",
-    "author": "Marlee Alanis"
+    "author": "Marlee Alanis",
+    "_hidden": true,
+    "_merged_into": "ART-0167"
   },
   "ART-0174": {
     "peer_reviewer": "Alyssa Lagasca",
@@ -20233,9 +20237,15 @@
   },
   "VID-1588": {
     "author": "Crystal Williams",
-    "_at": "2026-08-12T21:22:27.517Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "language": "English",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "teacher": "Crystal Williams",
+    "vimeo_link": "https://vimeo.com/1069272244/e2afbd8ecc?fl=ls&fe=ec",
+    "branding": "White-Label",
+    "licenses": [
+      "Numbase"
+    ]
   },
   "VID-1589": {
     "author": "Crystal Williams",
@@ -20591,7 +20601,7 @@
   },
   "EN-01282": {
     "author": "Crystal Williams",
-    "_at": "2026-08-13T22:07:22.209Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "teacher": "Crystal Williams",
     "licenses": [
       "Passport & Co.",
@@ -20603,7 +20613,9 @@
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "title": "Total Body Endurance"
+    "title": "Total Body Endurance",
+    "_hidden": true,
+    "_merged_into": "EN-01281"
   },
   "EN-01283": {
     "author": "Crystal Williams",
@@ -20664,7 +20676,7 @@
   },
   "EN-01536": {
     "author": "Crystal Williams",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "teacher": "Crystal Williams",
     "licenses": [
       "Numbase"
@@ -20672,7 +20684,9 @@
     "vimeo_link": "https://vimeo.com/1069272244/e2afbd8ecc?fl=ls&fe=ec",
     "language": "English",
     "type": "Video",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "_hidden": true,
+    "_merged_into": "VID-1588"
   },
   "EN-01537": {
     "teacher": "Crystal Williams",
@@ -25170,21 +25184,24 @@
   },
   "VID-1875": {
     "author": "Julika Von Stackelberg",
-    "_at": "2026-08-12T21:22:27.517Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "language": "English",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "teacher": "Julika Von Stackelberg"
   },
   "VID-1876": {
     "author": "Julika Von Stackelberg",
-    "_at": "2026-08-12T21:22:27.517Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "language": "English",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "teacher": "Julika Von Stackelberg"
   },
   "VID-1877": {
     "author": "Julika Von Stackelberg",
-    "_at": "2026-08-12T21:22:27.517Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "language": "English",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "teacher": "Julika Von Stackelberg"
   },
   "EN-00348": {
     "author": "Julika Von Stackelberg",
@@ -33698,9 +33715,10 @@
   },
   "VID-1820": {
     "author": "Katie Attubato",
-    "_at": "2026-08-12T21:22:27.517Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "language": "English",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "teacher": "Katie Attubato"
   },
   "VID-1821": {
     "author": "Katie Attubato",
@@ -33740,15 +33758,17 @@
   },
   "VID-1863": {
     "author": "Katie Attubato",
-    "_at": "2026-08-12T21:22:27.517Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "language": "English",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "teacher": "Katie Attubato"
   },
   "VID-1864": {
     "author": "Katie Attubato",
-    "_at": "2026-08-12T21:22:27.517Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "language": "English",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "teacher": "Katie Attubato"
   },
   "EN-00606": {
     "author": "Katie Attubato",
@@ -43019,13 +43039,15 @@
   },
   "ILB-0319": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "category": "General Heart Health",
     "duration": "",
     "title": "Monitoring Heart Health With Diabetes",
     "author": "Diane McNaught",
     "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0167"
   },
   "EN-01406": {
     "duration": "1",
@@ -43488,87 +43510,101 @@
   },
   "VID-1834": {
     "author": "Soja Moore",
-    "_at": "2026-08-12T21:22:27.517Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "language": "English",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "teacher": "Soja Moore"
   },
   "VID-1835": {
     "author": "Soja Moore",
-    "_at": "2026-08-12T21:22:27.517Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "language": "English",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "teacher": "Soja Moore"
   },
   "VID-1836": {
     "author": "Soja Moore",
-    "_at": "2026-08-12T21:22:27.517Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "language": "English",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "teacher": "Soja Moore"
   },
   "VID-1837": {
     "author": "Soja Moore",
-    "_at": "2026-08-12T21:22:27.517Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "language": "English",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "teacher": "Soja Moore"
   },
   "VID-1838": {
     "author": "Soja Moore",
-    "_at": "2026-08-12T21:22:27.517Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "language": "English",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "teacher": "Soja Moore"
   },
   "VID-1839": {
     "author": "Soja Moore",
-    "_at": "2026-08-12T21:22:27.517Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "language": "English",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "teacher": "Soja Moore"
   },
   "VID-1840": {
     "author": "Soja Moore",
-    "_at": "2026-08-12T21:22:27.517Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "language": "English",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "teacher": "Soja Moore"
   },
   "VID-1841": {
     "author": "Soja Moore",
-    "_at": "2026-08-12T21:22:27.517Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "language": "English",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "teacher": "Soja Moore"
   },
   "VID-1842": {
     "author": "Soja Moore",
-    "_at": "2026-08-12T21:22:27.517Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "language": "English",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "teacher": "Soja Moore"
   },
   "VID-1843": {
     "author": "Soja Moore",
-    "_at": "2026-08-12T21:22:27.517Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "language": "English",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "teacher": "Soja Moore"
   },
   "VID-1865": {
     "author": "Sharisse Victor-Newmam",
-    "_at": "2026-08-12T21:22:27.517Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "language": "English",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "teacher": "Sharisse Victor-Newmam"
   },
   "VID-1866": {
     "author": "Sharisse Victor-Newmam",
-    "_at": "2026-08-12T21:22:27.517Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "language": "English",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "teacher": "Sharisse Victor-Newmam"
   },
   "VID-1867": {
     "author": "Sharisse Victor-Newmam",
-    "_at": "2026-08-12T21:22:27.517Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "language": "English",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "teacher": "Sharisse Victor-Newmam"
   },
   "VID-1868": {
     "author": "Sharisse Victor-Newmam",
-    "_at": "2026-08-12T21:22:27.517Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "language": "English",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "teacher": "Sharisse Victor-Newmam"
   },
   "VID-1869": {
     "author": "Sharisse Victor-Newmam",
@@ -43578,15 +43614,17 @@
   },
   "VID-1870": {
     "author": "Sharisse Victor-Newmam",
-    "_at": "2026-08-12T21:22:27.517Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "language": "English",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "teacher": "Sharisse Victor-Newmam"
   },
   "VID-1871": {
     "author": "Sharisse Victor-Newmam",
-    "_at": "2026-08-12T21:22:27.517Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "language": "English",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "teacher": "Sharisse Victor-Newmam"
   },
   "VID-1872": {
     "author": "Sharisse Victor-Newmam",
@@ -43596,23 +43634,27 @@
   },
   "VID-1873": {
     "author": "Sharisse Victor-Newmam",
-    "_at": "2026-08-12T21:22:27.517Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "language": "English",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "teacher": "Sharisse Victor-Newmam"
   },
   "VID-1874": {
     "author": "Sharisse Victor-Newmam",
-    "_at": "2026-08-12T21:22:27.517Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "language": "English",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "teacher": "Sharisse Victor-Newmam"
   },
   "ILB-0001": {
     "author": "Jade Gordon",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "date_created": "5/5/2026",
     "subtitles_available": "yes",
     "peer_reviewer": "",
-    "type": "Infographic"
+    "type": "Infographic",
+    "_hidden": true,
+    "_merged_into": "INF-0001"
   },
   "EN-00487": {
     "duration": "5",
@@ -43856,13 +43898,14 @@
   },
   "INF-0001": {
     "author": "Jade Gordon",
-    "_at": "2026-08-12T15:27:45.038Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author_creds": "Behavioral Technician",
     "date_created": "5/5/2026",
     "date_revised": "5/6/2026",
     "language": "English",
     "link": "https://drive.google.com/file/d/1EJaJSPtwT62V9EJa0Sx4g95AA3ahs9LJ/view?usp=sharing",
-    "category": "Alcohol Use"
+    "category": "Alcohol Use",
+    "subtitles_available": "yes"
   },
   "INF-0002": {
     "author": "Jade Gordon",
@@ -44054,9 +44097,11 @@
   },
   "ILB-0003": {
     "author": "Jade Gordon",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "date_created": "5/5/2026",
-    "type": "Infographic"
+    "type": "Infographic",
+    "_hidden": true,
+    "_merged_into": "INF-0002"
   },
   "ART-0064": {
     "author": "Marlee Alanis",
@@ -44707,11 +44752,13 @@
   },
   "ILB-0021": {
     "references": "Michigan Medicine (University of Michigan). (2021). Feeling anxious? Try this breathing technique. https://www.michiganmedicine.org/health-lab/feeling-anxious-try-breathing-technique\n\nCleveland Clinic. (2024). Grounding Techniques to Reduce Anxiety with Melissa Young, MD. https://my.clevelandclinic.org/podcasts/health-essentials/grounding-techniques-to-reduce-anxiety-with-melissa-young\n\nFrontiers in Psychology. (2024). A systematic review of brief respiratory, embodiment, cognitive, and mindfulness interventions to reduce state anxiety. https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2024.1412928/full",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "type": "Infographic",
     "author": "Emily Wilson",
     "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0011"
   },
   "ILB-0023": {
     "references": "Cell Reports Medicine. (2023). Brief structured respiration practices enhance mood and reduce physiological arousal. https://doi.org/10.1016/j.xcrm.2022.100895\n\nCleveland Clinic. (2022). Everything You Need To Know About Progressive Muscle Relaxation. https://health.clevelandclinic.org/progressive-muscle-relaxation-pmr\n\nMayo Clinic. (2024). Relaxation techniques: Try these steps to lower stress. https://www.mayoclinic.org/healthy-lifestyle/stress-management/in-depth/relaxation-technique/art-20045368",
@@ -44723,19 +44770,23 @@
   },
   "ILB-0025": {
     "references": "Psychological Medicine. (2025). Efficacy of cognitive behavioral therapy in treating repetitive negative thinking, rumination, and worry – a transdiagnostic meta-analysis. https://pmc.ncbi.nlm.nih.gov/articles/PMC12017360/\n\nFrontiers in Psychology. (2024). A systematic review of the effects of rumination-focused cognitive behavioral therapy in reducing depressive symptoms. https://pmc.ncbi.nlm.nih.gov/articles/PMC11649405/\n\nCleveland Clinic. (2025). Stop Your Negative Thoughts With These Strategies. https://health.clevelandclinic.org/turn-around-negative-thinking",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "type": "Infographic",
     "author": "Emily Wilson",
     "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0013"
   },
   "ILB-0027": {
     "references": "Frontiers in Psychology. (2022). Savoring Interventions Increase Positive Emotions After a Social-Evaluative Hassle. https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2022.791040/full\n\nCleveland Clinic. (2026). 9 Strategies To Stop Procrastinating. https://health.clevelandclinic.org/how-to-stop-procrastinating\n\nHarvard Health Publishing. (2021). Long-lasting healthy changes: Doable and worthwhile. https://www.health.harvard.edu/blog/long-lasting-healthy-changes-doable-and-worthwhile-202109142594",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "type": "Infographic",
     "author": "Emily Wilson",
     "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0014"
   },
   "ILB-0029": {
     "references": "Cleveland Clinic. (2026). Cognitive Behavioral Therapy (CBT): What It Is & What It Treats. https://my.clevelandclinic.org/health/treatments/21208-cognitive-behavioral-therapy-cbt\n\nMayo Clinic. (2025). Cognitive behavioral therapy. https://www.mayoclinic.org/tests-procedures/cognitive-behavioral-therapy/about/pac-20384610\n\nFrontiers in Psychology. (2022). Appraisal Bias and Emotion Dispositions Are Risk Factors for Depression and Generalized Anxiety: Empirical Evidence. https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2022.857419/full",
@@ -44747,27 +44798,33 @@
   },
   "ILB-0031": {
     "references": "Mayo Clinic. (2023). Job burnout: How to spot it and take action. https://www.mayoclinic.org/healthy-lifestyle/adult-health/in-depth/burnout/art-20046642\n\nCleveland Clinic. (2026). Signs of Burnout: What It Is, How It Feels and How To Recover. https://health.clevelandclinic.org/signs-of-burnout\n\nFrontiers in Psychology. (2021). Bio-Psycho-Socio-Spirito-Cultural Factors of Burnout: A Systematic Narrative Review of the Literature. https://doi.org/10.3389/fpsyg.2021.722862",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "type": "Infographic",
     "author": "Emily Wilson",
     "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0016"
   },
   "ILB-0033": {
     "references": "Mayo Clinic. (2026). Chronic stress puts your health at risk. https://www.mayoclinic.org/healthy-lifestyle/stress-management/in-depth/stress/art-20046037\n\nHarvard Health Publishing. (2024). Understanding the stress response. https://www.health.harvard.edu/healthy-aging-and-longevity/understanding-the-stress-response\n\nFrontiers in Endocrinology. (2023). Understanding the relationships between physiological and psychosocial stress, cortisol and cognition. https://www.frontiersin.org/journals/endocrinology/articles/10.3389/fendo.2023.1085950/full",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "type": "Infographic",
     "author": "Emily Wilson",
     "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0017"
   },
   "ILB-0489": {
     "references": "International Journal of Mental Health Promotion. (2022). Applying SMART Goal Intervention Leads to Greater Goal Attainment, Need Satisfaction and Positive Affect. https://www.techscience.com/IJMHP/v24n6/49942/html\n\nNational Institute of Mental Health. (2026). Caring for Your Mental Health. https://www.nimh.nih.gov/health/topics/caring-for-your-mental-health\n\nMayo Clinic Health System. (2022). Setting SMART goals for success. https://www.mayoclinichealthsystem.org/hometown-health/speaking-of-health/setting-smart-goals",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "type": "Infographic",
     "author": "Emily Wilson",
     "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0019"
   },
   "ILB-0053": {
     "references": "American Lung Association. (2024). Asthma and Exercise. https://www.lung.org/lung-health-diseases/lung-disease-lookup/asthma/managing-asthma/asthma-and-exercise\n\nMayo Clinic. (2025). Exercise-induced asthma: Diagnosis & treatment. https://www.mayoclinic.org/diseases-conditions/exercise-induced-asthma/diagnosis-treatment/drc-20372306\n\nThe Journal of Allergy and Clinical Immunology: In Practice. (2022). Recommendations for Physical Activity in Asthma: A Work Group Report of the AAAAI Sports, Exercise, and Fitness Committee. https://doi.org/10.1016/j.jaip.2021.10.056",
@@ -44779,17 +44836,21 @@
   },
   "ILB-0088": {
     "references": "NASA. (2024). Evidence – NASA Science. https://science.nasa.gov/climate-change/evidence/\n\nNOAA Climate.gov. (2025). Climate change: global temperature. https://www.climate.gov/news-features/understanding-climate/climate-change-global-temperature\n\nIPCC. (2021). Climate Change 2021: The Physical Science Basis (Sixth Assessment Report, Working Group I). https://www.ipcc.ch/assessment-report/ar6/",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "type": "Infographic",
     "author": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0046"
   },
   "ILB-0098": {
     "references": "Consumer Financial Protection Bureau. (2025). An essential guide to building an emergency fund. https://www.consumerfinance.gov/an-essential-guide-to-building-an-emergency-fund/\n\nFederal Trade Commission. (2023). Credit Scores. https://consumer.ftc.gov/articles/credit-scores\n\nFederal Deposit Insurance Corporation. (2025). Saving for the Unexpected and Your Future. https://www.fdic.gov/consumer-resource-center/2025-01/saving-unexpected-and-your-future",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "type": "Infographic",
     "author": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0051"
   },
   "ILB-0102": {
     "references": "Cleveland Clinic. (2023). Heart Rate Reserve: How to Calculate It & What It Means. https://my.clevelandclinic.org/health/articles/24649-heart-rate-reserve\n\nMayo Clinic. (2023). Exercise intensity: How to measure it. https://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/exercise-intensity/art-20046887\n\nMedicine & Science in Sports & Exercise. (2023). Ventilatory Threshold Related to V̇O2reserve, Heart Rate Reserve, and Rating of Perceived Exertion in a Large Varied Sample. https://pmc.ncbi.nlm.nih.gov/articles/PMC10524184/",
@@ -46283,27 +46344,35 @@
   },
   "ILB-0005": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0003"
   },
   "ILB-0009": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0005"
   },
   "ILB-0011": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0006"
   },
   "ILB-0013": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0007"
   },
   "ILB-0015": {
     "type": "Infographic",
@@ -46313,23 +46382,29 @@
   },
   "ILB-0017": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0009"
   },
   "ILB-0019": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Emily Wilson",
     "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0010"
   },
   "ILB-0035": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Emily Wilson",
     "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0018"
   },
   "ILB-0036": {
     "type": "Infographic",
@@ -46345,10 +46420,12 @@
   },
   "ILB-0039": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Emily Wilson",
     "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0231"
   },
   "ILB-0040": {
     "type": "Infographic",
@@ -46377,17 +46454,21 @@
   },
   "ILB-0047": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Emily Wilson",
     "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0025"
   },
   "ILB-0049": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Emily Wilson",
     "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0026"
   },
   "ILB-0051": {
     "type": "Infographic",
@@ -46398,27 +46479,35 @@
   },
   "ILB-0055": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0029"
   },
   "ILB-0057": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0030"
   },
   "ILB-0059": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0031"
   },
   "ILB-0061": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0032"
   },
   "ILB-0062": {
     "type": "Infographic",
@@ -46426,16 +46515,20 @@
   },
   "ILB-0063": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Emily Wilson",
     "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0033"
   },
   "ILB-0065": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0034"
   },
   "ILB-0067": {
     "type": "Infographic",
@@ -46445,10 +46538,12 @@
   },
   "ILB-0069": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Emily Wilson",
     "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0036"
   },
   "ILB-0070": {
     "type": "Infographic",
@@ -46465,16 +46560,20 @@
   },
   "ILB-0074": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Emily Wilson",
     "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0039"
   },
   "ILB-0076": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0040"
   },
   "ILB-0078": {
     "type": "Infographic",
@@ -46485,17 +46584,21 @@
   },
   "ILB-0080": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Emily Wilson",
     "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0042"
   },
   "ILB-0082": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Emily Wilson",
     "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0043"
   },
   "ILB-0084": {
     "type": "Infographic",
@@ -46513,27 +46616,35 @@
   },
   "ILB-0090": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0047"
   },
   "ILB-0092": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0048"
   },
   "ILB-0094": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0049"
   },
   "ILB-0096": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0050"
   },
   "ILB-0100": {
     "type": "Infographic",
@@ -46560,30 +46671,38 @@
   },
   "ILB-0112": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Emily Wilson",
     "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0058"
   },
   "ILB-0114": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Emily Wilson",
     "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0059"
   },
   "ILB-0116": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0618"
   },
   "ILB-0117": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Emily Wilson",
     "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0198"
   },
   "ILB-0118": {
     "type": "Infographic",
@@ -46623,9 +46742,11 @@
   },
   "ILB-0126": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0066"
   },
   "ILB-0128": {
     "type": "Infographic",
@@ -46635,11 +46756,13 @@
   },
   "ILB-0130": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "references": "Cleveland Clinic. (2026). Try These Five Practices To Improve Your Blood Circulation. https://health.clevelandclinic.org/how-to-improve-blood-circulation-naturally\n\nCells. (2023). Training the Vessels: Molecular and Clinical Effects of Exercise on Vascular Health—A Narrative Review. https://pmc.ncbi.nlm.nih.gov/articles/PMC10649652/\n\nJournal of Education and Health Promotion. (2024). Effect of physical activity breaks during prolonged sitting on vascular outcomes: A scoping review. https://pmc.ncbi.nlm.nih.gov/articles/PMC11482367/",
     "author": "Emily Wilson",
     "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0068"
   },
   "ILB-0131": {
     "type": "Infographic",
@@ -46656,9 +46779,11 @@
   },
   "ILB-0134": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0070"
   },
   "ILB-0135": {
     "type": "Infographic",
@@ -46667,9 +46792,11 @@
   },
   "ILB-0136": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0071"
   },
   "ILB-0137": {
     "type": "Infographic",
@@ -46678,15 +46805,19 @@
   },
   "ILB-0138": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0072"
   },
   "ILB-0140": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0073"
   },
   "ILB-0142": {
     "type": "Infographic",
@@ -46696,41 +46827,53 @@
   },
   "ILB-0144": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Emily Wilson",
     "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0075"
   },
   "ILB-0146": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0076"
   },
   "ILB-0148": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0077"
   },
   "ILB-0150": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0078"
   },
   "ILB-0152": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "references": "Centers for Disease Control and Prevention. (2024). Physical activity basics. https://www.cdc.gov/physicalactivity/basics/index.htm Centers for Disease Control and Prevention. (2026). Preventing high blood pressure. https://www.cdc.gov/high-blood-pressure/prevention/index.html  National Heart, Lung, and Blood Institute. (2024). High blood pressure. https://www.nhlbi.nih.gov/health/high-blood-pressure",
     "author": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0079"
   },
   "ILB-0154": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0080"
   },
   "ILB-0156": {
     "type": "Infographic",
@@ -46753,16 +46896,20 @@
   },
   "ILB-0162": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0084"
   },
   "ILB-0164": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Emily Wilson",
     "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0085"
   },
   "ILB-0166": {
     "type": "Infographic",
@@ -46773,38 +46920,48 @@
   },
   "ILB-0168": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Emily Wilson",
     "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0087"
   },
   "ILB-0170": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0088"
   },
   "ILB-0172": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Emily Wilson",
     "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0089"
   },
   "ILB-0174": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Emily Wilson",
     "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0698"
   },
   "ILB-0176": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "references": "National Institutes of Health. (2022). Nutrition: Nutrients and health. https://www.nhlbi.nih.gov/health/educational/wecan/eat-right/nutrition.htm World Health Organization. (2023). Healthy diet. https://www.who.int/news-room/fact-sheets/detail/healthy-diet National Health Service. (2023). Eat well. https://www.nhs.uk/live-well/eat-well/",
     "author": "Emily Wilson",
     "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0091"
   },
   "ILB-0178": {
     "type": "Infographic",
@@ -46871,27 +47028,35 @@
   },
   "ILB-0196": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0101"
   },
   "ILB-0198": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0102"
   },
   "ILB-0200": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0103"
   },
   "ILB-0202": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0104"
   },
   "ILB-0204": {
     "type": "Infographic",
@@ -46956,91 +47121,119 @@
   },
   "ILB-0217": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Emily Wilson",
     "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0117"
   },
   "ILB-0219": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Emily Wilson",
     "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0114"
   },
   "ILB-0221": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "references": "Perioperative Medicine. (2025). Assessment of perioperative anxiety levels at three time-points during hospital stay in patients undergoing elective surgery. https://pmc.ncbi.nlm.nih.gov/articles/PMC11905583/\n\nFrontiers in Pediatrics. (2024). Preoperative anxiety management in pediatric patients: a systematic review and meta-analysis of randomized controlled trials on the efficacy of distraction techniques. https://pmc.ncbi.nlm.nih.gov/articles/PMC10909818/\n\nScientific Reports. (2023). Patient-reported perioperative anaesthesia-related anxiety is associated with impaired patient satisfaction: a secondary analysis from a prospective observational study in Switzerland. https://www.nature.com/articles/s41598-023-43447-6",
     "author": "Emily Wilson",
     "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0115"
   },
   "ILB-0223": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0116"
   },
   "ILB-0225": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0119"
   },
   "ILB-0227": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0120"
   },
   "ILB-0229": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0121"
   },
   "ILB-0231": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0122"
   },
   "ILB-0233": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0123"
   },
   "ILB-0235": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0124"
   },
   "ILB-0237": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0125"
   },
   "ILB-0239": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0126"
   },
   "ILB-0241": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0127"
   },
   "ILB-0243": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0128"
   },
   "ILB-0244": {
     "type": "Infographic",
@@ -47062,15 +47255,19 @@
   },
   "ILB-0249": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0132"
   },
   "ILB-0251": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0133"
   },
   "ILB-0253": {
     "type": "Infographic",
@@ -47080,15 +47277,19 @@
   },
   "ILB-0255": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0135"
   },
   "ILB-0257": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0136"
   },
   "ILB-0259": {
     "type": "Infographic",
@@ -47098,15 +47299,19 @@
   },
   "ILB-0261": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0467"
   },
   "ILB-0263": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0139"
   },
   "ILB-0264": {
     "type": "Infographic",
@@ -47114,9 +47319,11 @@
   },
   "ILB-0265": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0140"
   },
   "ILB-0267": {
     "type": "Infographic",
@@ -47126,21 +47333,27 @@
   },
   "ILB-0269": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0142"
   },
   "ILB-0271": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0143"
   },
   "ILB-0273": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0144"
   },
   "ILB-0274": {
     "type": "Infographic",
@@ -47149,10 +47362,12 @@
   },
   "ILB-0275": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Emily Wilson",
     "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0145"
   },
   "ILB-0277": {
     "type": "Infographic",
@@ -47163,10 +47378,12 @@
   },
   "ILB-0279": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Emily Wilson",
     "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0149"
   },
   "ILB-0280": {
     "type": "Infographic",
@@ -47175,17 +47392,21 @@
   },
   "ILB-0281": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Emily Wilson",
     "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0147"
   },
   "ILB-0283": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Emily Wilson",
     "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0148"
   },
   "ILB-0284": {
     "type": "Infographic",
@@ -47193,10 +47414,12 @@
   },
   "ILB-0285": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Emily Wilson",
     "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0150"
   },
   "ILB-0286": {
     "type": "Infographic",
@@ -47205,16 +47428,20 @@
   },
   "ILB-0287": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Emily Wilson",
     "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0151"
   },
   "ILB-0289": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0152"
   },
   "ILB-0293": {
     "type": "Infographic",
@@ -47222,16 +47449,20 @@
   },
   "ILB-0295": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0155"
   },
   "ILB-0297": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "references": "Cleveland Clinic. (2024). Postpartum: Stages, Symptoms & Recovery Time. https://my.clevelandclinic.org/health/articles/postpartum\n\nOffice on Women's Health. (2025). Recovering from birth. https://womenshealth.gov/pregnancy/childbirth-and-beyond/recovering-birth\n\nAJOG Global Reports. (2023). Postpartum recovery of nulliparous women following scheduled cesarean delivery and spontaneous vaginal delivery: a prospective observational study. https://pmc.ncbi.nlm.nih.gov/articles/PMC10276254/",
     "author": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0156"
   },
   "ILB-0299": {
     "type": "Infographic",
@@ -47246,9 +47477,11 @@
   },
   "ILB-0301": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0158"
   },
   "ILB-0303": {
     "type": "Infographic",
@@ -47276,17 +47509,21 @@
   },
   "ILB-0309": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Emily Wilson",
     "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0162"
   },
   "ILB-0311": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Emily Wilson",
     "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0711"
   },
   "ILB-0313": {
     "type": "Infographic",
@@ -47304,17 +47541,21 @@
   },
   "ILB-0317": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Emily Wilson",
     "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0166"
   },
   "ILB-0321": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Emily Wilson",
     "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0168"
   },
   "ILB-0323": {
     "type": "Infographic",
@@ -47348,46 +47589,58 @@
   },
   "ILB-0331": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Diane McNaught",
     "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0173"
   },
   "ILB-0333": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Diane McNaught",
     "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0174"
   },
   "ILB-0335": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Diane McNaught",
     "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0175"
   },
   "ILB-0337": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Diane McNaught",
     "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0176"
   },
   "ILB-0339": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Diane McNaught",
     "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0177"
   },
   "ILB-0341": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "duration": "4 min",
     "author": "Diane McNaught",
     "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0178"
   },
   "ILB-0343": {
     "type": "Infographic",
@@ -47398,18 +47651,22 @@
   },
   "ILB-0345": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Diane McNaught",
     "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0180"
   },
   "ILB-0347": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "duration": "5 min",
     "author": "Diane McNaught",
     "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0181"
   },
   "ILB-0349": {
     "type": "Infographic",
@@ -47420,24 +47677,30 @@
   },
   "ILB-0351": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Diane McNaught",
     "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0183"
   },
   "ILB-0353": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Diane McNaught",
     "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0184"
   },
   "ILB-0355": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Diane McNaught",
     "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0185"
   },
   "ILB-0357": {
     "type": "Infographic",
@@ -47448,24 +47711,30 @@
   },
   "ILB-0359": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Diane McNaught",
     "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0187"
   },
   "ILB-0361": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Emily Wilson",
     "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0188"
   },
   "ILB-0363": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Emily Wilson",
     "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0189"
   },
   "ILB-0364": {
     "type": "Infographic",
@@ -47480,24 +47749,30 @@
   },
   "ILB-0367": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Emily Wilson",
     "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0191"
   },
   "ILB-0369": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Emily Wilson",
     "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0192"
   },
   "ILB-0371": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Emily Wilson",
     "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0193"
   },
   "ILB-0373": {
     "type": "Infographic",
@@ -47512,10 +47787,12 @@
   },
   "ILB-0375": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Emily Wilson",
     "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0195"
   },
   "ILB-0376": {
     "type": "Infographic",
@@ -47535,18 +47812,22 @@
   },
   "ILB-0379": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "references": "Endocrine Society. (2022). Hypogonadism in Men. https://www.endocrine.org/patient-engagement/endocrine-library/hypogonadism\n\nMayo Clinic. (2024). Male hypogonadism — Symptoms & causes. https://www.mayoclinic.org/diseases-conditions/male-hypogonadism/symptoms-causes/syc-20354881\n\nDiagnostics. (2023). Adult Male Hypogonadism: A Laboratory Medicine Perspective on Its Diagnosis and Management. https://pmc.ncbi.nlm.nih.gov/articles/PMC10743125/",
     "author": "Emily Wilson",
     "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0197"
   },
   "ILB-0382": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Emily Wilson",
     "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0199"
   },
   "ILB-0383": {
     "type": "Infographic",
@@ -47561,9 +47842,11 @@
   },
   "ILB-0386": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0202"
   },
   "ILB-0387": {
     "type": "Infographic",
@@ -47571,9 +47854,11 @@
   },
   "ILB-0388": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0203"
   },
   "ILB-0389": {
     "type": "Infographic",
@@ -47581,9 +47866,11 @@
   },
   "ILB-0390": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0204"
   },
   "ILB-0392": {
     "type": "Infographic",
@@ -47605,16 +47892,20 @@
   },
   "ILB-0398": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "duration": "4 min",
     "author": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0208"
   },
   "ILB-0400": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0209"
   },
   "ILB-0401": {
     "type": "Infographic",
@@ -47632,10 +47923,12 @@
   },
   "ILB-0404": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Emily Wilson",
     "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0211"
   },
   "ILB-0405": {
     "type": "Infographic",
@@ -47761,10 +48054,12 @@
   },
   "ILB-0426": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Emily Wilson",
     "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0222"
   },
   "ILB-0427": {
     "type": "Infographic",
@@ -47785,10 +48080,12 @@
   },
   "ILB-0432": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Diane McNaught",
     "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0224"
   },
   "ILB-0433": {
     "type": "Infographic",
@@ -47807,10 +48104,12 @@
   },
   "ILB-0436": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Diane McNaught",
     "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0228"
   },
   "ILB-0437": {
     "type": "Infographic",
@@ -47818,17 +48117,21 @@
   },
   "ILB-0438": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Diane McNaught",
     "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0229"
   },
   "ILB-0440": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Diane McNaught",
     "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0230"
   },
   "ILB-0441": {
     "type": "Infographic",
@@ -47836,24 +48139,30 @@
   },
   "ILB-0443": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Diane McNaught",
     "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0232"
   },
   "ILB-0445": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Diane McNaught",
     "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0233"
   },
   "ILB-0447": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Diane McNaught",
     "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0234"
   },
   "ILB-0449": {
     "type": "Infographic",
@@ -47871,10 +48180,12 @@
   },
   "ILB-0453": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Emily Wilson",
     "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0237"
   },
   "ILB-0455": {
     "type": "Infographic",
@@ -47914,24 +48225,30 @@
   },
   "ILB-0467": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Diane McNaught",
     "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0244"
   },
   "ILB-0469": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Diane McNaught",
     "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0245"
   },
   "ILB-0471": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Diane McNaught",
     "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0246"
   },
   "ILB-0473": {
     "type": "Infographic",
@@ -47985,28 +48302,36 @@
   },
   "ILB-0487": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0118"
   },
   "ILB-0491": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Emily Wilson",
     "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0022"
   },
   "ILB-0493": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0758"
   },
   "ILB-0495": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "_hidden": true,
+    "_merged_into": "INF-0227"
   },
   "ILB-0497": {
     "type": "Infographic",
@@ -61752,11 +62077,13 @@
   },
   "EN-01914": {
     "peer_reviewer": "Katie Attubato",
-    "_at": "2026-08-12T22:52:25.610Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "teacher": "Katie Attubato",
     "language": "English",
     "author": "Katie Attubato",
-    "type": "Video"
+    "type": "Video",
+    "_hidden": true,
+    "_merged_into": "VID-0138"
   },
   "DE-00028": {
     "peer_reviewer": "Jessica Cording",
@@ -61768,11 +62095,13 @@
   },
   "EN-01873": {
     "peer_reviewer": "Soja Moore",
-    "_at": "2026-08-12T22:52:25.610Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "language": "English",
     "author": "Soja Moore",
     "teacher": "Soja Moore",
-    "type": "Video"
+    "type": "Video",
+    "_hidden": true,
+    "_merged_into": "VID-1836"
   },
   "FR-00083": {
     "peer_reviewer": "Margaux de Noiron",
@@ -62071,11 +62400,13 @@
   },
   "EN-01946": {
     "peer_reviewer": "Julika Von Stackelberg",
-    "_at": "2026-08-12T22:52:25.610Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "teacher": "Julika Von Stackelberg",
     "language": "English",
     "author": "Julika Von Stackelberg",
-    "type": "Video"
+    "type": "Video",
+    "_hidden": true,
+    "_merged_into": "VID-1877"
   },
   "PT-00008": {
     "peer_reviewer": "Cris Di Dario",
@@ -62273,11 +62604,13 @@
   },
   "EN-01944": {
     "peer_reviewer": "Julika Von Stackelberg",
-    "_at": "2026-08-12T22:52:25.610Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "teacher": "Julika Von Stackelberg",
     "language": "English",
     "author": "Julika Von Stackelberg",
-    "type": "Video"
+    "type": "Video",
+    "_hidden": true,
+    "_merged_into": "VID-1875"
   },
   "ES-00163": {
     "peer_reviewer": "Dr. Ricardo Fuentes",
@@ -62289,11 +62622,13 @@
   },
   "EN-01874": {
     "peer_reviewer": "Soja Moore",
-    "_at": "2026-08-12T22:52:25.610Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "language": "English",
     "author": "Soja Moore",
     "teacher": "Soja Moore",
-    "type": "Video"
+    "type": "Video",
+    "_hidden": true,
+    "_merged_into": "VID-1837"
   },
   "ES-00174": {
     "peer_reviewer": "Dr. David Sanchez",
@@ -62389,13 +62724,15 @@
   },
   "EN-00799": {
     "peer_reviewer": "Dan'yelle Williamson",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "language": "English",
     "author": "Dan'yelle Williamson",
     "teacher": "Dan'yelle Williamson",
     "type": "Video",
     "vimeo_link": "https://vimeo.com/1068937232/4a7155c230",
-    "link": "https://app.allinonewellbeing.com/videos/affirmation-meditation-1"
+    "link": "https://app.allinonewellbeing.com/videos/affirmation-meditation-1",
+    "_hidden": true,
+    "_merged_into": "VID-0849"
   },
   "EN-01771": {
     "peer_reviewer": "Dr. Fahim Pyarali",
@@ -62638,11 +62975,13 @@
   },
   "EN-01942": {
     "peer_reviewer": "Sharisse Victor-Newmam",
-    "_at": "2026-08-12T22:52:25.610Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "language": "English",
     "author": "Sharisse Victor-Newmam",
     "teacher": "Sharisse Victor-Newmam",
-    "type": "Video"
+    "type": "Video",
+    "_hidden": true,
+    "_merged_into": "VID-1873"
   },
   "ES-00095": {
     "peer_reviewer": "Angie Torres",
@@ -62716,12 +63055,14 @@
   },
   "EN-00439": {
     "peer_reviewer": "Sabrih Short",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "language": "English",
     "teacher": "Sabrih Short",
     "type": "Video",
     "vimeo_link": "https://vimeo.com/1069352234/d4f751d8fd?share=copy",
-    "link": "https://app.allinonewellbeing.com/full-body-fitness/videos/5-min-mobility-flow"
+    "link": "https://app.allinonewellbeing.com/full-body-fitness/videos/5-min-mobility-flow",
+    "_hidden": true,
+    "_merged_into": "VID-0676"
   },
   "RU-00007": {
     "peer_reviewer": "Natalie Zolotareva",
@@ -62910,19 +63251,23 @@
   },
   "EN-01871": {
     "peer_reviewer": "Soja Moore",
-    "_at": "2026-08-12T22:52:25.610Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "language": "English",
     "author": "Soja Moore",
     "teacher": "Soja Moore",
-    "type": "Video"
+    "type": "Video",
+    "_hidden": true,
+    "_merged_into": "VID-1834"
   },
   "EN-01934": {
     "peer_reviewer": "Sharisse Victor-Newmam",
-    "_at": "2026-08-12T22:52:25.610Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "language": "English",
     "author": "Sharisse Victor-Newmam",
     "teacher": "Sharisse Victor-Newmam",
-    "type": "Video"
+    "type": "Video",
+    "_hidden": true,
+    "_merged_into": "VID-1865"
   },
   "AR-00017": {
     "peer_reviewer": "Dr. Hassan Nagy",
@@ -62995,11 +63340,13 @@
   },
   "EN-01918": {
     "peer_reviewer": "Katie Attubato",
-    "_at": "2026-08-12T22:52:25.610Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "teacher": "Katie Attubato",
     "language": "English",
     "duration": "2",
-    "type": "Video"
+    "type": "Video",
+    "_hidden": true,
+    "_merged_into": "VID-0221"
   },
   "RU-00006": {
     "peer_reviewer": "Natalie Zolotareva",
@@ -63013,11 +63360,13 @@
   },
   "EN-01908": {
     "peer_reviewer": "Katie Attubato",
-    "_at": "2026-08-12T22:52:25.610Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "teacher": "Katie Attubato",
     "language": "English",
     "author": "Katie Attubato",
-    "type": "Video"
+    "type": "Video",
+    "_hidden": true,
+    "_merged_into": "VID-1863"
   },
   "ES-00128": {
     "peer_reviewer": "Ana Gaston",
@@ -63145,11 +63494,13 @@
   },
   "EN-01878": {
     "peer_reviewer": "Soja Moore",
-    "_at": "2026-08-12T22:52:25.610Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "language": "English",
     "author": "Soja Moore",
     "teacher": "Soja Moore",
-    "type": "Video"
+    "type": "Video",
+    "_hidden": true,
+    "_merged_into": "VID-1841"
   },
   "HI-00008": {
     "peer_reviewer": "Pallavi Mohoni",
@@ -63161,14 +63512,16 @@
   },
   "EN-01455": {
     "peer_reviewer": "Nazirber Maduro",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "teacher": "Nazirber Maduro",
     "language": "English",
     "author": "Nazirber Maduro",
     "type": "Video",
     "title": "Nutritional Supplements Explained",
     "vimeo_link": "https://vimeo.com/1129592266/607d9683fe",
-    "link": "https://app.allinonewellbeing.com/videos/nutritional-supplements-explained"
+    "link": "https://app.allinonewellbeing.com/videos/nutritional-supplements-explained",
+    "_hidden": true,
+    "_merged_into": "VLB-1378"
   },
   "FR-00067": {
     "peer_reviewer": "Hafsa Benzzi",
@@ -63266,11 +63619,13 @@
   },
   "EN-01937": {
     "peer_reviewer": "Sharisse Victor-Newmam",
-    "_at": "2026-08-12T22:52:25.610Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "language": "English",
     "author": "Sharisse Victor-Newmam",
     "teacher": "Sharisse Victor-Newmam",
-    "type": "Video"
+    "type": "Video",
+    "_hidden": true,
+    "_merged_into": "VID-1868"
   },
   "PT-00069": {
     "peer_reviewer": "Lucelia Amorim-Linton",
@@ -63357,11 +63712,13 @@
   },
   "EN-01899": {
     "peer_reviewer": "Shaimaine Loiacono",
-    "_at": "2026-08-12T22:52:25.610Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "language": "English",
     "author": "Shaimaine Loiacono",
     "teacher": "Shaimaine Loiacono",
-    "type": "Video"
+    "type": "Video",
+    "_hidden": true,
+    "_merged_into": "VID-1859"
   },
   "PL-00009": {
     "peer_reviewer": "Margo Gladys",
@@ -63448,11 +63805,13 @@
   },
   "EN-00437": {
     "peer_reviewer": "Sabrih Short",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "language": "English",
     "teacher": "Sabrih Short",
     "type": "Video",
-    "link": "https://app.allinonewellbeing.com/full-body-fitness/videos/10-min-full-body-circuit"
+    "link": "https://app.allinonewellbeing.com/full-body-fitness/videos/10-min-full-body-circuit",
+    "_hidden": true,
+    "_merged_into": "VID-0604"
   },
   "EN-01800": {
     "peer_reviewer": "Dr. Cherilyn Davis",
@@ -63591,11 +63950,13 @@
   },
   "EN-01936": {
     "peer_reviewer": "Sharisse Victor-Newmam",
-    "_at": "2026-08-12T22:52:25.610Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "language": "English",
     "author": "Sharisse Victor-Newmam",
     "teacher": "Sharisse Victor-Newmam",
-    "type": "Video"
+    "type": "Video",
+    "_hidden": true,
+    "_merged_into": "VID-1867"
   },
   "ES-00096": {
     "peer_reviewer": "Angie Torres",
@@ -63750,12 +64111,14 @@
   },
   "EN-01867": {
     "peer_reviewer": "Dr. Joe Feuerstein",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "teacher": "Dr. Joe Feuerstein",
     "duration": "3",
     "type": "Video",
     "vimeo_link": "https://vimeo.com/1200521449/91ca0c69ae?share=copy&fl=sv&fe=ci",
-    "link": "https://app.allinonewellbeing.com/videos/how-low-testosterone-affects-the-body"
+    "link": "https://app.allinonewellbeing.com/videos/how-low-testosterone-affects-the-body",
+    "_hidden": true,
+    "_merged_into": "VID-0328"
   },
   "FR-00058": {
     "peer_reviewer": "Angéline Galinier-Warrain",
@@ -63843,11 +64206,13 @@
   },
   "EN-01939": {
     "peer_reviewer": "Sharisse Victor-Newmam",
-    "_at": "2026-08-12T22:52:25.610Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "language": "English",
     "author": "Sharisse Victor-Newmam",
     "teacher": "Sharisse Victor-Newmam",
-    "type": "Video"
+    "type": "Video",
+    "_hidden": true,
+    "_merged_into": "VID-1870"
   },
   "FR-00044": {
     "peer_reviewer": "Sandrine Marlier",
@@ -63893,11 +64258,13 @@
   },
   "EN-01910": {
     "peer_reviewer": "Katie Attubato",
-    "_at": "2026-08-12T22:52:25.610Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "teacher": "Katie Attubato",
     "language": "English",
     "author": "Katie Attubato",
-    "type": "Video"
+    "type": "Video",
+    "_hidden": true,
+    "_merged_into": "VID-0222"
   },
   "ES-00177": {
     "peer_reviewer": "Dr. David Sanchez",
@@ -63951,11 +64318,13 @@
   },
   "EN-01879": {
     "peer_reviewer": "Soja Moore",
-    "_at": "2026-08-12T22:52:25.610Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "language": "English",
     "author": "Soja Moore",
     "teacher": "Soja Moore",
-    "type": "Video"
+    "type": "Video",
+    "_hidden": true,
+    "_merged_into": "VID-1842"
   },
   "FR-00031": {
     "peer_reviewer": "Manon Hallay",
@@ -64058,11 +64427,13 @@
   },
   "EN-01943": {
     "peer_reviewer": "Sharisse Victor-Newmam",
-    "_at": "2026-08-12T22:52:25.610Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "language": "English",
     "author": "Sharisse Victor-Newmam",
     "teacher": "Sharisse Victor-Newmam",
-    "type": "Video"
+    "type": "Video",
+    "_hidden": true,
+    "_merged_into": "VID-1874"
   },
   "AR-00037": {
     "peer_reviewer": "Nada Doueiry",
@@ -64220,11 +64591,13 @@
   },
   "EN-01898": {
     "peer_reviewer": "Shaimaine Loiacono",
-    "_at": "2026-08-12T22:52:25.610Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "language": "English",
     "author": "Shaimaine Loiacono",
     "teacher": "Shaimaine Loiacono",
-    "type": "Video"
+    "type": "Video",
+    "_hidden": true,
+    "_merged_into": "VID-1858"
   },
   "DE-00020": {
     "peer_reviewer": "Julika Von Stackelberg",
@@ -65117,11 +65490,13 @@
   },
   "EN-01940": {
     "peer_reviewer": "Sharisse Victor-Newmam",
-    "_at": "2026-08-12T22:52:25.610Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "language": "English",
     "author": "Sharisse Victor-Newmam",
     "teacher": "Sharisse Victor-Newmam",
-    "type": "Video"
+    "type": "Video",
+    "_hidden": true,
+    "_merged_into": "VID-1871"
   },
   "PT-00053": {
     "peer_reviewer": "Gisele Espin",
@@ -65161,11 +65536,13 @@
   },
   "EN-01900": {
     "peer_reviewer": "Shaimaine Loiacono",
-    "_at": "2026-08-12T22:52:25.610Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "language": "English",
     "author": "Shaimaine Loiacono",
     "teacher": "Shaimaine Loiacono",
-    "type": "Video"
+    "type": "Video",
+    "_hidden": true,
+    "_merged_into": "VID-1860"
   },
   "PT-00080": {
     "peer_reviewer": "Mila Toribio",
@@ -65191,11 +65568,13 @@
   },
   "EN-01872": {
     "peer_reviewer": "Soja Moore",
-    "_at": "2026-08-12T22:52:25.610Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "language": "English",
     "author": "Soja Moore",
     "teacher": "Soja Moore",
-    "type": "Video"
+    "type": "Video",
+    "_hidden": true,
+    "_merged_into": "VID-1835"
   },
   "EN-01903": {
     "peer_reviewer": "Katie Attubato",
@@ -65254,12 +65633,14 @@
   },
   "EN-01917": {
     "peer_reviewer": "Katie Attubato",
-    "_at": "2026-08-13T15:41:54.896Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "teacher": "Katie Attubato",
     "language": "English",
     "duration": "2",
     "type": "Video",
-    "author": "Katie Attubato"
+    "author": "Katie Attubato",
+    "_hidden": true,
+    "_merged_into": "VID-0220"
   },
   "ES-00184": {
     "peer_reviewer": "Inaudy Gil",
@@ -65335,11 +65716,13 @@
   },
   "EN-01880": {
     "peer_reviewer": "Soja Moore",
-    "_at": "2026-08-12T22:52:25.610Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "language": "English",
     "author": "Soja Moore",
     "teacher": "Soja Moore",
-    "type": "Video"
+    "type": "Video",
+    "_hidden": true,
+    "_merged_into": "VID-1843"
   },
   "EN-01923": {
     "peer_reviewer": "Katie Attubato",
@@ -65425,11 +65808,13 @@
   },
   "EN-01945": {
     "peer_reviewer": "Julika Von Stackelberg",
-    "_at": "2026-08-12T22:52:25.610Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "teacher": "Julika Von Stackelberg",
     "language": "English",
     "author": "Julika Von Stackelberg",
-    "type": "Video"
+    "type": "Video",
+    "_hidden": true,
+    "_merged_into": "VID-1876"
   },
   "AR-00008": {
     "peer_reviewer": "Dr. Hassan Nagy",
@@ -66252,11 +66637,13 @@
   },
   "EN-01876": {
     "peer_reviewer": "Soja Moore",
-    "_at": "2026-08-12T22:52:25.610Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "language": "English",
     "author": "Soja Moore",
     "teacher": "Soja Moore",
-    "type": "Video"
+    "type": "Video",
+    "_hidden": true,
+    "_merged_into": "VID-1839"
   },
   "PT-00056": {
     "peer_reviewer": "Gisele Espin",
@@ -66424,11 +66811,13 @@
   },
   "EN-01875": {
     "peer_reviewer": "Soja Moore",
-    "_at": "2026-08-12T22:52:25.610Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "language": "English",
     "author": "Soja Moore",
     "teacher": "Soja Moore",
-    "type": "Video"
+    "type": "Video",
+    "_hidden": true,
+    "_merged_into": "VID-1838"
   },
   "FR-00030": {
     "peer_reviewer": "Angéline Galinier-Warrain",
@@ -66441,11 +66830,13 @@
   },
   "EN-01901": {
     "peer_reviewer": "Shaimaine Loiacono",
-    "_at": "2026-08-12T22:52:25.610Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "language": "English",
     "author": "Shaimaine Loiacono",
     "teacher": "Shaimaine Loiacono",
-    "type": "Video"
+    "type": "Video",
+    "_hidden": true,
+    "_merged_into": "VID-1861"
   },
   "PT-00041": {
     "peer_reviewer": "Mila Toribio",
@@ -66814,20 +67205,24 @@
   },
   "EN-01912": {
     "peer_reviewer": "Katie Attubato",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "teacher": "Katie Attubato",
     "language": "English",
     "author": "Katie Attubato",
-    "type": "Video"
+    "type": "Video",
+    "_hidden": true,
+    "_merged_into": "VID-1864"
   },
   "EN-01920": {
     "peer_reviewer": "Katie Attubato",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "teacher": "Katie Attubato",
     "language": "English",
     "duration": "2",
     "type": "Video",
-    "author": "Katie Attubato"
+    "author": "Katie Attubato",
+    "_hidden": true,
+    "_merged_into": "VID-0223"
   },
   "FR-00056": {
     "peer_reviewer": "Angéline Galinier-Warrain",
@@ -67018,27 +67413,33 @@
   },
   "EN-01849": {
     "peer_reviewer": "Katie Attubato",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "teacher": "Katie Attubato",
     "language": "English",
     "author": "Katie Attubato",
-    "type": "Video"
+    "type": "Video",
+    "_hidden": true,
+    "_merged_into": "VID-1820"
   },
   "EN-01902": {
     "peer_reviewer": "Shaimaine Loiacono",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "language": "English",
     "author": "Shaimaine Loiacono",
     "teacher": "Shaimaine Loiacono",
-    "type": "Video"
+    "type": "Video",
+    "_hidden": true,
+    "_merged_into": "VID-1862"
   },
   "EN-01935": {
     "peer_reviewer": "Sharisse Victor-Newmam",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "language": "English",
     "author": "Sharisse Victor-Newmam",
     "teacher": "Sharisse Victor-Newmam",
-    "type": "Video"
+    "type": "Video",
+    "_hidden": true,
+    "_merged_into": "VID-1866"
   },
   "FR-00088": {
     "peer_reviewer": "Margaux de Noiron",
@@ -67208,11 +67609,13 @@
   },
   "EN-01877": {
     "peer_reviewer": "Soja Moore",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "language": "English",
     "author": "Soja Moore",
     "teacher": "Soja Moore",
-    "type": "Video"
+    "type": "Video",
+    "_hidden": true,
+    "_merged_into": "VID-1840"
   },
   "DE-00042": {
     "peer_reviewer": "Jessica Cording",
@@ -67812,9 +68215,10 @@
   },
   "VID-0138": {
     "language": "English",
-    "_at": "2026-08-12T21:22:27.517Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Katie Attubato",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "teacher": "Katie Attubato"
   },
   "VID-0185": {
     "language": "English",
@@ -67880,9 +68284,11 @@
   },
   "VID-0207": {
     "language": "English",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "peer_reviewer": "Marlee Alanis",
-    "author": "Dr. Fahim Pyarali"
+    "author": "Dr. Fahim Pyarali",
+    "teacher": "Dr. Fahim Pyarali",
+    "branding": "White-Label"
   },
   "VID-0219": {
     "language": "English",
@@ -67893,9 +68299,10 @@
   },
   "VID-0222": {
     "language": "English",
-    "_at": "2026-08-12T21:22:27.517Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Katie Attubato",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "teacher": "Katie Attubato"
   },
   "VID-0232": {
     "author": "Dr. Joe Feuerstein",
@@ -67950,33 +68357,38 @@
   },
   "VID-1858": {
     "language": "English",
-    "_at": "2026-08-12T21:22:27.517Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Shaimaine Loiacono",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "teacher": "Shaimaine Loiacono"
   },
   "VID-1859": {
     "language": "English",
-    "_at": "2026-08-12T21:22:27.517Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Shaimaine Loiacono",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "teacher": "Shaimaine Loiacono"
   },
   "VID-1860": {
     "language": "English",
-    "_at": "2026-08-12T21:22:27.517Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Shaimaine Loiacono",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "teacher": "Shaimaine Loiacono"
   },
   "VID-1861": {
     "language": "English",
-    "_at": "2026-08-12T21:22:27.517Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Shaimaine Loiacono",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "teacher": "Shaimaine Loiacono"
   },
   "VID-1862": {
     "language": "English",
-    "_at": "2026-08-12T21:22:27.517Z",
+    "_at": "2026-08-14T16:39:58.984Z",
     "author": "Shaimaine Loiacono",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "teacher": "Shaimaine Loiacono"
   },
   "EXT-1132": {
     "language": "English",
@@ -69344,7 +69756,8 @@
   "INF-0467": {
     "language": "English",
     "link": "https://drive.google.com/file/d/1jcYGnTRJj2jRTVPN2Oyp1SY2sXhYvewa/view?usp=sharing",
-    "_at": "2026-08-12T15:27:45.038Z"
+    "_at": "2026-08-14T16:39:58.984Z",
+    "date_created": "5/5/2026"
   },
   "INF-0468": {
     "language": "Spanish",
@@ -69954,7 +70367,8 @@
   "INF-0618": {
     "language": "English",
     "link": "https://drive.google.com/file/d/1npU9XxVwFdgCvF03t6kVPIRqEL965AdY/view?usp=sharing",
-    "_at": "2026-08-12T15:27:45.038Z"
+    "_at": "2026-08-14T16:39:58.984Z",
+    "date_created": "5/5/2026"
   },
   "INF-0619": {
     "language": "Spanish",
@@ -70277,7 +70691,8 @@
   "INF-0698": {
     "language": "English",
     "link": "https://drive.google.com/file/d/1s-fS63kknhVm92SHbpqsi9m721sKNebc/view?usp=sharing",
-    "_at": "2026-08-12T15:27:45.038Z"
+    "_at": "2026-08-14T16:39:58.984Z",
+    "date_created": "5/5/2026"
   },
   "INF-0699": {
     "language": "Spanish",
@@ -70330,7 +70745,8 @@
   "INF-0711": {
     "language": "English",
     "link": "https://drive.google.com/file/d/1eR64b3Bb2phwZV4QhenUDjAuCVM5EbEx/view?usp=sharing",
-    "_at": "2026-08-12T15:27:45.038Z"
+    "_at": "2026-08-14T16:39:58.984Z",
+    "date_created": "5/5/2026"
   },
   "INF-0712": {
     "language": "English"
@@ -70511,7 +70927,8 @@
   "INF-0758": {
     "language": "English",
     "link": "https://drive.google.com/file/d/1ycVWHlXqVLSKj4U8ZTUT1cQcq9UuPav7/view?usp=sharing",
-    "_at": "2026-08-12T15:27:45.038Z"
+    "_at": "2026-08-14T16:39:58.984Z",
+    "date_created": "5/5/2026"
   },
   "INF-0759": {
     "language": "Spanish",
