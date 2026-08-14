@@ -49748,13 +49748,14 @@
   },
   "ES-00107": {
     "type": "Video",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-14T18:58:24.477Z",
     "peer_reviewer": "Ana Gaston",
     "teacher": "Ana Gaston",
     "title_original": "Crear una mentalidad monetaria positiva",
     "author": "Ana Gaston",
     "vimeo_link": "https://vimeo.com/1164362627/753d6031d2?share=copy&fl=sv&fe=ci",
-    "date_created": "08/05/2024"
+    "date_created": "08/05/2024",
+    "duration": "5"
   },
   "ES-00092": {
     "type": "Video",
