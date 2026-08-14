@@ -50228,12 +50228,13 @@
   },
   "PL-00005": {
     "type": "Video",
-    "_at": "2026-08-14T20:48:06.319Z",
+    "_at": "2026-08-14T20:48:08.595Z",
     "peer_reviewer": "Margo Gladys",
     "teacher": "Margo Gladys",
     "title_original": "Ruch dla relaksu",
     "author": "Margo Gladys",
-    "date_created": "2/24/2026"
+    "date_created": "2/24/2026",
+    "duration": "4"
   },
   "ES-00056": {
     "type": "Video",
