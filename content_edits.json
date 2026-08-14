@@ -10702,7 +10702,7 @@
   },
   "EN-01379": {
     "author": "Kaitlyn Bruneau",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T19:48:00.292Z",
     "teacher": "Kaitlyn Bruneau",
     "language": "English",
     "licenses": [
@@ -10711,7 +10711,8 @@
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1127998049/7514c085e1?share=copy&fl=sv&fe=ci"
+    "vimeo_link": "https://vimeo.com/1127998049/7514c085e1?share=copy&fl=sv&fe=ci",
+    "duration": "5"
   },
   "EN-01380": {
     "author": "Kaitlyn Bruneau",
