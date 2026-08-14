@@ -38221,7 +38221,7 @@
   },
   "EN-01364": {
     "author": "Eliot Goldman",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T19:36:42.419Z",
     "teacher": "Eliot Goldman",
     "licenses": [
       "Hapstar"
@@ -38235,7 +38235,8 @@
       "Hapstar",
       "Earn It"
     ],
-    "version": "1"
+    "version": "1",
+    "date_created": "9/2/2025"
   },
   "VID-1691": {
     "author": "Inaudy Gil",
