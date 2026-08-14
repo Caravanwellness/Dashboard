@@ -11571,7 +11571,7 @@
   },
   "EN-00334": {
     "teacher": "Jessica Cording",
-    "_at": "2026-08-14T13:53:40.637Z",
+    "_at": "2026-08-14T15:04:38.759Z",
     "licenses": [
       "YuLife",
       "Hapstar"
@@ -11589,7 +11589,7 @@
     ],
     "version": "1",
     "date_created": "3/24/2025",
-    "link": ""
+    "link": "https://app.allinonewellbeing.com/nutrition-eating-habits/videos/what-to-eat-for-better-sleep"
   },
   "EN-00335": {
     "author": "Jessica Cording",
@@ -13433,7 +13433,7 @@
   },
   "VLB-1485": {
     "teacher": "Mila Toribio",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T15:04:38.759Z",
     "licenses": [
       "LifeSmart"
     ],
@@ -13441,11 +13441,12 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "author": "Mila Toribio"
+    "author": "Mila Toribio",
+    "link": "https://app.allinonewellbeing.com/videos/hip-joint-relief-foam-rolling-routine"
   },
   "VLB-1486": {
     "teacher": "Mila Toribio",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T15:04:38.759Z",
     "licenses": [
       "LifeSmart"
     ],
@@ -13454,7 +13455,8 @@
     "type": "Video",
     "duration": "6 min",
     "peer_reviewer": "Marlee Alanis",
-    "author": "Mila Toribio"
+    "author": "Mila Toribio",
+    "link": "https://app.allinonewellbeing.com/videos/knee-relief-foam-rolling-routine"
   },
   "EN-01567": {
     "author": "Mila Toribio",
@@ -24188,7 +24190,7 @@
   },
   "VLB-1058": {
     "teacher": "Carol Hilaire",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T15:04:38.759Z",
     "duration": "4 min",
     "language": "English",
     "type": "Video",
@@ -24196,7 +24198,8 @@
     "client_licenses": [
       "Loune.co (needs to be confirmed"
     ],
-    "author": "Carol Hilaire"
+    "author": "Carol Hilaire",
+    "link": "https://app.allinonewellbeing.com/videos/managing-pcos"
   },
   "EN-01124": {
     "author": "Carol Hilaire",
@@ -32932,12 +32935,13 @@
   },
   "VLB-0025": {
     "teacher": "Zach Bourne",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T15:04:38.759Z",
     "duration": "4 min",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "date_created": "3/7/2025"
+    "date_created": "3/7/2025",
+    "link": "https://app.allinonewellbeing.com/confidence-series/videos/confidence-series-e2"
   },
   "EN-00025": {
     "author": "Zach Bourne",
@@ -40552,13 +40556,14 @@
   },
   "VLB-0034": {
     "teacher": "Edyta Romanowicz",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T15:04:38.759Z",
     "category": "Relationships",
     "duration": "5 min",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "date_created": "3/24/2025"
+    "date_created": "3/24/2025",
+    "link": "https://app.allinonewellbeing.com/relationship-with-self/videos/relationship-with-self-e1"
   },
   "EN-00034": {
     "author": "Edyta Romanowicz",
@@ -41889,12 +41894,13 @@
   },
   "VLB-0092": {
     "teacher": "Victoria Davis",
-    "_at": "2026-08-13T21:52:02.742Z",
+    "_at": "2026-08-14T15:04:38.759Z",
     "duration": "10 min",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "date_created": "3/26/2025"
+    "date_created": "3/26/2025",
+    "link": "https://app.allinonewellbeing.com/mindful-yoga-flow/videos/mindful-yoga-flow-e2"
   },
   "EN-01576": {
     "teacher": "Victoria Davis",
@@ -41911,12 +41917,13 @@
   },
   "VLB-0094": {
     "teacher": "Victoria Davis",
-    "_at": "2026-08-13T21:52:32.993Z",
+    "_at": "2026-08-14T15:04:38.759Z",
     "duration": "10 min",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "date_created": "3/26/202"
+    "date_created": "3/26/202",
+    "link": "https://app.allinonewellbeing.com/mindful-yoga-flow/videos/mindful-yoga-flow-e4"
   },
   "EN-00096": {
     "author": "Victoria Davis",
@@ -50647,10 +50654,11 @@
   },
   "EXT-0373": {
     "type": "Video",
-    "_at": "2026-08-12T20:55:36.004Z",
+    "_at": "2026-08-14T15:04:38.759Z",
     "author": "Dr. Joe Feuerstein",
     "duration": "2",
-    "date_created": "3/25/2025"
+    "date_created": "3/25/2025",
+    "vimeo_link": "https://vimeo.com/1069409167/1a7b503176?tq=#t=5"
   },
   "EXT-0374": {
     "type": "Video",
@@ -50676,11 +50684,12 @@
   },
   "EXT-0379": {
     "type": "Video",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T15:04:38.759Z",
     "duration": "5 min",
     "peer_reviewer": "Marlee Alanis",
     "teacher": "Ana Gaston",
-    "author": "Ana Gaston"
+    "author": "Ana Gaston",
+    "vimeo_link": "https://vimeo.com/1047215231/067c27847d"
   },
   "EXT-0380": {
     "type": "Video",
