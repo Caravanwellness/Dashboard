@@ -50101,11 +50101,12 @@
   },
   "EXT-0219": {
     "type": "Video",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T20:31:26.251Z",
     "duration": "7 min",
     "peer_reviewer": "Linda Johnson",
     "teacher": "Linda Johnson",
-    "author": "Linda Johnson"
+    "author": "Linda Johnson",
+    "date_created": "2/2"
   },
   "ES-00187": {
     "type": "Video",
