@@ -49791,13 +49791,14 @@
   },
   "DE-00026": {
     "type": "Video",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-14T18:59:28.061Z",
     "peer_reviewer": "Julika Von Stackelberg",
     "teacher": "Julika Von Stackelberg",
     "title_original": "Teenager und geistiges Wohlbefinden",
     "author": "Julika Von Stackelberg",
     "vimeo_link": "https://vimeo.com/1067508117/45bf9c6b43?fl=ls&fe=ec",
-    "date_created": "06/14/2024"
+    "date_created": "06/14/2024",
+    "duration": "5"
   },
   "FR-00079": {
     "type": "Video",
