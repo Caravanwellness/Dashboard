@@ -48757,10 +48757,11 @@
   },
   "EXT-0057": {
     "type": "Video",
-    "_at": "2026-08-14T18:29:17.112Z",
+    "_at": "2026-08-14T18:29:19.069Z",
     "duration": "5 min",
     "category": "Planning for Retirement",
-    "date_created": "1/22/2025"
+    "date_created": "1/22/2025",
+    "teacher": "Anna"
   },
   "EXT-0059": {
     "type": "Article",
