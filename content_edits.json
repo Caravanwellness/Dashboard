@@ -277,7 +277,7 @@
   },
   "EN-00767": {
     "author": "Dr. David Sanchez",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Dr. David Rosen",
     "licenses": [
       "Wellness360"
@@ -287,7 +287,8 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/26/2025"
   },
   "EN-00571": {
     "author": "Kanwal Haq",
@@ -6651,7 +6652,7 @@
   },
   "EN-00733": {
     "teacher": "Dr. Joe Feuerstein",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "licenses": [
       "Wellness360"
     ],
@@ -6661,11 +6662,12 @@
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "author": "Dr. Joe Feuerstein",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/26/2025"
   },
   "EN-00734": {
     "teacher": "Dr. Joe Feuerstein",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "licenses": [
       "Wellness360"
     ],
@@ -6675,7 +6677,8 @@
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "author": "Dr. Joe Feuerstein",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/26/2025"
   },
   "EN-00735": {
     "teacher": "Dr. Joe Feuerstein",
@@ -6706,7 +6709,7 @@
   },
   "EN-00737": {
     "author": "Dr. Joe Feuerstein",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Dr. Joe Feuerstein",
     "licenses": [
       "Wellness360"
@@ -6716,11 +6719,12 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/26/2025"
   },
   "EN-00738": {
     "teacher": "Dr. Joe Feuerstein",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "licenses": [
       "Hapstar"
     ],
@@ -6730,18 +6734,20 @@
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "author": "Dr. Joe Feuerstein",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/25/2025"
   },
   "EN-00739": {
     "author": "Dr. Joe Feuerstein",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Dr. Joe Feuerstein",
     "duration": "3",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1069726633/4f4e81b3d9"
+    "vimeo_link": "https://vimeo.com/1069726633/4f4e81b3d9",
+    "date_created": "3/26/2025"
   },
   "EN-00885": {
     "teacher": "Dr. Joe Feuerstein",
@@ -8900,7 +8906,7 @@
   },
   "EN-00694": {
     "author": "Linda Johnson",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Linda Johnson",
     "licenses": [
       "Walkingspree",
@@ -8911,7 +8917,8 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/26/2025"
   },
   "EN-00695": {
     "author": "Linda Johnson",
@@ -8947,7 +8954,7 @@
   },
   "EN-00697": {
     "author": "Linda Johnson",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Linda Johnson",
     "licenses": [
       "Walkingspree",
@@ -8958,11 +8965,12 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/25/2025"
   },
   "EN-00698": {
     "author": "Linda Johnson",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Linda Johnson",
     "licenses": [
       "Walkingspree",
@@ -8973,11 +8981,12 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/25/2025"
   },
   "EN-00699": {
     "author": "Linda Johnson",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Linda Johnson",
     "licenses": [
       "Walkingspree",
@@ -8989,11 +8998,12 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "5/1/2025"
   },
   "EN-00700": {
     "author": "Linda Johnson",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Linda Johnson",
     "licenses": [
       "JAAQ",
@@ -9005,7 +9015,8 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/24/2025"
   },
   "EN-00897": {
     "author": "Linda Johnson",
@@ -9074,7 +9085,7 @@
   },
   "EN-00901": {
     "author": "Linda Johnson",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Linda Johnson",
     "licenses": [
       "YuLife"
@@ -9084,11 +9095,12 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/24/2025"
   },
   "EN-00902": {
     "author": "Linda Johnson",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Linda Johnson",
     "licenses": [
       "JAAQ",
@@ -9100,7 +9112,8 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/25/2025"
   },
   "EN-00903": {
     "author": "Linda Johnson",
@@ -9185,7 +9198,7 @@
   },
   "EN-00954": {
     "author": "Linda Johnson",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Linda Johnson",
     "licenses": [
       "Walkingspree",
@@ -9196,7 +9209,8 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/24/2025"
   },
   "EN-00955": {
     "author": "Linda Johnson",
@@ -9243,14 +9257,15 @@
   },
   "EN-00958": {
     "author": "Linda Johnson",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Linda Johnson",
     "duration": "5",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1161836026/f311e91948?share=copy&fl=sv&fe=ci"
+    "vimeo_link": "https://vimeo.com/1161836026/f311e91948?share=copy&fl=sv&fe=ci",
+    "date_created": "2/4/2026"
   },
   "VLB-0950": {
     "author": "Linda Johnson",
@@ -9264,40 +9279,43 @@
   },
   "EN-01014": {
     "author": "Linda Johnson",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Linda Johnson",
     "duration": "5",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1080622110/36a860052a"
+    "vimeo_link": "https://vimeo.com/1080622110/36a860052a",
+    "date_created": "5/1/2025"
   },
   "EN-01015": {
     "author": "Linda Johnson",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Linda Johnson",
     "duration": "5",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1080622870/9493703039"
+    "vimeo_link": "https://vimeo.com/1080622870/9493703039",
+    "date_created": "5/1/2025"
   },
   "EN-01016": {
     "author": "Linda Johnson",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Linda Johnson",
     "duration": "5",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1080623207/fe5cdafc53"
+    "vimeo_link": "https://vimeo.com/1080623207/fe5cdafc53",
+    "date_created": "5/1/2025"
   },
   "EN-01017": {
     "teacher": "Linda Johnson",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "duration": "5",
     "language": "English",
     "type": "Video",
@@ -9306,18 +9324,20 @@
     "references": "Program on Negotiation at Harvard Law School. (2026). Principled negotiation: Focus on interests to create value. Harvard Law School. https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/ Program on Negotiation at Harvard Law School. (2026). What is BATNA? How to find your best alternative to a negotiated agreement. Harvard Law School. https://www.pon.harvard.edu/daily/batna/translate-your-batna-to-the-current-deal/ Program on Negotiation at Harvard Law School. (2026). Negotiation skills for win-win negotiations. Harvard Law School. https://www.pon.harvard.edu/daily/negotiation-skills-daily/listening-skills-for-maximum-success/",
     "link": "https://app.allinonewellbeing.com/videos/building-win-win-negotiation-solutions",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1080621781/5c5bb49532"
+    "vimeo_link": "https://vimeo.com/1080621781/5c5bb49532",
+    "date_created": "5/1/2025"
   },
   "EN-01018": {
     "author": "Linda Johnson",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Linda Johnson",
     "duration": "5",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1080622444/e1f839bc8d"
+    "vimeo_link": "https://vimeo.com/1080622444/e1f839bc8d",
+    "date_created": "5/1/2025"
   },
   "VLB-0956": {
     "teacher": "Linda Johnson",
@@ -9330,7 +9350,7 @@
   },
   "EN-01020": {
     "author": "Linda Johnson",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Linda Johnson",
     "licenses": [
       "Walkingspree",
@@ -9341,7 +9361,8 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "5/1/2025"
   },
   "EN-01021": {
     "teacher": "Linda Johnson",
@@ -9354,7 +9375,7 @@
   },
   "EN-01022": {
     "author": "Linda Johnson",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Linda Johnson",
     "duration": "5",
     "language": "English",
@@ -9364,7 +9385,8 @@
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1080624607/b5b5e20f01"
+    "vimeo_link": "https://vimeo.com/1080624607/b5b5e20f01",
+    "date_created": "5/1/2025"
   },
   "EN-01089": {
     "author": "Linda Johnson",
@@ -10047,7 +10069,7 @@
   },
   "EN-00874": {
     "teacher": "Kaitlyn Bruneau",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "duration": "3",
     "language": "English",
     "type": "Video",
@@ -10061,7 +10083,8 @@
       "Wellness360"
     ],
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1063682813/eb77844566"
+    "vimeo_link": "https://vimeo.com/1063682813/eb77844566",
+    "date_created": "3/7/2025"
   },
   "EN-00875": {
     "author": "Kaitlyn Bruneau",
@@ -10078,7 +10101,7 @@
   },
   "EN-00876": {
     "author": "Kaitlyn Bruneau",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Kaitlyn Bruneau",
     "licenses": [
       "JAAQ",
@@ -10089,7 +10112,8 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/24/2025"
   },
   "EN-00877": {
     "teacher": "Kaitlyn Bruneau",
@@ -10311,7 +10335,7 @@
   },
   "EN-00914": {
     "author": "Kaitlyn Bruneau",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Kaitlyn Bruneau",
     "licenses": [
       "YuLife",
@@ -10322,7 +10346,8 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/25/2025"
   },
   "EN-00915": {
     "author": "Kaitlyn Bruneau",
@@ -10388,7 +10413,7 @@
   },
   "EN-01207": {
     "teacher": "Kaitlyn Bruneau",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "duration": "5",
     "language": "English",
     "type": "Video",
@@ -10406,11 +10431,12 @@
       "Wellsort"
     ],
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1161867021/6348941780?share=copy&fl=sv&fe=ci"
+    "vimeo_link": "https://vimeo.com/1161867021/6348941780?share=copy&fl=sv&fe=ci",
+    "date_created": "2/4/2026"
   },
   "EN-01208": {
     "author": "Kaitlyn Bruneau",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Kaitlyn Bruneau",
     "licenses": [
       "YuLife",
@@ -10422,7 +10448,8 @@
     "type": "Video",
     "references": "Cleveland Clinic. (2022). Rejection Sensitive Dysphoria (RSD): Symptoms & Treatment. https://my.clevelandclinic.org/health/diseases/24099-rejection-sensitive-dysphoria-rsd\n\nHarvard Health Publishing. (2021). 4 ways to boost your self-compassion. https://www.health.harvard.edu/mental-health/4-ways-to-boost-your-self-compassion\n\nFrontiers in Psychology. (2022). Hurting all the way: The emotional antecedent and consequence of social rejection. https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2022.885384/full",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "2/4/2026"
   },
   "EN-01209": {
     "author": "Kaitlyn Bruneau",
@@ -13092,7 +13119,7 @@
   },
   "EN-00708": {
     "author": "Mila Toribio",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Mila Toribio",
     "licenses": [
       "Wellness360"
@@ -13102,11 +13129,12 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "5/1/2025"
   },
   "EN-00709": {
     "author": "Mila Toribio",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Mila Toribio",
     "licenses": [
       "Wellness360"
@@ -13116,11 +13144,12 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "5/1/2025"
   },
   "EN-00710": {
     "author": "Mila Toribio",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Mila Toribio",
     "licenses": [
       "Wellness360"
@@ -13130,11 +13159,12 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "5/1/2025"
   },
   "EN-00711": {
     "author": "Mila Toribio",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Mila Toribio",
     "licenses": [
       "Wellness360"
@@ -13144,7 +13174,8 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "5/1/2025"
   },
   "EN-00712": {
     "author": "Mila Toribio",
@@ -13163,7 +13194,7 @@
   },
   "EN-00713": {
     "author": "Mila Toribio",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Mila Toribio",
     "licenses": [
       "Wellness360"
@@ -13173,7 +13204,8 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/24/2025"
   },
   "EN-00919": {
     "author": "Mila Toribio",
@@ -13239,7 +13271,7 @@
   },
   "EN-00923": {
     "author": "Mila Toribio",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Mila Toribio",
     "licenses": [
       "Wellness360"
@@ -13249,18 +13281,20 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/25/2025"
   },
   "EN-00924": {
     "author": "Mila Toribio",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Mila Toribio",
     "duration": "2",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1069065843/f4915dec45"
+    "vimeo_link": "https://vimeo.com/1069065843/f4915dec45",
+    "date_created": "3/24/2025"
   },
   "EN-00925": {
     "author": "Mila Toribio",
@@ -14923,14 +14957,15 @@
   },
   "EN-00805": {
     "author": "Dr. Cherilyn Davis",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Dr. Cherilyn Davis",
     "duration": "1",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1069461377/15f5a573be"
+    "vimeo_link": "https://vimeo.com/1069461377/15f5a573be",
+    "date_created": "3/26/2025"
   },
   "EN-00806": {
     "author": "Dr. Cherilyn Davis",
@@ -14958,14 +14993,15 @@
   },
   "EN-00808": {
     "author": "Dr. Cherilyn Davis",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Dr. Cherilyn Davis",
     "duration": "3",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1069718238/dd595a1fb2"
+    "vimeo_link": "https://vimeo.com/1069718238/dd595a1fb2",
+    "date_created": "3/26/2025"
   },
   "EN-00809": {
     "author": "Dr. Cherilyn Davis",
@@ -14981,7 +15017,7 @@
   },
   "EN-00810": {
     "teacher": "Dr. Cherilyn Davis",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "author": "Dr. Cherilyn Davis",
     "licenses": [
       "Healthee",
@@ -14993,7 +15029,8 @@
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "review_priority": "High",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/26/2025"
   },
   "EN-00811": {
     "teacher": "Dr. Cherilyn Davis",
@@ -15056,7 +15093,7 @@
   },
   "EN-00936": {
     "teacher": "Dr. Cherilyn Davis",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "author": "Dr. Cherilyn Davis",
     "licenses": [
       "Wellness360"
@@ -15066,7 +15103,8 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/26/2025"
   },
   "EN-00937": {
     "teacher": "Dr. Cherilyn Davis",
@@ -15238,7 +15276,7 @@
   },
   "EN-00948": {
     "author": "Dr. Cherilyn Davis",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Dr. Cherilyn Davis",
     "duration": "2",
     "language": "English",
@@ -15248,7 +15286,8 @@
       "Lyra Health"
     ],
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1069246498/5eeacb8151?fl=ls&fe=ec"
+    "vimeo_link": "https://vimeo.com/1069246498/5eeacb8151?fl=ls&fe=ec",
+    "date_created": "3/25/2025"
   },
   "EN-00949": {
     "author": "Dr. Cherilyn Davis",
@@ -15267,7 +15306,7 @@
   },
   "EN-00950": {
     "author": "Dr. Cherilyn Davis",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Dr. Cherilyn Davis",
     "duration": "2",
     "language": "English",
@@ -15277,7 +15316,8 @@
       "Lyra Health"
     ],
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1068988429/fb340d69b4"
+    "vimeo_link": "https://vimeo.com/1068988429/fb340d69b4",
+    "date_created": "3/24/2025"
   },
   "EN-01073": {
     "teacher": "Dr. Cherilyn Davis",
@@ -16325,7 +16365,7 @@
   },
   "EN-00819": {
     "author": "Ana Gaston",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Ana Gaston",
     "licenses": [
       "Wellness360"
@@ -16335,11 +16375,12 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/25/2025"
   },
   "EN-00820": {
     "author": "Ana Gaston",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Ana Gaston",
     "licenses": [
       "Walkingspree",
@@ -16350,29 +16391,32 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/26/2025"
   },
   "EN-00827": {
     "author": "Ana Gaston",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Ana Gaston",
     "duration": "5",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1069457666/65d9609200"
+    "vimeo_link": "https://vimeo.com/1069457666/65d9609200",
+    "date_created": "3/26/2025"
   },
   "EN-00828": {
     "author": "Ana Gaston",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Ana Gaston",
     "duration": "5",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1069457770/d24ed8d53f"
+    "vimeo_link": "https://vimeo.com/1069457770/d24ed8d53f",
+    "date_created": "3/26/2025"
   },
   "EN-00829": {
     "author": "Ana Gaston",
@@ -16388,25 +16432,27 @@
   },
   "EN-00830": {
     "author": "Ana Gaston",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Ana Gaston",
     "duration": "5",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1069445145/c8e781aba6"
+    "vimeo_link": "https://vimeo.com/1069445145/c8e781aba6",
+    "date_created": "3/25/2025"
   },
   "EN-00831": {
     "author": "Ana Gaston",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Ana Gaston",
     "duration": "5",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1069457519/372f0c7ec7"
+    "vimeo_link": "https://vimeo.com/1069457519/372f0c7ec7",
+    "date_created": "3/26/2025"
   },
   "EN-00832": {
     "teacher": "Ana Gaston",
@@ -16424,47 +16470,51 @@
   },
   "EN-00833": {
     "author": "Ana Gaston",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Ana Gaston",
     "duration": "5",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1069737236/da6f5e167f?share=copy&fl=cl&fe=ci"
+    "vimeo_link": "https://vimeo.com/1069737236/da6f5e167f?share=copy&fl=cl&fe=ci",
+    "date_created": "3/26/2025"
   },
   "EN-00834": {
     "author": "Ana Gaston",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Ana Gaston",
     "duration": "5",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1069107173/38a59a6e66?share=copy&fl=cl&fe=ci"
+    "vimeo_link": "https://vimeo.com/1069107173/38a59a6e66?share=copy&fl=cl&fe=ci",
+    "date_created": "3/25/2025"
   },
   "EN-00835": {
     "author": "Ana Gaston",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Ana Gaston",
     "duration": "3",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1069245567/4b340b78f1"
+    "vimeo_link": "https://vimeo.com/1069245567/4b340b78f1",
+    "date_created": "3/25/2025"
   },
   "EN-00836": {
     "author": "Ana Gaston",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Ana Gaston",
     "duration": "5",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1069459414/d2706f42fb"
+    "vimeo_link": "https://vimeo.com/1069459414/d2706f42fb",
+    "date_created": "3/26/2025"
   },
   "EN-01109": {
     "author": "Ana Gaston",
@@ -16582,7 +16632,7 @@
   },
   "EN-01171": {
     "author": "Ana Gaston",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Ana Gaston",
     "licenses": [
       "Wellness360"
@@ -16592,11 +16642,12 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "9/4/2025"
   },
   "EN-01172": {
     "author": "Ana Gaston",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Ana Gaston",
     "licenses": [
       "Wellness360"
@@ -16606,11 +16657,12 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "9/4/2025"
   },
   "EN-01173": {
     "author": "Ana Gaston",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Ana Gaston",
     "licenses": [
       "Wellness360"
@@ -16620,22 +16672,24 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "9/4/2025"
   },
   "EN-01174": {
     "author": "Ana Gaston",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Ana Gaston",
     "duration": "5",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1115967607/79ffaf46e5"
+    "vimeo_link": "https://vimeo.com/1115967607/79ffaf46e5",
+    "date_created": "9/4/2025"
   },
   "EN-01175": {
     "author": "Ana Gaston",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Ana Gaston",
     "licenses": [
       "Wellness360"
@@ -16645,11 +16699,12 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "9/5/2025"
   },
   "EN-01176": {
     "author": "Ana Gaston",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Ana Gaston",
     "licenses": [
       "Wellness360"
@@ -16659,11 +16714,12 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "9/5/2025"
   },
   "EN-01177": {
     "author": "Ana Gaston",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Ana Gaston",
     "duration": "5",
     "language": "English",
@@ -16672,11 +16728,12 @@
     ],
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "vimeo_link": "https://vimeo.com/1115969140/1df7cdf743"
+    "vimeo_link": "https://vimeo.com/1115969140/1df7cdf743",
+    "date_created": "9/4/2025"
   },
   "EN-01178": {
     "author": "Ana Gaston",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Ana Gaston",
     "licenses": [
       "i9med"
@@ -16686,7 +16743,8 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "9/4/2025"
   },
   "VID-0490": {
     "author": "Liz Ilgenfritz",
@@ -18121,7 +18179,7 @@
   },
   "EN-00715": {
     "author": "Thai James",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Thai James",
     "licenses": [
       "YuLife"
@@ -18131,11 +18189,12 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "5/1/2025"
   },
   "EN-00716": {
     "author": "Thai James",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Thai James",
     "licenses": [
       "Wellness360"
@@ -18145,11 +18204,12 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "5/1/2025"
   },
   "EN-00800": {
     "author": "Thai James",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Thai James",
     "licenses": [
       "YuLife"
@@ -18159,7 +18219,8 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/25/2025"
   },
   "EN-00801": {
     "author": "Thai James",
@@ -18395,7 +18456,7 @@
   },
   "EN-00867": {
     "author": "Thai James",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Thai James",
     "licenses": [
       "Wellness360"
@@ -18405,7 +18466,8 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "5/1/2025"
   },
   "EN-01616": {
     "author": "Thai James",
@@ -19053,7 +19115,7 @@
   },
   "EN-00717": {
     "author": "Kim Ross",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Kim Ross",
     "licenses": [
       "Walkingspree",
@@ -19064,11 +19126,12 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "5/1/2025"
   },
   "EN-00718": {
     "author": "Kim Ross",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Kim Ross",
     "licenses": [
       "The Difference Card",
@@ -19080,7 +19143,8 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "5/1/2025"
   },
   "EN-00719": {
     "author": "Kim Ross",
@@ -19102,7 +19166,7 @@
   },
   "EN-00720": {
     "author": "Kim Ross",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Kim Ross",
     "licenses": [
       "Wellness360"
@@ -19112,7 +19176,8 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "5/1/2025"
   },
   "EN-00721": {
     "author": "Kim Ross",
@@ -19131,7 +19196,7 @@
   },
   "EN-00727": {
     "author": "Kim Ross",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Kim Ross",
     "licenses": [
       "Wellness360"
@@ -19141,7 +19206,8 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "5/1/2025"
   },
   "EN-00728": {
     "teacher": "Kim Ross",
@@ -19163,7 +19229,7 @@
   },
   "EN-00729": {
     "author": "Kim Ross",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Kim Ross",
     "licenses": [
       "Walkingspree",
@@ -19174,11 +19240,12 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "5/1/2025"
   },
   "EN-00730": {
     "teacher": "Kim Ross",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "licenses": [
       "Wellness360"
     ],
@@ -19188,11 +19255,12 @@
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "author": "Kim Ross",
-    "version": "1"
+    "version": "1",
+    "date_created": "5/1/2025"
   },
   "EN-00731": {
     "author": "Kim Ross",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Kim Ross",
     "licenses": [
       "Wellness360"
@@ -19202,7 +19270,8 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "5/1/2025"
   },
   "EN-01695": {
     "author": "Kim Ross",
@@ -20398,7 +20467,7 @@
   },
   "EN-01189": {
     "author": "Crystal Williams",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Crystal Williams",
     "licenses": [
       "Wellness360"
@@ -20408,7 +20477,8 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "5/13/2025"
   },
   "EN-01190": {
     "author": "Crystal Williams",
@@ -20515,14 +20585,15 @@
   },
   "EN-01197": {
     "author": "Crystal Williams",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Crystal Williams",
     "duration": "2",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1083979722/966027fbe5"
+    "vimeo_link": "https://vimeo.com/1083979722/966027fbe5",
+    "date_created": "5/13/2025"
   },
   "EN-01198": {
     "author": "Crystal Williams",
@@ -21357,7 +21428,7 @@
   },
   "EN-00837": {
     "author": "Jennifer Leong",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Jennifer Leong",
     "licenses": [
       "Wellness360"
@@ -21367,11 +21438,12 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "5/1/2025"
   },
   "EN-00838": {
     "author": "Jennifer Leong",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Jennifer Leong",
     "licenses": [
       "Wellness360"
@@ -21381,11 +21453,12 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "5/1/2025"
   },
   "EN-00839": {
     "author": "Jennifer Leong",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Jennifer Leong",
     "licenses": [
       "Wellness360"
@@ -21395,11 +21468,12 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "5/1/2025"
   },
   "EN-00840": {
     "author": "Jennifer Leong",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Jennifer Leong",
     "licenses": [
       "Wellness360"
@@ -21409,11 +21483,12 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "5/1/2025"
   },
   "EN-00841": {
     "author": "Jennifer Leong",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Jennifer Leong",
     "licenses": [
       "Wellness360"
@@ -21423,7 +21498,8 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "5/1/2025"
   },
   "EN-00997": {
     "author": "Jennifer Leong",
@@ -23717,14 +23793,15 @@
   },
   "EN-01165": {
     "teacher": "Dr. Joe Feuerstein",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "duration": "5",
     "language": "English (UK)",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "author": "Dr. Joe Feuerstein",
     "link": "https://app.allinonewellbeing.com/videos/how-wearables-help-track-long-term-health-trends",
-    "vimeo_link": "https://vimeo.com/1084729862/7813e8788b?share=copy"
+    "vimeo_link": "https://vimeo.com/1084729862/7813e8788b?share=copy",
+    "date_created": "5/15/2025"
   },
   "EN-01167": {
     "author": "Dr. Joe Feuerstein",
@@ -24342,12 +24419,13 @@
   },
   "EN-01181": {
     "teacher": "Carol Hilaire",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "duration": "5",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "vimeo_link": "https://vimeo.com/1095079120/038105f516?share=copy"
+    "vimeo_link": "https://vimeo.com/1095079120/038105f516?share=copy",
+    "date_created": "6/20/2025"
   },
   "EN-01182": {
     "teacher": "Carol Hilaire",
@@ -24386,25 +24464,27 @@
   },
   "EN-01185": {
     "author": "Carol Hilaire",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Carol Hilaire",
     "duration": "5",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1095079150/735acb3b9c?share=copy"
+    "vimeo_link": "https://vimeo.com/1095079150/735acb3b9c?share=copy",
+    "date_created": "6/20/2025"
   },
   "EN-01186": {
     "author": "Carol Hilaire",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Carol Hilaire",
     "duration": "5",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1095079097/ee4dab6811?share=copy"
+    "vimeo_link": "https://vimeo.com/1095079097/ee4dab6811?share=copy",
+    "date_created": "6/20/2025"
   },
   "EN-01187": {
     "author": "Carol Hilaire",
@@ -24419,14 +24499,15 @@
   },
   "EN-01188": {
     "author": "Carol Hilaire",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Carol Hilaire",
     "duration": "5",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1095079014/45ffa12859?share=copy"
+    "vimeo_link": "https://vimeo.com/1095079014/45ffa12859?share=copy",
+    "date_created": "6/20/2025"
   },
   "EN-01344": {
     "author": "Carol Hilaire",
@@ -24706,7 +24787,7 @@
   },
   "EN-01127": {
     "author": "Jiva Smith",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Jiva Smith",
     "licenses": [
       "Wellness360"
@@ -24716,11 +24797,12 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "5/21/2025"
   },
   "EN-01128": {
     "author": "Jiva Smith",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Jiva Smith",
     "licenses": [
       "Passport & Co.",
@@ -24731,11 +24813,12 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "5/21/2025"
   },
   "EN-01129": {
     "author": "Jiva Smith",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Jiva Smith",
     "licenses": [
       "Passport & Co.",
@@ -24746,11 +24829,12 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "5/21/2025"
   },
   "EN-01130": {
     "author": "Jiva Smith",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Jiva Smith",
     "licenses": [
       "Passport & Co.",
@@ -24761,11 +24845,12 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "5/21/2025"
   },
   "EN-01131": {
     "author": "Jiva Smith",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Jiva Smith",
     "licenses": [
       "Passport & Co.",
@@ -24776,11 +24861,12 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "5/21/2025"
   },
   "EN-01132": {
     "author": "Jiva Smith",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Jiva Smith",
     "licenses": [
       "Passport & Co.",
@@ -24791,11 +24877,12 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "5/21/2025"
   },
   "EN-01133": {
     "author": "Jiva Smith",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Jiva Smith",
     "licenses": [
       "Passport & Co.",
@@ -24806,11 +24893,12 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "5/21/2025"
   },
   "EN-01134": {
     "author": "Jiva Smith",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Jiva Smith",
     "licenses": [
       "Hapstar"
@@ -24820,11 +24908,12 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "5/21/2025"
   },
   "EN-01135": {
     "author": "Jiva Smith",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Jiva Smith",
     "licenses": [
       "YuLife"
@@ -24834,11 +24923,12 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "5/21/2025"
   },
   "EN-01136": {
     "author": "Jiva Smith",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Jiva Smith",
     "licenses": [
       "YuLife"
@@ -24848,7 +24938,8 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "5/21/2025"
   },
   "EN-01394": {
     "author": "Jiva Smith",
@@ -25319,14 +25410,15 @@
   },
   "EN-00752": {
     "author": "Julika Von Stackelberg",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Julika Von Stackelberg",
     "duration": "5",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1069718488/a55f71d8f7"
+    "vimeo_link": "https://vimeo.com/1069718488/a55f71d8f7",
+    "date_created": "3/26/2025"
   },
   "EN-00753": {
     "author": "Julika Von Stackelberg",
@@ -25345,7 +25437,7 @@
   },
   "EN-00754": {
     "author": "Julika Von Stackelberg",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Julika Von Stackelberg",
     "licenses": [
       "Walkingspree"
@@ -25355,11 +25447,12 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/24/2025"
   },
   "EN-00755": {
     "author": "Julika Von Stackelberg",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Julika Von Stackelberg",
     "licenses": [
       "Walkingspree"
@@ -25369,22 +25462,24 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/24/2025"
   },
   "EN-00756": {
     "author": "Julika Von Stackelberg",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Julika Von Stackelberg",
     "duration": "5",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1069610770/167a2b86e5?share=copy"
+    "vimeo_link": "https://vimeo.com/1069610770/167a2b86e5?share=copy",
+    "date_created": "3/26/2025"
   },
   "EN-00842": {
     "author": "Julika Von Stackelberg",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Julika Von Stackelberg",
     "licenses": [
       "YuLife",
@@ -25395,7 +25490,8 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/26/2025"
   },
   "EN-00843": {
     "author": "Julika Von Stackelberg",
@@ -25430,7 +25526,7 @@
   },
   "EN-00845": {
     "author": "Julika Von Stackelberg",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Julika Von Stackelberg",
     "licenses": [
       "JAAQ",
@@ -25441,11 +25537,12 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/24/2025"
   },
   "EN-00846": {
     "author": "Julika Von Stackelberg",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Julika Von Stackelberg",
     "licenses": [
       "YuLife"
@@ -25455,11 +25552,12 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/25/2025"
   },
   "EN-00847": {
     "author": "Julika Von Stackelberg",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Julika Von Stackelberg",
     "licenses": [
       "Wellness360"
@@ -25469,11 +25567,12 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/24/2025"
   },
   "EN-00848": {
     "author": "Julika Von Stackelberg",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Julika Von Stackelberg",
     "licenses": [
       "YuLife"
@@ -25483,7 +25582,8 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/24/2025"
   },
   "EN-00849": {
     "author": "Julika Von Stackelberg",
@@ -25503,7 +25603,7 @@
   },
   "EN-00850": {
     "author": "Julika Von Stackelberg",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Julika Von Stackelberg",
     "licenses": [
       "YuLife"
@@ -25513,11 +25613,12 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/24/2025"
   },
   "EN-00851": {
     "author": "Julika Von Stackelberg",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Julika Von Stackelberg",
     "licenses": [
       "Wellness360"
@@ -25527,7 +25628,8 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/25/2025"
   },
   "EN-01553": {
     "teacher": "Julika Von Stackelberg",
@@ -26852,7 +26954,7 @@
   },
   "EN-00757": {
     "author": "Sadiya Shackey-El",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Sadiya Shackey-El",
     "duration": "10",
     "language": "English",
@@ -26862,7 +26964,8 @@
       "Loune.co (needs to be confirmed"
     ],
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1069066897/a7c3e07cef"
+    "vimeo_link": "https://vimeo.com/1069066897/a7c3e07cef",
+    "date_created": "3/24/2025"
   },
   "EN-00758": {
     "author": "Sadiya Shackey-El",
@@ -26896,7 +26999,7 @@
   },
   "EN-00760": {
     "author": "Sadiya Shackey-El",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Sadiya Shackey-El",
     "duration": "10",
     "language": "English",
@@ -26906,7 +27009,8 @@
       "Loune.co (needs to be confirmed"
     ],
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1069450653/339ccfe2fe"
+    "vimeo_link": "https://vimeo.com/1069450653/339ccfe2fe",
+    "date_created": "3/26/2025"
   },
   "EN-00761": {
     "author": "Sadiya Shackey-El",
@@ -27115,7 +27219,7 @@
   },
   "EN-00762": {
     "author": "Dr. David Rosen",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Dr. David Rosen",
     "licenses": [
       "Healthee",
@@ -27128,11 +27232,12 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/25/2025"
   },
   "EN-00763": {
     "author": "Dr. David Rosen",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Dr. David Rosen",
     "licenses": [
       "Wellness360"
@@ -27142,11 +27247,12 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/25/2025"
   },
   "EN-00764": {
     "teacher": "Dr. David Rosen",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "licenses": [
       "JAAQ",
       "Wellness360",
@@ -27158,11 +27264,12 @@
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "author": "Dr. David Rosen",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/26/2025"
   },
   "EN-00765": {
     "teacher": "Dr. David Rosen",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "licenses": [
       "Wellness360"
     ],
@@ -27171,11 +27278,12 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/26/2025"
   },
   "EN-00766": {
     "author": "Dr. David Rosen",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Dr. David Rosen",
     "licenses": [
       "The Difference Card",
@@ -27186,11 +27294,12 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/24/2025"
   },
   "EN-00768": {
     "teacher": "Dr. David Rosen",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "licenses": [
       "Healthee",
       "Wellness360"
@@ -27201,7 +27310,8 @@
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "author": "Dr. David Rosen",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/26/2025"
   },
   "EN-01366": {
     "author": "Dr. David Rosen",
@@ -28486,14 +28596,15 @@
   },
   "EN-00934": {
     "author": "Dr. Ricardo Fuentes",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Dr. Ricardo Fuentes",
     "duration": "5",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1069729072/b75bb569ec"
+    "vimeo_link": "https://vimeo.com/1069729072/b75bb569ec",
+    "date_created": "3/26/2025"
   },
   "EN-00977": {
     "author": "Dr. Ricardo Fuentes",
@@ -28631,7 +28742,7 @@
   },
   "EN-01026": {
     "teacher": "Dr. Ricardo Fuentes",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "licenses": [
       "Wellness360"
     ],
@@ -28641,7 +28752,8 @@
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "author": "Dr. Ricardo Fuentes",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/24/2025"
   },
   "EN-01027": {
     "teacher": "Dr. Ricardo Fuentes",
@@ -28675,7 +28787,7 @@
   },
   "EN-01029": {
     "teacher": "Dr. Ricardo Fuentes",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "licenses": [
       "Wellness360"
     ],
@@ -28685,7 +28797,8 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/24/2025"
   },
   "EN-01030": {
     "author": "Dr. Ricardo Fuentes",
@@ -28704,7 +28817,7 @@
   },
   "EN-01031": {
     "author": "Dr. Ricardo Fuentes",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Dr. Ricardo Fuentes",
     "licenses": [
       "Wellness360"
@@ -28714,150 +28827,164 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/24/2025"
   },
   "EN-01032": {
     "teacher": "Dr. Ricardo Fuentes",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "author": "Dr. Ricardo Fuentes",
     "duration": "5",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1069455454/0389973729?tq=#t=81"
+    "vimeo_link": "https://vimeo.com/1069455454/0389973729?tq=#t=81",
+    "date_created": "3/26/2025"
   },
   "EN-01033": {
     "teacher": "Dr. Ricardo Fuentes",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "author": "Dr. Ricardo Fuentes",
     "duration": "5",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1069455506/19e58a9219?tq=#t=93"
+    "vimeo_link": "https://vimeo.com/1069455506/19e58a9219?tq=#t=93",
+    "date_created": "3/26/2025"
   },
   "EN-01034": {
     "author": "Dr. Ricardo Fuentes",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Dr. Ricardo Fuentes",
     "duration": "5",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1069455408/fb844fbddc?tq=#t=67"
+    "vimeo_link": "https://vimeo.com/1069455408/fb844fbddc?tq=#t=67",
+    "date_created": "3/26/2025"
   },
   "EN-01063": {
     "author": "Dr. Ricardo Fuentes",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Dr. Ricardo Fuentes",
     "duration": "2",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1065166524/895e198f62?share=copy"
+    "vimeo_link": "https://vimeo.com/1065166524/895e198f62?share=copy",
+    "date_created": "3/12/2025"
   },
   "EN-01064": {
     "author": "Dr. Ricardo Fuentes",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Dr. Ricardo Fuentes",
     "duration": "3",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1065166352/847dbcc514?share=copy"
+    "vimeo_link": "https://vimeo.com/1065166352/847dbcc514?share=copy",
+    "date_created": "3/12/2025"
   },
   "EN-01065": {
     "author": "Dr. Ricardo Fuentes",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Dr. Ricardo Fuentes",
     "duration": "2",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1065166982/2c4a569917?share=copy"
+    "vimeo_link": "https://vimeo.com/1065166982/2c4a569917?share=copy",
+    "date_created": "3/12/2025"
   },
   "EN-01066": {
     "author": "Dr. Ricardo Fuentes",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Dr. Ricardo Fuentes",
     "duration": "2",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1065166634/4cae7b2f89?share=copy"
+    "vimeo_link": "https://vimeo.com/1065166634/4cae7b2f89?share=copy",
+    "date_created": "3/12/2025"
   },
   "EN-01067": {
     "author": "Dr. Ricardo Fuentes",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Dr. Ricardo Fuentes",
     "duration": "2",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1065166444/4660fdbb97?share=copy"
+    "vimeo_link": "https://vimeo.com/1065166444/4660fdbb97?share=copy",
+    "date_created": "3/12/2025"
   },
   "EN-01068": {
     "author": "Dr. Ricardo Fuentes",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Dr. Ricardo Fuentes",
     "duration": "2",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1065166823/8afbf8a9ed?share=copy"
+    "vimeo_link": "https://vimeo.com/1065166823/8afbf8a9ed?share=copy",
+    "date_created": "3/12/2025"
   },
   "EN-01069": {
     "author": "Dr. Ricardo Fuentes",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Dr. Ricardo Fuentes",
     "duration": "2",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1065166726/966dafbb6a?share=copy"
+    "vimeo_link": "https://vimeo.com/1065166726/966dafbb6a?share=copy",
+    "date_created": "3/12/2025"
   },
   "EN-01070": {
     "author": "Dr. Ricardo Fuentes",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Dr. Ricardo Fuentes",
     "duration": "2",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1065167047/73702ad158?share=copy"
+    "vimeo_link": "https://vimeo.com/1065167047/73702ad158?share=copy",
+    "date_created": "3/12/2025"
   },
   "EN-01071": {
     "author": "Dr. Ricardo Fuentes",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Dr. Ricardo Fuentes",
     "duration": "2",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1065167145/1bc0fb7ebe?share=copy"
+    "vimeo_link": "https://vimeo.com/1065167145/1bc0fb7ebe?share=copy",
+    "date_created": "3/12/2025"
   },
   "EN-01072": {
     "author": "Dr. Ricardo Fuentes",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Dr. Ricardo Fuentes",
     "language": "English",
     "type": "Video",
     "duration": "3 min",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1065166895/d987ddb018?share=copy"
+    "vimeo_link": "https://vimeo.com/1065166895/d987ddb018?share=copy",
+    "date_created": "3/12/2025"
   },
   "VID-1392": {
     "author": "Jared De Candia",
@@ -32646,102 +32773,111 @@
   },
   "EN-01140": {
     "author": "Allison Wyman",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Allison Wyman",
     "duration": "5",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1092149253/e4cd75585d?share=copy"
+    "vimeo_link": "https://vimeo.com/1092149253/e4cd75585d?share=copy",
+    "date_created": "6/10/2025"
   },
   "EN-01141": {
     "author": "Allison Wyman",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Allison Wyman",
     "duration": "5",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1092148977/5ad2529340?share=copy"
+    "vimeo_link": "https://vimeo.com/1092148977/5ad2529340?share=copy",
+    "date_created": "6/10/2025"
   },
   "EN-01142": {
     "author": "Allison Wyman",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Allison Wyman",
     "duration": "5",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1092149404/8c67c64540?share=copy"
+    "vimeo_link": "https://vimeo.com/1092149404/8c67c64540?share=copy",
+    "date_created": "6/10/2025"
   },
   "EN-01143": {
     "author": "Allison Wyman",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Allison Wyman",
     "duration": "5",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1092149042/80de6882ce?share=copy"
+    "vimeo_link": "https://vimeo.com/1092149042/80de6882ce?share=copy",
+    "date_created": "6/10/2025"
   },
   "EN-01144": {
     "author": "Allison Wyman",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Allison Wyman",
     "duration": "5",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1092149089/f8e35f4c91?share=copy"
+    "vimeo_link": "https://vimeo.com/1092149089/f8e35f4c91?share=copy",
+    "date_created": "6/10/2025"
   },
   "EN-01145": {
     "author": "Allison Wyman",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Allison Wyman",
     "duration": "5",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1092149213/19d8440909?share=copy"
+    "vimeo_link": "https://vimeo.com/1092149213/19d8440909?share=copy",
+    "date_created": "6/10/2025"
   },
   "EN-01146": {
     "author": "Allison Wyman",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Allison Wyman",
     "duration": "5",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1092149329/d2cd8b7f2c?share=copy"
+    "vimeo_link": "https://vimeo.com/1092149329/d2cd8b7f2c?share=copy",
+    "date_created": "6/10/2025"
   },
   "EN-01147": {
     "author": "Allison Wyman",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Allison Wyman",
     "duration": "5",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1092149361/7efa63ab66?share=copy"
+    "vimeo_link": "https://vimeo.com/1092149361/7efa63ab66?share=copy",
+    "date_created": "6/10/2025"
   },
   "EN-01148": {
     "author": "Allison Wyman",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Allison Wyman",
     "duration": "5",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1092149130/a56c351b74?share=copy"
+    "vimeo_link": "https://vimeo.com/1092149130/a56c351b74?share=copy",
+    "date_created": "6/10/2025"
   },
   "EN-01428": {
     "author": "Allison Wyman",
@@ -33620,14 +33756,15 @@
   },
   "EN-00771": {
     "author": "Jane Mulvey",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Jane Mulvey",
     "duration": "3",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1080658697/98f0a1e39f"
+    "vimeo_link": "https://vimeo.com/1080658697/98f0a1e39f",
+    "date_created": "5/1/2025"
   },
   "EN-00772": {
     "author": "Jane Mulvey",
@@ -34376,14 +34513,15 @@
   },
   "EN-00783": {
     "author": "Mary Solis",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Mary Solis",
     "duration": "5",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1068957251/9ae7ff84e1"
+    "vimeo_link": "https://vimeo.com/1068957251/9ae7ff84e1",
+    "date_created": "3/24/2025"
   },
   "EN-00784": {
     "author": "Mary Solis",
@@ -35634,14 +35772,15 @@
   },
   "EN-00667": {
     "author": "Dr. Karyn Ginsberg",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Dr. Karyn Ginsberg",
     "duration": "2",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1069113094/aabb6a9e9a"
+    "vimeo_link": "https://vimeo.com/1069113094/aabb6a9e9a",
+    "date_created": "3/25/2025"
   },
   "EN-00668": {
     "author": "Dr. Karyn Ginsberg",
@@ -35693,14 +35832,15 @@
   },
   "EN-00672": {
     "author": "Dr. Karyn Ginsberg",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Dr. Karyn Ginsberg",
     "duration": "3",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1069078293/e5c5da27ee?tq=#t=5"
+    "vimeo_link": "https://vimeo.com/1069078293/e5c5da27ee?tq=#t=5",
+    "date_created": "3/24/2025"
   },
   "EN-00673": {
     "author": "Dr. Karyn Ginsberg",
@@ -35788,7 +35928,7 @@
   },
   "EN-01003": {
     "author": "Tzahi Moskovitz",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Tzahi Moskovitz",
     "licenses": [
       "Wellness360"
@@ -35799,11 +35939,12 @@
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "review_priority": "High",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/26/2025"
   },
   "EN-01004": {
     "author": "Tzahi Moskovitz",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Tzahi Moskovitz",
     "licenses": [
       "Wellness360"
@@ -35813,7 +35954,8 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/26/2025"
   },
   "EN-01005": {
     "author": "Tzahi Moskovitz",
@@ -35832,7 +35974,7 @@
   },
   "EN-01006": {
     "author": "Tzahi Moskovitz",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Tzahi Moskovitz",
     "licenses": [
       "Wellness360"
@@ -35842,11 +35984,12 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/26/2025"
   },
   "EN-01007": {
     "author": "Tzahi Moskovitz",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Tzahi Moskovitz",
     "licenses": [
       "Luro Health",
@@ -35857,7 +36000,8 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/26/2025"
   },
   "EN-01008": {
     "author": "Tzahi Moskovitz",
@@ -35876,7 +36020,7 @@
   },
   "EN-01009": {
     "author": "Tzahi Moskovitz",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Tzahi Moskovitz",
     "licenses": [
       "The Difference Card",
@@ -35887,11 +36031,12 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/26/2025"
   },
   "EN-01010": {
     "author": "Tzahi Moskovitz",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Tzahi Moskovitz",
     "licenses": [
       "Wellness360"
@@ -35901,11 +36046,12 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/26/2025"
   },
   "EN-01011": {
     "author": "Tzahi Moskovitz",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Tzahi Moskovitz",
     "licenses": [
       "Wellness360"
@@ -35915,11 +36061,12 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/26/2025"
   },
   "EN-01012": {
     "author": "Tzahi Moskovitz",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Tzahi Moskovitz",
     "licenses": [
       "The Difference Card",
@@ -35931,7 +36078,8 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/26/2025"
   },
   "VID-0141": {
     "author": "Jason Goldsmith",
@@ -36233,7 +36381,7 @@
   },
   "EN-01150": {
     "teacher": "Wendy Battles",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "duration": "5",
     "language": "English",
     "type": "Video",
@@ -36241,66 +36389,72 @@
     "author": "Wendy Battles",
     "link": "https://app.allinonewellbeing.com/videos/why-multi-factor-authentication-matters",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1088521672/11eea704f6"
+    "vimeo_link": "https://vimeo.com/1088521672/11eea704f6",
+    "date_created": "5/28/2025"
   },
   "EN-01151": {
     "author": "Wendy Battles",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Wendy Battles",
     "duration": "5",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1088521130/61b4c48329"
+    "vimeo_link": "https://vimeo.com/1088521130/61b4c48329",
+    "date_created": "5/28/2025"
   },
   "EN-01152": {
     "author": "Wendy Battles",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Wendy Battles",
     "duration": "5",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1088520458/bef1228802"
+    "vimeo_link": "https://vimeo.com/1088520458/bef1228802",
+    "date_created": "5/28/2025"
   },
   "EN-01153": {
     "author": "Wendy Battles",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Wendy Battles",
     "duration": "5",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1088223300/674c620751"
+    "vimeo_link": "https://vimeo.com/1088223300/674c620751",
+    "date_created": "5/27/2025"
   },
   "EN-01154": {
     "author": "Wendy Battles",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Wendy Battles",
     "duration": "5",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1088223006/0745adbab8"
+    "vimeo_link": "https://vimeo.com/1088223006/0745adbab8",
+    "date_created": "5/27/2025"
   },
   "EN-01155": {
     "author": "Wendy Battles",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Wendy Battles",
     "duration": "5",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1088223159/71646ce600"
+    "vimeo_link": "https://vimeo.com/1088223159/71646ce600",
+    "date_created": "5/27/2025"
   },
   "EN-01156": {
     "author": "Wendy Battles",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Wendy Battles",
     "licenses": [
       "Walkingspree"
@@ -36310,40 +36464,44 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "5/28/2025"
   },
   "EN-01157": {
     "author": "Wendy Battles",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Wendy Battles",
     "duration": "5",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1088520700/ce8d42e3ff"
+    "vimeo_link": "https://vimeo.com/1088520700/ce8d42e3ff",
+    "date_created": "5/28/2025"
   },
   "EN-01158": {
     "author": "Wendy Battles",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Wendy Battles",
     "duration": "5",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1088521370/b485e550fe"
+    "vimeo_link": "https://vimeo.com/1088521370/b485e550fe",
+    "date_created": "5/28/2025"
   },
   "EN-01159": {
     "author": "Wendy Battles",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Wendy Battles",
     "duration": "5",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1088222882/f88d32ed1a"
+    "vimeo_link": "https://vimeo.com/1088222882/f88d32ed1a",
+    "date_created": "5/27/2025"
   },
   "VID-0809": {
     "author": "Sam Dailey",
@@ -36936,7 +37094,7 @@
   },
   "EN-00746": {
     "author": "Nazirber Maduro",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Nazirber Maduro",
     "licenses": [
       "Walkingspree"
@@ -36949,11 +37107,12 @@
     "client_licenses": [
       "Lyra Health"
     ],
-    "version": "1"
+    "version": "1",
+    "date_created": "3/26/2025"
   },
   "EN-00747": {
     "author": "Nazirber Maduro",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Nazirber Maduro",
     "licenses": [
       "Healthee"
@@ -36966,11 +37125,12 @@
     "client_licenses": [
       "Lyra Health"
     ],
-    "version": "1"
+    "version": "1",
+    "date_created": "3/26/2025"
   },
   "EN-00748": {
     "author": "Nazirber Maduro",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Nazirber Maduro",
     "duration": "3",
     "language": "English",
@@ -36980,11 +37140,12 @@
       "Lyra Health"
     ],
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1069095748/e8b1f3590c"
+    "vimeo_link": "https://vimeo.com/1069095748/e8b1f3590c",
+    "date_created": "3/25/2025"
   },
   "EN-00749": {
     "author": "Nazirber Maduro",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Nazirber Maduro",
     "duration": "3",
     "language": "English",
@@ -36994,7 +37155,8 @@
       "Lyra Health"
     ],
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1069728921/662f2d3fb0"
+    "vimeo_link": "https://vimeo.com/1069728921/662f2d3fb0",
+    "date_created": "3/26/2025"
   },
   "EN-00750": {
     "author": "Nazirber Maduro",
@@ -37531,51 +37693,55 @@
   },
   "EN-01045": {
     "author": "Dr. Brian Glassman",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Dr. Brian Glassman",
     "duration": "3",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1080705198/45b8733033"
+    "vimeo_link": "https://vimeo.com/1080705198/45b8733033",
+    "date_created": "5/1/2025"
   },
   "EN-01046": {
     "author": "Dr. Brian Glassman",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Dr. Brian Glassman",
     "duration": "3",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1080705408/ab79fc6ed5"
+    "vimeo_link": "https://vimeo.com/1080705408/ab79fc6ed5",
+    "date_created": "5/1/2025"
   },
   "EN-01047": {
     "author": "Dr. Brian Glassman",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Dr. Brian Glassman",
     "duration": "3",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1080705005/12c2832467"
+    "vimeo_link": "https://vimeo.com/1080705005/12c2832467",
+    "date_created": "5/1/2025"
   },
   "EN-01048": {
     "author": "Dr. Brian Glassman",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Dr. Brian Glassman",
     "duration": "3",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1080705280/d5efe4b706"
+    "vimeo_link": "https://vimeo.com/1080705280/d5efe4b706",
+    "date_created": "5/1/2025"
   },
   "EN-01049": {
     "author": "Dr. Brian Glassman",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Dr. Brian Glassman",
     "licenses": [
       "Walkingspree"
@@ -37585,51 +37751,56 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "5/1/2025"
   },
   "EN-01050": {
     "author": "Dr. Brian Glassman",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Dr. Brian Glassman",
     "duration": "3",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1080705462/28a9d2d88a"
+    "vimeo_link": "https://vimeo.com/1080705462/28a9d2d88a",
+    "date_created": "5/1/2025"
   },
   "EN-01051": {
     "author": "Dr. Brian Glassman",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Dr. Brian Glassman",
     "duration": "3",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1080705553/0f95ef6525"
+    "vimeo_link": "https://vimeo.com/1080705553/0f95ef6525",
+    "date_created": "5/1/2025"
   },
   "EN-01052": {
     "author": "Dr. Brian Glassman",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Dr. Brian Glassman",
     "duration": "3",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1080705133/0d4107daee"
+    "vimeo_link": "https://vimeo.com/1080705133/0d4107daee",
+    "date_created": "5/1/2025"
   },
   "EN-01053": {
     "author": "Dr. Brian Glassman",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Dr. Brian Glassman",
     "duration": "3",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1080705664/918bbadbee"
+    "vimeo_link": "https://vimeo.com/1080705664/918bbadbee",
+    "date_created": "5/1/2025"
   },
   "VID-1383": {
     "author": "Sanford Brown",
@@ -38911,14 +39082,15 @@
   },
   "EN-00905": {
     "author": "Gisele Espin",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "duration": "10",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "teacher": "Gisele Espin",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1068938766/27a48ac227"
+    "vimeo_link": "https://vimeo.com/1068938766/27a48ac227",
+    "date_created": "3/24/2025"
   },
   "EN-00906": {
     "author": "Gisele Espin",
@@ -39032,14 +39204,15 @@
   },
   "EN-00688": {
     "author": "Kanwal Haq",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Kanwal Haq",
     "duration": "3",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1069064980/9057281aa2?tq=#t=163"
+    "vimeo_link": "https://vimeo.com/1069064980/9057281aa2?tq=#t=163",
+    "date_created": "3/24/2025"
   },
   "EN-00689": {
     "teacher": "Kanwal Haq",
@@ -40465,58 +40638,63 @@
   },
   "EN-00740": {
     "author": "Kara Schiff",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Kara Schiff",
     "duration": "1",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1069093040/f0d78087e0?tq=#t=5"
+    "vimeo_link": "https://vimeo.com/1069093040/f0d78087e0?tq=#t=5",
+    "date_created": "3/25/2025"
   },
   "EN-00741": {
     "author": "Kara Schiff",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Kara Schiff",
     "duration": "1",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1069450100/eb0cedae80"
+    "vimeo_link": "https://vimeo.com/1069450100/eb0cedae80",
+    "date_created": "3/26/2025"
   },
   "EN-00742": {
     "author": "Kara Schiff",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Kara Schiff",
     "duration": "1",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1069095702/55d63cb66b?tq=#t=79"
+    "vimeo_link": "https://vimeo.com/1069095702/55d63cb66b?tq=#t=79",
+    "date_created": "3/25/2025"
   },
   "EN-00743": {
     "author": "Kara Schiff",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Kara Schiff",
     "duration": "1",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1069718446/a25aa18158"
+    "vimeo_link": "https://vimeo.com/1069718446/a25aa18158",
+    "date_created": "3/26/2025"
   },
   "EN-00744": {
     "author": "Kara Schiff",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Kara Schiff",
     "duration": "1",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1069037708/f32c4ffb26"
+    "vimeo_link": "https://vimeo.com/1069037708/f32c4ffb26",
+    "date_created": "3/24/2025"
   },
   "VID-0407": {
     "author": "Margo Gladys",
@@ -41612,14 +41790,15 @@
   },
   "EN-00821": {
     "author": "Dr. Damaris Raymondi",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Dr. Damaris Raymondi",
     "duration": "5",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1069721965/cdfda2e717"
+    "vimeo_link": "https://vimeo.com/1069721965/cdfda2e717",
+    "date_created": "3/26/2025"
   },
   "EN-00822": {
     "author": "Dr. Damaris Raymondi",
@@ -41635,25 +41814,27 @@
   },
   "EN-00823": {
     "author": "Dr. Damaris Raymondi",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Dr. Damaris Raymondi",
     "duration": "5",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1212105477/6bcf10707b"
+    "vimeo_link": "https://vimeo.com/1212105477/6bcf10707b",
+    "date_created": "7/22/2026"
   },
   "EN-00824": {
     "author": "Dr. Damaris Raymondi",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Dr. Damaris Raymondi",
     "duration": "5",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1069050040/e942822a93"
+    "vimeo_link": "https://vimeo.com/1069050040/e942822a93",
+    "date_created": "3/24/2025"
   },
   "EN-00825": {
     "author": "Dr. Damaris Raymondi",
@@ -43098,7 +43279,7 @@
   },
   "EN-00996": {
     "author": "Zao Chan Yap",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Zao Chan Yap",
     "licenses": [
       "Walkingspree",
@@ -43109,7 +43290,8 @@
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
-    "version": "1"
+    "version": "1",
+    "date_created": "2/4/2026"
   },
   "VID-1297": {
     "author": "Haoyu Li",
@@ -43388,7 +43570,7 @@
     "licenses": [
       "YuLife"
     ],
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "vimeo_link": "https://vimeo.com/1120892091/32d8fd4064",
     "duration": "10",
     "language": "English",
@@ -43396,7 +43578,8 @@
     "peer_reviewer": "Marlee Alanis",
     "author": "Dan'yelle Williamson",
     "teacher": "Dan'yelle Williamson",
-    "version": "1"
+    "version": "1",
+    "date_created": "9/22/2025"
   },
   "EN-00723": {
     "licenses": [
@@ -43468,7 +43651,7 @@
       "Walkingspree",
       "Wellness360"
     ],
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "vimeo_link": "https://vimeo.com/1169566889/3863b62970?share=copy&fl=sv&fe=ci",
     "duration": "15",
     "language": "English",
@@ -43476,7 +43659,8 @@
     "peer_reviewer": "Marlee Alanis",
     "author": "Dan'yelle Williamson",
     "teacher": "Dan'yelle Williamson",
-    "version": "1"
+    "version": "1",
+    "date_created": "3/25/2025"
   },
   "EN-00797": {
     "licenses": [
@@ -68329,13 +68513,14 @@
   },
   "EN-01013": {
     "peer_reviewer": "Linda Johnson",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Linda Johnson",
     "language": "English",
     "author": "Linda Johnson",
     "type": "Video",
     "vimeo_link": "https://vimeo.com/1080621579/c4b8ecfda4",
-    "link": "https://app.allinonewellbeing.com/videos/behavioral-interview-questions-explained"
+    "link": "https://app.allinonewellbeing.com/videos/behavioral-interview-questions-explained",
+    "date_created": "5/1/2025"
   },
   "ES-00135": {
     "peer_reviewer": "Dr. Ricardo Fuentes",
@@ -68620,13 +68805,14 @@
   },
   "EN-00995": {
     "peer_reviewer": "Zao Chan Yap",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T18:43:19.421Z",
     "teacher": "Zao Chan Yap",
     "language": "English",
     "type": "Video",
     "author": "Zao Chan Yap",
     "vimeo_link": "https://vimeo.com/1120908757/dbce91601a",
-    "link": "https://app.allinonewellbeing.com/videos/sound-healing-for-relaxation"
+    "link": "https://app.allinonewellbeing.com/videos/sound-healing-for-relaxation",
+    "date_created": "3/25/2025"
   },
   "ES-00170": {
     "peer_reviewer": "Victor Pereira Sanchez",
