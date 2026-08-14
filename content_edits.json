@@ -48801,9 +48801,10 @@
   },
   "EXT-0074": {
     "type": "Video",
-    "_at": "2026-08-10T19:51:38.073Z",
+    "_at": "2026-08-14T18:31:22.252Z",
     "duration": "5 min",
-    "category": "Planning for Retirement"
+    "category": "Planning for Retirement",
+    "date_created": "1/22/2025"
   },
   "EXT-0079": {
     "type": "Article",
