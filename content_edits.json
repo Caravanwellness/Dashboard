@@ -27999,13 +27999,14 @@
   },
   "EN-01685": {
     "author": "Nicole Guerrero",
-    "_at": "2026-08-14T21:19:19.932Z",
+    "_at": "2026-08-14T21:19:22.206Z",
     "teacher": "Nicole Guerrero",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "date_created": "6/23/2025"
+    "date_created": "6/23/2025",
+    "duration": "5"
   },
   "EN-01686": {
     "author": "Nicole Guerrero",
