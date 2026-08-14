@@ -49937,12 +49937,13 @@
   },
   "NL-00019": {
     "type": "Video",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-14T18:55:57.035Z",
     "duration": "6 min",
     "peer_reviewer": "Truike Boekholt",
     "teacher": "Truike Boekholt",
     "title_original": "Progressieve spierrelaxatie",
-    "author": "Truike Boekholt"
+    "author": "Truike Boekholt",
+    "date_created": "3/2"
   },
   "ES-00036": {
     "type": "Video",
