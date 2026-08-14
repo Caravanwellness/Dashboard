@@ -49994,13 +49994,14 @@
   },
   "HE-00001": {
     "type": "Video",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-14T20:27:31.587Z",
     "peer_reviewer": "Tzahi Moskovitz",
     "teacher": "Tzahi Moskovitz",
     "title_original": "לתרגל איזון",
     "author": "Tzahi Moskovitz",
     "vimeo_link": "https://vimeo.com/1067443194/a3a98dd99d?fl=ls&fe=ec",
-    "date_created": "11/01/2024"
+    "date_created": "11/01/2024",
+    "duration": "5"
   },
   "HE-00004": {
     "type": "Video",
