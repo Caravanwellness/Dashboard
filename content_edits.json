@@ -30370,14 +30370,15 @@
   },
   "EN-01552": {
     "author": "Natalie Zolotareva",
-    "_at": "2026-08-14T21:05:34.134Z",
+    "_at": "2026-08-14T21:45:12.101Z",
     "teacher": "Natalie Zolotareva",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
     "vimeo_link": "https://vimeo.com/1160246450/f9c9332028?share=copy&fl=sv&fe=ci",
-    "date_created": "1/30/2026"
+    "date_created": "1/30/2026",
+    "duration": "5"
   },
   "ILB-0320": {
     "author": "Natalie Zolotareva",
