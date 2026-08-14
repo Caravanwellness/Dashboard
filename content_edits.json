@@ -336,14 +336,15 @@
   },
   "EN-01255": {
     "author": "Dr. Emma Guzman",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-14T19:17:38.457Z",
     "teacher": "Dr. Emma Guzman",
     "duration": "3",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1097908614/22ef374f5d?share=copy"
+    "vimeo_link": "https://vimeo.com/1097908614/22ef374f5d?share=copy",
+    "date_created": "7/"
   },
   "ALB-0062": {
     "peer_reviewer": "Diane McNaught",
