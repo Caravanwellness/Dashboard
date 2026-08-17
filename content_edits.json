@@ -57879,69 +57879,75 @@
   },
   "INF-0092": {
     "references": "Harvard Health Publishing. (2024). Eggs, protein, and cholesterol: How to make eggs part of a heart-healthy diet. https://www.health.harvard.edu/diet-and-nutrition/eggs-protein-and-cholesterol-how-to-make-eggs-part-of-a-heart-healthy-diet\n\nJohns Hopkins Medicine. (2024). Healthy Breakfasts. https://www.hopkinsmedicine.org/health/wellness-and-prevention/healthy-breakfasts\n\nCleveland Clinic. (2026). How Much Protein Should I Eat a Day? https://health.clevelandclinic.org/how-much-protein-you-need",
-    "_at": "2026-08-12T15:27:45.038Z",
+    "_at": "2026-08-17T18:49:52.784Z",
     "author": "Jade Gordon",
     "date_created": "5/5/2026",
     "language": "English",
     "category": "Nutrition",
     "link": "https://drive.google.com/file/d/1ptz2guUxIxdMoGHV_F98P_lDEZ6gUP_D/view?usp=sharing",
     "author_creds": "Behavioral Technician",
-    "type": "Recipe"
+    "type": "Recipe",
+    "duration": "30"
   },
   "INF-0093": {
     "references": "Harvard T.H. Chan School of Public Health. (2021). Berries are among the healthiest foods you can eat. https://hsph.harvard.edu/news/fresh-berries-are-among-the-healthiest-foods-you-can-eat/\n\nNutrients. (2021). A Review of the Properties of Anthocyanins and Their Influence on Factors Affecting Cardiometabolic and Cognitive Health. https://www.mdpi.com/2072-6643/13/8/2831\n\nCleveland Clinic. (2024). 7 Health Benefits of Spinach. https://health.clevelandclinic.org/benefits-of-spinach",
-    "_at": "2026-08-12T15:27:45.038Z",
+    "_at": "2026-08-17T18:49:52.784Z",
     "author": "Jade Gordon",
     "date_created": "5/5/2026",
     "language": "English",
     "link": "https://drive.google.com/file/d/1QdR8gk5DoIxfbUfb_JmnHRu_m2PMWmke/view?usp=sharing",
     "category": "Nutrition",
     "author_creds": "Behavioral Technician",
-    "type": "Recipe"
+    "type": "Recipe",
+    "duration": "5"
   },
   "INF-0094": {
     "references": "Harvard T.H. Chan School of Public Health, The Nutrition Source. (2023). Healthy Eating Plate. https://nutritionsource.hsph.harvard.edu/healthy-eating-plate/\n\nMayo Clinic. (2025). Whole grains: Hearty options for a healthy diet. https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/whole-grains/art-20047826\n\nNutrients. (2023). Poultry Consumption and Human Cardiometabolic Health-Related Outcomes: A Narrative Review. https://doi.org/10.3390/nu15163550",
-    "_at": "2026-08-12T15:27:45.038Z",
+    "_at": "2026-08-17T18:49:52.784Z",
     "author": "Jade Gordon",
     "date_created": "5/5/2026",
     "language": "English",
     "link": "https://drive.google.com/file/d/12zSk3_fLVBuhgIYX9toEey_QIuL_Diod/view?usp=sharing",
     "category": "Nutrition",
     "author_creds": "Behavioral Technician",
-    "type": "Recipe"
+    "type": "Recipe",
+    "duration": "5"
   },
   "INF-0095": {
     "references": "Mayo Clinic. (2026). Mediterranean diet for heart health. https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/mediterranean-diet/art-20047801\n\nOxidative Medicine and Cellular Longevity. (2021). Lycopene: Food Sources, Biological Activities, and Human Health Benefits. https://doi.org/10.1155/2021/2713511\n\nCells. (2024). Cardiovascular and Metabolic Benefits of Extra Virgin Olive Oil Phenolic Compounds: Mechanistic Insights from In Vivo Studies. https://pmc.ncbi.nlm.nih.gov/articles/PMC11430205/",
-    "_at": "2026-08-12T15:27:45.038Z",
+    "_at": "2026-08-17T18:49:52.784Z",
     "author": "Jade Gordon",
     "date_created": "5/5/2026",
     "language": "English",
     "link": "https://drive.google.com/file/d/1T9k_KUByird4MpT15fi8H3YZSndtKlfU/view?usp=sharing",
     "category": "Nutrition",
     "author_creds": "Behavioral Technician",
-    "type": "Recipe"
+    "type": "Recipe",
+    "duration": "5"
   },
   "INF-0096": {
     "references": "Cleveland Clinic. (2025). 4 Impressive Benefits of Black Beans. https://health.clevelandclinic.org/benefits-of-black-beans\n\nMayo Clinic Health System. (2024). The benefits of black beans. https://communityhealth.mayoclinic.org/featured-stories/black-bean-benefits\n\nInternational Journal of Molecular Sciences. (2025). The Cardioprotective Properties of Pulses and the Molecular Mechanisms of Their Action. https://pmc.ncbi.nlm.nih.gov/articles/PMC11899252/",
-    "_at": "2026-08-12T15:27:45.038Z",
+    "_at": "2026-08-17T18:49:52.784Z",
     "author": "Jade Gordon",
     "date_created": "5/5/2026",
     "language": "English",
     "link": "https://drive.google.com/file/d/1RBGMur4EmpYiJOtKqO5PS_i841MJKf-h/view?usp=sharing",
     "category": "Nutrition",
     "author_creds": "Behavioral Technician",
-    "type": "Recipe"
+    "type": "Recipe",
+    "duration": "60"
   },
   "INF-0098": {
     "references": "Cleveland Clinic. (2025). How Sweet Potatoes Can Beat Your Sugar Cravings. https://health.clevelandclinic.org/sweet-potato-benefits\n\nFrontiers in Nutrition. (2024). Legumes and common beans in sustainable diets: nutritional quality, environmental benefits, spread and use in food preparations. https://pmc.ncbi.nlm.nih.gov/articles/PMC11104268/\n\nNutrients. (2023). Exploring Benefits and Barriers of Plant-Based Diets: Health, Environmental Impact, Food Accessibility and Acceptability. https://www.mdpi.com/2072-6643/15/22/4723",
-    "_at": "2026-08-12T15:27:45.038Z",
+    "_at": "2026-08-17T18:49:52.784Z",
     "author": "Jade Gordon",
     "date_created": "5/5/2026",
     "language": "English",
     "link": "https://drive.google.com/file/d/1uT2I5ri4xO3PsuK-kSUWuQZbc5kscA5k/view?usp=sharing",
     "category": "Nutrition",
     "author_creds": "Behavioral Technician",
-    "type": "Recipe"
+    "type": "Recipe",
+    "duration": "50"
   },
   "INF-0106": {
     "references": "Centers for Disease Control and Prevention. (2025). What You Can Do to Meet Physical Activity Recommendations. https://www.cdc.gov/physical-activity-basics/guidelines/index.html\n\nNational Institute on Aging. (2025). Three Types of Exercise Can Improve Your Health and Physical Ability. https://www.nia.nih.gov/health/exercise-and-physical-activity/three-types-exercise-can-improve-your-health-and-physical\n\nAmerican Heart Association. (2024). American Heart Association Recommendations for Physical Activity in Adults and Kids. https://www.heart.org/en/healthy-living/exercise-and-physical-activity/fitness-basics/aha-recs-for-physical-activity-in-adults",
@@ -58881,23 +58887,25 @@
   },
   "INF-0097": {
     "author": "Jade Gordon",
-    "_at": "2026-08-12T15:27:45.038Z",
+    "_at": "2026-08-17T18:49:52.784Z",
     "date_created": "5/5/2026",
     "language": "English",
     "link": "https://drive.google.com/file/d/1OEiAB56UZdVygfTk8I0d8AV0rAEUQwua/view?usp=sharing",
     "category": "Nutrition",
     "author_creds": "Behavioral Technician",
-    "type": "Recipe"
+    "type": "Recipe",
+    "duration": "45"
   },
   "INF-0099": {
     "author": "Jade Gordon",
-    "_at": "2026-08-12T15:27:45.038Z",
+    "_at": "2026-08-17T18:49:52.784Z",
     "date_created": "5/5/2026",
     "language": "English",
     "link": "https://drive.google.com/file/d/1rDW-icTH52qu_yqm90eyxJNsBH8RObvp/view?usp=sharing",
     "category": "Nutrition",
     "author_creds": "Behavioral Technician",
-    "type": "Recipe"
+    "type": "Recipe",
+    "duration": "20"
   },
   "INF-0101": {
     "author": "Jade Gordon",
@@ -62208,9 +62216,10 @@
   },
   "EXT-0696": {
     "category": "Nutrition",
-    "_at": "2026-08-12T19:24:04.718Z",
+    "_at": "2026-08-17T18:49:52.784Z",
     "author": "Jade Gordon",
-    "date_created": "1/21/2025"
+    "date_created": "1/21/2025",
+    "duration": "5"
   },
   "EXT-0697": {
     "category": "Nutrition",
@@ -62404,9 +62413,10 @@
   },
   "EXT-0724": {
     "category": "Nutrition",
-    "_at": "2026-08-12T20:41:39.857Z",
+    "_at": "2026-08-17T18:49:52.784Z",
     "author": "Jade Gordon",
-    "date_created": "3/6/2025"
+    "date_created": "3/6/2025",
+    "duration": "10"
   },
   "EXT-0725": {
     "category": "Nutrition",
@@ -62424,9 +62434,10 @@
   },
   "EXT-0727": {
     "category": "Nutrition",
-    "_at": "2026-08-12T21:00:53.271Z",
+    "_at": "2026-08-17T18:49:52.784Z",
     "author": "Jade Gordon",
-    "date_created": "10/9/2025"
+    "date_created": "10/9/2025",
+    "duration": "5"
   },
   "EXT-0728": {
     "category": "Nutrition",
@@ -62612,9 +62623,10 @@
   },
   "EXT-0754": {
     "category": "Nutrition",
-    "_at": "2026-08-13T19:18:15.491Z",
+    "_at": "2026-08-17T18:49:52.784Z",
     "author": "Jade Gordon",
-    "date_created": "7/6/2025"
+    "date_created": "7/6/2025",
+    "duration": "15"
   },
   "EXT-0755": {
     "category": "Nutrition",
@@ -62632,9 +62644,10 @@
   },
   "EXT-0757": {
     "category": "Nutrition",
-    "_at": "2026-08-13T19:18:02.282Z",
+    "_at": "2026-08-17T18:49:52.784Z",
     "author": "Jade Gordon",
-    "date_created": "7/6/2025"
+    "date_created": "7/6/2025",
+    "duration": "5"
   },
   "EXT-0758": {
     "category": "Nutrition",
@@ -62750,9 +62763,10 @@
   },
   "EXT-0774": {
     "category": "Nutrition",
-    "_at": "2026-08-13T19:17:44.121Z",
+    "_at": "2026-08-17T18:49:52.784Z",
     "author": "Jade Gordon",
-    "date_created": "7/10/2025"
+    "date_created": "7/10/2025",
+    "duration": "20"
   },
   "EXT-0775": {
     "category": "Nutrition",
@@ -62840,9 +62854,10 @@
   },
   "EXT-0787": {
     "category": "Nutrition",
-    "_at": "2026-08-13T19:17:21.563Z",
+    "_at": "2026-08-17T18:49:52.784Z",
     "author": "Jade Gordon",
-    "date_created": "7/10/2025"
+    "date_created": "7/10/2025",
+    "duration": "5"
   },
   "EXT-0788": {
     "category": "Nutrition",
@@ -62965,9 +62980,10 @@
   },
   "EXT-0805": {
     "category": "Nutrition",
-    "_at": "2026-08-13T19:01:55.872Z",
+    "_at": "2026-08-17T18:49:52.784Z",
     "author": "Jade Gordon",
-    "date_created": "7/20/2025"
+    "date_created": "7/20/2025",
+    "duration": "45"
   },
   "EXT-0806": {
     "category": "Nutrition",
