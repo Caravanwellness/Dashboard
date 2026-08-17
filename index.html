@@ -2788,11 +2788,12 @@ function showDetail(item) {
   const liveTypes = [...new Set([...visibleAll().map(i=>lv(i,'type')), fType])].filter(Boolean).sort();
   const typeOpts = liveTypes.map(t=>`<option${fType===t?' selected':''}>${t}</option>`).join('');
   // Computed fresh (not a load-time snapshot) so a category introduced after page
-  // load — via edits overlay, bulk import, etc. — always has a matching <option>.
-  // A <select> whose bound value has no matching option silently displays the
-  // first option instead, which made correctly-saved categories look unsaved.
+  // load — via edits overlay, bulk import, etc. — always shows up as a suggestion.
+  // Category is a free-text input with a datalist (like Author/Peer Reviewer),
+  // not a <select> — so a value with no matching option just shows as typed,
+  // instead of a <select> silently falling back to its first option.
   const liveCats = [...new Set([...visibleAll().map(i=>lv(i,'category')), fCat])].filter(Boolean).sort();
-  const catOpts  = liveCats.map(c=>`<option${fCat===c?' selected':''}>${c}</option>`).join('');
+  const catOpts  = liveCats.map(c=>`<option value="${esc(c)}">`).join('');
   const prioOpts = ['','High','Moderate','Low'].map(p=>`<option value="${p}"${fPrio===p?' selected':''}>${p||'—'}</option>`).join('');
 
   function toggler(key, val) {
@@ -2866,7 +2867,8 @@ function showDetail(item) {
         <select class="field-edit" data-f="type">${typeOpts}</select>
       </div>
       <div class="detail-field"><label>Category</label>
-        <select class="field-edit" data-f="category">${catOpts}</select>
+        <input class="field-edit" data-f="category" value="${esc(fCat)}" list="categoryList" autocomplete="off">
+        <datalist id="categoryList">${catOpts}</datalist>
       </div>
       ${REVIEW_SET.has(fType)?`<div class="detail-field"><label>Review Priority</label>
         <select class="field-edit" data-f="review_priority">${prioOpts}</select>
