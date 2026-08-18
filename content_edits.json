@@ -50052,13 +50052,14 @@
   },
   "ES-00098": {
     "type": "Video",
-    "_at": "2026-08-14T18:18:18.952Z",
+    "_at": "2026-08-18T18:03:37.685Z",
     "peer_reviewer": "Mary Solis",
     "teacher": "Mary Solis",
     "title_original": "Rutina cardio de 10 minutos",
     "author": "Mary Solis",
     "link": "https://app.allinonewellbeing.com/videos/cardio-rutina-cardio-de-10-minutos-espanol",
-    "date_created": "3/20/2025"
+    "date_created": "3/20/2025",
+    "category": "Fitness"
   },
   "ES-00099": {
     "type": "Video",
