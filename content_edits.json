@@ -63596,11 +63596,12 @@
   },
   "EXT-0075": {
     "category": "Retirement Planning",
-    "_at": "2026-08-18T21:39:55.090Z",
+    "_at": "2026-08-18T21:41:41.250Z",
     "teacher": "Emily Wilson",
     "peer_reviewer": "Marlee Alanis",
     "author": "Emily Wilson",
-    "duration": "10"
+    "duration": "10",
+    "date_created": "1/12/2025"
   },
   "EXT-0691": {
     "category": "Nutrition",
