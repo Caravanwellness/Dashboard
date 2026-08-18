@@ -46593,7 +46593,7 @@
   },
   "INF-0240": {
     "title": "Heart Disease Risk Factors & ",
-    "_at": "2026-08-18T19:39:52.888Z",
+    "_at": "2026-08-18T19:40:01.443Z",
     "author": "Diane McNaught",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
@@ -46602,7 +46602,9 @@
     "category": "Preventative Health",
     "author_creds": "Registered Nurse",
     "description": "An overview of genetic, lifestyle, and medical factors that increase heart disease risk, along with preventative strategies like healthy weight loss and increased exercise to reduce the chance of developing conditions like coronary heart disease and high blood pressure.",
-    "references": "Centers for Disease Control and Prevention. (2024). Heart disease. https://www.cdc.gov/heartdisease/index.htm\n\nNational Heart, Lung, and Blood Institute. (2023). Coronary heart disease. https://www.nhlbi.nih.gov/health/coronary-heart-disease\n\nWorld Health Organization. (2023). Cardiovascular diseases (CVDs). https://www.who.int/news-room/fact-sheets/detail/cardiovascular-diseases-(cvds)\n\nNational Health Service. (2022). Cardiovascular disease. https://www.nhs.uk/conditions/cardiovascular-disease/"
+    "references": "Centers for Disease Control and Prevention. (2024). Heart disease. https://www.cdc.gov/heartdisease/index.htm\n\nNational Heart, Lung, and Blood Institute. (2023). Coronary heart disease. https://www.nhlbi.nih.gov/health/coronary-heart-disease\n\nWorld Health Organization. (2023). Cardiovascular diseases (CVDs). https://www.who.int/news-room/fact-sheets/detail/cardiovascular-diseases-(cvds)\n\nNational Health Service. (2022). Cardiovascular disease. https://www.nhs.uk/conditions/cardiovascular-disease/",
+    "_hidden": true,
+    "_merged_into": "ILB-0459"
   },
   "INF-0238": {
     "author": "Diane McNaught",
@@ -49851,11 +49853,13 @@
   },
   "ILB-0459": {
     "type": "Infographic",
-    "_at": "2026-08-17T17:04:27.579Z",
+    "_at": "2026-08-18T19:40:01.443Z",
     "author": "Diane McNaught",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
-    "category": "Heart Health"
+    "category": "Heart Health",
+    "author_creds": "Registered Nurse",
+    "version": "1"
   },
   "ILB-0461": {
     "type": "Infographic",
