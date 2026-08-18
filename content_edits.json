@@ -50074,13 +50074,14 @@
   },
   "ES-00100": {
     "type": "Video",
-    "_at": "2026-08-14T18:21:20.139Z",
+    "_at": "2026-08-18T18:03:49.854Z",
     "peer_reviewer": "Mary Solis",
     "teacher": "Mary Solis",
     "title_original": "Rutina abs para principiantes",
     "author": "Mary Solis",
     "link": "https://app.allinonewellbeing.com/videos/rutina-abs-para-principiantes-espanol",
-    "date_created": "3/20/2025"
+    "date_created": "3/20/2025",
+    "duration": "10"
   },
   "ES-00076": {
     "type": "Video",
