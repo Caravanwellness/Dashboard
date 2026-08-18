@@ -1,7 +1,7 @@
 import { ghReadJson, ghWriteJson } from './_lib/github.js';
 
 const REPO   = 'Caravanwellness/Dashboard';
-const PATH   = 'client_licenses.json';
+const PATH   = 'data/client_licenses.json';
 const BRANCH = 'main';
 
 const delay = ms => new Promise(r => setTimeout(r, ms));
