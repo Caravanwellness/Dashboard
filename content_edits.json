@@ -863,24 +863,24 @@
   },
   "ART-0052": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-18T14:20:23.775Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "language": "English",
     "duration": "4",
     "title": "How Nutrition Supports Better Mental Health .docx",
-    "category": "Nutrition / Mental Health",
+    "category": "Nutrition",
     "author": "Marlee Alanis",
     "date_created": "10/25/23",
     "link": "https://docs.google.com/document/d/1mp7Q5rJ35PchrgT8AIVaTRZkwdzSazlM/edit?usp=sharing&ouid=104973203194055734700&rtpof=true&sd=true"
   },
   "ART-0053": {
     "author": "Marlee Alanis",
-    "_at": "2026-08-18T14:20:23.775Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "peer_reviewer": "Diane McNaught",
     "duration": "2",
     "language": "English",
     "link": "https://docs.google.com/document/d/195KJOPEli0Y6iP-ieOWdWXSiB6cU3Bvr/edit",
     "title": "The Impact Of Diet On Your Sleep Quality",
-    "category": "Nutrition / Sleep",
+    "category": "Sleep",
     "date_created": "10/25/23",
     "client_licenses": [
       "Keel Mind",
@@ -1110,32 +1110,32 @@
   },
   "ART-0082": {
     "author": "Marlee Alanis",
-    "_at": "2026-08-18T14:20:23.775Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "peer_reviewer": "Diane McNaught",
     "language": "English",
     "duration": "3",
     "title": "What Is Nadi Shodhan Pranayama",
-    "category": "Meditation & Sleep",
+    "category": "Meditation",
     "link": "https://docs.google.com/document/d/1pML_1RF-bMSnRqYl_6XhPu9t_Jmcd6Gf/edit"
   },
   "ART-0084": {
     "author": "Marlee Alanis",
-    "_at": "2026-08-18T14:20:23.775Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "peer_reviewer": "Diane McNaught",
     "language": "English",
     "duration": "3",
     "title": "The Transformative Power Of Meditation",
-    "category": "Meditation & Sleep",
+    "category": "Meditation",
     "link": "https://docs.google.com/document/d/1lHUSN6GjftTpfXkIC-ZssseQ1s04qD6g/edit"
   },
   "ART-0085": {
     "author": "Marlee Alanis",
-    "_at": "2026-08-18T14:20:23.775Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "peer_reviewer": "Diane McNaught",
     "language": "English",
     "duration": "2",
     "title": "Heal With Your Fingertips Through Tapping.docx",
-    "category": "Meditation & Sleep",
+    "category": "Meditation",
     "link": "https://docs.google.com/document/d/1zhdmA6GYom9G5dLeka4RO05NbXKmMDr5/edit?usp=sharing&ouid=104973203194055734700&rtpof=true&sd=true"
   },
   "ART-0086": {
@@ -1187,12 +1187,12 @@
   },
   "ART-0089": {
     "author": "Marlee Alanis",
-    "_at": "2026-08-18T14:20:23.775Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "peer_reviewer": "Diane McNaught",
     "language": "English",
     "duration": "3",
     "title": "Sa-Ta-Na-Ma For Peace Of Mind",
-    "category": "Meditation & Sleep",
+    "category": "Meditation",
     "link": "https://docs.google.com/document/d/1tOezMtQb3xZuuveqkSgqXFClthcLWa2V/edit"
   },
   "ART-0090": {
@@ -2811,10 +2811,11 @@
   },
   "ALB-0045": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Diane McNaught",
     "type": "Article",
-    "duration": "3"
+    "duration": "3",
+    "category": "Sustainability"
   },
   "ALB-0046": {
     "peer_reviewer": "Diane McNaught",
@@ -2825,17 +2826,19 @@
   },
   "ALB-0047": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Diane McNaught",
     "type": "Article",
-    "duration": "2"
+    "duration": "2",
+    "category": "Sustainability"
   },
   "ALB-0048": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Diane McNaught",
     "type": "Article",
-    "duration": "2"
+    "duration": "2",
+    "category": "Sustainability"
   },
   "ALB-0049": {
     "peer_reviewer": "Diane McNaught",
@@ -3295,21 +3298,23 @@
   },
   "ALB-0134": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Diane McNaught",
     "type": "Article",
-    "duration": "2"
+    "duration": "2",
+    "category": "Smoking Cessation"
   },
   "ALB-0136": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Diane McNaught",
     "type": "Article",
-    "duration": "1"
+    "duration": "1",
+    "category": "Smoking Cessation"
   },
   "ALB-0137": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "author": "Jane Mulvey",
     "references": "Centers for Disease Control and Prevention. (2024). How to quit smoking. https://www.cdc.gov/tobacco/about/how-to-quit.html\nAmerican Lung Association. (2024). Top tips for quitting. https://www.lung.org/quit-smoking/i-want-to-quit/top-tips-for-quitting-smoking\nDrug and Alcohol Dependence. (2023). Pilot randomized controlled trial of mindfulness-based relapse prevention vs cognitive behavioral therapy for smoking and alcohol use. https://pmc.ncbi.nlm.nih.gov/articles/PMC9975045/",
     "licenses": [
@@ -3320,7 +3325,8 @@
     "type": "Article",
     "duration": "3",
     "date_created": "09/29/2025",
-    "link": "https://docs.google.com/document/d/1zxVtDGw9OyI-8Quwe3Z3pY8LbTaU17tzvkkZfiLG_TQ/edit?usp=sharing"
+    "link": "https://docs.google.com/document/d/1zxVtDGw9OyI-8Quwe3Z3pY8LbTaU17tzvkkZfiLG_TQ/edit?usp=sharing",
+    "category": "Smoking Cessation"
   },
   "ALB-0138": {
     "peer_reviewer": "Diane McNaught",
@@ -3333,7 +3339,7 @@
   },
   "ALB-0139": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "author": "Jane Mulvey",
     "licenses": [
       "YuLife"
@@ -3343,7 +3349,8 @@
     "type": "Article",
     "duration": "3",
     "date_created": "09/29/2025",
-    "link": "https://docs.google.com/document/d/1KPc7KQQHJ5Mu6IWHXNslKFHJxWOOWI2VKbzXOHO6wOY/edit?usp=sharing"
+    "link": "https://docs.google.com/document/d/1KPc7KQQHJ5Mu6IWHXNslKFHJxWOOWI2VKbzXOHO6wOY/edit?usp=sharing",
+    "category": "Smoking Cessation"
   },
   "ALB-0140": {
     "peer_reviewer": "Diane McNaught",
@@ -3357,18 +3364,20 @@
   },
   "ALB-0141": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "references": "National Institute on Drug Abuse. (2021). Is nicotine addictive? https://nida.nih.gov/publications/research-reports/tobacco-nicotine-e-cigarettes/nicotine-addictive\nCleveland Clinic. (2022). Dopamine: What it is, function & symptoms. https://my.clevelandclinic.org/health/articles/22581-dopamine\nPharmacological Reviews. (2022). Neurobiological mechanisms of nicotine reward and aversion. https://pmc.ncbi.nlm.nih.gov/articles/PMC11060337/",
     "teacher": "Diane McNaught",
     "type": "Article",
-    "duration": "2"
+    "duration": "2",
+    "category": "Smoking Cessation"
   },
   "ALB-0142": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Diane McNaught",
     "type": "Article",
-    "duration": "2"
+    "duration": "2",
+    "category": "Smoking Cessation"
   },
   "ALB-0143": {
     "peer_reviewer": "Diane McNaught",
@@ -3501,11 +3510,12 @@
   },
   "ALB-0159": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "references": "Cleveland Clinic. (2026). Premature & early menopause: Symptoms & treatment. https://my.clevelandclinic.org/health/diseases/21138-premature-and-early-menopause\nJohns Hopkins Medicine. (2025). Perimenopause. https://www.hopkinsmedicine.org/health/conditions-and-diseases/perimenopause\nnpj Women's Health. (2025). Perimenopause symptoms, severity, and healthcare seeking in women in the US. https://www.nature.com/articles/s44294-025-00061-3",
     "teacher": "Diane McNaught",
     "type": "Article",
-    "duration": "4"
+    "duration": "4",
+    "category": "Women’s Health"
   },
   "ALB-0160": {
     "peer_reviewer": "Diane McNaught",
@@ -4002,11 +4012,11 @@
   },
   "ART-0099": {
     "peer_reviewer": "Madeline McGuire",
-    "_at": "2026-08-18T14:20:23.775Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "duration": "2",
     "language": "English",
     "title": "A Beginner's Guide To Meditation",
-    "category": "Meditation & Sleep",
+    "category": "Meditation",
     "author": "Marlee Alanis",
     "client_licenses": [
       "Licensed RecipesArticles",
@@ -4752,7 +4762,7 @@
   },
   "ALB-0032": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-11T14:15:30.879Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "author": "Candice White-Parker",
     "references": "Mayo Clinic. (2023). *Office ergonomics: Your how-to guide.* Retrieved from https://www.mayoclinic.org/healthy-lifestyle/adult-health \n\nNational Institute for Occupational Safety and Health. (2023). *Ergonomics and musculoskeletal health.* Retrieved from https://www.cdc.gov/niosh \n\nAmerican Academy of Orthopaedic Surgeons. (2023). *Back health at work.* Retrieved from https://orthoinfo.aaos.org ",
     "teacher": "Marlee Alanis",
@@ -4762,7 +4772,8 @@
     "type": "Article",
     "duration": "3",
     "date_created": "11/18/2025",
-    "link": "https://docs.google.com/document/d/1Qu2NrhBIw0LHOl2ust-6_pl_HWws7GwS-_N001R00uw/edit?usp=sharing"
+    "link": "https://docs.google.com/document/d/1Qu2NrhBIw0LHOl2ust-6_pl_HWws7GwS-_N001R00uw/edit?usp=sharing",
+    "category": "Workplace Wellness"
   },
   "ALB-0034": {
     "peer_reviewer": "Marlee Alanis",
@@ -5227,12 +5238,12 @@
   },
   "ALB-0247": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-17T17:04:27.579Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "references": "Mayo Clinic. (2023). Job burnout: How to spot it and take action. https://www.mayoclinic.org/healthy-lifestyle/adult-health/in-depth/burnout/art-20046642\nInternational Journal of Psychology. (2025). Traditional masculinity and men's psychological help-seeking: A meta-analysis. https://pubmed.ncbi.nlm.nih.gov/40038563/\nAmerican Journal of Men's Health. (2025). Men's mental health matters: The impact of traditional masculinity norms on men's willingness to seek mental health support; a systematic review of literature. https://pubmed.ncbi.nlm.nih.gov/40421591/",
     "teacher": "Marlee Alanis",
     "type": "Article",
     "duration": "4",
-    "category": "Mens Health"
+    "category": "Men’s Health"
   },
   "ALB-0251": {
     "peer_reviewer": "Marlee Alanis",
@@ -5509,7 +5520,7 @@
   },
   "VID-0216": {
     "author": "Dr. Joe Feuerstein",
-    "_at": "2026-08-14T14:13:12.825Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "duration": "5",
     "date_created": "3/26/2025",
     "language": "English",
@@ -5519,7 +5530,8 @@
     "url": "https://app. allinonewellbein",
     "vimeo_link": "https://vimeo.com/1069463631/cffb8447ab?share=copy",
     "description": "Explore the significant health risks associated with tobacco use and discover strategies for a smoke-free, healthier life. Definitions To Know: ⚕ Emphysema- a lung condition where the air sacs (alveoli) are damaged ⚕ COPD- a group of lung diseases that block airflow and make breathing difficult ⚕ Ca",
-    "branding": "White-Label"
+    "branding": "White-Label",
+    "category": "Smoking Cessation"
   },
   "VID-0229": {
     "author": "Dr. Joe Feuerstein",
@@ -5860,7 +5872,7 @@
   },
   "VID-0841": {
     "author": "Dr. Joe Feuerstein",
-    "_at": "2026-08-17T17:04:27.579Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "duration": "5",
     "language": "English",
     "peer_reviewer": "Marlee Alanis",
@@ -5871,7 +5883,7 @@
     "licenses": [
       "Hapstar"
     ],
-    "category": "Fertility"
+    "category": "Women’s Health"
   },
   "VID-0858": {
     "author": "Dr. Joe Feuerstein",
@@ -6209,7 +6221,7 @@
   },
   "VID-1125": {
     "author": "Dr. Joe Feuerstein",
-    "_at": "2026-08-17T17:04:27.579Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "duration": "5",
     "date_created": "5/8/2025",
     "language": "English",
@@ -6223,11 +6235,11 @@
     "licenses": [
       "Hapstar"
     ],
-    "category": "Mens Health"
+    "category": "Men’s Health"
   },
   "VID-1126": {
     "author": "Dr. Joe Feuerstein",
-    "_at": "2026-08-17T17:04:27.579Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "duration": "5",
     "date_created": "3/26/2025",
     "language": "English",
@@ -6238,7 +6250,7 @@
     "vimeo_link": "https://vimeo.com/1069594040/6d72d00b01",
     "description": "Learn about the causes, symptoms, and treatment options for low libido in men. ☑ Low Libido Causes ☑ Healthy Hormone Levels ☑ Improved Quality Of Life ✎ Learn The Facts: Drug, alcohol, and tobacco usage can contribute to low libido. *The program is intended for general information purposes only. It ",
     "branding": "White-Label",
-    "category": "Mens Health"
+    "category": "Men’s Health"
   },
   "VID-1264": {
     "author": "Dr. Joe Feuerstein",
@@ -10100,7 +10112,7 @@
   },
   "VID-0310": {
     "author": "Kaitlyn Bruneau",
-    "_at": "2026-08-18T14:20:23.775Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "duration": "4 min",
     "language": "English",
     "date_created": "5/7/2026",
@@ -10108,7 +10120,8 @@
     "teacher": "Kaitlyn Bruneau",
     "branding": "White-Label",
     "vimeo_link": "https://vimeo.com/1190164429/3fc764cb81?share=copy&fl=sv&fe=ci",
-    "link": "https://app.allinonewellbeing.com/videos/5-ways-to-reduce-pregnancy-related-stress"
+    "link": "https://app.allinonewellbeing.com/videos/5-ways-to-reduce-pregnancy-related-stress",
+    "category": "Pregnancy"
   },
   "VID-0318": {
     "author": "Kaitlyn Bruneau",
@@ -11369,7 +11382,7 @@
   },
   "EN-01838": {
     "author": "Kaitlyn Bruneau",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Kaitlyn Bruneau",
     "language": "English",
     "type": "Video",
@@ -11377,11 +11390,12 @@
     "peer_reviewer": "Marlee Alanis",
     "date_created": "5/7/2026",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1190164542/287ed53325?share=copy&fl=sv&fe=ci"
+    "vimeo_link": "https://vimeo.com/1190164542/287ed53325?share=copy&fl=sv&fe=ci",
+    "category": "Pregnancy"
   },
   "EN-01839": {
     "author": "Kaitlyn Bruneau",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Kaitlyn Bruneau",
     "language": "English",
     "type": "Video",
@@ -11389,7 +11403,8 @@
     "peer_reviewer": "Marlee Alanis",
     "date_created": "5/7/2026",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1190164587/e8504a686f?share=copy&fl=sv&fe=ci"
+    "vimeo_link": "https://vimeo.com/1190164587/e8504a686f?share=copy&fl=sv&fe=ci",
+    "category": "Pregnancy"
   },
   "EN-01840": {
     "author": "Kaitlyn Bruneau",
@@ -12639,7 +12654,7 @@
   },
   "EN-01821": {
     "author": "Jessica Cording",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Jessica Cording",
     "language": "English",
     "type": "Video",
@@ -12647,7 +12662,8 @@
     "peer_reviewer": "Marlee Alanis",
     "date_created": "5/6/2026",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1189840713/a4e7f3e805?share=copy&fl=sv&fe=ci"
+    "vimeo_link": "https://vimeo.com/1189840713/a4e7f3e805?share=copy&fl=sv&fe=ci",
+    "category": "Pregnancy"
   },
   "EN-01822": {
     "teacher": "Jessica Cording",
@@ -12710,7 +12726,7 @@
   },
   "EN-01827": {
     "author": "Jessica Cording",
-    "_at": "2026-08-14T21:39:09.306Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Jessica Cording",
     "language": "English",
     "type": "Video",
@@ -12718,7 +12734,8 @@
     "date_created": "5/6/2026",
     "version": "1",
     "vimeo_link": "https://vimeo.com/1189817418/2ea4ce5b83?share=copy&fl=sv&fe=ci",
-    "duration": "1"
+    "duration": "1",
+    "category": "Smoking Cessation"
   },
   "EN-01828": {
     "author": "Jessica Cording",
@@ -14841,10 +14858,11 @@
   },
   "ALB-0194": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-11T14:09:54.058Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Alyssa Lagasca",
     "type": "Article",
-    "duration": "3"
+    "duration": "3",
+    "category": "Pregnancy"
   },
   "ALB-0195": {
     "peer_reviewer": "Alyssa Lagasca",
@@ -22443,14 +22461,15 @@
   },
   "VID-1670": {
     "author": "Candice White-Parker",
-    "_at": "2026-08-14T14:13:12.825Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "duration": "5",
     "language": "English",
     "peer_reviewer": "Marlee Alanis",
     "length_min": "5",
     "teacher": "Candice White-Parker",
     "vimeo_link": "https://vimeo.com/1183825468/69aae3030b?share=copy&fl=sv&fe=ci",
-    "branding": "White-Label"
+    "branding": "White-Label",
+    "category": "Workplace Wellness"
   },
   "VID-1671": {
     "author": "Candice White-Parker",
@@ -22975,9 +22994,10 @@
   },
   "ILB-0064": {
     "author": "Candice White-Parker",
-    "_at": "2026-08-06T17:24:22.202Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "type": "Infographic",
-    "duration": "6 min"
+    "duration": "6 min",
+    "category": "Workplace Wellness"
   },
   "VID-1162": {
     "author": "Dr. Leonaura Rhodes",
@@ -26340,7 +26360,7 @@
   },
   "EN-01555": {
     "teacher": "Julika Von Stackelberg",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "author": "Julika Von Stackelberg",
     "licenses": [
       "Wellsort"
@@ -26351,11 +26371,12 @@
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "date_created": "1/14/2026",
-    "version": "1"
+    "version": "1",
+    "category": "Mental Health"
   },
   "EN-01556": {
     "teacher": "Julika Von Stackelberg",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "duration": "2",
     "language": "English",
     "type": "Video",
@@ -26364,11 +26385,12 @@
     "date_created": "1/14/2026",
     "link": "https://app.allinonewellbeing.com/videos/what-is-eco-anxiety-how-to-cope",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1154446672/e1c7808eba?share=copy&fl=sv&fe=ci"
+    "vimeo_link": "https://vimeo.com/1154446672/e1c7808eba?share=copy&fl=sv&fe=ci",
+    "category": "Mental Health"
   },
   "EN-01557": {
     "author": "Julika Von Stackelberg",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Julika Von Stackelberg",
     "licenses": [
       "Wellsort"
@@ -26379,7 +26401,8 @@
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "date_created": "1/14/2026",
-    "version": "1"
+    "version": "1",
+    "category": "Environmental Health"
   },
   "EN-01558": {
     "author": "Julika Von Stackelberg",
@@ -27248,9 +27271,10 @@
   },
   "VID-0314": {
     "author": "Dr. Cherilyn Davis",
-    "_at": "2026-08-12T21:22:27.517Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "language": "English",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "category": "Pregnancy"
   },
   "ILB-0129": {
     "author": "Dr. Cherilyn Davis",
@@ -28515,9 +28539,10 @@
   },
   "VID-1723": {
     "author": "Nicole Guerrero",
-    "_at": "2026-08-12T21:22:27.517Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "language": "English",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "category": "Women’s Health"
   },
   "VID-1765": {
     "author": "Nicole Guerrero",
@@ -34486,7 +34511,7 @@
   },
   "VID-0212": {
     "author": "Jane Mulvey",
-    "_at": "2026-08-14T14:13:12.825Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "duration": "5",
     "language": "English",
     "peer_reviewer": "Marlee Alanis",
@@ -34495,11 +34520,12 @@
     "url": "https://watch. caravanwellnes",
     "vimeo_link": "https://vimeo.com/953408783/50e33aedfa?share=copy",
     "description": "Empower yourself with the skills, support, and mindset needed to quit tobacco and thrive in the long term. ☑ Improved Respiratory Function ☑ Enhanced Immune System ☑ Boosted Cardiovascular Wellness ✎ Learn The Science: Within hours of quitting smoking, heart rate and blood pressure decrease, and wit",
-    "branding": "White-Label"
+    "branding": "White-Label",
+    "category": "Smoking Cessation"
   },
   "VID-0217": {
     "author": "Jane Mulvey",
-    "_at": "2026-08-14T14:13:12.825Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "duration": "5",
     "language": "English",
     "date_created": "3/26/2025",
@@ -34510,7 +34536,8 @@
     "url": "https://watch. caravanwellnes",
     "vimeo_link": "https://vimeo.com/1069599158/5c610ca399?share=copy",
     "description": "Highlight the psychological and physiological dimensions of tobacco use and empower individuals on a journey towards a tobacco-free life. ☑ Improved Health Literacy ☑ Enhanced Respiratory Health ☑ Boosted Self-Confidence ✎ Learn The Science: Numerous studies have established a clear link between tob",
-    "branding": "White-Label"
+    "branding": "White-Label",
+    "category": "Smoking Cessation"
   },
   "VID-1030": {
     "author": "Jane Mulvey",
@@ -34722,15 +34749,17 @@
   },
   "ILB-0268": {
     "author": "Jane Mulvey",
-    "_at": "2026-08-06T17:24:22.202Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "type": "Infographic",
-    "duration": "3 min"
+    "duration": "3 min",
+    "category": "Smoking Cessation"
   },
   "ILB-0272": {
     "author": "Jane Mulvey",
-    "_at": "2026-08-06T17:24:22.202Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "type": "Infographic",
-    "duration": "4 min"
+    "duration": "4 min",
+    "category": "Smoking Cessation"
   },
   "VID-0101": {
     "author": "Katie Attubato",
@@ -40165,7 +40194,7 @@
   },
   "EN-00688": {
     "author": "Kanwal Haq",
-    "_at": "2026-08-14T18:43:19.421Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Kanwal Haq",
     "duration": "3",
     "language": "English",
@@ -40173,7 +40202,8 @@
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
     "vimeo_link": "https://vimeo.com/1069064980/9057281aa2?tq=#t=163",
-    "date_created": "3/24/2025"
+    "date_created": "3/24/2025",
+    "category": "Women’s Health"
   },
   "EN-00689": {
     "teacher": "Kanwal Haq",
@@ -40202,7 +40232,7 @@
   },
   "EN-00691": {
     "author": "Kanwal Haq",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Kanwal Haq",
     "duration": "5",
     "language": "English",
@@ -40210,11 +40240,12 @@
     "peer_reviewer": "Marlee Alanis",
     "date_created": "3/26/2025",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1069592335/f3d4faf9cf?tq=#t=241"
+    "vimeo_link": "https://vimeo.com/1069592335/f3d4faf9cf?tq=#t=241",
+    "category": "Women’s Health"
   },
   "EN-00692": {
     "author": "Kanwal Haq",
-    "_at": "2026-08-14T18:13:52.915Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Kanwal Haq",
     "duration": "5",
     "language": "English",
@@ -40222,7 +40253,8 @@
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
     "vimeo_link": "https://vimeo.com/1069456106/fd13123ef6",
-    "date_created": "3/26/2025"
+    "date_created": "3/26/2025",
+    "category": "Women’s Health"
   },
   "VID-0048": {
     "author": "Dr. Hassan Nagy",
@@ -45784,7 +45816,7 @@
   },
   "VID-0330": {
     "author": "Carol Hilaire",
-    "_at": "2026-08-17T17:04:27.579Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "duration": "3",
     "language": "English",
     "peer_reviewer": "Marlee Alanis",
@@ -45792,11 +45824,11 @@
     "teacher": "Kanwal Haq",
     "vimeo_link": "https://vimeo.com/1068972682/1a0be4471e",
     "branding": "White-Label",
-    "category": "Mens Health"
+    "category": "Men’s Health"
   },
   "VID-0329": {
     "author": "Dr. Joe Feuerstein",
-    "_at": "2026-08-17T17:04:27.579Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "duration": "5",
     "date_created": "3/26/2025",
     "language": "English",
@@ -45807,7 +45839,7 @@
     "vimeo_link": "https://vimeo.com/1069588873/5af4326355?share=copy&fl=cl&fe=ci",
     "description": "Empower yourself by learning about causes and treatment methods for erectile dysfunction. ☑ Regained Confidence ☑ Improved Relationships ☑ Enhanced Sexual Wellness ✎ Learn The Facts: Erectile dysfunction is a common condition, yet many individuals avoid seeking help due to feelings of embarrassment ",
     "branding": "White-Label",
-    "category": "Mens Health"
+    "category": "Men’s Health"
   },
   "VID-0327": {
     "author": "Carol Hilaire",
@@ -45841,14 +45873,15 @@
   },
   "VID-0311": {
     "author": "Nicole Guerrero",
-    "_at": "2026-08-18T14:20:23.775Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "language": "English",
     "duration": "2",
     "peer_reviewer": "Marlee Alanis",
     "teacher": "Nicole Guerrero",
     "branding": "White-Label",
     "vimeo_link": "https://vimeo.com/1200488347/2e3d32625d?share=copy&fl=sv&fe=ci",
-    "link": "https://app.allinonewellbeing.com/videos/normal-changes-symptoms-during-early-pregnancy"
+    "link": "https://app.allinonewellbeing.com/videos/normal-changes-symptoms-during-early-pregnancy",
+    "category": "Pregnancy"
   },
   "VID-0308": {
     "author": "Dr. Leonaura Rhodes",
@@ -46115,12 +46148,13 @@
   },
   "ZH-00051": {
     "author": "Shiyun Chen",
-    "_at": "2026-08-13T19:44:05.878Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "date_created": "10/11/2024",
     "type": "Video",
     "duration": "4 min",
     "language": "Chinese",
-    "title_original": "科技与心理健康"
+    "title_original": "科技与心理健康",
+    "category": "Mental Health"
   },
   "EXT-0418": {
     "category": "Financial Wellness",
@@ -46589,23 +46623,23 @@
   },
   "INF-0235": {
     "author": "Diane McNaught",
-    "_at": "2026-08-18T14:37:40.271Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
     "language": "English",
     "link": "https://drive.google.com/file/d/10P7g2w5NLqi9_gZCJb5w8I4YqvPHxtgY/view?usp=sharing",
-    "category": "Balance & Fall Prevention",
+    "category": "Fall Prevention",
     "author_creds": "Registered Nurse",
     "references": "Centers for Disease Control and Prevention. (2024). Important facts about falls. https://www.cdc.gov/falls/facts.html\n\nNational Institute on Aging. (2023). Prevent falls and fractures. https://www.nia.nih.gov/health/prevent-falls-and-fractures\n\nWorld Health Organization. (2021). Falls. https://www.who.int/news-room/fact-sheets/detail/falls\n\nNational Health Service. (2022). Falls. https://www.nhs.uk/conditions/falls/\n\nNational Institute on Deafness and Other Communication Disorders. (2023). Balance disorders. https://www.nidcd.nih.gov/health/balance-disorders"
   },
   "INF-0234": {
     "author": "Diane McNaught",
-    "_at": "2026-08-18T14:37:40.271Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
     "language": "English",
     "link": "https://drive.google.com/file/d/1yRWJk5ebNyqVxegmXac8rJq5pN8JOkif/view?usp=sharing",
-    "category": "Balance & Fall Prevention",
+    "category": "Fall Prevention",
     "author_creds": "Registered Nurse",
     "references": "Centers for Disease Control and Prevention. (2024). Falls prevention. https://www.cdc.gov/falls/index.html\n\nNational Institute on Aging. (2023). Prevent falls and fractures. https://www.nia.nih.gov/health/prevent-falls-and-fractures\n\nWorld Health Organization. (2021). Falls. https://www.who.int/news-room/fact-sheets/detail/falls\n\nNational Health Service. (2022). Falls. https://www.nhs.uk/conditions/falls/"
   },
@@ -46745,36 +46779,36 @@
   },
   "INF-0220": {
     "author": "Diane McNaught",
-    "_at": "2026-08-18T14:37:40.271Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
     "language": "English",
     "link": "https://drive.google.com/file/d/1M87rjDoXJyhV8_nRrUvUR55bQsc1n_eQ/view?usp=sharing",
-    "category": "Weight Loss & BMI",
+    "category": "Nutrition",
     "author_creds": "Registered Nurse",
     "references": "National Institutes of Health. (2022). Healthy eating. https://www.nhlbi.nih.gov/health/healthy-eating\n\nU.S. Department of Health and Human Services. (2020). Dietary guidelines for Americans, 2020–2025. https://www.dietaryguidelines.gov\n\nNational Health Service. (2023). Eating a balanced diet. https://www.nhs.uk/live-well/eat-well/how-to-eat-a-balanced-diet/\n\nWorld Health Organization. (2020). Healthy diet. https://www.who.int/news-room/fact-sheets/detail/healthy-diet"
   },
   "INF-0219": {
     "author": "Diane McNaught",
-    "_at": "2026-08-18T14:37:40.271Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
     "language": "English",
     "duration": "1",
     "link": "https://drive.google.com/file/d/1ClC4J9TPddRHrhXTRq5AMpMe-BGCsFJC/view?usp=sharing",
-    "category": "Weight Loss & BMI",
+    "category": "Fitness",
     "author_creds": "Registered Nurse",
     "description": "Describes gentle physical activities that provide cardiovascular benefits and strength building while minimizing stress and impact on joints.",
     "references": "Centers for Disease Control and Prevention. (2023). Physical activity basics. https://www.cdc.gov/physicalactivity/basics/index.htm\n\nNational Institutes of Health. (2022). Exercise and physical activity: Your everyday guide. https://www.nia.nih.gov/health/exercise-physical-activity\n\nNational Health Service. (2023). Exercise. https://www.nhs.uk/live-well/exercise/\n\nU.S. Department of Health and Human Services. (2018). Physical activity guidelines for Americans (2nd ed.). https://health.gov/sites/default/files/2019-09/Physical_Activity_Guidelines_2nd_edition.pdf"
   },
   "INF-0218": {
     "author": "Jade Gordon",
-    "_at": "2026-08-18T14:37:40.271Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "date_created": "5/5/2026",
     "language": "English",
     "duration": "1",
     "link": "https://drive.google.com/file/d/1htdFmpqBoghOKUo0InZM5k0C1K7Mysbj/view?usp=sharing",
-    "category": "Weight Loss & BMI",
+    "category": "Weight Management",
     "author_creds": "Behavioral Technician",
     "description": "A resource promoting a focus on holistic health over specific numbers, encouraging non-judgmental habits, proper nutrition, and movement.",
     "peer_reviewer": "Pending - Diane McNaught",
@@ -46782,79 +46816,79 @@
   },
   "INF-0217": {
     "author": "Diane McNaught",
-    "_at": "2026-08-18T14:37:40.271Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
     "language": "English",
     "duration": "1",
     "link": "https://drive.google.com/file/d/1LNs4df4gQ8ch8Mf4fms3hCyn0bJHTxRa/view?usp=sharing",
-    "category": "Weight Loss & BMI",
+    "category": "Fitness",
     "author_creds": "Registered Nurse",
     "description": "Explores the effectiveness of exercising at various times of the day and how to align workouts with natural energy cycles and goals.",
     "references": "World Health Organization. (2020). Physical activity. https://www.who.int/news-room/fact-sheets/detail/physical-activity\n\nCenters for Disease Control and Prevention. (2023). Benefits of physical activity. https://www.cdc.gov/physicalactivity/basics/pa-health/index.htm\n\nU.S. Department of Health and Human Services. (2018). Physical activity guidelines for Americans (2nd ed.). https://health.gov/sites/default/files/2019-09/Physical_Activity_Guidelines_2nd_edition.pdf\n\nNational Institutes of Health. (2022). Exercise and physical activity: Your everyday guide. https://www.nia.nih.gov/health/exercise-physical-activity\n\nNational Health Service. (2023). Exercise. https://www.nhs.uk/live-well/exercise/"
   },
   "INF-0216": {
     "peer_reviewer": "Jade Gordon",
-    "_at": "2026-08-18T14:37:40.271Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "author": "Diane McNaught",
     "date_created": "5/5/2026",
     "language": "English",
     "duration": "1",
     "link": "https://drive.google.com/file/d/1glWwTvgpwzytVXupgkK84Krph0waBGkQ/view?usp=sharing",
-    "category": "Weight Loss & BMI",
+    "category": "Fitness",
     "author_creds": "Registered Nurse",
     "description": "Highlights how physical activity, including both moderate and vigorous efforts, reduces the risk of heart disease, improves sleep, and increases overall mental well-being.",
     "references": "World Health Organization. (2020). Physical activity. https://www.who.int/news-room/fact-sheets/detail/physical-activity\n\nCenters for Disease Control and Prevention. (2023). Benefits of physical activity. https://www.cdc.gov/physicalactivity/basics/pa-health/index.htm\n\nNational Institutes of Health. (2022). Exercise and physical activity: Your everyday guide. https://www.nia.nih.gov/health/exercise-physical-activity\n\nNational Health Service. (2023). Benefits of exercise. https://www.nhs.uk/live-well/exercise/exercise-health-benefits/\n\nU.S. Department of Health and Human Services. (2018). Physical activity guidelines for Americans (2nd ed.). https://health.gov/sites/default/files/2019-09/Physical_Activity_Guidelines_2nd_edition.pdf"
   },
   "INF-0215": {
     "author": "Diane McNaught",
-    "_at": "2026-08-18T14:37:40.271Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "references": "Centers for Disease Control and Prevention. (2024). Benefits of physical activity. https://www.cdc.gov/physical-activity-basics/benefits/\n\nWorld Health Organization. (2022). Physical activity. https://www.who.int/news-room/fact-sheets/detail/physical-activity\n\nNational Health Service. (2023). Benefits of exercise. https://www.nhs.uk/live-well/exercise/exercise-health-benefits/\n\nNational Health Service. (2023). Exercise. https://www.nhs.uk/live-well/exercise/\n\nNational Institutes of Health. (2021). Associations between green space exposure and health: A systematic review of observational studies. https://pmc.ncbi.nlm.nih.gov/articles/PMC8125471/",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
     "language": "English",
     "duration": "1",
     "link": "https://drive.google.com/file/d/1uS8lYZm1OiPLOxJdOezfvtzwh3G8fuAP/view?usp=sharing",
-    "category": "Weight Loss & BMI",
+    "category": "Fitness",
     "author_creds": "Registered Nurse",
     "description": "Suggestions for exercises and routines that utilize the outdoors to engage major muscle groups, often involving tracking activities like walking, running, or biking."
   },
   "INF-0214": {
     "author": "Diane McNaught",
-    "_at": "2026-08-18T14:37:40.271Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "references": "Centers for Disease Control and Prevention. (2024). Healthy weight, nutrition, and physical activity. https://www.cdc.gov/healthyweight/index.html\n\nNational Heart, Lung, and Blood Institute. (2022). Maintaining a healthy weight. https://www.nhlbi.nih.gov/health/educational/lose_wt/maintain.htm\n\nNational Institute of Diabetes and Digestive and Kidney Diseases. (2023). Healthy eating and physical activity for weight loss. https://www.niddk.nih.gov/health-information/weight-management\n\nWorld Health Organization. (2023). Obesity and overweight. https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
     "language": "English",
     "duration": "2",
     "link": "https://drive.google.com/file/d/1Dh5TnNsH5fxDWL1TUzNva5MN4zGZhgrh/view?usp=sharing",
-    "category": "Weight Loss & BMI",
+    "category": "Weight Management",
     "author_creds": "Registered Nurse",
     "description": "A guide to adopting sustainable health and wellness goals, focusing on making balanced choices and tracking progress, potentially through tools that monitor weight and exercise."
   },
   "INF-0213": {
     "author": "Diane McNaught",
-    "_at": "2026-08-18T14:37:40.271Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "references": "Centers for Disease Control and Prevention. (2024). About adult BMI. https://www.cdc.gov/bmi/adult-calculator/bmi-categories.html\n\nWorld Health Organization. (2023). Body mass index (BMI). https://www.who.int/data/gho/data/themes/topics/topic-details/GHO/body-mass-index\n\nNational Heart, Lung, and Blood Institute. (2022). Assessing your weight and health risk. https://www.nhlbi.nih.gov/health/educational/lose_wt/risk.htm\n\nNational Institutes of Health. (2023). Body mass index. https://medlineplus.gov/ency/article/007196.htm\n\nNational Health Service. (2023). Body mass index (BMI). https://www.nhs.uk/live-well/healthy-weight/bmi-calculator/",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
     "language": "English",
     "duration": "2",
     "link": "https://drive.google.com/file/d/1tVZAF7ja0uVjBkocg4nI7VFvoIow5vaE/view?usp=sharing",
-    "category": "Weight Loss & BMI",
+    "category": "Weight Management",
     "author_creds": "Registered Nurse",
     "description": "Explains the common calculation used to estimate body fat based on height and weight, and discusses its use as a general indicator of health status."
   },
   "INF-0212": {
     "author": "Diane McNaught",
-    "_at": "2026-08-18T14:37:40.271Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "references": "Centers for Disease Control and Prevention. (2024). Benefits of physical activity. https://www.cdc.gov/physical-activity-basics/benefits/\n\nNational Institute of Mental Health. (2023). Caring for your mental health. https://www.nimh.nih.gov/health/topics/caring-for-your-mental-health\n\nNational Institute on Aging. (2022). Exercise and physical activity. https://www.nia.nih.gov/health/exercise-and-physical-activity\n\nWorld Health Organization. (2022). Physical activity. https://www.who.int/news-room/fact-sheets/detail/physical-activity\n\nNational Health Service. (2023). Get active. https://www.nhs.uk/live-well/exercise/",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
     "language": "English",
     "duration": "1",
     "link": "https://drive.google.com/file/d/1TDTVIKOx5-I-58RAplXyTV--kjPIJPNV/view?usp=sharing",
-    "category": "Weight Loss & BMI",
+    "category": "Fitness",
     "author_creds": "Registered Nurse",
     "description": "Provides a collection of positive, motivating self-statements intended to boost morale, overcome procrastination, and encourage adherence to an exercise routine."
   },
@@ -47593,66 +47627,66 @@
   },
   "INF-0137": {
     "author": "Jade Gordon",
-    "_at": "2026-08-18T14:37:40.271Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "date_created": "5/5/2026",
     "language": "English",
     "link": "https://drive.google.com/file/d/1l74-5dVi_2Op-W7q0lByG9IioeKhQW7x/view?usp=sharing",
-    "category": "Vaping & Tobacco",
+    "category": "Parenting",
     "author_creds": "Behavioral Technician",
     "peer_reviewer": "Pending - Diane McNaught",
     "references": "Centers for Disease Control and Prevention. (2024). E-cigarette use among youth. https://www.cdc.gov/tobacco/e-cigarettes/youth.html\n\nCenters for Disease Control and Prevention. (2024). Why youth vape. https://www.cdc.gov/tobacco/e-cigarettes/why-youth-vape.html\n\nNational Institute on Drug Abuse. (2020). Vaping devices (electronic cigarettes) drug facts. https://nida.nih.gov/publications/drugfacts/vaping-devices-electronic-cigarettes\n\nWorld Health Organization. (2024). Tobacco: E-cigarettes. https://www.who.int/news-room/questions-and-answers/item/tobacco-e-cigarettes"
   },
   "INF-0136": {
     "author": "Jade Gordon",
-    "_at": "2026-08-18T14:37:40.271Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "date_created": "5/5/2026",
     "language": "English",
     "link": "https://drive.google.com/file/d/1agaNwF0hEfEVfsPmPAF1aG1TabS9WEtg/view?usp=sharing",
-    "category": "Vaping & Tobacco",
+    "category": "Smoking Cessation",
     "author_creds": "Behavioral Technician",
     "peer_reviewer": "Pending - Diane McNaught",
     "references": "Centers for Disease Control and Prevention. (2024). How to quit smoking. https://www.cdc.gov/tobacco/quit_smoking/how_to_quit/index.htm\n\nNational Cancer Institute. (2023). Clearing the air: Quit smoking today. https://www.cancer.gov/publications/patient-education/clearing-the-air\n\nSmokefree.gov. (2024). Build your quit plan. https://smokefree.gov/build-your-quit-plan\n\nWorld Health Organization. (2023). Tobacco: Quit tobacco. https://www.who.int/news-room/fact-sheets/detail/tobacco"
   },
   "INF-0135": {
     "author": "Jade Gordon",
-    "_at": "2026-08-18T14:37:40.271Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "date_created": "5/5/2026",
     "language": "English",
     "link": "https://drive.google.com/file/d/1S-vCHXsyRD7A8TZfCGLqR95bK-OTH6Bv/view?usp=sharing",
-    "category": "Vaping & Tobacco",
+    "category": "Smoking Cessation",
     "author_creds": "Behavioral Technician",
     "peer_reviewer": "Pending - Diane McNaught",
     "references": "Centers for Disease Control and Prevention. (2024). Cigarette smoking. https://www.cdc.gov/tobacco/about/index.html\n\nCenters for Disease Control and Prevention. (2024). Health effects of cigarettes: Cancer. https://www.cdc.gov/tobacco/about/cigarettes-and-cancer.html\n\nU.S. Food and Drug Administration. (2019). Harmful and potentially harmful constituents in tobacco products and tobacco smoke: Established list. https://www.fda.gov/tobacco-products/rules-regulations-and-guidance-related-tobacco-products/harmful-and-potentially-harmful-constituents-tobacco-products-and-tobacco-smoke-established-list\n\nNational Cancer Institute. (2017). Harms of cigarette smoking and health benefits of quitting. https://www.cancer.gov/about-cancer/causes-prevention/risk/tobacco/cessation-fact-sheet\n\nWorld Health Organization. (2025). Tobacco. https://www.who.int/news-room/fact-sheets/detail/tobacco"
   },
   "INF-0134": {
     "author": "Jade Gordon",
-    "_at": "2026-08-18T14:37:40.271Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "date_created": "5/5/2026",
     "language": "English",
     "link": "https://drive.google.com/file/d/1CHISG7LkZRA_esHrwmvLPWYbQajZDtO7/view?usp=sharing",
-    "category": "Vaping & Tobacco",
+    "category": "Smoking Cessation",
     "author_creds": "Behavioral Technician",
     "peer_reviewer": "Pending - Diane McNaught",
     "references": "National Institute on Aging. (2025). Skin care and aging. https://www.nia.nih.gov/health/skin-care/skin-care-and-aging\n\nNational Health Service. (2025). Understanding the true impact of smoking. https://www.nhs.uk/better-health/quit-smoking/why-quit-smoking/understanding-the-true-impact-of-smoking/\n\nCenters for Disease Control and Prevention. (2025). Smoking, gum disease, and tooth loss. https://www.cdc.gov/tobacco/campaign/tips/diseases/periodontal-gum-disease.html\n\nWorld Health Organization. (2025). Tobacco. https://www.who.int/news-room/fact-sheets/detail/tobacco"
   },
   "INF-0133": {
     "author": "Jade Gordon",
-    "_at": "2026-08-18T14:37:40.271Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "date_created": "5/5/2026",
     "language": "English",
     "link": "https://drive.google.com/file/d/15H9m9os4VV3uCY9Uc2pLH54vJWJv30Wj/view?usp=sharing",
-    "category": "Vaping & Tobacco",
+    "category": "Smoking Cessation",
     "author_creds": "Behavioral Technician",
     "peer_reviewer": "Pending - Diane McNaught",
     "references": "MedlinePlus. (2025). After surgery. https://medlineplus.gov/aftersurgery.html\n\nNational Health Service. (2023). Recovery. https://www.nhs.uk/tests-and-treatments/having-surgery/recovery/\n\nNational Health Service. (2023). After surgery. https://www.nhs.uk/tests-and-treatments/having-surgery/afterwards/\n\nCenters for Disease Control and Prevention. (2024). Surgical site infection basics. https://www.cdc.gov/surgical-site-infections/about/index.html\n\nWorld Health Organization. (2024). Rehabilitation. https://www.who.int/news-room/fact-sheets/detail/rehabilitation"
   },
   "INF-0132": {
     "author": "Jade Gordon",
-    "_at": "2026-08-18T14:37:40.271Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "date_created": "5/5/2026",
     "language": "English",
     "link": "https://drive.google.com/file/d/1RIrBMPZzSJGsmCEUQhFOX4T1CuHTbCYK/view?usp=sharing",
-    "category": "Vaping & Tobacco",
+    "category": "Smoking Cessation",
     "author_creds": "Behavioral Technician",
     "peer_reviewer": "Pending - Diane McNaught",
     "references": "Centers for Disease Control and Prevention. (2023). Benefits of quitting smoking. https://www.cdc.gov/tobacco/quit_smoking/how_to_quit/benefits/index.htm\n\nNational Heart, Lung, and Blood Institute. (2022). How the lungs work. https://www.nhlbi.nih.gov/health/lungs\n\nAmerican Lung Association. (2023). Lung health and diseases. https://www.lung.org/lung-health-diseases\n\nWorld Health Organization. (2023). Tobacco. https://www.who.int/news-room/fact-sheets/detail/tobacco"
@@ -49836,10 +49870,11 @@
   },
   "ILB-0465": {
     "type": "Infographic",
-    "_at": "2026-08-07T17:55:25.784Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "author": "Diane McNaught",
     "peer_reviewer": "Jade Gordon",
-    "date_created": "5/5/2026"
+    "date_created": "5/5/2026",
+    "category": "Smoking Cessation"
   },
   "ILB-0467": {
     "type": "Infographic",
@@ -50663,8 +50698,8 @@
   },
   "EXT-0138": {
     "type": "Article",
-    "_at": "2026-08-11T19:26:33.131Z",
-    "category": "Nutrition / Mental Health",
+    "_at": "2026-08-18T17:56:26.260Z",
+    "category": "Nutrition",
     "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "4",
@@ -50757,8 +50792,8 @@
   },
   "EXT-0149": {
     "type": "Article",
-    "_at": "2026-08-18T14:20:23.775Z",
-    "category": "Nutrition / Mental Health",
+    "_at": "2026-08-18T17:56:26.260Z",
+    "category": "Nutrition",
     "link": "https://docs.google.com/document/d/1Jc2fe4VzqF8gM07BLSkmVfA3wahcRf4amKMurfM2HeQ/edit?usp=sharing"
   },
   "EXT-0150": {
@@ -50917,8 +50952,8 @@
   },
   "EXT-0169": {
     "type": "Article",
-    "_at": "2026-08-18T14:20:23.775Z",
-    "category": "Nutrition / Mental Health",
+    "_at": "2026-08-18T17:56:26.260Z",
+    "category": "Nutrition",
     "link": "https://docs.google.com/document/d/1xMGtJvb4qu2tcLPj3Iafe1FEUhjNGvaZ7b62IPcbEcM/edit?usp=sharing"
   },
   "EXT-0170": {
@@ -50991,9 +51026,9 @@
   },
   "EXT-0179": {
     "type": "Article",
-    "_at": "2026-08-11T19:26:33.131Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "duration": "5",
-    "category": "Nutrition/Sleep",
+    "category": "Sleep",
     "author": "Madeline McGuire",
     "peer_reviewer": "Marlee Alanis",
     "link": "https://docs.google.com/document/d/1L8VIjj9iuq0MuMo55jMcUL1pIaNuSgXbtCdaydpAKoY/edit?usp=sharing"
@@ -51029,9 +51064,9 @@
   },
   "EXT-0184": {
     "type": "Video",
-    "_at": "2026-08-14T18:57:21.327Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "peer_reviewer": "Dr. Laura Goorin",
-    "category": "Emotional Wellness",
+    "category": "Mental Health",
     "teacher": "Dr. Laura Goorin",
     "author": "Dr. Laura Goorin",
     "date_created": "3/24/2025",
@@ -51050,10 +51085,10 @@
   },
   "EXT-0186": {
     "type": "Video",
-    "_at": "2026-08-18T14:20:23.775Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "duration": "6 min",
     "peer_reviewer": "Christina Ionno",
-    "category": "Meditation & Sleep",
+    "category": "Sleep",
     "teacher": "Christina Ionno",
     "author": "Christina Ionno",
     "date_created": "12/17/2024",
@@ -51125,100 +51160,109 @@
   },
   "ES-00150": {
     "type": "Video",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "duration": "4 min",
     "peer_reviewer": "Victor Pereira Sanchez",
     "teacher": "Victor Pereira Sanchez",
     "title_original": "Cómo apoyar a sus hijos para que tengan una mejor salud mental",
     "author": "Victor Pereira Sanchez",
     "vimeo_link": "https://vimeo.com/1164373117/1a45b43bdb?share=copy&fl=sv&fe=ci",
-    "date_created": "11/18/2024"
+    "date_created": "11/18/2024",
+    "category": "Mental Health"
   },
   "DE-00026": {
     "type": "Video",
-    "_at": "2026-08-14T18:59:29.315Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "peer_reviewer": "Julika Von Stackelberg",
     "teacher": "Julika Von Stackelberg",
     "title_original": "Teenager und geistiges Wohlbefinden",
     "author": "Julika Von Stackelberg",
     "vimeo_link": "https://vimeo.com/1067508117/45bf9c6b43?fl=ls&fe=ec",
     "date_created": "06/14/2024",
-    "duration": "5"
+    "duration": "5",
+    "category": "Parenting"
   },
   "FR-00079": {
     "type": "Video",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "duration": "4 min",
     "peer_reviewer": "Margaux de Noiron",
     "teacher": "Margaux de Noiron",
     "title_original": "Comment soutenir la santé mentale de vos enfants",
     "author": "Margaux de Noiron",
     "vimeo_link": "https://vimeo.com/1164072054/42d817659e?share=copy&fl=sv&fe=ci",
-    "date_created": "12/02/2024"
+    "date_created": "12/02/2024",
+    "category": "Parenting"
   },
   "HI-00024": {
     "type": "Video",
-    "_at": "2026-08-14T18:52:43.595Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "duration": "3 min",
     "peer_reviewer": "Veera Mookerjee",
     "teacher": "Veera Mookerjee",
     "title_original": "बच्चों के मानसिक स्वास्थ्य सहायता",
     "author": "Veera Mookerjee",
-    "date_created": "3/25/2025"
+    "date_created": "3/25/2025",
+    "category": "Parenting"
   },
   "ES-00025": {
     "type": "Video",
-    "_at": "2026-08-14T18:53:35.687Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "duration": "4 min",
     "peer_reviewer": "Nicole Guerrero",
     "teacher": "Nicole Guerrero",
     "title_original": "Cultivando la auto-compasión",
     "author": "Nicole Guerrero",
     "vimeo_link": "https://vimeo.com/1067737121/7657a58b43",
-    "date_created": "3/19/2025"
+    "date_created": "3/19/2025",
+    "category": "Mental Health"
   },
   "AR-00038": {
     "type": "Video",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "duration": "9 min",
     "peer_reviewer": "Nada Doueiry",
     "teacher": "Nada Doueiry",
     "title_original": "تأمل للتعاطف مع الذات",
     "author": "Nada Doueiry",
-    "date_created": "12/09/2024"
+    "date_created": "12/09/2024",
+    "category": "Meditation"
   },
   "PL-00008": {
     "type": "Video",
-    "_at": "2026-08-18T14:20:23.775Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "peer_reviewer": "Margo Gladys",
     "teacher": "Margo Gladys",
     "title_original": "Medytacja na odporność psychiczną",
     "author": "Margo Gladys",
     "date_created": "01/12/2026",
     "duration": "25",
-    "link": "https://app.allinonewellbeing.com/videos/medytacja-na-odpornosc-psychiczna-polski"
+    "link": "https://app.allinonewellbeing.com/videos/medytacja-na-odpornosc-psychiczna-polski",
+    "category": "Meditation"
   },
   "HE-00002": {
     "type": "Video",
-    "_at": "2026-08-14T19:01:32.833Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "peer_reviewer": "Tzahi Moskovitz",
     "teacher": "Tzahi Moskovitz",
     "title_original": "תירגול לחיזוק יכולת התאוששות",
     "author": "Tzahi Moskovitz",
     "vimeo_link": "https://vimeo.com/1067449521/d1b5fd2e4c",
     "date_created": "11/01/2024",
-    "duration": "6"
+    "duration": "6",
+    "category": "Mental Health"
   },
   "HE-00006": {
     "type": "Video",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "duration": "5 min",
     "peer_reviewer": "Tzahi Moskovitz",
     "teacher": "Tzahi Moskovitz",
     "title_original": "למצוא את המרכז",
     "author": "Tzahi Moskovitz",
     "vimeo_link": "https://vimeo.com/1209564251/e18d3145e9?share=copy&fl=sv&fe=ci",
-    "date_created": "11/01/2024"
+    "date_created": "11/01/2024",
+    "category": "Mental Health"
   },
   "NL-00027": {
     "type": "Video",
@@ -51337,14 +51381,15 @@
   },
   "JA-00007": {
     "type": "Video",
-    "_at": "2026-08-14T20:30:35.789Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "duration": "5 min",
     "peer_reviewer": "Izumi Favia",
     "teacher": "Izumi Favia",
     "title_original": "子育てのストレスを軽減する方法",
     "author": "Izumi Favia",
     "vimeo_link": "https://vimeo.com/1164385857/73848788ea?share=copy&fl=sv&fe=ci",
-    "date_created": "2/12/2026"
+    "date_created": "2/12/2026",
+    "category": "Parenting"
   },
   "EXT-0219": {
     "type": "Video",
@@ -51368,14 +51413,15 @@
   },
   "JA-00009": {
     "type": "Video",
-    "_at": "2026-08-14T20:32:33.368Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "duration": "5 min",
     "peer_reviewer": "Izumi Favia",
     "teacher": "Izumi Favia",
     "title_original": "将来に迷いを感じたときにできること",
     "author": "Izumi Favia",
     "vimeo_link": "https://vimeo.com/1067410673/1c59206259?fl=ls&fe=ec",
-    "date_created": "3/19/2025"
+    "date_created": "3/19/2025",
+    "category": "Mental Health"
   },
   "EXT-0222": {
     "type": "Video",
@@ -51496,14 +51542,15 @@
   },
   "ES-00041": {
     "type": "Video",
-    "_at": "2026-08-14T20:49:41.954Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "peer_reviewer": "Eneida Farro",
     "teacher": "Eneida Farro",
     "title_original": "Ataques de pánico",
     "author": "Eneida Farro",
     "vimeo_link": "https://vimeo.com/1074023736/097318c4c0",
     "date_created": "4/9/2025",
-    "duration": "4"
+    "duration": "4",
+    "category": "Mental Health"
   },
   "PL-00014": {
     "type": "Video",
@@ -51551,7 +51598,7 @@
   },
   "RU-00013": {
     "type": "Video",
-    "_at": "2026-08-18T14:20:23.775Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "duration": "5 min",
     "peer_reviewer": "Natalie Zolotareva",
     "teacher": "Natalie Zolotareva",
@@ -51559,7 +51606,8 @@
     "author": "Natalie Zolotareva",
     "vimeo_link": "https://vimeo.com/1181175021/5b592b6660?share=copy&fl=sv&fe=ci",
     "date_created": "01/12/2026",
-    "link": "https://app.allinonewellbeing.com/videos/how-to-practice-body-awareness-russian"
+    "link": "https://app.allinonewellbeing.com/videos/how-to-practice-body-awareness-russian",
+    "category": "Mental Health"
   },
   "ES-00081": {
     "type": "Video",
@@ -51676,14 +51724,15 @@
   },
   "YUE-00004": {
     "type": "Video",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "duration": "5 min",
     "peer_reviewer": "Mandy Lam",
     "teacher": "Mandy Lam",
     "title_original": "練習情緒意識",
     "author": "Mandy Lam",
     "vimeo_link": "https://vimeo.com/1208847925/bb593f6a14?share=copy&fl=sv&fe=ci",
-    "date_created": "10/13/2025"
+    "date_created": "10/13/2025",
+    "category": "Mental Health"
   },
   "AR-00004": {
     "type": "Video",
@@ -51717,12 +51766,13 @@
   },
   "PT-00039": {
     "type": "Video",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "peer_reviewer": "Cris Di Dario",
     "teacher": "Cris Di Dario",
     "title_original": "Saude mental na terceira idade",
     "author": "Cris Di Dario",
-    "vimeo_link": "https://vimeo.com/1074043421/9e84940238?fl=ls&fe=ec"
+    "vimeo_link": "https://vimeo.com/1074043421/9e84940238?fl=ls&fe=ec",
+    "category": "Mental Health"
   },
   "DE-00048": {
     "type": "Video",
@@ -51753,14 +51803,15 @@
   },
   "ES-00154": {
     "type": "Video",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "duration": "4 min",
     "peer_reviewer": "Victor Pereira Sanchez",
     "teacher": "Victor Pereira Sanchez",
     "title_original": "Construyendo relaciones - Relaciones románticas",
     "author": "Victor Pereira Sanchez",
     "vimeo_link": "https://vimeo.com/1164374688/13a45bb186?share=copy&fl=sv&fe=ci",
-    "date_created": "11/18/2024"
+    "date_created": "11/18/2024",
+    "category": "Relationships"
   },
   "PL-00015": {
     "type": "Video",
@@ -51894,12 +51945,13 @@
   },
   "ES-00062": {
     "type": "Video",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "peer_reviewer": "Eneida Farro",
     "teacher": "Eneida Farro",
     "title_original": "Usar otras técnicas para reconectarse",
     "author": "Eneida Farro",
-    "date_created": "05/06/2024"
+    "date_created": "05/06/2024",
+    "category": "Mental Health"
   },
   "ES-00035": {
     "type": "Video",
@@ -51932,13 +51984,14 @@
   },
   "JA-00005": {
     "type": "Video",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "duration": "4 min",
     "peer_reviewer": "Izumi Favia",
     "teacher": "Izumi Favia",
     "title_original": "自分を大切にする方法",
     "author": "Izumi Favia",
-    "vimeo_link": "https://vimeo.com/1067414236/80eb82195e?share=copy&fl=sv&fe=ci"
+    "vimeo_link": "https://vimeo.com/1067414236/80eb82195e?share=copy&fl=sv&fe=ci",
+    "category": "Mental Health"
   },
   "ES-00011": {
     "type": "Video",
@@ -52017,14 +52070,15 @@
   },
   "ES-00061": {
     "type": "Video",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "duration": "7 min",
     "peer_reviewer": "Eneida Farro",
     "teacher": "Eneida Farro",
     "title_original": "Tomando una requeña vacación mental",
     "author": "Eneida Farro",
     "vimeo_link": "https://vimeo.com/1164357846/26b83363d6?share=copy&fl=sv&fe=ci",
-    "date_created": "05/06/2024"
+    "date_created": "05/06/2024",
+    "category": "Mental Health"
   },
   "KO-00006": {
     "type": "Video",
@@ -52056,33 +52110,36 @@
   },
   "ES-00029": {
     "type": "Video",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "duration": "4 min",
     "peer_reviewer": "Nicole Guerrero",
     "teacher": "Nicole Guerrero",
     "title_original": "Aprende a decir no",
     "author": "Nicole Guerrero",
-    "vimeo_link": "https://vimeo.com/1067725634/645596c003"
+    "vimeo_link": "https://vimeo.com/1067725634/645596c003",
+    "category": "Mental Health"
   },
   "ES-00072": {
     "type": "Video",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "peer_reviewer": "Eneida Farro",
     "teacher": "Eneida Farro",
     "title_original": "Mejore el autoestima y la seguridad en usted mismo",
     "author": "Eneida Farro",
     "vimeo_link": "Never finished uploading",
-    "date_created": "05/20/2024"
+    "date_created": "05/20/2024",
+    "category": "Mental Health"
   },
   "JA-00002": {
     "type": "Video",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "duration": "4 min",
     "peer_reviewer": "Izumi Favia",
     "teacher": "Izumi Favia",
     "title_original": "自己肯定感を高める方法",
     "author": "Izumi Favia",
-    "vimeo_link": "https://vimeo.com/1067415159/8e6dd618ca?fl=ls&fe=ec"
+    "vimeo_link": "https://vimeo.com/1067415159/8e6dd618ca?fl=ls&fe=ec",
+    "category": "Mental Health"
   },
   "ES-00117": {
     "type": "Video",
@@ -52155,45 +52212,49 @@
   },
   "ES-00151": {
     "type": "Video",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "duration": "5 min",
     "peer_reviewer": "Victor Pereira Sanchez",
     "teacher": "Victor Pereira Sanchez",
     "title_original": "Cómo afrontar el duelo y la pérdida",
     "author": "Victor Pereira Sanchez",
     "vimeo_link": "https://vimeo.com/1164373617/cf9cdb1ef8?share=copy&fl=sv&fe=ci",
-    "date_created": "11/18/2024"
+    "date_created": "11/18/2024",
+    "category": "Mental Health"
   },
   "HI-00017": {
     "type": "Video",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "duration": "5 min",
     "peer_reviewer": "Sweta Srivastava Vikram",
     "teacher": "Sweta Srivastava Vikram",
     "title_original": "दुख को नेविगेट करना",
     "author": "Sweta Srivastava Vikram",
-    "date_created": "12/09/2024"
+    "date_created": "12/09/2024",
+    "category": "Mental Health"
   },
   "JA-00010": {
     "type": "Video",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "duration": "5 min",
     "peer_reviewer": "Izumi Favia",
     "teacher": "Izumi Favia",
     "title_original": "大切な人を亡くした後の心のケ",
     "author": "Izumi Favia",
-    "vimeo_link": "https://vimeo.com/1067409728/b83bd9c793?fl=ls&fe=ec"
+    "vimeo_link": "https://vimeo.com/1067409728/b83bd9c793?fl=ls&fe=ec",
+    "category": "Mental Health"
   },
   "ES-00152": {
     "type": "Video",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "duration": "4 min",
     "peer_reviewer": "Victor Pereira Sanchez",
     "teacher": "Victor Pereira Sanchez",
     "title_original": "Crear relaciones saludables en el trabajo",
     "author": "Victor Pereira Sanchez",
     "vimeo_link": "https://vimeo.com/1164373938/3d75f6b4f9?share=copy&fl=sv&fe=ci",
-    "date_created": "11/18/2024"
+    "date_created": "11/18/2024",
+    "category": "Workplace Wellness"
   },
   "RU-00005": {
     "type": "Video",
@@ -52209,13 +52270,14 @@
   },
   "PT-00037": {
     "type": "Video",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "peer_reviewer": "Cris Di Dario",
     "teacher": "Cris Di Dario",
     "title_original": "A importância do autocuidado",
     "author": "Cris Di Dario",
     "vimeo_link": "https://vimeo.com/1068935507/becd29bb60?fl=ls&fe=ec",
-    "date_created": "04/05/2024"
+    "date_created": "04/05/2024",
+    "category": "Mental Health"
   },
   "ZH-00004": {
     "type": "Video",
@@ -52298,22 +52360,24 @@
   },
   "FR-00023": {
     "type": "Video",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "duration": "2 min",
     "peer_reviewer": "Margaux de Noiron",
     "teacher": "Margaux de Noiron",
     "title_original": "Comment gérer le stress",
-    "author": "Margaux de Noiron"
+    "author": "Margaux de Noiron",
+    "category": "Stress Management"
   },
   "AR-00069": {
     "type": "Video",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "peer_reviewer": "Teriz Michael",
     "teacher": "Teriz Michael",
     "title_original": "إزاي تتحكم في التوتر في اللحظة",
     "author": "Teriz Michael",
     "vimeo_link": "https://vimeo.com/1161884423/f2c71751e1?share=copy&fl=sv&fe=ci",
-    "date_created": "09/12/2025"
+    "date_created": "09/12/2025",
+    "category": "Stress Management"
   },
   "DE-00055": {
     "type": "Video",
@@ -52328,20 +52392,22 @@
   },
   "FR-00026": {
     "type": "Video",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "peer_reviewer": "Margaux de Noiron",
     "teacher": "Margaux de Noiron",
     "title_original": "Comment recâbler votre cerveau vers la positivité",
-    "author": "Margaux de Noiron"
+    "author": "Margaux de Noiron",
+    "category": "Mental Health"
   },
   "PL-00003": {
     "type": "Video",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "peer_reviewer": "Margo Gladys",
     "teacher": "Margo Gladys",
     "title_original": "Pozytywne myślenie",
     "author": "Margo Gladys",
-    "date_created": "03/14/2025"
+    "date_created": "03/14/2025",
+    "category": "Mental Health"
   },
   "HI-00006": {
     "type": "Video",
@@ -52395,54 +52461,59 @@
   },
   "FR-00074": {
     "type": "Video",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "duration": "4 min",
     "peer_reviewer": "Hafsa Benzzi",
     "teacher": "Hafsa Benzzi",
     "title_original": "Relation saine avec la technologie",
     "author": "Hafsa Benzzi",
     "vimeo_link": "https://vimeo.com/1164070067/e0fd8f2ca4?share=copy&fl=sv&fe=ci",
-    "date_created": "11/18/2024"
+    "date_created": "11/18/2024",
+    "category": "Mental Health"
   },
   "DE-00022": {
     "type": "Video",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "peer_reviewer": "Julika Von Stackelberg",
     "teacher": "Julika Von Stackelberg",
     "title_original": "Kinder, Technologie und Wohlbefinden",
     "author": "Julika Von Stackelberg",
-    "vimeo_link": "https://vimeo.com/1067494486/6affb30bd3?fl=ls&fe=ec"
+    "vimeo_link": "https://vimeo.com/1067494486/6affb30bd3?fl=ls&fe=ec",
+    "category": "Parenting"
   },
   "ES-00153": {
     "type": "Video",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "peer_reviewer": "Victor Pereira Sanchez",
     "teacher": "Victor Pereira Sanchez",
     "title_original": "Tú relación con tu móvil",
     "author": "Victor Pereira Sanchez",
     "vimeo_link": "https://vimeo.com/1164374269/0366d90caa?share=copy&fl=sv&fe=ci",
-    "date_created": "11/18/2024"
+    "date_created": "11/18/2024",
+    "category": "Mental Health"
   },
   "FR-00084": {
     "type": "Video",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "duration": "4 min",
     "peer_reviewer": "Margaux de Noiron",
     "teacher": "Margaux de Noiron",
     "title_original": "Écoute active",
     "author": "Margaux de Noiron",
     "vimeo_link": "https://vimeo.com/1164074929/a7dc6666eb?share=copy&fl=sv&fe=ci",
-    "date_created": "12/02/2024"
+    "date_created": "12/02/2024",
+    "category": "Communication"
   },
   "AR-00060": {
     "type": "Video",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "peer_reviewer": "Teriz Michael",
     "teacher": "Teriz Michael",
     "title_original": "الاستماع الفعّال والتواصل بتعاطف",
     "author": "Teriz Michael",
     "vimeo_link": "https://vimeo.com/1161884201/350f17c673?share=copy&fl=sv&fe=ci",
-    "date_created": "09/12/2025"
+    "date_created": "09/12/2025",
+    "category": "Communication"
   },
   "DE-00012": {
     "type": "Video",
@@ -52455,13 +52526,14 @@
   },
   "JA-00004": {
     "type": "Video",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "duration": "4 min",
     "peer_reviewer": "Izumi Favia",
     "teacher": "Izumi Favia",
     "title_original": "アクティブリスニングを始めましょう",
     "author": "Izumi Favia",
-    "vimeo_link": "https://vimeo.com/1130242542/5b5ce87eb0?share=copy&fl=sv&fe=ci"
+    "vimeo_link": "https://vimeo.com/1130242542/5b5ce87eb0?share=copy&fl=sv&fe=ci",
+    "category": "Communication"
   },
   "DE-00057": {
     "type": "Video",
@@ -52475,14 +52547,15 @@
   },
   "YUE-00005": {
     "type": "Video",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "duration": "4 min",
     "peer_reviewer": "Mandy Lam",
     "teacher": "Mandy Lam",
     "title_original": "有意圖噉生活",
     "author": "Mandy Lam",
     "vimeo_link": "https://vimeo.com/1208848105/0f2439582b?share=copy&fl=sv&fe=ci",
-    "date_created": "10/13/2025"
+    "date_created": "10/13/2025",
+    "category": "Mental Health"
   },
   "EXT-0335": {
     "type": "Video",
@@ -52686,14 +52759,15 @@
   },
   "PT-00032": {
     "type": "Video",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "duration": "4 min",
     "peer_reviewer": "Cris Di Dario",
     "teacher": "Cris Di Dario",
     "title_original": "Estabelecendo limites saudáveis",
     "author": "Cris Di Dario",
     "vimeo_link": "https://vimeo.com/1074020301/0bb42179c2?fl=ls&fe=ec",
-    "date_created": "04/05/2024"
+    "date_created": "04/05/2024",
+    "category": "Mental Health"
   },
   "IT-00022": {
     "type": "Video",
@@ -52707,33 +52781,36 @@
   },
   "ES-00067": {
     "type": "Video",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "peer_reviewer": "Eneida Farro",
     "teacher": "Eneida Farro",
     "title_original": "Utilice la visualización para afrontar situaciones difíciles",
     "author": "Eneida Farro",
     "vimeo_link": "https://vimeo.com/1164358851/87afd14077?share=copy&fl=sv&fe=ci",
-    "date_created": "05/06/2024"
+    "date_created": "05/06/2024",
+    "category": "Meditation"
   },
   "JA-00006": {
     "type": "Video",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "duration": "4 min",
     "peer_reviewer": "Izumi Favia",
     "teacher": "Izumi Favia",
     "title_original": "「今日だけは」と言ってみよう",
     "author": "Izumi Favia",
-    "vimeo_link": "https://vimeo.com/1164385621/e2b55d89d0?share=copy&fl=sv&fe=ci"
+    "vimeo_link": "https://vimeo.com/1164385621/e2b55d89d0?share=copy&fl=sv&fe=ci",
+    "category": "Mental Health"
   },
   "DE-00018": {
     "type": "Video",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "peer_reviewer": "Julika Von Stackelberg",
     "teacher": "Julika Von Stackelberg",
     "title_original": "Stressbewältigung",
     "author": "Julika Von Stackelberg",
     "vimeo_link": "https://vimeo.com/1067507131/0543d071dc?fl=ls&fe=ec",
-    "date_created": "05/20/2024"
+    "date_created": "05/20/2024",
+    "category": "Stress Management"
   },
   "RU-00003": {
     "type": "Video",
@@ -52753,73 +52830,80 @@
   },
   "HE-00007": {
     "type": "Video",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "peer_reviewer": "Tzahi Moskovitz",
     "teacher": "Tzahi Moskovitz",
     "title_original": "למצוא מרחב",
     "author": "Tzahi Moskovitz",
     "vimeo_link": "https://vimeo.com/1067439709/027f44f4ee?fl=ls&fe=ec",
-    "date_created": "11/01/2024"
+    "date_created": "11/01/2024",
+    "category": "Stress Management"
   },
   "JA-00008": {
     "type": "Video",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "duration": "4 min",
     "peer_reviewer": "Izumi Favia",
     "teacher": "Izumi Favia",
     "title_original": "やることが多すぎて困ったときの解決策",
     "author": "Izumi Favia",
-    "vimeo_link": "https://vimeo.com/1067408500/57bb8b5eb2?share=copy&fl=sv&fe=ci"
+    "vimeo_link": "https://vimeo.com/1067408500/57bb8b5eb2?share=copy&fl=sv&fe=ci",
+    "category": "Mental Health"
   },
   "ES-00070": {
     "type": "Video",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "peer_reviewer": "Eneida Farro",
     "teacher": "Eneida Farro",
     "title_original": "Practicando la aceptación para reducir la ansiedad",
     "author": "Eneida Farro",
-    "date_created": "05/20/2024"
+    "date_created": "05/20/2024",
+    "category": "Mental Health"
   },
   "AR-00052": {
     "type": "Video",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "peer_reviewer": "Nada Doueiry",
     "teacher": "Nada Doueiry",
     "title_original": "التأمل من أجل الفرح",
     "author": "Nada Doueiry",
     "vimeo_link": "https://vimeo.com/1129897391/15c6ce9153?share=copy&fl=sv&fe=ci",
-    "date_created": "07/11/2025"
+    "date_created": "07/11/2025",
+    "category": "Mental Health"
   },
   "YUE-00001": {
     "type": "Video",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "duration": "4 min",
     "peer_reviewer": "Mandy Lam",
     "teacher": "Mandy Lam",
     "title_original": "導航人生轉變",
     "author": "Mandy Lam",
     "vimeo_link": "https://vimeo.com/1208843559/fa03715c0a?share=copy&fl=sv&fe=ci",
-    "date_created": "10/13/2025"
+    "date_created": "10/13/2025",
+    "category": "Mental Health"
   },
   "ES-00064": {
     "type": "Video",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "peer_reviewer": "Eneida Farro",
     "teacher": "Eneida Farro",
     "title_original": "Reconocer lo que puedes y lo que no puedes controlar",
     "author": "Eneida Farro",
     "vimeo_link": "https://vimeo.com/1164358287/5b56f4599e?share=copy&fl=sv&fe=ci",
-    "date_created": "05/06/2024"
+    "date_created": "05/06/2024",
+    "category": "Mental Health"
   },
   "JA-00001": {
     "type": "Video",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "duration": "3 min",
     "peer_reviewer": "Izumi Favia",
     "teacher": "Izumi Favia",
     "title_original": "日々のプレッシャーを軽減する方法",
     "author": "Izumi Favia",
-    "vimeo_link": "https://vimeo.com/1130247562/6226f0d144?fl=ls&fe=ec"
+    "vimeo_link": "https://vimeo.com/1130247562/6226f0d144?fl=ls&fe=ec",
+    "category": "Mental Health"
   },
   "ES-00039": {
     "type": "Video",
@@ -52993,77 +53077,85 @@
   },
   "FR-00024": {
     "type": "Video",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "peer_reviewer": "Margaux de Noiron",
     "teacher": "Margaux de Noiron",
     "title_original": "Comment cultiver la bienveillance envers soi-même",
-    "author": "Margaux de Noiron"
+    "author": "Margaux de Noiron",
+    "category": "Mental Health"
   },
   "DE-00016": {
     "type": "Video",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "peer_reviewer": "Simone Assboeck",
     "teacher": "Simone Assboeck",
     "title_original": "Perfektionismus und Erwartung",
     "author": "Simone Assboeck",
-    "vimeo_link": "https://vimeo.com/1067502398/745081229a?fl=ls&fe=ec"
+    "vimeo_link": "https://vimeo.com/1067502398/745081229a?fl=ls&fe=ec",
+    "category": "Mental Health"
   },
   "DE-00014": {
     "type": "Video",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "peer_reviewer": "Simone Assboeck",
     "teacher": "Simone Assboeck",
     "title_original": "Selbstsabotage",
     "author": "Simone Assboeck",
-    "vimeo_link": "https://vimeo.com/1067506565/d386d1c791?fl=ls&fe=ec"
+    "vimeo_link": "https://vimeo.com/1067506565/d386d1c791?fl=ls&fe=ec",
+    "category": "Mental Health"
   },
   "ZH-00013": {
     "type": "Video",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "duration": "3 min",
     "peer_reviewer": "Shiyun Chen",
     "language": "Chinese",
     "teacher": "Shiyun Chen",
     "title_original": "如何减少自我否定",
-    "author": "Shiyun Chen"
+    "author": "Shiyun Chen",
+    "category": "Mental Health"
   },
   "AR-00013": {
     "type": "Video",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "duration": "4 min",
     "peer_reviewer": "Dr. Hassan Nagy",
     "teacher": "Dr. Hassan Nagy",
     "title_original": "كيف تعيد برمجة مخك للتفكير الإيجابي",
     "author": "Dr. Hassan Nagy",
-    "date_created": "03/08/2024"
+    "date_created": "03/08/2024",
+    "category": "Mental Health"
   },
   "ZH-00015": {
     "type": "Video",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "duration": "3 min",
     "peer_reviewer": "Shiyun Chen",
     "language": "Chinese",
     "teacher": "Shiyun Chen",
     "title_original": "自信是什么",
-    "author": "Shiyun Chen"
+    "author": "Shiyun Chen",
+    "category": "Mental Health"
   },
   "EXT-0425": {
     "type": "Video",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "peer_reviewer": "Eneida Farro",
     "teacher": "Eneida Farro",
     "author": "Eneida Farro",
-    "date_created": "05/20/2024"
+    "date_created": "05/20/2024",
+    "category": "Mental Health"
   },
   "DE-00017": {
     "type": "Video",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "peer_reviewer": "Julika Von Stackelberg",
     "teacher": "Julika Von Stackelberg",
     "title_original": "Selbstliebe",
     "author": "Julika Von Stackelberg",
     "vimeo_link": "https://vimeo.com/1067506069/44f71636e1?fl=ls&fe=ec",
-    "date_created": "05/20/2024"
+    "date_created": "05/20/2024",
+    "category": "Mental Health"
   },
   "HI-00002": {
     "type": "Video",
@@ -53076,46 +53168,51 @@
   },
   "EXT-0428": {
     "type": "Video",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "peer_reviewer": "Simone Assboeck",
     "teacher": "Simone Assboeck",
-    "author": "Simone Assboeck"
+    "author": "Simone Assboeck",
+    "category": "Mental Health"
   },
   "ZH-00002": {
     "type": "Video",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "duration": "5 min",
     "peer_reviewer": "Shiyun Chen",
     "language": "Chinese",
     "teacher": "Shiyun Chen",
     "title_original": "拍打练习",
-    "author": "Shiyun Chen"
+    "author": "Shiyun Chen",
+    "category": "Meditation"
   },
   "AR-00003": {
     "type": "Video",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "duration": "5 min",
     "peer_reviewer": "Dr. Hassan Nagy",
     "teacher": "Dr. Hassan Nagy",
     "title_original": "ما هو القلق",
-    "author": "Dr. Hassan Nagy"
+    "author": "Dr. Hassan Nagy",
+    "category": "Mental Health"
   },
   "ES-00066": {
     "type": "Video",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "peer_reviewer": "Eneida Farro",
     "teacher": "Eneida Farro",
     "title_original": "Cree tu propio mantra",
     "author": "Eneida Farro",
-    "date_created": "05/06/2024"
+    "date_created": "05/06/2024",
+    "category": "Mental Health"
   },
   "FR-00025": {
     "type": "Video",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "peer_reviewer": "Margaux de Noiron",
     "teacher": "Margaux de Noiron",
     "title_original": "Comment trouver un but dans sa vie",
-    "author": "Margaux de Noiron"
+    "author": "Margaux de Noiron",
+    "category": "Mental Health"
   },
   "EXT-0433": {
     "type": "Video",
@@ -53273,10 +53370,11 @@
   },
   "EXT-0454": {
     "type": "Video",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "peer_reviewer": "Marlee Alanis",
     "teacher": "Linda Johnson",
-    "author": "Linda Johnson"
+    "author": "Linda Johnson",
+    "category": "Mental Health"
   },
   "EXT-0456": {
     "type": "Video",
@@ -53310,17 +53408,19 @@
   },
   "EXT-0463": {
     "type": "Video",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "peer_reviewer": "Marlee Alanis",
     "teacher": "Kaitlyn Bruneau",
-    "author": "Kaitlyn Bruneau"
+    "author": "Kaitlyn Bruneau",
+    "category": "Mental Health"
   },
   "EXT-0464": {
     "type": "Video",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "peer_reviewer": "Marlee Alanis",
     "teacher": "Linda Johnson",
-    "author": "Linda Johnson"
+    "author": "Linda Johnson",
+    "category": "Mental Health"
   },
   "EXT-0465": {
     "type": "Video",
@@ -53332,11 +53432,12 @@
   },
   "EXT-0466": {
     "type": "Video",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "duration": "6 min",
     "peer_reviewer": "Marlee Alanis",
     "teacher": "Kaitlyn Bruneau",
-    "author": "Kaitlyn Bruneau"
+    "author": "Kaitlyn Bruneau",
+    "category": "Mental Health"
   },
   "EXT-0467": {
     "type": "Video",
@@ -53349,18 +53450,18 @@
   },
   "EXT-0468": {
     "type": "Video",
-    "_at": "2026-08-14T18:42:27.987Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "peer_reviewer": "Marlee Alanis",
-    "category": "Meditation & Sleep",
+    "category": "Sleep",
     "teacher": "Diana Rilov",
     "author": "Diana Rilov",
     "duration": "5"
   },
   "EXT-0469": {
     "type": "Video",
-    "_at": "2026-08-14T18:42:27.987Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "peer_reviewer": "Marlee Alanis",
-    "category": "Meditation & Sleep",
+    "category": "Sleep",
     "teacher": "Dan'yelle Williamson",
     "author": "Dan'yelle Williamson",
     "duration": "5"
@@ -53376,9 +53477,9 @@
   },
   "EXT-0471": {
     "type": "Video",
-    "_at": "2026-08-14T18:42:27.987Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "peer_reviewer": "Marlee Alanis",
-    "category": "Meditation & Sleep",
+    "category": "Sleep",
     "teacher": "Maga Villarreal",
     "author": "Maga Villarreal",
     "duration": "20"
@@ -53440,9 +53541,9 @@
   },
   "EXT-0478": {
     "type": "Video",
-    "_at": "2026-08-14T18:42:27.987Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "peer_reviewer": "Marlee Alanis",
-    "category": "Mind-Body & Wellness Movement",
+    "category": "Meditation",
     "teacher": "Oscar Rodriguez",
     "author": "Oscar Rodriguez",
     "duration": "20"
@@ -53667,28 +53768,28 @@
   },
   "EXT-0503": {
     "type": "Video",
-    "_at": "2026-08-18T14:20:23.775Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "peer_reviewer": "Cris Di Dario",
-    "category": "Emotional Wellness",
+    "category": "Mental Health",
     "teacher": "Cris Di Dario",
     "author": "Cris Di Dario",
     "link": "https://watch.caravanwellness.com/videos/como-e-por-que-desafiar-pensamentos-negativos-portugues"
   },
   "EXT-0504": {
     "type": "Video",
-    "_at": "2026-08-18T14:20:23.775Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "peer_reviewer": "Cris Di Dario",
-    "category": "Emotional Wellness",
+    "category": "Mental Health",
     "teacher": "Cris Di Dario",
     "author": "Cris Di Dario",
     "link": "https://watch.caravanwellness.com/videos/entendendo-a-conexao-entre-pensamentos-emocoes-e-stress-portugues"
   },
   "EXT-0505": {
     "type": "Video",
-    "_at": "2026-08-14T14:13:12.825Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "duration": "4 min",
     "peer_reviewer": "Cris Di Dario",
-    "category": "Emotional Wellness",
+    "category": "Mental Health",
     "teacher": "Cris Di Dario",
     "author": "Cris Di Dario",
     "title_original": "自我慈悲",
@@ -53995,19 +54096,19 @@
   },
   "EXT-0537": {
     "type": "Video",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "duration": "4 min",
     "peer_reviewer": "Dr. Hassan Nagy",
-    "category": "Women's Health",
+    "category": "Women’s Health",
     "teacher": "Dr. Hassan Nagy",
     "author": "Dr. Hassan Nagy"
   },
   "EXT-0538": {
     "type": "Video",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "duration": "5",
     "peer_reviewer": "Dr. Hassan Nagy",
-    "category": "Women's Health",
+    "category": "Women’s Health",
     "teacher": "Dr. Hassan Nagy",
     "author": "Dr. Hassan Nagy"
   },
@@ -54134,9 +54235,9 @@
   },
   "AR-00055": {
     "type": "Video",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "peer_reviewer": "Sandy Lin",
-    "category": "Nutrition / Mental Health",
+    "category": "Nutrition",
     "teacher": "Sandy Lin",
     "title_original": "التغذية لعلاج التوتر والقل",
     "author": "Sandy Lin",
@@ -54145,9 +54246,9 @@
   },
   "EXT-0553": {
     "type": "Video",
-    "_at": "2026-08-12T20:55:36.004Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "peer_reviewer": "Julius Betila",
-    "category": "Emotional Wellness",
+    "category": "Meditation",
     "author": "Julius Betila",
     "duration": "5",
     "teacher": "Julius Betila",
@@ -54199,9 +54300,9 @@
   },
   "EXT-0559": {
     "type": "Video",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "peer_reviewer": "Kanwal Haq",
-    "category": "Women's Health",
+    "category": "Women’s Health",
     "teacher": "Kanwal Haq",
     "author": "Kanwal Haq"
   },
@@ -54664,10 +54765,10 @@
   },
   "EXT-0631": {
     "type": "Video",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "duration": "4 min",
     "peer_reviewer": "Marlee Alanis",
-    "category": "Vaping & Tobacco",
+    "category": "Smoking Cessation",
     "teacher": "Dr. Joe Feuerstein",
     "author": "Dr. Joe Feuerstein"
   },
@@ -54818,9 +54919,9 @@
   },
   "EXT-0651": {
     "type": "Video",
-    "_at": "2026-08-10T19:51:38.073Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "duration": "4 min",
-    "category": "Vaping & Tobacco"
+    "category": "Smoking Cessation"
   },
   "EXT-0652": {
     "type": "Video",
@@ -55194,18 +55295,18 @@
   },
   "EXT-0851": {
     "type": "Article",
-    "_at": "2026-08-10T19:51:38.073Z",
-    "category": "Women's Health"
+    "_at": "2026-08-18T17:56:26.260Z",
+    "category": "Women’s Health"
   },
   "EXT-0852": {
     "type": "Article",
-    "_at": "2026-08-10T19:51:38.073Z",
-    "category": "Women's Health"
+    "_at": "2026-08-18T17:56:26.260Z",
+    "category": "Women’s Health"
   },
   "EXT-0853": {
     "type": "Article",
-    "_at": "2026-08-18T14:20:23.775Z",
-    "category": "Menstrual Cycle & Hormonal Health",
+    "_at": "2026-08-18T17:56:26.260Z",
+    "category": "Women’s Health",
     "link": "https://docs.google.com/document/d/14Q46qT4bUSWhISi2zq1O7lW9E_gkjTxzs5kg3RPXToM/edit?tab=t.0"
   },
   "EXT-0854": {
@@ -55216,8 +55317,8 @@
   },
   "EXT-0855": {
     "type": "Article",
-    "_at": "2026-08-10T19:51:38.073Z",
-    "category": "Menstrual Cycle & Hormonal Health"
+    "_at": "2026-08-18T17:56:26.260Z",
+    "category": "Meditation"
   },
   "EXT-0856": {
     "type": "Article",
@@ -55725,8 +55826,8 @@
   },
   "EXT-0916": {
     "type": "Article",
-    "_at": "2026-08-10T19:51:38.073Z",
-    "category": "Emotional Wellness"
+    "_at": "2026-08-18T17:56:26.260Z",
+    "category": "Mental Health"
   },
   "EXT-0917": {
     "type": "Article",
@@ -55977,8 +56078,8 @@
   },
   "EXT-0948": {
     "type": "Article",
-    "_at": "2026-08-10T19:51:38.073Z",
-    "category": "Nutrition / Sleep"
+    "_at": "2026-08-18T17:56:26.260Z",
+    "category": "Sleep"
   },
   "EXT-0949": {
     "type": "Article",
@@ -56302,10 +56403,10 @@
   },
   "EXT-0986": {
     "type": "Article",
-    "_at": "2026-08-11T19:26:33.131Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "author": "Marlee Alanis",
     "peer_reviewer": "Jade Gordon",
-    "category": "Emotional Wellness",
+    "category": "Mental Health",
     "link": "https://docs.google.com/document/d/1EVCjk5oXhxH878f_m7DUVoJP1n7BNNZu2lQNWsZsQic/edit?usp=sharing"
   },
   "EXT-0987": {
@@ -56656,10 +56757,10 @@
   },
   "EXT-1033": {
     "type": "Article",
-    "_at": "2026-08-11T20:39:09.709Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "author": "Sakina Asghar",
     "peer_reviewer": "Marlee Alanis",
-    "category": "Emotional Wellness",
+    "category": "Mental Health",
     "link": "https://docs.google.com/document/d/1kOL1kt9MvUaBT5PStIaIxmXowuGxis3aiuPuQZbTXYs/edit?usp=sharing"
   },
   "EXT-1034": {
@@ -57052,8 +57153,8 @@
   },
   "EXT-1079": {
     "type": "Article",
-    "_at": "2026-08-10T19:51:38.073Z",
-    "category": "Women's Health"
+    "_at": "2026-08-18T17:56:26.260Z",
+    "category": "Women’s Health"
   },
   "EXT-1080": {
     "type": "Article",
@@ -57704,7 +57805,7 @@
   },
   "VID-0215": {
     "duration": "5",
-    "_at": "2026-08-14T14:13:12.825Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "language": "English",
     "peer_reviewer": "Marlee Alanis",
     "author": "Jane Mulvey",
@@ -57716,7 +57817,8 @@
     "branding": "White-Label",
     "licenses": [
       "Wellness360"
-    ]
+    ],
+    "category": "Smoking Cessation"
   },
   "VID-0218": {
     "duration": "2",
@@ -57837,14 +57939,15 @@
   },
   "VID-0239": {
     "duration": "3",
-    "_at": "2026-08-14T14:13:12.825Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "language": "English",
     "peer_reviewer": "Marlee Alanis",
     "author": "Kanwal Haq",
     "length_min": "3",
     "teacher": "Kanwal Haq",
     "vimeo_link": "https://vimeo.com/1069726778/961c54eaff",
-    "branding": "White-Label"
+    "branding": "White-Label",
+    "category": "Women’s Health"
   },
   "VID-0241": {
     "duration": "4 min",
@@ -57881,14 +57984,15 @@
   },
   "VID-0309": {
     "duration": "1",
-    "_at": "2026-08-18T14:20:23.775Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "language": "English",
     "date_created": "5/6/2026",
     "peer_reviewer": "Marlee Alanis",
     "teacher": "Jessica Cording",
     "branding": "White-Label",
     "vimeo_link": "https://vimeo.com/1189841142/08d5d8a8f9?share=copy&fl=sv&fe=ci",
-    "link": "https://app.allinonewellbeing.com/videos/10-essential-nutrients-for-early-pregnancy"
+    "link": "https://app.allinonewellbeing.com/videos/10-essential-nutrients-for-early-pregnancy",
+    "category": "Pregnancy"
   },
   "VID-0316": {
     "duration": "5",
@@ -59079,9 +59183,10 @@
   },
   "EXT-1249": {
     "teacher": "Margaux de Noiron",
-    "_at": "2026-08-12T14:56:42.811Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "duration": "5 min",
-    "peer_reviewer": "Margaux de Noiron"
+    "peer_reviewer": "Margaux de Noiron",
+    "category": "Workplace Wellness"
   },
   "EXT-1250": {
     "teacher": "Nathalie Monin Voelker",
@@ -59968,33 +60073,33 @@
   },
   "INF-0128": {
     "author": "Jade Gordon",
-    "_at": "2026-08-18T14:37:40.271Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "date_created": "5/5/2026",
     "language": "English",
     "link": "https://drive.google.com/file/d/1HVdE-xETkRveegvsXkAVi01OUIEFxpkD/view?usp=sharing",
-    "category": "Vaping & Tobacco",
+    "category": "Smoking Cessation",
     "author_creds": "Behavioral Technician",
     "peer_reviewer": "Pending - Diane McNaught",
     "references": "Centers for Disease Control and Prevention. (2025). Quitlines and other cessation support resources. https://www.cdc.gov/tobacco/hcp/patient-care/quitlines-and-other-resources.html\nNational Cancer Institute. (n.d.). How to support your quitter. https://smokefree.gov/help-others-quit/how-to-support-someone-quitting\nNational Cancer Institute. (n.d.). Build a support team to help you quit smoking. https://smokefree.gov/quit-smoking/getting-started/build-your-support/build-your-smokefree-team\nNational Cancer Institute. (n.d.). Build your quit plan. https://smokefree.gov/build-your-quit-plan\nNHS. (n.d.). NHS stop smoking services help you quit. https://www.nhs.uk/live-well/quit-smoking/nhs-stop-smoking-services-help-you-quit/"
   },
   "INF-0129": {
     "author": "Jade Gordon",
-    "_at": "2026-08-18T14:37:40.271Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "date_created": "5/5/2026",
     "language": "English",
     "link": "https://drive.google.com/file/d/1YZMCtRQKCNKIXMn0nKzRNQTBKOI1h1QK/view?usp=sharing",
-    "category": "Vaping & Tobacco",
+    "category": "Smoking Cessation",
     "author_creds": "Behavioral Technician",
     "peer_reviewer": "Pending - Diane McNaught",
     "references": "Centers for Disease Control and Prevention. (2025). Quit smoking medicines. https://www.cdc.gov/tobacco/campaign/tips/quit-smoking/quit-smoking-medications/how-to-use-quit-smoking-medicines/index.html\nCenters for Disease Control and Prevention. (2025). How to use a nicotine patch to quit smoking. https://www.cdc.gov/tobacco/campaign/tips/quit-smoking/quit-smoking-medications/how-to-use-quit-smoking-medicines/how-to-use-a-nicotine-patch.html\nCenters for Disease Control and Prevention. (2025). How to use nicotine gum. https://www.cdc.gov/tobacco/campaign/tips/quit-smoking/quit-smoking-medications/how-to-use-quit-smoking-medicines/how-to-use-nicotine-gum.html\nCenters for Disease Control and Prevention. (2025). How to use nicotine lozenges. https://www.cdc.gov/tobacco/campaign/tips/quit-smoking/quit-smoking-medications/how-to-use-quit-smoking-medicines/how-to-use-the-nicotine-lozenge.html\nNHS. (2024). Quit smoking with nicotine replacement therapies (NRTs). https://www.nhs.uk/better-health/quit-smoking/ready-to-quit-smoking/quit-with-nicotine-replacement-therapies-nrt/"
   },
   "INF-0130": {
     "author": "Jade Gordon",
-    "_at": "2026-08-18T14:37:40.271Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "date_created": "5/5/2026",
     "language": "English",
     "link": "https://drive.google.com/file/d/1pPvY9IQQhEls_EYk_WbDKe94mjQ3p_mz/view?usp=sharing",
-    "category": "Vaping & Tobacco",
+    "category": "Smoking Cessation",
     "author_creds": "Behavioral Technician",
     "peer_reviewer": "Pending - Diane McNaught",
     "references": "Centers for Disease Control and Prevention. (2024). Smoking cessation: Fast facts. https://www.cdc.gov/tobacco/data_statistics/fact_sheets/cessation/smoking-cessation-fast-facts/index.htm\n\nU.S. Food and Drug Administration. (2022). Want to quit smoking? FDA-approved products can help. https://www.fda.gov/consumers/consumer-updates/want-quit-smoking-fda-approved-products-can-help\n\nNational Cancer Institute. (2023). Nicotine replacement therapy for quitting tobacco. https://www.cancer.gov/about-cancer/causes-prevention/risk/tobacco/cessation-fact-sheet\n\nWorld Health Organization. (2023). Tobacco: Quit tobacco. https://www.who.int/news-room/fact-sheets/detail/tobacco"
@@ -62267,7 +62372,7 @@
   },
   "ZH-00056": {
     "language": "Chinese",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "peer_reviewer": "Shiyun Chen",
     "teacher": "Shiyun Chen",
     "author": "Shiyun Chen",
@@ -62275,28 +62380,31 @@
     "type": "Video",
     "title_original": "建立健康的人际关系",
     "link": "https://app.allinonewellbeing.com/videos/building-relationships-friendships-chinese",
-    "date_created": "12/02/2024"
+    "date_created": "12/02/2024",
+    "category": "Relationships"
   },
   "ZH-00045": {
     "language": "Chinese",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "peer_reviewer": "Shiyun Chen",
     "teacher": "Shiyun Chen",
     "type": "Video",
     "title_original": "在工作中建立健康的关系",
     "link": "https://app.allinonewellbeing.com/videos/creating-healthy-relationships-at-work",
-    "date_created": "10/11/2024"
+    "date_created": "10/11/2024",
+    "category": "Workplace Wellness"
   },
   "ZH-00054": {
     "language": "Chinese",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "peer_reviewer": "Shiyun Chen",
     "teacher": "Shiyun Chen",
     "type": "Video",
     "author": "Shiyun Chen",
     "title_original": "微型心理假期",
     "link": "https://app.allinonewellbeing.com/videos/take-a-mini-mental-vacation-chinese",
-    "date_created": "10/11/2024"
+    "date_created": "10/11/2024",
+    "category": "Mental Health"
   },
   "ZH-00060": {
     "language": "Chinese",
@@ -62333,23 +62441,25 @@
   },
   "ZH-00011": {
     "language": "Chinese",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "peer_reviewer": "Shiyun Chen",
     "teacher": "Shiyun Chen",
     "type": "Video",
     "title_original": "感恩日记",
-    "link": "https://watch.caravanwellness.com/videos/guided-journaling-for-gratitude"
+    "link": "https://watch.caravanwellness.com/videos/guided-journaling-for-gratitude",
+    "category": "Meditation"
   },
   "ZH-00052": {
     "language": "Chinese",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "peer_reviewer": "Shiyun Chen",
     "teacher": "Shiyun Chen",
     "author": "Dr. Ellie Cobb",
     "type": "Video",
     "title_original": "微笑的力量",
     "link": "https://app.allinonewellbeing.com/videos/power-of-smiling-chinese",
-    "date_created": "10/11/2024"
+    "date_created": "10/11/2024",
+    "category": "Mental Health"
   },
   "ZH-00018": {
     "language": "Chinese",
@@ -62412,25 +62522,27 @@
   },
   "ZH-00014": {
     "language": "Chinese",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "peer_reviewer": "Shiyun Chen",
     "teacher": "Shiyun Chen",
     "author": "Nadia Murdock",
     "duration": "3",
     "type": "Video",
     "title_original": "如何确立人生目标",
-    "link": "https://watch.caravanwellness.com/videos/finding-purpose"
+    "link": "https://watch.caravanwellness.com/videos/finding-purpose",
+    "category": "Mental Health"
   },
   "ZH-00046": {
     "language": "Chinese",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "peer_reviewer": "Shiyun Chen",
     "teacher": "Shiyun Chen",
     "type": "Video",
     "author": "Shiyun Chen",
     "title_original": "情绪觉察",
     "link": "https://app.allinonewellbeing.com/videos/what-is-emotional-awareness-1",
-    "date_created": "10/11/2024"
+    "date_created": "10/11/2024",
+    "category": "Mental Health"
   },
   "ZH-00037": {
     "language": "Chinese",
@@ -62445,24 +62557,26 @@
   },
   "ZH-00048": {
     "language": "Chinese",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "peer_reviewer": "Shiyun Chen",
     "teacher": "Shiyun Chen",
     "type": "Video",
     "title_original": "什么是抑郁症",
     "link": "https://app.allinonewellbeing.com/videos/what-is-depression",
-    "date_created": "10/11/2024"
+    "date_created": "10/11/2024",
+    "category": "Mental Health"
   },
   "ZH-00047": {
     "language": "Chinese",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "peer_reviewer": "Shiyun Chen",
     "teacher": "Shiyun Chen",
     "type": "Video",
     "author": "Shiyun Chen",
     "title_original": "心理障碍的类型",
     "link": "https://app.allinonewellbeing.com/videos/types-of-mental-disorders-1",
-    "date_created": "10/11/2024"
+    "date_created": "10/11/2024",
+    "category": "Mental Health"
   },
   "ZH-00061": {
     "language": "Chinese",
@@ -62539,13 +62653,14 @@
   },
   "ZH-00044": {
     "language": "Chinese",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "peer_reviewer": "Shiyun Chen",
     "teacher": "Shiyun Chen",
     "type": "Video",
     "title_original": "如何支持孩子的心理健康",
     "link": "https://app.allinonewellbeing.com/videos/how-to-support-your-children-for-better-mental-health-1",
-    "date_created": "10/11/2024"
+    "date_created": "10/11/2024",
+    "category": "Parenting"
   },
   "ZH-00078": {
     "language": "Chinese",
@@ -62664,14 +62779,15 @@
   },
   "ZH-00057": {
     "language": "Chinese",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "peer_reviewer": "Shiyun Chen",
     "teacher": "Shiyun Chen",
     "type": "Video",
     "author": "Shiyun Chen",
     "title_original": "焦虑是什么",
     "link": "https://app.allinonewellbeing.com/videos/what-is-anxiety-chinese",
-    "date_created": "12/02/2024"
+    "date_created": "12/02/2024",
+    "category": "Mental Health"
   },
   "ZH-00058": {
     "language": "Chinese",
@@ -62705,13 +62821,14 @@
   },
   "ZH-00070": {
     "language": "Chinese",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "peer_reviewer": "Zao Chan Yap",
     "teacher": "Zao Chan Yap",
     "type": "Video",
     "author": "Zao Chan Yap",
     "title_original": "如何管理压力",
-    "link": "https://app.allinonewellbeing.com/videos/how-to-manage-stress-chinese"
+    "link": "https://app.allinonewellbeing.com/videos/how-to-manage-stress-chinese",
+    "category": "Stress Management"
   },
   "ZH-00088": {
     "language": "Chinese",
@@ -62758,24 +62875,26 @@
   },
   "ZH-00049": {
     "language": "Chinese",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "peer_reviewer": "Shiyun Chen",
     "teacher": "Shiyun Chen",
     "type": "Video",
     "author": "Shiyun Chen",
     "title_original": "学会说“不”",
     "link": "https://app.allinonewellbeing.com/videos/learn-to-say-no-1",
-    "date_created": "10/11/2024"
+    "date_created": "10/11/2024",
+    "category": "Mental Health"
   },
   "ZH-00053": {
     "language": "Chinese",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "peer_reviewer": "Shiyun Chen",
     "teacher": "Shiyun Chen",
     "type": "Video",
     "title_original": "了解你的内在小孩",
     "link": "https://app.allinonewellbeing.com/videos/knowing-and-connecting-your-inner-child-chinese",
-    "date_created": "10/11/2024"
+    "date_created": "10/11/2024",
+    "category": "Mental Health"
   },
   "ZH-00012": {
     "language": "Chinese",
@@ -62819,14 +62938,15 @@
   },
   "ZH-00040": {
     "language": "Chinese",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "peer_reviewer": "Shiyun Chen",
     "teacher": "Shiyun Chen",
     "author": "Nadia Murdock",
     "type": "Video",
     "title_original": "冲突管理",
     "link": "https://app.allinonewellbeing.com/videos/conflict-management-1",
-    "date_created": "10/11/2024"
+    "date_created": "10/11/2024",
+    "category": "Relationships"
   },
   "ZH-00038": {
     "language": "Chinese",
@@ -62864,24 +62984,26 @@
   },
   "ZH-00041": {
     "language": "Chinese",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "peer_reviewer": "Shiyun Chen",
     "teacher": "Shiyun Chen",
     "type": "Video",
     "title_original": "积极倾听",
     "link": "https://app.allinonewellbeing.com/videos/active-listening",
-    "date_created": "10/11/2024"
+    "date_created": "10/11/2024",
+    "category": "Communication"
   },
   "ZH-00071": {
     "language": "Chinese",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "peer_reviewer": "Zao Chan Yap",
     "teacher": "Zao Chan Yap",
     "author": "Zohar Adner",
     "duration": "10",
     "type": "Video",
     "title_original": "定义压力",
-    "link": "https://app.allinonewellbeing.com/videos/defining-stress-chinese"
+    "link": "https://app.allinonewellbeing.com/videos/defining-stress-chinese",
+    "category": "Stress Management"
   },
   "ZH-00031": {
     "language": "Chinese",
@@ -62956,13 +63078,14 @@
   },
   "ZH-00043": {
     "language": "Chinese",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "peer_reviewer": "Shiyun Chen",
     "teacher": "Shiyun Chen",
     "type": "Video",
     "title_original": "应对悲伤和失亲之痛",
     "link": "https://app.allinonewellbeing.com/videos/coping-with-grief-and-loss",
-    "date_created": "10/11/2024"
+    "date_created": "10/11/2024",
+    "category": "Mental Health"
   },
   "ZH-00029": {
     "language": "Chinese",
@@ -62977,14 +63100,15 @@
   },
   "ZH-00042": {
     "language": "Chinese",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "peer_reviewer": "Shiyun Chen",
     "teacher": "Shiyun Chen",
     "author": "Nadia Murdock",
     "type": "Video",
     "title_original": "培养韧性",
     "link": "https://app.allinonewellbeing.com/videos/building-resilience",
-    "date_created": "10/11/2024"
+    "date_created": "10/11/2024",
+    "category": "Mental Health"
   },
   "ZH-00005": {
     "language": "Chinese",
@@ -64419,12 +64543,13 @@
   },
   "FR-00087": {
     "peer_reviewer": "Margaux de Noiron",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Margaux de Noiron",
     "type": "Video",
     "title_original": "Comment travailler de manière productive en gérant les distractions",
     "link": "https://app.allinonewellbeing.com/videos/comment-travailler-de-maniere-productive-en-gerant-les-distractions-francais",
-    "date_created": "01/13/2025"
+    "date_created": "01/13/2025",
+    "category": "Workplace Wellness"
   },
   "AR-00045": {
     "peer_reviewer": "Nada Doueiry",
@@ -64498,12 +64623,13 @@
   },
   "FR-00083": {
     "peer_reviewer": "Margaux de Noiron",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Margaux de Noiron",
     "type": "Video",
     "title_original": "Apprenez à dire non",
     "link": "https://app.allinonewellbeing.com/videos/apprenez-a-dire-non-francais",
-    "date_created": "12/02/2024"
+    "date_created": "12/02/2024",
+    "category": "Mental Health"
   },
   "PL-00013": {
     "peer_reviewer": "Margo Gladys",
@@ -64518,14 +64644,15 @@
   },
   "DE-00021": {
     "peer_reviewer": "Julika Von Stackelberg",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Julika Von Stackelberg",
     "author": "Nadia Murdock",
     "duration": "3",
     "type": "Video",
     "title_original": "Mit Bestimmung lebt es sich besser",
     "link": "https://app.allinonewellbeing.com/videos/mit-bestimmung-lebt-es-sich-besser-deutsch",
-    "date_created": "05/20/2024"
+    "date_created": "05/20/2024",
+    "category": "Mental Health"
   },
   "EN-01858": {
     "peer_reviewer": "Dr. Joe Feuerstein",
@@ -64620,24 +64747,26 @@
   },
   "AR-00065": {
     "peer_reviewer": "Teriz Michael",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "author": "Dr. Ellie Cobb",
     "teacher": "Teriz Michael",
     "type": "Video",
     "title_original": "معرفة الطفل اللي جواك",
     "link": "https://app.allinonewellbeing.com/videos/knowing-your-inner-child-arabic",
-    "date_created": "09/12/2025"
+    "date_created": "09/12/2025",
+    "category": "Mental Health"
   },
   "FR-00085": {
     "peer_reviewer": "Margaux de Noiron",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Margaux de Noiron",
     "author": "Dr. Ellie Cobb",
     "duration": "3",
     "type": "Video",
     "title_original": "Connaître son enfant intérieur",
     "link": "https://app.allinonewellbeing.com/videos/connaitre-son-enfant-interieur-francais",
-    "date_created": "12/02/2024"
+    "date_created": "12/02/2024",
+    "category": "Mental Health"
   },
   "EN-01893": {
     "peer_reviewer": "Mercedez Meza",
@@ -64704,23 +64833,25 @@
   },
   "YUE-00002": {
     "peer_reviewer": "Mandy Lam",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "author": "Linda Johnson",
     "duration": "5",
     "teacher": "Mandy Lam",
     "type": "Video",
     "title_original": "精神休息嘅重要性",
     "link": "https://app.allinonewellbeing.com/videos/importance-of-mental-rest",
-    "date_created": "10/13/2025"
+    "date_created": "10/13/2025",
+    "category": "Mental Health"
   },
   "PL-00002": {
     "peer_reviewer": "Margo Gladys",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Margo Gladys",
     "type": "Video",
     "title_original": "Jak zarządzać stresem",
     "link": "https://app.allinonewellbeing.com/videos/jak-zarzadzac-stresem-polski",
-    "date_created": "03/14/2025"
+    "date_created": "03/14/2025",
+    "category": "Stress Management"
   },
   "PT-00011": {
     "peer_reviewer": "Mila Toribio",
@@ -64819,20 +64950,22 @@
   },
   "PT-00008": {
     "peer_reviewer": "Cris Di Dario",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Cris Di Dario",
     "type": "Video",
     "title_original": "Como - e por que - desafiar pensamentos negativos",
-    "link": "https://watch.caravanwellness.com/videos/como-e-por-que-desafiar-pensamentos-negativos-portugues"
+    "link": "https://watch.caravanwellness.com/videos/como-e-por-que-desafiar-pensamentos-negativos-portugues",
+    "category": "Mental Health"
   },
   "ES-00073": {
     "peer_reviewer": "Eneida Farro",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Eneida Farro",
     "type": "Video",
     "title_original": "Modelo de las emociones para ayudarnos a su regulación",
     "link": "https://app.allinonewellbeing.com/videos/modelo-de-las-emociones-para-ayudarnos-a-su-regulacion",
-    "date_created": "05/20/2024"
+    "date_created": "05/20/2024",
+    "category": "Mental Health"
   },
   "PT-00016": {
     "peer_reviewer": "Mila Toribio",
@@ -64887,24 +65020,26 @@
   },
   "AR-00011": {
     "peer_reviewer": "Dr. Hassan Nagy",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Dr. Hassan Nagy",
     "author": "Nadia Murdock",
     "type": "Video",
     "title_original": "ادارة حل النزاعات",
     "link": "https://app.allinonewellbeing.com/videos/conflict-management",
-    "date_created": "03/08/2024"
+    "date_created": "03/08/2024",
+    "category": "Relationships"
   },
   "FR-00076": {
     "peer_reviewer": "Margaux de Noiron",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Margaux de Noiron",
     "author": "Nadia Murdock",
     "duration": "3",
     "type": "Video",
     "title_original": "Gestion des conflits",
     "link": "https://app.allinonewellbeing.com/videos/gestion-des-conflits-francais-1",
-    "date_created": "12/02/2024"
+    "date_created": "12/02/2024",
+    "category": "Relationships"
   },
   "ES-00179": {
     "peer_reviewer": "Dr. David Sanchez",
@@ -64976,11 +65111,12 @@
   },
   "PT-00009": {
     "peer_reviewer": "Cris Di Dario",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Cris Di Dario",
     "type": "Video",
     "title_original": "Entendendo a conexão entre pensamentos, emoções e stress",
-    "link": "https://watch.caravanwellness.com/videos/entendendo-a-conexao-entre-pensamentos-emocoes-e-stress-portugues"
+    "link": "https://watch.caravanwellness.com/videos/entendendo-a-conexao-entre-pensamentos-emocoes-e-stress-portugues",
+    "category": "Mental Health"
   },
   "IT-00013": {
     "peer_reviewer": "Stefano Montanelli",
@@ -65004,12 +65140,13 @@
   },
   "HI-00020": {
     "peer_reviewer": "Sweta Srivastava Vikram",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Sweta Srivastava Vikram",
     "type": "Video",
     "title_original": "स्फूर्ति से ध्यान देना",
     "link": "https://app.allinonewellbeing.com/videos/active-listening-hindi",
-    "date_created": "12/09/2024"
+    "date_created": "12/09/2024",
+    "category": "Communication"
   },
   "AR-00048": {
     "peer_reviewer": "Nada Doueiry",
@@ -65066,12 +65203,13 @@
   },
   "FR-00089": {
     "peer_reviewer": "Margaux de Noiron",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Margaux de Noiron",
     "type": "Video",
     "title_original": "La leadership conscient",
     "link": "https://app.allinonewellbeing.com/videos/la-leadership-conscient-francais",
-    "date_created": "01/13/2025"
+    "date_created": "01/13/2025",
+    "category": "Workplace Wellness"
   },
   "DE-00035": {
     "peer_reviewer": "Jessica Cording",
@@ -65117,14 +65255,15 @@
   },
   "AR-00062": {
     "peer_reviewer": "Teriz Michael",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "author": "Dr. Ellie Cobb",
     "duration": "3",
     "teacher": "Teriz Michael",
     "type": "Video",
     "title_original": "قوة الابتسامة",
     "link": "https://app.allinonewellbeing.com/videos/power-of-smiling-arabic",
-    "date_created": "09/12/2025"
+    "date_created": "09/12/2025",
+    "category": "Mental Health"
   },
   "ES-00051": {
     "peer_reviewer": "Jon Anthony (Tony) Meyer",
@@ -65232,12 +65371,13 @@
   },
   "AR-00063": {
     "peer_reviewer": "Teriz Michael",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Teriz Michael",
     "type": "Video",
     "title_original": "عمل قائمة بالامتنان",
     "link": "https://app.allinonewellbeing.com/videos/making-a-gratitude-list-arabic",
-    "date_created": "09/12/2025"
+    "date_created": "09/12/2025",
+    "category": "Mental Health"
   },
   "EN-00260": {
     "peer_reviewer": "Briana Kurtz",
@@ -65359,20 +65499,22 @@
   },
   "ES-00033": {
     "peer_reviewer": "Dr. Laura Goorin",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Dr. Laura Goorin",
     "type": "Video",
     "title_original": "Afrontar el trauma o la pérdida",
-    "link": "https://watch.caravanwellness.com/videos/afrontar-el-trauma-o-la-perdida-espanol"
+    "link": "https://watch.caravanwellness.com/videos/afrontar-el-trauma-o-la-perdida-espanol",
+    "category": "Mental Health"
   },
   "PT-00040": {
     "peer_reviewer": "Cris Di Dario",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Cris Di Dario",
     "type": "Video",
     "title_original": "Lidando com o luto e a perda",
     "link": "https://watch.caravanwellness.com/videos/lidando-com-o-luto-e-a-perda-portugues",
-    "date_created": "04/05/2024"
+    "date_created": "04/05/2024",
+    "category": "Mental Health"
   },
   "EN-01761": {
     "peer_reviewer": "Dr. David Sanchez",
@@ -65460,21 +65602,23 @@
   },
   "ES-00155": {
     "peer_reviewer": "Victor Pereira Sanchez",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Victor Pereira Sanchez",
     "type": "Video",
     "title_original": "Construyendo Relaciones - Amistades",
     "link": "https://app.allinonewellbeing.com/videos/construyendo-relaciones-amistades-espanol",
-    "date_created": "11/18/2024"
+    "date_created": "11/18/2024",
+    "category": "Relationships"
   },
   "AR-00029": {
     "peer_reviewer": "Dr. Hassan Nagy",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Dr. Hassan Nagy",
     "type": "Video",
     "title_original": "علاقة صحية مع التكنولوجيا",
     "link": "https://app.allinonewellbeing.com/videos/healthy-relationship-with-technology",
-    "date_created": "11/18/2024"
+    "date_created": "11/18/2024",
+    "category": "Mental Health"
   },
   "FR-00071": {
     "peer_reviewer": "Hafsa Benzzi",
@@ -65646,12 +65790,13 @@
   },
   "PT-00033": {
     "peer_reviewer": "Cris Di Dario",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Cris Di Dario",
     "type": "Video",
     "title_original": "Identificando o seu propósito",
     "link": "https://watch.caravanwellness.com/videos/identificando-o-seu-proposito-portugues",
-    "date_created": "04/05/2024"
+    "date_created": "04/05/2024",
+    "category": "Mental Health"
   },
   "EN-01806": {
     "peer_reviewer": "Dr. Cherilyn Davis",
@@ -65706,12 +65851,13 @@
   },
   "PT-00031": {
     "peer_reviewer": "Cris Di Dario",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Cris Di Dario",
     "type": "Video",
     "title_original": "Conhecendo seus valores",
     "link": "https://watch.caravanwellness.com/videos/conhecendo-seus-valores-portugues",
-    "date_created": "04/05/2024"
+    "date_created": "04/05/2024",
+    "category": "Mental Health"
   },
   "EN-01871": {
     "peer_reviewer": "Soja Moore",
@@ -65735,12 +65881,13 @@
   },
   "AR-00017": {
     "peer_reviewer": "Dr. Hassan Nagy",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Dr. Hassan Nagy",
     "type": "Video",
     "title_original": "تخطي الفقد والحزن",
     "link": "https://watch.caravanwellness.com/videos/coping-with-grief-loss",
-    "date_created": "03/08/2024"
+    "date_created": "03/08/2024",
+    "category": "Mental Health"
   },
   "DE-00051": {
     "peer_reviewer": "Isabel Kirsch",
@@ -65753,34 +65900,37 @@
   },
   "FR-00078": {
     "peer_reviewer": "Margaux de Noiron",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Margaux de Noiron",
     "type": "Video",
     "title_original": "Faire face au deuil et à la perte",
     "link": "https://app.allinonewellbeing.com/videos/faire-face-au-deuil-et-a-la-perte-francais",
-    "date_created": "12/02/2024"
+    "date_created": "12/02/2024",
+    "category": "Mental Health"
   },
   "AR-00067": {
     "peer_reviewer": "Teriz Michael",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "author": "Nadia Murdock",
     "duration": "3",
     "teacher": "Teriz Michael",
     "type": "Video",
     "title_original": "بناء المرونة",
     "link": "https://app.allinonewellbeing.com/videos/building-resilience-arabic",
-    "date_created": "09/12/2025"
+    "date_created": "09/12/2025",
+    "category": "Mental Health"
   },
   "FR-00081": {
     "peer_reviewer": "Margaux de Noiron",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Margaux de Noiron",
     "author": "Nadia Murdock",
     "duration": "3",
     "type": "Video",
     "title_original": "Construire la résilience",
     "link": "https://app.allinonewellbeing.com/videos/construire-la-resilience-francais",
-    "date_created": "12/02/2024"
+    "date_created": "12/02/2024",
+    "category": "Mental Health"
   },
   "PT-00078": {
     "peer_reviewer": "Mila Toribio",
@@ -65923,13 +66073,14 @@
   },
   "ES-00068": {
     "peer_reviewer": "Eneida Farro",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Eneida Farro",
     "author": "Zach Bourne",
     "type": "Video",
     "title_original": "Reconfigure su cerebro",
     "link": "https://app.allinonewellbeing.com/videos/reconfigure-su-cerebro",
-    "date_created": "05/20/2024"
+    "date_created": "05/20/2024",
+    "category": "Mental Health"
   },
   "EN-00289": {
     "peer_reviewer": "Hailey Miller",
@@ -66003,12 +66154,13 @@
   },
   "FR-00067": {
     "peer_reviewer": "Hafsa Benzzi",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Hafsa Benzzi",
     "type": "Video",
     "title_original": "Qu’est-ce que la dépression?",
     "link": "https://app.allinonewellbeing.com/videos/what-is-depression-1",
-    "date_created": "11/18/2024"
+    "date_created": "11/18/2024",
+    "category": "Mental Health"
   },
   "EN-00092": {
     "peer_reviewer": "Victoria Davis",
@@ -66157,14 +66309,15 @@
   },
   "HI-00012": {
     "peer_reviewer": "Sweta Srivastava Vikram",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Sweta Srivastava Vikram",
     "author": "Nadia Murdock",
     "duration": "3",
     "type": "Video",
     "title_original": "उद्देश्य ढूँढना",
     "link": "https://app.allinonewellbeing.com/videos/finding-purpose-hinidi",
-    "date_created": "12/09/2024"
+    "date_created": "12/09/2024",
+    "category": "Mental Health"
   },
   "ES-00057": {
     "peer_reviewer": "Jon Anthony (Tony) Meyer",
@@ -66233,23 +66386,25 @@
   },
   "FR-00091": {
     "peer_reviewer": "Margaux de Noiron",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Margaux de Noiron",
     "author": "Linda Johnson",
     "type": "Video",
     "title_original": "Faire une présentation en toute confiance",
     "link": "https://app.allinonewellbeing.com/videos/faire-une-presentation-en-toute-confiance-francais",
-    "date_created": "01/13/2025"
+    "date_created": "01/13/2025",
+    "category": "Mental Health"
   },
   "ES-00090": {
     "peer_reviewer": "Eneida Farro",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Eneida Farro",
     "type": "Video",
     "title_original": "Saber cuándo buscar ayuda profesional/de emergencia",
     "link": "https://app.allinonewellbeing.com/videos/saber-cuando-buscar-ayuda-profesional-de-emergencia",
     "author": "Kaitlyn Bruneau",
-    "date_created": "06/24/2024"
+    "date_created": "06/24/2024",
+    "category": "Mental Health"
   },
   "IT-00035": {
     "peer_reviewer": "Asia Rosso",
@@ -66270,12 +66425,13 @@
   },
   "ES-00027": {
     "peer_reviewer": "Nicole Guerrero",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "author": "Nadia Murdock",
     "teacher": "Nicole Guerrero",
     "type": "Video",
     "title_original": "Construyendo resiliencia",
-    "link": "https://watch.caravanwellness.com/videos/construyendo-resiliencia"
+    "link": "https://watch.caravanwellness.com/videos/construyendo-resiliencia",
+    "category": "Mental Health"
   },
   "EN-00093": {
     "peer_reviewer": "Victoria Davis",
@@ -66438,12 +66594,13 @@
   },
   "PT-00038": {
     "peer_reviewer": "Cris Di Dario",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Cris Di Dario",
     "type": "Video",
     "title_original": "Praticando consciencia emocional",
     "link": "https://watch.caravanwellness.com/videos/praticando-consciencia-emocional-portugues",
-    "date_created": "04/05/2024"
+    "date_created": "04/05/2024",
+    "category": "Mental Health"
   },
   "IT-00006": {
     "peer_reviewer": "Ilaria Chiantore",
@@ -66508,13 +66665,14 @@
   },
   "FR-00090": {
     "peer_reviewer": "Margaux de Noiron",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Margaux de Noiron",
     "author": "Linda Johnson",
     "type": "Video",
     "title_original": "Devenir mentor",
     "link": "https://app.allinonewellbeing.com/videos/devenir-mentor-francais",
-    "date_created": "01/13/2025"
+    "date_created": "01/13/2025",
+    "category": "Workplace Wellness"
   },
   "TH-00004": {
     "peer_reviewer": "Nathaorn Wanganutara",
@@ -66800,13 +66958,14 @@
   },
   "ES-00065": {
     "peer_reviewer": "Eneida Farro",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Eneida Farro",
     "author": "Zach Bourne",
     "type": "Video",
     "title_original": "Levantarse feliz",
     "link": "https://app.allinonewellbeing.com/videos/levantarse-feliz",
-    "date_created": "05/06/2024"
+    "date_created": "05/06/2024",
+    "category": "Mental Health"
   },
   "IT-00027": {
     "peer_reviewer": "Asia Rosso",
@@ -67049,14 +67208,15 @@
   },
   "PL-00001": {
     "peer_reviewer": "Margo Gladys",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Margo Gladys",
     "author": "Zohar Adner",
     "duration": "10",
     "type": "Video",
     "title_original": "Co to jest stres",
     "link": "https://app.allinonewellbeing.com/videos/co-to-jest-stres-polski",
-    "date_created": "03/14/2025"
+    "date_created": "03/14/2025",
+    "category": "Stress Management"
   },
   "AR-00025": {
     "peer_reviewer": "Dr. Hassan Nagy",
@@ -67139,12 +67299,13 @@
   },
   "DE-00020": {
     "peer_reviewer": "Julika Von Stackelberg",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Julika Von Stackelberg",
     "type": "Video",
     "title_original": "Mit Absicht leben",
     "link": "https://app.allinonewellbeing.com/videos/mit-absicht-leben-deutsch",
-    "date_created": "05/20/2024"
+    "date_created": "05/20/2024",
+    "category": "Mental Health"
   },
   "KO-00005": {
     "peer_reviewer": "Sally Choi",
@@ -67281,14 +67442,15 @@
   },
   "ES-00148": {
     "peer_reviewer": "Victor Pereira Sanchez",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Victor Pereira Sanchez",
     "author": "Zohar Adner",
     "duration": "10",
     "type": "Video",
     "title_original": "¿Qué es el estrés?",
     "link": "https://app.allinonewellbeing.com/videos/que-es-el-estres-espanol",
-    "date_created": "11/18/2024"
+    "date_created": "11/18/2024",
+    "category": "Stress Management"
   },
   "ES-00013": {
     "peer_reviewer": "Dublin Salas",
@@ -67300,14 +67462,15 @@
   },
   "ES-00071": {
     "peer_reviewer": "Eneida Farro",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Eneida Farro",
     "author": "Jessica Cording",
     "duration": "10",
     "type": "Video",
     "title_original": "Higiene del sueno",
     "link": "https://app.allinonewellbeing.com/videos/higiene-del-sueno",
-    "date_created": "05/20/2024"
+    "date_created": "05/20/2024",
+    "category": "Sleep"
   },
   "PT-00077": {
     "peer_reviewer": "Mila Toribio",
@@ -67331,13 +67494,14 @@
   },
   "AR-00016": {
     "peer_reviewer": "Dr. Hassan Nagy",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Dr. Hassan Nagy",
     "author": "Nadia Murdock",
     "type": "Video",
     "title_original": "ايجاد الهدف",
     "link": "https://watch.caravanwellness.com/videos/finding-purpose-1",
-    "date_created": "03/08/2024"
+    "date_created": "03/08/2024",
+    "category": "Mental Health"
   },
   "FR-00016": {
     "peer_reviewer": "Manon Hallay",
@@ -67349,12 +67513,13 @@
   },
   "ES-00028": {
     "peer_reviewer": "Nicole Guerrero",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "author": "Nadia Murdock",
     "teacher": "Nicole Guerrero",
     "type": "Video",
     "title_original": "Manejo de conflictos",
-    "link": "https://watch.caravanwellness.com/videos/manejo-de-conflictos"
+    "link": "https://watch.caravanwellness.com/videos/manejo-de-conflictos",
+    "category": "Relationships"
   },
   "AR-00032": {
     "peer_reviewer": "Nada Doueiry",
@@ -67450,13 +67615,14 @@
   },
   "YUE-00003": {
     "peer_reviewer": "Mandy Lam",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Mandy Lam",
     "type": "Video",
     "author": "Mandy Lam",
     "title_original": "設定健康嘅界限",
     "link": "https://app.allinonewellbeing.com/videos/setting-healthy-boundaries",
-    "date_created": "10/13/2025"
+    "date_created": "10/13/2025",
+    "category": "Mental Health"
   },
   "EN-00162": {
     "peer_reviewer": "Briana Kurtz",
@@ -67517,13 +67683,14 @@
   },
   "ES-00058": {
     "peer_reviewer": "Eneida Farro",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Eneida Farro",
     "type": "Video",
     "author": "Eneida Farro",
     "title_original": "Conociendo y conectando con tu niño interior",
     "link": "https://app.allinonewellbeing.com/videos/conociendo-y-conectando-con-tu-nino-interior",
-    "date_created": "05/06/2024"
+    "date_created": "05/06/2024",
+    "category": "Mental Health"
   },
   "PT-00018": {
     "peer_reviewer": "Mila Toribio",
@@ -67537,14 +67704,15 @@
   },
   "ES-00063": {
     "peer_reviewer": "Eneida Farro",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Eneida Farro",
     "author": "Eneida Farro",
     "duration": "3",
     "type": "Video",
     "title_original": "El poder de la sonrisa",
     "link": "https://app.allinonewellbeing.com/videos/el-poder-de-la-sonrisa",
-    "date_created": "05/06/2024"
+    "date_created": "05/06/2024",
+    "category": "Mental Health"
   },
   "EN-01885": {
     "peer_reviewer": "Crystal Williams",
@@ -67588,13 +67756,14 @@
   },
   "ES-00074": {
     "peer_reviewer": "Eneida Farro",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Eneida Farro",
     "type": "Video",
     "author": "Eneida Farro",
     "title_original": "Cambiando nuestra relación con las emociones",
     "link": "https://app.allinonewellbeing.com/videos/cambiando-nuestra-relacion-con-las-emociones",
-    "date_created": "05/20/2024"
+    "date_created": "05/20/2024",
+    "category": "Mental Health"
   },
   "EN-01890": {
     "peer_reviewer": "Mercedez Meza",
@@ -67769,14 +67938,15 @@
   },
   "ES-00060": {
     "peer_reviewer": "Eneida Farro",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Eneida Farro",
     "author": "Eneida Farro",
     "duration": "3",
     "type": "Video",
     "title_original": "Respiración profunda con colores",
     "link": "https://app.allinonewellbeing.com/videos/respiracion-profunda-con-colores",
-    "date_created": "05/06/2024"
+    "date_created": "05/06/2024",
+    "category": "Mental Health"
   },
   "NL-00009": {
     "peer_reviewer": "Truike Boekholt",
@@ -67829,14 +67999,15 @@
   },
   "DE-00019": {
     "peer_reviewer": "Julika Von Stackelberg",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Julika Von Stackelberg",
     "author": "Julika Von Stackelberg",
     "duration": "3",
     "type": "Video",
     "title_original": "Konfliktresilienz",
     "link": "https://app.allinonewellbeing.com/videos/konfliktresilienz-deutsch",
-    "date_created": "05/20/2024"
+    "date_created": "05/20/2024",
+    "category": "Relationships"
   },
   "EN-01731": {
     "peer_reviewer": "Sadiya Shackey-El",
@@ -67852,14 +68023,15 @@
   },
   "ES-00156": {
     "peer_reviewer": "Victor Pereira Sanchez",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Victor Pereira Sanchez",
     "author": "Victor Pereira Sanchez",
     "duration": "3",
     "type": "Video",
     "title_original": "Encontrar propósito",
     "link": "https://app.allinonewellbeing.com/videos/encontrar-proposito-espanol",
-    "date_created": "11/18/2024"
+    "date_created": "11/18/2024",
+    "category": "Mental Health"
   },
   "ES-00115": {
     "peer_reviewer": "Dr. Damaris Raymondi",
@@ -67967,13 +68139,14 @@
   },
   "FR-00066": {
     "peer_reviewer": "Hafsa Benzzi",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Hafsa Benzzi",
     "type": "Video",
     "author": "Hafsa Benzzi",
     "title_original": "Les différents types de troubles mentaux",
     "link": "https://app.allinonewellbeing.com/videos/types-of-mental-disorders-2",
-    "date_created": "11/18/2024"
+    "date_created": "11/18/2024",
+    "category": "Mental Health"
   },
   "PT-00049": {
     "peer_reviewer": "Mila Toribio",
@@ -67987,13 +68160,14 @@
   },
   "AR-00012": {
     "peer_reviewer": "Dr. Hassan Nagy",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Dr. Hassan Nagy",
     "type": "Video",
     "author": "Dr. Hassan Nagy",
     "title_original": "تعريف الثقة بالنفس",
     "link": "https://app.allinonewellbeing.com/videos/defining-confidence-1",
-    "date_created": "03/08/2024"
+    "date_created": "03/08/2024",
+    "category": "Mental Health"
   },
   "EN-00136": {
     "peer_reviewer": "Alex Scolari",
@@ -68020,13 +68194,14 @@
   },
   "AR-00018": {
     "peer_reviewer": "Dr. Hassan Nagy",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Dr. Hassan Nagy",
     "type": "Video",
     "author": "Dr. Hassan Nagy",
     "title_original": "كيف تدعم اطفالك من اجل صحة نفسية افضل",
     "link": "https://watch.caravanwellness.com/videos/how-to-support-your-children-for-better-mental-health",
-    "date_created": "03/08/2024"
+    "date_created": "03/08/2024",
+    "category": "Parenting"
   },
   "ES-00104": {
     "peer_reviewer": "Ana Gaston",
@@ -68177,14 +68352,15 @@
   },
   "ES-00087": {
     "peer_reviewer": "Eneida Farro",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Eneida Farro",
     "author": "Eneida Farro",
     "duration": "5",
     "type": "Video",
     "title_original": "Reconocer los signos de una crisis de salud mental",
     "link": "https://app.allinonewellbeing.com/videos/reconocer-los-signos-de-una-crisis-de-salud-mental-espanol",
-    "date_created": "06/24/2024"
+    "date_created": "06/24/2024",
+    "category": "Mental Health"
   },
   "PT-00055": {
     "peer_reviewer": "Gisele Espin",
@@ -68208,12 +68384,13 @@
   },
   "DE-00023": {
     "peer_reviewer": "Julika Von Stackelberg",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Julika Von Stackelberg",
     "type": "Video",
     "author": "Julika Von Stackelberg",
     "title_original": "Technologie und Wohlbefinden",
-    "link": "https://app.allinonewellbeing.com/videos/technologie-und-wohlbefinden"
+    "link": "https://app.allinonewellbeing.com/videos/technologie-und-wohlbefinden",
+    "category": "Mental Health"
   },
   "NL-00022": {
     "peer_reviewer": "Anna-Belle Buyse",
@@ -68547,13 +68724,14 @@
   },
   "FR-00092": {
     "peer_reviewer": "Margaux de Noiron",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Margaux de Noiron",
     "author": "Margaux de Noiron",
     "type": "Video",
     "title_original": "Batir la confiance dans les équipes",
     "link": "https://app.allinonewellbeing.com/videos/batir-la-confiance-dans-les-equipes-francais",
-    "date_created": "01/13/2025"
+    "date_created": "01/13/2025",
+    "category": "Workplace Wellness"
   },
   "FR-00041": {
     "peer_reviewer": "Sandrine Marlier",
@@ -68704,13 +68882,14 @@
   },
   "ES-00059": {
     "peer_reviewer": "Eneida Farro",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Eneida Farro",
     "type": "Video",
     "author": "Eneida Farro",
     "title_original": "Un ejercicio para sanar tu niño interior",
     "link": "https://app.allinonewellbeing.com/videos/un-ejercicio-para-sanar-tu-nino-interior",
-    "date_created": "05/06/2024"
+    "date_created": "05/06/2024",
+    "category": "Mental Health"
   },
   "EN-01848": {
     "peer_reviewer": "Katie Attubato",
@@ -68777,13 +68956,14 @@
   },
   "FR-00082": {
     "peer_reviewer": "Margaux de Noiron",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Margaux de Noiron",
     "author": "Margaux de Noiron",
     "type": "Video",
     "title_original": "Construire des relations et des amitiés",
     "link": "https://app.allinonewellbeing.com/videos/construire-des-relations-et-des-amities-francais",
-    "date_created": "12/02/2024"
+    "date_created": "12/02/2024",
+    "category": "Relationships"
   },
   "ES-00173": {
     "peer_reviewer": "Victor Pereira Sanchez",
@@ -68836,13 +69016,14 @@
   },
   "ES-00085": {
     "peer_reviewer": "Eneida Farro",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Eneida Farro",
     "type": "Video",
     "author": "Eneida Farro",
     "title_original": "Emoción opuesta para despegarse",
     "link": "https://app.allinonewellbeing.com/videos/emocion-opuesta-para-despegarse",
-    "date_created": "05/20/2024"
+    "date_created": "05/20/2024",
+    "category": "Mental Health"
   },
   "PL-00006": {
     "category": "Personality Clip",
@@ -68972,12 +69153,13 @@
   },
   "ES-00026": {
     "peer_reviewer": "Nicole Guerrero",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "author": "Nicole Guerrero",
     "teacher": "Nicole Guerrero",
     "type": "Video",
     "title_original": "Manejo del estrés",
-    "link": "https://watch.caravanwellness.com/videos/manejo-del-estres"
+    "link": "https://watch.caravanwellness.com/videos/manejo-del-estres",
+    "category": "Stress Management"
   },
   "ES-00167": {
     "peer_reviewer": "Victor Pereira Sanchez",
@@ -68990,13 +69172,14 @@
   },
   "HI-00011": {
     "peer_reviewer": "Sweta Srivastava Vikram",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Sweta Srivastava Vikram",
     "type": "Video",
     "author": "Sweta Srivastava Vikram",
     "title_original": "तनाव को कैसे प्रबंधित करें",
     "link": "https://app.allinonewellbeing.com/videos/how-to-manage-stress-hinidi",
-    "date_created": "12/09/2024"
+    "date_created": "12/09/2024",
+    "category": "Stress Management"
   },
   "AR-00021": {
     "peer_reviewer": "Dr. Hassan Nagy",
@@ -69011,12 +69194,13 @@
   },
   "PT-00035": {
     "peer_reviewer": "Cris Di Dario",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Cris Di Dario",
     "type": "Video",
     "author": "Cris Di Dario",
     "title_original": "Encontrando a felicidade agora",
-    "link": "https://watch.caravanwellness.com/videos/encontrando-a-felicidade-agora-portugues"
+    "link": "https://watch.caravanwellness.com/videos/encontrando-a-felicidade-agora-portugues",
+    "category": "Mental Health"
   },
   "FR-00013": {
     "peer_reviewer": "Manon Hallay",
@@ -69348,13 +69532,14 @@
   },
   "HI-00019": {
     "peer_reviewer": "Sweta Srivastava Vikram",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Sweta Srivastava Vikram",
     "type": "Video",
     "author": "Sweta Srivastava Vikram",
     "title_original": "ना कहना सीखें",
     "link": "https://app.allinonewellbeing.com/videos/learn-to-say-no-hindi",
-    "date_created": "12/09/2024"
+    "date_created": "12/09/2024",
+    "category": "Mental Health"
   },
   "EN-01859": {
     "peer_reviewer": "Dr. Joe Feuerstein",
@@ -69416,13 +69601,14 @@
   },
   "AR-00064": {
     "peer_reviewer": "Teriz Michael",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Teriz Michael",
     "type": "Video",
     "author": "Teriz Michael",
     "title_original": "إزّاي تقول لأ",
     "link": "https://app.allinonewellbeing.com/videos/how-to-say-no-arabic",
-    "date_created": "09/12/2025"
+    "date_created": "09/12/2025",
+    "category": "Mental Health"
   },
   "AR-00066": {
     "peer_reviewer": "Teriz Michael",
@@ -69820,12 +70006,13 @@
   },
   "ES-00086": {
     "peer_reviewer": "Eneida Farro",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Eneida Farro",
     "type": "Video",
     "author": "Eneida Farro",
     "title_original": "La organización como forma de autocuidado y bienestar",
-    "link": "https://app.allinonewellbeing.com/videos/la-organizacion-como-forma-de-autocuidado-y-bienestar-espanol"
+    "link": "https://app.allinonewellbeing.com/videos/la-organizacion-como-forma-de-autocuidado-y-bienestar-espanol",
+    "category": "Mental Health"
   },
   "FR-00064": {
     "peer_reviewer": "Angéline Galinier-Warrain",
@@ -69906,22 +70093,24 @@
   },
   "ES-00088": {
     "peer_reviewer": "Eneida Farro",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Eneida Farro",
     "type": "Video",
     "author": "Eneida Farro",
     "title_original": "Cómo interactuar de forma segura con una persona en crisis",
     "link": "https://app.allinonewellbeing.com/videos/como-interactuar-de-forma-segura-con-una-persona-en-crisis",
-    "date_created": "06/24/2024"
+    "date_created": "06/24/2024",
+    "category": "Mental Health"
   },
   "PT-00034": {
     "peer_reviewer": "Cris Di Dario",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Cris Di Dario",
     "type": "Video",
     "author": "Cris Di Dario",
     "title_original": "A vulnerabilidade gera conexões",
-    "link": "https://watch.caravanwellness.com/videos/a-vulnerabilidade-gera-conexoes-portugues"
+    "link": "https://watch.caravanwellness.com/videos/a-vulnerabilidade-gera-conexoes-portugues",
+    "category": "Relationships"
   },
   "HI-00016": {
     "peer_reviewer": "Sweta Srivastava Vikram",
@@ -69982,14 +70171,15 @@
   },
   "HI-00023": {
     "peer_reviewer": "Veera Mookerjee",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "author": "Veera Mookerjee",
     "duration": "3",
     "teacher": "Veera Mookerjee",
     "type": "Video",
     "title_original": "विवाद प्रबंधन",
     "link": "https://app.allinonewellbeing.com/videos/conflict-management-hindi",
-    "date_created": "02/03/2025"
+    "date_created": "02/03/2025",
+    "category": "Relationships"
   },
   "AR-00010": {
     "peer_reviewer": "Dr. Hassan Nagy",
@@ -70003,13 +70193,14 @@
   },
   "ES-00089": {
     "peer_reviewer": "Eneida Farro",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Eneida Farro",
     "type": "Video",
     "author": "Eneida Farro",
     "title_original": "Técnicas de desescalada",
     "link": "https://app.allinonewellbeing.com/videos/tecnicas-de-desescalada",
-    "date_created": "06/24/2024"
+    "date_created": "06/24/2024",
+    "category": "Communication"
   },
   "EN-01729": {
     "peer_reviewer": "Sadiya Shackey-El",
@@ -70045,13 +70236,14 @@
   },
   "ES-00069": {
     "peer_reviewer": "Eneida Farro",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Eneida Farro",
     "type": "Video",
     "author": "Eneida Farro",
     "title_original": "Tapping o pulsando para la ansiedad",
     "link": "https://app.allinonewellbeing.com/videos/tapping-o-pulsando-para-la-ansiedad",
-    "date_created": "05/20/2024"
+    "date_created": "05/20/2024",
+    "category": "Meditation"
   },
   "ES-00102": {
     "peer_reviewer": "Ana Gaston",
@@ -70115,42 +70307,46 @@
   },
   "FR-00088": {
     "peer_reviewer": "Margaux de Noiron",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Margaux de Noiron",
     "type": "Video",
     "author": "Margaux de Noiron",
     "title_original": "Comment définir et atteindre vos objectifs",
     "link": "https://app.allinonewellbeing.com/videos/comment-definir-et-atteindre-vos-objectifs-francais",
-    "date_created": "01/13/2025"
+    "date_created": "01/13/2025",
+    "category": "Mental Health"
   },
   "ES-00075": {
     "peer_reviewer": "Eneida Farro",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Eneida Farro",
     "type": "Video",
     "author": "Eneida Farro",
     "title_original": "Creando experiencias positivas",
     "link": "https://app.allinonewellbeing.com/videos/creando-experiencias-positivas",
-    "date_created": "05/20/2024"
+    "date_created": "05/20/2024",
+    "category": "Mental Health"
   },
   "DE-00025": {
     "peer_reviewer": "Julika Von Stackelberg",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Julika Von Stackelberg",
     "type": "Video",
     "author": "Julika Von Stackelberg",
     "title_original": "Mensch, Natur, Wohlbefinden",
-    "link": "https://app.allinonewellbeing.com/videos/mensch-natur-wohlbefinden"
+    "link": "https://app.allinonewellbeing.com/videos/mensch-natur-wohlbefinden",
+    "category": "Mental Health"
   },
   "PT-00036": {
     "peer_reviewer": "Cris Di Dario",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Cris Di Dario",
     "type": "Video",
     "author": "Cris Di Dario",
     "title_original": "Vivendo com intenção",
     "link": "https://watch.caravanwellness.com/videos/vivendo-com-intencao-portugues",
-    "date_created": "04/05/2024"
+    "date_created": "04/05/2024",
+    "category": "Mental Health"
   },
   "AR-00028": {
     "peer_reviewer": "Dr. Hassan Nagy",
@@ -70247,22 +70443,24 @@
   },
   "PT-00007": {
     "peer_reviewer": "Cris Di Dario",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Cris Di Dario",
     "type": "Video",
     "author": "Cris Di Dario",
     "title_original": "Como gerenciar o stress",
-    "link": "https://app.allinonewellbeing.com/videos/how-to-manage-mental-stress-portugese"
+    "link": "https://app.allinonewellbeing.com/videos/how-to-manage-mental-stress-portugese",
+    "category": "Stress Management"
   },
   "FR-00086": {
     "peer_reviewer": "Margaux de Noiron",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Margaux de Noiron",
     "author": "Margaux de Noiron",
     "type": "Video",
     "title_original": "Conseils de gestion du temps",
     "link": "https://app.allinonewellbeing.com/videos/conseils-de-gestion-du-temps-francais",
-    "date_created": "01/13/2025"
+    "date_created": "01/13/2025",
+    "category": "Workplace Wellness"
   },
   "ES-00180": {
     "peer_reviewer": "Dr. David Sanchez",
@@ -70366,12 +70564,13 @@
   },
   "PT-00010": {
     "peer_reviewer": "Cris Di Dario",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Cris Di Dario",
     "type": "Video",
     "author": "Cris Di Dario",
     "title_original": "Como e por que cultivar a autocompaixão",
-    "link": "https://watch.caravanwellness.com/videos/como-e-por-que-cultivar-a-autocompaixao-portugues"
+    "link": "https://watch.caravanwellness.com/videos/como-e-por-que-cultivar-a-autocompaixao-portugues",
+    "category": "Mental Health"
   },
   "EN-00291": {
     "peer_reviewer": "Christina Ionno",
@@ -70423,14 +70622,15 @@
   },
   "AR-00061": {
     "peer_reviewer": "Teriz Michael",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "author": "Teriz Michael",
     "duration": "5",
     "teacher": "Teriz Michael",
     "type": "Video",
     "title_original": "أهمية الراحة الذهنية",
     "link": "https://app.allinonewellbeing.com/videos/importance-of-mental-rest-arabic",
-    "date_created": "09/12/2025"
+    "date_created": "09/12/2025",
+    "category": "Mental Health"
   },
   "NL-00005": {
     "peer_reviewer": "Anna-Belle Buyse",
@@ -70443,13 +70643,14 @@
   },
   "ES-00091": {
     "peer_reviewer": "Eneida Farro",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Eneida Farro",
     "author": "Eneida Farro",
     "type": "Video",
     "title_original": "Autocuidado después de ayudar a alguien en crisis",
     "link": "https://app.allinonewellbeing.com/videos/autocuidado-despues-de-ayudar-a-alguien-en-crisis",
-    "date_created": "06/24/2024"
+    "date_created": "06/24/2024",
+    "category": "Mental Health"
   },
   "ES-00161": {
     "peer_reviewer": "Dr. Ricardo Fuentes",
@@ -70529,13 +70730,14 @@
   },
   "FR-00077": {
     "peer_reviewer": "Margaux de Noiron",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Margaux de Noiron",
     "type": "Video",
     "author": "Margaux de Noiron",
     "title_original": "Vivre avec intention",
     "link": "https://app.allinonewellbeing.com/videos/vivre-avec-intention-francais",
-    "date_created": "12/02/2024"
+    "date_created": "12/02/2024",
+    "category": "Mental Health"
   },
   "PT-00022": {
     "peer_reviewer": "Cris Di Dario",
@@ -70578,13 +70780,14 @@
   },
   "AR-00014": {
     "peer_reviewer": "Dr. Hassan Nagy",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Dr. Hassan Nagy",
     "type": "Video",
     "author": "Dr. Hassan Nagy",
     "title_original": "زراعة حب وتقدير النفس",
     "link": "https://app.allinonewellbeing.com/videos/cultivating-self-compassion",
-    "date_created": "03/08/2024"
+    "date_created": "03/08/2024",
+    "category": "Mental Health"
   },
   "TH-00007": {
     "peer_reviewer": "Nathaorn Wanganutara",
@@ -70643,33 +70846,36 @@
   },
   "AR-00015": {
     "peer_reviewer": "Dr. Hassan Nagy",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Dr. Hassan Nagy",
     "type": "Video",
     "author": "Dr. Hassan Nagy",
     "title_original": "ما هو الوعي العاطفي",
     "link": "https://app.allinonewellbeing.com/videos/what-is-emotional-awareness",
-    "date_created": "03/08/2024"
+    "date_created": "03/08/2024",
+    "category": "Mental Health"
   },
   "FR-00080": {
     "peer_reviewer": "Margaux de Noiron",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Margaux de Noiron",
     "type": "Video",
     "author": "Margaux de Noiron",
     "title_original": "Qu'est-ce que la conscience émotionnelle",
     "link": "https://app.allinonewellbeing.com/videos/qu-est-ce-que-la-conscience-emotionnelle-francais",
-    "date_created": "12/02/2024"
+    "date_created": "12/02/2024",
+    "category": "Mental Health"
   },
   "HI-00018": {
     "peer_reviewer": "Sweta Srivastava Vikram",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Sweta Srivastava Vikram",
     "type": "Video",
     "author": "Sweta Srivastava Vikram",
     "title_original": "प्रौद्योगिकी के साथ स्वस्थ संबंध",
     "link": "https://app.allinonewellbeing.com/videos/healthy-relationship-with-technology-hindi",
-    "date_created": "12/09/2024"
+    "date_created": "12/09/2024",
+    "category": "Mental Health"
   },
   "HI-00026": {
     "peer_reviewer": "Veera Mookerjee",
@@ -70773,12 +70979,13 @@
   },
   "DE-00024": {
     "peer_reviewer": "Julika Von Stackelberg",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "teacher": "Julika Von Stackelberg",
     "type": "Video",
     "author": "Julika Von Stackelberg",
     "title_original": "Künstliche Intelligenz und geistiges Wohlbefinden",
-    "link": "https://app.allinonewellbeing.com/videos/kunstliche-intelligenz-und-geistiges-wohlbefinden-deutsch"
+    "link": "https://app.allinonewellbeing.com/videos/kunstliche-intelligenz-und-geistiges-wohlbefinden-deutsch",
+    "category": "Mental Health"
   },
   "TH-00005": {
     "peer_reviewer": "Nathaorn Wanganutara",
@@ -70883,12 +71090,13 @@
   },
   "VID-1855": {
     "author": "Mercedez Meza",
-    "_at": "2026-08-14T14:13:12.825Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "language": "English",
     "peer_reviewer": "Marlee Alanis",
     "teacher": "Mercedez Meza",
     "vimeo_link": "https://vimeo.com/1214272979/b3ee18b24e?share=copy&fl=sv&fe=ci",
-    "link": "https://app.allinonewellbeing.com/videos/how-the-body-heals-after-quitting-tobacco"
+    "link": "https://app.allinonewellbeing.com/videos/how-the-body-heals-after-quitting-tobacco",
+    "category": "Smoking Cessation"
   },
   "VID-1856": {
     "author": "Mercedez Meza",
@@ -70911,10 +71119,11 @@
   },
   "VID-0066": {
     "language": "English",
-    "_at": "2026-08-13T15:41:54.896Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "author": "Julika Von Stackelberg",
     "peer_reviewer": "Julika Von Stackelberg",
-    "teacher": "Julika Von Stackelberg"
+    "teacher": "Julika Von Stackelberg",
+    "category": "Sustainability"
   },
   "VID-0069": {
     "language": "English",
@@ -70997,33 +71206,37 @@
   },
   "VID-0205": {
     "language": "English",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "author": "Katie Attubato",
     "peer_reviewer": "Marlee Alanis",
-    "teacher": "Katie Attubato"
+    "teacher": "Katie Attubato",
+    "category": "Smoking Cessation"
   },
   "VID-0207": {
     "language": "English",
-    "_at": "2026-08-14T16:39:58.984Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "peer_reviewer": "Marlee Alanis",
     "author": "Dr. Fahim Pyarali",
     "teacher": "Dr. Fahim Pyarali",
-    "branding": "White-Label"
+    "branding": "White-Label",
+    "category": "Smoking Cessation"
   },
   "VID-0219": {
     "language": "English",
-    "_at": "2026-08-18T14:20:23.775Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "author": "Katie Attubato",
     "peer_reviewer": "Katie Attubato",
     "teacher": "Katie Attubato",
-    "link": "https://app.allinonewellbeing.com/videos/how-to-build-a-vaping-quit-plan"
+    "link": "https://app.allinonewellbeing.com/videos/how-to-build-a-vaping-quit-plan",
+    "category": "Smoking Cessation"
   },
   "VID-0222": {
     "language": "English",
-    "_at": "2026-08-14T16:39:58.984Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "author": "Katie Attubato",
     "peer_reviewer": "Marlee Alanis",
-    "teacher": "Katie Attubato"
+    "teacher": "Katie Attubato",
+    "category": "Smoking Cessation"
   },
   "VID-0232": {
     "author": "Dr. Joe Feuerstein",
@@ -71624,8 +71837,9 @@
   "INF-0254": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-18T14:37:40.271Z",
-    "date_created": "4/30/2026"
+    "_at": "2026-08-18T17:56:26.260Z",
+    "date_created": "4/30/2026",
+    "category": "Smoking Cessation"
   },
   "INF-0255": {
     "language": "Spanish",
@@ -72017,8 +72231,9 @@
   "INF-0316": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-18T14:37:40.271Z",
-    "date_created": "4/30/2026"
+    "_at": "2026-08-18T17:56:26.260Z",
+    "date_created": "4/30/2026",
+    "category": "Smoking Cessation"
   },
   "INF-0317": {
     "language": "Spanish",
@@ -72036,8 +72251,9 @@
   "INF-0319": {
     "language": "English",
     "date_created": "10/4/2023",
-    "_at": "2026-08-18T14:37:40.271Z",
-    "peer_reviewer": "Pending - Diane McNaught"
+    "_at": "2026-08-18T17:56:26.260Z",
+    "peer_reviewer": "Pending - Diane McNaught",
+    "category": "Nutrition"
   },
   "INF-0320": {
     "language": "English",
@@ -72314,8 +72530,9 @@
   "INF-0363": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-18T14:37:40.271Z",
-    "date_created": "4/30/2026"
+    "_at": "2026-08-18T17:56:26.260Z",
+    "date_created": "4/30/2026",
+    "category": "Smoking Cessation"
   },
   "INF-0364": {
     "language": "Spanish",
@@ -72382,8 +72599,9 @@
   "INF-0374": {
     "language": "English",
     "link": "https://drive.google.com/file/d/12c1VljT6a3Ymlb9J3xMyxwZGlkiBmDNz/view?usp=sharing",
-    "_at": "2026-08-12T22:40:55.158Z",
-    "date_created": "5/5/2026"
+    "_at": "2026-08-18T17:56:26.260Z",
+    "date_created": "5/5/2026",
+    "category": "Fall Prevention"
   },
   "INF-0375": {
     "language": "Spanish",
@@ -72449,8 +72667,9 @@
   "INF-0385": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-18T14:37:40.271Z",
-    "date_created": "4/30/2026"
+    "_at": "2026-08-18T17:56:26.260Z",
+    "date_created": "4/30/2026",
+    "category": "Smoking Cessation"
   },
   "INF-0386": {
     "language": "English",
@@ -72556,8 +72775,9 @@
   "INF-0402": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-18T14:37:40.271Z",
-    "date_created": "4/30/2026"
+    "_at": "2026-08-18T17:56:26.260Z",
+    "date_created": "4/30/2026",
+    "category": "Fall Prevention"
   },
   "INF-0403": {
     "language": "English",
@@ -72581,8 +72801,9 @@
   "INF-0406": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-18T14:37:40.271Z",
-    "date_created": "4/30/2026"
+    "_at": "2026-08-18T17:56:26.260Z",
+    "date_created": "4/30/2026",
+    "category": "Smoking Cessation"
   },
   "INF-0407": {
     "language": "English",
@@ -72593,8 +72814,9 @@
   "INF-0408": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-18T14:37:40.271Z",
-    "date_created": "4/30/2026"
+    "_at": "2026-08-18T17:56:26.260Z",
+    "date_created": "4/30/2026",
+    "category": "Weight Management"
   },
   "INF-0409": {
     "language": "English",
@@ -72643,9 +72865,10 @@
   "INF-0416": {
     "language": "English",
     "link": "https://drive.google.com/file/d/1ZUijE8P87boGKYVakJKwSAbcyayorKKx/view?usp=sharing",
-    "_at": "2026-08-18T14:37:40.271Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "date_created": "5/5/2026",
-    "peer_reviewer": "Pending - Diane McNaught"
+    "peer_reviewer": "Pending - Diane McNaught",
+    "category": "Smoking Cessation"
   },
   "INF-0417": {
     "language": "Spanish",
@@ -72688,8 +72911,9 @@
   "INF-0423": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-18T14:37:40.271Z",
-    "date_created": "4/30/2026"
+    "_at": "2026-08-18T17:56:26.260Z",
+    "date_created": "4/30/2026",
+    "category": "Weight Management"
   },
   "INF-0424": {
     "language": "English",
@@ -72743,8 +72967,9 @@
   "INF-0432": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-18T14:37:40.271Z",
-    "date_created": "4/30/2026"
+    "_at": "2026-08-18T17:56:26.260Z",
+    "date_created": "4/30/2026",
+    "category": "Nutrition"
   },
   "INF-0433": {
     "language": "English",
@@ -72773,8 +72998,9 @@
   "INF-0437": {
     "language": "English",
     "date_created": "12/17/2024",
-    "_at": "2026-08-18T14:37:40.271Z",
-    "peer_reviewer": "Pending - Diane McNaught"
+    "_at": "2026-08-18T17:56:26.260Z",
+    "peer_reviewer": "Pending - Diane McNaught",
+    "category": "Nutrition"
   },
   "INF-0438": {
     "language": "English",
@@ -72948,8 +73174,9 @@
   "INF-0465": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-18T14:37:40.271Z",
-    "date_created": "4/30/2026"
+    "_at": "2026-08-18T17:56:26.260Z",
+    "date_created": "4/30/2026",
+    "category": "Fitness"
   },
   "INF-0466": {
     "language": "Spanish",
@@ -73031,8 +73258,9 @@
   "INF-0478": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-18T14:37:40.271Z",
-    "date_created": "4/30/2026"
+    "_at": "2026-08-18T17:56:26.260Z",
+    "date_created": "4/30/2026",
+    "category": "Smoking Cessation"
   },
   "INF-0479": {
     "language": "Spanish",
@@ -73079,8 +73307,9 @@
   "INF-0486": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-18T14:37:40.271Z",
-    "date_created": "4/30/2026"
+    "_at": "2026-08-18T17:56:26.260Z",
+    "date_created": "4/30/2026",
+    "category": "Fitness"
   },
   "INF-0487": {
     "language": "English",
@@ -73110,8 +73339,9 @@
   "INF-0491": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-18T14:37:40.271Z",
-    "date_created": "4/30/2026"
+    "_at": "2026-08-18T17:56:26.260Z",
+    "date_created": "4/30/2026",
+    "category": "Fall Prevention"
   },
   "INF-0492": {
     "language": "Spanish",
@@ -73187,8 +73417,9 @@
   "INF-0503": {
     "language": "English",
     "date_created": "10/12/2023",
-    "_at": "2026-08-18T14:37:40.271Z",
-    "peer_reviewer": "Pending - Diane McNaught"
+    "_at": "2026-08-18T17:56:26.260Z",
+    "peer_reviewer": "Pending - Diane McNaught",
+    "category": "Mental Health"
   },
   "INF-0504": {
     "language": "Spanish",
@@ -73200,8 +73431,9 @@
   "INF-0505": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-18T14:37:40.271Z",
-    "date_created": "4/30/2026"
+    "_at": "2026-08-18T17:56:26.260Z",
+    "date_created": "4/30/2026",
+    "category": "Fitness"
   },
   "INF-0506": {
     "language": "Spanish",
@@ -73425,8 +73657,9 @@
   "INF-0541": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-18T14:37:40.271Z",
-    "date_created": "4/30/2026"
+    "_at": "2026-08-18T17:56:26.260Z",
+    "date_created": "4/30/2026",
+    "category": "Smoking Cessation"
   },
   "INF-0542": {
     "language": "Spanish",
@@ -73544,9 +73777,10 @@
   "INF-0560": {
     "language": "English",
     "link": "https://drive.google.com/file/d/1oxsELjEWmpqDFQK9cBrZvH-hB1SLBBuq/view?usp=drive_link",
-    "_at": "2026-08-18T14:37:40.271Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "date_created": "5/5/2026",
-    "peer_reviewer": "Pending - Diane McNaught"
+    "peer_reviewer": "Pending - Diane McNaught",
+    "category": "Women’s Health"
   },
   "INF-0561": {
     "language": "Spanish",
@@ -73604,8 +73838,9 @@
   "INF-0569": {
     "language": "English",
     "date_created": "11/30/2023",
-    "_at": "2026-08-18T14:37:40.271Z",
-    "peer_reviewer": "Pending - Diane McNaught"
+    "_at": "2026-08-18T17:56:26.260Z",
+    "peer_reviewer": "Pending - Diane McNaught",
+    "category": "Mental Health"
   },
   "INF-0570": {
     "language": "English",
@@ -73843,9 +74078,10 @@
   "INF-0607": {
     "language": "Spanish",
     "link": "https://drive.google.com/file/d/1PHJRs0yIk_T8Bhrn1cNSSIjADU70oBux/view?usp=drivesdk",
-    "_at": "2026-08-18T14:37:40.271Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "peer_reviewer": "Maria Cardenas",
-    "date_created": "4/30/2026"
+    "date_created": "4/30/2026",
+    "category": "Fitness"
   },
   "INF-0608": {
     "language": "Spanish",
@@ -74147,8 +74383,9 @@
   "INF-0654": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-18T14:37:40.271Z",
-    "date_created": "4/30/2026"
+    "_at": "2026-08-18T17:56:26.260Z",
+    "date_created": "4/30/2026",
+    "category": "Smoking Cessation"
   },
   "INF-0655": {
     "language": "English",
@@ -74739,8 +74976,9 @@
   "INF-0748": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-18T14:37:40.271Z",
-    "date_created": "4/30/2026"
+    "_at": "2026-08-18T17:56:26.260Z",
+    "date_created": "4/30/2026",
+    "category": "Parenting"
   },
   "INF-0749": {
     "language": "English",
@@ -74751,8 +74989,9 @@
   "INF-0750": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-18T14:37:40.271Z",
-    "date_created": "4/30/2026"
+    "_at": "2026-08-18T17:56:26.260Z",
+    "date_created": "4/30/2026",
+    "category": "Fall Prevention"
   },
   "INF-0751": {
     "language": "Spanish",
@@ -74819,8 +75058,9 @@
   "INF-0761": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-18T14:37:40.271Z",
-    "date_created": "4/30/2026"
+    "_at": "2026-08-18T17:56:26.260Z",
+    "date_created": "4/30/2026",
+    "category": "Fitness"
   },
   "INF-0762": {
     "language": "English",
@@ -74954,8 +75194,9 @@
   "INF-0783": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-18T14:37:40.271Z",
-    "date_created": "6/22/2026"
+    "_at": "2026-08-18T17:56:26.260Z",
+    "date_created": "6/22/2026",
+    "category": "Women’s Health"
   },
   "INF-0784": {
     "language": "Spanish",
@@ -74979,8 +75220,9 @@
   "INF-0787": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-18T14:37:40.271Z",
-    "date_created": "4/30/2026"
+    "_at": "2026-08-18T17:56:26.260Z",
+    "date_created": "4/30/2026",
+    "category": "Smoking Cessation"
   },
   "INF-0788": {
     "language": "Spanish",
@@ -74991,8 +75233,9 @@
   "INF-0789": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-18T14:37:40.271Z",
-    "date_created": "4/30/2026"
+    "_at": "2026-08-18T17:56:26.260Z",
+    "date_created": "4/30/2026",
+    "category": "Weight Management"
   },
   "INF-0790": {
     "language": "Spanish",
@@ -75185,8 +75428,9 @@
   },
   "VID-0317": {
     "language": "English",
-    "_at": "2026-08-12T21:22:27.517Z",
-    "peer_reviewer": "Marlee Alanis"
+    "_at": "2026-08-18T17:56:26.260Z",
+    "peer_reviewer": "Marlee Alanis",
+    "category": "Pregnancy"
   },
   "VID-0336": {
     "language": "English",
@@ -75322,9 +75566,9 @@
   },
   "EXT-2399": {
     "type": "Article",
-    "_at": "2026-08-18T16:44:19.054Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "title": "The Role of Testosterone in Andropause",
-    "category": "Mens Health"
+    "category": "Men’s Health"
   },
   "EXT-2400": {
     "type": "Article",
@@ -76447,9 +76691,9 @@
   },
   "EXT-3059": {
     "type": "Article",
-    "_at": "2026-08-18T16:44:19.054Z",
+    "_at": "2026-08-18T17:56:26.260Z",
     "title": "How Air Quality Affects Daily Wellbeing",
-    "category": "Sustainability"
+    "category": "Environmental Health"
   },
   "EXT-3076": {
     "type": "Article",
@@ -76872,5 +77116,153 @@
   "EXT-2320": {
     "category": "Health",
     "_at": "2026-08-18T17:43:10.189Z"
+  },
+  "EXT-1860": {
+    "category": "Relationships",
+    "_at": "2026-08-18T17:56:26.260Z"
+  },
+  "EXT-1861": {
+    "category": "Relationships",
+    "_at": "2026-08-18T17:56:26.260Z"
+  },
+  "EXT-1862": {
+    "category": "Parenting",
+    "_at": "2026-08-18T17:56:26.260Z"
+  },
+  "EXT-1863": {
+    "category": "Relationships",
+    "_at": "2026-08-18T17:56:26.260Z"
+  },
+  "EXT-1864": {
+    "category": "Relationships",
+    "_at": "2026-08-18T17:56:26.260Z"
+  },
+  "EXT-1865": {
+    "category": "Relationships",
+    "_at": "2026-08-18T17:56:26.260Z"
+  },
+  "EXT-1866": {
+    "category": "Communication",
+    "_at": "2026-08-18T17:56:26.260Z"
+  },
+  "EXT-1867": {
+    "category": "Relationships",
+    "_at": "2026-08-18T17:56:26.260Z"
+  },
+  "EXT-1868": {
+    "category": "Parenting",
+    "_at": "2026-08-18T17:56:26.260Z"
+  },
+  "EXT-1869": {
+    "category": "Relationships",
+    "_at": "2026-08-18T17:56:26.260Z"
+  },
+  "EXT-1870": {
+    "category": "Mental Health",
+    "_at": "2026-08-18T17:56:26.260Z"
+  },
+  "EXT-1749": {
+    "category": "Nutrition",
+    "_at": "2026-08-18T17:56:26.260Z"
+  },
+  "EXT-2262": {
+    "category": "Women’s Health",
+    "_at": "2026-08-18T17:56:26.260Z"
+  },
+  "EXT-2263": {
+    "category": "Women’s Health",
+    "_at": "2026-08-18T17:56:26.260Z"
+  },
+  "EXT-2264": {
+    "category": "Women’s Health",
+    "_at": "2026-08-18T17:56:26.260Z"
+  },
+  "EXT-2265": {
+    "category": "Pregnancy",
+    "_at": "2026-08-18T17:56:26.260Z"
+  },
+  "EXT-2266": {
+    "category": "Postpartum",
+    "_at": "2026-08-18T17:56:26.260Z"
+  },
+  "EXT-2267": {
+    "category": "Postpartum",
+    "_at": "2026-08-18T17:56:26.260Z"
+  },
+  "EXT-2268": {
+    "category": "Postpartum",
+    "_at": "2026-08-18T17:56:26.260Z"
+  },
+  "EXT-2269": {
+    "category": "Postpartum",
+    "_at": "2026-08-18T17:56:26.260Z"
+  },
+  "EXT-2270": {
+    "category": "Women’s Health",
+    "_at": "2026-08-18T17:56:26.260Z"
+  },
+  "EXT-2271": {
+    "category": "Pregnancy",
+    "_at": "2026-08-18T17:56:26.260Z"
+  },
+  "EXT-2272": {
+    "category": "Pregnancy",
+    "_at": "2026-08-18T17:56:26.260Z"
+  },
+  "EXT-2273": {
+    "category": "Pregnancy",
+    "_at": "2026-08-18T17:56:26.260Z"
+  },
+  "EXT-2274": {
+    "category": "Pregnancy",
+    "_at": "2026-08-18T17:56:26.260Z"
+  },
+  "EXT-2275": {
+    "category": "Pregnancy",
+    "_at": "2026-08-18T17:56:26.260Z"
+  },
+  "EXT-2276": {
+    "category": "Postpartum",
+    "_at": "2026-08-18T17:56:26.260Z"
+  },
+  "EXT-2277": {
+    "category": "Postpartum",
+    "_at": "2026-08-18T17:56:26.260Z"
+  },
+  "EXT-2278": {
+    "category": "Postpartum",
+    "_at": "2026-08-18T17:56:26.260Z"
+  },
+  "EXT-2279": {
+    "category": "Postpartum",
+    "_at": "2026-08-18T17:56:26.260Z"
+  },
+  "EXT-2280": {
+    "category": "Postpartum",
+    "_at": "2026-08-18T17:56:26.260Z"
+  },
+  "EXT-2281": {
+    "category": "Postpartum",
+    "_at": "2026-08-18T17:56:26.260Z"
+  },
+  "EXT-2282": {
+    "category": "Postpartum",
+    "_at": "2026-08-18T17:56:26.260Z"
+  },
+  "EXT-2283": {
+    "category": "Pregnancy",
+    "_at": "2026-08-18T17:56:26.260Z"
+  },
+  "EXT-2311": {
+    "category": "Women’s Health",
+    "_at": "2026-08-18T17:56:26.260Z"
+  },
+  "EXT-2312": {
+    "category": "Women’s Health",
+    "_at": "2026-08-18T17:56:26.260Z"
+  },
+  "EXT-2313": {
+    "category": "Women’s Health",
+    "_at": "2026-08-18T17:56:26.260Z"
   }
 }
