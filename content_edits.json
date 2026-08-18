@@ -77387,8 +77387,9 @@
   },
   "EXT-1626": {
     "type": "Audio",
-    "_at": "2026-08-18T20:24:53.617Z",
-    "teacher": "Madeline McGuire"
+    "_at": "2026-08-18T20:25:26.685Z",
+    "teacher": "Madeline McGuire",
+    "duration": "3"
   },
   "EXT-1625": {
     "type": "Audio",
