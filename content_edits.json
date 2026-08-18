@@ -52994,9 +52994,11 @@
   },
   "EXT-0382": {
     "type": "Infographic",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-08-18T18:05:52.491Z",
     "date_created": "5/5/2026",
-    "duration": "2"
+    "duration": "2",
+    "_hidden": true,
+    "_merged_into": "INF-0717"
   },
   "EXT-0386": {
     "type": "Infographic",
@@ -74799,8 +74801,11 @@
   "INF-0717": {
     "language": "English",
     "date_created": "2/28/2025",
-    "_at": "2026-08-18T14:37:40.271Z",
-    "peer_reviewer": "Pending - Diane McNaught"
+    "_at": "2026-08-18T18:05:52.491Z",
+    "peer_reviewer": "Pending - Diane McNaught",
+    "duration": "2",
+    "_addedAt": "2026-08-04T20:08:26.187Z",
+    "_addedBy": "Dashboard"
   },
   "INF-0718": {
     "language": "English",
