@@ -46611,14 +46611,15 @@
   },
   "INF-0243": {
     "author": "Diane McNaught",
-    "_at": "2026-08-18T19:40:24.622Z",
+    "_at": "2026-08-19T19:30:35.761Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
     "language": "English",
     "link": "https://drive.google.com/file/d/1s-5FrjQc3yX6iW3-uzZR_6nXSHDtby2G/view?usp=sharing",
     "category": "Smoking Cessation",
     "author_creds": "Registered Nurse",
-    "references": "World Health Organization. (2023). Tobacco. https://www.who.int/news-room/fact-sheets/detail/tobacco\n\nU.S. Department of Health and Human Services. (2020). Smoking cessation: A report of the Surgeon General. https://www.hhs.gov/sites/default/files/2020-cessation-sgr-full-report.pdf\n\nNational Health Service. (2022). Stop smoking. https://www.nhs.uk/better-health/quit-smoking/"
+    "references": "World Health Organization. (2023). Tobacco. https://www.who.int/news-room/fact-sheets/detail/tobacco\n\nU.S. Department of Health and Human Services. (2020). Smoking cessation: A report of the Surgeon General. https://www.hhs.gov/sites/default/files/2020-cessation-sgr-full-report.pdf\n\nNational Health Service. (2022). Stop smoking. https://www.nhs.uk/better-health/quit-smoking/",
+    "duration": "1"
   },
   "INF-0242": {
     "author": "Diane McNaught",
