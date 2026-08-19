@@ -46590,14 +46590,15 @@
   },
   "INF-0245": {
     "author": "Diane McNaught",
-    "_at": "2026-08-18T18:01:43.561Z",
+    "_at": "2026-08-19T19:31:41.062Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
     "language": "English",
     "link": "https://drive.google.com/file/d/14cW5Hif9lG1hZ-TJVgBdI3ATBpkmPyKh/view?usp=sharing",
     "category": "AFib",
     "author_creds": "Registered Nurse",
-    "references": "Centers for Disease Control and Prevention. (2024). Atrial fibrillation. https://www.cdc.gov/heartdisease/atrial_fibrillation.htm\n\nNational Heart, Lung, and Blood Institute. (2023). Atrial fibrillation. https://www.nhlbi.nih.gov/health/atrial-fibrillation\n\nNational Health Service. (2022). Atrial fibrillation. https://www.nhs.uk/conditions/atrial-fibrillation/\n\nWorld Health Organization. (2023). Cardiovascular diseases (CVDs). https://www.who.int/news-room/fact-sheets/detail/cardiovascular-diseases-(cvds)"
+    "references": "Centers for Disease Control and Prevention. (2024). Atrial fibrillation. https://www.cdc.gov/heartdisease/atrial_fibrillation.htm\n\nNational Heart, Lung, and Blood Institute. (2023). Atrial fibrillation. https://www.nhlbi.nih.gov/health/atrial-fibrillation\n\nNational Health Service. (2022). Atrial fibrillation. https://www.nhs.uk/conditions/atrial-fibrillation/\n\nWorld Health Organization. (2023). Cardiovascular diseases (CVDs). https://www.who.int/news-room/fact-sheets/detail/cardiovascular-diseases-(cvds)",
+    "duration": "1"
   },
   "INF-0244": {
     "author": "Diane McNaught",
