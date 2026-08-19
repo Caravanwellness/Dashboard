@@ -46525,14 +46525,15 @@
   },
   "INF-0251": {
     "author": "Emily Wilson",
-    "_at": "2026-08-18T14:37:40.271Z",
+    "_at": "2026-08-19T19:32:53.338Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
     "language": "English",
     "link": "https://drive.google.com/file/d/1hW3oZ-rsv5c9-6QwLbjxitLMufVxe2J7/view?usp=sharing",
     "category": "Stroke",
     "author_creds": "Registered Medical Assistant",
-    "references": "American Stroke Association. (2026). Rehabilitation after stroke. https://www.stroke.org/en/life-after-stroke/stroke-rehabilitation\n\nNational Institute of Neurological Disorders and Stroke. (2026). Stroke rehabilitation information. https://www.ninds.nih.gov/health-information/disorders/stroke/stroke-rehabilitation\n\nNational Health Service. (2026). Stroke recovery. https://www.nhs.uk/conditions/stroke/recovery/\n\nMayo Clinic. (2026). Stroke: Recovery and rehabilitation. https://www.mayoclinic.org/diseases-conditions/stroke/in-depth/stroke-rehabilitation/art-20045284\n\nWorld Stroke Organization. (2026). Life after stroke. https://www.world-stroke.org/life-after-stroke"
+    "references": "American Stroke Association. (2026). Rehabilitation after stroke. https://www.stroke.org/en/life-after-stroke/stroke-rehabilitation\n\nNational Institute of Neurological Disorders and Stroke. (2026). Stroke rehabilitation information. https://www.ninds.nih.gov/health-information/disorders/stroke/stroke-rehabilitation\n\nNational Health Service. (2026). Stroke recovery. https://www.nhs.uk/conditions/stroke/recovery/\n\nMayo Clinic. (2026). Stroke: Recovery and rehabilitation. https://www.mayoclinic.org/diseases-conditions/stroke/in-depth/stroke-rehabilitation/art-20045284\n\nWorld Stroke Organization. (2026). Life after stroke. https://www.world-stroke.org/life-after-stroke",
+    "duration": "1"
   },
   "INF-0250": {
     "author": "Emily Wilson",
