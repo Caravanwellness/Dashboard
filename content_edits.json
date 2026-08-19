@@ -72747,9 +72747,10 @@
   "INF-0323": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-18T17:43:10.189Z",
+    "_at": "2026-08-19T20:35:15.159Z",
     "date_created": "4/30/2026",
-    "category": "Medications"
+    "category": "Medications",
+    "duration": "1"
   },
   "INF-0324": {
     "language": "Spanish",
