@@ -46536,13 +46536,14 @@
   },
   "INF-0250": {
     "author": "Emily Wilson",
-    "_at": "2026-08-12T15:27:45.038Z",
+    "_at": "2026-08-19T19:32:46.004Z",
     "peer_reviewer": "Jade Gordon",
     "date_created": "5/5/2026",
     "language": "English",
     "link": "https://drive.google.com/file/d/1eCvu7xl-qpz59V1Z8OqJSVNHbQT-mkR3/view?usp=sharing",
     "category": "Stroke",
-    "author_creds": "Registered Medical Assistant"
+    "author_creds": "Registered Medical Assistant",
+    "duration": "1"
   },
   "INF-0249": {
     "author": "Emily Wilson",
