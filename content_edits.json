@@ -72287,9 +72287,10 @@
   "INF-0261": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-18T17:43:10.189Z",
+    "_at": "2026-08-19T19:34:24.058Z",
     "date_created": "4/30/2026",
-    "category": "Medications"
+    "category": "Medications",
+    "duration": "1"
   },
   "INF-0262": {
     "language": "English",
