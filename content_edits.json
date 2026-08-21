@@ -11082,7 +11082,7 @@
   },
   "EN-01378": {
     "author": "Kaitlyn Bruneau",
-    "_at": "2026-08-14T19:47:52.208Z",
+    "_at": "2026-08-21T20:18:23.468Z",
     "teacher": "Kaitlyn Bruneau",
     "language": "English",
     "licenses": [
@@ -11090,7 +11090,7 @@
       "Hapstar"
     ],
     "type": "Video",
-    "duration": "5 min",
+    "duration": "5 ",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
     "vimeo_link": "https://vimeo.com/1127997726/9320afcde0?share=copy&fl=sv&fe=ci",
