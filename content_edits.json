@@ -45162,14 +45162,15 @@
   },
   "EN-01350": {
     "language": "English",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-21T20:17:25.399Z",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "author": "Jon Anthony (Tony) Meyer",
     "teacher": "Jon Anthony (Tony) Meyer",
     "date_created": "2/6/2026",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1162579011/e7b8f56f4f?share=copy&fl=sv&fe=ci"
+    "vimeo_link": "https://vimeo.com/1162579011/e7b8f56f4f?share=copy&fl=sv&fe=ci",
+    "duration": "1"
   },
   "EN-01351": {
     "language": "English",
