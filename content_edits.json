@@ -43865,11 +43865,12 @@
   },
   "VLB-0250": {
     "teacher": "Brecke Swan",
-    "_at": "2026-08-21T20:08:36.470Z",
+    "_at": "2026-08-21T20:08:51.380Z",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "date_created": "3/24/2025",
-    "duration": "8"
+    "duration": "8",
+    "language": "E"
   },
   "EN-00284": {
     "author": "Brecke Swan",
