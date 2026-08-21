@@ -11220,13 +11220,13 @@
   },
   "EN-01485": {
     "teacher": "Kaitlyn Bruneau",
-    "_at": "2026-08-14T20:51:17.120Z",
+    "_at": "2026-08-21T20:25:33.055Z",
     "language": "English",
     "licenses": [
       "Hapstar"
     ],
     "type": "Video",
-    "duration": "5 min",
+    "duration": "5 ",
     "peer_reviewer": "Marlee Alanis",
     "author": "Kaitlyn Bruneau",
     "client_licenses": [
