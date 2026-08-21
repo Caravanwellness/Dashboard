@@ -16353,12 +16353,13 @@
   },
   "VLB-1741": {
     "teacher": "Dr. Cherilyn Davis",
-    "_at": "2026-08-21T20:01:44.785Z",
+    "_at": "2026-08-21T20:01:49.641Z",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "author": "Dr. Cherilyn Davis",
-    "duration": "2"
+    "duration": "2",
+    "date_created": "6"
   },
   "VID-0949": {
     "author": "Ana Gaston",
