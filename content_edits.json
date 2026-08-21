@@ -16243,13 +16243,14 @@
   },
   "VLB-1731": {
     "teacher": "Dr. Cherilyn Davis",
-    "_at": "2026-08-21T20:37:27.851Z",
+    "_at": "2026-08-21T20:37:33.163Z",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "author": "Dr. Cherilyn Davis",
     "category": "Surgery",
-    "duration": "2"
+    "duration": "2",
+    "date_created": "6"
   },
   "EN-01808": {
     "author": "Dr. Cherilyn Davis",
