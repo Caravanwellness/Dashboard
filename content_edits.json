@@ -16174,12 +16174,13 @@
   },
   "VLB-1724": {
     "teacher": "Dr. Cherilyn Davis",
-    "_at": "2026-08-21T20:35:39.169Z",
+    "_at": "2026-08-21T20:35:43.636Z",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "author": "Dr. Cherilyn Davis",
-    "duration": "3"
+    "duration": "3",
+    "date_created": "7/"
   },
   "EN-01801": {
     "teacher": "Dr. Cherilyn Davis",
