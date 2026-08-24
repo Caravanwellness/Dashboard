@@ -1382,8 +1382,79 @@ function renderDupeReviewHtml() {
 function setDupeDecision(i, decision) {
   if (!_importParsed || !_importParsed.possibleDupes[i]) return;
   _importParsed.possibleDupes[i].decision = decision;
-  const container = document.getElementById('dupeReviewSection');
-  if (container) container.innerHTML = renderDupeReviewHtml();
+  refreshImportPreview();
+}
+
+// Renders the "new content — not yet in the dashboard" review list. Rows here
+// matched nothing by ID, exact title, or the fuzzy duplicate check — i.e. this
+// would be a brand-new catalog entry. Defaults every row to Skip so nothing
+// gets created and licensed to a client without an explicit decision; per
+// policy, unmatched rows should be routed to Marlee Alanis to resolve the
+// correct ID/title rather than silently becoming a new entry.
+function newItemDecisionBtn(i, decision, label, current) {
+  const on = decision === current;
+  return `<button type="button" onclick="setNewItemDecision(${i},'${decision}')" style="padding:5px 10px;border-radius:6px;font-size:11px;cursor:pointer;border:1px solid ${on?'#6366f1':'#e0e0e0'};background:${on?'#eef0ff':'white'};color:${on?'#6366f1':'#666'};font-weight:${on?'700':'500'}">${label}</button>`;
+}
+function renderNewItemsReviewHtml() {
+  const items = (_importParsed && _importParsed.newItems) || [];
+  if (!items.length) return '';
+  return `<div style="margin-top:14px;padding-top:12px;border-top:1px solid #e0eaff">
+    <div style="font-weight:700;color:#1a1a2e;margin-bottom:6px">🆕 ${items.length} item${items.length===1?'':'s'} not found in the dashboard — review before adding</div>
+    <div style="color:#666;font-size:12px;margin-bottom:8px">No match by ID or title. Defaults to Skip — these won't be created or licensed unless flipped to "Add anyway". Contact Marlee Alanis to resolve the correct ID/title for anything skipped.</div>
+    ${items.map((d,i)=>`
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:10px;padding:7px 0;border-top:1px solid #e8ecff">
+        <div style="flex:1;min-width:0">
+          <div style="font-weight:600;color:#1a1a2e;font-size:12.5px">${esc(d.item.title)}</div>
+          <div style="color:#888;font-size:11px">${esc(d.item.language)} · ${esc(d.item.type)}${d.item.client_licenses&&d.item.client_licenses.length?' · '+esc(d.item.client_licenses.join(', ')):''}</div>
+        </div>
+        <div style="display:flex;gap:4px;flex-shrink:0">
+          ${newItemDecisionBtn(i,'skip','Skip',d.decision)}
+          ${newItemDecisionBtn(i,'add','Add anyway',d.decision)}
+        </div>
+      </div>
+    `).join('')}
+  </div>`;
+}
+function setNewItemDecision(i, decision) {
+  if (!_importParsed || !_importParsed.newItems[i]) return;
+  _importParsed.newItems[i].decision = decision;
+  refreshImportPreview();
+}
+
+// Rebuilds the whole "Ready to save" preview — summary counts plus both
+// review lists — from the current decisions in _importParsed. Called on
+// initial parse and after every Skip/Merge/Add-anyway click, so the counts
+// at top never drift out of sync with what's actually been decided below.
+function refreshImportPreview() {
+  if (!_importParsed) return;
+  const previewEl = document.getElementById('importPreview');
+  if (!previewEl) return;
+  const { updates, newItems, possibleDupes } = _importParsed;
+
+  const addedNewItems  = newItems.filter(d=>d.decision==='add');
+  const addedDupeItems = (possibleDupes||[]).filter(d=>d.decision==='merge' || d.decision==='add');
+
+  const clientsFound = [...new Set([
+    ...updates.filter(u=>u.field==='licenses').flatMap(u => u.value),
+    ...addedNewItems.flatMap(d => d.item.client_licenses),
+    ...addedDupeItems.flatMap(d => d.item.client_licenses),
+  ])].filter(Boolean);
+
+  const licenseUpdateIds = new Set(updates.filter(u=>u.field==='licenses').map(u=>u.id));
+  const fieldUpdates      = updates.filter(u=>u.field!=='licenses');
+  const fieldUpdateIds    = new Set(fieldUpdates.map(u=>u.id));
+  const newItemCount      = addedNewItems.length;
+
+  previewEl.innerHTML = `
+    <div style="font-weight:700;color:#1a1a2e;margin-bottom:8px">Ready to save</div>
+    <div style="color:#333;line-height:1.8">
+      ${licenseUpdateIds.size ? `<div>✓ <strong>${licenseUpdateIds.size}</strong> existing items will be tagged</div>` : ''}
+      ${fieldUpdateIds.size ? `<div>✓ <strong>${fieldUpdateIds.size}</strong> existing items will be updated (<strong>${fieldUpdates.length}</strong> field changes)</div>` : ''}
+      ${newItemCount ? `<div>✓ <strong>${newItemCount}</strong> new item${newItemCount===1?'':'s'} will be added to the library</div>` : ''}
+      ${clientsFound.length ? `<div style="color:#666;font-size:12px;margin-top:4px">Clients: ${clientsFound.join(', ')}</div>` : ''}
+    </div>
+    <div id="newItemsReviewSection">${renderNewItemsReviewHtml()}</div>
+    <div id="dupeReviewSection">${renderDupeReviewHtml()}</div>`;
 }
 
 function parseDuration(raw) {
@@ -1652,7 +1723,12 @@ async function handleImportFile(file) {
             if (dupeMatch) {
               possibleDupes.push({ item, matchId: dupeMatch.id, decision: 'skip' });
             } else {
-              newItems.push(item);
+              // Defaults to Skip, same as possibleDupes — content with no match
+              // in the dashboard (by ID or title) isn't added or licensed unless
+              // someone explicitly flips it to "Add anyway". Per policy: unmatched
+              // rows get routed to Marlee Alanis to resolve the correct ID/title
+              // rather than silently becoming a new catalog entry.
+              newItems.push({ item, decision: 'skip' });
             }
             newByTitle[key] = item;
           }
@@ -1664,24 +1740,7 @@ async function handleImportFile(file) {
 
 
     _importParsed = { updates, newItems, possibleDupes };
-    const clientsFound = [...new Set([
-      ...updates.flatMap(u => u.field==='licenses' ? u.value : []),
-      ...newItems.flatMap(i => i.client_licenses),
-    ])].filter(Boolean);
-
-    const licenseUpdateIds = new Set(updates.filter(u=>u.field==='licenses').map(u=>u.id));
-    const fieldUpdates      = updates.filter(u=>u.field!=='licenses');
-    const fieldUpdateIds    = new Set(fieldUpdates.map(u=>u.id));
-
-    previewEl.innerHTML = `
-      <div style="font-weight:700;color:#1a1a2e;margin-bottom:8px">Ready to save</div>
-      <div style="color:#333;line-height:1.8">
-        ${licenseUpdateIds.size ? `<div>✓ <strong>${licenseUpdateIds.size}</strong> existing items will be tagged</div>` : ''}
-        ${fieldUpdateIds.size ? `<div>✓ <strong>${fieldUpdateIds.size}</strong> existing items will be updated (<strong>${fieldUpdates.length}</strong> field changes)</div>` : ''}
-        ${newItems.length ? `<div>✓ <strong>${newItems.length}</strong> new items will be added to the library</div>` : ''}
-        ${clientsFound.length ? `<div style="color:#666;font-size:12px;margin-top:4px">Clients: ${clientsFound.join(', ')}</div>` : ''}
-      </div>
-      <div id="dupeReviewSection">${renderDupeReviewHtml()}</div>`;
+    refreshImportPreview();
     previewEl.style.display = '';
     confirmBtn.style.display = '';
     statusEl.textContent = '';
@@ -1692,10 +1751,14 @@ async function handleImportFile(file) {
 
 async function confirmImport() {
   if (!_importParsed) return;
-  const { updates, newItems: cleanNewItems, possibleDupes } = _importParsed;
-  // Only rows explicitly flipped to "Add anyway" join the clean new items —
-  // everything else defaults to Skip and is left out of what gets saved.
-  const newItems = [...cleanNewItems, ...(possibleDupes||[]).filter(d=>d.decision==='add').map(d=>d.item)];
+  const { updates, newItems: newItemDecisions, possibleDupes } = _importParsed;
+  // Only rows explicitly flipped to "Add anyway" get created — everything else
+  // defaults to Skip and is left out of what gets saved, whether it's a
+  // possible-duplicate or genuinely unmatched content.
+  const newItems = [
+    ...newItemDecisions.filter(d=>d.decision==='add').map(d=>d.item),
+    ...(possibleDupes||[]).filter(d=>d.decision==='add').map(d=>d.item),
+  ];
   const statusEl   = document.getElementById('importStatus');
   const confirmBtn = document.getElementById('importConfirmBtn');
   confirmBtn.disabled = true;
