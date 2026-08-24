@@ -1749,6 +1749,28 @@ async function handleImportFile(file) {
   }
 }
 
+// Marlee's Slack member ID — a real <@ID> mention notifies her; plain text
+// "@Marlee Alanis" would just render as text and not ping anyone.
+const MARLEE_SLACK_ID = 'U04RVQ914AW';
+
+// Posts to the same Slack channel the dashboard's other automated messages
+// (Content Reviewed/Updated) already go to, via the existing /api/slack
+// webhook. Fires once per import with everything that got added, rather than
+// one message per item, so a big batch doesn't spam the channel.
+function notifySlackNewImportItems(items) {
+  if (!items || !items.length) return;
+  const lines = items.map(it => {
+    const clients = (it.client_licenses||[]).join(', ') || 'no client';
+    return `• "${it.title}" (${it.type || 'Unknown type'}, ${it.language || 'Unknown language'}) — licensed to ${clients}`;
+  });
+  const text = `🔔 *${items.length} new item${items.length===1?'':'s'} added via import — not previously in the dashboard*\n${lines.join('\n')}\n\nAdded by: ${(currentUser&&currentUser.name)||'Unknown'}\ncc <@${MARLEE_SLACK_ID}>`;
+  fetch('/api/slack', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ text }),
+  }).catch(()=>{}); // best-effort — a Slack outage shouldn't affect the import itself
+}
+
 async function confirmImport() {
   if (!_importParsed) return;
   const { updates, newItems: newItemDecisions, possibleDupes } = _importParsed;
@@ -1854,6 +1876,14 @@ async function confirmImport() {
       ...newItems.flatMap(i => i.client_licenses),
     ])].filter(c => c && !clients.includes(c));
     if (allClients.length) { clients.push(...allClients); saveC(); }
+
+    // Content with no match in the dashboard just got created and licensed
+    // anyway (someone flipped a flagged row to "Add anyway") — per policy,
+    // Marlee should know immediately rather than finding it later, since she's
+    // the one who resolves the correct ID/title for content that should have
+    // been kicked back instead. Best-effort: a Slack failure here shouldn't
+    // block or fail the import itself.
+    notifySlackNewImportItems(newItems);
 
     const taggedCount = Object.keys(licenseAdds).length;
     const updatedCount = new Set(fieldUpdates.map(u=>u.id)).size;
