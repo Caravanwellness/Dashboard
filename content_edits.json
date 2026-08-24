@@ -11456,7 +11456,7 @@
   },
   "VID-0001": {
     "author": "Jessica Cording",
-    "_at": "2026-08-24T17:57:32.124Z",
+    "_at": "2026-08-24T17:57:35.105Z",
     "title": "Emotional Awareness: Drinking to Cope vs. Drinking for Enjoyment* (Filmed as Rethinking The Relaxing Drink",
     "references": "Alcohol and Alcoholism. (2024). Drinking motives link positive and negative life events to problematic alcohol use during the COVID-19 pandemic: a longitudinal study. https://doi.org/10.1093/alcalc/agae068\n\nAddictive Behaviors Reports. (2022). The direct effect of drinking to cope on alcohol problems is not mediated by alcohol consumption: Invariance across gender and countries. https://pmc.ncbi.nlm.nih.gov/articles/PMC9640946/\n\nJournal of Studies on Alcohol and Drugs. (2025). Coping Motives for Alcohol and Cannabis Use Better Reflect Negative Emotionality Than Emotion Regulation Deficits in Young Adults. https://pmc.ncbi.nlm.nih.gov/articles/PMC12674593/",
     "language": "English",
@@ -11464,7 +11464,9 @@
     "duration": "1",
     "_addedAt": "2026-08-06T13:17:00.549Z",
     "_addedBy": "Dashboard",
-    "date_created": "2/19/2026"
+    "date_created": "2/19/2026",
+    "_hidden": true,
+    "_merged_into": "EN-01678"
   },
   "VID-0002": {
     "author": "Jessica Cording",
@@ -12432,7 +12434,7 @@
   },
   "EN-01678": {
     "author": "Jessica Cording",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-08-24T17:57:35.105Z",
     "teacher": "Jessica Cording",
     "duration": "1",
     "language": "English",
@@ -12440,7 +12442,8 @@
     "peer_reviewer": "Marlee Alanis",
     "date_created": "2/19/2026",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1166420626/8b19b7287b?share=copy&fl=sv&fe=ci"
+    "vimeo_link": "https://vimeo.com/1166420626/8b19b7287b?share=copy&fl=sv&fe=ci",
+    "author_creds": "Registered Dietician"
   },
   "EN-01679": {
     "author": "Jessica Cording",
