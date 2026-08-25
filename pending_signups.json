@@ -16,11 +16,5 @@
     "passwordHash": "6e0fe12fd752d1bd3b3768dd044cb0e323f4ad2c2c8affef8bd73c10d1006acf",
     "otp": "790303",
     "expiresAt": "2026-08-05T19:18:06.813Z"
-  },
-  "jemma.park@caravanwellness.com": {
-    "name": "Jemma Park",
-    "passwordHash": "4ab4364c7f38783f1af1817724514a6614314ad58156c3857106a03ecaca1dcd",
-    "otp": "320659",
-    "expiresAt": "2026-08-25T15:59:18.952Z"
   }
 }
