@@ -1399,7 +1399,7 @@ function renderNewItemsReviewHtml() {
   const items = (_importParsed && _importParsed.newItems) || [];
   if (!items.length) return '';
   return `<div style="margin-top:14px;padding-top:12px;border-top:1px solid #e0eaff">
-    <div style="font-weight:700;color:#1a1a2e;margin-bottom:6px">🆕 ${items.length} item${items.length===1?'':'s'} not found in the dashboard — review before adding</div>
+    <div style="font-weight:700;color:#1a1a2e;margin-bottom:6px">New: ${items.length} item${items.length===1?'':'s'} not found in the dashboard — review before adding</div>
     <div style="color:#666;font-size:12px;margin-bottom:8px">No match by ID or title. Defaults to Skip — these won't be created or licensed unless flipped to "Add anyway". Contact Marlee Alanis to resolve the correct ID/title for anything skipped.</div>
     ${items.map((d,i)=>`
       <div style="display:flex;justify-content:space-between;align-items:center;gap:10px;padding:7px 0;border-top:1px solid #e8ecff">
