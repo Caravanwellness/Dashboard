@@ -173,7 +173,7 @@ textarea.field-edit { resize: vertical; }
 .change-link { text-decoration: none; color: #000000; }
 .change-link:hover { background: #e0e4ea; }
 .change-source { background: #e8f4fd; color: #1a73e8; }
-.log-add-btn { font-size: 12px; color: #1a6eb5; cursor: pointer; border: none; background: none; padding: 5px 0; margin-top: 2px; }
+.log-add-btn { font-size: 12px; color: #00847a; cursor: pointer; border: none; background: none; padding: 5px 0; margin-top: 2px; }
 .log-add-btn:hover { text-decoration: underline; }
 .log-form { background: #f8f9fa; border-radius: 6px; padding: 9px; margin-top: 7px; }
 .log-form input { width: 100%; padding: 5px 8px; border: 1px solid #e0e0e0; border-radius: 4px; font-size: 12px; margin-bottom: 5px; outline: none; }
@@ -3082,7 +3082,7 @@ function showDetail(item) {
       </div>
 
       <div class="detail-section">Review & Dates</div>
-      <button onclick="markReviewed('${item.id}')" id="markReviewedBtn" style="margin:0 0 10px 0;width:100%;padding:9px;background:#1a6eb5;color:white;border:none;border-radius:7px;font-weight:700;font-size:13px;cursor:pointer;letter-spacing:.2px">✓ Mark as Reviewed Today</button>
+      <button onclick="markReviewed('${item.id}')" id="markReviewedBtn" style="margin:0 0 10px 0;width:100%;padding:9px;background:#00847a;color:white;border:none;border-radius:7px;font-weight:700;font-size:13px;cursor:pointer;letter-spacing:.2px">✓ Mark as Reviewed Today</button>
       <div id="markReviewedMsg" style="font-size:11px;color:#00847A;margin-bottom:6px;display:none">✓ Marked as reviewed and Slack notified!</div>
       <div class="detail-field"><label>Date Created</label>
         <input class="field-edit" data-f="date_created" value="${esc(fCreated)}" placeholder="MM/DD/YYYY">
