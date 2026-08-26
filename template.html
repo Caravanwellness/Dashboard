@@ -3728,6 +3728,13 @@ function colValue(item, key) {
     const name = lv(item,'author') || lv(item,'teacher');
     return getBio(name, 'creds', lv(item,'author_creds') || '');
   }
+  // Reviewer credentials are looked up the same way as author credentials —
+  // by the peer reviewer's name, via the shared per-person bio store — but
+  // there's no per-item override field for it the way author_creds is for
+  // authors, so this falls back to blank rather than any item field.
+  if (key === '_reviewer_credentials') {
+    return getBio(lv(item,'peer_reviewer'), 'creds', '');
+  }
   // Same peer_reviewer and author/teacher fallbacks as renderTable() — see its comments.
   if (key === 'teacher') return lv(item,'peer_reviewer') || '';
   if (key === 'author') return lv(item,'author') || lv(item,'teacher') || '';
@@ -3768,7 +3775,8 @@ const EXPORT_COLUMNS = [
   {k:'_duration',           l:'Duration'},
   {k:'teacher',             l:'Peer Reviewer'},
   {k:'author',              l:'Author'},
-  {k:'_credentials',        l:'Credentials'},
+  {k:'_credentials',        l:'Author Credentials'},
+  {k:'_reviewer_credentials', l:'Reviewer Credentials'},
   {k:'review_priority',     l:'Review Priority'},
   {k:'link',                l:'Content / Article Link'},
   {k:'vimeo_link',          l:'Vimeo'},
