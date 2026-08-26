@@ -2808,6 +2808,22 @@ function toggleTranscript(id) {
 }
 
 // ── Detail Panel ──────────────────────────────────────────────────────────────
+// Shared by the initial panel render and the live notes-field listener below,
+// so the "Edited ..." stamp and the US-Only tag never drift out of sync with
+// each other — both read the same edits state through one code path.
+function detailIdLineHtml(id) {
+  const item = BY_ID[id];
+  if (!item) return '';
+  const notes = gE(id,'notes',item.notes||'');
+  const at = edits[id] && edits[id]._at;
+  const atStr = at ? (() => {
+    const d = new Date(at);
+    return d.toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'})
+      +' at '+d.toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit'});
+  })() : '';
+  return `${id}${atStr?` &nbsp;·&nbsp; <span class="edited-stamp">Edited ${atStr}</span>`:''}${notes.trim()==='US-Only'?` &nbsp;·&nbsp; <span class="tag-us-only">Tag: US-Only</span>`:''}`;
+}
+
 function showDetail(item) {
   flushPendingEdits(); // don't lose an unsaved edit from whatever was open before
   _cancelPendingDupeConfirm(); // don't leave a stale prompt from whatever was open before
@@ -2960,7 +2976,7 @@ function showDetail(item) {
       <div class="title-box" style="background:${bg||'#E6E6E6'};color:${fg||'#000000'}">
         <h2 id="titleBoxH2">${esc(fTitle)}</h2>
       </div>
-      <div class="detail-id">${item.id}${atStr?` &nbsp;·&nbsp; <span class="edited-stamp">Edited ${atStr}</span>`:''}${notes.trim()==='US-Only'?` &nbsp;·&nbsp; <span class="tag-us-only">Tag: US-Only</span>`:''}</div>
+      <div class="detail-id">${detailIdLineHtml(item.id)}</div>
     </div>
     <div class="detail-body">
 
@@ -3172,6 +3188,11 @@ function showDetail(item) {
       sE(item.id, field, value);
       reRow(item.id);
       if (field==='title') { const h=document.getElementById('titleBoxH2'); if(h) h.textContent=value; }
+      // The "Edited ..." stamp and the US-Only tag live in the header, not the
+      // field grid below it — a full showDetail() re-render would also blow
+      // away focus/cursor position in whatever field is still being typed in,
+      // so just this one line gets patched in place instead.
+      if (field==='notes') { const idEl=panel.querySelector('.detail-id'); if(idEl) idEl.innerHTML=detailIdLineHtml(item.id); }
       // Keep filter dropdowns (Type/Category/Author-Teacher/Language/Duration) in
       // sync with the edit — otherwise a value that no longer exists on any item
       // (e.g. clearing the last "j" author) lingers as a selectable, dead option.
