@@ -79,5 +79,10 @@
     "name": "Hope Zimmerman",
     "passwordHash": "0e98fd43688a5a76814b07535682f545fe66a188b860fbebd81481d62b7adf11",
     "createdAt": "2026-08-13T17:49:22.541Z"
+  },
+  "jemma.park@caravanwellness.com": {
+    "name": "Jemma Park",
+    "passwordHash": "4ab4364c7f38783f1af1817724514a6614314ad58156c3857106a03ecaca1dcd",
+    "createdAt": "2026-08-25T15:49:29.236Z"
   }
 }
