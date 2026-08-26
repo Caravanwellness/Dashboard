@@ -9,7 +9,7 @@
 <style>
 /* ── Reset ── */
 * { box-sizing: border-box; margin: 0; padding: 0; }
-body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 14px; background: #E6E6E6; color: #000000; height: 100vh; overflow: hidden; display: flex; flex-direction: column; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 14px; background: #e6e6e685; color: #000000; height: 100vh; overflow: hidden; display: flex; flex-direction: column; }
 
 /* ── Header ── */
 header { background: #000000; color: white; padding: 10px 18px; display: flex; align-items: center; gap: 14px; flex-shrink: 0; }
@@ -91,7 +91,7 @@ tr.selected td { box-shadow: inset 3px 0 0 #1a6eb5; background: #f0f6fc !importa
 .badge-High { background: #FFC8D5; color: #FF4874; }
 .badge-Moderate { background: #fef3e2; color: #d68910; }
 .badge-Low { background: #B2DAD7; color: #00847A; }
-.badge-type { background: #B2DAD7; color: #00847A; }
+.badge-type { background: #FFEBCD; color: #00847A; }
 .edited-dot { display: inline-block; width: 6px; height: 6px; background: #FF4874; border-radius: 50%; flex-shrink: 0; margin-top: 5px; }
 .empty-state { text-align: center; padding: 60px 20px; color: #ccc; font-size: 15px; }
 .sort-asc::after { content: ' ↑'; }
@@ -108,6 +108,7 @@ tr.selected td { box-shadow: inset 3px 0 0 #1a6eb5; background: #f0f6fc !importa
 .title-box h2 { font-size: 14px; line-height: 1.45; word-break: break-word; }
 .detail-id { font-family: monospace; color: #bbb; font-size: 11px; }
 .edited-stamp { color: #FF4874; font-style: italic; font-family: sans-serif; }
+.tag-us-only { display: inline-block; font-family: sans-serif; font-size: 10px; font-weight: 700; background: rgba(0,132,122,.12); color: #00847A; border-radius: 4px; padding: 1px 6px; letter-spacing: .2px; }
 .detail-body { overflow-y: auto; flex: 1; padding: 11px 14px 20px; }
 .detail-section { font-size: 10px; text-transform: uppercase; letter-spacing: .6px; color: #bbb; font-weight: 700; border-top: 1px solid #eee; padding-top: 10px; margin: 14px 0 9px; }
 .detail-section:first-child { border-top: none; margin-top: 0; }
@@ -623,7 +624,7 @@ textarea.field-edit { resize: vertical; }
   <div style="max-width:1200px;margin:0 auto;width:100%">
     <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;flex-wrap:wrap">
       <input type="text" id="creatorSearch" placeholder="Search creators…" style="padding:8px 12px;border:1px solid #e0e0e0;border-radius:8px;font-size:13px;width:260px;outline:none">
-      <span id="creatorCount" style="font-size:12px;color:#aaa"></span>
+      <span id="creatorCount" style="font-size:12px;color:#000"></span>
       <button class="btn primary" onclick="exportCreatorsCSV()">⬇ Export CSV</button>
       <button class="btn" onclick="document.getElementById('creatorImportModal').style.display='flex'" style="background:#FFBD59;color:white;border-color:#FFBD59">⬆ Import</button>
       <label style="margin-left:auto;display:flex;align-items:center;gap:7px;padding:7px 14px;background:#0d9488;color:white;border-radius:7px;font-size:12px;font-weight:600;cursor:pointer">
@@ -2959,7 +2960,7 @@ function showDetail(item) {
       <div class="title-box" style="background:${bg||'#E6E6E6'};color:${fg||'#000000'}">
         <h2 id="titleBoxH2">${esc(fTitle)}</h2>
       </div>
-      <div class="detail-id">${item.id}${atStr?` &nbsp;·&nbsp; <span class="edited-stamp">Edited ${atStr}</span>`:''}</div>
+      <div class="detail-id">${item.id}${atStr?` &nbsp;·&nbsp; <span class="edited-stamp">Edited ${atStr}</span>`:''}${notes.trim()==='US-Only'?` &nbsp;·&nbsp; <span class="tag-us-only">Tag: US-Only</span>`:''}</div>
     </div>
     <div class="detail-body">
 
