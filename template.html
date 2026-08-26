@@ -4,35 +4,37 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Caravan Wellness — Content Dashboard</title>
+<link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQUAAADOCAYAAAA3zhdSAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAABOZVhJZk1NACoAAAAIAAQBGgAFAAAAAQAAAD4BGwAFAAAAAQAAAEYBKAADAAAAAQACAAACEwADAAAAAQABAAAAAAAAAAAAlgAAAAEAAACWAAAAAQoK/FQAABmjSURBVHgB7V0J1B1FlQ6GIJtAZA0JyS+EXZYICAQkw04EUURzRAQFOQIHN8ZR8LiAGhXOjAuDCioOoLKobI4n0UmYSQiaCRgIEUlQloQ9ECAEQSEI+n0//8t5tu91V1dXdVV3ffec7/9fv751762vq293Ld1v2DCJGBADYkAMiAExIAbEgBgQA2JADIgBMSAGxIAYEANiQAyIATEgBsSAGBADYkAMiAExIAbEgBgQA2JADIgBMSAGxIAYEANiQAyIATEgBsSAGBADYkAMiAExIAbEgBgQA2JADIgBMSAG2sXA8HZVR7VJkIENUee9gTWBFQnWX1UWA2Kgi4EBfJ4P/A14ApgJHAMwQUjEgBhIkIGpqDMTQhbT8d1OCfLhpMrKqE5olJFADGzZx+9kfL8vcBbwvSGd7fB/ABgBrAFk5RV88RiwILtD22JADDSHgUsQavYuIbs9Bzq3AE8a6D4HnVuBM4CRgEQMiIGGMXAx4s0mAVfbC2GbdxwSMSAGGsTAxxCrqyTQy84LsH9qg/hQqGIgeQZ2BAMcC+h1Qrv87nPwsVYqbGudQipHup31ZEKYAvju/x8IHxy4fBx4AKBfCs+fvYA3ATsA2wDUeRGQiAExEIiBH8Kvy7uCIlu/g7/fDoHjDuxidJe5C9tHAhIxIAYCMXAs/NbRheg+8Ys+825hfCA+Krt9TWULMiAGwjJwN9zzJI1JNkMwJ8QUUJlYlBTKsCXdGBl4L4KKsR0fEiNZJjHFSKZJ3NIRAx0GRnc+RPa/sYP4SgqRtSSFU4oBPiG5e6kSUi5kQEmhkCIpRMzABoht60jj46xEI0VJoZGHTUEPMcCHm9aOlI0bIo1LYYmBVjPAxUJ/BYqmCOvefzNi4l2MRAyIgZoZYNchpqTwMuK5AtiiZh6cutP7FJzSKWM1M7AL/IXsAr8E/1yoxFWOfwCuArjasdGipNDow5d88GPBQK8Xprgi5lkY+g3wzBAewX8mgCUAhXcp1HmUG20RJYW2HMk069F5MMl17X8FgxcCXC15v2vjsdtTUoj9CCm+OhlYCWd86xLHBZIVJYVkD70qnmGA6wpOBq7LfJ/cZshBmuTIVoWjZoBjBcknBB4hJYWo26mCq5GBuTX6itqVkkLUh0fB1cjAvBp9Re1KSSHqw6PgamTA10xGjVVw40pJwQ2PstJ8BmJ7UUswRjX7EIz6yo65aGc/YBzAn0jbH9gYYKLvt6BnFfZxoc0MgAtx7gQWA5L+nCXHjZJCsw75Jgj3QODtwJ7A1sAIoIzsCuUjhgqswP/7gJ8ANwFNW6Lr8k63XyIFLRIxEB8DTABcYfcQ4OuJvz/D9i+Bo4GmnCAHIVaOBbjghK+Kl4iB6BlgMvgh8DzgouGb2mD3gl2T2GUAAbp6SvLdsVdW8aXNAMcGvgrUnQy6kwZX+H0d4JuJYxWX71OYGmslFZcY4DsHFwDdJ2jIz4yFjyjHKC6TwqUxVlAxiYHjQcFTQMgk0Ms33xnwjggPj8ukcGWE9VNIiTNwNurPl3b0Oilj+I6x8YdWYxKXSWFOTBVTLGkzwGnh84AYTnyTGL6GWGOZnXCZFG5Ouxmq9rEwsBECuQQwORlj0vkBYo7hLcouk0LT1mjE0oYVh0MGRsEW1wXEdLKXiYVTpa91yIeNqa1RyFWXi49OS8RAMAbGwvN8oMxJGKMuF1SF7Eq4TAr8WXmJGAjCwPbwyjf/xniS28R0fhAWX3XqMinwORCJGKidgYnw+CBgc/LFXOYjtTP5qkOXYwpKCoEOYspuP4jKx7gGwUWy4WvOmfDqFiWFuhmXPycMvB5W/gNwcfLFbONh1HFbJ4yZG3GZFDTQaM67NCswcADKtmFA0TQZzUR9X1OBr7JF34ACrh6IYlLbsmwA0hcDpgwMQPFiYBVgekK1Re8zqHNdwqdI+fuNLrh7Dnb2qCtw+UmHAV5pPgssA1w01Cba+BPqvhdQh5wOJ644YtwT6gg6dh9cYiupzsAATJwyhM2rm2u0hfUR/X8CBwN8cYtPiWFVpc/6BbFdZ/8vSAU9OiV3BwGXA7cBvG1OPSGAgkHZB3/rmKYcM+RP/8RAUAbYRTgNmAe4GuRydQsckx1Ov44HfMpFMO6qzuo+DB0pdR/Mmuy6UDsUeCcwGdgUkOQzwKnYLwLHAzxxfYjL9ttJLj7ilM2WMDAc9WD34MvAEqDTaPTfnIuXwNuBgA/h8bkBcHU8FsPWWj4Clc3mM8DBq/cBXF+g7kH1k+434NHlFR3mBoXvjuRvWLhKCne+alZ/xcA/MvBWbN4OuGposvMql6f8I81Otvik6YsOj5WSgpPD0h4jfNnJtwDdGfhJiEvA7caOm8u/wJ6rhUtM3lrmPHSAOK2WuowHAdOBMwD2UyXuGRiAyTMdm+WLZF22XyYGiRgY/Ok1XsXYIAS/HDwDjvmbly6E4z4zAJfHTK9jc3FkGm6D6+YfctywXDbSNtqaBr5d3I3xQSjXz5XMgk0JGHB5+9UkQnnFug4Y06SgWxArB3L5vEJV4dqHEVWNZMrzAiFJlIFNUO+7gDZeiZtQp+XgfrcKbW9DlF3k4fh9vEJMrSqa4p0Cf9DEVd+2VY2hpsowKV8NbGHpj89U7GhZNq+Y7hTy2GnxPj6o43JuuwlX5lhjvAnHgmsNyshhUOYzCj7qxNkMSYIM/BR19tGgZNOOV77V+hDDdngU9Nj18ME1LxQTDeOQWosY2A514bSYj0Ylm/a8csHYz4GTgK2AdQFOOa4z9JnPTlwK8DkKXzzfM+QL/yQ+1qTHyuokBMZBKklcDHCK8ughMGnzxSwEH07iL1BxDMLFNCbM9BV2SehTAgZSSgpTdMSjZ2AjREjULYvqdhizv1RmH9jQuOBFIgZ6MTC915epfpdKUngTDrCSQqqtPL/efKjqiXyVtPamkhTWw2FNpa5pteDqtV0KE3Orm2mPhVROFI5qS8RALwbux5caZOxiJpWksHdXnfVRDHQzcG33hj6nc0s9WgdbDPRg4Hl8d2uP75P+KpU7Bc53S8RAlgE+GLcg+2Xq26kkBa6Qk4iBLANc9i7JMJBKUshUW5tiYHDJ+w3i4Z8ZUFL4Z070TRoMXI9q3pdGVcvVUkmhHF/SbgcDz6Ea32xHVdzXQknBPaeyGD8D1yBEvdK9z3FKJSnwkVuJGCADTwJTRUV/BlJJCpyPlogBMvAVQGMJOW0hlaSwRg4H2pUOA/+DqmosoeB4p5IUnirgQbvbz8AyVPGjgLqSBcdaSaGAIO1uBQOcbTgF+GMrauO5EqkkBb2+23NDitz8WYhvWuQxRhNeKklB00/RNLnaAzkPHr9Tu9cGO0wlKTT4ECn0Cgx8HWU/XaF8kkWVFJI87ElUmgnhE0nU1HElU3mbM3/sI2bhQBh/Cp1TZnzd+MMAfw+BI+XrA6MAvnz2SIA/mfY6QNKfgS9h1+f779YeMTBs2EEg4RWAJ1lsuAgxDQAmCZq/hcCfWjsN4BuI+Rqx2OoTMh4m1zMAiRgoZGB3aPj6DcIqJwFHxW2FXb9dAA6kPQpUiaMNZZeAg/0AiRgwYmBLaHFaMqbGf75R5GZKm0KNdw+/B2KqY12x/AL13gaQiIFSDNwG7boaaZEfNmIfr4jj7y9OAWYAPn97sah+de1/BvX8JKABc5AgKc9ALElhKUIfUz78UiV4khwAXA20ddyBiXVXQCIGrBmYj5J1XcHy/JxoXQO7gjxxOO7wGJAXV1P2sYt0DKCH3ECCpBoDnPIL3fBnIwbOIIQQjjucBMwB/gKE5qKsf/5cPGcW9MvhIEHihoHZMFO2IbrWn+ymKpWscOpzAnAOsAjgGg7X9XRt7wrEyHUaEjHglIFZsOa6sZaxx+cvOBAYk6yNYPYFPgfcAXDgrkyd6tC9GzHxLkciBpwzMAsW62jE/XxMdV4jtwbZrRkHfBDgdOliYBXQrz51fM9VnYcDEjHghYFZsFpHQ+7lg437jV5q5c8ol1fPA3rVp67vroR/DSj6O8Y9LWt+tyctzr/kLfCDzq36NcjBSK51CCUc6/gmwAQkqZGBlJJCyMbFK+6zNR5XF67YnQg5uPe/8K8ff3VxJEvaSCkp+FhBaEp3E18DxqSwuWkFHesxgf/YsU2ZM2QgpaTAkfYQ8jKcTgvhuKLPESgfKpEuh++ZFeNXcUsGUkoKoboPHGTkI71Nk6MQcKj3NnBJ+pNNI6wt8aaSFPiU5GaBDtpK+OWgWdNkZwQcauT/500jq03xppIUtsdBGx3owC2D3+cD+bZ1y65DqPUBvKN7zDZwlavOQCpJgaPooerKB3j4gpcmyZsR7I6BAn4cfucG8i23YCDUiVI3+QfX7bDLH+f7myYnIGCT18P5qBcf9V7hw7BsmjGQQlJgHbm+P5SE6pfb1pdjL8faFnZQjndVTePMQbXjMZFCUuATgTvEQ3n0kZyOCDcJGOUj8M0ZG0kgBlJIClPA7bqB+G2a23EImEkhpDwR0rl8t39MYQscZPaPQ0qo9RE2df4MCoVaxdiJ95bOB/0Pw0Db7xTOBq2jwlC72itXBTaB570QZ92viltNUteHJiXRrrDb87EJjdWW7beg4IdsCzssx3ckrufQng9TjI9PJDKBhRYlhcBHoK1Jgc85nA+s44BfLqTh8wu2MhIFQz13YRrzKVCcaKqco8epxKpPg8aQmHKqqF1NZYBvOeIVpwpeQXn+SOkY4A8VbPG5h7FArLIbAuNS7CpcsezNwI7AeRVtXYnyEjHglIFJsMZlxVUa+TKUf09XVGdVsMdXmg102YrpI2dlfg1U4YplLwD4pibKtgAToa3N/6YRiRhwxQAX3iwCbBsky80C+DBQt3AW43HAxi7fXsQraIzC2QabOnXKMHkel6kYFx5dVcHu7Sg7PGNTm2LAigE2xsuAToMt+5/dBQ629RsU5NWwrM2O/pkoG5scjoBeADoxlv3P5xP6JTvOZPAOqaxN6v8R4ANZEjFQmYGTYIEntk1DZHfjxIII3oj9HESzsX9hge26d/PO5x7LurD+PwJeD/QTDmCzG2DD1VKU050CSJBUY2BPFF8O2DRCrqCbbOieg2A2Pv7L0H4dauvAyTTLerDu/w6YzFq9FXo2SfoZlNsOkIgBawY4jnAnYHOy3otye5fwPAm6HCMo6+t3KBPqLUbZ6lUZRzgnayxnm12AW4CyXDGRhHwgK6dK2tUEBnibaXv15u3zBItKzkSZsg2dj09vZeHLdRGebC8CZeOn/jkWwXzI0tfJFr5URAwMMvBF/LVp4E+h3D6WHL4N5biYqYxf6u9h6c9VsV1giPUuE3dH91zLIPhjsEssfH7J0p+KJc7A21F/m6seR9z5UlJb4Yq7O4DOCWP6/1xbhw7KbQAb8wDTWLv1LkI5zuzYymdRsNueyeffoozJuIVtTCrXQgbGok4PAiYNLKtzqgM+TrPwHXKw8dsW8ZK36cDaQBUZjcJ8M3P2OORtPwB9TUtWYT2xslXWI1wGrlxMd20MOw8DeQ07u4+Lqng7XbccAoc2awZ4Yo5zFOx3YCfLR972n6H/Zke+ZSYBBiaijjbdhoUot5FDfs6FrbyGnd33EvTHOfRvYopX2zlANpaibb756DATB4Y6O0OPg61Ffrv3v9/QttTEwLDLSzYuNjReKQ92zN0bYO9poLshF33+gOMYiswdCoWyg6KsA6/svCNzJbT1E6CIn+7933DlXHbazcDmqN5SoLvxmHz+vidaaNfEf0fnu57i6Gf2/JLxMc5HgC37GazwPe/weAfS4aLo/2LoukxMFUJX0ZgZ4NW+qDFl9/OhHV9rBLiSkv3frM9+23UuYuIA4d0lYuvEfAbK+JA1YXQW0PFT9H8FdLf1EYhstosBLr4pakzZ/VM9U3B9iZh4paxrCS8fi15eIjbyxqTFZdC+ZAoMZ49P3vbxvgKR3fYwUPZJRfb52ff3Kbx7KXNb/CmfwXTZ5lX2T0DeSZfdxxWIPmU9GF8EZP322w45jeuTB9l2yMC1JRoUGxoX3tQhc+GkX8POfs861LEw5wj44XMEWf/9th+HLqdafcu/wkG/GLLfL4UuF4tJxEBfBn6JPdmGk7e9b19Lbne8D+ZMT0AuNd7Urfue1iaXiIkc1jUIOhK+TBeecer5IEBSIwN1XLFcVoeN11RuheKdpsoV9TiucI+hDZ4UexvqVlEbhcKmo/fs/lxTxVmJshxAvMpQfy3o1ZXYDUNqv1rTkkKZI8KkwHcF1iF8SYtp/5cn6tE1BMVZEVPhMmR2geqS78HRSkNn7zTUk5ojBpqWFEyvfKTnOkccmZq5HIqc/jSRA6G0gYliBR0OspreWU2HbpkkUiGswaL34e/PDI1sD70JhrpSc8BA05KCacPlHcJDDvgpY4IJ4ceGBcZDj2scfMpwGDdNojxJTROIq5g5CMxuS5FwxoILnyQ1MdC0pPCoIS/zofegoa5LtctgzLTL8i6XjnvYYpLiY+JFwmXQtxcpedi/EDZ5h2Iix5koSSdNBj6FavOKVgRO+4USji0Uxcf9HJj02YXgFXa5QSx8J+KGQAgxnSHhmI26EDUdoabdKfDqYiIc4Q4ll8DxKgPnvrsQ7Dow+RQJ7yZM9Irs2Oy/EYVuMSjI1ZmTDPSk4oCBpiUF0yrXPZ7QHRdH8W/q/iLns88uBE90k+T0LPRM+vY51bDe9RJKms7anAjdtrZXawJ9FGwaySaNnDzxtjmkXAjnrxgEwNtnX10InnBcKFUkT0DBlNciWzb7f4pC9xoU3Ak6dazvMAil3SpNSwqcTzcZyJsX+LDNgH8+XFQkA1DwdVvMpMAB19hlJQJkl6tIuNz5HUVK2l+dgaYlBV5ROH1WJL6uvkV+O/u5PPfizkbB/ynY7+M4sPtwV4Fv7qZeaOFULu9YioRccQBV4pEBH43RY7iDr/Tik39Fsn+RQg37r4EPk7GNo6C3mad4/mpgl0uJQ7cDvtjFZI3HWOgdYVAnqVRgIHRjsAmdt5tF8roihRr2sz9vcrfA90Ye4ymeB2C3aGxjNHRieBLxu4jjLwU8sL2+t0BHuxNk4N9QZ97y5uGKSHgZhzieLoiV9eBsBa/YroV3IJyezeOK4zShu1usN0/4q4G8WLmPF4XtAIknBpp4p2AygLeuJ77KmuWV2uS2eCL0fDR0DspyfCNPmIxi6KfzjuYCoKjLwwTGsQWJGFjNwAH4xKW5eVeUBdgfapXe6kCHPuyC/xwHyYuX+3hCuJY1YZB3IUW+T3Dt2NIen9e40SDeu6ETQ5fHsppxF2vqncK9BbTujP3sK8cgfKfDTINAON3meiyEV93/M/C9jYFOHSpM9ibjMHzVnAYcPR2RJiYFrtUvWpw0AjqxNHQeum8DbPB5MhY7fbw7gGMGRbIbFGJpC9MQy8KCgBnr+wt0tDsxBi5FfYtuiakTk8xBMEUxc9ETb6Fdyv4wxnGFPN9cIxDLOAzr/uGCeFkXdsl4RygRA4MMvBt/8xo5980HYhhAGwwYf44DOJiWFzdPXtcNnRzwpM/zy9WPRwGxyEgEcj+QFzP3fT6WgBVHeAYmIYSiE4y363uGD3V1BDw5FwFFDd31gCMH5O4w8MsuzhpALMITvogrji3FdIcTC3dJxrEFar0UKGo034iMnY8bxMxpzPUdx/1lA78PQyemE2wrxFO0xoMXBh/jMDCbrrjuv9bFJOffjwXGFjjcHPtnAxsDvD0+E9gH4BWGA5Z1y31weAKQd9JzKvUxYBkwAHANA+N+DzAG4MnL/nQZ4Wh9UfeAMT0EkJfdgU8A5JhcLwHqlmfhkIPFe+Q45p3NRsBNwCiAaz1OB04GJgHkiXWSJMLA11DPojsF7l8OvJDRXYptnigh5Fw4LYqbfXwmhl5dJDbyQ4EywnGK54Eiv1xmnL06M5YPACFkApyuAorifhQ6TABZPcb+BSCWmRWEIvHJwOEwnm0EZbYv8Rlcjm1e/Xg1LhNrVpd3HJvk+MjuWgdf8MTJ2jHd5kAlu2x1y3A4vAEwjbOXHhPru+oOXP7CMLAr3K4EejUEk+9WoGxR98NXzX5QIe5O3c4uERyvlD+r6PPUEv5cqh4GY73umDo8mPyfDxtc3SlpOQPsT94KmDSKfjpHBuJoX/jl9GO/uEy+vx3lywwMfqyiv2tRnlfuumUEHM4FTDjpp8MuyAF1B95Uf03ua7EBLKxI/NEVy9sW/38UnG1beKjcDvjPQTZTWQBF9rFtZX8UXNu2cIVyjPmiCuVZlImF4yoSAwaanBRYvV8Y1DFPZWTeTs/7LoB93hbbymtRcL8ShXkLzS6TrfDECpEUGO/1wGJ+qCBvq1A2qaJNTwpLcLQ4dWUrHKxjYw8hN8LpHRUc89jtXqI8uyu/LqGfVd0AX5Txly1fZZvTot+vYgBlOZ0rMWCg6Unh96jj/Qb17KeyE3YwMYQQ9nO/VdHxhiXKvwzd2SX0s6ocTxif/bLG7R/B1/IK/rgOQ2LAQNNHZDmu8FVgElD2VpwDlU8DnL8PJVfD8bYAr8KsSxlhQv9VmQLQnQGw22IzYMj4bgNCyZNw/GHA9lgvCxW4/IoBMSAGxIAYEANiQAyIATEgBsSAGBADYkAMiAExIAbEgBgQA2JADIgBMSAGxIAYEANiQAyIATEgBsSAGBADYkAMiAExIAbEgBgQA2JADIgBMSAGxIAYEANiQAyIATEgBsSAGBADYkAMiAExIAbEgBgQA2JADIgBMSAGxIAYEANiQAyIATEgBsSAGBADYkAMtImBvwMm+6LPAYKOJAAAAABJRU5ErkJggg==" media="(prefers-color-scheme: light)">
+<link rel="icon" href="data:image/png;base64,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" media="(prefers-color-scheme: dark)">
 <style>
 /* ── Reset ── */
 * { box-sizing: border-box; margin: 0; padding: 0; }
-body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 14px; background: #f0f2f5; color: #1a1a2e; height: 100vh; overflow: hidden; display: flex; flex-direction: column; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 14px; background: #E6E6E6; color: #000000; height: 100vh; overflow: hidden; display: flex; flex-direction: column; }
 
 /* ── Header ── */
-header { background: #1a1a2e; color: white; padding: 10px 18px; display: flex; align-items: center; gap: 14px; flex-shrink: 0; }
+header { background: #000000; color: white; padding: 10px 18px; display: flex; align-items: center; gap: 14px; flex-shrink: 0; }
 header h1 { font-size: 16px; font-weight: 700; white-space: nowrap; letter-spacing: -.3px; }
 .ai-search-wrap { flex: 1; display: flex; gap: 7px; max-width: 640px; }
-.ai-search-input { flex: 1; padding: 7px 14px; border-radius: 20px; border: none; font-size: 13px; background: white; color: #1a1a2e; outline: none; }
+.ai-search-input { flex: 1; padding: 7px 14px; border-radius: 20px; border: none; font-size: 13px; background: white; color: #000000; outline: none; }
 .ai-search-input::placeholder { color: #aaa; }
 .ai-search-input:focus { background: white; box-shadow: 0 0 0 2px rgba(255,255,255,.4); }
-.ai-search-btn { padding: 7px 15px; border-radius: 20px; border: none; background: #e63946; color: white; cursor: pointer; font-size: 12px; font-weight: 700; white-space: nowrap; letter-spacing: .3px; }
-.ai-search-btn:hover { background: #c1121f; }
+.ai-search-btn { padding: 7px 15px; border-radius: 20px; border: none; background: #FF4874; color: white; cursor: pointer; font-size: 12px; font-weight: 700; white-space: nowrap; letter-spacing: .3px; }
+.ai-search-btn:hover { background: #CC3A5D; }
 .ai-search-btn:disabled { opacity: .5; cursor: default; }
 header .meta { font-size: 11px; color: #888; white-space: nowrap; margin-left: auto; }
 
 /* ── AI Result Bar ── */
-.ai-result-bar { background: #2a2a46; color: #ccc; font-size: 12px; padding: 5px 18px; display: none; align-items: center; gap: 10px; flex-shrink: 0; }
+.ai-result-bar { background: #000000; color: #ccc; font-size: 12px; padding: 5px 18px; display: none; align-items: center; gap: 10px; flex-shrink: 0; }
 .ai-result-bar.show { display: flex; }
 .ai-result-bar .explanation { font-style: italic; flex: 1; }
 .ai-result-bar .result-count { color: white; font-weight: 600; }
-.ai-result-bar .clear-ai { cursor: pointer; color: #e63946; font-weight: 700; padding: 2px 6px; }
+.ai-result-bar .clear-ai { cursor: pointer; color: #FF4874; font-weight: 700; padding: 2px 6px; }
 .ai-result-bar .clear-ai:hover { text-decoration: underline; }
 
 /* ── Tabs ── */
 .tabs { background: white; border-bottom: 2px solid #e8e8e8; display: flex; padding: 0 18px; flex-shrink: 0; }
 .tab { padding: 10px 16px; cursor: pointer; font-weight: 500; color: #777; border-bottom: 3px solid transparent; margin-bottom: -2px; font-size: 13px; transition: color .15s; }
-.tab.active { color: #1a1a2e; border-bottom-color: #e63946; }
+.tab.active { color: #000000; border-bottom-color: #FF4874; }
 .tab:hover:not(.active) { color: #333; background: #fafafa; }
 
 /* ── Main Layout ── */
@@ -45,24 +47,24 @@ header .meta { font-size: 11px; color: #888; white-space: nowrap; margin-left: a
 .sidebar h3 { font-size: 10px; text-transform: uppercase; letter-spacing: .6px; color: #aaa; margin-bottom: 5px; font-weight: 700; }
 .filter-group { margin-bottom: 13px; }
 select, input[type=text] { width: 100%; padding: 6px 9px; border: 1px solid #e0e0e0; border-radius: 6px; font-size: 13px; outline: none; background: white; }
-select:focus, input[type=text]:focus { border-color: #1a1a2e; }
+select:focus, input[type=text]:focus { border-color: #000000; }
 .sidebar-count { font-size: 12px; color: #999; margin-top: 6px; }
-.sidebar-count strong { color: #1a1a2e; }
+.sidebar-count strong { color: #000000; }
 
 /* ── Multi-select filter dropdowns ── */
 .msel { position: relative; }
-.msel-btn { width: 100%; padding: 6px 9px; border: 1px solid #e0e0e0; border-radius: 6px; font-size: 13px; background: white; text-align: left; cursor: pointer; display: flex; align-items: center; justify-content: space-between; gap: 6px; color: #1a1a2e; }
+.msel-btn { width: 100%; padding: 6px 9px; border: 1px solid #e0e0e0; border-radius: 6px; font-size: 13px; background: white; text-align: left; cursor: pointer; display: flex; align-items: center; justify-content: space-between; gap: 6px; color: #000000; }
 .msel-btn span.msel-btn-label { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .msel-btn::after { content: '▾'; font-size: 10px; color: #999; flex-shrink: 0; }
-.msel-btn.active { border-color: #1a1a2e; background: #f0f2ff; }
-.msel-btn.active span.msel-btn-label { color: #1a1a2e; font-weight: 600; }
+.msel-btn.active { border-color: #000000; background: #f0f2ff; }
+.msel-btn.active span.msel-btn-label { color: #000000; font-weight: 600; }
 .msel-panel { display: none; position: absolute; top: calc(100% + 4px); left: 0; right: 0; z-index: 50; background: white; border: 1px solid #e0e0e0; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,.12); max-height: 280px; overflow-y: auto; padding: 6px; }
 .msel-panel.open { display: block; }
 .msel-actions { display: flex; justify-content: flex-end; padding: 2px 4px 6px; border-bottom: 1px solid #f0f0f0; margin-bottom: 4px; }
-.msel-clear { background: none; border: none; color: #6366f1; font-size: 11px; font-weight: 600; cursor: pointer; padding: 2px 4px; }
+.msel-clear { background: none; border: none; color: #FFBD59; font-size: 11px; font-weight: 600; cursor: pointer; padding: 2px 4px; }
 .msel-clear:hover { text-decoration: underline; }
 .msel-search { width: 100%; padding: 5px 8px; border: 1px solid #e0e0e0; border-radius: 5px; font-size: 12px; margin-bottom: 4px; outline: none; }
-.msel-search:focus { border-color: #1a1a2e; }
+.msel-search:focus { border-color: #000000; }
 .msel-option { display: flex; align-items: center; gap: 7px; padding: 5px 6px; border-radius: 5px; font-size: 13px; cursor: pointer; }
 .msel-option:hover { background: #f5f5f7; }
 .msel-option input[type=checkbox] { width: auto; margin: 0; flex-shrink: 0; }
@@ -73,8 +75,8 @@ select:focus, input[type=text]:focus { border-color: #1a1a2e; }
 .toolbar { padding: 9px 13px; background: white; border-bottom: 1px solid #e8e8e8; display: flex; align-items: center; gap: 8px; }
 .btn { padding: 6px 12px; border: 1px solid #ddd; border-radius: 6px; cursor: pointer; font-size: 12px; background: white; color: #333; }
 .btn:hover { background: #f5f5f5; }
-.btn.primary { background: #1a1a2e; color: white; border-color: #1a1a2e; }
-.btn.primary:hover { background: #2d2d4e; }
+.btn.primary { background: #000000; color: white; border-color: #000000; }
+.btn.primary:hover { background: #2a2a2a; }
 .table-wrap { flex: 1; overflow-y: auto; }
 table { width: 100%; border-collapse: collapse; }
 th { position: sticky; top: 0; background: #f8f9fa; text-align: left; padding: 9px 11px; font-size: 11px; text-transform: uppercase; letter-spacing: .4px; color: #777; border-bottom: 2px solid #e8e8e8; z-index: 10; cursor: pointer; user-select: none; white-space: nowrap; }
@@ -86,11 +88,11 @@ tr.selected td { box-shadow: inset 3px 0 0 #1a6eb5; background: #f0f6fc !importa
 .title-cell { max-width: 300px; }
 .title-text { font-weight: 500; line-height: 1.35; display: flex; align-items: flex-start; gap: 5px; }
 .badge { display: inline-block; padding: 2px 7px; border-radius: 10px; font-size: 11px; font-weight: 600; white-space: nowrap; }
-.badge-High { background: #fde8e8; color: #c0392b; }
+.badge-High { background: #FFC8D5; color: #FF4874; }
 .badge-Moderate { background: #fef3e2; color: #d68910; }
-.badge-Low { background: #e8f8f0; color: #27ae60; }
-.badge-type { background: #e8ecf8; color: #2c3e8c; }
-.edited-dot { display: inline-block; width: 6px; height: 6px; background: #e63946; border-radius: 50%; flex-shrink: 0; margin-top: 5px; }
+.badge-Low { background: #B2DAD7; color: #00847A; }
+.badge-type { background: #B2DAD7; color: #00847A; }
+.edited-dot { display: inline-block; width: 6px; height: 6px; background: #FF4874; border-radius: 50%; flex-shrink: 0; margin-top: 5px; }
 .empty-state { text-align: center; padding: 60px 20px; color: #ccc; font-size: 15px; }
 .sort-asc::after { content: ' ↑'; }
 .sort-desc::after { content: ' ↓'; }
@@ -105,14 +107,14 @@ tr.selected td { box-shadow: inset 3px 0 0 #1a6eb5; background: #f0f6fc !importa
 .title-box { border-radius: 7px; padding: 10px 12px; margin-bottom: 5px; }
 .title-box h2 { font-size: 14px; line-height: 1.45; word-break: break-word; }
 .detail-id { font-family: monospace; color: #bbb; font-size: 11px; }
-.edited-stamp { color: #e63946; font-style: italic; font-family: sans-serif; }
+.edited-stamp { color: #FF4874; font-style: italic; font-family: sans-serif; }
 .detail-body { overflow-y: auto; flex: 1; padding: 11px 14px 20px; }
 .detail-section { font-size: 10px; text-transform: uppercase; letter-spacing: .6px; color: #bbb; font-weight: 700; border-top: 1px solid #eee; padding-top: 10px; margin: 14px 0 9px; }
 .detail-section:first-child { border-top: none; margin-top: 0; }
 .detail-field { margin-bottom: 10px; }
 .detail-field > label { font-size: 10px; text-transform: uppercase; letter-spacing: .4px; color: #bbb; display: block; margin-bottom: 4px; font-weight: 700; }
-.field-edit, .field-edit-creds { width: 100%; padding: 6px 8px; border: 1px solid #e0e0e0; border-radius: 5px; font-size: 13px; font-family: inherit; outline: none; background: white; color: #1a1a2e; }
-.field-edit:focus, .field-edit-creds:focus { border-color: #1a1a2e; }
+.field-edit, .field-edit-creds { width: 100%; padding: 6px 8px; border: 1px solid #e0e0e0; border-radius: 5px; font-size: 13px; font-family: inherit; outline: none; background: white; color: #000000; }
+.field-edit:focus, .field-edit-creds:focus { border-color: #000000; }
 select.field-edit { height: 30px; }
 textarea.field-edit { resize: vertical; }
 .link-row { display: flex; gap: 5px; }
@@ -128,7 +130,7 @@ textarea.field-edit { resize: vertical; }
 /* Toggle */
 .toggle-row { display: flex; align-items: center; gap: 8px; cursor: pointer; }
 .toggle { width: 34px; height: 19px; background: #ddd; border-radius: 10px; cursor: pointer; position: relative; transition: background .2s; flex-shrink: 0; }
-.toggle.on { background: #27ae60; }
+.toggle.on { background: #00847A; }
 .toggle::after { content: ''; width: 15px; height: 15px; background: white; border-radius: 50%; position: absolute; top: 2px; left: 2px; transition: left .2s; }
 .toggle.on::after { left: 17px; }
 .toggle-label { font-size: 13px; color: #444; }
@@ -136,10 +138,10 @@ textarea.field-edit { resize: vertical; }
 /* WCAG reviewed checkmark */
 .wcag-check { display: inline-flex; align-items: center; gap: 6px; cursor: pointer; padding: 3px 10px 3px 8px; border-radius: 12px; font-size: 13px; font-weight: 600; }
 .wcag-check .wcag-icon { width: 16px; height: 16px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; font-size: 11px; color: #fff; flex-shrink: 0; }
-.wcag-check.yes { background: rgba(39,174,96,.12); color: #27ae60; }
-.wcag-check.yes .wcag-icon { background: #27ae60; }
-.wcag-check.no { background: rgba(230,57,70,.1); color: #e63946; }
-.wcag-check.no .wcag-icon { background: #e63946; }
+.wcag-check.yes { background: rgba(0,132,122,.12); color: #00847A; }
+.wcag-check.yes .wcag-icon { background: #00847A; }
+.wcag-check.no { background: rgba(255,72,116,.1); color: #FF4874; }
+.wcag-check.no .wcag-icon { background: #FF4874; }
 
 /* Color swatches */
 .color-pair { display: flex; gap: 10px; }
@@ -148,14 +150,14 @@ textarea.field-edit { resize: vertical; }
 .swatch-row { display: flex; gap: 4px; flex-wrap: wrap; }
 .swatch { width: 21px; height: 21px; border-radius: 4px; cursor: pointer; border: 2px solid transparent; transition: transform .12s, border-color .12s; }
 .swatch:hover { transform: scale(1.18); }
-.swatch.active { border-color: #1a1a2e; }
+.swatch.active { border-color: #000000; }
 .swatch-clear { background: white; border: 2px dashed #ccc; font-size: 11px; display: flex; align-items: center; justify-content: center; color: #bbb; }
 .swatch-clear:hover { border-color: #888; }
 
 /* Tags */
 .tag-wrap { display: flex; flex-wrap: wrap; gap: 5px; border: 1px solid #e0e0e0; border-radius: 5px; padding: 5px; min-height: 34px; cursor: text; }
-.tag-wrap:focus-within { border-color: #1a1a2e; }
-.tag { background: #1a1a2e; color: white; border-radius: 12px; padding: 2px 9px; font-size: 12px; display: flex; align-items: center; gap: 4px; }
+.tag-wrap:focus-within { border-color: #000000; }
+.tag { background: #000000; color: white; border-radius: 12px; padding: 2px 9px; font-size: 12px; display: flex; align-items: center; gap: 4px; }
 .tag-x { cursor: pointer; opacity: .55; font-size: 13px; line-height: 1; }
 .tag-x:hover { opacity: 1; }
 .tag-wrap input { border: none; outline: none; font-size: 13px; flex: 1; min-width: 70px; background: transparent; }
@@ -166,18 +168,18 @@ textarea.field-edit { resize: vertical; }
 .change-desc { flex: 1; color: #444; align-self: center; }
 .change-by { color: #aaa; white-space: nowrap; flex-shrink: 0; font-style: italic; align-self: center; }
 .change-extras { width: 100%; display: flex; flex-wrap: wrap; gap: 4px; padding-left: 0; margin-top: 1px; }
-.change-tag { display: inline-block; background: #f0f2f5; color: #555; border-radius: 10px; padding: 2px 8px; font-size: 11px; }
-.change-link { text-decoration: none; color: #1a1a2e; }
+.change-tag { display: inline-block; background: #E6E6E6; color: #555; border-radius: 10px; padding: 2px 8px; font-size: 11px; }
+.change-link { text-decoration: none; color: #000000; }
 .change-link:hover { background: #e0e4ea; }
 .change-source { background: #e8f4fd; color: #1a73e8; }
 .log-add-btn { font-size: 12px; color: #1a6eb5; cursor: pointer; border: none; background: none; padding: 5px 0; margin-top: 2px; }
 .log-add-btn:hover { text-decoration: underline; }
 .log-form { background: #f8f9fa; border-radius: 6px; padding: 9px; margin-top: 7px; }
 .log-form input { width: 100%; padding: 5px 8px; border: 1px solid #e0e0e0; border-radius: 4px; font-size: 12px; margin-bottom: 5px; outline: none; }
-.log-form input:focus { border-color: #1a1a2e; }
+.log-form input:focus { border-color: #000000; }
 .log-form .row2 { display: flex; gap: 5px; }
 .log-form .row2 input { margin-bottom: 0; }
-.log-form .save-btn { margin-top: 7px; padding: 5px 12px; background: #1a1a2e; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 12px; }
+.log-form .save-btn { margin-top: 7px; padding: 5px 12px; background: #000000; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 12px; }
 
 /* Contributor link */
 .contrib-link { color: #1a6eb5; cursor: pointer; font-size: 11px; white-space: nowrap; text-decoration: underline dotted; }
@@ -185,9 +187,9 @@ textarea.field-edit { resize: vertical; }
 
 /* ── Contributor Full Page ── */
 .overlay { display: none; } /* kept for compat but unused */
-.contrib-page { position: fixed; inset: 0; background: #f0f2f5; z-index: 300; display: none; flex-direction: column; overflow: hidden; }
+.contrib-page { position: fixed; inset: 0; background: #E6E6E6; z-index: 300; display: none; flex-direction: column; overflow: hidden; }
 .contrib-page.open { display: flex; }
-.contrib-head { background: #1a1a2e; color: white; padding: 16px 24px 14px; flex-shrink: 0; display: flex; align-items: flex-start; gap: 18px; }
+.contrib-head { background: #000000; color: white; padding: 16px 24px 14px; flex-shrink: 0; display: flex; align-items: flex-start; gap: 18px; }
 .contrib-head-back { border: none; background: rgba(255,255,255,.12); color: white; font-size: 13px; cursor: pointer; padding: 6px 14px; border-radius: 20px; white-space: nowrap; flex-shrink: 0; margin-top: 2px; }
 .contrib-head-back:hover { background: rgba(255,255,255,.22); }
 .contrib-head-info { flex: 1; }
@@ -206,25 +208,25 @@ textarea.field-edit { resize: vertical; }
 .contrib-item .ci-tags { margin-top: 6px; display: flex; gap: 4px; flex-wrap: wrap; }
 
 /* ── Client Licensing Tab ── */
-.license-page { flex: 1; display: flex; overflow: hidden; background: #f0f2f5; }
+.license-page { flex: 1; display: flex; overflow: hidden; background: #E6E6E6; }
 .client-sidebar { width: 260px; background: white; border-right: 1px solid #e8e8e8; display: flex; flex-direction: column; flex-shrink: 0; overflow: hidden; }
 .client-sidebar-head { padding: 14px 14px 10px; border-bottom: 1px solid #eee; flex-shrink: 0; }
 .client-sidebar-head h3 { font-size: 11px; text-transform: uppercase; letter-spacing: .6px; color: #aaa; font-weight: 700; margin-bottom: 10px; }
 .add-client-row { display: flex; flex-direction: column; gap: 6px; }
 .add-client-input { padding: 7px 10px; border: 1px solid #ddd; border-radius: 6px; font-size: 13px; outline: none; width: 100%; }
-.add-client-input:focus { border-color: #1a1a2e; }
-.add-client-btn { padding: 7px; border-radius: 6px; border: none; background: #1a1a2e; color: white; cursor: pointer; font-size: 13px; font-weight: 600; width: 100%; }
-.add-client-btn:hover { background: #2d2d4e; }
+.add-client-input:focus { border-color: #000000; }
+.add-client-btn { padding: 7px; border-radius: 6px; border: none; background: #000000; color: white; cursor: pointer; font-size: 13px; font-weight: 600; width: 100%; }
+.add-client-btn:hover { background: #2a2a2a; }
 .client-list { flex: 1; overflow-y: auto; padding: 8px; }
 .client-row { display: flex; align-items: center; justify-content: space-between; padding: 9px 10px; border-radius: 6px; cursor: pointer; margin-bottom: 3px; border: 2px solid transparent; transition: .15s; }
 .client-row:hover { background: #f5f5f5; }
-.client-row.active { background: #1a1a2e; border-color: #1a1a2e; }
-.client-row-name { font-size: 13px; font-weight: 600; color: #1a1a2e; }
+.client-row.active { background: #000000; border-color: #000000; }
+.client-row-name { font-size: 13px; font-weight: 600; color: #000000; }
 .client-row.active .client-row-name { color: white; }
 .client-row-count { font-size: 11px; color: #aaa; }
 .client-row.active .client-row-count { color: rgba(255,255,255,.6); }
 .client-row-remove { font-size: 15px; color: #ccc; cursor: pointer; line-height: 1; padding: 2px 4px; border-radius: 3px; }
-.client-row-remove:hover { color: #e63946; background: rgba(230,57,70,.1); }
+.client-row-remove:hover { color: #FF4874; background: rgba(255,72,116,.1); }
 .client-row.active .client-row-remove { color: rgba(255,255,255,.4); }
 .client-row.active .client-row-remove:hover { color: white; background: rgba(255,255,255,.15); }
 .client-content-area { flex: 1; overflow-y: auto; }
@@ -270,15 +272,15 @@ textarea.field-edit { resize: vertical; }
 <body>
 
 <!-- ── Login Modal ─────────────────────────────────────────────────────────── -->
-<div id="loginOverlay" style="position:fixed;inset:0;background:#1a1a2e;z-index:9999;display:flex;align-items:center;justify-content:center">
+<div id="loginOverlay" style="position:fixed;inset:0;background:#000000;z-index:9999;display:flex;align-items:center;justify-content:center">
   <div style="background:white;border-radius:16px;padding:36px 40px;width:420px;max-width:92vw;box-shadow:0 20px 60px rgba(0,0,0,.4)">
     <div style="text-align:center;margin-bottom:28px">
-      <div style="font-size:22px;font-weight:800;color:#1a1a2e;letter-spacing:-.5px">Caravan Wellness</div>
+      <div style="font-size:22px;font-weight:800;color:#000000;letter-spacing:-.5px">Caravan Wellness</div>
       <div style="font-size:13px;color:#888;margin-top:4px">Content Dashboard</div>
     </div>
     <div id="authForm">
     <div style="display:flex;border:1px solid #e8e8e8;border-radius:8px;margin-bottom:22px;overflow:hidden">
-      <button id="loginTab" onclick="switchAuthTab('login')" style="flex:1;padding:9px;border:none;background:#1a1a2e;color:white;font-weight:700;font-size:13px;cursor:pointer">Log In</button>
+      <button id="loginTab" onclick="switchAuthTab('login')" style="flex:1;padding:9px;border:none;background:#000000;color:white;font-weight:700;font-size:13px;cursor:pointer">Log In</button>
       <button id="signupTab" onclick="switchAuthTab('signup')" style="flex:1;padding:9px;border:none;background:white;color:#666;font-weight:600;font-size:13px;cursor:pointer">Sign Up / Reset Password</button>
     </div>
     <div id="signupNameRow" style="display:none;margin-bottom:14px">
@@ -294,14 +296,14 @@ textarea.field-edit { resize: vertical; }
       <input id="authPassword" type="password" placeholder="••••••••" style="width:100%;padding:10px 12px;border:1px solid #e0e0e0;border-radius:8px;font-size:14px;outline:none">
     </div>
     <div id="authError" style="display:none;background:#fff0f0;color:#c62828;font-size:12px;padding:10px 12px;border-radius:7px;margin-bottom:16px"></div>
-    <button id="authSubmitBtn" onclick="submitAuth()" style="width:100%;padding:12px;background:#1a1a2e;color:white;border:none;border-radius:8px;font-weight:700;font-size:14px;cursor:pointer;letter-spacing:.2px">Log In</button>
+    <button id="authSubmitBtn" onclick="submitAuth()" style="width:100%;padding:12px;background:#000000;color:white;border:none;border-radius:8px;font-weight:700;font-size:14px;cursor:pointer;letter-spacing:.2px">Log In</button>
     </div>
 
     <!-- OTP verification step — shown after signup -->
     <div id="otpStep" style="display:none">
       <div style="text-align:center;margin-bottom:18px">
         <div style="font-size:32px;margin-bottom:8px">📧</div>
-        <div style="font-size:14px;font-weight:700;color:#1a1a2e;margin-bottom:6px">Check your email</div>
+        <div style="font-size:14px;font-weight:700;color:#000000;margin-bottom:6px">Check your email</div>
         <div id="otpHint" style="font-size:12px;color:#888;line-height:1.5"></div>
       </div>
       <div style="margin-bottom:18px">
@@ -311,7 +313,7 @@ textarea.field-edit { resize: vertical; }
           onkeydown="if(event.key==='Enter')submitOtp()">
       </div>
       <div id="otpError" style="display:none;background:#fff0f0;color:#c62828;font-size:12px;padding:10px 12px;border-radius:7px;margin-bottom:16px"></div>
-      <button id="otpSubmitBtn" onclick="submitOtp()" style="width:100%;padding:12px;background:#1a1a2e;color:white;border:none;border-radius:8px;font-weight:700;font-size:14px;cursor:pointer;letter-spacing:.2px;margin-bottom:10px">Verify</button>
+      <button id="otpSubmitBtn" onclick="submitOtp()" style="width:100%;padding:12px;background:#000000;color:white;border:none;border-radius:8px;font-weight:700;font-size:14px;cursor:pointer;letter-spacing:.2px;margin-bottom:10px">Verify</button>
       <button onclick="cancelOtp()" style="width:100%;padding:8px;border:none;background:none;color:#aaa;cursor:pointer;font-size:12px">← Back to sign up</button>
     </div>
   </div>
@@ -320,14 +322,14 @@ textarea.field-edit { resize: vertical; }
 <!-- ── Review-type popup ───────────────────────────────────────────────────── -->
 <div id="reviewTypeModal" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:8000;align-items:center;justify-content:center">
   <div style="background:white;border-radius:14px;padding:30px;max-width:420px;width:90%;box-shadow:0 12px 40px rgba(0,0,0,.25)">
-    <h3 style="margin:0 0 8px;font-size:16px;font-weight:700;color:#1a1a2e">Does this review include any content changes?</h3>
+    <h3 style="margin:0 0 8px;font-size:16px;font-weight:700;color:#000000">Does this review include any content changes?</h3>
     <p style="font-size:13px;color:#666;margin:0 0 22px">This helps us track what was updated vs. just reviewed.</p>
     <div style="display:flex;flex-direction:column;gap:10px;margin-bottom:18px">
       <button onclick="completeReview(false)" style="padding:13px 16px;border:1px solid #e0e0e0;border-radius:9px;background:white;cursor:pointer;text-align:left;transition:border-color .15s">
-        <div style="font-weight:700;font-size:13px;color:#1a1a2e">No — routine review only</div>
+        <div style="font-weight:700;font-size:13px;color:#000000">No — routine review only</div>
         <div style="font-size:12px;color:#888;margin-top:2px">Content was reviewed but nothing changed</div>
       </button>
-      <button onclick="completeReview(true)" style="padding:13px 16px;border:1px solid #e63946;border-radius:9px;background:#fff8f8;cursor:pointer;text-align:left">
+      <button onclick="completeReview(true)" style="padding:13px 16px;border:1px solid #FF4874;border-radius:9px;background:#fff8f8;cursor:pointer;text-align:left">
         <div style="font-weight:700;font-size:13px;color:#c62828">Yes — content was updated</div>
         <div style="font-size:12px;color:#888;margin-top:2px">Clients with this content will be notified via Slack</div>
       </button>
@@ -339,12 +341,12 @@ textarea.field-edit { resize: vertical; }
 <!-- ── Export Modal ───────────────────────────────────────────────────────────── -->
 <div id="exportModal" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:8000;align-items:center;justify-content:center">
   <div style="background:white;border-radius:14px;padding:30px;max-width:480px;width:90%;box-shadow:0 12px 40px rgba(0,0,0,.25);max-height:90vh;overflow-y:auto">
-    <h3 style="margin:0 0 6px;font-size:16px;font-weight:700;color:#1a1a2e">Export Content Library</h3>
+    <h3 style="margin:0 0 6px;font-size:16px;font-weight:700;color:#000000">Export Content Library</h3>
     <p style="font-size:13px;color:#666;margin:0 0 18px">Both options export whatever's currently filtered/visible in the table.</p>
     <button class="btn primary" onclick="exportCSV()" style="width:100%">⬇ Export Current View</button>
     <div style="font-size:11px;color:#999;margin:6px 0 18px">Same columns as the table on screen.</div>
     <div style="border-top:1px solid #eee;padding-top:16px">
-      <div style="font-weight:700;color:#1a1a2e;margin-bottom:4px;font-size:14px">Or choose columns</div>
+      <div style="font-weight:700;color:#000000;margin-bottom:4px;font-size:14px">Or choose columns</div>
       <div style="font-size:12px;color:#666;margin-bottom:10px">ID, Title, and Language are always included. Clients, Type, and Content / Article Link are checked by default — check anything else you need.</div>
       <div id="exportColList" style="max-height:280px;overflow-y:auto;border:1px solid #eee;border-radius:8px;padding:8px 14px"></div>
       <button class="btn primary" onclick="exportCSVColumns()" style="width:100%;margin-top:14px">⬇ Export Selected Columns</button>
@@ -356,7 +358,7 @@ textarea.field-edit { resize: vertical; }
 <!-- ── Import Modal ───────────────────────────────────────────────────────────── -->
 <div id="importModal" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:8000;align-items:center;justify-content:center">
   <div style="background:white;border-radius:14px;padding:30px;max-width:560px;width:90%;box-shadow:0 12px 40px rgba(0,0,0,.25);max-height:90vh;overflow-y:auto">
-    <h3 style="margin:0 0 6px;font-size:16px;font-weight:700;color:#1a1a2e">Import Content</h3>
+    <h3 style="margin:0 0 6px;font-size:16px;font-weight:700;color:#000000">Import Content</h3>
     <p style="font-size:13px;color:#666;margin:0 0 14px">Upload an Excel or CSV. For Excel, each sheet tab = client name. Items already in the dashboard will be updated (client tags, etc.); new items will be added to the library. Type is detected per row from a <strong>Content Type</strong> or <strong>Format</strong> column, from column headers, or from the URL.</p>
     <div style="font-size:12px;color:#777;margin:0 0 18px;padding:12px 14px;background:#f8f9fa;border-radius:8px;line-height:1.6">
       <strong style="display:block;margin-bottom:4px;color:#555">What the dashboard expects:</strong>
@@ -376,7 +378,7 @@ textarea.field-edit { resize: vertical; }
     <div id="importPreview" style="display:none;margin-bottom:16px;border:1px solid #e0eaff;border-radius:8px;padding:14px;background:#f5f8ff;font-size:13px"></div>
     <div id="importStatus" style="font-size:12px;color:#666;min-height:18px;margin-bottom:12px"></div>
     <div style="display:flex;gap:10px;justify-content:flex-end">
-      <button id="importConfirmBtn" onclick="confirmImport()" style="display:none;padding:9px 20px;background:#6366f1;color:white;border:none;border-radius:7px;font-weight:700;font-size:13px;cursor:pointer">Save to Dashboard</button>
+      <button id="importConfirmBtn" onclick="confirmImport()" style="display:none;padding:9px 20px;background:#FFBD59;color:white;border:none;border-radius:7px;font-weight:700;font-size:13px;cursor:pointer">Save to Dashboard</button>
       <button onclick="closeImportModal()" style="padding:9px 18px;border:1px solid #e0e0e0;border-radius:7px;background:white;cursor:pointer;font-size:13px;color:#666">Close</button>
     </div>
   </div>
@@ -385,12 +387,12 @@ textarea.field-edit { resize: vertical; }
 <!-- Possible-duplicate confirmation (manual edit of Title/Language/Type) -->
 <div id="dupeConfirmModal" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:9000;align-items:center;justify-content:center">
   <div style="background:white;border-radius:14px;padding:24px;max-width:420px;width:90%;box-shadow:0 12px 40px rgba(0,0,0,.25)">
-    <h3 style="margin:0 0 10px;font-size:15px;font-weight:700;color:#1a1a2e">Possible duplicate</h3>
+    <h3 style="margin:0 0 10px;font-size:15px;font-weight:700;color:#000000">Possible duplicate</h3>
     <p id="dupeConfirmMsg" style="font-size:13px;color:#555;margin:0 0 18px;line-height:1.5"></p>
     <div style="display:flex;gap:10px;justify-content:flex-end;flex-wrap:wrap">
       <button onclick="_dupeConfirmResolve('cancel')" style="padding:9px 16px;border:1px solid #e0e0e0;border-radius:7px;background:white;cursor:pointer;font-size:13px;color:#666">Undo edit</button>
-      <button id="dupeConfirmMergeBtn" onclick="_dupeConfirmResolve('merge')" style="padding:9px 16px;border:1px solid #6366f1;border-radius:7px;background:white;cursor:pointer;font-size:13px;color:#6366f1;font-weight:600">Merge</button>
-      <button onclick="_dupeConfirmResolve('confirm')" style="padding:9px 16px;background:#6366f1;color:white;border:none;border-radius:7px;font-weight:700;font-size:13px;cursor:pointer">Save anyway</button>
+      <button id="dupeConfirmMergeBtn" onclick="_dupeConfirmResolve('merge')" style="padding:9px 16px;border:1px solid #FFBD59;border-radius:7px;background:white;cursor:pointer;font-size:13px;color:#FFBD59;font-weight:600">Merge</button>
+      <button onclick="_dupeConfirmResolve('confirm')" style="padding:9px 16px;background:#FFBD59;color:white;border:none;border-radius:7px;font-weight:700;font-size:13px;cursor:pointer">Save anyway</button>
     </div>
   </div>
 </div>
@@ -398,7 +400,7 @@ textarea.field-edit { resize: vertical; }
 <!-- Creator Import Modal -->
 <div id="creatorImportModal" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:8000;align-items:center;justify-content:center">
   <div style="background:white;border-radius:14px;padding:30px;max-width:560px;width:90%;box-shadow:0 12px 40px rgba(0,0,0,.25);max-height:90vh;overflow-y:auto">
-    <h3 style="margin:0 0 6px;font-size:16px;font-weight:700;color:#1a1a2e">Import Creator Info</h3>
+    <h3 style="margin:0 0 6px;font-size:16px;font-weight:700;color:#000000">Import Creator Info</h3>
     <p style="font-size:13px;color:#666;margin:0 0 14px">Upload a CSV — the one exported from this page, or any CSV with <strong>Name</strong>, <strong>Credentials</strong>, and <strong>Bio</strong> columns. Rows are matched by Name; Credentials and Bio are updated, blank cells are left alone. Authored/Reviewed columns (if present) are ignored — those are computed from content, not editable.</p>
     <div id="creatorImportDropzone" ondragover="event.preventDefault()" ondrop="handleCreatorImportDrop(event)" style="border:2px dashed #e0e0e0;border-radius:10px;padding:32px;text-align:center;cursor:pointer;margin-bottom:16px" onclick="document.getElementById('creatorImportFileInput').click()">
       <div style="font-size:28px;margin-bottom:8px">📂</div>
@@ -408,7 +410,7 @@ textarea.field-edit { resize: vertical; }
     <div id="creatorImportPreview" style="display:none;margin-bottom:16px;border:1px solid #e0eaff;border-radius:8px;padding:14px;background:#f5f8ff;font-size:13px"></div>
     <div id="creatorImportStatus" style="font-size:12px;color:#666;min-height:18px;margin-bottom:12px"></div>
     <div style="display:flex;gap:10px;justify-content:flex-end">
-      <button id="creatorImportConfirmBtn" onclick="confirmCreatorImport()" style="display:none;padding:9px 20px;background:#6366f1;color:white;border:none;border-radius:7px;font-weight:700;font-size:13px;cursor:pointer">Save to Dashboard</button>
+      <button id="creatorImportConfirmBtn" onclick="confirmCreatorImport()" style="display:none;padding:9px 20px;background:#FFBD59;color:white;border:none;border-radius:7px;font-weight:700;font-size:13px;cursor:pointer">Save to Dashboard</button>
       <button onclick="closeCreatorImportModal()" style="padding:9px 18px;border:1px solid #e0e0e0;border-radius:7px;background:white;cursor:pointer;font-size:13px;color:#666">Close</button>
     </div>
   </div>
@@ -419,16 +421,16 @@ textarea.field-edit { resize: vertical; }
 <div id="adminModal" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:9500;align-items:center;justify-content:center">
   <div style="background:white;border-radius:12px;width:100%;max-width:480px;padding:28px;box-shadow:0 20px 60px rgba(0,0,0,.3);max-height:80vh;display:flex;flex-direction:column">
     <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:20px">
-      <h2 style="margin:0;font-size:17px;color:#1a1a2e">⚙ Admin — Reset Password</h2>
+      <h2 style="margin:0;font-size:17px;color:#000000">⚙ Admin — Reset Password</h2>
       <button onclick="closeAdminPanel()" style="background:none;border:none;font-size:20px;cursor:pointer;color:#888;line-height:1">×</button>
     </div>
     <p style="margin:0 0 16px;font-size:13px;color:#666">Select a user and set a new temporary password. Share it with them via Slack or email.</p>
     <div id="adminUserList" style="overflow-y:auto;flex:1;margin-bottom:16px;border:1px solid #eee;border-radius:8px"></div>
     <div id="adminResetForm" style="display:none;border-top:1px solid #eee;padding-top:16px">
-      <div style="font-size:13px;font-weight:600;color:#1a1a2e;margin-bottom:10px">Reset password for: <span id="adminResetName" style="color:#c0392b"></span></div>
+      <div style="font-size:13px;font-weight:600;color:#000000;margin-bottom:10px">Reset password for: <span id="adminResetName" style="color:#FF4874"></span></div>
       <input id="adminNewPassword" type="password" placeholder="New temporary password (min 8 chars)" style="width:100%;box-sizing:border-box;padding:9px 11px;border:1px solid #ddd;border-radius:7px;font-size:13px;margin-bottom:10px">
       <div style="display:flex;gap:8px">
-        <button onclick="submitPasswordReset()" style="flex:1;padding:9px;background:#1a1a2e;color:white;border:none;border-radius:7px;font-size:13px;cursor:pointer;font-weight:600">Reset Password</button>
+        <button onclick="submitPasswordReset()" style="flex:1;padding:9px;background:#000000;color:white;border:none;border-radius:7px;font-size:13px;cursor:pointer;font-weight:600">Reset Password</button>
         <button onclick="cancelPasswordReset()" style="padding:9px 14px;background:#f5f5f5;color:#555;border:none;border-radius:7px;font-size:13px;cursor:pointer">Cancel</button>
       </div>
       <div id="adminResetStatus" style="margin-top:10px;font-size:12px;color:#666"></div>
@@ -443,17 +445,17 @@ textarea.field-edit { resize: vertical; }
       <div style="display:flex;align-items:center;gap:12px">
         <span style="font-size:20px">📄</span>
         <div>
-          <div id="avTitle" style="font-weight:700;font-size:15px;color:#1a1a2e"></div>
+          <div id="avTitle" style="font-weight:700;font-size:15px;color:#000000"></div>
           <div id="avId" style="font-size:11px;color:#aaa;margin-top:1px"></div>
         </div>
       </div>
       <div style="display:flex;align-items:center;gap:8px">
         <!-- Tab switcher -->
         <div style="display:flex;border:1px solid #e0e0e0;border-radius:6px;overflow:hidden;margin-right:8px">
-          <button id="avTabPreview" onclick="avSetTab('preview')" style="padding:6px 14px;border:none;background:#1a1a2e;color:white;cursor:pointer;font-size:12px;font-weight:600">Preview</button>
+          <button id="avTabPreview" onclick="avSetTab('preview')" style="padding:6px 14px;border:none;background:#000000;color:white;cursor:pointer;font-size:12px;font-weight:600">Preview</button>
           <button id="avTabCompare" onclick="avSetTab('compare')" style="padding:6px 14px;border:none;background:white;color:#666;cursor:pointer;font-size:12px">Compare Versions</button>
         </div>
-        <button onclick="openArticleEdit()" style="padding:7px 14px;border:1px solid #1a1a2e;border-radius:6px;background:#1a1a2e;color:white;cursor:pointer;font-size:12px;font-weight:600">✏️ Open to Edit</button>
+        <button onclick="openArticleEdit()" style="padding:7px 14px;border:1px solid #000000;border-radius:6px;background:#000000;color:white;cursor:pointer;font-size:12px;font-weight:600">✏️ Open to Edit</button>
         <button onclick="closeArticleViewer()" style="width:30px;height:30px;border:none;background:#f0f0f0;border-radius:50%;cursor:pointer;font-size:16px;line-height:1;color:#555">×</button>
       </div>
     </div>
@@ -471,7 +473,7 @@ textarea.field-edit { resize: vertical; }
         <!-- Compare tab -->
         <div id="avPanelCompare" style="flex:1;display:none;flex-direction:column;overflow:hidden">
           <div style="padding:10px 16px;background:#f5f5f5;border-bottom:1px solid #eee;display:flex;align-items:center;gap:10px;flex-shrink:0">
-            <button onclick="avFetchSnapshot()" style="padding:6px 14px;border:1px solid #1a1a2e;border-radius:6px;background:#1a1a2e;color:white;cursor:pointer;font-size:12px;font-weight:600">⟳ Fetch Current Version</button>
+            <button onclick="avFetchSnapshot()" style="padding:6px 14px;border:1px solid #000000;border-radius:6px;background:#000000;color:white;cursor:pointer;font-size:12px;font-weight:600">⟳ Fetch Current Version</button>
             <button id="avSaveSnapshotBtn" onclick="avSaveSnapshot()" style="padding:6px 14px;border:1px solid #0d9488;border-radius:6px;background:#0d9488;color:white;cursor:pointer;font-size:12px;font-weight:600;display:none">💾 Save as Snapshot</button>
             <span id="avSnapshotStatus" style="font-size:12px;color:#888"></span>
           </div>
@@ -482,7 +484,7 @@ textarea.field-edit { resize: vertical; }
       </div>
       <!-- Right: version log -->
       <div style="width:320px;flex-shrink:0;display:flex;flex-direction:column;overflow:hidden">
-        <div style="padding:14px 16px;border-bottom:1px solid #eee;font-size:13px;font-weight:700;color:#1a1a2e;background:#fafafa">Version Log</div>
+        <div style="padding:14px 16px;border-bottom:1px solid #eee;font-size:13px;font-weight:700;color:#000000;background:#fafafa">Version Log</div>
         <div style="padding:14px 16px;border-bottom:1px solid #eee;flex-shrink:0">
           <div style="font-size:11px;font-weight:700;color:#888;text-transform:uppercase;letter-spacing:.5px;margin-bottom:8px">Log a Change</div>
           <select id="avChangeType" style="width:100%;padding:6px 8px;border:1px solid #e0e0e0;border-radius:6px;font-size:12px;margin-bottom:8px;color:#333">
@@ -492,7 +494,7 @@ textarea.field-edit { resize: vertical; }
             <option value="review">Routine review — no changes needed</option>
           </select>
           <textarea id="avChangeNote" placeholder="Describe what changed…" style="width:100%;box-sizing:border-box;padding:8px;border:1px solid #e0e0e0;border-radius:6px;font-size:12px;resize:none;height:70px;font-family:inherit;color:#333"></textarea>
-          <button onclick="logArticleChange()" style="width:100%;margin-top:8px;padding:8px;border:none;background:#1a1a2e;color:white;border-radius:6px;cursor:pointer;font-size:12px;font-weight:600">Save Entry</button>
+          <button onclick="logArticleChange()" style="width:100%;margin-top:8px;padding:8px;border:none;background:#000000;color:white;border-radius:6px;cursor:pointer;font-size:12px;font-weight:600">Save Entry</button>
           <div id="avSaveStatus" style="font-size:11px;color:#888;text-align:center;margin-top:5px;min-height:14px"></div>
         </div>
         <div id="avHistory" style="flex:1;overflow-y:auto;padding:10px 16px"></div>
@@ -581,7 +583,7 @@ textarea.field-edit { resize: vertical; }
   <div class="content">
     <div class="toolbar">
       <button class="btn primary" onclick="openExportModal()">⬇ Export CSV</button>
-      <button class="btn" onclick="document.getElementById('importModal').style.display='flex'" style="background:#6366f1;color:white;border-color:#6366f1">⬆ Import</button>
+      <button class="btn" onclick="document.getElementById('importModal').style.display='flex'" style="background:#FFBD59;color:white;border-color:#FFBD59">⬆ Import</button>
       <div id="importStatus" style="font-size:12px;color:#555;margin-left:4px"></div>
     </div>
     <div class="table-wrap">
@@ -617,13 +619,13 @@ textarea.field-edit { resize: vertical; }
 <div id="dueView" style="display:none;flex:1;overflow:auto;padding:24px;background:#f8f9fa"></div>
 
 <!-- Creators view -->
-<div id="creatorsView" style="display:none;flex:1;overflow:auto;padding:24px;background:#f0f2f5">
+<div id="creatorsView" style="display:none;flex:1;overflow:auto;padding:24px;background:#B2DAD7">
   <div style="max-width:1200px;margin:0 auto;width:100%">
     <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;flex-wrap:wrap">
       <input type="text" id="creatorSearch" placeholder="Search creators…" style="padding:8px 12px;border:1px solid #e0e0e0;border-radius:8px;font-size:13px;width:260px;outline:none">
       <span id="creatorCount" style="font-size:12px;color:#aaa"></span>
       <button class="btn primary" onclick="exportCreatorsCSV()">⬇ Export CSV</button>
-      <button class="btn" onclick="document.getElementById('creatorImportModal').style.display='flex'" style="background:#6366f1;color:white;border-color:#6366f1">⬆ Import</button>
+      <button class="btn" onclick="document.getElementById('creatorImportModal').style.display='flex'" style="background:#FFBD59;color:white;border-color:#FFBD59">⬆ Import</button>
       <label style="margin-left:auto;display:flex;align-items:center;gap:7px;padding:7px 14px;background:#0d9488;color:white;border-radius:7px;font-size:12px;font-weight:600;cursor:pointer">
         📷 Bulk Upload Photos
         <input type="file" accept="image/*" multiple style="display:none" onchange="bulkUploadPhotos(this)">
@@ -636,7 +638,7 @@ textarea.field-edit { resize: vertical; }
 </div>
 
 <!-- Curation view -->
-<div id="curationView" style="display:none;flex:1;overflow:auto;padding:20px;background:#f0f2f5;flex-direction:column;gap:16px">
+<div id="curationView" style="display:none;flex:1;overflow:auto;padding:20px;background:#E6E6E6;flex-direction:column;gap:16px">
   <div style="background:white;border-radius:10px;padding:20px;box-shadow:0 1px 4px rgba(0,0,0,.06)">
     <h2 style="font-size:16px;font-weight:700;margin-bottom:4px">Content Curation Builder</h2>
     <p style="font-size:13px;color:#666;margin-bottom:16px">Build a curated list by specifying a total count and content mix. AI will select matching pieces from the library.</p>
@@ -649,20 +651,20 @@ textarea.field-edit { resize: vertical; }
         <label style="font-size:11px;text-transform:uppercase;letter-spacing:.5px;color:#999;display:block;margin-bottom:4px">Describe the mix (AI reads this)</label>
         <input id="curPrompt" type="text" placeholder="e.g. 20% nutrition, 30% diabetes, 30% articles, 20% videos about sleep…" style="width:100%;padding:7px 10px;border:1px solid #e0e0e0;border-radius:6px;font-size:13px">
       </div>
-      <button onclick="runCuration()" id="curBtn" style="padding:8px 18px;background:#e63946;color:white;border:none;border-radius:6px;font-weight:700;cursor:pointer;font-size:13px;white-space:nowrap">✦ Generate List</button>
+      <button onclick="runCuration()" id="curBtn" style="padding:8px 18px;background:#FF4874;color:white;border:none;border-radius:6px;font-weight:700;cursor:pointer;font-size:13px;white-space:nowrap">✦ Generate List</button>
     </div>
     <div id="curStatus" style="margin-top:10px;font-size:12px;color:#888"></div>
   </div>
   <div id="curResults" style="display:none;background:white;border-radius:10px;box-shadow:0 1px 4px rgba(0,0,0,.06);overflow:hidden">
-    <div style="padding:14px 18px;border-bottom:1px solid #f0f2f5;display:flex;align-items:center;justify-content:space-between">
+    <div style="padding:14px 18px;border-bottom:1px solid #E6E6E6;display:flex;align-items:center;justify-content:space-between">
       <div><span id="curResultTitle" style="font-weight:700;font-size:14px"></span> <span id="curResultSub" style="font-size:12px;color:#999;margin-left:6px"></span></div>
       <div style="display:flex;gap:8px">
         <button onclick="exportCuration()" style="padding:6px 12px;border:1px solid #e0e0e0;border-radius:5px;background:white;cursor:pointer;font-size:12px;color:#555">⬇ Export CSV</button>
-        <button onclick="saveCuration()" style="padding:6px 12px;border:1px solid #1a1a2e;border-radius:5px;background:#1a1a2e;color:white;cursor:pointer;font-size:12px">Save List</button>
+        <button onclick="saveCuration()" style="padding:6px 12px;border:1px solid #000000;border-radius:5px;background:#000000;color:white;cursor:pointer;font-size:12px">Save List</button>
       </div>
     </div>
     <div id="curReasoning" style="display:none;padding:10px 18px;background:#f0f4ff;border-bottom:1px solid #e0e8ff;font-size:12px;color:#4a5a8a;font-style:italic"></div>
-    <div id="curBreakdown" style="padding:10px 18px;background:#fafafa;border-bottom:1px solid #f0f2f5;font-size:12px;color:#666;display:flex;gap:16px;flex-wrap:wrap"></div>
+    <div id="curBreakdown" style="padding:10px 18px;background:#fafafa;border-bottom:1px solid #E6E6E6;font-size:12px;color:#666;display:flex;gap:16px;flex-wrap:wrap"></div>
     <table style="width:100%;border-collapse:collapse">
       <thead><tr style="background:#f5f5f5;font-size:11px;text-transform:uppercase;letter-spacing:.4px;color:#999">
         <th style="padding:8px 14px;text-align:left">ID</th>
@@ -753,7 +755,7 @@ async function openAdminPanel() {
     listEl.innerHTML = d.users.map(u => `
       <div style="display:flex;justify-content:space-between;align-items:center;padding:10px 14px;border-bottom:1px solid #f0f0f0">
         <div>
-          <div style="font-size:13px;font-weight:600;color:#1a1a2e">${esc(u.name)}</div>
+          <div style="font-size:13px;font-weight:600;color:#000000">${esc(u.name)}</div>
           <div style="font-size:11px;color:#888">${esc(u.email)}</div>
         </div>
         <button onclick="startPasswordReset('${esc(u.email)}','${esc(u.name)}')"
@@ -763,7 +765,7 @@ async function openAdminPanel() {
       </div>
     `).join('');
   } catch(e) {
-    listEl.innerHTML = `<div style="padding:16px;color:#c0392b;font-size:13px">Error: ${esc(e.message)}</div>`;
+    listEl.innerHTML = `<div style="padding:16px;color:#FF4874;font-size:13px">Error: ${esc(e.message)}</div>`;
   }
 }
 
@@ -790,7 +792,7 @@ async function submitPasswordReset() {
   if (!_adminResetTarget) return;
   const newPassword = document.getElementById('adminNewPassword').value;
   const statusEl = document.getElementById('adminResetStatus');
-  if (newPassword.length < 8) { statusEl.textContent = '⚠ Password must be at least 8 characters.'; statusEl.style.color='#c0392b'; return; }
+  if (newPassword.length < 8) { statusEl.textContent = '⚠ Password must be at least 8 characters.'; statusEl.style.color='#FF4874'; return; }
 
   statusEl.textContent = 'Saving…'; statusEl.style.color = '#888';
   try {
@@ -802,21 +804,21 @@ async function submitPasswordReset() {
     const d = await r.json();
     if (!r.ok) throw new Error(d.error || r.status);
     statusEl.textContent = `✓ Password reset for ${_adminResetTarget.name}. Share the new password with them.`;
-    statusEl.style.color = '#27ae60';
+    statusEl.style.color = '#00847A';
     document.getElementById('adminNewPassword').value = '';
     setTimeout(() => cancelPasswordReset(), 3000);
   } catch(e) {
     statusEl.textContent = `⚠ ${e.message}`;
-    statusEl.style.color = '#c0392b';
+    statusEl.style.color = '#FF4874';
   }
 }
 
 function switchAuthTab(tab) {
   const isSignup = tab === 'signup';
   document.getElementById('signupNameRow').style.display = isSignup ? 'block' : 'none';
-  document.getElementById('loginTab').style.background    = isSignup ? 'white' : '#1a1a2e';
+  document.getElementById('loginTab').style.background    = isSignup ? 'white' : '#000000';
   document.getElementById('loginTab').style.color         = isSignup ? '#666'  : 'white';
-  document.getElementById('signupTab').style.background   = isSignup ? '#1a1a2e' : 'white';
+  document.getElementById('signupTab').style.background   = isSignup ? '#000000' : 'white';
   document.getElementById('signupTab').style.color        = isSignup ? 'white' : '#666';
   document.getElementById('authSubmitBtn').textContent    = isSignup ? 'Create Account' : 'Log In';
   document.getElementById('authSubmitBtn').dataset.action = tab;
@@ -1356,18 +1358,18 @@ function handleImportDrop(e) {
 // so there's no separate DOM state that could drift out of sync with it.
 function dupeDecisionBtn(i, decision, label, current) {
   const on = decision === current;
-  return `<button type="button" onclick="setDupeDecision(${i},'${decision}')" style="padding:5px 10px;border-radius:6px;font-size:11px;cursor:pointer;border:1px solid ${on?'#6366f1':'#e0e0e0'};background:${on?'#eef0ff':'white'};color:${on?'#6366f1':'#666'};font-weight:${on?'700':'500'}">${label}</button>`;
+  return `<button type="button" onclick="setDupeDecision(${i},'${decision}')" style="padding:5px 10px;border-radius:6px;font-size:11px;cursor:pointer;border:1px solid ${on?'#FFBD59':'#e0e0e0'};background:${on?'#eef0ff':'white'};color:${on?'#FFBD59':'#666'};font-weight:${on?'700':'500'}">${label}</button>`;
 }
 function renderDupeReviewHtml() {
   const dupes = (_importParsed && _importParsed.possibleDupes) || [];
   if (!dupes.length) return '';
   return `<div style="margin-top:14px;padding-top:12px;border-top:1px solid #e0eaff">
-    <div style="font-weight:700;color:#1a1a2e;margin-bottom:6px">⚠ ${dupes.length} possible duplicate${dupes.length===1?'':'s'} — review before adding</div>
+    <div style="font-weight:700;color:#000000;margin-bottom:6px">⚠ ${dupes.length} possible duplicate${dupes.length===1?'':'s'} — review before adding</div>
     <div style="color:#666;font-size:12px;margin-bottom:8px">Same title, language, and type as something already in the dashboard. Merge folds this row's data (and client tag) into the existing item instead of adding a new one — never overwrites a field the existing item already has.</div>
     ${dupes.map((d,i)=>`
       <div style="display:flex;justify-content:space-between;align-items:center;gap:10px;padding:7px 0;border-top:1px solid #e8ecff">
         <div style="flex:1;min-width:0">
-          <div style="font-weight:600;color:#1a1a2e;font-size:12.5px">${esc(d.item.title)}</div>
+          <div style="font-weight:600;color:#000000;font-size:12.5px">${esc(d.item.title)}</div>
           <div style="color:#888;font-size:11px">${esc(d.item.language)} · ${esc(d.item.type)} — matches <code>${esc(d.matchId)}</code></div>
         </div>
         <div style="display:flex;gap:4px;flex-shrink:0">
@@ -1393,18 +1395,18 @@ function setDupeDecision(i, decision) {
 // correct ID/title rather than silently becoming a new entry.
 function newItemDecisionBtn(i, decision, label, current) {
   const on = decision === current;
-  return `<button type="button" onclick="setNewItemDecision(${i},'${decision}')" style="padding:5px 10px;border-radius:6px;font-size:11px;cursor:pointer;border:1px solid ${on?'#6366f1':'#e0e0e0'};background:${on?'#eef0ff':'white'};color:${on?'#6366f1':'#666'};font-weight:${on?'700':'500'}">${label}</button>`;
+  return `<button type="button" onclick="setNewItemDecision(${i},'${decision}')" style="padding:5px 10px;border-radius:6px;font-size:11px;cursor:pointer;border:1px solid ${on?'#FFBD59':'#e0e0e0'};background:${on?'#eef0ff':'white'};color:${on?'#FFBD59':'#666'};font-weight:${on?'700':'500'}">${label}</button>`;
 }
 function renderNewItemsReviewHtml() {
   const items = (_importParsed && _importParsed.newItems) || [];
   if (!items.length) return '';
   return `<div style="margin-top:14px;padding-top:12px;border-top:1px solid #e0eaff">
-    <div style="font-weight:700;color:#1a1a2e;margin-bottom:6px">New: ${items.length} item${items.length===1?'':'s'} not found in the dashboard — review before adding</div>
+    <div style="font-weight:700;color:#000000;margin-bottom:6px">New: ${items.length} item${items.length===1?'':'s'} not found in the dashboard — review before adding</div>
     <div style="color:#666;font-size:12px;margin-bottom:8px">No match by ID or title. Defaults to Skip — these won't be created or licensed unless flipped to "Add anyway". Contact Marlee Alanis to resolve the correct ID/title for anything skipped.</div>
     ${items.map((d,i)=>`
       <div style="display:flex;justify-content:space-between;align-items:center;gap:10px;padding:7px 0;border-top:1px solid #e8ecff">
         <div style="flex:1;min-width:0">
-          <div style="font-weight:600;color:#1a1a2e;font-size:12.5px">${esc(d.item.title)}</div>
+          <div style="font-weight:600;color:#000000;font-size:12.5px">${esc(d.item.title)}</div>
           <div style="color:#888;font-size:11px">${esc(d.item.language)} · ${esc(d.item.type)}${d.item.client_licenses&&d.item.client_licenses.length?' · '+esc(d.item.client_licenses.join(', ')):''}</div>
         </div>
         <div style="display:flex;gap:4px;flex-shrink:0">
@@ -1446,7 +1448,7 @@ function refreshImportPreview() {
   const newItemCount      = addedNewItems.length;
 
   previewEl.innerHTML = `
-    <div style="font-weight:700;color:#1a1a2e;margin-bottom:8px">Ready to save</div>
+    <div style="font-weight:700;color:#000000;margin-bottom:8px">Ready to save</div>
     <div style="color:#333;line-height:1.8">
       ${licenseUpdateIds.size ? `<div>✓ <strong>${licenseUpdateIds.size}</strong> existing items will be tagged</div>` : ''}
       ${fieldUpdateIds.size ? `<div>✓ <strong>${fieldUpdateIds.size}</strong> existing items will be updated (<strong>${fieldUpdates.length}</strong> field changes)</div>` : ''}
@@ -2120,13 +2122,13 @@ async function mergeIntoExisting(loserItem, keeperItem) {
 
 // ── Colors ────────────────────────────────────────────────────────────────────
 const BG_COLORS = [
-  {hex:'#fde8e8',lbl:'Red'},{hex:'#fef3e2',lbl:'Orange'},{hex:'#fffde7',lbl:'Yellow'},
-  {hex:'#e8f8f0',lbl:'Green'},{hex:'#e8f4f8',lbl:'Blue'},{hex:'#f0e8f8',lbl:'Purple'},
-  {hex:'#f5f5f5',lbl:'Grey'},{hex:'#1a1a2e',lbl:'Dark'},
+  {hex:'#FFC8D5',lbl:'Red'},{hex:'#fef3e2',lbl:'Orange'},{hex:'#fffde7',lbl:'Yellow'},
+  {hex:'#B2DAD7',lbl:'Green'},{hex:'#e8f4f8',lbl:'Blue'},{hex:'#f0e8f8',lbl:'Purple'},
+  {hex:'#f5f5f5',lbl:'Grey'},{hex:'#000000',lbl:'Dark'},
 ];
 const FG_COLORS = [
-  {hex:'#1a1a2e',lbl:'Dark'},{hex:'#c0392b',lbl:'Red'},{hex:'#d68910',lbl:'Orange'},
-  {hex:'#27ae60',lbl:'Green'},{hex:'#1a6eb5',lbl:'Blue'},{hex:'#7d3c98',lbl:'Purple'},
+  {hex:'#000000',lbl:'Dark'},{hex:'#FF4874',lbl:'Red'},{hex:'#d68910',lbl:'Orange'},
+  {hex:'#00847A',lbl:'Green'},{hex:'#1a6eb5',lbl:'Blue'},{hex:'#7d3c98',lbl:'Purple'},
   {hex:'#888888',lbl:'Grey'},{hex:'#ffffff',lbl:'White'},
 ];
 
@@ -2388,7 +2390,7 @@ function reviewStatus(item) {
 
 function renderDueSchedule() {
   const BANDS = [
-    { key:'overdue', label:'Past Due',           color:'#e63946', bg:'rgba(230,57,70,0.08)' },
+    { key:'overdue', label:'Past Due',           color:'#FF4874', bg:'rgba(255,72,116,0.08)' },
     { key:'due3mo',  label:'Due within 3 months',color:'#8000c8', bg:'rgba(128,0,200,0.07)' },
     { key:'due6mo',  label:'Due within 6 months',color:'#b5860d', bg:'rgba(181,134,13,0.12)' },
   ];
@@ -2502,7 +2504,7 @@ function renderTable() {
     const sel = item.id===selectedId;
     const rs    = activeTab==='review' ? reviewStatus(item) : 'ok';
     const isDue = rs === 'overdue';
-    const statusBg = rs==='overdue' ? 'rgba(230,57,70,0.07)' : rs==='due3mo' ? 'rgba(128,0,200,0.07)' : rs==='due6mo' ? 'rgba(181,134,13,0.12)' : '';
+    const statusBg = rs==='overdue' ? '#FFC8D5' : rs==='due3mo' ? 'rgba(128,0,200,0.07)' : rs==='due6mo' ? 'rgba(181,134,13,0.12)' : '';
     const rowBg = bg || statusBg;
     const tdS = rowBg||fg ? `style="${rowBg?'background:'+rowBg+';':''}${fg?'color:'+fg:''}"` : '';
 
@@ -2511,7 +2513,7 @@ function renderTable() {
       if (c.k==='id')   return `<td class="id-cell">${item.id}</td>`;
       if (c.k==='title') {
         const dot     = mod ? '<span class="edited-dot" title="Edited"></span>' : '';
-        const dueBadge= rs==='overdue' ? `<span style="font-size:9px;font-weight:700;background:rgba(230,57,70,.15);color:#e63946;border-radius:4px;padding:1px 5px;margin-left:5px;letter-spacing:.3px">OVERDUE</span>`
+        const dueBadge= rs==='overdue' ? `<span style="font-size:9px;font-weight:700;background:rgba(255,72,116,.15);color:#FF4874;border-radius:4px;padding:1px 5px;margin-left:5px;letter-spacing:.3px">OVERDUE</span>`
           : rs==='due3mo' ? `<span style="font-size:9px;font-weight:700;background:rgba(128,0,200,.15);color:#8000c8;border-radius:4px;padding:1px 5px;margin-left:5px;letter-spacing:.3px">DUE 3 MO</span>`
           : rs==='due6mo' ? `<span style="font-size:9px;font-weight:700;background:rgba(181,134,13,.2);color:#b5860d;border-radius:4px;padding:1px 5px;margin-left:5px;letter-spacing:.3px">DUE 6 MO</span>` : '';
         const noReview = activeTab==='review' && lv(item,'type')==='Article' && !lv(item,'peer_reviewer') && !gE(item.id,'reviewed_by','');
@@ -2586,9 +2588,9 @@ function avSetTab(tab) {
   const isPreview = tab === 'preview';
   document.getElementById('avPanelPreview').style.display = isPreview ? 'flex' : 'none';
   document.getElementById('avPanelCompare').style.display = isPreview ? 'none' : 'flex';
-  document.getElementById('avTabPreview').style.background  = isPreview ? '#1a1a2e' : 'white';
+  document.getElementById('avTabPreview').style.background  = isPreview ? '#000000' : 'white';
   document.getElementById('avTabPreview').style.color       = isPreview ? 'white'   : '#666';
-  document.getElementById('avTabCompare').style.background  = isPreview ? 'white'   : '#1a1a2e';
+  document.getElementById('avTabCompare').style.background  = isPreview ? 'white'   : '#000000';
   document.getElementById('avTabCompare').style.color       = isPreview ? '#666'    : 'white';
 }
 
@@ -2632,7 +2634,7 @@ async function avFetchSnapshot() {
 
     if (d.fetchError === 'ACCESS_DENIED') {
       statusEl.textContent = '';
-      diffEl.innerHTML = `<div style="color:#c0392b;font-family:sans-serif;font-size:13px;padding:8px 0">
+      diffEl.innerHTML = `<div style="color:#FF4874;font-family:sans-serif;font-size:13px;padding:8px 0">
         <strong>Access denied.</strong> Share this Google Doc with the service account:<br>
         <code style="background:#f5f5f5;padding:2px 6px;border-radius:4px;font-size:12px">caravan-dashboard@macro-topic-502016-c1.iam.gserviceaccount.com</code><br>
         <span style="color:#888;font-size:12px;margin-top:6px;display:block">Open the doc → Share → paste the email → set to Viewer → Done</span>
@@ -2661,7 +2663,7 @@ async function avFetchSnapshot() {
       } catch(e) {
         statusEl.textContent = 'Baseline save failed — will retry next time.';
       }
-      diffEl.innerHTML = `<div style="font-family:sans-serif;font-size:12px;color:#2a7a2a;margin-bottom:12px">✓ This is the first snapshot (v1). Future fetches will show what changed from here.</div>` +
+      diffEl.innerHTML = `<div style="font-family:sans-serif;font-size:12px;color:#00847A;margin-bottom:12px">✓ This is the first snapshot (v1). Future fetches will show what changed from here.</div>` +
         `<div style="white-space:pre-wrap;font-size:12px;line-height:1.7">${esc(d.current)}</div>`;
       document.getElementById('avSaveSnapshotBtn').style.display = 'none';
       return;
@@ -2686,7 +2688,7 @@ async function avFetchSnapshot() {
 
     diffEl.innerHTML = changed
       ? renderDiff(last.content, d.current, last)
-      : `<div style="font-family:sans-serif;font-size:13px;color:#2a7a2a;margin-bottom:12px">✓ Article content matches the last snapshot (v${last.version}).</div>
+      : `<div style="font-family:sans-serif;font-size:13px;color:#00847A;margin-bottom:12px">✓ Article content matches the last snapshot (v${last.version}).</div>
          <div style="white-space:pre-wrap;font-size:12px;line-height:1.7">${esc(d.current)}</div>`;
 
   } catch(e) {
@@ -2736,7 +2738,7 @@ function renderDiff(oldText, newText, lastSnap) {
 
   const header = `<div style="font-family:sans-serif;font-size:12px;color:#888;margin-bottom:10px;padding-bottom:8px;border-bottom:1px solid #eee">
     Comparing <strong>v${lastSnap.version}</strong> (${new Date(lastSnap.ts).toLocaleDateString('en-GB',{day:'numeric',month:'short',year:'numeric'})}) → current
-    &nbsp;·&nbsp; <span style="color:#c0392b">red = removed</span> &nbsp;·&nbsp; <span style="color:#2a7a2a">green = added</span>
+    &nbsp;·&nbsp; <span style="color:#FF4874">red = removed</span> &nbsp;·&nbsp; <span style="color:#00847A">green = added</span>
   </div>`;
 
   const lines = ops.map(op => {
@@ -2757,7 +2759,7 @@ function renderArticleHistory() {
     return;
   }
   const typeLabel = { minor:'Minor Edit', content:'Content Update', major:'Major Rewrite', review:'Reviewed' };
-  const typeColor = { minor:'#888', content:'#1a6eb5', major:'#c0392b', review:'#2a7a2a' };
+  const typeColor = { minor:'#888', content:'#1a6eb5', major:'#FF4874', review:'#00847A' };
   el.innerHTML = entries.map((e,i) => `
     <div style="padding:10px 0;border-bottom:1px solid #f0f0f0">
       <div style="display:flex;align-items:center;gap:6px;margin-bottom:4px">
@@ -2918,9 +2920,9 @@ function showDetail(item) {
   ].sort((a,b)=>b.date.localeCompare(a.date));
 
   const TYPE_BADGE = {
-    substantive: `<span style="font-size:9px;font-weight:700;background:rgba(230,57,70,.12);color:#e63946;border-radius:3px;padding:1px 5px">SUBSTANTIVE</span>`,
+    substantive: `<span style="font-size:9px;font-weight:700;background:rgba(255,72,116,.12);color:#FF4874;border-radius:3px;padding:1px 5px">SUBSTANTIVE</span>`,
     minor:       `<span style="font-size:9px;font-weight:700;background:rgba(26,110,181,.1);color:#1a6eb5;border-radius:3px;padding:1px 5px">MINOR</span>`,
-    initial:     `<span style="font-size:9px;font-weight:700;background:rgba(39,174,96,.12);color:#27ae60;border-radius:3px;padding:1px 5px">INITIAL</span>`,
+    initial:     `<span style="font-size:9px;font-weight:700;background:rgba(0,132,122,.12);color:#00847A;border-radius:3px;padding:1px 5px">INITIAL</span>`,
     review:      `<span style="font-size:9px;font-weight:700;background:#f0f0f0;color:#888;border-radius:3px;padding:1px 5px">REVIEW</span>`,
   };
   const changeHtml = allChanges.length
@@ -2954,7 +2956,7 @@ function showDetail(item) {
   panel.innerHTML = `
     <div class="detail-header">
       <button class="detail-close" onclick="closeDetail()">×</button>
-      <div class="title-box" style="background:${bg||'#f0f2f5'};color:${fg||'#1a1a2e'}">
+      <div class="title-box" style="background:${bg||'#E6E6E6'};color:${fg||'#000000'}">
         <h2 id="titleBoxH2">${esc(fTitle)}</h2>
       </div>
       <div class="detail-id">${item.id}${atStr?` &nbsp;·&nbsp; <span class="edited-stamp">Edited ${atStr}</span>`:''}</div>
@@ -3064,7 +3066,7 @@ function showDetail(item) {
 
       <div class="detail-section">Review & Dates</div>
       <button onclick="markReviewed('${item.id}')" id="markReviewedBtn" style="margin:0 0 10px 0;width:100%;padding:9px;background:#1a6eb5;color:white;border:none;border-radius:7px;font-weight:700;font-size:13px;cursor:pointer;letter-spacing:.2px">✓ Mark as Reviewed Today</button>
-      <div id="markReviewedMsg" style="font-size:11px;color:#27ae60;margin-bottom:6px;display:none">✓ Marked as reviewed and Slack notified!</div>
+      <div id="markReviewedMsg" style="font-size:11px;color:#00847A;margin-bottom:6px;display:none">✓ Marked as reviewed and Slack notified!</div>
       <div class="detail-field"><label>Date Created</label>
         <input class="field-edit" data-f="date_created" value="${esc(fCreated)}" placeholder="MM/DD/YYYY">
       </div>
@@ -3094,7 +3096,7 @@ function showDetail(item) {
         const notif = clientNotifications.find(n=>n.id===item.id);
         if (!notif) return '';
         const clientList = notif.clients.length ? notif.clients.join(', ') : 'no clients';
-        return `<div style="background:#fff8e1;border:1px solid #f9c74f;border-radius:8px;padding:12px 14px;margin-bottom:12px;font-size:12px;color:#7c5700">
+        return `<div style="background:#FFEBCD;border:1px solid #FFBD59;border-radius:8px;padding:12px 14px;margin-bottom:12px;font-size:12px;color:#7c5700">
           <strong>⚠ Content updated</strong> by ${esc(notif.changedByName)} — licensed by <strong>${esc(clientList)}</strong>. Clients have been notified via Slack. This notice expires in 48 hours.
         </div>`;
       })()}
@@ -3136,10 +3138,10 @@ function showDetail(item) {
             const dateStr = d.toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'});
             const timeStr = d.toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit'});
             const fieldLabel = e.field.replace(/_/g,' ').replace(/\b\w/g,c=>c.toUpperCase());
-            const oldV = e.old!==null&&e.old!==''&&e.old!==undefined ? `<span style="color:#c0392b;text-decoration:line-through">${esc(String(e.old).slice(0,80))}</span> → ` : '';
-            const newV = e.new!==null&&e.new!==undefined ? `<span style="color:#27ae60">${esc(String(e.new).slice(0,80))}</span>` : '<em style="color:#aaa">cleared</em>';
-            return `<div style="padding:7px 0;border-bottom:1px solid #f0f2f5">
-              <div style="font-weight:600;color:#1a1a2e;margin-bottom:2px">${esc(fieldLabel)}: ${oldV}${newV}</div>
+            const oldV = e.old!==null&&e.old!==''&&e.old!==undefined ? `<span style="color:#FF4874;text-decoration:line-through">${esc(String(e.old).slice(0,80))}</span> → ` : '';
+            const newV = e.new!==null&&e.new!==undefined ? `<span style="color:#00847A">${esc(String(e.new).slice(0,80))}</span>` : '<em style="color:#aaa">cleared</em>';
+            return `<div style="padding:7px 0;border-bottom:1px solid #E6E6E6">
+              <div style="font-weight:600;color:#000000;margin-bottom:2px">${esc(fieldLabel)}: ${oldV}${newV}</div>
               <div style="color:#999;font-size:11px">${esc(e.byName)} · ${dateStr} ${timeStr}</div>
             </div>`;
           }).join('');
@@ -3278,7 +3280,7 @@ function saveLog(id) {
   const substantive = document.getElementById('logSubstantiveYes')?.checked;
   if (substantive && !desc) {
     const el = document.getElementById('logDesc');
-    el.style.borderColor = '#e63946';
+    el.style.borderColor = '#FF4874';
     el.focus();
     el.placeholder = 'Notes are required when substantive changes were made';
     return;
@@ -3386,7 +3388,7 @@ function renderCreators(query='') {
             <div style="position:relative;width:44px;height:44px;flex-shrink:0">
               ${photo
                 ? `<img src="${esc(photo)}" style="width:44px;height:44px;border-radius:50%;object-fit:cover;display:block">`
-                : `<div style="width:44px;height:44px;border-radius:50%;background:#1a1a2e;color:white;display:flex;align-items:center;justify-content:center;font-size:15px;font-weight:700">${esc(initials)}</div>`}
+                : `<div style="width:44px;height:44px;border-radius:50%;background:#000000;color:white;display:flex;align-items:center;justify-content:center;font-size:15px;font-weight:700">${esc(initials)}</div>`}
               <label title="Upload photo" style="position:absolute;bottom:-2px;right:-2px;width:18px;height:18px;border-radius:50%;background:#0d9488;color:white;display:flex;align-items:center;justify-content:center;font-size:10px;cursor:pointer;box-shadow:0 1px 3px rgba(0,0,0,.3)">
                 📷<input type="file" accept="image/*" style="display:none" onchange="uploadCreatorPhoto('${jsStr(name)}',this)">
               </label>
@@ -3397,14 +3399,14 @@ function renderCreators(query='') {
               <div style="font-size:11px;color:#bbb;margin-top:3px">${info.authored} created &nbsp;·&nbsp; ${info.reviewed} reviewed</div>
             </div>
             <div style="display:flex;flex-direction:column;gap:5px;align-items:flex-end">
-              <button onclick="showContrib('${jsStr(name)}')" style="padding:4px 10px;background:#f0f2f5;border:1px solid #e0e0e0;border-radius:6px;font-size:11px;cursor:pointer;color:#444">View content</button>
-              <button onclick="document.getElementById('${cardId}').classList.add('flipped')" style="padding:4px 10px;background:#f0f2f5;border:1px solid #e0e0e0;border-radius:6px;font-size:11px;cursor:pointer;color:#444">Edit details</button>
+              <button onclick="showContrib('${jsStr(name)}')" style="padding:4px 10px;background:#E6E6E6;border:1px solid #e0e0e0;border-radius:6px;font-size:11px;cursor:pointer;color:#444">View content</button>
+              <button onclick="document.getElementById('${cardId}').classList.add('flipped')" style="padding:4px 10px;background:#E6E6E6;border:1px solid #e0e0e0;border-radius:6px;font-size:11px;cursor:pointer;color:#444">Edit details</button>
             </div>
           </div>
           <textarea
             placeholder="Add bio…"
             style="width:100%;box-sizing:border-box;padding:7px 9px;border:1px solid #e8e8e8;border-radius:6px;font-size:12px;font-family:inherit;resize:vertical;min-height:60px;color:#444;outline:none"
-            onfocus="this.style.borderColor='#1a1a2e'"
+            onfocus="this.style.borderColor='#000000'"
             onblur="this.style.borderColor='#e8e8e8';saveBioNow('${jsStr(name)}','bio',this.value)"
           >${esc(bio)}</textarea>
         </div>
@@ -3412,8 +3414,8 @@ function renderCreators(query='') {
         <!-- BACK -->
         <div class="cc-back">
           <div style="display:flex;align-items:center;justify-content:space-between">
-            <div style="font-weight:700;font-size:13px;color:#1a1a2e">${esc(name)}</div>
-            <button onclick="document.getElementById('${cardId}').classList.remove('flipped')" style="padding:4px 10px;background:#f0f2f5;border:1px solid #e0e0e0;border-radius:6px;font-size:11px;cursor:pointer;color:#444">← Back</button>
+            <div style="font-weight:700;font-size:13px;color:#000000">${esc(name)}</div>
+            <button onclick="document.getElementById('${cardId}').classList.remove('flipped')" style="padding:4px 10px;background:#E6E6E6;border:1px solid #e0e0e0;border-radius:6px;font-size:11px;cursor:pointer;color:#444">← Back</button>
           </div>
 
           <div>
@@ -3423,7 +3425,7 @@ function renderCreators(query='') {
               style="width:100%;box-sizing:border-box;padding:7px 9px;border:1px solid #e8e8e8;border-radius:6px;font-size:12px;font-family:inherit;outline:none;color:#333"
               value="${esc(getBio(name,'creds',info.creds||''))}"
               oninput="const t=document.getElementById('${cardId}_ctitle');if(t)t.textContent=this.value"
-              onfocus="this.style.borderColor='#1a1a2e'"
+              onfocus="this.style.borderColor='#000000'"
               onblur="this.style.borderColor='#e8e8e8';saveBioNow('${jsStr(name)}','creds',this.value)"
             >
           </div>
@@ -3435,12 +3437,12 @@ function renderCreators(query='') {
               <input
                 placeholder="Type new or canonical name…"
                 style="flex:1;padding:7px 9px;border:1px solid #e8e8e8;border-radius:6px;font-size:12px;font-family:inherit;outline:none;color:#333"
-                onfocus="this.style.borderColor='#e63946'"
+                onfocus="this.style.borderColor='#FF4874'"
                 onblur="this.style.borderColor='#e8e8e8'"
                 onkeydown="if(event.key==='Enter')renameCreator('${jsStr(name)}',this.value)"
               >
               <button onclick="renameCreator('${jsStr(name)}',this.previousElementSibling.value)"
-                style="padding:7px 12px;border:1px solid #e63946;border-radius:6px;background:#e63946;color:white;font-size:12px;cursor:pointer;font-weight:600">
+                style="padding:7px 12px;border:1px solid #FF4874;border-radius:6px;background:#FF4874;color:white;font-size:12px;cursor:pointer;font-weight:600">
                 Rename
               </button>
             </div>
@@ -3604,9 +3606,9 @@ function renderClientDetail(name) {
   // Build notification banner for this client
   const clientNotifs = clientNotifications.filter(n => n.clients.includes(name));
   const notifBanner = clientNotifs.length ? `
-    <div style="background:#fff8e1;border:1px solid #f9c74f;border-radius:9px;padding:14px 16px;margin-bottom:18px">
+    <div style="background:#FFEBCD;border:1px solid #FFBD59;border-radius:9px;padding:14px 16px;margin-bottom:18px">
       <div style="font-weight:700;font-size:13px;color:#7c5700;margin-bottom:8px">⚠ Recent Content Updates — Please Notify ${esc(name)}</div>
-      ${clientNotifs.map(n=>`<div style="font-size:12px;color:#7c5700;padding:4px 0;border-top:1px solid #f9c74f">
+      ${clientNotifs.map(n=>`<div style="font-size:12px;color:#7c5700;padding:4px 0;border-top:1px solid #FFBD59">
         <strong>${esc(n.title)}</strong> — updated by ${esc(n.changedByName)}
         <span style="color:#b8860b;font-size:11px;margin-left:6px">· expires ${new Date(n.expiresAt).toLocaleDateString('en-US',{month:'short',day:'numeric'})}</span>
       </div>`).join('')}
@@ -3614,7 +3616,7 @@ function renderClientDetail(name) {
 
   document.getElementById('clientArea').innerHTML = `
     <div class="client-detail">
-      <h2><span id="clientNameHeading" contenteditable="true" spellcheck="false" title="Click to rename client" style="outline:none;border-bottom:2px solid transparent;border-radius:2px;padding:2px 4px;cursor:text;transition:border-color .15s" onmouseover="this.style.borderColor='#d0d0d0'" onmouseout="if(document.activeElement!==this)this.style.borderColor='transparent'" onfocus="this.style.borderColor='#6366f1'" onblur="this.style.borderColor='transparent'">${esc(name)}</span></h2>
+      <h2><span id="clientNameHeading" contenteditable="true" spellcheck="false" title="Click to rename client" style="outline:none;border-bottom:2px solid transparent;border-radius:2px;padding:2px 4px;cursor:text;transition:border-color .15s" onmouseover="this.style.borderColor='#d0d0d0'" onmouseout="if(document.activeElement!==this)this.style.borderColor='transparent'" onfocus="this.style.borderColor='#FFBD59'" onblur="this.style.borderColor='transparent'">${esc(name)}</span></h2>
       ${notifBanner}
       <div class="client-meta">
         <div class="client-meta-field">
@@ -3917,7 +3919,7 @@ async function handleCreatorImportFile(file) {
     previewEl.innerHTML = `
       <strong>${parsed.length} row${parsed.length===1?'':'s'} found</strong><br>
       ${matched} match existing creators &nbsp;·&nbsp; ${unmatched} are new names not currently on this page
-      ${skippedNoName ? `<br><span style="color:#c0392b">${skippedNoName} row(s) skipped — no Name value</span>` : ''}
+      ${skippedNoName ? `<br><span style="color:#FF4874">${skippedNoName} row(s) skipped — no Name value</span>` : ''}
     `;
     statusEl.textContent = '';
     confirmBtn.style.display = 'inline-block';
@@ -4088,7 +4090,7 @@ function renderSavedLists() {
       </div>
       <div style="display:flex;gap:6px">
         <button onclick="loadCuration(${i})" style="padding:4px 10px;border:1px solid #e0e0e0;border-radius:4px;background:white;cursor:pointer;font-size:11px">Load</button>
-        <button onclick="deleteCuration(${i})" style="padding:4px 10px;border:1px solid #fcc;border-radius:4px;background:white;color:#e63946;cursor:pointer;font-size:11px">Delete</button>
+        <button onclick="deleteCuration(${i})" style="padding:4px 10px;border:1px solid #fcc;border-radius:4px;background:white;color:#FF4874;cursor:pointer;font-size:11px">Delete</button>
       </div>
     </div>`).join('');
 }
