@@ -33938,7 +33938,7 @@
   },
   "EN-01434": {
     "teacher": "Allison Wyman",
-    "_at": "2026-08-14T20:51:17.120Z",
+    "_at": "2026-08-26T14:07:05.344Z",
     "author": "Katie Attubato",
     "duration": "10",
     "language": "English",
@@ -33946,7 +33946,8 @@
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
     "vimeo_link": "https://vimeo.com/1203969612/2359205de2?share=copy&fl=sv&fe=ci",
-    "date_created": "9/16/2025"
+    "date_created": "9/16/2025",
+    "notes": "US-Only"
   },
   "VID-0456": {
     "author": "Zach Bourne",
