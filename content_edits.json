@@ -33910,7 +33910,7 @@
   },
   "EN-01432": {
     "author": "Allison Wyman",
-    "_at": "2026-08-14T20:51:17.120Z",
+    "_at": "2026-08-26T14:06:17.907Z",
     "teacher": "Allison Wyman",
     "licenses": [
       "Walkingspree"
@@ -33921,7 +33921,8 @@
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "date_created": "9/16/2025"
+    "date_created": "9/16/2025",
+    "notes": "US-Only"
   },
   "EN-01433": {
     "author": "Allison Wyman",
