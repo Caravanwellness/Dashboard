@@ -3038,12 +3038,14 @@
   },
   "ALB-0084": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-28T17:47:51.569Z",
+    "_at": "2026-08-28T17:47:58.780Z",
     "teacher": "Diane McNaught",
     "type": "Article",
     "date_created": "11/28/2024",
     "duration": "3",
-    "title": "c"
+    "title": "c",
+    "_hidden": true,
+    "_merged_into": "EXT-2487"
   },
   "ALB-0085": {
     "peer_reviewer": "Diane McNaught",
@@ -77713,9 +77715,15 @@
   },
   "EXT-2487": {
     "type": "Article",
-    "_at": "2026-08-18T16:44:19.054Z",
+    "_at": "2026-08-28T17:47:58.780Z",
     "title": "101 Basics of Hypertension",
-    "category": "Heart Health"
+    "category": "Heart Health",
+    "peer_reviewer": "Diane McNaught",
+    "link": "https://docs.google.com/document/d/1UquaMXse9YeXD3RtBVrl1PrwKsUntcLjAVKcwUnmyus/edit?tab=t.0",
+    "references": "American Heart Association (AHA). *What is Hypertension?* AHA, 2021. https://www.heart.org/ Centers for Disease Control and Prevention (CDC). *High Blood Pressure*. CDC, 2022. https://www.cdc.gov/ncbddd/hypertension/ National Institute of Health (NIH). *Hypertension: Causes, Symptoms, and Treatment*. NIH, 2021. https://www.nhlbi.nih.gov/ Mayo Clinic. *Hypertension (High Blood Pressure)*. Mayo Clinic, 2022. https://www.mayoclinic.org/ World Health Organization (WHO). *Hypertension*. WHO, 2021. https://www.who.int/news-room/fact-sheets/detail/hypertension National Heart, Lung, and Blood Institute (NHLBI). *Understanding High Blood Pressure*. NHLBI, 2021. https://www.nhlbi.nih.gov/ American College of Cardiology (ACC). *Managing Hypertension: A Guide for Families*. ACC, 2021. https://www.acc.org/ Cleveland Clinic. *High Blood Pressure (Hypertension)*. Cleveland Clinic, 2022. https://my.clevelandclinic.org/",
+    "author": "Marlee Alanis",
+    "author_creds": "Exercise Physiologist",
+    "peer_reviewer_creds": "Registered Nurse"
   },
   "EXT-2492": {
     "type": "Article",
