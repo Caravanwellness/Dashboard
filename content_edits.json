@@ -72865,10 +72865,12 @@
   "INF-0252": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0253": {
     "language": "English",
@@ -72881,20 +72883,24 @@
   "INF-0254": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Smoking Cessation",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0255": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Pregnancy",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0256": {
     "language": "English",
@@ -72940,11 +72946,13 @@
   "INF-0261": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Medications",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0262": {
     "language": "English",
@@ -72982,18 +72990,22 @@
   "INF-0266": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0267": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0268": {
     "language": "English",
@@ -73023,11 +73035,13 @@
   "INF-0271": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-28T15:07:49.725Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "category": "Fall Prevention",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0272": {
     "language": "English",
@@ -73065,11 +73079,13 @@
   "INF-0276": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Digestive Health",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0277": {
     "language": "English",
@@ -73083,28 +73099,34 @@
   "INF-0278": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0279": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Medications",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0280": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Surgery",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0281": {
     "language": "English",
@@ -73117,10 +73139,12 @@
   "INF-0282": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0283": {
     "language": "English",
@@ -73133,10 +73157,12 @@
   "INF-0284": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0285": {
     "language": "English",
@@ -73199,29 +73225,35 @@
   "INF-0292": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Bone Health",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0293": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0294": {
     "language": "Spanish",
     "link": "https://drive.google.com/file/d/15X63Quxve5eCrbVMJQMvpY2wi-nK-wA3/view?usp=drivesdk",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "peer_reviewer": "Maria Cardenas",
     "date_created": "4/30/2026",
     "category": "Mental Health",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0295": {
     "language": "English",
@@ -73258,18 +73290,22 @@
   "INF-0299": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0300": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0301": {
     "language": "English",
@@ -73291,27 +73327,33 @@
   "INF-0303": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0304": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0305": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Fitness",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0306": {
     "language": "English",
@@ -73332,18 +73374,22 @@
   "INF-0308": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "7/29/2026",
     "duration": "3",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0309": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0310": {
     "language": "English",
@@ -73382,10 +73428,12 @@
   "INF-0314": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0315": {
     "language": "English",
@@ -73399,28 +73447,34 @@
   "INF-0316": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Smoking Cessation",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0317": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0318": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Sleep",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0319": {
     "language": "English",
@@ -73452,37 +73506,45 @@
   "INF-0322": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Wellness",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0323": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Medications",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0324": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0325": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Brain Health",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0326": {
     "language": "English",
@@ -73503,19 +73565,23 @@
   "INF-0328": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "AFib",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0329": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0330": {
     "language": "English",
@@ -73569,18 +73635,22 @@
   "INF-0336": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0337": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0338": {
     "language": "English",
@@ -73593,10 +73663,12 @@
   "INF-0339": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0340": {
     "language": "English",
@@ -73643,10 +73715,12 @@
   "INF-0345": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0346": {
     "language": "English",
@@ -73668,44 +73742,54 @@
   "INF-0348": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0349": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0350": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Bone Health",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0351": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Fitness",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0352": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0353": {
     "language": "English",
@@ -73751,11 +73835,13 @@
   "INF-0358": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Postpartum",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0359": {
     "language": "English",
@@ -73769,18 +73855,22 @@
   "INF-0360": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0361": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0362": {
     "language": "English",
@@ -73794,19 +73884,23 @@
   "INF-0363": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Smoking Cessation",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0364": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0365": {
     "language": "English",
@@ -73819,18 +73913,22 @@
   "INF-0366": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0367": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0368": {
     "language": "English",
@@ -73851,20 +73949,24 @@
   "INF-0370": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Mental Health",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0371": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-28T15:07:57.303Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "category": "Eye Health",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0372": {
     "language": "English",
@@ -73877,10 +73979,12 @@
   "INF-0373": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "7/29/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0374": {
     "language": "English",
@@ -73894,10 +73998,12 @@
   "INF-0375": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0376": {
     "language": "English",
@@ -73911,11 +74017,13 @@
   "INF-0377": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Parenting",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0378": {
     "language": "English",
@@ -73936,10 +74044,12 @@
   "INF-0380": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "6/22/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0381": {
     "language": "English",
@@ -73952,10 +74062,12 @@
   "INF-0382": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0383": {
     "language": "English",
@@ -73977,11 +74089,13 @@
   "INF-0385": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Smoking Cessation",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0386": {
     "language": "English",
@@ -74011,10 +74125,12 @@
   "INF-0389": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0390": {
     "language": "English",
@@ -74027,28 +74143,34 @@
   "INF-0391": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0392": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Digestive Health",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0393": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Posture",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0394": {
     "language": "English",
@@ -74061,11 +74183,13 @@
   "INF-0395": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Medications",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0396": {
     "language": "English",
@@ -74087,11 +74211,13 @@
   "INF-0398": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Surgery",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0399": {
     "language": "English",
@@ -74112,20 +74238,24 @@
   "INF-0401": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Mental Health",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0402": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Fall Prevention",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0403": {
     "language": "English",
@@ -74146,20 +74276,24 @@
   "INF-0405": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Sleep",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0406": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Smoking Cessation",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0407": {
     "language": "English",
@@ -74172,11 +74306,13 @@
   "INF-0408": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Weight Management",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0409": {
     "language": "English",
@@ -74214,28 +74350,34 @@
   "INF-0413": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0414": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Mental Health",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0415": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Women’s Health",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0416": {
     "language": "English",
@@ -74250,10 +74392,12 @@
   "INF-0417": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0418": {
     "language": "English",
@@ -74267,10 +74411,12 @@
   "INF-0419": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0420": {
     "language": "English",
@@ -74283,28 +74429,34 @@
   "INF-0421": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0422": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Fitness",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0423": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Weight Management",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0424": {
     "language": "English",
@@ -74317,18 +74469,22 @@
   "INF-0425": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "7/29/2026",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0426": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0427": {
     "language": "English",
@@ -74349,37 +74505,45 @@
   "INF-0429": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Mental Health",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0430": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0431": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Parenting",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0432": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Nutrition",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0433": {
     "language": "English",
@@ -74400,10 +74564,12 @@
   "INF-0435": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0436": {
     "language": "English",
@@ -74441,10 +74607,12 @@
   "INF-0440": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "7/29/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0441": {
     "language": "English",
@@ -74458,19 +74626,23 @@
   "INF-0442": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Postpartum",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0443": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0444": {
     "language": "English",
@@ -74483,35 +74655,43 @@
   "INF-0445": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0446": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0447": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-28T15:08:01.295Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "category": "Fall Prevention",
     "date_created": "4/30/2026",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0448": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0449": {
     "language": "English",
@@ -74524,10 +74704,12 @@
   "INF-0450": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0451": {
     "language": "English",
@@ -74540,11 +74722,13 @@
   "INF-0452": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Hypertension",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0453": {
     "language": "English",
@@ -74557,20 +74741,24 @@
   "INF-0454": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Dental Health",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0455": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Medications",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0456": {
     "language": "English",
@@ -74592,26 +74780,32 @@
   "INF-0458": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0459": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0460": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0461": {
     "language": "English",
@@ -74650,20 +74844,24 @@
   "INF-0465": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Fitness",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0466": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Postpartum",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0467": {
     "language": "English",
@@ -74677,11 +74875,13 @@
   "INF-0468": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Sustainability",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0469": {
     "language": "English",
@@ -74702,96 +74902,118 @@
   "INF-0471": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0472": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0473": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Fitness",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0474": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Surgery",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0475": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Smoking Cessation",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0476": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0477": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Heart Disease",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0478": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Smoking Cessation",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0479": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Dental Health",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0480": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0481": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0482": {
     "language": "English",
@@ -74804,10 +75026,12 @@
   "INF-0483": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0484": {
     "language": "English",
@@ -74828,11 +75052,13 @@
   "INF-0486": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Fitness",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0487": {
     "language": "English",
@@ -74862,28 +75088,34 @@
   "INF-0490": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Parenting",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0491": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Fall Prevention",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0492": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0493": {
     "language": "English",
@@ -74897,11 +75129,13 @@
   "INF-0494": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Medications",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0495": {
     "language": "English",
@@ -74915,10 +75149,12 @@
   "INF-0496": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0497": {
     "language": "English",
@@ -74940,35 +75176,43 @@
   "INF-0499": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0500": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Medications",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0501": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0502": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0503": {
     "language": "English",
@@ -74982,37 +75226,45 @@
   "INF-0504": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Pregnancy",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0505": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Fitness",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0506": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0507": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Dental Health",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0508": {
     "language": "English",
@@ -75026,10 +75278,12 @@
   "INF-0509": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0510": {
     "language": "English",
@@ -75059,18 +75313,22 @@
   "INF-0513": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0514": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0515": {
     "language": "English",
@@ -75084,10 +75342,12 @@
   "INF-0516": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0517": {
     "language": "English",
@@ -75109,19 +75369,23 @@
   "INF-0519": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0520": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Smoking Cessation",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0521": {
     "language": "English",
@@ -75134,11 +75398,13 @@
   "INF-0522": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Sustainability",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0523": {
     "language": "English",
@@ -75168,19 +75434,23 @@
   "INF-0526": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0527": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "category": "Heart Health",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0528": {
     "language": "English",
@@ -75201,10 +75471,12 @@
   "INF-0530": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0531": {
     "language": "English",
@@ -75217,10 +75489,12 @@
   "INF-0532": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0533": {
     "language": "English",
@@ -75234,11 +75508,13 @@
   "INF-0534": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Surgery",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0535": {
     "language": "English",
@@ -75252,11 +75528,13 @@
   "INF-0536": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Digestive Health",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0537": {
     "language": "English",
@@ -75269,10 +75547,12 @@
   "INF-0538": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0539": {
     "language": "English",
@@ -75293,29 +75573,35 @@
   "INF-0541": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Smoking Cessation",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0542": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Parenting",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0543": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Pregnancy",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0544": {
     "language": "English",
@@ -75336,10 +75622,12 @@
   "INF-0546": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0547": {
     "language": "English",
@@ -75352,26 +75640,32 @@
   "INF-0548": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0549": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0550": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0551": {
     "language": "English",
@@ -75419,11 +75713,13 @@
   "INF-0556": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Stress Management",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0557": {
     "language": "English",
@@ -75462,28 +75758,34 @@
   "INF-0561": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0562": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Pregnancy",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0563": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Stress Management",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0564": {
     "language": "English",
@@ -75496,11 +75798,13 @@
   "INF-0565": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Pregnancy",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0566": {
     "language": "English",
@@ -75522,11 +75826,13 @@
   "INF-0568": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Mental Health",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0569": {
     "language": "English",
@@ -75565,35 +75871,43 @@
   "INF-0573": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0574": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Medications",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0575": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0576": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0577": {
     "language": "English",
@@ -75606,11 +75920,13 @@
   "INF-0578": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Medications",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0579": {
     "language": "English",
@@ -75624,28 +75940,34 @@
   "INF-0580": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Digestive Health",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0581": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Heart Health",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0582": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0583": {
     "language": "English",
@@ -75698,19 +76020,23 @@
   "INF-0589": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Mental Health",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0590": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0591": {
     "language": "English",
@@ -75764,10 +76090,12 @@
   "INF-0597": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0598": {
     "language": "English",
@@ -75781,18 +76109,22 @@
   "INF-0599": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0600": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0601": {
     "language": "English",
@@ -75806,10 +76138,12 @@
   "INF-0602": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0603": {
     "language": "English",
@@ -75831,11 +76165,13 @@
   "INF-0605": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Fitness",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0606": {
     "language": "English",
@@ -75849,20 +76185,24 @@
   "INF-0607": {
     "language": "Spanish",
     "link": "https://drive.google.com/file/d/1PHJRs0yIk_T8Bhrn1cNSSIjADU70oBux/view?usp=drivesdk",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "peer_reviewer": "Maria Cardenas",
     "date_created": "4/30/2026",
     "category": "Fitness",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0608": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0609": {
     "language": "English",
@@ -75876,19 +76216,23 @@
   "INF-0610": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Sleep",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0611": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0612": {
     "language": "English",
@@ -75901,11 +76245,13 @@
   "INF-0613": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Mental Health",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0614": {
     "language": "English",
@@ -75928,18 +76274,22 @@
   "INF-0616": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0617": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0618": {
     "language": "English",
@@ -75954,36 +76304,44 @@
   "INF-0619": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Joint Health",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0620": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Pregnancy",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0621": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0622": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0623": {
     "language": "English",
@@ -75997,36 +76355,44 @@
   "INF-0624": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Sustainability",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0625": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0626": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0627": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Fitness",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0628": {
     "language": "English",
@@ -76039,11 +76405,13 @@
   "INF-0629": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Postpartum",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0630": {
     "language": "English",
@@ -76057,10 +76425,12 @@
   "INF-0631": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0632": {
     "language": "English",
@@ -76073,18 +76443,22 @@
   "INF-0633": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0634": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "7/29/2026",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0635": {
     "language": "English",
@@ -76097,20 +76471,24 @@
   "INF-0636": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Digestive Health",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0637": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Medications",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0638": {
     "language": "English",
@@ -76132,11 +76510,13 @@
   "INF-0640": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Bone Health",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0641": {
     "language": "English",
@@ -76149,11 +76529,13 @@
   "INF-0642": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Heart Health",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0643": {
     "language": "English",
@@ -76176,19 +76558,23 @@
   "INF-0645": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Mental Health",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0646": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0647": {
     "language": "English",
@@ -76210,27 +76596,33 @@
   "INF-0649": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0650": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0651": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Joint Health",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0652": {
     "language": "English",
@@ -76252,11 +76644,13 @@
   "INF-0654": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Smoking Cessation",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0655": {
     "language": "English",
@@ -76286,18 +76680,22 @@
   "INF-0658": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0659": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0660": {
     "language": "English",
@@ -76326,19 +76724,23 @@
   "INF-0663": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0664": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "AFib",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0665": {
     "language": "English",
@@ -76352,10 +76754,12 @@
   "INF-0666": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0667": {
     "language": "English",
@@ -76369,10 +76773,12 @@
   "INF-0668": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0669": {
     "language": "English",
@@ -76412,19 +76818,23 @@
   "INF-0673": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Dental Health",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0674": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0675": {
     "language": "English",
@@ -76447,10 +76857,12 @@
   "INF-0677": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0678": {
     "language": "English",
@@ -76479,10 +76891,12 @@
   "INF-0681": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0682": {
     "language": "English",
@@ -76512,11 +76926,13 @@
   "INF-0685": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Fitness",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0686": {
     "language": "English",
@@ -76587,18 +77003,22 @@
   "INF-0694": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0695": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0696": {
     "language": "English",
@@ -76611,11 +77031,13 @@
   "INF-0697": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-28T15:06:31.833Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "6/22/2026",
     "category": "Parenting",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0698": {
     "language": "English",
@@ -76629,10 +77051,12 @@
   "INF-0699": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0700": {
     "language": "English",
@@ -76645,20 +77069,24 @@
   "INF-0701": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Health",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0702": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Surgery",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0703": {
     "language": "English",
@@ -76698,10 +77126,12 @@
   "INF-0707": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0708": {
     "language": "English",
@@ -76723,10 +77153,12 @@
   "INF-0710": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0711": {
     "language": "English",
@@ -76747,19 +77179,23 @@
   "INF-0713": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Medications",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0714": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0715": {
     "language": "English",
@@ -76808,19 +77244,23 @@
   "INF-0720": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0721": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "category": "Heart Health",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0722": {
     "language": "English",
@@ -76858,19 +77298,23 @@
   "INF-0726": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Kidney Health",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0727": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0728": {
     "language": "English",
@@ -76925,10 +77369,12 @@
   "INF-0734": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0735": {
     "language": "English",
@@ -76941,11 +77387,13 @@
   "INF-0736": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Dental Health",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0737": {
     "language": "English",
@@ -77007,45 +77455,55 @@
   "INF-0744": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Postpartum",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0745": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0746": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-28T15:08:05.805Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "category": "Foot Health",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0747": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0748": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Parenting",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0749": {
     "language": "English",
@@ -77058,43 +77516,53 @@
   "INF-0750": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Fall Prevention",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0751": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0752": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0753": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0754": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0755": {
     "language": "English",
@@ -77107,10 +77575,12 @@
   "INF-0756": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0757": {
     "language": "English",
@@ -77133,10 +77603,12 @@
   "INF-0759": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0760": {
     "language": "English",
@@ -77149,11 +77621,13 @@
   "INF-0761": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Fitness",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0762": {
     "language": "English",
@@ -77175,10 +77649,12 @@
   "INF-0764": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0765": {
     "language": "English",
@@ -77216,10 +77692,12 @@
   "INF-0769": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0770": {
     "language": "English",
@@ -77232,19 +77710,23 @@
   "INF-0771": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0772": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Joint Health",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0773": {
     "language": "English"
@@ -77268,10 +77750,12 @@
   "INF-0776": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0777": {
     "language": "English",
@@ -77284,29 +77768,35 @@
   "INF-0778": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Dental Health",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0779": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Stretching",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0780": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-28T15:08:13.698Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "category": "Healthy Aging",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0781": {
     "language": "English",
@@ -77319,29 +77809,35 @@
   "INF-0782": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "category": "Heart Health",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0783": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "6/22/2026",
     "category": "Women’s Health",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0784": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Medications",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0785": {
     "language": "English",
@@ -77362,37 +77858,45 @@
   "INF-0787": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Smoking Cessation",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0788": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0789": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Weight Management",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0790": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "category": "Kidney Health",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0791": {
     "language": "English",
@@ -77405,10 +77909,12 @@
   "INF-0792": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "1",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0793": {
     "language": "English",
@@ -77421,10 +77927,12 @@
   "INF-0794": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0795": {
     "language": "English",
@@ -77457,10 +77965,12 @@
   "INF-0799": {
     "language": "Spanish",
     "peer_reviewer": "Maria Cardenas",
-    "_at": "2026-08-20T12:53:31.968Z",
+    "_at": "2026-09-01T17:45:27.576Z",
     "date_created": "4/30/2026",
     "duration": "2",
-    "wcag_reviewed": "yes"
+    "wcag_reviewed": "yes",
+    "translator": "Maria Cardenas",
+    "translator_creds": "MSc, PhD, Scientist"
   },
   "INF-0800": {
     "language": "English",
