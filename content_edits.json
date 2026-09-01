@@ -45341,7 +45341,7 @@
   },
   "INF-0001": {
     "author": "Jade Gordon",
-    "_at": "2026-09-01T16:00:28.826Z",
+    "_at": "2026-09-01T16:00:45.972Z",
     "author_creds": "Behavioral Technician",
     "date_created": "5/5/2026",
     "date_revised": "5/6/2026",
@@ -45353,8 +45353,8 @@
     "references": "National Health Service. (2023). Alcohol advice. https://www.nhs.uk/live-well/alcohol-advice/\n\nWorld Health Organization. (2023). Alcohol. https://www.who.int/news-room/fact-sheets/detail/alcohol\n\nCenters for Disease Control and Prevention. (2025). About moderate alcohol use. https://www.cdc.gov/alcohol/about-alcohol-use/moderate-alcohol-use.html\n\nNational Institute on Alcohol Abuse and Alcoholism. (n.d.). Strategies for cutting down drinking & alcohol consumption. https://rethinkingdrinking.niaaa.nih.gov/thinking-about-change/tips-try",
     "duration": "1",
     "wcag_reviewed": "yes",
-    "translator": "TEST Translator Name",
-    "translator_creds": "TEST Credential"
+    "translator": "",
+    "translator_creds": ""
   },
   "INF-0002": {
     "author": "Jade Gordon",
