@@ -54735,12 +54735,14 @@
   },
   "EXT-0566": {
     "type": "Video",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-09-01T16:49:46.544Z",
     "duration": "6 min",
     "peer_reviewer": "Linda Johnson",
     "category": "Mental Health",
     "teacher": "Linda Johnson",
-    "author": "Linda Johnson"
+    "author": "Linda Johnson",
+    "_hidden": true,
+    "_merged_into": "EN-00903"
   },
   "EXT-0567": {
     "type": "Video",
