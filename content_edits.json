@@ -12,7 +12,7 @@
         "changed_by": "Unknown"
       }
     ],
-    "_at": "2026-08-18T17:43:10.189Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "reviewed_by": "Unknown",
     "review_date": "07/01/2026",
     "ver.": "1",
@@ -24,7 +24,9 @@
     "title": "What Is Low-Impact Movement?",
     "category": "Fitness",
     "author": "Marlee Alanis",
-    "link": "https://docs.google.com/document/d/1RhER2eTdfhx4YYQeykIHYKdLipbgwfXzeEpwgnbNZ3Y/edit?usp=sharing"
+    "link": "https://docs.google.com/document/d/1RhER2eTdfhx4YYQeykIHYKdLipbgwfXzeEpwgnbNZ3Y/edit?usp=sharing",
+    "_hidden": true,
+    "_merged_into": "ALB-0117"
   },
   "ART-0029": {
     "peer_reviewer": "Diane McNaught",
@@ -52,11 +54,13 @@
   },
   "ALB-0212": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-24T17:44:42.136Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "teacher": "Alyssa Lagasca",
     "type": "Article",
     "notes": "In the bullet about creating a relaxing sleep environment- I wonder if adding something about not scrolling on your phone?",
-    "duration": "3"
+    "duration": "3",
+    "version": "1",
+    "review_priority": "Low"
   },
   "ART-0237": {
     "author": "Emily",
@@ -82,14 +86,16 @@
   },
   "ALB-0116": {
     "author": "Marlee Alanis",
-    "_at": "2026-08-24T17:44:42.136Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "peer_reviewer": "Marlee Alanis",
     "references": "International Journal of Environmental Research and Public Health. (2021). Associations between nature exposure and health: A review of the evidence. https://www.mdpi.com/1660-4601/18/9/4790\nFrontiers in Public Health. (2025). Effects of urban green exercise on mental health: A systematic review and meta-analysis. https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2025.1677223/full\nApplied Psychology: Health and Well-Being. (2022). Psychological benefits of outdoor physical activity in natural versus urban environments: A systematic review and meta-analysis of experimental studies. https://iaap-journals.onlinelibrary.wiley.com/doi/10.1111/aphw.12353",
     "teacher": "Marlee Alanis",
     "type": "Article",
     "notes": "Should the 1st bullet end in a colon -OR- should the bullet be removed and have that be an opening paragraph?, says well-being",
     "duration": "2",
-    "category": "Fitness"
+    "category": "Fitness",
+    "version": "1",
+    "review_priority": "Low"
   },
   "ART-0188": {
     "author": "Marlee Alanis",
@@ -407,7 +413,7 @@
   },
   "ART-0117": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-18T17:43:10.189Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "language": "English",
     "duration": "4",
     "title": "How Sleep Is Crucial For Weight Management",
@@ -415,7 +421,9 @@
     "author": "Marlee Alanis",
     "notes": "In the bullet about creating a relaxing sleep environment- I wonder if adding something about not scrolling on your phone?",
     "review_priority": "Low",
-    "link": "https://docs.google.com/document/d/1GZvVqcftg2FM0ZDlCemxDO8rcsNwUhd8CipkNrlpOjk/edit?usp=sharing"
+    "link": "https://docs.google.com/document/d/1GZvVqcftg2FM0ZDlCemxDO8rcsNwUhd8CipkNrlpOjk/edit?usp=sharing",
+    "_hidden": true,
+    "_merged_into": "ALB-0212"
   },
   "ILB-0226": {
     "peer_reviewer": "Diane McNaught",
@@ -433,13 +441,15 @@
   },
   "ART-0116": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-18T14:20:23.775Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "author": "Marlee Alanis",
     "language": "English",
     "duration": "2",
     "title": "How Weight Loss Boosts Overall Health",
     "category": "Health",
-    "link": "https://docs.google.com/document/d/1zEDgl35AHHsygnCzPROmZTzb7mOiW_q33JtxJVBAspY/edit?usp=sharing"
+    "link": "https://docs.google.com/document/d/1zEDgl35AHHsygnCzPROmZTzb7mOiW_q33JtxJVBAspY/edit?usp=sharing",
+    "_hidden": true,
+    "_merged_into": "ALB-0211"
   },
   "ART-0118": {
     "peer_reviewer": "Diane McNaught",
@@ -513,13 +523,15 @@
   },
   "ART-0120": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-18T14:20:23.775Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "language": "English",
     "duration": "2",
     "link": "https://docs.google.com/document/d/1S7wATDFyIjeF8Mv1E8HENi6xs83nWHSJsjwdnPAAghU/edit?usp=sharing",
     "title": "Fermented Foods & Their Health Benefits",
     "category": "Nutrition",
-    "author": "Marlee Alanis"
+    "author": "Marlee Alanis",
+    "_hidden": true,
+    "_merged_into": "ALB-0229"
   },
   "ART-0003": {
     "category": "Yoga",
@@ -903,13 +915,15 @@
   },
   "ART-0056": {
     "author": "Marlee Alanis",
-    "_at": "2026-08-18T14:20:23.775Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "peer_reviewer": "Diane McNaught",
     "language": "English",
     "duration": "5",
     "title": "Gut Health 101",
     "category": "Nutrition",
-    "link": "https://docs.google.com/document/d/1amXmmf2RK2h-qZz8JMmIfdu4YIefHVy4/edit"
+    "link": "https://docs.google.com/document/d/1amXmmf2RK2h-qZz8JMmIfdu4YIefHVy4/edit",
+    "_hidden": true,
+    "_merged_into": "ALB-0228"
   },
   "ART-0057": {
     "author": "Marlee Alanis",
@@ -1709,23 +1723,27 @@
   },
   "ART-0146": {
     "author": "Marlee Alanis",
-    "_at": "2026-08-18T14:20:23.775Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "peer_reviewer": "Diane McNaught",
     "language": "English",
     "duration": "4",
     "title": "Essential Tips For A Healthy Spine",
     "category": "Health",
-    "link": "https://docs.google.com/document/d/1fJv0Mp_wG1ZNsoBxvybWf1utVmY31R7vCO8kN-tL1bE/edit?usp=sharing"
+    "link": "https://docs.google.com/document/d/1fJv0Mp_wG1ZNsoBxvybWf1utVmY31R7vCO8kN-tL1bE/edit?usp=sharing",
+    "_hidden": true,
+    "_merged_into": "ALB-0164"
   },
   "ART-0149": {
     "author": "Marlee Alanis",
-    "_at": "2026-08-18T14:20:23.775Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "peer_reviewer": "Diane McNaught",
     "category": "Health",
     "language": "English",
     "duration": "1",
     "title": "Preventing Muscle Loss While On GLP-1 Therapy",
-    "link": "https://docs.google.com/document/d/1BCEVNlq9BoA4nwWmwMmsuHhhsiv7cBAmw2jQMJQesSw/edit?usp=sharing"
+    "link": "https://docs.google.com/document/d/1BCEVNlq9BoA4nwWmwMmsuHhhsiv7cBAmw2jQMJQesSw/edit?usp=sharing",
+    "_hidden": true,
+    "_merged_into": "ALB-0218"
   },
   "ART-0150": {
     "author": "Marlee Alanis",
@@ -1812,13 +1830,15 @@
   },
   "ART-0158": {
     "author": "Marlee Alanis",
-    "_at": "2026-08-18T14:20:23.775Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "category": "Health",
     "peer_reviewer": "Diane McNaught",
     "duration": "2",
     "language": "English",
     "link": "https://docs.google.com/document/d/1Zzc0tzfTYxOJ6s3f2B4gWWVZklTRodjkYuupkXZQzUw/edit?usp=sharing",
-    "title": "Understanding Weight Loss With GLP-1"
+    "title": "Understanding Weight Loss With GLP-1",
+    "_hidden": true,
+    "_merged_into": "ALB-0216"
   },
   "ART-0159": {
     "author": "Marlee Alanis",
@@ -1866,13 +1886,15 @@
   },
   "ART-0162": {
     "author": "Marlee Alanis",
-    "_at": "2026-08-18T14:20:23.775Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "peer_reviewer": "Diane McNaught",
     "category": "Health",
     "language": "English",
     "duration": "2",
     "title": "Practical Tips For Starting GLP-1 Therapy",
-    "link": "https://docs.google.com/document/d/1dmofe8hiGlz5NNeRPKoICXvaDYW60BNCX2RDSl-tJqg/edit?usp=sharing"
+    "link": "https://docs.google.com/document/d/1dmofe8hiGlz5NNeRPKoICXvaDYW60BNCX2RDSl-tJqg/edit?usp=sharing",
+    "_hidden": true,
+    "_merged_into": "ALB-0090"
   },
   "ART-0163": {
     "author": "Marlee Alanis",
@@ -2903,12 +2925,13 @@
   },
   "ALB-0056": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-24T17:44:42.136Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "references": "New England Journal of Medicine. (2024). Microplastics and nanoplastics in atheromas and cardiovascular events. https://www.nejm.org/doi/full/10.1056/NEJMoa2309822\nWorld Health Organization. (2022). Dietary and inhalation exposure to nano- and microplastic particles and potential implications for human health. https://www.who.int/publications/i/item/9789240054608\nFrontiers in Toxicology. (2024). Microplastics and nanoplastics in cardiovascular disease—a narrative review with worrying links. https://www.frontiersin.org/journals/toxicology/articles/10.3389/ftox.2024.1479292/full\n",
     "teacher": "Diane McNaught",
     "type": "Article",
     "duration": "2",
-    "category": "Heart Health"
+    "category": "Heart Health",
+    "version": "1"
   },
   "ALB-0057": {
     "peer_reviewer": "Diane McNaught",
@@ -3085,11 +3108,13 @@
   },
   "ALB-0090": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-24T17:44:42.136Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "references": "Diabetes Care. (2024). Occurrence of gastrointestinal adverse events upon GLP-1 receptor agonist initiation with concomitant metformin use: A post hoc analysis of LEADER, STEP 2, SUSTAIN-6, and PIONEER 6. https://diabetesjournals.org/care/article/47/2/280/153929/Occurrence-of-Gastrointestinal-Adverse-Events-Upon\nPostgraduate Medicine. (2022). Managing the gastrointestinal side effects of GLP-1 receptor agonists in obesity: Recommendations for clinical practice. https://www.tandfonline.com/doi/full/10.1080/00325481.2021.2002616\nCleveland Clinic. (2024). Can certain foods impact your Ozempic side effects? https://health.clevelandclinic.org/ozempic-foods-to-avoid",
     "teacher": "Diane McNaught",
     "type": "Article",
-    "duration": "2"
+    "duration": "2",
+    "version": "1",
+    "review_priority": "Low"
   },
   "ALB-0091": {
     "peer_reviewer": "Diane McNaught",
@@ -3593,11 +3618,13 @@
   },
   "ALB-0170": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-24T17:44:42.136Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "references": "\nHarvard Business Review. (2022). *Building psychological safety at work*. Harvard Business Review. https://hbr.org/2022/06/building-psychological-safety-at-work\n\nAmerican Psychological Association. (2023). *Workplace well-being*. American Psychological Association. https://www.apa.org/topics/workplace",
     "teacher": "Diane McNaught",
     "type": "Article",
-    "duration": "5"
+    "duration": "5",
+    "version": "1",
+    "review_priority": "Low"
   },
   "ALB-0248": {
     "peer_reviewer": "Diane McNaught",
@@ -4059,14 +4086,16 @@
   },
   "ART-0115": {
     "peer_reviewer": "Madeline McGuire",
-    "_at": "2026-08-18T14:20:23.775Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "language": "English",
     "duration": "2",
     "title": "Nutrition Tips for Healthy Weight Management",
     "category": "Health",
     "author": "Marlee Alanis",
     "notes": "R?",
-    "link": "https://docs.google.com/document/d/1l0yP7BdDLiVNnPc1DnoBsngkCz9V71yd5XJ9zCa4_LM/edit?usp=sharing"
+    "link": "https://docs.google.com/document/d/1l0yP7BdDLiVNnPc1DnoBsngkCz9V71yd5XJ9zCa4_LM/edit?usp=sharing",
+    "_hidden": true,
+    "_merged_into": "ALB-0210"
   },
   "ART-0119": {
     "author": "Marlee Alanis",
@@ -4086,13 +4115,15 @@
   },
   "ART-0166": {
     "author": "Marlee Alanis",
-    "_at": "2026-08-18T14:20:23.775Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "peer_reviewer": "Madeline McGuire",
     "language": "English",
     "duration": "3",
     "title": "Understanding The Long-Term Effects Of GLP-1 Medications For Obesity",
     "category": "Health",
-    "link": "https://docs.google.com/document/d/1_aNk_LgRKAopRCwx05QF_qnzYeh4-AIuzgIkQ29dnXg/edit?usp=sharing"
+    "link": "https://docs.google.com/document/d/1_aNk_LgRKAopRCwx05QF_qnzYeh4-AIuzgIkQ29dnXg/edit?usp=sharing",
+    "_hidden": true,
+    "_merged_into": "ALB-0217"
   },
   "ART-0228": {
     "author": "Marlee Alanis",
@@ -4243,13 +4274,15 @@
   },
   "ART-0242": {
     "author": "Marlee Alanis",
-    "_at": "2026-08-18T14:20:23.775Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "peer_reviewer": "Emily Wilson",
     "category": "Workplace Wellness",
     "language": "English",
     "duration": "2",
     "title": "Psychological Safety In The Workplace",
-    "link": "https://docs.google.com/document/d/1QupemFYMxUCELPc8HYf7V0q4OLwl5vfNI6FyknDi-G4/edit?usp=sharing"
+    "link": "https://docs.google.com/document/d/1QupemFYMxUCELPc8HYf7V0q4OLwl5vfNI6FyknDi-G4/edit?usp=sharing",
+    "_hidden": true,
+    "_merged_into": "ALB-0170"
   },
   "ART-0245": {
     "peer_reviewer": "Marlee Alanis",
@@ -4268,7 +4301,7 @@
   },
   "EN-00517": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "teacher": "Kim Ross",
     "author": "Madeline McGuire",
     "licenses": [
@@ -4280,7 +4313,9 @@
     "language": "English",
     "type": "Video",
     "date_created": "3/25/2025",
-    "link": "https://watch.caravanwellness.com/videos/nutrition-for-anxiety-and-stress"
+    "link": "https://watch.caravanwellness.com/videos/nutrition-for-anxiety-and-stress",
+    "_hidden": true,
+    "_merged_into": "VID-0129"
   },
   "ILB-0018": {
     "peer_reviewer": "Marlee Alanis",
@@ -5046,19 +5081,25 @@
   },
   "ALB-0117": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-24T17:44:42.136Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "references": "Mayo Clinic. (2026). Exercise helps ease arthritis pain and stiffness. https://www.mayoclinic.org/diseases-conditions/arthritis/in-depth/arthritis/art-20047971\nCleveland Clinic. (2025). 7 types of low-impact cardio workouts. https://health.clevelandclinic.org/low-impact-cardio\nOrthopaedic Journal of Sports Medicine. (2023). Exercise therapy for knee osteoarthritis: A systematic review and network meta-analysis. https://journals.sagepub.com/doi/10.1177/23259671231172773",
     "teacher": "Marlee Alanis",
     "type": "Article",
     "duration": "3",
-    "category": "Fitness"
+    "category": "Fitness",
+    "version": "1",
+    "notes": "Duration: 4",
+    "title_original": "Creating Boundaries Around Alcohol in a Social Setting",
+    "review_priority": "Low"
   },
   "ALB-0164": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-24T17:44:42.136Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "teacher": "Marlee Alanis",
     "type": "Article",
-    "duration": "3"
+    "duration": "3",
+    "version": "1",
+    "review_priority": "Low"
   },
   "ALB-0226": {
     "peer_reviewer": "Marlee Alanis",
@@ -5078,7 +5119,7 @@
   },
   "ALB-0228": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-24T17:44:42.136Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "author": "Hailey Miller",
     "teacher": "Marlee Alanis",
     "licenses": [
@@ -5088,15 +5129,19 @@
     "duration": "2",
     "date_created": "10/25/2023",
     "link": "https://docs.google.com/document/d/1amXmmf2RK2h-qZz8JMmIfdu4YIefHVy4/edit",
-    "category": "Digestive Health"
+    "category": "Digestive Health",
+    "version": "1",
+    "author_creds": "Registered Nurse",
+    "review_priority": "Low"
   },
   "ALB-0229": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-24T17:44:42.136Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "references": "Harvard T.H. Chan School of Public Health. (2024). Fiber and fermented foods may aid microbiome, overall health. https://hsph.harvard.edu/news/fiber-fermented-food-microbiome/\nStanford Medicine. (2021). Fermented-food diet increases microbiome diversity, decreases inflammatory proteins, study finds. https://med.stanford.edu/news/all-news/2021/07/fermented-food-diet-increases-microbiome-diversity-lowers-inflammation.html\nMicrobial Biotechnology. (2024). Fermented foods, their microbiome and its potential in boosting human health. https://pmc.ncbi.nlm.nih.gov/articles/PMC10886436/",
     "teacher": "Marlee Alanis",
     "type": "Article",
-    "duration": "3"
+    "duration": "3",
+    "version": "1"
   },
   "ALB-0230": {
     "peer_reviewer": "Marlee Alanis",
@@ -6153,14 +6198,16 @@
   },
   "VID-0943": {
     "author": "Dr. Joe Feuerstein",
-    "_at": "2026-08-12T21:22:27.517Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "licenses": [
       "Wellness360"
     ],
     "vimeo_link": "https://vimeo.com/1069727083/63f7719a37",
     "duration": "3",
     "language": "English",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "_hidden": true,
+    "_merged_into": "EN-00630"
   },
   "VID-0944": {
     "author": "Dr. Joe Feuerstein",
@@ -6923,7 +6970,7 @@
   },
   "EN-00630": {
     "teacher": "Dr. Joe Feuerstein",
-    "_at": "2026-08-14T18:13:52.915Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "duration": "3",
     "language": "English (UK)",
     "type": "Video",
@@ -6931,7 +6978,9 @@
     "author": "Dr. Joe Feuerstein",
     "link": "https://watch.caravanwellness.com/videos/what-is-prediabetes",
     "vimeo_link": "https://vimeo.com/1069727083/63f7719a37",
-    "date_created": "3/26/2025"
+    "date_created": "3/26/2025",
+    "references": "National Institutes of Health. (2023). Risk of progression from pre-diabetes to type 2 diabetes in a large UK adult cohort. PMC. https://pmc.ncbi.nlm.nih.gov/articles/PMC10099224/ National Institutes of Health. (2023). Educational model and prevention on prediabetes: A systematic review. PMC. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10909827/ National Institutes of Health. (2023). Prevention or delay of type 2 diabetes and associated comorbidities: Standards of care in diabetes-2023. PMC. https://pmc.ncbi.nlm.nih.gov/articles/PMC9810464/",
+    "version": "1"
   },
   "EN-00631": {
     "author": "Dr. Joe Feuerstein",
@@ -12835,7 +12884,7 @@
   },
   "VID-0170": {
     "author": "Mila Toribio",
-    "_at": "2026-08-17T17:04:27.579Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "duration": "2",
     "language": "English",
     "peer_reviewer": "Marlee Alanis",
@@ -12848,11 +12897,12 @@
     "licenses": [
       "Wellness360"
     ],
-    "category": "Fitness"
+    "category": "Fitness",
+    "date_created": "02/02/2026"
   },
   "VID-0171": {
     "author": "Mila Toribio",
-    "_at": "2026-08-17T17:04:27.579Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "duration": "2",
     "language": "English",
     "peer_reviewer": "Marlee Alanis",
@@ -12866,7 +12916,8 @@
       "Healthee",
       "Wellness360"
     ],
-    "category": "Fitness"
+    "category": "Fitness",
+    "date_created": "02/02/2026"
   },
   "VID-0395": {
     "author": "Mila Toribio",
@@ -13064,7 +13115,7 @@
   },
   "VID-1140": {
     "author": "Mila Toribio",
-    "_at": "2026-08-17T17:04:27.579Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "duration": "1",
     "language": "English",
     "peer_reviewer": "Marlee Alanis",
@@ -13079,11 +13130,12 @@
       "Healthee",
       "Wellness360"
     ],
-    "category": "Fitness"
+    "category": "Fitness",
+    "date_created": "02/02/2026"
   },
   "VID-1141": {
     "author": "Mila Toribio",
-    "_at": "2026-08-17T17:04:27.579Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "duration": "1",
     "language": "English",
     "peer_reviewer": "Marlee Alanis",
@@ -13096,7 +13148,8 @@
     "licenses": [
       "Wellness360"
     ],
-    "category": "Strength Training"
+    "category": "Strength Training",
+    "date_created": "02/02/2026"
   },
   "VID-1142": {
     "author": "Mila Toribio",
@@ -13224,25 +13277,27 @@
   },
   "VID-1611": {
     "author": "Mila Toribio",
-    "_at": "2026-08-17T17:04:27.579Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "duration": "5",
     "language": "English",
     "date_created": "12/11/2025",
     "peer_reviewer": "Marlee Alanis",
     "teacher": "Mila Toribio",
     "vimeo_link": "https://vimeo.com/1145685546/eb5bf0df35?share=copy&fl=sv&fe=ci",
-    "category": "Joint Health"
+    "category": "Joint Health",
+    "branding": "White-Label"
   },
   "VID-1612": {
     "author": "Mila Toribio",
-    "_at": "2026-08-17T17:04:27.579Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "language": "English",
     "duration": "5",
     "date_created": "12/11/2025",
     "peer_reviewer": "Marlee Alanis",
     "teacher": "Mila Toribio",
     "vimeo_link": "https://vimeo.com/1145685732/2a4e97ef29?share=copy&fl=sv&fe=ci",
-    "category": "Joint Health"
+    "category": "Joint Health",
+    "branding": "White-Label"
   },
   "VID-1613": {
     "author": "Mila Toribio",
@@ -13368,7 +13423,7 @@
   },
   "EN-00460": {
     "teacher": "Mila Toribio",
-    "_at": "2026-08-14T18:13:52.915Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "licenses": [
       "YuLife"
     ],
@@ -13379,7 +13434,9 @@
     "peer_reviewer": "Marlee Alanis",
     "author": "Mila Toribio",
     "link": "https://app.allinonewellbeing.com/videos/flexibility-and-mobility",
-    "date_created": "3/24/2025"
+    "date_created": "3/24/2025",
+    "references": "NHS. (2024). How to improve your strength and flexibility. NHS. https://www.nhs.uk/live-well/exercise/how-to-improve-strength-flexibility/ NHS. (2024). Flexibility exercises. NHS. https://www.nhs.uk/live-well/exercise/flexibility-exercises/ National Institute on Aging. (2023). Maintaining mobility and preventing disability are key to living independently as we age. NIA. https://www.nia.nih.gov/news/maintaining-mobility-and-preventing-disability-are-key-living-independently-we-age",
+    "version": "1"
   },
   "EN-00655": {
     "author": "Mila Toribio",
@@ -13531,7 +13588,7 @@
   },
   "EN-00703": {
     "author": "Mila Toribio",
-    "_at": "2026-08-13T22:07:22.209Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "teacher": "Mila Toribio",
     "licenses": [
       "Passport & Co.",
@@ -13544,7 +13601,9 @@
     "peer_reviewer": "Marlee Alanis",
     "date_created": "3/7/2025",
     "version": "1",
-    "title": "Movement for Sleep"
+    "title": "Movement for Sleep",
+    "_hidden": true,
+    "_merged_into": "VID-0719"
   },
   "EN-00704": {
     "author": "Mila Toribio",
@@ -13998,7 +14057,7 @@
   },
   "VLB-1485": {
     "teacher": "Mila Toribio",
-    "_at": "2026-08-14T21:15:48.905Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "licenses": [
       "LifeSmart"
     ],
@@ -14009,11 +14068,13 @@
     "author": "Mila Toribio",
     "link": "https://app.allinonewellbeing.com/videos/hip-joint-relief-foam-rolling-routine",
     "date_created": "12/11/2025",
-    "duration": "6"
+    "duration": "6",
+    "_hidden": true,
+    "_merged_into": "VID-1611"
   },
   "VLB-1486": {
     "teacher": "Mila Toribio",
-    "_at": "2026-08-21T20:28:25.213Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "licenses": [
       "LifeSmart"
     ],
@@ -14024,7 +14085,9 @@
     "peer_reviewer": "Marlee Alanis",
     "author": "Mila Toribio",
     "link": "https://app.allinonewellbeing.com/videos/knee-relief-foam-rolling-routine",
-    "date_created": "12/11/2025"
+    "date_created": "12/11/2025",
+    "_hidden": true,
+    "_merged_into": "VID-1612"
   },
   "EN-01567": {
     "author": "Mila Toribio",
@@ -14489,14 +14552,16 @@
   },
   "ART-0204": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-19T19:22:40.862Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "language": "English",
     "duration": "3",
     "title": "The Power Of Outdoor Exercise For Wellbeing",
     "category": "Fitness",
     "author": "Marlee Alanis",
     "notes": "Should the 1st bullet end in a colon -OR- should the bullet be removed and have that be an opening paragraph?, says well-being",
-    "link": "https://docs.google.com/document/d/1BZIB42fcYlllqfaEoFLeVLxtEbCHaaR9/edit"
+    "link": "https://docs.google.com/document/d/1BZIB42fcYlllqfaEoFLeVLxtEbCHaaR9/edit",
+    "_hidden": true,
+    "_merged_into": "ALB-0116"
   },
   "ART-0205": {
     "peer_reviewer": "Alyssa Lagasca",
@@ -15006,34 +15071,40 @@
   },
   "ALB-0210": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-24T17:44:42.136Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "teacher": "Alyssa Lagasca",
     "type": "Article",
     "notes": "R?",
-    "duration": "3"
+    "duration": "3",
+    "version": "1"
   },
   "ALB-0211": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-24T17:44:42.136Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "teacher": "Alyssa Lagasca",
     "type": "Article",
-    "duration": "3"
+    "duration": "3",
+    "version": "1"
   },
   "ALB-0213": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-24T17:44:42.136Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "teacher": "Alyssa Lagasca",
     "type": "Article",
     "duration": "2",
-    "category": "Weight Management"
+    "category": "Weight Management",
+    "version": "1",
+    "review_priority": "Low"
   },
   "ALB-0214": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-24T17:44:42.136Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "references": "Cleveland Clinic. (2023). GLP-1 agonists: What they are, how they work & side effects. https://my.clevelandclinic.org/health/treatments/13901-glp-1-agonists\nHarvard Health. (2025). How does Ozempic work? Understanding GLP-1s for diabetes, weight loss, and beyond. https://www.health.harvard.edu/healthy-aging-and-longevity/how-does-ozempic-work-understanding-glp-1s-for-diabetes-weight-loss-and-beyond\nMolecular Metabolism. (2022). GLP-1 physiology informs the pharmacotherapy of obesity. https://pmc.ncbi.nlm.nih.gov/articles/PMC8859548/",
     "teacher": "Alyssa Lagasca",
     "type": "Article",
-    "duration": "3"
+    "duration": "3",
+    "version": "1",
+    "review_priority": "Low"
   },
   "ALB-0215": {
     "peer_reviewer": "Alyssa Lagasca",
@@ -15045,26 +15116,32 @@
   },
   "ALB-0216": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-24T17:44:42.136Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "teacher": "Alyssa Lagasca",
     "type": "Article",
-    "duration": "2"
+    "duration": "2",
+    "version": "1",
+    "review_priority": "Low"
   },
   "ALB-0217": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-24T17:44:42.136Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "references": "New England Journal of Medicine. (2023). Semaglutide and cardiovascular outcomes in obesity without diabetes. https://www.nejm.org/doi/full/10.1056/NEJMoa2307563\nNature Medicine. (2022). Two-year effects of semaglutide in adults with overweight or obesity: The STEP 5 trial. https://www.nature.com/articles/s41591-022-02026-4\nMayo Clinic. (2024). Diabetes drugs and weight loss. https://www.mayoclinic.org/diseases-conditions/type-2-diabetes/expert-answers/byetta/faq-20057955",
     "teacher": "Alyssa Lagasca",
     "type": "Article",
-    "duration": "2"
+    "duration": "2",
+    "version": "1",
+    "review_priority": "Low"
   },
   "ALB-0218": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-24T17:44:42.136Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "references": "Diabetes, Obesity and Metabolism. (2024). Changes in lean body mass with glucagon-like peptide-1-based therapies and mitigation strategies. https://dom-pubs.onlinelibrary.wiley.com/doi/10.1111/dom.15728\nDiabetes Research and Clinical Practice. (2025). GLP-1 receptor agonists and sarcopenia: Weight loss at a cost? A brief narrative review. https://www.diabetesresearchclinicalpractice.com/article/S0168-8227(25)00938-6/abstract\nCleveland Clinic. (2025). Can Ozempic cause you to lose muscle? https://health.clevelandclinic.org/ozempic-muscle-loss",
     "teacher": "Alyssa Lagasca",
     "type": "Article",
-    "duration": "2"
+    "duration": "2",
+    "version": "1",
+    "review_priority": "Low"
   },
   "ALB-0219": {
     "peer_reviewer": "Alyssa Lagasca",
@@ -15446,7 +15523,7 @@
   },
   "VID-1787": {
     "author": "Dr. Cherilyn Davis",
-    "_at": "2026-08-18T17:43:10.189Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "duration": "2",
     "language": "English",
     "date_created": "6/3/2026",
@@ -15454,7 +15531,9 @@
     "teacher": "Dr. Cherilyn Davis",
     "vimeo_link": "https://vimeo.com/1198122849/9d965d0e1a?share=copy&fl=sv&fe=ci",
     "link": "https://app.allinonewellbeing.com/videos/coping-with-uncertainty-after-your-surgery",
-    "category": "Surgery"
+    "category": "Surgery",
+    "references": "National Institutes of Health. (2024). Strategies for managing uncertainty in a surgical waiting room. PMC. https://pmc.ncbi.nlm.nih.gov/articles/PMC3523930/ National Institutes of Health. (2024). Navigating uncertainty in clinical practice: A structured approach. PMC. https://pmc.ncbi.nlm.nih.gov/articles/PMC11043270/ National Institutes of Health. (2024). Complications: Acknowledging, managing, and coping with human error. PMC. https://pmc.ncbi.nlm.nih.gov/articles/PMC5583051/ National Institutes of Health. (2025). How surgeons and surgical leaders manage complications. PMC. https://pmc.ncbi.nlm.nih.gov/articles/PMC12088224/",
+    "author_creds": "Medical Doctor"
   },
   "VID-1788": {
     "author": "Dr. Cherilyn Davis",
@@ -15506,14 +15585,16 @@
   },
   "VID-1795": {
     "author": "Dr. Cherilyn Davis",
-    "_at": "2026-08-14T14:13:12.825Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "duration": "2",
     "language": "English",
     "date_created": "6/3/2026",
     "peer_reviewer": "Marlee Alanis",
     "teacher": "Dr. Cherilyn Davis",
     "vimeo_link": "https://vimeo.com/1198122846/f626654033?share=copy&fl=sv&fe=ci",
-    "link": "https://app.allinonewellbeing.com/videos/essential-health-screenings-for-every-woman"
+    "link": "https://app.allinonewellbeing.com/videos/essential-health-screenings-for-every-woman",
+    "references": "Centers for Disease Control and Prevention. (2024). Are you up to date on your preventive care? CDC. https://www.cdc.gov/chronic-disease/prevention/preventive-care.html Centers for Disease Control and Prevention. (2024). Health-related social needs can keep women from getting mammograms. CDC. https://www.cdc.gov/vitalsigns/mammograms/index.html National Institutes of Health. (2025). An ounce of prevention. NIH News in Health. https://newsinhealth.nih.gov/2025/03/ounce-prevention National Institutes of Health. (2023). Health screening. NIH. https://www.ncbi.nlm.nih.gov/books/NBK436014/",
+    "author_creds": "Medical Doctor"
   },
   "EN-00805": {
     "author": "Dr. Cherilyn Davis",
@@ -15641,7 +15722,7 @@
   },
   "EN-00814": {
     "teacher": "Dr. Cherilyn Davis",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "duration": "3",
     "language": "English",
     "type": "Video",
@@ -15649,7 +15730,10 @@
     "author": "Dr. Cherilyn Davis",
     "date_created": "3/4/2025",
     "link": "https://app.allinonewellbeing.com/videos/cholesterol-myths-vs-facts",
-    "vimeo_link": "https://vimeo.com/1062506225/79bd990db5"
+    "vimeo_link": "https://vimeo.com/1062506225/79bd990db5",
+    "references": "American Heart Association. (2024). Cholesterol myths and facts. https://www.heart.org/en/health-topics/cholesterol Centers for Disease Control and Prevention. (2024). High cholesterol facts. https://www.cdc.gov/cholesterol Mayo Clinic. (2024). High cholesterol. https://www.mayoclinic.org/diseases-conditions/high-blood-cholesterol",
+    "version": "1",
+    "review_priority": "High"
   },
   "EN-00936": {
     "teacher": "Dr. Cherilyn Davis",
@@ -19230,7 +19314,7 @@
   },
   "VID-0129": {
     "author": "Kim Ross",
-    "_at": "2026-08-18T17:43:10.189Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "licenses": [
       "Healthee",
       "Numbase",
@@ -19246,7 +19330,9 @@
       "Spectrum.life"
     ],
     "teacher": "Kim Ross",
-    "category": "Nutrition"
+    "category": "Nutrition",
+    "description": "Uncover the powerful connection between dietary choices and mental wellbeing. ☑ Improved Mood ☑ Reduced Stress ☑ Boosted Alkalization ✎ Learn The Science: Diets rich in omega-3 fatty acids, antioxidants, and B vitamins may have a positive influence on mental health, potentially reducing symptoms of ",
+    "branding": "White-Label"
   },
   "VID-0130": {
     "author": "Kim Ross",
@@ -21163,7 +21249,7 @@
   },
   "EN-01193": {
     "author": "Crystal Williams",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "teacher": "Crystal Williams",
     "licenses": [
       "Luro Health",
@@ -21175,7 +21261,9 @@
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "date_created": "5/13/2025",
-    "version": "1"
+    "version": "1",
+    "_hidden": true,
+    "_merged_into": "EN-01191"
   },
   "EN-01194": {
     "author": "Crystal Williams",
@@ -24126,7 +24214,7 @@
   },
   "VID-1321": {
     "author": "Dr. Joe Feuerstein",
-    "_at": "2026-08-17T17:04:27.579Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "licenses": [
       "Wellness360"
     ],
@@ -24134,7 +24222,9 @@
     "duration": "5",
     "language": "English",
     "peer_reviewer": "Marlee Alanis",
-    "category": "Wearables"
+    "category": "Wearables",
+    "_hidden": true,
+    "_merged_into": "EN-01165"
   },
   "VID-1322": {
     "author": "Dr. Joe Feuerstein",
@@ -24389,18 +24479,22 @@
   },
   "VID-1831": {
     "author": "Dr. Joe Feuerstein",
-    "_at": "2026-08-18T14:20:23.775Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "language": "English",
     "peer_reviewer": "Marlee Alanis",
     "category": "Kidney Health",
-    "link": "https://app.allinonewellbeing.com/videos/early-warning-signs-of-kidney-disease-1"
+    "link": "https://app.allinonewellbeing.com/videos/early-warning-signs-of-kidney-disease-1",
+    "_hidden": true,
+    "_merged_into": "VID-0234"
   },
   "VID-1832": {
     "author": "Dr. Joe Feuerstein",
-    "_at": "2026-08-18T14:20:23.775Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "language": "English",
     "peer_reviewer": "Marlee Alanis",
-    "link": "https://app.allinonewellbeing.com/videos/how-to-avoid-asthma-triggers"
+    "link": "https://app.allinonewellbeing.com/videos/how-to-avoid-asthma-triggers",
+    "_hidden": true,
+    "_merged_into": "EN-01869"
   },
   "VID-1833": {
     "author": "Dr. Joe Feuerstein",
@@ -24497,7 +24591,7 @@
   },
   "EN-01165": {
     "teacher": "Dr. Joe Feuerstein",
-    "_at": "2026-08-14T18:43:19.421Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "duration": "5",
     "language": "English (UK)",
     "type": "Video",
@@ -24505,7 +24599,8 @@
     "author": "Dr. Joe Feuerstein",
     "link": "https://app.allinonewellbeing.com/videos/how-wearables-help-track-long-term-health-trends",
     "vimeo_link": "https://vimeo.com/1084729862/7813e8788b?share=copy",
-    "date_created": "5/15/2025"
+    "date_created": "5/15/2025",
+    "version": "1"
   },
   "EN-01167": {
     "author": "Dr. Joe Feuerstein",
@@ -24856,14 +24951,16 @@
   },
   "VID-1284": {
     "author": "Carol Hilaire",
-    "_at": "2026-08-18T17:43:10.189Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "language": "English",
     "duration": "5",
     "date_created": "5/13/2025",
     "peer_reviewer": "Marlee Alanis",
     "teacher": "Carol Hilaire",
     "vimeo_link": "https://vimeo.com/1083966666/b609b2b35e?share=copy",
-    "category": "Women’s Health"
+    "category": "Women’s Health",
+    "_hidden": true,
+    "_merged_into": "VLB-1058"
   },
   "VID-1285": {
     "author": "Carol Hilaire",
@@ -25067,7 +25164,7 @@
   },
   "VLB-1058": {
     "teacher": "Carol Hilaire",
-    "_at": "2026-08-21T20:15:02.542Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "duration": "4 ",
     "language": "English",
     "type": "Video",
@@ -25077,7 +25174,8 @@
     ],
     "author": "Carol Hilaire",
     "link": "https://app.allinonewellbeing.com/videos/managing-pcos",
-    "date_created": "5/13/2025"
+    "date_created": "5/13/2025",
+    "version": "1"
   },
   "EN-01124": {
     "author": "Carol Hilaire",
@@ -27136,10 +27234,12 @@
   },
   "VID-0088": {
     "author": "Dr. Cherilyn Davis",
-    "_at": "2026-08-18T14:20:23.775Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "language": "English",
     "peer_reviewer": "Marlee Alanis",
-    "link": "https://app.allinonewellbeing.com/videos/essential-health-screenings-for-every-woman"
+    "link": "https://app.allinonewellbeing.com/videos/essential-health-screenings-for-every-woman",
+    "_hidden": true,
+    "_merged_into": "VID-1795"
   },
   "VID-0104": {
     "author": "Dr. Cherilyn Davis",
@@ -27174,11 +27274,13 @@
   },
   "VID-0189": {
     "author": "Dr. Cherilyn Davis",
-    "_at": "2026-08-18T14:20:23.775Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "language": "English",
     "peer_reviewer": "Marlee Alanis",
     "category": "Surgery",
-    "link": "https://app.allinonewellbeing.com/videos/coping-with-uncertainty-after-your-surgery"
+    "link": "https://app.allinonewellbeing.com/videos/coping-with-uncertainty-after-your-surgery",
+    "_hidden": true,
+    "_merged_into": "VID-1787"
   },
   "VID-0233": {
     "author": "Dr. Cherilyn Davis",
@@ -27470,13 +27572,15 @@
   },
   "VID-1749": {
     "author": "Sadiya Shackey-El",
-    "_at": "2026-08-18T17:43:10.189Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "duration": "5",
     "language": "English",
     "peer_reviewer": "Marlee Alanis",
     "teacher": "Sadiya Shackey-El",
     "vimeo_link": "https://vimeo.com/1176627432/44503c9306?share=copy&fl=sv&fe=ci",
-    "category": "Fitness"
+    "category": "Fitness",
+    "date_created": "3/24/2026",
+    "branding": "White-Label"
   },
   "VID-1750": {
     "author": "Sadiya Shackey-El",
@@ -27500,33 +27604,39 @@
   },
   "VID-1752": {
     "author": "Sadiya Shackey-El",
-    "_at": "2026-08-18T17:43:10.189Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "duration": "10",
     "language": "English",
     "peer_reviewer": "Marlee Alanis",
     "teacher": "Sadiya Shackey-El",
     "vimeo_link": "https://vimeo.com/1177387463/f0726a666c?share=copy&fl=sv&fe=ci",
-    "category": "Fitness"
+    "category": "Fitness",
+    "_hidden": true,
+    "_merged_into": "VLB-1646"
   },
   "VID-1753": {
     "author": "Sadiya Shackey-El",
-    "_at": "2026-08-18T17:43:10.189Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "duration": "10",
     "language": "English",
     "peer_reviewer": "Marlee Alanis",
     "teacher": "Sadiya Shackey-El",
     "vimeo_link": "https://vimeo.com/1177387118/cb2499970e?share=copy&fl=sv&fe=ci",
-    "category": "Fitness"
+    "category": "Fitness",
+    "_hidden": true,
+    "_merged_into": "VLB-1647"
   },
   "VID-1754": {
     "author": "Sadiya Shackey-El",
-    "_at": "2026-08-18T17:43:10.189Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "duration": "10",
     "language": "English",
     "peer_reviewer": "Marlee Alanis",
     "teacher": "Sadiya Shackey-El",
     "vimeo_link": "https://vimeo.com/1177386486/5569a90f75?share=copy&fl=sv&fe=ci",
-    "category": "Fitness"
+    "category": "Fitness",
+    "_hidden": true,
+    "_merged_into": "VLB-1648"
   },
   "EN-00396": {
     "author": "Sadiya Shackey-El",
@@ -27821,7 +27931,7 @@
   },
   "VLB-1643": {
     "teacher": "Sadiya Shackey-El",
-    "_at": "2026-08-18T17:43:10.189Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "licenses": [
       "Promethium Medical"
     ],
@@ -27832,7 +27942,9 @@
     "author": "Sadiya Shackey-El",
     "duration": "5",
     "date_created": "3/24/2026",
-    "category": "Fitness"
+    "category": "Fitness",
+    "_hidden": true,
+    "_merged_into": "VID-1749"
   },
   "VLB-1644": {
     "teacher": "Sadiya Shackey-El",
@@ -27858,7 +27970,7 @@
   },
   "VLB-1646": {
     "teacher": "Sadiya Shackey-El",
-    "_at": "2026-08-18T17:43:10.189Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "language": "(Non-Verbal)",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
@@ -27866,11 +27978,12 @@
     "duration": "10",
     "date_created": "3/24/2025",
     "link": "https://app.allinonewellbeing.com/videos/pilates-for-daily-strength",
-    "category": "Fitness"
+    "category": "Fitness",
+    "version": "1"
   },
   "VLB-1647": {
     "teacher": "Sadiya Shackey-El",
-    "_at": "2026-08-18T17:43:10.189Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "language": "(Non-Verbal)",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
@@ -27878,11 +27991,12 @@
     "duration": "10",
     "date_created": "3/25/2025",
     "link": "https://app.allinonewellbeing.com/videos/energizing-pilates",
-    "category": "Fitness"
+    "category": "Fitness",
+    "version": "1"
   },
   "VLB-1648": {
     "teacher": "Sadiya Shackey-El",
-    "_at": "2026-08-18T17:43:10.189Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "language": "(Non-Verbal)",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
@@ -27890,7 +28004,8 @@
     "duration": "10",
     "date_created": "6/26/2026",
     "link": "https://app.allinonewellbeing.com/videos/all-standing-pilates",
-    "category": "Fitness"
+    "category": "Fitness",
+    "version": "1"
   },
   "VID-0357": {
     "author": "Dr. David Rosen",
@@ -31626,7 +31741,7 @@
   },
   "EN-01611": {
     "author": "Dr. Fahim Pyarali",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "teacher": "Dr. Fahim Pyarali",
     "duration": "5",
     "language": "English",
@@ -31634,7 +31749,9 @@
     "peer_reviewer": "Marlee Alanis",
     "date_created": "1/5/2026",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1151695285/50acc3f513?share=copy&fl=sv&fe=ci"
+    "vimeo_link": "https://vimeo.com/1151695285/50acc3f513?share=copy&fl=sv&fe=ci",
+    "references": "National Heart, Lung, and Blood Institute. (2023). Asthma. National Institutes of Health. https://www.nhlbi.nih.gov/health-topics/asthma Global Initiative for Asthma. (2023). Global strategy for asthma management and prevention. Global Initiative for Asthma. https://ginasthma.org American Lung Association. (2023). Asthma symptoms and diagnosis. American Lung Association. https://www.lung.org/lung-health-diseases/lung-disease-lookup/asthma/symptoms-diagnosis Mayo Clinic. (2024). Asthma. Mayo Foundation for Medical Education and Research. https://www.mayoclinic.org/diseases-conditions/asthma/symptoms-causes/syc-20369653",
+    "author_creds": "Pulmologist"
   },
   "EN-01612": {
     "teacher": "Dr. Fahim Pyarali",
@@ -31933,11 +32050,13 @@
   },
   "VID-0055": {
     "author": "Dr. Fahim Pyarali",
-    "_at": "2026-08-18T14:20:23.775Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "duration": "2 min",
     "language": "English",
     "peer_reviewer": "Marlee Alanis",
-    "link": "https://app.allinonewellbeing.com/videos/myths-about-asthma-symptoms"
+    "link": "https://app.allinonewellbeing.com/videos/myths-about-asthma-symptoms",
+    "_hidden": true,
+    "_merged_into": "EN-01611"
   },
   "VID-0075": {
     "author": "Dr. Fahim Pyarali",
@@ -33999,13 +34118,16 @@
   },
   "VID-0462": {
     "author": "Zach Bourne",
-    "_at": "2026-08-17T17:04:27.579Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "duration": "5",
     "language": "English",
     "peer_reviewer": "Marlee Alanis",
     "teacher": "Zach Bourne",
     "vimeo_link": "https://vimeo.com/1069042782/65bce69b6e?fl=ls&fe=ec",
-    "category": "Mental Health"
+    "category": "Mental Health",
+    "description": "Learn how to defy self-doubt and promote confidence while using tactics to effectively communicate your own thoughts. Reduce the overbearing weight of stress. ☑ Reduced Stress ☑ Increased Confidence ☑ Strengthened Emotional State ☾ ☼ Best used if you are seeking confidence, or anytime you have a 3 m",
+    "date_created": "3/7/2025",
+    "branding": "Branded"
   },
   "VID-0463": {
     "author": "Zach Bourne",
@@ -34151,13 +34273,15 @@
   },
   "VLB-0025": {
     "teacher": "Zach Bourne",
-    "_at": "2026-08-21T20:04:02.286Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "duration": "4 ",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "date_created": "3/7/2025",
-    "link": "https://app.allinonewellbeing.com/confidence-series/videos/confidence-series-e2"
+    "link": "https://app.allinonewellbeing.com/confidence-series/videos/confidence-series-e2",
+    "_hidden": true,
+    "_merged_into": "VID-0462"
   },
   "EN-00025": {
     "author": "Zach Bourne",
@@ -34521,7 +34645,7 @@
   },
   "ART-0141": {
     "author": "Marlee Alanis",
-    "_at": "2026-08-18T14:20:23.775Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "author_creds": "",
     "peer_reviewer": "Madeline McGuire",
     "date_created": "04/08/2025",
@@ -34530,7 +34654,9 @@
     "language": "English",
     "title": "The Connection Between Microplastics & Heart Attacks",
     "category": "Health",
-    "link": "https://docs.google.com/document/d/1odz43zZbgI7zUYohnR9hSPJF2NOCW97A93W7UV8NE1c/edit?usp=sharing"
+    "link": "https://docs.google.com/document/d/1odz43zZbgI7zUYohnR9hSPJF2NOCW97A93W7UV8NE1c/edit?usp=sharing",
+    "_hidden": true,
+    "_merged_into": "ALB-0056"
   },
   "VID-0181": {
     "author": "Jane Mulvey",
@@ -34816,14 +34942,16 @@
   },
   "VID-0101": {
     "author": "Katie Attubato",
-    "_at": "2026-08-12T21:22:27.517Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "licenses": [
       "Wellness360"
     ],
     "vimeo_link": "https://vimeo.com/1062506225/79bd990db5",
     "duration": "3",
     "language": "English",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "_hidden": true,
+    "_merged_into": "EN-00814"
   },
   "VID-0103": {
     "author": "Katie Attubato",
@@ -35911,12 +36039,14 @@
   },
   "VID-0197": {
     "author": "Dr. David Sanchez",
-    "_at": "2026-08-18T14:20:23.775Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "language": "English",
     "peer_reviewer": "Marlee Alanis",
     "teacher": "Dr. David Rosen",
     "branding": "White-Label",
-    "link": "https://app.allinonewellbeing.com/videos/vaccines-during-pregnancy-breastfeeding"
+    "link": "https://app.allinonewellbeing.com/videos/vaccines-during-pregnancy-breastfeeding",
+    "_hidden": true,
+    "_merged_into": "EN-01762"
   },
   "VID-0198": {
     "author": "Dr. David Sanchez",
@@ -41318,7 +41448,7 @@
   },
   "EN-00321": {
     "author": "Julia Chan",
-    "_at": "2026-08-13T21:47:52.079Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "teacher": "Julia Chan",
     "licenses": [
       "Luro Health"
@@ -41329,7 +41459,9 @@
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "date_created": "3/26/2025"
+    "date_created": "3/26/2025",
+    "_hidden": true,
+    "_merged_into": "EN-00320"
   },
   "EN-00322": {
     "author": "Julia Chan",
@@ -41896,13 +42028,16 @@
   },
   "VID-0471": {
     "author": "Edyta Romanowicz",
-    "_at": "2026-08-17T17:04:27.579Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "duration": "3",
     "language": "English",
     "peer_reviewer": "Marlee Alanis",
     "teacher": "Edyta Romanowicz",
     "vimeo_link": "https://vimeo.com/1069099971/d44d1e8b24?fl=ls&fe=ec",
-    "category": "Communication"
+    "category": "Communication",
+    "description": "Whether you're in an argument with your significant other, family, or coworkers, get your point across in a healthy and productive way. Discover how to be open to other perspectives. ☑ Improved Communication ☑ Healthier Mindset ☑ Enhanced Relationship ☾ ☼ Best used before, during, or after an argume",
+    "date_created": "3/24/2025",
+    "branding": "Branded"
   },
   "VID-0472": {
     "author": "Edyta Romanowicz",
@@ -41934,14 +42069,16 @@
   },
   "VLB-0034": {
     "teacher": "Edyta Romanowicz",
-    "_at": "2026-08-21T20:04:24.394Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "category": "Relationships",
     "duration": "5 ",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "date_created": "3/24/2025",
-    "link": "https://app.allinonewellbeing.com/relationship-with-self/videos/relationship-with-self-e1"
+    "link": "https://app.allinonewellbeing.com/relationship-with-self/videos/relationship-with-self-e1",
+    "_hidden": true,
+    "_merged_into": "VID-0471"
   },
   "EN-00034": {
     "author": "Edyta Romanowicz",
@@ -44558,7 +44695,7 @@
       "The Difference Card",
       "Wellness360"
     ],
-    "_at": "2026-08-17T17:04:27.579Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "vimeo_link": "https://vimeo.com/1069077969/56cbb2a8cb?share=copy",
     "language": "English",
     "author": "Mila Toribio",
@@ -44567,7 +44704,9 @@
     "client_licenses": [
       "Earn It"
     ],
-    "category": "Fitness"
+    "category": "Fitness",
+    "_hidden": true,
+    "_merged_into": "EN-00460"
   },
   "VID-0847": {
     "licenses": [
@@ -45651,7 +45790,7 @@
   },
   "ART-0142": {
     "type": "Article",
-    "_at": "2026-08-18T14:20:23.775Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "author": "Marlee Alanis",
     "duration": "2",
     "language": "English",
@@ -45659,7 +45798,9 @@
     "category": "Health",
     "peer_reviewer": "Madeline McGuire",
     "date_created": "11/08/2023",
-    "link": "https://docs.google.com/document/d/1RmYMrzU0pTlCoFE-yG0UKW9Ut5cBHqwUlEWDEo7Rw6M/edit?usp=sharing"
+    "link": "https://docs.google.com/document/d/1RmYMrzU0pTlCoFE-yG0UKW9Ut5cBHqwUlEWDEo7Rw6M/edit?usp=sharing",
+    "_hidden": true,
+    "_merged_into": "ALB-0213"
   },
   "INF-0015": {
     "author": "Emily Wilson",
@@ -50075,9 +50216,11 @@
   },
   "ILB-0428": {
     "type": "Infographic",
-    "_at": "2026-08-18T14:20:23.775Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "category": "Digestive Health",
-    "link": "https://drive.google.com/file/d/1r5r5ThWcduM7I_wXeiC-abGM1DBjpR_k/view?usp=sharing"
+    "link": "https://drive.google.com/file/d/1r5r5ThWcduM7I_wXeiC-abGM1DBjpR_k/view?usp=sharing",
+    "_hidden": true,
+    "_merged_into": "INF-0226"
   },
   "ILB-0429": {
     "type": "Infographic",
@@ -50580,11 +50723,13 @@
   },
   "EXT-0027": {
     "type": "Video",
-    "_at": "2026-08-14T18:23:57.712Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "duration": "4 min",
     "category": "Financial Wellness",
     "teacher": "Jennifer",
-    "date_created": "6/9/2025"
+    "date_created": "6/9/2025",
+    "_hidden": true,
+    "_merged_into": "EN-00633"
   },
   "EXT-0028": {
     "type": "Infographic",
@@ -50594,11 +50739,13 @@
   },
   "EXT-0032": {
     "type": "Video",
-    "_at": "2026-08-14T18:25:05.264Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "duration": "5 min",
     "category": "Financial Wellness",
     "date_created": "9/22/2025",
-    "teacher": "Anna"
+    "teacher": "Anna",
+    "_hidden": true,
+    "_merged_into": "EN-00676"
   },
   "EXT-0033": {
     "type": "Article",
@@ -50613,11 +50760,13 @@
   },
   "EXT-0037": {
     "type": "Video",
-    "_at": "2026-08-18T17:43:10.189Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "category": "Financial Wellness",
     "date_created": "1/22/2025",
     "teacher": "Jennifer",
-    "duration": "4"
+    "duration": "4",
+    "_hidden": true,
+    "_merged_into": "EN-00634"
   },
   "EXT-0038": {
     "type": "Article",
@@ -50681,21 +50830,25 @@
   },
   "EXT-0056": {
     "type": "Video",
-    "_at": "2026-08-17T17:04:27.579Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "duration": "6 min",
     "category": "Retirement Planning",
     "date_created": "3/4/2025",
     "teacher": "Anna",
-    "author": "Anna"
+    "author": "Anna",
+    "_hidden": true,
+    "_merged_into": "EN-00677"
   },
   "EXT-0057": {
     "type": "Video",
-    "_at": "2026-08-17T17:04:27.579Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "duration": "5 min",
     "category": "Retirement Planning",
     "date_created": "1/22/2025",
     "teacher": "Anna",
-    "author": "Anna"
+    "author": "Anna",
+    "_hidden": true,
+    "_merged_into": "EN-00675"
   },
   "EXT-0059": {
     "type": "Article",
@@ -50714,11 +50867,13 @@
   },
   "EXT-0068": {
     "type": "Video",
-    "_at": "2026-08-18T17:43:10.189Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "duration": "5 min",
     "category": "Financial Wellness",
     "date_created": "1/22/2025",
-    "teacher": "Anna"
+    "teacher": "Anna",
+    "_hidden": true,
+    "_merged_into": "EN-00681"
   },
   "EXT-0069": {
     "type": "Infographic",
@@ -50735,12 +50890,14 @@
   },
   "EXT-0074": {
     "type": "Video",
-    "_at": "2026-08-17T17:04:27.579Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "duration": "5 min",
     "category": "Retirement Planning",
     "date_created": "1/22/2025",
     "teacher": "Anna",
-    "author": "Anna"
+    "author": "Anna",
+    "_hidden": true,
+    "_merged_into": "EN-00638"
   },
   "EXT-0079": {
     "type": "Article",
@@ -50771,11 +50928,13 @@
   },
   "EXT-0092": {
     "type": "Video",
-    "_at": "2026-08-18T17:43:10.189Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "duration": "5 min",
     "category": "Financial Wellness",
     "date_created": "1/15/2025",
-    "teacher": "Anna"
+    "teacher": "Anna",
+    "_hidden": true,
+    "_merged_into": "EN-00679"
   },
   "EXT-0093": {
     "type": "Video",
@@ -50787,11 +50946,13 @@
   },
   "EXT-0096": {
     "type": "Video",
-    "_at": "2026-08-18T17:43:10.189Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "duration": "5 min",
     "category": "Financial Wellness",
     "date_created": "2/29/2025",
-    "teacher": "Anna"
+    "teacher": "Anna",
+    "_hidden": true,
+    "_merged_into": "EN-00678"
   },
   "EXT-0100": {
     "type": "Article",
@@ -50828,11 +50989,13 @@
   },
   "EXT-0106": {
     "type": "Article",
-    "_at": "2026-08-24T17:44:42.136Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "category": "Nutrition",
     "link": "https://docs.google.com/document/d/1USp6d_x8d2TujIuRhdUPp_zzo3QJbHWn5YlgDjaYOVk/edit?usp=sharing",
     "author": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "_hidden": true,
+    "_merged_into": "ART-0107"
   },
   "EXT-0107": {
     "type": "Article",
@@ -50844,11 +51007,13 @@
   },
   "EXT-0108": {
     "type": "Article",
-    "_at": "2026-08-24T17:44:42.136Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "category": "Nutrition",
     "link": "https://docs.google.com/document/d/1vlrq5P4m-qLUw9y7FGTRx9p_5w7_KLHdXaFtM7xJdBI/edit?usp=sharing",
     "author": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "_hidden": true,
+    "_merged_into": "ART-0105"
   },
   "EXT-0109": {
     "type": "Article",
@@ -50915,12 +51080,14 @@
   },
   "EXT-0116": {
     "type": "Article",
-    "_at": "2026-08-24T17:44:42.136Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "category": "Nutrition",
     "link": "https://docs.google.com/document/d/12DRBjw8MITi6p7sTDyNglJRdqE6kgucz/edit?usp=sharing&ouid=104973203194055734700&rtpof=true&sd=true",
     "author": "Marlee Alanis",
     "date_created": "10/25/2023",
-    "duration": "2"
+    "duration": "2",
+    "_hidden": true,
+    "_merged_into": "ART-0055"
   },
   "EXT-0117": {
     "type": "Article",
@@ -50934,17 +51101,21 @@
   },
   "EXT-0118": {
     "type": "Article",
-    "_at": "2026-08-24T17:44:42.136Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "category": "Nutrition",
-    "link": "https://docs.google.com/document/d/13gLWI4N0IcMXBi0rqOw8oD26pTqLUarM7W4ElOWpa9Y/edit?usp=sharing"
+    "link": "https://docs.google.com/document/d/13gLWI4N0IcMXBi0rqOw8oD26pTqLUarM7W4ElOWpa9Y/edit?usp=sharing",
+    "_hidden": true,
+    "_merged_into": "ART-0073"
   },
   "EXT-0119": {
     "type": "Article",
-    "_at": "2026-08-24T17:44:42.136Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "duration": "4 min",
     "category": "Nutrition",
     "link": "https://docs.google.com/document/d/1OI8hO8kPJ6np543zBhgsFcxXeRq0lYCppzNQOWVqe-M/edit?usp=sharing",
-    "author": "Marlee Alanis"
+    "author": "Marlee Alanis",
+    "_hidden": true,
+    "_merged_into": "ART-0071"
   },
   "EXT-0120": {
     "type": "Article",
@@ -51089,14 +51260,16 @@
   },
   "EXT-0138": {
     "type": "Article",
-    "_at": "2026-08-24T17:44:42.136Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "category": "Nutrition",
     "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "4",
     "link": "https://docs.google.com/document/d/1mp7Q5rJ35PchrgT8AIVaTRZkwdzSazlM/edit?usp=sharing&ouid=104973203194055734700&rtpof=true&sd=true",
     "title": "How Nutrition Supports Better Mental Health",
-    "date_created": "10/25/2023"
+    "date_created": "10/25/2023",
+    "_hidden": true,
+    "_merged_into": "ART-0052"
   },
   "EXT-0139": {
     "type": "Article",
@@ -51182,9 +51355,11 @@
   },
   "EXT-0148": {
     "type": "Article",
-    "_at": "2026-08-24T17:44:42.136Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "category": "Nutrition",
-    "link": "https://docs.google.com/document/d/1Gb5yrX3d0fXMy4LVEpytmrjJlJqOV4LjB4tzrJhJpwc/edit?usp=sharing"
+    "link": "https://docs.google.com/document/d/1Gb5yrX3d0fXMy4LVEpytmrjJlJqOV4LjB4tzrJhJpwc/edit?usp=sharing",
+    "_hidden": true,
+    "_merged_into": "ART-0108"
   },
   "EXT-0149": {
     "type": "Article",
@@ -51194,9 +51369,11 @@
   },
   "EXT-0150": {
     "type": "Article",
-    "_at": "2026-08-24T17:44:42.136Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "category": "Caregiving",
-    "link": "https://docs.google.com/document/d/12ZezoLvwOzT4UdjUw_z1zApC5QmDKk5dfKyN2WP6XwQ/edit?usp=sharing"
+    "link": "https://docs.google.com/document/d/12ZezoLvwOzT4UdjUw_z1zApC5QmDKk5dfKyN2WP6XwQ/edit?usp=sharing",
+    "_hidden": true,
+    "_merged_into": "ART-0078"
   },
   "EXT-0151": {
     "type": "Article",
@@ -51250,9 +51427,11 @@
   },
   "EXT-0157": {
     "type": "Article",
-    "_at": "2026-08-24T17:44:42.136Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "category": "Stretching",
-    "link": "https://docs.google.com/document/d/1obavzUL2WVRsFUCqYZCaLBISHs8XxHcdSHyiKRZEAPU/edit?usp=sharing"
+    "link": "https://docs.google.com/document/d/1obavzUL2WVRsFUCqYZCaLBISHs8XxHcdSHyiKRZEAPU/edit?usp=sharing",
+    "_hidden": true,
+    "_merged_into": "ART-0106"
   },
   "EXT-0158": {
     "type": "Article",
@@ -51284,9 +51463,11 @@
   },
   "EXT-0161": {
     "type": "Article",
-    "_at": "2026-08-24T17:44:42.136Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "category": "Heart Health",
-    "link": "https://docs.google.com/document/d/10v_PcphNJzWVDfA191FlZ77X4oApSHosSOcnY4W5F8M/edit?usp=sharing"
+    "link": "https://docs.google.com/document/d/10v_PcphNJzWVDfA191FlZ77X4oApSHosSOcnY4W5F8M/edit?usp=sharing",
+    "_hidden": true,
+    "_merged_into": "ART-0068"
   },
   "EXT-0162": {
     "type": "Article",
@@ -51314,22 +51495,26 @@
   },
   "EXT-0165": {
     "type": "Article",
-    "_at": "2026-08-24T17:44:42.136Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "category": "Fitness",
     "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "1",
-    "link": "https://docs.google.com/document/d/1jL0c721ydR0loJIafj0qh6Er7vS5NHcG/edit"
+    "link": "https://docs.google.com/document/d/1jL0c721ydR0loJIafj0qh6Er7vS5NHcG/edit",
+    "_hidden": true,
+    "_merged_into": "ART-0207"
   },
   "EXT-0166": {
     "type": "Article",
-    "_at": "2026-08-24T17:44:42.136Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "category": "Fitness",
     "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "2",
     "date_created": "10/25/2023",
-    "link": "https://docs.google.com/document/d/1plT0VpzoO7rQuo7V037Ad4t9G1QmcLh-/edit"
+    "link": "https://docs.google.com/document/d/1plT0VpzoO7rQuo7V037Ad4t9G1QmcLh-/edit",
+    "_hidden": true,
+    "_merged_into": "ALB-0111"
   },
   "EXT-0167": {
     "type": "Article",
@@ -51376,11 +51561,13 @@
   },
   "EXT-0173": {
     "type": "Article",
-    "_at": "2026-08-24T17:44:42.136Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "category": "Nutrition",
     "link": "https://docs.google.com/document/d/1yopes-ZGXxDgYkZpFbn3Cni4Q9kxxRA29G1EXY2ObI8/edit?usp=sharing",
     "author": "Marlee Alanis",
-    "duration": "4"
+    "duration": "4",
+    "_hidden": true,
+    "_merged_into": "ART-0075"
   },
   "EXT-0174": {
     "type": "Article",
@@ -51438,14 +51625,16 @@
   },
   "EXT-0180": {
     "type": "Article",
-    "_at": "2026-08-24T17:44:42.136Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "category": "Mental Health",
     "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "2",
     "link": "https://docs.google.com/document/d/1Y_uZQnsDGBZ7nSdgtpvvmClgFGKBjI1l/edit?usp=sharing&ouid=104973203194055734700&rtpof=true&sd=true",
     "title": "Why Breaks Boost Productivity & Mental Health",
-    "date_created": "10/25/2023"
+    "date_created": "10/25/2023",
+    "_hidden": true,
+    "_merged_into": "ART-0043"
   },
   "EXT-0181": {
     "type": "Article",
@@ -51457,14 +51646,16 @@
   },
   "EXT-0183": {
     "type": "Video",
-    "_at": "2026-08-18T14:20:23.775Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "duration": "4 min",
     "peer_reviewer": "Dr. Laura Goorin",
     "category": "Relationships",
     "teacher": "Dr. Laura Goorin",
     "author": "Dr. Laura Goorin",
     "date_created": "3/24/2025",
-    "link": "https://app.allinonewellbeing.com/videos/common-relationship-conflicts-how-to-avoid-them"
+    "link": "https://app.allinonewellbeing.com/videos/common-relationship-conflicts-how-to-avoid-them",
+    "_hidden": true,
+    "_merged_into": "EN-00567"
   },
   "EXT-0184": {
     "type": "Video",
@@ -51511,14 +51702,16 @@
   },
   "EXT-0188": {
     "type": "Video",
-    "_at": "2026-08-18T14:20:23.775Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "duration": "5 min",
     "peer_reviewer": "Kaitlyn Bruneau",
     "category": "Workplace Wellness",
     "teacher": "Kaitlyn Bruneau",
     "author": "Kaitlyn Bruneau",
     "date_created": "3/25/2025",
-    "link": "https://app.allinonewellbeing.com/videos/return-to-work-after-a-medical-leave"
+    "link": "https://app.allinonewellbeing.com/videos/return-to-work-after-a-medical-leave",
+    "_hidden": true,
+    "_merged_into": "EN-00913"
   },
   "EXT-0189": {
     "type": "Video",
@@ -51829,12 +52022,14 @@
   },
   "EXT-0222": {
     "type": "Video",
-    "_at": "2026-08-14T20:33:10.159Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "duration": "4 min",
     "peer_reviewer": "Linda Johnson",
     "teacher": "Linda Johnson",
     "author": "Linda Johnson",
-    "date_created": "10/10/2025"
+    "date_created": "10/10/2025",
+    "_hidden": true,
+    "_merged_into": "EN-00521"
   },
   "DE-00001": {
     "type": "Video",
@@ -52102,11 +52297,13 @@
   },
   "EXT-0247": {
     "type": "Video",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "peer_reviewer": "Sally Choi",
     "teacher": "Sally Choi",
     "author": "Sally Choi",
-    "date_created": "10/13/2025"
+    "date_created": "10/13/2025",
+    "_hidden": true,
+    "_merged_into": "KO-00005"
   },
   "PL-00016": {
     "type": "Video",
@@ -52120,11 +52317,13 @@
   },
   "EXT-0249": {
     "type": "Video",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "peer_reviewer": "Sally Choi",
     "teacher": "Sally Choi",
     "author": "Sally Choi",
-    "date_created": "10/13/2025"
+    "date_created": "10/13/2025",
+    "_hidden": true,
+    "_merged_into": "KO-00004"
   },
   "YUE-00004": {
     "type": "Video",
@@ -52332,11 +52531,13 @@
   },
   "EXT-0272": {
     "type": "Video",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "duration": "5 min",
     "peer_reviewer": "Natalie Zolotareva",
     "teacher": "Natalie Zolotareva",
-    "author": "Natalie Zolotareva"
+    "author": "Natalie Zolotareva",
+    "_hidden": true,
+    "_merged_into": "EN-01545"
   },
   "ES-00002": {
     "type": "Video",
@@ -53147,11 +53348,13 @@
   },
   "EXT-0354": {
     "type": "Video",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "peer_reviewer": "Isabel Kirsch",
     "teacher": "Isabel Kirsch",
     "author": "Isabel Kirsch",
-    "date_created": "04/23/2025"
+    "date_created": "04/23/2025",
+    "_hidden": true,
+    "_merged_into": "DE-00051"
   },
   "NL-00030": {
     "type": "Video",
@@ -53354,15 +53557,19 @@
   },
   "EXT-0375": {
     "type": "Video",
-    "_at": "2026-08-12T20:55:36.004Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "duration": "2",
     "author": "Mila Toribio",
-    "date_created": "3/7/2025"
+    "date_created": "3/7/2025",
+    "_hidden": true,
+    "_merged_into": "EN-00925"
   },
   "EXT-0376": {
     "type": "Video",
-    "_at": "2026-08-06T17:24:22.202Z",
-    "duration": "6 min"
+    "_at": "2026-09-01T17:08:42.913Z",
+    "duration": "6 min",
+    "_hidden": true,
+    "_merged_into": "EN-00914"
   },
   "EXT-0377": {
     "type": "Video",
@@ -53370,12 +53577,14 @@
   },
   "EXT-0379": {
     "type": "Video",
-    "_at": "2026-08-14T15:04:38.759Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "duration": "5 min",
     "peer_reviewer": "Marlee Alanis",
     "teacher": "Ana Gaston",
     "author": "Ana Gaston",
-    "vimeo_link": "https://vimeo.com/1047215231/067c27847d"
+    "vimeo_link": "https://vimeo.com/1047215231/067c27847d",
+    "_hidden": true,
+    "_merged_into": "EN-00642"
   },
   "EXT-0380": {
     "type": "Video",
@@ -53439,9 +53648,11 @@
   },
   "EXT-0396": {
     "type": "Video",
-    "_at": "2026-08-18T17:43:10.189Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "duration": "4 min",
-    "category": "Financial Wellness"
+    "category": "Financial Wellness",
+    "_hidden": true,
+    "_merged_into": "EN-01051"
   },
   "EXT-0398": {
     "type": "Article",
@@ -53483,8 +53694,10 @@
   },
   "EXT-0415": {
     "type": "Video",
-    "_at": "2026-08-17T17:04:27.579Z",
-    "category": "Retirement Planning"
+    "_at": "2026-09-01T17:08:42.913Z",
+    "category": "Retirement Planning",
+    "_hidden": true,
+    "_merged_into": "EN-00638"
   },
   "FR-00024": {
     "type": "Video",
@@ -53550,12 +53763,14 @@
   },
   "EXT-0425": {
     "type": "Video",
-    "_at": "2026-08-18T17:56:26.260Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "peer_reviewer": "Eneida Farro",
     "teacher": "Eneida Farro",
     "author": "Eneida Farro",
     "date_created": "05/20/2024",
-    "category": "Mental Health"
+    "category": "Mental Health",
+    "_hidden": true,
+    "_merged_into": "ES-00072"
   },
   "DE-00017": {
     "type": "Video",
@@ -53719,12 +53934,14 @@
   },
   "EXT-0446": {
     "type": "Video",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "duration": "5 min",
     "peer_reviewer": "Hafsa Benzzi",
     "teacher": "Hafsa Benzzi",
     "author": "Hafsa Benzzi",
-    "date_created": "11/18/2024"
+    "date_created": "11/18/2024",
+    "_hidden": true,
+    "_merged_into": "FR-00073"
   },
   "EXT-0447": {
     "type": "Video",
@@ -53736,41 +53953,51 @@
   },
   "EXT-0448": {
     "type": "Video",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "duration": "3",
     "peer_reviewer": "Marlee Alanis",
     "author": "Kim Ross",
-    "teacher": "Kim Ross"
+    "teacher": "Kim Ross",
+    "_hidden": true,
+    "_merged_into": "EN-00516"
   },
   "EXT-0449": {
     "type": "Video",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "duration": "5",
     "peer_reviewer": "Marlee Alanis",
     "author": "Kim Ross",
-    "teacher": "Kim Ross"
+    "teacher": "Kim Ross",
+    "_hidden": true,
+    "_merged_into": "EN-00518"
   },
   "EXT-0450": {
     "type": "Video",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "peer_reviewer": "Marlee Alanis",
     "teacher": "Kim Ross",
-    "author": "Kim Ross"
+    "author": "Kim Ross",
+    "_hidden": true,
+    "_merged_into": "EN-00597"
   },
   "EXT-0451": {
     "type": "Video",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "peer_reviewer": "Marlee Alanis",
     "teacher": "Kim Ross",
-    "author": "Kim Ross"
+    "author": "Kim Ross",
+    "_hidden": true,
+    "_merged_into": "EN-00599"
   },
   "EXT-0452": {
     "type": "Video",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "duration": "5 min",
     "peer_reviewer": "Marlee Alanis",
     "teacher": "Ana Gaston",
-    "author": "Ana Gaston"
+    "author": "Ana Gaston",
+    "_hidden": true,
+    "_merged_into": "EN-00679"
   },
   "EXT-0453": {
     "type": "Video",
@@ -53781,11 +54008,13 @@
   },
   "EXT-0454": {
     "type": "Video",
-    "_at": "2026-08-18T17:56:26.260Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "peer_reviewer": "Marlee Alanis",
     "teacher": "Linda Johnson",
     "author": "Linda Johnson",
-    "category": "Mental Health"
+    "category": "Mental Health",
+    "_hidden": true,
+    "_merged_into": "EN-00620"
   },
   "EXT-0456": {
     "type": "Video",
@@ -53803,11 +54032,13 @@
   },
   "EXT-0458": {
     "type": "Video",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "peer_reviewer": "Marlee Alanis",
     "author": "Marcus Johnson",
     "duration": "5",
-    "teacher": "Marcus Johnson"
+    "teacher": "Marcus Johnson",
+    "_hidden": true,
+    "_merged_into": "EN-00554"
   },
   "EXT-0459": {
     "type": "Video",
@@ -53819,11 +54050,13 @@
   },
   "EXT-0463": {
     "type": "Video",
-    "_at": "2026-08-18T17:56:26.260Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "peer_reviewer": "Marlee Alanis",
     "teacher": "Kaitlyn Bruneau",
     "author": "Kaitlyn Bruneau",
-    "category": "Mental Health"
+    "category": "Mental Health",
+    "_hidden": true,
+    "_merged_into": "EN-00874"
   },
   "EXT-0464": {
     "type": "Video",
@@ -53835,20 +54068,24 @@
   },
   "EXT-0465": {
     "type": "Video",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "duration": "5 min",
     "peer_reviewer": "Marlee Alanis",
     "teacher": "Gisele Espin",
-    "author": "Gisele Espin"
+    "author": "Gisele Espin",
+    "_hidden": true,
+    "_merged_into": "EN-00906"
   },
   "EXT-0466": {
     "type": "Video",
-    "_at": "2026-08-18T17:56:26.260Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "duration": "6 min",
     "peer_reviewer": "Marlee Alanis",
     "teacher": "Kaitlyn Bruneau",
     "author": "Kaitlyn Bruneau",
-    "category": "Mental Health"
+    "category": "Mental Health",
+    "_hidden": true,
+    "_merged_into": "VID-1139"
   },
   "EXT-0467": {
     "type": "Video",
@@ -54034,12 +54271,14 @@
   },
   "EXT-0488": {
     "type": "Video",
-    "_at": "2026-08-18T14:20:23.775Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "peer_reviewer": "Marlee Alanis",
     "category": "Meditation",
     "teacher": "Cedric St. Croix",
     "author": "Cedric St. Croix",
-    "link": "https://watch.caravanwellness.com/francais-5/videos/10-min-meditation-pour-le-focus-et-la-clarite-francais"
+    "link": "https://watch.caravanwellness.com/francais-5/videos/10-min-meditation-pour-le-focus-et-la-clarite-francais",
+    "_hidden": true,
+    "_merged_into": "FR-00017"
   },
   "EXT-0489": {
     "type": "Video",
@@ -54053,12 +54292,14 @@
   },
   "EXT-0490": {
     "type": "Video",
-    "_at": "2026-08-18T14:20:23.775Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "peer_reviewer": "Marlee Alanis",
     "category": "Workplace Wellness",
     "teacher": "Linda Johnson",
     "author": "Linda Johnson",
-    "link": "https://app.allinonewellbeing.com/videos/who-is-at-your-table"
+    "link": "https://app.allinonewellbeing.com/videos/who-is-at-your-table",
+    "_hidden": true,
+    "_merged_into": "EN-00407"
   },
   "EXT-0491": {
     "type": "Video",
@@ -54227,12 +54468,14 @@
   },
   "EXT-0508": {
     "type": "Video",
-    "_at": "2026-08-18T14:20:23.775Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "peer_reviewer": "Dr. Joe Feuerstein",
     "category": "Health",
     "teacher": "Dr. Joe Feuerstein",
     "author": "Dr. Joe Feuerstein",
-    "link": "https://app.allinonewellbeing.com/videos/auto-immune-disease-and-how-to-improve-the-condition"
+    "link": "https://app.allinonewellbeing.com/videos/auto-immune-disease-and-how-to-improve-the-condition",
+    "_hidden": true,
+    "_merged_into": "VID-0838"
   },
   "IT-00001": {
     "type": "Video",
@@ -54459,12 +54702,14 @@
   },
   "EXT-0532": {
     "type": "Video",
-    "_at": "2026-08-18T14:20:23.775Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "peer_reviewer": "Truike Boekholt",
     "category": "Yoga",
     "teacher": "Truike Boekholt",
     "author": "Truike Boekholt",
-    "link": "https://watch.caravanwellness.com/videos/stoelyoga-voor-heup-en-onderrug"
+    "link": "https://watch.caravanwellness.com/videos/stoelyoga-voor-heup-en-onderrug",
+    "_hidden": true,
+    "_merged_into": "NL-00012"
   },
   "NL-00013": {
     "type": "Video",
@@ -54478,12 +54723,14 @@
   },
   "EXT-0534": {
     "type": "Video",
-    "_at": "2026-08-18T14:20:23.775Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "peer_reviewer": "Truike Boekholt",
     "category": "Yoga",
     "teacher": "Truike Boekholt",
     "author": "Truike Boekholt",
-    "link": "https://watch.caravanwellness.com/videos/zittende-voor-nek-en-schouders"
+    "link": "https://watch.caravanwellness.com/videos/zittende-voor-nek-en-schouders",
+    "_hidden": true,
+    "_merged_into": "NL-00015"
   },
   "EXT-0535": {
     "type": "Video",
@@ -54552,11 +54799,13 @@
   },
   "EXT-0543": {
     "type": "Video",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "peer_reviewer": "Truike Boekholt",
     "category": "Mindfulness",
     "teacher": "Truike Boekholt",
-    "author": "Truike Boekholt"
+    "author": "Truike Boekholt",
+    "_hidden": true,
+    "_merged_into": "NL-00017"
   },
   "NL-00020": {
     "type": "Video",
@@ -54702,20 +54951,24 @@
   },
   "EXT-0558": {
     "type": "Video",
-    "_at": "2026-08-18T17:43:10.189Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "duration": "6 min",
     "peer_reviewer": "Julika Von Stackelberg",
     "category": "Community",
     "teacher": "Julika Von Stackelberg",
-    "author": "Julika Von Stackelberg"
+    "author": "Julika Von Stackelberg",
+    "_hidden": true,
+    "_merged_into": "EN-00849"
   },
   "EXT-0559": {
     "type": "Video",
-    "_at": "2026-08-18T17:56:26.260Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "peer_reviewer": "Kanwal Haq",
     "category": "Women’s Health",
     "teacher": "Kanwal Haq",
-    "author": "Kanwal Haq"
+    "author": "Kanwal Haq",
+    "_hidden": true,
+    "_merged_into": "EN-00571"
   },
   "EXT-0561": {
     "type": "Video",
@@ -54746,12 +54999,14 @@
   },
   "EXT-0567": {
     "type": "Video",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "duration": "4 min",
     "peer_reviewer": "Mila Toribio",
     "category": "Yoga",
     "teacher": "Mila Toribio",
-    "author": "Mila Toribio"
+    "author": "Mila Toribio",
+    "_hidden": true,
+    "_merged_into": "EN-00659"
   },
   "EXT-0568": {
     "type": "Video",
@@ -55108,12 +55363,14 @@
   },
   "EXT-0620": {
     "type": "Video",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "peer_reviewer": "Marlee Alanis",
     "category": "Yoga",
     "teacher": "Thai James",
     "author": "Thai James",
-    "duration": "5"
+    "duration": "5",
+    "_hidden": true,
+    "_merged_into": "EN-00468"
   },
   "EXT-0623": {
     "type": "Video",
@@ -55125,21 +55382,25 @@
   },
   "EXT-0625": {
     "type": "Video",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "peer_reviewer": "Marlee Alanis",
     "category": "Estate Planning",
     "teacher": "Sanford Brown",
-    "author": "Sanford Brown"
+    "author": "Sanford Brown",
+    "_hidden": true,
+    "_merged_into": "EN-01276"
   },
   "EXT-0626": {
     "type": "Video",
-    "_at": "2026-08-26T14:07:18.956Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "duration": "5 min",
     "peer_reviewer": "Marlee Alanis",
     "category": "Legal Wellness",
     "teacher": "Allison Wyman",
     "author": "Allison Wyman",
-    "notes": "US-Only"
+    "notes": "US-Only",
+    "_hidden": true,
+    "_merged_into": "EN-01144"
   },
   "EXT-0627": {
     "type": "Video",
@@ -55170,12 +55431,14 @@
   },
   "EXT-0630": {
     "type": "Video",
-    "_at": "2026-08-18T14:20:23.775Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "peer_reviewer": "Marlee Alanis",
     "category": "Cancer",
     "teacher": "Dr. Joe Feuerstein",
     "author": "Dr. Joe Feuerstein",
-    "link": "https://app.allinonewellbeing.com/videos/what-is-the-tumor-microenvironment"
+    "link": "https://app.allinonewellbeing.com/videos/what-is-the-tumor-microenvironment",
+    "_hidden": true,
+    "_merged_into": "VID-1527"
   },
   "EXT-0631": {
     "type": "Video",
@@ -55188,59 +55451,71 @@
   },
   "EXT-0632": {
     "type": "Video",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "duration": "3 min",
     "peer_reviewer": "Marlee Alanis",
     "category": "Diabetes",
     "teacher": "Dr. Joe Feuerstein",
-    "author": "Dr. Joe Feuerstein"
+    "author": "Dr. Joe Feuerstein",
+    "_hidden": true,
+    "_merged_into": "VID-0938"
   },
   "EXT-0633": {
     "type": "Video",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "duration": "3",
     "peer_reviewer": "Marlee Alanis",
     "category": "Heart Disease",
     "teacher": "Dr. Julia Iafrate",
     "author": "Dr. Julia Iafrate",
-    "date_created": "3/7/2025"
+    "date_created": "3/7/2025",
+    "_hidden": true,
+    "_merged_into": "EN-00607"
   },
   "EXT-0634": {
     "type": "Video",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "duration": "3",
     "peer_reviewer": "Marlee Alanis",
     "category": "Heart Disease",
     "teacher": "Dr. Julia Iafrate",
     "author": "Dr. Julia Iafrate",
-    "date_created": "3/7/2025"
+    "date_created": "3/7/2025",
+    "_hidden": true,
+    "_merged_into": "EN-00611"
   },
   "EXT-0635": {
     "type": "Video",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "duration": "4 min",
     "peer_reviewer": "Marlee Alanis",
     "category": "Smoking Cessation",
     "teacher": "Jane Mulvey",
-    "author": "Jane Mulvey"
+    "author": "Jane Mulvey",
+    "_hidden": true,
+    "_merged_into": "EN-00534"
   },
   "EXT-0636": {
     "type": "Video",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "peer_reviewer": "Marlee Alanis",
     "category": "Strength Training",
     "author": "Sabrih Short",
     "duration": "10",
     "teacher": "Sabrih Short",
-    "date_created": "3/25/2025"
+    "date_created": "3/25/2025",
+    "_hidden": true,
+    "_merged_into": "EN-00435"
   },
   "EXT-0637": {
     "type": "Video",
-    "_at": "2026-08-13T21:34:34.091Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "peer_reviewer": "Marlee Alanis",
     "category": "Heart Disease",
     "teacher": "Dr. Ricardo Fuentes",
-    "author": "Dr. Ricardo Fuentes"
+    "author": "Dr. Ricardo Fuentes",
+    "_hidden": true,
+    "_merged_into": "EN-01034"
   },
   "EXT-0638": {
     "type": "Video",
@@ -55286,10 +55561,12 @@
   },
   "EXT-0644": {
     "type": "Video",
-    "_at": "2026-08-18T14:20:23.775Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "duration": "5 min",
     "category": "Workplace Wellness",
-    "link": "https://app.allinonewellbeing.com/videos/how-to-take-initiatives"
+    "link": "https://app.allinonewellbeing.com/videos/how-to-take-initiatives",
+    "_hidden": true,
+    "_merged_into": "EN-01096"
   },
   "EXT-0645": {
     "type": "Video",
@@ -55339,10 +55616,12 @@
   },
   "EXT-0652": {
     "type": "Video",
-    "_at": "2026-08-18T14:20:23.775Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "duration": "6 min",
     "category": "Mental Health",
-    "link": "https://app.allinonewellbeing.com/videos/tracking-stress-with-your-wearable-data"
+    "link": "https://app.allinonewellbeing.com/videos/tracking-stress-with-your-wearable-data",
+    "_hidden": true,
+    "_merged_into": "VID-1319"
   },
   "EXT-0653": {
     "type": "Video",
@@ -55387,16 +55666,20 @@
   },
   "EXT-0659": {
     "type": "Video",
-    "_at": "2026-08-18T17:43:10.189Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "duration": "4 min",
     "category": "Fitness",
-    "link": "https://app.allinonewellbeing.com/videos/understanding-good-vs-bad-pain"
+    "link": "https://app.allinonewellbeing.com/videos/understanding-good-vs-bad-pain",
+    "_hidden": true,
+    "_merged_into": "EN-01333"
   },
   "EXT-0660": {
     "type": "Video",
-    "_at": "2026-08-18T17:43:10.189Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "category": "Surgery",
-    "link": "https://app.allinonewellbeing.com/videos/what-to-ask-before-a-procedure"
+    "link": "https://app.allinonewellbeing.com/videos/what-to-ask-before-a-procedure",
+    "_hidden": true,
+    "_merged_into": "EN-01185"
   },
   "EXT-0661": {
     "type": "Video",
@@ -56001,7 +56284,7 @@
   },
   "EXT-0888": {
     "type": "Article",
-    "_at": "2026-08-24T17:44:42.136Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "category": "Meditation",
     "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
@@ -56013,7 +56296,9 @@
       "Wellics",
       "BSDI"
     ],
-    "date_created": "10/25/2023"
+    "date_created": "10/25/2023",
+    "_hidden": true,
+    "_merged_into": "ART-0047"
   },
   "EXT-0889": {
     "type": "Article",
@@ -56496,13 +56781,15 @@
   },
   "EXT-0942": {
     "type": "Article",
-    "_at": "2026-08-24T17:44:42.136Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "category": "Workplace Wellness",
     "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "2",
     "link": "https://docs.google.com/document/d/1XyW_etXOiQYpGTQY2uY6_8jO1TTl6nFs/edit?usp=sharing&ouid=104973203194055734700&rtpof=true&sd=true",
-    "date_created": "10/25/2023"
+    "date_created": "10/25/2023",
+    "_hidden": true,
+    "_merged_into": "ART-0045"
   },
   "EXT-0943": {
     "type": "Article",
@@ -56647,13 +56934,15 @@
   },
   "EXT-0959": {
     "type": "Article",
-    "_at": "2026-08-24T17:44:42.136Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "category": "Nutrition",
     "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "3",
     "link": "https://docs.google.com/document/d/1W5tAV7miP6sgsNlvTfyBATolPc1UzInT/edit",
-    "date_created": "10/25/2023"
+    "date_created": "10/25/2023",
+    "_hidden": true,
+    "_merged_into": "ART-0051"
   },
   "EXT-0960": {
     "type": "Article",
@@ -56720,13 +57009,15 @@
   },
   "EXT-0967": {
     "type": "Article",
-    "_at": "2026-08-24T17:44:42.136Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "category": "Parenting",
     "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "3",
     "date_created": "10/24/2023",
-    "link": "https://docs.google.com/document/d/1TRuGBX-hBMHiugBq-9591I0hVJ4AG9u_/edit?usp=sharing&ouid=104973203194055734700&rtpof=true&sd=true"
+    "link": "https://docs.google.com/document/d/1TRuGBX-hBMHiugBq-9591I0hVJ4AG9u_/edit?usp=sharing&ouid=104973203194055734700&rtpof=true&sd=true",
+    "_hidden": true,
+    "_merged_into": "ART-0015"
   },
   "EXT-0968": {
     "type": "Article",
@@ -56915,13 +57206,15 @@
   },
   "EXT-0989": {
     "type": "Article",
-    "_at": "2026-08-24T17:44:42.136Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "category": "Health",
     "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "2",
     "link": "https://docs.google.com/document/d/1-I6n0PQwO5ODylwKKcbp2JvPUkl1REFbPnVguVm_FRw/edit?tab=t.0",
-    "date_created": "10/31/2023"
+    "date_created": "10/31/2023",
+    "_hidden": true,
+    "_merged_into": "ART-0131"
   },
   "EXT-0990": {
     "type": "Article",
@@ -57814,13 +58107,15 @@
   },
   "EXT-1096": {
     "type": "Article",
-    "_at": "2026-08-24T17:44:42.136Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "category": "Fitness",
     "author": "Marlee Alanis",
     "peer_reviewer": "Emily Wilson",
     "duration": "2",
     "link": "https://docs.google.com/document/d/16XqQ7kmby7paesDj4fjuOFne0rPV45p2/edit",
-    "title": "Warming Up & Cooling Down In Exercise"
+    "title": "Warming Up & Cooling Down In Exercise",
+    "_hidden": true,
+    "_merged_into": "ART-0208"
   },
   "EXT-1097": {
     "type": "Article",
@@ -57935,14 +58230,16 @@
   },
   "EXT-1110": {
     "type": "Article",
-    "_at": "2026-08-24T17:44:42.136Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "category": "Mental Health",
     "author": "Marlee Alanis",
     "notes": "R?",
     "peer_reviewer": "Emily Wilson",
     "duration": "3",
     "link": "https://docs.google.com/document/d/13mbG8zTU5EyXR3TacClJOAo8PXj0Uv5V/edit?usp=sharing&ouid=104973203194055734700&rtpof=true&sd=true",
-    "title": "Bridging Physical & Mental Wellbeing Gap"
+    "title": "Bridging Physical & Mental Wellbeing Gap",
+    "_hidden": true,
+    "_merged_into": "ART-0103"
   },
   "EXT-1111": {
     "type": "Article",
@@ -58960,10 +59257,12 @@
   },
   "EXT-0087": {
     "duration": "1 min",
-    "_at": "2026-08-18T17:43:10.189Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "category": "Financial Wellness",
     "date_created": "6/9/2025",
-    "teacher": "Edwin Rivadeneryra"
+    "teacher": "Edwin Rivadeneryra",
+    "_hidden": true,
+    "_merged_into": "EXT-0413"
   },
   "EXT-0089": {
     "duration": "1 min",
@@ -59014,11 +59313,12 @@
   },
   "EXT-0413": {
     "duration": "1 min",
-    "_at": "2026-08-18T17:43:10.189Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "author": "Edwin Rivadeneryra",
     "peer_reviewer": "Lisa Wang",
     "date_created": "6/9/2025",
-    "category": "Financial Wellness"
+    "category": "Financial Wellness",
+    "teacher": "Edwin Rivadeneryra"
   },
   "VID-0057": {
     "title": "Understanding Asthma Triggers & How To Avoid Them",
@@ -59655,15 +59955,19 @@
   },
   "EXT-1240": {
     "teacher": "Nazirber Maduro",
-    "_at": "2026-08-11T20:16:09.407Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "duration": "5 min",
-    "peer_reviewer": "Nazirber Maduro"
+    "peer_reviewer": "Nazirber Maduro",
+    "_hidden": true,
+    "_merged_into": "ES-00083"
   },
   "EXT-1241": {
     "teacher": "Ana Gaston",
-    "_at": "2026-08-12T14:56:42.811Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "duration": "5 min",
-    "peer_reviewer": "Ana Gaston"
+    "peer_reviewer": "Ana Gaston",
+    "_hidden": true,
+    "_merged_into": "ES-00101"
   },
   "EXT-1242": {
     "teacher": "Angie Torres",
@@ -59739,10 +60043,12 @@
   },
   "EXT-1249": {
     "teacher": "Margaux de Noiron",
-    "_at": "2026-08-18T17:56:26.260Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "duration": "5 min",
     "peer_reviewer": "Margaux de Noiron",
-    "category": "Workplace Wellness"
+    "category": "Workplace Wellness",
+    "_hidden": true,
+    "_merged_into": "FR-00087"
   },
   "EXT-1250": {
     "teacher": "Nathalie Monin Voelker",
@@ -59768,15 +60074,19 @@
   },
   "EXT-1252": {
     "teacher": "Zao Chan Yap",
-    "_at": "2026-08-11T18:54:48.890Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "duration": "10 min",
-    "peer_reviewer": "Zao Chan Yap"
+    "peer_reviewer": "Zao Chan Yap",
+    "_hidden": true,
+    "_merged_into": "ZH-00024"
   },
   "EXT-1253": {
     "teacher": "Zao Chan Yap",
-    "_at": "2026-08-11T18:54:48.890Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "duration": "10 min",
-    "peer_reviewer": "Zao Chan Yap"
+    "peer_reviewer": "Zao Chan Yap",
+    "_hidden": true,
+    "_merged_into": "ZH-00026"
   },
   "EXT-1254": {
     "teacher": "Adam Zhang",
@@ -59829,9 +60139,11 @@
   },
   "EXT-1259": {
     "teacher": "Truike Boekholt",
-    "_at": "2026-08-12T14:52:18.961Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "duration": "5 min",
-    "peer_reviewer": "Truike Boekholt"
+    "peer_reviewer": "Truike Boekholt",
+    "_hidden": true,
+    "_merged_into": "NL-00015"
   },
   "EXT-1260": {
     "teacher": "Margo Gladys",
@@ -59845,15 +60157,19 @@
   },
   "EXT-1264": {
     "teacher": "Sweta Srivastava Vikram",
-    "_at": "2026-08-11T20:16:57.262Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "duration": "3 min",
-    "peer_reviewer": "Sweta Srivastava Vikram"
+    "peer_reviewer": "Sweta Srivastava Vikram",
+    "_hidden": true,
+    "_merged_into": "HI-00013"
   },
   "EXT-1265": {
     "teacher": "Veera Mookerjee",
-    "_at": "2026-08-11T20:58:25.574Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "duration": "5 min",
-    "peer_reviewer": "Veera Mookerjee"
+    "peer_reviewer": "Veera Mookerjee",
+    "_hidden": true,
+    "_merged_into": "HI-00027"
   },
   "EXT-1266": {
     "teacher": "Isabel Kirsch",
@@ -63306,13 +63622,15 @@
   },
   "ZH-00027": {
     "language": "Chinese",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "peer_reviewer": "Zao Chan Yap",
     "teacher": "Zao Chan Yap",
     "author": "Zao Chan Yap",
     "type": "Video",
     "title_original": "核心瑜伽",
-    "link": "https://app.allinonewellbeing.com/videos/10-min-yoga-for-the-core"
+    "link": "https://app.allinonewellbeing.com/videos/10-min-yoga-for-the-core",
+    "_hidden": true,
+    "_merged_into": "ZH-00025"
   },
   "ZH-00073": {
     "language": "Chinese",
@@ -63821,13 +64139,15 @@
   },
   "ART-0147": {
     "language": "English",
-    "_at": "2026-08-18T14:20:23.775Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "duration": "2",
     "title": "Understanding GLP-1 &  How It Works in Your Body",
     "category": "Health",
     "author": "Marlee Alanis",
     "peer_reviewer": "Madeline McGuire",
-    "link": "https://docs.google.com/document/d/1rIEOAzwya0a5Jhr4P5DmnU6ejJhuX5oShDjruY20jm4/edit?usp=sharing"
+    "link": "https://docs.google.com/document/d/1rIEOAzwya0a5Jhr4P5DmnU6ejJhuX5oShDjruY20jm4/edit?usp=sharing",
+    "_hidden": true,
+    "_merged_into": "ALB-0214"
   },
   "EXT-1490": {
     "category": "Nutrition",
@@ -65058,7 +65378,9 @@
   },
   "EXT-1270": {
     "category": "Retirement Planning",
-    "_at": "2026-08-17T17:04:27.579Z"
+    "_at": "2026-09-01T17:08:42.913Z",
+    "_hidden": true,
+    "_merged_into": "VID-1395"
   },
   "EXT-1271": {
     "category": "Financial Wellness",
@@ -66233,13 +66555,14 @@
   },
   "KO-00004": {
     "peer_reviewer": "Sally Choi",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "teacher": "Sally Choi",
     "type": "Video",
     "title_original": "마음과 몸의 균형 명상",
     "vimeo_link": "https://vimeo.com/1156562344/a45dfb8c4e?share=copy&fl=sv&fe=ci",
     "link": "https://app.allinonewellbeing.com/videos/mind-and-body-balance-meditation-korean",
-    "date_created": "10/13/2025"
+    "date_created": "10/13/2025",
+    "author": "Sally Choi"
   },
   "EN-01845": {
     "peer_reviewer": "Katie Attubato",
@@ -66578,12 +66901,13 @@
   },
   "DE-00051": {
     "peer_reviewer": "Isabel Kirsch",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "teacher": "Isabel Kirsch",
     "type": "Video",
     "title_original": "Meditation für Liebevolle Zuwendung und Mitgefühl",
     "link": "https://app.allinonewellbeing.com/videos/meditation-fur-liebevolle-zuwendung-und-mitgefuhl",
-    "date_created": "04/23/2025"
+    "date_created": "04/23/2025",
+    "author": "Isabel Kirsch"
   },
   "FR-00078": {
     "peer_reviewer": "Margaux de Noiron",
@@ -66932,14 +67256,16 @@
   },
   "PT-00073": {
     "title": "Incorporating Exercise Snacks Into Your Day",
-    "_at": "2026-08-18T14:20:23.775Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "peer_reviewer": "Mila Toribio",
     "teacher": "Mila Toribio",
     "author": "Crystal Williams",
     "duration": "2",
     "type": "Video",
     "date_created": "02/02/2026",
-    "link": "https://app.allinonewellbeing.com/videos/incorporating-exercise-snacks-into-your-day"
+    "link": "https://app.allinonewellbeing.com/videos/incorporating-exercise-snacks-into-your-day",
+    "_hidden": true,
+    "_merged_into": "VID-0148"
   },
   "EN-01937": {
     "peer_reviewer": "Sharisse Victor-Newmam",
@@ -67063,13 +67389,15 @@
   },
   "PT-00074": {
     "peer_reviewer": "Mila Toribio",
-    "_at": "2026-08-18T14:20:23.775Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "teacher": "Mila Toribio",
     "author": "Mila Toribio",
     "duration": "2",
     "type": "Video",
     "date_created": "02/02/2026",
-    "link": "https://app.allinonewellbeing.com/videos/how-to-start-exercising"
+    "link": "https://app.allinonewellbeing.com/videos/how-to-start-exercising",
+    "_hidden": true,
+    "_merged_into": "VID-0171"
   },
   "FR-00091": {
     "peer_reviewer": "Margaux de Noiron",
@@ -67104,11 +67432,12 @@
   },
   "NL-00017": {
     "peer_reviewer": "Truike Boekholt",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "teacher": "Truike Boekholt",
     "type": "Video",
     "title_original": "2 minuten voor dankbaarheid",
-    "link": "https://app.allinonewellbeing.com/videos/5-minuten-voor-dankbaarheid-nederlands"
+    "link": "https://app.allinonewellbeing.com/videos/5-minuten-voor-dankbaarheid-nederlands",
+    "author": "Truike Boekholt"
   },
   "ES-00027": {
     "peer_reviewer": "Nicole Guerrero",
@@ -67915,11 +68244,13 @@
   },
   "FR-00073": {
     "peer_reviewer": "Hafsa Benzzi",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "teacher": "Hafsa Benzzi",
     "type": "Video",
     "title_original": "Que se passe-t-il dans mon corps lorsque ma glycémie est elevée?",
-    "link": "https://app.allinonewellbeing.com/videos/what-happens-to-my-body-when-my-blood-sugar-is-elevated-1"
+    "link": "https://app.allinonewellbeing.com/videos/what-happens-to-my-body-when-my-blood-sugar-is-elevated-1",
+    "author": "Hafsa Benzzi",
+    "date_created": "11/18/2024"
   },
   "PT-00023": {
     "peer_reviewer": "Cris Di Dario",
@@ -67996,12 +68327,14 @@
   },
   "KO-00005": {
     "peer_reviewer": "Sally Choi",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "teacher": "Sally Choi",
     "type": "Video",
     "title_original": "전신 스캔 이완",
     "vimeo_link": "https://vimeo.com/1156562413/6a46617b05?share=copy&fl=sv&fe=ci",
-    "link": "https://app.allinonewellbeing.com/videos/whole-body-scan-relaxation-korean"
+    "link": "https://app.allinonewellbeing.com/videos/whole-body-scan-relaxation-korean",
+    "author": "Sally Choi",
+    "date_created": "10/13/2025"
   },
   "EN-00069": {
     "peer_reviewer": "Margi Douglas",
@@ -68161,13 +68494,15 @@
   },
   "PT-00077": {
     "peer_reviewer": "Mila Toribio",
-    "_at": "2026-08-18T14:20:23.775Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "teacher": "Mila Toribio",
     "author": "Mila Toribio",
     "duration": "1",
     "type": "Video",
     "date_created": "02/02/2026",
-    "link": "https://app.allinonewellbeing.com/videos/get-more-out-of-leg-day"
+    "link": "https://app.allinonewellbeing.com/videos/get-more-out-of-leg-day",
+    "_hidden": true,
+    "_merged_into": "VID-1141"
   },
   "IT-00033": {
     "peer_reviewer": "Asia Rosso",
@@ -68487,13 +68822,15 @@
   },
   "PT-00075": {
     "peer_reviewer": "Mila Toribio",
-    "_at": "2026-08-18T14:20:23.775Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "teacher": "Mila Toribio",
     "author": "Mila Toribio",
     "duration": "2",
     "type": "Video",
     "date_created": "02/02/2026",
-    "link": "https://app.allinonewellbeing.com/videos/how-to-mix-up-your-routine-for-better-results"
+    "link": "https://app.allinonewellbeing.com/videos/how-to-mix-up-your-routine-for-better-results",
+    "_hidden": true,
+    "_merged_into": "VID-0170"
   },
   "NL-00016": {
     "peer_reviewer": "Truike Boekholt",
@@ -68902,14 +69239,16 @@
   },
   "EN-01572": {
     "peer_reviewer": "Mila Toribio",
-    "_at": "2026-08-14T21:05:34.134Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "teacher": "Mila Toribio",
     "language": "English",
     "author": "Mila Toribio",
     "type": "Video",
     "vimeo_link": "https://vimeo.com/1145684924/9bd5299ebf?share=copy&fl=sv&fe=ci",
     "link": "https://app.allinonewellbeing.com/videos/foam-rolling-for-sciatica-relief",
-    "date_created": "12/11/2025"
+    "date_created": "12/11/2025",
+    "_hidden": true,
+    "_merged_into": "VLB-1492"
   },
   "EN-01832": {
     "peer_reviewer": "Jessica Cording",
@@ -69770,14 +70109,18 @@
   },
   "EN-01762": {
     "peer_reviewer": "Dr. David Sanchez",
-    "_at": "2026-08-18T14:20:23.775Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "teacher": "Dr. David Sanchez",
     "language": "English",
     "author": "Dr. David Sanchez",
     "type": "Video",
     "vimeo_link": "https://vimeo.com/1187375670/c9d2945907?share=copy&fl=sv&fe=ci",
     "link": "https://app.allinonewellbeing.com/videos/vaccines-during-pregnancy-breastfeeding",
-    "date_created": "4/28/2026"
+    "date_created": "4/28/2026",
+    "references": "Centers for Disease Control and Prevention. (2024). Pregnancy and vaccines. CDC. https://www.cdc.gov/vaccine-safety/about/pregnancy.html Centers for Disease Control and Prevention. (2024). Vaccine recommendations before, during, and after pregnancy. CDC. https://www.cdc.gov/vaccines-pregnancy/recommended-vaccines/index.html Centers for Disease Control and Prevention. (2024). Guidelines for vaccinating pregnant women. CDC. https://www.cdc.gov/vaccines-pregnancy/hcp/vaccination-guidelines/index.html Centers for Disease Control and Prevention. (2024). COVID-19 vaccination for women who are pregnant or breastfeeding. CDC. https://www.cdc .gov/covid/vaccines/pregnant-or-breastfeeding.html",
+    "version": "1",
+    "author_creds": "Allergist & Immunologist",
+    "branding": "White-Label"
   },
   "IT-00014": {
     "peer_reviewer": "Stefano Montanelli",
@@ -69810,14 +70153,16 @@
   },
   "EN-01112": {
     "peer_reviewer": "Ana Gaston",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "teacher": "Ana Gaston",
     "language": "English",
     "author": "Ana Gaston",
     "type": "Video",
     "date_created": "5/8/2025",
     "vimeo_link": "https://vimeo.com/1082558315/2774e84201?share=copy",
-    "link": "https://app.allinonewellbeing.com/videos/understanding-money-s-history-and-origin"
+    "link": "https://app.allinonewellbeing.com/videos/understanding-money-s-history-and-origin",
+    "_hidden": true,
+    "_merged_into": "VLB-1047"
   },
   "ES-00054": {
     "peer_reviewer": "Jon Anthony (Tony) Meyer",
@@ -69911,13 +70256,15 @@
   },
   "PT-00076": {
     "peer_reviewer": "Mila Toribio",
-    "_at": "2026-08-18T14:20:23.775Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "teacher": "Mila Toribio",
     "author": "Mila Toribio",
     "duration": "1",
     "type": "Video",
     "date_created": "02/02/2026",
-    "link": "https://app.allinonewellbeing.com/videos/how-to-run-faster"
+    "link": "https://app.allinonewellbeing.com/videos/how-to-run-faster",
+    "_hidden": true,
+    "_merged_into": "VID-1140"
   },
   "PT-00045": {
     "peer_reviewer": "Mila Toribio",
@@ -71100,7 +71447,7 @@
   },
   "EN-01869": {
     "peer_reviewer": "Dr. Joe Feuerstein",
-    "_at": "2026-08-14T21:05:34.134Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "teacher": "Dr. Joe Feuerstein",
     "duration": "3",
     "type": "Video",
@@ -71108,7 +71455,8 @@
     "author": "Dr. Joe Feuerstein",
     "vimeo_link": "https://vimeo.com/1200521451/06aacaddb0?share=copy&fl=sv&fe=ci",
     "link": "https://app.allinonewellbeing.com/videos/how-to-avoid-asthma-triggers",
-    "date_created": "3/4/2025"
+    "date_created": "3/4/2025",
+    "version": "1"
   },
   "AR-00006": {
     "peer_reviewer": "Dr. Hassan Nagy",
@@ -71289,14 +71637,16 @@
   },
   "EN-01013": {
     "peer_reviewer": "Linda Johnson",
-    "_at": "2026-08-14T18:43:19.421Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "teacher": "Linda Johnson",
     "language": "English",
     "author": "Linda Johnson",
     "type": "Video",
     "vimeo_link": "https://vimeo.com/1080621579/c4b8ecfda4",
     "link": "https://app.allinonewellbeing.com/videos/behavioral-interview-questions-explained",
-    "date_created": "5/1/2025"
+    "date_created": "5/1/2025",
+    "_hidden": true,
+    "_merged_into": "VLB-0950"
   },
   "ES-00135": {
     "peer_reviewer": "Dr. Ricardo Fuentes",
@@ -71705,13 +72055,15 @@
   },
   "PT-00072": {
     "peer_reviewer": "Mila Toribio",
-    "_at": "2026-08-18T14:20:23.775Z",
+    "_at": "2026-09-01T17:08:42.913Z",
     "teacher": "Mila Toribio",
     "author": "Mila Toribio",
     "duration": "2",
     "type": "Video",
     "date_created": "02/02/2026",
-    "link": "https://app.allinonewellbeing.com/videos/gentle-approaches-to-building-muscle"
+    "link": "https://app.allinonewellbeing.com/videos/gentle-approaches-to-building-muscle",
+    "_hidden": true,
+    "_merged_into": "VID-1344"
   },
   "EN-01882": {
     "peer_reviewer": "Crystal Williams",
@@ -81298,5 +81650,10 @@
     "author": "Maria Cardenas",
     "references": "Centros para el Control y la Prevención de Enfermedades. (2024). Relaciones familiares y salud mental. Recuperado de https://www.cdc.gov/mentalhealth",
     "category": "Mental Health"
+  },
+  "EXT-1449": {
+    "_hidden": true,
+    "_at": "2026-09-01T17:08:42.913Z",
+    "_merged_into": "VLB-1378"
   }
 }
