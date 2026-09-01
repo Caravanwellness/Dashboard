@@ -1561,6 +1561,8 @@ async function handleImportFile(file) {
       'language':'language',
       'title in original language':'title_original', 'original language title':'title_original',
       'original title':'title_original', 'native title':'title_original',
+      'translator':'translator',
+      'translator credentials':'translator_creds', 'translator creds':'translator_creds',
       'author':'author',
       'branding':'branding', 'branding status':'branding',
       'date created':'date_created',
@@ -2870,6 +2872,8 @@ function showDetail(item) {
   const fWcag     = T('wcag_reviewed');
   const fLang     = T('language');
   const fTitleOriginal = T('title_original');
+  const fTranslator = T('translator');
+  const fTranslatorCreds = T('translator_creds');
   const fBranding = T('branding');
   const fTags     = item.tags || [];
   const fCondition= T('condition');
@@ -3026,6 +3030,12 @@ function showDetail(item) {
       </div>`:''}
       <div class="detail-field"><label>Title in Original Language</label>
         <input class="field-edit" data-f="title_original" value="${esc(fTitleOriginal)}" placeholder="e.g. Meditación para el sueño">
+      </div>
+      <div class="detail-field"><label>Translator</label>
+        <input class="field-edit" data-f="translator" value="${esc(fTranslator)}">
+      </div>
+      <div class="detail-field"><label>Translator Credentials</label>
+        <input class="field-edit" data-f="translator_creds" value="${esc(fTranslatorCreds)}">
       </div>
       <div class="detail-field"><label>Branding Status</label>
         <select class="field-edit" data-f="branding">
@@ -3783,6 +3793,8 @@ const EXPORT_COLUMNS = [
   {k:'references',          l:'References'},
   {k:'description',         l:'Description'},
   {k:'title_original',      l:'Title in Original Language'},
+  {k:'translator',          l:'Translator'},
+  {k:'translator_creds',    l:'Translator Credentials'},
   {k:'branding',            l:'Branding Status'},
   {k:'version',             l:'Version'},
   {k:'date_created',        l:'Date Created'},
