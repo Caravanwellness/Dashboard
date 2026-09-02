@@ -53,7 +53,13 @@
     "Wellics",
     "Wellsort",
     "PagerHealth",
-    "GoJoe"
+    "GoJoe",
+    "Healthee",
+    "Kardi AI",
+    "Numbase",
+    "Oncology Physicians Network",
+    "Spectrum.life",
+    "The Difference Card"
   ],
   "ALB-0032": [
     "YuLife",
@@ -75,7 +81,8 @@
   "EN-00472": [
     "Hapstar",
     "WPO",
-    "PagerHealth"
+    "PagerHealth",
+    "GoJoe"
   ],
   "EN-00473": [
     "Hapstar",
@@ -93,7 +100,8 @@
     "Lyra Health",
     "Sante Group",
     "WPO",
-    "PagerHealth"
+    "PagerHealth",
+    "GoJoe"
   ],
   "EN-00476": [
     "Hapstar",
@@ -134,7 +142,8 @@
     "Big Yellow Fish",
     "Healthee",
     "Spectrum.life",
-    "WPO"
+    "WPO",
+    "GoJoe"
   ],
   "EN-00501": [
     "BSDI",
@@ -150,7 +159,8 @@
     "Kardi AI",
     "Sante Group",
     "WPO",
-    "YuLife"
+    "YuLife",
+    "GoJoe"
   ],
   "EN-00612": [
     "BSDI",
@@ -176,7 +186,8 @@
   "EN-00616": [
     "BSDI",
     "Curela",
-    "Wellness360"
+    "Wellness360",
+    "Kardi AI"
   ],
   "EN-00617": [
     "BSDI",
@@ -237,7 +248,9 @@
   ],
   "EN-00889": [
     "YuLife",
-    "PagerHealth"
+    "PagerHealth",
+    "BSDI",
+    "Marino Wellness"
   ],
   "EN-00893": [
     "Hapstar",
@@ -283,11 +296,6 @@
     "Navigate Wellbeing",
     "Wellness360"
   ],
-  "VID-1204": [
-    "Lyra Health",
-    "Walkingspree",
-    "Wellics"
-  ],
   "EN-00404": [
     "Lyra Health",
     "WPO",
@@ -297,13 +305,15 @@
   "EN-00405": [
     "Walkingspree",
     "Wellness360",
-    "Lyra Health"
+    "Lyra Health",
+    "Navigate Wellbeing"
   ],
   "EN-00406": [
     "Big Yellow Fish",
     "Lyra Health",
     "Walkingspree",
-    "Wellness360"
+    "Wellness360",
+    "Navigate Wellbeing"
   ],
   "EN-00407": [
     "Walkingspree",
@@ -337,7 +347,10 @@
     "Wellness360",
     "Wellsort",
     "Lyra Health",
-    "Keel Mind"
+    "Keel Mind",
+    "Navigate Wellbeing",
+    "WPO",
+    "GoJoe"
   ],
   "EN-00461": [
     "Wellness360",
@@ -390,7 +403,8 @@
     "Hapstar"
   ],
   "EN-00540": [
-    "Wellness360"
+    "Wellness360",
+    "Carebook"
   ],
   "EN-00542": [
     "Wellness360"
@@ -501,13 +515,15 @@
     "Keel Mind",
     "Lyra Health",
     "Wellics",
-    "YuLife"
+    "YuLife",
+    "Spectrum.life"
   ],
   "EN-00899": [
     "JAAQ",
     "Wellness360",
     "Wellsort",
-    "Keel Mind"
+    "Keel Mind",
+    "Hapstar"
   ],
   "EN-00900": [
     "Earn It",
@@ -586,7 +602,8 @@
     "Wellness360"
   ],
   "EN-01092": [
-    "Wellness360"
+    "Wellness360",
+    "BSDI"
   ],
   "EN-01093": [
     "BSDI",
@@ -734,7 +751,8 @@
   ],
   "EN-00918": [
     "Hapstar",
-    "Keel Mind"
+    "Keel Mind",
+    "Spectrum.life"
   ],
   "EN-01208": [
     "YuLife",
@@ -857,7 +875,8 @@
     "Sante Group",
     "Spectrum.life",
     "WPO",
-    "YuLife"
+    "YuLife",
+    "GoJoe"
   ],
   "EN-00333": [
     "Healthee",
@@ -883,14 +902,17 @@
     "Lyra Health",
     "Spectrum.life",
     "WPO",
-    "PagerHealth"
+    "PagerHealth",
+    "GoJoe"
   ],
   "EN-00355": [
     "BSDI",
     "Carebook",
     "JAAQ",
     "Wellness360",
-    "PagerHealth"
+    "PagerHealth",
+    "Keel Mind",
+    "YuLife"
   ],
   "EN-00356": [
     "BSDI",
@@ -1009,7 +1031,9 @@
     "Passport & Co.",
     "Solas Mind",
     "Walkingspree",
-    "Wellness360"
+    "Wellness360",
+    "Emma Health",
+    "Bolton Hotel"
   ],
   "EN-00702": [
     "Curela",
@@ -1274,7 +1298,8 @@
   "EN-00642": [
     "The Difference Card",
     "Wellness360",
-    "PagerHealth"
+    "PagerHealth",
+    "SAFE Federal Credit Union"
   ],
   "EN-00643": [
     "Wellness360"
@@ -1349,7 +1374,8 @@
     "Kardi AI",
     "Lyra Health",
     "Wellics",
-    "YuLife"
+    "YuLife",
+    "GoJoe"
   ],
   "EN-00080": [
     "Luro Health"
@@ -1469,7 +1495,8 @@
   ],
   "EN-00802": [
     "BSDI",
-    "Wellness360"
+    "Wellness360",
+    "Bolton Hotel"
   ],
   "EN-00803": [
     "YuLife"
@@ -1621,7 +1648,8 @@
     "The Difference Card",
     "Walkingspree",
     "Wellness360",
-    "PagerHealth"
+    "PagerHealth",
+    "GoJoe"
   ],
   "EN-00599": [
     "BSDI",
@@ -1835,7 +1863,9 @@
     "Wellness360"
   ],
   "EN-00548": [
-    "Wellness360"
+    "Wellness360",
+    "SAFE Federal Credit Union",
+    "California Lithuanian Credit Un"
   ],
   "EN-00549": [
     "Wellness360",
@@ -1985,7 +2015,8 @@
   ],
   "EN-01481": [
     "YuLife",
-    "Keel Mind"
+    "Keel Mind",
+    "Oncology Physicians Network"
   ],
   "VLB-1550": [
     "YuLife"
@@ -2047,7 +2078,8 @@
     "Earn It",
     "Hapstar",
     "Oncology Physicians Network",
-    "Sante Group"
+    "Sante Group",
+    "BSDI"
   ],
   "EN-01038": [
     "BSDI",
@@ -2136,7 +2168,8 @@
     "Curela",
     "Earn It",
     "Sante Group",
-    "Wellness360"
+    "Wellness360",
+    "BSDI"
   ],
   "EN-01164": [
     "BSDI",
@@ -2318,7 +2351,8 @@
     "Lyra Health",
     "Navigate Wellbeing",
     "WPO",
-    "YuLife"
+    "YuLife",
+    "GoJoe"
   ],
   "EN-00293": [
     "YuLife"
@@ -2330,7 +2364,9 @@
     "Emma Health",
     "Lyra Health",
     "The Difference Card",
-    "Wellness360"
+    "Wellness360",
+    "Keel Mind",
+    "Hapstar"
   ],
   "EN-00431": [
     "Emma Health",
@@ -2445,7 +2481,8 @@
     "BSDI",
     "Curela",
     "Wellness360",
-    "PagerHealth"
+    "PagerHealth",
+    "Sante Group"
   ],
   "EN-00766": [
     "BSDI",
@@ -2504,10 +2541,6 @@
     "BSDI",
     "Wellness360"
   ],
-  "VID-1395": [
-    "Wellness360",
-    "i9med"
-  ],
   "EN-01286": [
     "Wellness360"
   ],
@@ -2562,9 +2595,6 @@
   "EN-01548": [
     "YuLife",
     "PagerHealth"
-  ],
-  "VID-1504": [
-    "Walkingspree"
   ],
   "EN-01241": [
     "Wellness360",
@@ -2968,7 +2998,8 @@
     "Passport & Co.",
     "The Difference Card",
     "WPO",
-    "Wellness360"
+    "Wellness360",
+    "Bolton Hotel"
   ],
   "EN-00383": [
     "BSDI",
@@ -3034,7 +3065,8 @@
     "Passport & Co.",
     "Solas Mind",
     "Walkingspree",
-    "Wellness360"
+    "Wellness360",
+    "Bolton Hotel"
   ],
   "EN-00776": [
     "Oncology Physicians Network",
@@ -3066,7 +3098,9 @@
     "Luro Health",
     "Oncology Physicians Network",
     "Passport & Co.",
-    "Wellness360"
+    "Wellness360",
+    "Kardi AI",
+    "Carebook"
   ],
   "EN-00453": [
     "LifeSmart",
@@ -3195,7 +3229,9 @@
     "Lyra Health",
     "Walkingspree",
     "Wellics",
-    "Wellness360"
+    "Wellness360",
+    "WPO",
+    "Navigate Wellbeing"
   ],
   "EN-00442": [
     "Lyra Health",
@@ -3370,9 +3406,7 @@
     "PagerHealth"
   ],
   "EN-00205": [
-    "Emma Health",
-    "Sante Group",
-    "YuLife"
+    "Bolton Hotel"
   ],
   "EN-00295": [
     "BSDI",
@@ -3433,7 +3467,10 @@
     "PagerHealth"
   ],
   "EN-00395": [
-    "Passport & Co."
+    "Passport & Co.",
+    "Sante Group",
+    "BSDI",
+    "Curela"
   ],
   "EN-01049": [
     "Walkingspree"
@@ -3540,7 +3577,8 @@
     "Emma Health",
     "Keel Mind",
     "Lyra Health",
-    "Wellness360"
+    "Wellness360",
+    "GoJoe"
   ],
   "EN-00855": [
     "Emma Health",
@@ -3620,7 +3658,8 @@
     "Lyra Health",
     "Sante Group",
     "YuLife",
-    "PagerHealth"
+    "PagerHealth",
+    "GoJoe"
   ],
   "EN-00414": [
     "Big Yellow Fish",
@@ -3671,14 +3710,17 @@
     "Emma Health",
     "Loune.co (needs to be confirmed",
     "Luro Health",
-    "Sante Group"
+    "Sante Group",
+    "Bolton Hotel"
   ],
   "EN-00321": [
     "BSDI",
     "Curela",
     "Emma Health",
     "Luro Health",
-    "Sante Group"
+    "Sante Group",
+    "Bolton Hotel",
+    "Solas Mind"
   ],
   "EN-00322": [
     "BSDI",
@@ -3704,7 +3746,12 @@
     "Numbase",
     "Passport & Co.",
     "The Difference Card",
-    "Wellness360"
+    "Wellness360",
+    "Oncology Physicians Network",
+    "Curela",
+    "Solas Mind",
+    "Earn It",
+    "Kardi AI"
   ],
   "EN-00372": [
     "Emma Health",
@@ -3724,7 +3771,8 @@
     "Oncology Physicians Network",
     "Spectrum.life",
     "Wellics",
-    "PagerHealth"
+    "PagerHealth",
+    "GoJoe"
   ],
   "EN-00374": [
     "BSDI",
@@ -3734,7 +3782,8 @@
     "Hapstar",
     "Lyra Health",
     "Oncology Physicians Network",
-    "Wellics"
+    "Wellics",
+    "GoJoe"
   ],
   "EN-00375": [
     "Big Yellow Fish",
@@ -3743,7 +3792,8 @@
     "Lyra Health",
     "Spectrum.life",
     "WPO",
-    "Wellics"
+    "Wellics",
+    "GoJoe"
   ],
   "EN-00376": [
     "BSDI",
@@ -3829,7 +3879,8 @@
     "Emma Health",
     "Passport & Co.",
     "Walkingspree",
-    "Wellness360"
+    "Wellness360",
+    "Navigate Wellbeing"
   ],
   "EN-00341": [
     "Emma Health",
@@ -3863,12 +3914,15 @@
     "YuLife",
     "Hapstar",
     "Lyra Health",
-    "Keel Mind"
+    "Keel Mind",
+    "Spectrum.life"
   ],
   "EN-00389": [
     "YuLife",
     "Lyra Health",
-    "Keel Mind"
+    "Keel Mind",
+    "Spectrum.life",
+    "Hapstar"
   ],
   "EN-00390": [
     "YuLife",
@@ -3990,18 +4044,11 @@
     "The Difference Card",
     "Walkingspree",
     "Wellness360",
-    "PagerHealth"
+    "PagerHealth",
+    "Bolton Hotel"
   ],
   "EN-00326": [
-    "Emma Health",
-    "Kardi AI",
-    "Marino Wellness",
-    "Navigate Wellbeing",
-    "Numbase",
-    "The Difference Card",
-    "Walkingspree",
-    "Wellness360",
-    "PagerHealth"
+    "Bolton Hotel"
   ],
   "EN-00996": [
     "Emma Health",
@@ -4034,22 +4081,8 @@
     "Lyra Health",
     "Wellics",
     "YuLife",
-    "PagerHealth"
-  ],
-  "VLB-0340": [
-    "BSDI",
-    "Carebook",
-    "Curela",
-    "Emma Health",
-    "Healthee",
-    "Kardi AI",
-    "Keel Mind",
-    "Lyra Health",
-    "Marino Wellness",
-    "Navigate Wellbeing",
-    "WPO",
-    "Walkingspree",
-    "Wellness360"
+    "PagerHealth",
+    "Bolton Hotel"
   ],
   "EN-00377": [
     "Curela",
@@ -4068,7 +4101,8 @@
     "Lyra Health",
     "WPO",
     "Walkingspree",
-    "Wellness360"
+    "Wellness360",
+    "GoJoe"
   ],
   "VID-0028": [
     "Earn It",
@@ -4103,7 +4137,8 @@
   "EN-00725": [
     "Lyra Health",
     "Wellics",
-    "Wellness360"
+    "Wellness360",
+    "GoJoe"
   ],
   "EN-00726": [
     "Wellness360",
@@ -4150,9 +4185,6 @@
   "EN-00761": [
     "Loune.co (needs to be confirmed"
   ],
-  "VLB-1058": [
-    "Loune.co (needs to be confirmed"
-  ],
   "EN-00757": [
     "Loune.co (needs to be confirmed"
   ],
@@ -4179,7 +4211,8 @@
     "Solas Mind",
     "PagerHealth",
     "Curela",
-    "Luro Health"
+    "Luro Health",
+    "Bolton Hotel"
   ],
   "VID-1750": [
     "Loune.co (needs to be confirmed"
@@ -4225,7 +4258,8 @@
   ],
   "EN-01480": [
     "Keel Mind",
-    "PagerHealth"
+    "PagerHealth",
+    "Oncology Physicians Network"
   ],
   "EN-00946": [
     "Lyra Health",
@@ -4433,7 +4467,8 @@
   ],
   "EN-00316": [
     "Lyra Health",
-    "WPO"
+    "WPO",
+    "GoJoe"
   ],
   "EN-00942": [
     "Lyra Health"
@@ -4502,14 +4537,17 @@
     "Lyra Health",
     "Sante Group",
     "WPO",
-    "PagerHealth"
+    "PagerHealth",
+    "Kardi AI",
+    "BSDI"
   ],
   "EN-00014": [
     "BSDI",
     "Lyra Health",
     "Navigate Wellbeing",
     "Spectrum.life",
-    "WPO"
+    "WPO",
+    "GoJoe"
   ],
   "EN-00050": [
     "Lyra Health",
@@ -4521,7 +4559,8 @@
   "EN-00302": [
     "Carebook",
     "Lyra Health",
-    "Spectrum.life"
+    "Spectrum.life",
+    "GoJoe"
   ],
   "EN-00029": [
     "Lyra Health",
@@ -4532,7 +4571,8 @@
     "Lyra Health",
     "Navigate Wellbeing",
     "Spectrum.life",
-    "WPO"
+    "WPO",
+    "GoJoe"
   ],
   "EN-01062": [
     "BSDI",
@@ -4628,7 +4668,8 @@
     "PagerHealth"
   ],
   "EN-01169": [
-    "Sante Group"
+    "Sante Group",
+    "BSDI"
   ],
   "EN-00619": [
     "Sante Group"
@@ -4653,10 +4694,13 @@
   ],
   "EN-00732": [
     "Big Yellow Fish",
-    "Sante Group"
+    "Sante Group",
+    "Earn It",
+    "Curela"
   ],
   "EN-00892": [
-    "Sante Group"
+    "Sante Group",
+    "Hapstar"
   ],
   "EN-00886": [
     "BSDI",
@@ -4669,7 +4713,8 @@
   ],
   "EN-01166": [
     "Sante Group",
-    "PagerHealth"
+    "PagerHealth",
+    "BSDI"
   ],
   "EN-01170": [
     "BSDI",
@@ -4833,7 +4878,8 @@
     "Carebook"
   ],
   "EN-00318": [
-    "Carebook"
+    "Carebook",
+    "Bolton Hotel"
   ],
   "DE-00036": [
     "Lyra Health",
@@ -4979,17 +5025,8 @@
     "Spectrum.life",
     "WPO"
   ],
-  "VID-1737": [
-    "YuLife"
-  ],
   "EXT-0189": [
     "Keel Mind",
-    "YuLife"
-  ],
-  "VID-1600": [
-    "YuLife"
-  ],
-  "VID-1667": [
     "YuLife"
   ],
   "NL-00027": [
@@ -5212,7 +5249,8 @@
     "Oncology Physicians Network"
   ],
   "EN-01187": [
-    "Oncology Physicians Network"
+    "Oncology Physicians Network",
+    "BSDI"
   ],
   "EN-01321": [
     "Oncology Physicians Network"
@@ -5297,9 +5335,6 @@
     "BSDI",
     "Wellics"
   ],
-  "VID-1202": [
-    "Wellics"
-  ],
   "ZH-00015": [
     "Spectrum.life",
     "Wellics"
@@ -5343,9 +5378,6 @@
   "EN-00788": [
     "BSDI",
     "PagerHealth"
-  ],
-  "VID-0152": [
-    "BSDI"
   ],
   "EN-01195": [
     "BSDI",
@@ -5802,13 +5834,7 @@
   "EXT-0469": [
     "Bolton Hotel"
   ],
-  "EXT-0470": [
-    "Bolton Hotel"
-  ],
   "EXT-0471": [
-    "Bolton Hotel"
-  ],
-  "EXT-0472": [
     "Bolton Hotel"
   ],
   "EXT-0473": [
@@ -6093,160 +6119,7 @@
   "EXT-0567": [
     "Emma Health"
   ],
-  "EXT-0568": [
-    "Welldoc"
-  ],
-  "EXT-0569": [
-    "Welldoc"
-  ],
-  "EXT-0570": [
-    "Welldoc"
-  ],
-  "EXT-0571": [
-    "Welldoc"
-  ],
-  "EXT-0572": [
-    "Welldoc"
-  ],
-  "EXT-0573": [
-    "Welldoc"
-  ],
-  "EXT-0574": [
-    "Welldoc"
-  ],
-  "EXT-0575": [
-    "Welldoc"
-  ],
-  "EXT-0576": [
-    "Welldoc"
-  ],
-  "EXT-0577": [
-    "Welldoc"
-  ],
-  "EXT-0578": [
-    "Welldoc"
-  ],
-  "EXT-0579": [
-    "Welldoc"
-  ],
-  "EXT-0580": [
-    "Welldoc"
-  ],
-  "EXT-0581": [
-    "Welldoc"
-  ],
-  "EXT-0582": [
-    "Welldoc"
-  ],
-  "EXT-0583": [
-    "Welldoc"
-  ],
-  "EXT-0584": [
-    "Welldoc"
-  ],
-  "EXT-0585": [
-    "Welldoc"
-  ],
-  "EXT-0586": [
-    "Welldoc"
-  ],
-  "EXT-0587": [
-    "Welldoc"
-  ],
-  "EXT-0588": [
-    "Welldoc"
-  ],
-  "EXT-0589": [
-    "Welldoc"
-  ],
-  "EXT-0590": [
-    "Welldoc"
-  ],
   "EXT-0591": [
-    "Welldoc"
-  ],
-  "EXT-0592": [
-    "Welldoc"
-  ],
-  "EXT-0593": [
-    "Welldoc"
-  ],
-  "EXT-0594": [
-    "Welldoc"
-  ],
-  "EXT-0595": [
-    "Welldoc"
-  ],
-  "EXT-0596": [
-    "Welldoc"
-  ],
-  "EXT-0597": [
-    "Welldoc"
-  ],
-  "EXT-0598": [
-    "Welldoc"
-  ],
-  "EXT-0599": [
-    "Welldoc"
-  ],
-  "EXT-0600": [
-    "Welldoc"
-  ],
-  "EXT-0601": [
-    "Welldoc"
-  ],
-  "EXT-0602": [
-    "Welldoc"
-  ],
-  "EXT-0603": [
-    "Welldoc"
-  ],
-  "EXT-0604": [
-    "Welldoc"
-  ],
-  "EXT-0605": [
-    "Welldoc"
-  ],
-  "EXT-0606": [
-    "Welldoc"
-  ],
-  "EXT-0607": [
-    "Welldoc"
-  ],
-  "EXT-0608": [
-    "Welldoc"
-  ],
-  "EXT-0609": [
-    "Welldoc"
-  ],
-  "EXT-0610": [
-    "Welldoc"
-  ],
-  "EXT-0611": [
-    "Welldoc"
-  ],
-  "EXT-0612": [
-    "Welldoc"
-  ],
-  "EXT-0613": [
-    "Welldoc"
-  ],
-  "EXT-0614": [
-    "Welldoc"
-  ],
-  "EXT-0615": [
-    "Welldoc"
-  ],
-  "EXT-0616": [
-    "Welldoc"
-  ],
-  "EXT-0617": [
-    "Welldoc"
-  ],
-  "EXT-0618": [
-    "Welldoc"
-  ],
-  "EXT-0619": [
     "Welldoc"
   ],
   "EXT-0620": [
@@ -7789,7 +7662,9 @@
     "BSDI"
   ],
   "EN-00875": [
-    "Curela"
+    "Curela",
+    "Keel Mind",
+    "Lyra Health"
   ],
   "ES-00098": [
     "Mobitrans (will be updated with"
@@ -8975,9 +8850,6 @@
   "VID-1193": [
     "California Lithuanian Credit Un"
   ],
-  "EXT-0409": [
-    "California Lithuanian Credit Un"
-  ],
   "EXT-0381": [
     "California Lithuanian Credit Un"
   ],
@@ -9607,7 +9479,9 @@
     "Navigate Wellbeing"
   ],
   "EN-00475": [
-    "Sante Group"
+    "Sante Group",
+    "Lyra Health",
+    "WPO"
   ],
   "EN-01398": [
     "Big Yellow Fish"
@@ -9623,13 +9497,16 @@
     "PagerHealth"
   ],
   "EN-00480": [
-    "PagerHealth"
+    "PagerHealth",
+    "Lyra Health",
+    "Sante Group"
   ],
   "EN-00533": [
     "PagerHealth"
   ],
   "EN-00535": [
-    "PagerHealth"
+    "PagerHealth",
+    "Keel Mind"
   ],
   "EN-00536": [
     "PagerHealth"
@@ -9665,7 +9542,8 @@
     "PagerHealth"
   ],
   "EN-00627": [
-    "PagerHealth"
+    "PagerHealth",
+    "Spectrum.life"
   ],
   "EN-00664": [
     "PagerHealth"
@@ -9683,7 +9561,9 @@
     "PagerHealth"
   ],
   "EN-00689": [
-    "PagerHealth"
+    "PagerHealth",
+    "Navigate Wellbeing",
+    "GoJoe"
   ],
   "EN-00690": [
     "PagerHealth"
@@ -9716,7 +9596,8 @@
     "PagerHealth"
   ],
   "EN-00930": [
-    "PagerHealth"
+    "PagerHealth",
+    "Curela"
   ],
   "EN-00932": [
     "PagerHealth"
@@ -9776,7 +9657,7 @@
     "PagerHealth"
   ],
   "EN-01196": [
-    "PagerHealth"
+    "BSDI"
   ],
   "EN-01197": [
     "PagerHealth"
@@ -9866,7 +9747,8 @@
     "PagerHealth"
   ],
   "EN-01436": [
-    "PagerHealth"
+    "PagerHealth",
+    "Big Yellow Fish"
   ],
   "EN-01438": [
     "PagerHealth"
@@ -9893,7 +9775,8 @@
     "PagerHealth"
   ],
   "EN-01479": [
-    "PagerHealth"
+    "PagerHealth",
+    "Oncology Physicians Network"
   ],
   "EN-01510": [
     "PagerHealth"
@@ -11175,20 +11058,11 @@
   "ART-0207": [
     "Keel Mind"
   ],
-  "VID-0462": [
-    "Spectrum.life"
-  ],
   "VID-0938": [
     "Kardi AI"
   ],
   "VID-1527": [
     "Oncology Physicians Network"
-  ],
-  "VID-1611": [
-    "LifeSmart"
-  ],
-  "VID-1612": [
-    "LifeSmart"
   ],
   "EN-00567": [
     "Keel Mind"
@@ -11227,5 +11101,292 @@
   ],
   "NL-00017": [
     "YuLife"
+  ],
+  "HLT-0401": [
+    "California Lithuanian Credit Un"
+  ],
+  "EN-01950": [
+    "Welldoc"
+  ],
+  "EN-01951": [
+    "Welldoc"
+  ],
+  "EN-01952": [
+    "Welldoc"
+  ],
+  "EN-01953": [
+    "Welldoc"
+  ],
+  "EN-01954": [
+    "Welldoc"
+  ],
+  "EN-01957": [
+    "Welldoc"
+  ],
+  "EN-01958": [
+    "Welldoc"
+  ],
+  "EN-01955": [
+    "Welldoc"
+  ],
+  "EN-01959": [
+    "Welldoc"
+  ],
+  "EN-01960": [
+    "Welldoc"
+  ],
+  "EN-01961": [
+    "Welldoc"
+  ],
+  "EN-01962": [
+    "Welldoc"
+  ],
+  "EN-01963": [
+    "Welldoc"
+  ],
+  "EN-01964": [
+    "Welldoc"
+  ],
+  "EN-01965": [
+    "Welldoc"
+  ],
+  "EN-01966": [
+    "Welldoc"
+  ],
+  "EN-01968": [
+    "Welldoc"
+  ],
+  "EN-01969": [
+    "Welldoc"
+  ],
+  "EN-01970": [
+    "Welldoc"
+  ],
+  "EN-01971": [
+    "Welldoc"
+  ],
+  "EN-01973": [
+    "Welldoc"
+  ],
+  "EN-01974": [
+    "Welldoc"
+  ],
+  "EN-01975": [
+    "Welldoc"
+  ],
+  "EN-01978": [
+    "Welldoc"
+  ],
+  "EN-01979": [
+    "Welldoc"
+  ],
+  "EN-01980": [
+    "Welldoc"
+  ],
+  "EN-01981": [
+    "Welldoc"
+  ],
+  "EN-01982": [
+    "Welldoc"
+  ],
+  "EN-01983": [
+    "Welldoc"
+  ],
+  "EN-01956": [
+    "Welldoc"
+  ],
+  "EN-02094": [
+    "Welldoc"
+  ],
+  "EN-02095": [
+    "Welldoc"
+  ],
+  "EN-02096": [
+    "Welldoc"
+  ],
+  "EN-02097": [
+    "Welldoc"
+  ],
+  "EN-02098": [
+    "Welldoc"
+  ],
+  "EN-02099": [
+    "Welldoc"
+  ],
+  "EN-02100": [
+    "Welldoc"
+  ],
+  "EN-02101": [
+    "Welldoc"
+  ],
+  "EN-02102": [
+    "Welldoc"
+  ],
+  "EN-02103": [
+    "Welldoc"
+  ],
+  "EN-02104": [
+    "Welldoc"
+  ],
+  "EN-02105": [
+    "Welldoc"
+  ],
+  "EN-02106": [
+    "Welldoc"
+  ],
+  "EN-02107": [
+    "Welldoc"
+  ],
+  "EN-02108": [
+    "Welldoc"
+  ],
+  "EN-02109": [
+    "Welldoc"
+  ],
+  "EN-02110": [
+    "Welldoc"
+  ],
+  "EN-02111": [
+    "Welldoc"
+  ],
+  "EN-02112": [
+    "Welldoc"
+  ],
+  "EN-02113": [
+    "Welldoc"
+  ],
+  "EN-02114": [
+    "Welldoc"
+  ],
+  "EN-00024": [
+    "Spectrum.life"
+  ],
+  "EN-01019": [
+    "Wellics"
+  ],
+  "EN-01021": [
+    "Lyra Health",
+    "Walkingspree",
+    "Wellics"
+  ],
+  "EN-01289": [
+    "Wellness360",
+    "i9med"
+  ],
+  "EN-01420": [
+    "Walkingspree"
+  ],
+  "EN-01550": [
+    "YuLife"
+  ],
+  "EN-01565": [
+    "LifeSmart"
+  ],
+  "EN-01566": [
+    "LifeSmart"
+  ],
+  "EN-01636": [
+    "YuLife"
+  ],
+  "EN-01709": [
+    "YuLife"
+  ],
+  "EN-00381": [
+    "BSDI",
+    "Carebook",
+    "Curela",
+    "Emma Health",
+    "Healthee",
+    "Kardi AI",
+    "Keel Mind",
+    "Lyra Health",
+    "Marino Wellness",
+    "Navigate Wellbeing",
+    "WPO",
+    "Walkingspree",
+    "Wellness360"
+  ],
+  "EN-01123": [
+    "Loune.co (needs to be confirmed"
+  ],
+  "EN-00569": [
+    "Keel Mind"
+  ],
+  "EN-00924": [
+    "Keel Mind",
+    "Emma Health"
+  ],
+  "EN-00511": [
+    "Earn It"
+  ],
+  "EN-00040": [
+    "Bolton Hotel"
+  ],
+  "EN-00307": [
+    "Carebook"
+  ],
+  "EN-00497": [
+    "Navigate Wellbeing"
+  ],
+  "EN-00339": [
+    "BSDI"
+  ],
+  "EN-00336": [
+    "BSDI"
+  ],
+  "EN-00335": [
+    "BSDI"
+  ],
+  "EN-00337": [
+    "BSDI"
+  ],
+  "EN-00804": [
+    "BSDI"
+  ],
+  "EN-00338": [
+    "BSDI"
+  ],
+  "EN-00437": [
+    "Loune.co (needs to be confirmed",
+    "WPO"
+  ],
+  "EN-00253": [
+    "GoJoe",
+    "Spectrum.life"
+  ],
+  "EN-00439": [
+    "Loune.co (needs to be confirmed",
+    "YuLife"
+  ],
+  "EN-00799": [
+    "Earn It",
+    "YuLife"
+  ],
+  "EN-01327": [
+    "BSDI"
+  ],
+  "EN-01459": [
+    "Oncology Physicians Network"
+  ],
+  "EN-01728": [
+    "Loune.co (needs to be confirmed"
+  ],
+  "EN-01729": [
+    "Loune.co (needs to be confirmed",
+    "Promethium Medical"
+  ],
+  "EN-01730": [
+    "Loune.co (needs to be confirmed"
+  ],
+  "EN-01731": [
+    "Loune.co (needs to be confirmed"
+  ],
+  "EN-01112": [
+    "Wellness360"
+  ],
+  "EN-01455": [
+    "Earn It",
+    "LifeSmart",
+    "Oncology Physicians Network"
   ]
 }
