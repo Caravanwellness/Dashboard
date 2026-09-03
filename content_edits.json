@@ -38633,7 +38633,7 @@
   },
   "EN-00689": {
     "teacher": "Kanwal Haq",
-    "_at": "2026-08-14T14:13:12.825Z",
+    "_at": "2026-09-03T19:40:38.836Z",
     "duration": "3",
     "language": "English",
     "type": "Video",
@@ -38642,7 +38642,9 @@
     "link": "https://app.allinonewellbeing.com/videos/understanding-perimenopause",
     "vimeo_link": "https://vimeo.com/1069726778/961c54eaff",
     "references": "National Institute on Aging. (2024). What is menopause? NIH. https://www.nia.nih.gov/health/menopause/what-menopause World Health Organization. (2023). Menopause. WHO. https://www.who.int/news-room/fact-sheets/detail/menopause NHS. (2023). Symptoms – menopause. NHS. https://www.nhs.uk/conditions/menopause/symptoms/ National Institutes of Health. (2024). Perimenopause. PMC. https://pmc.ncbi.nlm.nih.gov/articles/PMC11482657/ National Institutes of Health. (2024). Menopause health topic summary. NIH. https://discoverwhr.nih.gov/research/menopause/health-topics/",
-    "version": "1"
+    "version": "1",
+    "_hidden": true,
+    "_merged_into": "EN-01928"
   },
   "EN-00690": {
     "teacher": "Kanwal Haq",
@@ -65570,13 +65572,32 @@
   },
   "EN-01928": {
     "peer_reviewer": "Katie Attubato",
-    "_at": "2026-08-14T21:05:34.134Z",
+    "_at": "2026-09-03T19:40:38.836Z",
     "teacher": "Katie Attubato",
     "language": "English",
     "duration": "3",
     "type": "Video",
     "author": "Katie Attubato",
-    "date_created": "3/26/2025"
+    "date_created": "3/26/2025",
+    "length_min": "3",
+    "vimeo_link": "https://vimeo.com/1069726778/961c54eaff",
+    "branding": "White-Label",
+    "tags": [
+      "Hormonal health",
+      "Reproductive health",
+      "Menstrual health",
+      "Body changes",
+      "hormonal balance",
+      "Female wellbeing",
+      "Womenâ€™s health education",
+      "Health education",
+      "Lifestyle health"
+    ],
+    "condition": "Menopause",
+    "demographics": "Women",
+    "series": "Family Building & Reproductive Transitions",
+    "teacher_title": "Medical Anthropologist, Certified Doula, Women's Health Author",
+    "teacher_demographics": "White, Female, 30, US"
   },
   "ES-00162": {
     "peer_reviewer": "Dr. Ricardo Fuentes",
