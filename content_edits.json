@@ -6202,7 +6202,7 @@
   },
   "EN-01466": {
     "author": "Dr. Joe Feuerstein",
-    "_at": "2026-08-14T20:51:17.120Z",
+    "_at": "2026-09-03T21:53:29.834Z",
     "teacher": "Dr. Joe Feuerstein",
     "duration": "3",
     "language": "English",
@@ -6210,7 +6210,8 @@
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
     "vimeo_link": "https://vimeo.com/1131766440/988da93023",
-    "date_created": "10/29/2025"
+    "date_created": "10/29/2025",
+    "references": "References\nGhosh, T. S., Shanahan, F., & O'Toole, P. W. (2022). The gut microbiome as a modulator of healthy ageing. Nature Reviews Gastroenterology & Hepatology, 19(9), 565–584. https://doi.org/10.1038/s41575-022-00605-x\nSeki, Y., Aczel, D., Torma, F., Jokai, M., Boros, A., Suzuki, K., Higuchi, M., Tanisawa, K., Boldogh, I., Horvath, S., & Radak, Z. (2023). No strong association among epigenetic modifications by DNA methylation, telomere length, and physical fitness in biological aging. Biogerontology. https://doi.org/10.1007/s10522-022-10011-0\nKnezevic, E., Nenic, K., Milanovic, V., & Knezevic, N. N. (2023). The role of cortisol in chronic stress, neurodegenerative diseases, and psychological disorders. Cells, 12(23), 2726. https://doi.org/10.3390/cells12232726"
   },
   "EN-01467": {
     "author": "Dr. Joe Feuerstein",
