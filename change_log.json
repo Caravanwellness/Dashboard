@@ -5620,5 +5620,15 @@
       "byName": "Caravan Admin",
       "byEmail": "info@caravanwellness.com"
     }
+  ],
+  "EN-01466": [
+    {
+      "ts": "2026-09-03T21:53:30.164Z",
+      "field": "references",
+      "old": null,
+      "new": "References\nGhosh, T. S., Shanahan, F., & O'Toole, P. W. (2022). The gut microbiome as a modulator of healthy ageing. Nature Reviews Gastroenterology & Hepatology, 19(9), 565–584. https://doi.org/10.1038/s41575-022-00605-x\nSeki, Y., Aczel, D., Torma, F., Jokai, M., Boros, A., Suzuki, K., Higuchi, M., Tanisawa, K., Boldogh, I., Horvath, S., & Radak, Z. (2023). No strong association among epigenetic modifications by DNA methylation, telomere length, and physical fitness in biological aging. Biogerontology. https://doi.org/10.1007/s10522-022-10011-0\nKnezevic, E., Nenic, K., Milanovic, V., & Knezevic, N. N. (2023). The role of cortisol in chronic stress, neurodegenerative diseases, and psychological disorders. Cells, 12(23), 2726. https://doi.org/10.3390/cells12232726",
+      "byName": "Chelsea Johnson",
+      "byEmail": "chelsea.johnson@caravanwellness.com"
+    }
   ]
 }
