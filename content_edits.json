@@ -77753,8 +77753,9 @@
   },
   "EN-02104": {
     "type": "Video",
-    "_at": "2026-08-10T19:51:38.073Z",
-    "category": "Nutrition"
+    "_at": "2026-09-03T21:56:03.508Z",
+    "category": "Nutrition",
+    "references": "References\nSaslow, L. R., Eslamian, A., Moran, P., Hartogensis, W., Mason, A. E., Kim, S., Bauer, D. C., Griauzde, D. H., Goldman, V., Liu, V., Stephens, P., Raymond, K., Yeung, G., Leung, C., & Hecht, F. M. (2023). Protocol for a randomized controlled trial comparing a very low-carbohydrate diet or moderate-carbohydrate plate-method diet for type 2 diabetes: The LEGEND trial. Trials, 24, 483. https://doi.org/10.1186/s13063-023-07512-9\nManeesing, T., Dawangpa, A., Chaivanit, P., Songsakul, S., Prasertsri, P., Noronha, N. Y., Watanabe, L. M., Nonino, C. B., Pratumvinit, B., & Sae-Lee, C. (2023). Optimising blood glucose control with portioned meal box in type 2 diabetes mellitus patients: A randomised control trial. Frontiers in Nutrition, 10, 1216753. https://doi.org/10.3389/fnut.2023.1216753\nTsitsou, S., Athanasaki, C., Dimitriadis, G., & Papakonstantinou, E. (2023). Acute effects of dietary fiber in starchy foods on glycemic and insulinemic responses: A systematic review of randomized controlled crossover trials. Nutrients, 15(10), 2383. https://doi.org/10.3390/nu15102383"
   },
   "EN-02105": {
     "type": "Video",
