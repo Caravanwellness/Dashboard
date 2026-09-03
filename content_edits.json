@@ -42870,12 +42870,12 @@
   },
   "ALB-0135": {
     "references": "Centers for Disease Control and Prevention. (2024). 7 common withdrawal symptoms. https://www.cdc.gov/tobacco/campaign/tips/quit-smoking/7-common-withdrawal-symptoms/index.html\nAmerican Lung Association. (2024). What to expect when quitting. https://www.lung.org/quit-smoking/i-want-to-quit/what-to-expect\nJournal of Substance Abuse Treatment. (2022). Characterizing nicotine withdrawal in smokers experiencing homelessness. https://pmc.ncbi.nlm.nih.gov/articles/PMC9167248/",
-    "_at": "2026-08-24T17:44:42.136Z",
+    "_at": "2026-09-03T16:28:23.020Z",
     "type": "Article",
     "date_created": "04/10/2026",
     "duration": "3",
     "category": "Addiction Recovery",
-    "teacher": "Emil",
+    "teacher": "Emily Wilson",
     "_hidden": true,
     "_merged_into": "ART-1256"
   },
@@ -77676,9 +77676,9 @@
   },
   "ART-1256": {
     "category": "Smoking Cessation",
-    "_at": "2026-08-18T18:10:58.569Z",
+    "_at": "2026-09-03T16:28:23.020Z",
     "type": "Article",
-    "teacher": "Emil",
+    "teacher": "Emily Wilson",
     "references": "Centers for Disease Control and Prevention. (2024). 7 common withdrawal symptoms. https://www.cdc.gov/tobacco/campaign/tips/quit-smoking/7-common-withdrawal-symptoms/index.html\nAmerican Lung Association. (2024). What to expect when quitting. https://www.lung.org/quit-smoking/i-want-to-quit/what-to-expect\nJournal of Substance Abuse Treatment. (2022). Characterizing nicotine withdrawal in smokers experiencing homelessness. https://pmc.ncbi.nlm.nih.gov/articles/PMC9167248/",
     "date_created": "04/10/2026",
     "duration": "3",
@@ -79358,15 +79358,15 @@
   },
   "ART-1055": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-08-24T17:44:42.136Z",
+    "_at": "2026-09-03T16:28:23.020Z",
     "references": "World Health Organization. (2023). *Integrated care for older people*. World Health Organization. https://www.who.int/publications/i/item/WHO-FWC-ALC-19.1\n\nNational Health Service. (2023). *Foot care and ageing*. National Health Service. https://www.nhs.uk/conditions/foot-pain/\n\n*European Journal of Ageing*. (2020). *Foot health and mobility in older adults*. *European Journal of Ageing, 17*(3), 245–254. https://link.springer.com/article/10.1007/s10433-019-00535-0",
-    "teacher": "Emil",
+    "teacher": "Emily Wilson",
     "type": "Article",
     "date_created": "02/08/2026",
     "duration": "2",
     "link": "https://docs.google.com/document/d/1rrUR7mTRDWxdXRCDn9yn0QnzGC12WzdCuHVyY9eyMQY/edit?usp=sharing",
     "category": "Health",
-    "author": "Emil"
+    "author": "Emily Wilson"
   },
   "ART-1056": {
     "peer_reviewer": "Marlee Alanis",
