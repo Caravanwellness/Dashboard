@@ -5640,5 +5640,15 @@
       "byName": "Chelsea Johnson",
       "byEmail": "chelsea.johnson@caravanwellness.com"
     }
+  ],
+  "EN-01966": [
+    {
+      "ts": "2026-09-03T21:57:41.796Z",
+      "field": "references",
+      "old": null,
+      "new": "References\nMorales-Alvarez, M. C., Nissaisorakarn, V., Appel, L. J., Miller, E. R., Christenson, R. H., Rebuck, H., Rosas, S. E., William, J. H., & Juraschek, S. P. (2024). Effects of reduced dietary sodium and the DASH diet on GFR: The DASH-Sodium trial. Kidney360, 5(4), 569–576. https://doi.org/10.34067/KID.0000000000000390\nJula, A. (2024). Sodium – A systematic review for Nordic Nutrition Recommendations 2023. Food & Nutrition Research, 68. https://doi.org/10.29219/fnr.v68.10319",
+      "byName": "Chelsea Johnson",
+      "byEmail": "chelsea.johnson@caravanwellness.com"
+    }
   ]
 }
