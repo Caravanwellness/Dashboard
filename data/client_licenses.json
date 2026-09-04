@@ -920,7 +920,8 @@
     "Passport & Co.",
     "Solas Mind",
     "The Difference Card",
-    "Wellness360"
+    "Wellness360",
+    "Lifesmart"
   ],
   "EN-00457": [
     "Earn It",
@@ -930,7 +931,8 @@
     "Passport & Co.",
     "Solas Mind",
     "The Difference Card",
-    "Wellness360"
+    "Wellness360",
+    "Lifesmart"
   ],
   "EN-00458": [
     "Earn It",
@@ -941,7 +943,8 @@
     "Passport & Co.",
     "Solas Mind",
     "The Difference Card",
-    "Wellness360"
+    "Wellness360",
+    "Lifesmart"
   ],
   "EN-00459": [
     "Earn It",
@@ -951,7 +954,8 @@
     "Numbase",
     "Passport & Co.",
     "The Difference Card",
-    "Wellness360"
+    "Wellness360",
+    "Lifesmart"
   ],
   "EN-00460": [
     "YuLife",
@@ -962,7 +966,8 @@
     "Carebook",
     "The Difference Card",
     "Earn It",
-    "Kardi AI"
+    "Kardi AI",
+    "Lifesmart"
   ],
   "EN-00655": [
     "Big Yellow Fish",
@@ -1026,7 +1031,8 @@
     "Oncology Physicians Network",
     "Passport & Co.",
     "Solas Mind",
-    "Wellness360"
+    "Wellness360",
+    "Lifesmart"
   ],
   "EN-00704": [
     "Wellness360"
@@ -1037,7 +1043,8 @@
     "Emma Health",
     "LifeSmart",
     "Luro Health",
-    "Wellness360"
+    "Wellness360",
+    "Lifesmart"
   ],
   "EN-00706": [
     "Wellness360"
@@ -1152,10 +1159,12 @@
     "Keel Mind"
   ],
   "EN-01563": [
-    "LifeSmart"
+    "LifeSmart",
+    "Lifesmart"
   ],
   "EN-01564": [
-    "LifeSmart"
+    "LifeSmart",
+    "Lifesmart"
   ],
   "VLB-1485": [
     "LifeSmart"
@@ -1760,7 +1769,8 @@
   "EN-01200": [
     "LifeSmart",
     "Luro Health",
-    "Wellness360"
+    "Wellness360",
+    "Lifesmart"
   ],
   "EN-01281": [
     "LifeSmart",
@@ -1773,7 +1783,8 @@
   "EN-01282": [
     "Passport & Co.",
     "Wellness360",
-    "PagerHealth"
+    "PagerHealth",
+    "Lifesmart"
   ],
   "EN-01283": [
     "LifeSmart",
@@ -1808,19 +1819,23 @@
   ],
   "EN-01670": [
     "LifeSmart",
-    "Loune.co (needs to be confirmed"
+    "Loune.co (needs to be confirmed",
+    "Lifesmart"
   ],
   "EN-01671": [
     "LifeSmart",
-    "Loune.co (needs to be confirmed"
+    "Loune.co (needs to be confirmed",
+    "Lifesmart"
   ],
   "EN-01672": [
     "LifeSmart",
-    "Loune.co (needs to be confirmed"
+    "Loune.co (needs to be confirmed",
+    "Lifesmart"
   ],
   "EN-01673": [
     "LifeSmart",
-    "Loune.co (needs to be confirmed"
+    "Loune.co (needs to be confirmed",
+    "Lifesmart"
   ],
   "EN-00545": [
     "California Lithuanian Credit Un",
@@ -2836,31 +2851,36 @@
     "LifeSmart",
     "Luro Health",
     "Passport & Co.",
-    "Loune.co (needs to be confirmed"
+    "Loune.co (needs to be confirmed",
+    "Lifesmart"
   ],
   "EN-01522": [
     "LifeSmart",
     "Luro Health",
     "Passport & Co.",
-    "Loune.co (needs to be confirmed"
+    "Loune.co (needs to be confirmed",
+    "Lifesmart"
   ],
   "EN-01523": [
     "Emma Health",
     "LifeSmart",
     "Luro Health",
-    "Passport & Co."
+    "Passport & Co.",
+    "Lifesmart"
   ],
   "EN-01524": [
     "LifeSmart",
     "Luro Health",
-    "Passport & Co."
+    "Passport & Co.",
+    "Lifesmart"
   ],
   "EN-01525": [
     "LifeSmart",
     "Loune.co (needs to be confirmed",
     "Luro Health",
     "Marino Wellness",
-    "Passport & Co."
+    "Passport & Co.",
+    "Lifesmart"
   ],
   "EN-01428": [
     "Walkingspree"
@@ -2973,7 +2993,8 @@
     "The Difference Card",
     "WPO",
     "Wellness360",
-    "Bolton Hotel"
+    "Bolton Hotel",
+    "Lifesmart"
   ],
   "EN-00383": [
     "BSDI",
@@ -3078,7 +3099,8 @@
   ],
   "EN-00453": [
     "LifeSmart",
-    "Wellness360"
+    "Wellness360",
+    "Lifesmart"
   ],
   "EN-00454": [
     "Oncology Physicians Network",
@@ -3163,38 +3185,46 @@
   ],
   "EN-01578": [
     "LifeSmart",
-    "Marino Wellness"
+    "Marino Wellness",
+    "Lifesmart"
   ],
   "EN-01579": [
     "Emma Health",
-    "LifeSmart"
+    "LifeSmart",
+    "Lifesmart"
   ],
   "EN-01580": [
     "Emma Health",
     "LifeSmart",
-    "PagerHealth"
+    "PagerHealth",
+    "Lifesmart"
   ],
   "EN-01581": [
     "YuLife",
-    "PagerHealth"
+    "PagerHealth",
+    "Lifesmart"
   ],
   "EN-01582": [
     "Emma Health",
     "LifeSmart",
-    "PagerHealth"
+    "PagerHealth",
+    "Lifesmart"
   ],
   "EN-01583": [
     "Emma Health",
     "LifeSmart",
-    "Luro Health"
+    "Luro Health",
+    "Lifesmart"
   ],
   "EN-01584": [
     "LifeSmart",
-    "PagerHealth"
+    "PagerHealth",
+    "Lifesmart"
   ],
   "EN-01585": [
     "YuLife",
-    "PagerHealth"
+    "PagerHealth",
+    "Lifesmart"
   ],
   "EN-01156": [
     "Walkingspree"
@@ -3398,7 +3428,8 @@
     "Numbase",
     "Passport & Co.",
     "Sante Group",
-    "Wellness360"
+    "Wellness360",
+    "Lifesmart"
   ],
   "EN-00368": [
     "BSDI",
@@ -3782,32 +3813,37 @@
   "EN-01083": [
     "Emma Health",
     "LifeSmart",
-    "Passport & Co."
+    "Passport & Co.",
+    "Lifesmart"
   ],
   "EN-01084": [
     "Emma Health",
     "LifeSmart",
     "Passport & Co.",
-    "Solas Mind"
+    "Solas Mind",
+    "Lifesmart"
   ],
   "EN-01085": [
     "Emma Health",
     "LifeSmart",
     "Passport & Co.",
-    "PagerHealth"
+    "PagerHealth",
+    "Lifesmart"
   ],
   "EN-01086": [
     "BSDI",
     "Emma Health",
     "LifeSmart",
-    "Passport & Co."
+    "Passport & Co.",
+    "Lifesmart"
   ],
   "EN-01087": [
     "Emma Health",
     "LifeSmart",
     "Oncology Physicians Network",
     "Passport & Co.",
-    "Solas Mind"
+    "Solas Mind",
+    "Lifesmart"
   ],
   "EN-00327": [
     "California Lithuanian Credit Un",
@@ -3982,13 +4018,15 @@
     "LifeSmart",
     "Lyra Health",
     "Oncology Physicians Network",
-    "Walkingspree"
+    "Walkingspree",
+    "Lifesmart"
   ],
   "EN-01452": [
     "LifeSmart",
     "Lyra Health",
     "Oncology Physicians Network",
-    "Walkingspree"
+    "Walkingspree",
+    "Lifesmart"
   ],
   "VLB-1378": [
     "Earn It",
@@ -9385,10 +9423,12 @@
     "YuLife"
   ],
   "EN-01565": [
-    "LifeSmart"
+    "LifeSmart",
+    "Lifesmart"
   ],
   "EN-01566": [
-    "LifeSmart"
+    "LifeSmart",
+    "Lifesmart"
   ],
   "EN-01636": [
     "YuLife"
@@ -9492,7 +9532,8 @@
   "EN-01455": [
     "Earn It",
     "LifeSmart",
-    "Oncology Physicians Network"
+    "Oncology Physicians Network",
+    "Lifesmart"
   ],
   "ART-0965": [
     "PagerHealth"
@@ -11698,5 +11739,29 @@
     "PagerHealth",
     "Navigate Wellbeing",
     "GoJoe"
+  ],
+  "FR-00032": [
+    "Lifesmart"
+  ],
+  "FR-00031": [
+    "Lifesmart"
+  ],
+  "DE-00010": [
+    "Lifesmart"
+  ],
+  "ES-00010": [
+    "Lifesmart"
+  ],
+  "PT-00014": [
+    "Lifesmart"
+  ],
+  "DE-00009": [
+    "Lifesmart"
+  ],
+  "NL-00024": [
+    "Lifesmart"
+  ],
+  "NL-00021": [
+    "Lifesmart"
   ]
 }
