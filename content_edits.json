@@ -83114,11 +83114,12 @@
   },
   "ART-1067": {
     "type": "Article",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-04T17:04:00.308Z",
     "category": "Fitness",
     "link": "https://docs.google.com/document/d/1G5V2L9SqDmmzewxOZo85IZw6eeZ2I_xSDqIHkjyQXsU/edit?usp=sharing",
     "author": "Emily Wilson",
-    "duration": "2"
+    "duration": "2",
+    "peer_reviewer": "Mar"
   },
   "ART-0738": {
     "type": "Article",
