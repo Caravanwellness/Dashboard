@@ -50126,12 +50126,12 @@
   },
   "DE-00009": {
     "type": "Video",
-    "_at": "2026-08-14T20:47:03.732Z",
+    "_at": "2026-09-04T21:08:03.073Z",
     "peer_reviewer": "Enja Schenck",
     "teacher": "Enja Schenck",
     "title_original": "Unterkörpertraining",
     "author": "Enja Schenck",
-    "title": "Lower Body Workout",
+    "title": "Unterkörpertraining",
     "vimeo_link": "https://vimeo.com/1067508637/fe05138fce",
     "date_created": "3/19/2025",
     "duration": "12"
@@ -60972,11 +60972,11 @@
   },
   "NL-00021": {
     "peer_reviewer": "Anna-Belle Buyse",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-09-04T21:08:03.073Z",
     "teacher": "Anna-Belle Buyse",
     "type": "Video",
     "title_original": "Yoga voor kracht",
-    "title": "Yoga for Strength",
+    "title": "Yoga Voor Kracht",
     "vimeo_link": "https://vimeo.com/1074335220/8fc0e54e0c",
     "link": "https://app.allinonewellbeing.com/videos/yoga-voor-kracht-deutsch",
     "date_created": "12/02/2024"
@@ -62240,12 +62240,12 @@
   },
   "DE-00010": {
     "peer_reviewer": "Enja Schenck",
-    "_at": "2026-09-04T19:07:36.779Z",
+    "_at": "2026-09-04T21:08:03.073Z",
     "author": "Anthony Crouchelli",
     "teacher": "Enja Schenck",
     "type": "Video",
     "title_original": "Ganzkörpertraining",
-    "title": "Full Body Workout",
+    "title": "Ganzkörpertraining",
     "vimeo_link": "https://vimeo.com/1067491698/d70788acee",
     "link": "https://app.allinonewellbeing.com/videos/ganzkorpertraining-deutsch",
     "date_created": "3/19/2025"
@@ -62511,7 +62511,7 @@
   },
   "EN-01566": {
     "author": "Mila Toribio",
-    "_at": "2026-09-01T17:08:42.913Z",
+    "_at": "2026-09-04T21:08:03.073Z",
     "language": "English",
     "duration": "5",
     "date_created": "12/11/2025",
@@ -62519,7 +62519,8 @@
     "teacher": "Mila Toribio",
     "vimeo_link": "https://vimeo.com/1145685732/2a4e97ef29?share=copy&fl=sv&fe=ci",
     "category": "Joint Health",
-    "branding": "White-Label"
+    "branding": "White-Label",
+    "title": "Knee Relief Foam Rolling Routine"
   },
   "PT-00062": {
     "peer_reviewer": "Mila Toribio",
@@ -63126,11 +63127,11 @@
   },
   "FR-00031": {
     "peer_reviewer": "Manon Hallay",
-    "_at": "2026-09-04T19:07:36.779Z",
+    "_at": "2026-09-04T21:08:03.073Z",
     "teacher": "Manon Hallay",
     "type": "Video",
     "title_original": "Entraînement de force pour le corps entier - intermédiaire",
-    "title": "Full Body Strength Training - Intermediate",
+    "title": "Entraînement de Force Pour Le Corps Entier – Intermédiaire",
     "vimeo_link": "https://vimeo.com/1067508377/b949ff8019",
     "link": "https://watch.caravanwellness.com/videos/entrainement-de-force-pour-le-corps-entier-intermediaire",
     "date_created": "3/19/2025"
@@ -63326,11 +63327,11 @@
   },
   "ES-00010": {
     "peer_reviewer": "Dublin Salas",
-    "_at": "2026-09-04T19:07:36.779Z",
+    "_at": "2026-09-04T21:08:03.073Z",
     "teacher": "Dublin Salas",
     "type": "Video",
     "title_original": "Secuencia de yoga",
-    "title": "Yoga Sequence",
+    "title": "Secuencia De Yoga",
     "vimeo_link": "https://vimeo.com/1067806227/ebf5a34170",
     "link": "https://caravanwellness.vhx.tv/videos/secuencia-de-yoga-espanol",
     "date_created": "3/20/2025"
@@ -63392,12 +63393,12 @@
   },
   "NL-00024": {
     "peer_reviewer": "Anna-Belle Buyse",
-    "_at": "2026-09-04T19:07:36.779Z",
+    "_at": "2026-09-04T21:08:03.073Z",
     "author": "Liz Ilgenfritz",
     "teacher": "Anna-Belle Buyse",
     "type": "Video",
     "title_original": "Yoga voor de buikspieren",
-    "title": "Yoga for Abs",
+    "title": "Yoga Voor De Buikspieren",
     "vimeo_link": "https://vimeo.com/1074333233/c6a4c8c9d2",
     "link": "https://app.allinonewellbeing.com/videos/yoga-voor-de-buikspieren-deutsch",
     "date_created": "4/10/2025"
@@ -63924,12 +63925,12 @@
   },
   "PT-00014": {
     "peer_reviewer": "Mila Toribio",
-    "_at": "2026-09-04T19:07:36.779Z",
+    "_at": "2026-09-04T21:08:03.073Z",
     "teacher": "Mila Toribio",
     "type": "Video",
     "author": "Mila Toribio",
     "title_original": "Pilates para braços e costas",
-    "title": "Pilates for Arms and Back",
+    "title": "Pilates Para Braços E Costas",
     "vimeo_link": "https://vimeo.com/1067861092/3aa0097bd0",
     "link": "https://watch.caravanwellness.com/videos/pilates-para-bracos-e-costas-portugues",
     "date_created": "3/20/2025"
@@ -64984,12 +64985,12 @@
   },
   "FR-00032": {
     "peer_reviewer": "Manon Hallay",
-    "_at": "2026-09-04T19:07:36.779Z",
+    "_at": "2026-09-04T21:08:03.073Z",
     "teacher": "Manon Hallay",
     "author": "Manon Hallay",
     "type": "Video",
     "title_original": "Entraînement cardio",
-    "title": "Cardio Workout",
+    "title": "Entraînement Cardio",
     "vimeo_link": "https://vimeo.com/1067507048/f500917fa8",
     "link": "https://watch.caravanwellness.com/videos/entrainement-cardio",
     "date_created": "3/19/2025"
@@ -66546,7 +66547,7 @@
   },
   "EN-01565": {
     "author": "Mila Toribio",
-    "_at": "2026-09-01T17:08:42.913Z",
+    "_at": "2026-09-04T21:08:03.073Z",
     "duration": "5",
     "language": "English",
     "date_created": "12/11/2025",
@@ -66554,7 +66555,8 @@
     "teacher": "Mila Toribio",
     "vimeo_link": "https://vimeo.com/1145685546/eb5bf0df35?share=copy&fl=sv&fe=ci",
     "category": "Joint Health",
-    "branding": "White-Label"
+    "branding": "White-Label",
+    "title": "Hip Joint Relief Foam Rolling Routine"
   },
   "EN-01849": {
     "peer_reviewer": "Katie Attubato",
