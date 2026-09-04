@@ -1,45 +1,7 @@
 {
   "clients": [
     "YuLife",
-    "Hapstar",
-    "Wellics",
-    "Oncology Physicians Network",
-    "Carebook",
-    "BSDI",
-    "Emma Health",
-    "Navigate Wellbeing",
-    "Kardi AI",
-    "WPO",
-    "Big Yellow Fish",
-    "Marino Wellness",
-    "Curela",
-    "Solas Mind",
-    "Bolton Hotel",
-    "Welldoc",
-    "Lyra Health",
-    "Sante Group",
-    "California Lithuanian Credit Un",
-    "Spectrum.life",
-    "Keel Mind",
-    "Earn It",
-    "GoJoe",
-    "Healthee",
-    "JAAQ",
-    "LifeSmart",
-    "Loune.co (needs to be confirmed",
-    "Luro Health",
-    "Mobitrans (will be updated with",
-    "Numbase",
-    "Passport & Co.",
-    "Promethium Medical",
-    "SAFE Federal Credit Union",
-    "The Difference Card",
-    "Walkingspree",
-    "Wellness360",
-    "Wellsort",
-    "i9med",
-    "PagerHealth",
-    "Licensed RecipesArticles"
+    "Hapstar"
   ],
   "meta": {
     "YuLife": {
@@ -49,10 +11,6 @@
     "Hapstar": {
       "delivery": "Portal",
       "notes": ""
-    },
-    "PagerHealth": {
-      "delivery": "",
-      "notes": "Added via Master Video List reconciliation (Licensed to: PagerHealth)"
     }
   }
 }
