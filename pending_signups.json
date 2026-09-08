@@ -16,5 +16,11 @@
     "passwordHash": "6e0fe12fd752d1bd3b3768dd044cb0e323f4ad2c2c8affef8bd73c10d1006acf",
     "otp": "790303",
     "expiresAt": "2026-08-05T19:18:06.813Z"
+  },
+  "leo.wang@caravanwellness.com": {
+    "name": "Leo Wang",
+    "passwordHash": "a9779fb60b0dcac9fffb670da770f4380c4c67375f2994f8756a05c3f634e9c5",
+    "otp": "161733",
+    "expiresAt": "2026-09-08T16:23:16.219Z"
   }
 }
