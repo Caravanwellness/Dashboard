@@ -1612,7 +1612,7 @@ async function handleImportFile(file) {
         if (!rawTitle && !matchedById) continue;
 
         // Skip pure section-header rows (no URL and no length and title matches a section-like value)
-        const hasUrl = String(row['url'] || row['link'] || '').trim();
+        const hasUrl = String(row['url'] || row['link'] || row['content / article link'] || row['content/article link'] || row['article link'] || row['content link'] || '').trim();
         const hasLen = String(row['length'] || '').trim();
         if (!matchedById && !hasUrl && !hasLen && sectionVal === rawTitle) continue;
 
@@ -1682,7 +1682,10 @@ async function handleImportFile(file) {
             // not, for backward compatibility with files that don't split them.
             const vimeoVal = String(row['vimeo'] || '').trim();
             const wellbeingVal = String(row['wellbeing'] || '').trim();
-            const genericUrl = String(row['url'] || row['link'] || '').trim();
+            // 'content / article link' etc. match the exact column header this
+            // app's own CSV export produces for the link field — without these,
+            // re-importing an exported/edited file silently recognizes nothing.
+            const genericUrl = String(row['url'] || row['link'] || row['content / article link'] || row['content/article link'] || row['article link'] || row['content link'] || '').trim();
             const urlFieldUpdates = [];
             if (vimeoVal) urlFieldUpdates.push(['vimeo_link', vimeoVal]);
             else if (genericUrl.includes('vimeo')) urlFieldUpdates.push(['vimeo_link', genericUrl]);
@@ -1701,7 +1704,7 @@ async function handleImportFile(file) {
           // New item
           const vimeoVal = String(row['vimeo'] || '').trim();
           const wellbeingVal = String(row['wellbeing'] || '').trim();
-          const url = String(row['url'] || row['link'] || '').trim();
+          const url = String(row['url'] || row['link'] || row['content / article link'] || row['content/article link'] || row['article link'] || row['content link'] || '').trim();
           const teacher = String(row['expert'] || row['teacher'] || row['instructor'] || '').trim();
           const rawLen = String(row['length'] || '').trim();
           const duration = parseDuration(rawLen);
