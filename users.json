@@ -84,5 +84,10 @@
     "name": "Jemma Park",
     "passwordHash": "4ab4364c7f38783f1af1817724514a6614314ad58156c3857106a03ecaca1dcd",
     "createdAt": "2026-08-25T15:49:29.236Z"
+  },
+  "leo.wang@caravanwellness.com": {
+    "name": "Leo Wang",
+    "passwordHash": "a9779fb60b0dcac9fffb670da770f4380c4c67375f2994f8756a05c3f634e9c5",
+    "createdAt": "2026-09-08T16:13:37.192Z"
   }
 }
