@@ -1622,12 +1622,13 @@
   },
   "ART-0140": {
     "author": "Marlee Alanis",
-    "_at": "2026-08-14T15:58:40.772Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Diane McNaught",
     "category": "Health",
     "language": "English",
     "duration": "2",
-    "title": "The Importance Of Pelvic Floor Health For Men & Women"
+    "title": "The Importance Of Pelvic Floor Health For Men & Women",
+    "link": "https://blog.caravanwellness.com/the-importance-of-pelvic-floor-health-for-men-women/"
   },
   "ART-0143": {
     "peer_reviewer": "Marlee Alanis",
@@ -1650,12 +1651,12 @@
   },
   "ART-0145": {
     "author": "Marlee Alanis",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Diane McNaught",
     "duration": "3",
     "language": "English",
     "date_created": "09/24/2025",
-    "link": "https://docs.google.com/document/d/1MOQ-pFGB3HpdZfyuOkenBmt2hhhuuH9JTXftPNi4aeY/edit?usp=sharing",
+    "link": "https://docs.google.com/document/d/1lG27VPkRzzA3X2j2oZx4EMFgfstc2E2faGf_Nepnp9w/edit?usp=sharing",
     "title": "Honey Is Transforming Hair Care",
     "category": "Health"
   },
@@ -11332,7 +11333,7 @@
   },
   "EN-01819": {
     "author": "Jessica Cording",
-    "_at": "2026-08-21T20:39:10.325Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "teacher": "Jessica Cording",
     "language": "English",
     "type": "Video",
@@ -11340,7 +11341,8 @@
     "peer_reviewer": "Marlee Alanis",
     "date_created": "5/6/2026",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1189816134/33124fc2e4?share=copy&fl=sv&fe=ci"
+    "vimeo_link": "https://vimeo.com/1189816134/33124fc2e4?share=copy&fl=sv&fe=ci",
+    "link": "https://app.allinonewellbeing.com/videos/establishing-a-healthy-relationship-with-alcohol"
   },
   "EN-01820": {
     "author": "Jessica Cording",
@@ -17324,7 +17326,7 @@
   },
   "EN-00804": {
     "author": "Thai James",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "teacher": "Thai James",
     "duration": "10",
     "language": "English",
@@ -17332,7 +17334,8 @@
     "peer_reviewer": "Marlee Alanis",
     "date_created": "3/25/2025",
     "version": "1",
-    "vimeo_link": "https://vimeo.com/1069367734/9fd100c617"
+    "vimeo_link": "https://vimeo.com/1069367734/9fd100c617",
+    "link": "https://app.allinonewellbeing.com/videos/moving-meditation-commuter-mindfulness"
   },
   "EN-00857": {
     "author": "Thai James",
@@ -19917,7 +19920,7 @@
   },
   "EN-01536": {
     "author": "Crystal Williams",
-    "_at": "2026-09-04T19:07:36.779Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "teacher": "Crystal Williams",
     "licenses": [
       "Numbase"
@@ -19928,7 +19931,8 @@
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
     "review_priority": "Low",
-    "date_created": "9/19/2025"
+    "date_created": "9/19/2025",
+    "link": "https://app.allinonewellbeing.com/videos/cardio-de-baixo-impacto-portugues"
   },
   "EN-01537": {
     "teacher": "Crystal Williams",
@@ -27092,94 +27096,103 @@
   },
   "EN-01684": {
     "author": "Nicole Guerrero",
-    "_at": "2026-09-04T19:07:36.779Z",
-    "teacher": "Nicole Guerrero",
-    "language": "English",
-    "type": "Video",
-    "peer_reviewer": "Marlee Alanis",
-    "version": "1",
-    "date_created": "12/5/2025"
-  },
-  "EN-01685": {
-    "author": "Nicole Guerrero",
-    "_at": "2026-09-04T19:07:36.779Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "teacher": "Nicole Guerrero",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
     "date_created": "12/5/2025",
-    "duration": ""
+    "link": "https://app.allinonewellbeing.com/videos/stress-vs-urge-incontinence"
+  },
+  "EN-01685": {
+    "author": "Nicole Guerrero",
+    "_at": "2026-09-08T13:39:28.792Z",
+    "teacher": "Nicole Guerrero",
+    "language": "English",
+    "type": "Video",
+    "peer_reviewer": "Marlee Alanis",
+    "version": "1",
+    "date_created": "12/5/2025",
+    "duration": "",
+    "link": "https://app.allinonewellbeing.com/videos/understanding-acute-vs-chronic-cystitis"
   },
   "EN-01686": {
     "author": "Nicole Guerrero",
-    "_at": "2026-09-04T19:07:36.779Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "teacher": "Nicole Guerrero",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "date_created": "12/5/2025"
+    "date_created": "12/5/2025",
+    "link": "https://app.allinonewellbeing.com/videos/pelvic-organ-prolapse"
   },
   "EN-01687": {
     "author": "Nicole Guerrero",
-    "_at": "2026-09-04T19:07:36.779Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "teacher": "Nicole Guerrero",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "date_created": "12/5/2025"
+    "date_created": "12/5/2025",
+    "link": "https://app.allinonewellbeing.com/videos/understanding-pelvic-pain-1"
   },
   "EN-01688": {
     "author": "Nicole Guerrero",
-    "_at": "2026-09-04T19:07:36.779Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "teacher": "Nicole Guerrero",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "date_created": "12/5/2025"
+    "date_created": "12/5/2025",
+    "link": "https://app.allinonewellbeing.com/videos/understanding-recurring-uti-s"
   },
   "EN-01689": {
     "author": "Nicole Guerrero",
-    "_at": "2026-09-04T19:07:36.779Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "teacher": "Nicole Guerrero",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "date_created": "12/5/2025"
+    "date_created": "12/5/2025",
+    "link": "https://app.allinonewellbeing.com/videos/understanding-pain-during-sex"
   },
   "EN-01690": {
     "author": "Nicole Guerrero",
-    "_at": "2026-09-04T19:07:36.779Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "teacher": "Nicole Guerrero",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "date_created": "12/5/2025"
+    "date_created": "12/5/2025",
+    "link": "https://app.allinonewellbeing.com/videos/nighttime-urination-what-it-means"
   },
   "EN-01691": {
     "author": "Nicole Guerrero",
-    "_at": "2026-09-04T19:07:36.779Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "teacher": "Nicole Guerrero",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "date_created": "12/5/2025"
+    "date_created": "12/5/2025",
+    "link": "https://app.allinonewellbeing.com/videos/managing-difficulty-emptying-your-bladder"
   },
   "EN-01692": {
     "author": "Nicole Guerrero",
-    "_at": "2026-09-04T19:07:36.779Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "teacher": "Nicole Guerrero",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "version": "1",
-    "date_created": "12/5/2025"
+    "date_created": "12/5/2025",
+    "link": "https://app.allinonewellbeing.com/videos/leaking-after-childbirth-1"
   },
   "VLB-1609": {
     "teacher": "Nicole Guerrero",
@@ -30064,14 +30077,15 @@
   },
   "EN-01612": {
     "teacher": "Dr. Fahim Pyarali",
-    "_at": "2026-08-14T13:35:35.842Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "author": "Mercedez Meza",
     "duration": "5",
     "language": "English",
     "type": "Video",
     "peer_reviewer": "Marlee Alanis",
     "date_created": "1/5/2026",
-    "vimeo_link": "https://vimeo.com/1151694899/908ee4e5c5?share=copy&fl=sv&fe=ci"
+    "vimeo_link": "https://vimeo.com/1151694899/908ee4e5c5?share=copy&fl=sv&fe=ci",
+    "link": "https://app.allinonewellbeing.com/videos/common-misconceptions-about-copd"
   },
   "EN-01613": {
     "author": "Dr. Fahim Pyarali",
@@ -30114,13 +30128,13 @@
   },
   "EN-01719": {
     "teacher": "Dr. Fahim Pyarali",
-    "_at": "2026-08-18T14:20:23.775Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "language": "English",
     "type": "Video",
     "duration": "2",
     "peer_reviewer": "Marlee Alanis",
     "author": "Dr. Fahim Pyarali",
-    "link": "https://vimeo.com/1177355416/745be9e375?share=copy&fl=sv&fe=ci",
+    "link": "https://app.allinonewellbeing.com/videos/what-to-expect-before-after-a-covid-vaccination",
     "date_created": "3/26/2026",
     "references": "Centers for Disease Control and Prevention. (2024). Getting your COVID-19 vaccine. CDC. https://www.cdc.gov/covid/vaccines/getting-your-covid-19-vaccine.html World Health Organization. (2023). COVID-19 vaccines advice. WHO. https://www.who.int/emergencies/diseases/novel-coronavirus-2019/covid-19-vaccines/advice Centers for Disease Control and Prevention. (2024). Safety considerations for COVID-19 vaccines. CDC. https://www.cdc.gov/covid/hcp/vaccine-considerations/safety-considerations.html",
     "version": "1"
@@ -30214,7 +30228,7 @@
   },
   "EN-01765": {
     "author": "Dr. Fahim Pyarali",
-    "_at": "2026-08-18T14:20:23.775Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "teacher": "Dr. Fahim Pyarali",
     "language": "English",
     "type": "Video",
@@ -30222,7 +30236,7 @@
     "version": "1",
     "date_created": "8/17/2026",
     "duration": "1",
-    "link": "https://app.allinonewellbeing.com/copd-asthma-management",
+    "link": "https://app.allinonewellbeing.com/videos/how-pets-can-trigger-asthma-how-to-minimize-risk",
     "references": "National Institute of Environmental Health Sciences. (2026). Pet Allergens. https://www.niehs.nih.gov/health/topics/agents/allergens/pets\n\nMayo Clinic. (2025). Pet allergy – Symptoms & causes. https://www.mayoclinic.org/diseases-conditions/pet-allergy/symptoms-causes/syc-20352192\n\nInternational Journal of Molecular Sciences. (2024). Allergies to Allergens from Cats and Dogs: A Review and Update on Sources, Pathogenesis, and Strategies. https://www.mdpi.com/1422-0067/25/19/10520",
     "author_creds": "Pulmonologist"
   },
@@ -36813,13 +36827,13 @@
   },
   "EN-00205": {
     "type": "Video",
-    "_at": "2026-08-18T14:20:23.775Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
     "category": "Stretching",
     "teacher": "Steven Rousseau",
     "author": "Steven Rousseau",
     "duration": "10",
-    "link": "https://app.allinonewellbeing.com/videos/stretching-e1"
+    "link": "https://app.allinonewellbeing.com/full-body-burn/videos/10-min-full-body-stretching"
   },
   "EN-00295": {
     "author": "Steven Rousseau",
@@ -42630,12 +42644,13 @@
   },
   "EN-00326": {
     "type": "Video",
-    "_at": "2026-08-14T18:42:27.987Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
     "category": "Meditation",
     "teacher": "Maga Villarreal",
     "author": "Maga Villarreal",
-    "duration": "10"
+    "duration": "10",
+    "link": "https://app.allinonewellbeing.com/sound-healing-for-relaxation/videos/10-min-sound-healing"
   },
   "VID-0487": {
     "author": "Leo Rising",
@@ -46603,13 +46618,14 @@
   },
   "ART-0226": {
     "peer_reviewer": "Alyssa Lagasca",
-    "_at": "2026-08-14T15:58:40.772Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "language": "English",
     "duration": "2",
     "title": "The Symbiotic Relationship Between Financial Wellness & Physical Wellbeing",
     "category": "Financial Wellness",
     "author": "Marlee Alanis",
-    "notes": "Financial Wellness and Financial Literacy seem to be used interchangably in this one- do we want to keep that or adjust?"
+    "notes": "Financial Wellness and Financial Literacy seem to be used interchangably in this one- do we want to keep that or adjust?",
+    "link": "https://docs.google.com/document/d/1SOImsKRnVVQeWmfNm6NJGMfDg8YuxoNa/edit#heading=h.gjdgxs"
   },
   "EN-01461": {
     "type": "Video",
@@ -60583,13 +60599,14 @@
   },
   "EN-01873": {
     "peer_reviewer": "Soja Moore",
-    "_at": "2026-09-04T19:07:36.779Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "language": "English",
     "author": "Soja Moore",
     "teacher": "Soja Moore",
     "type": "Video",
     "version": "1",
-    "date_created": "3/6/2026"
+    "date_created": "3/6/2026",
+    "link": "https://app.allinonewellbeing.com/overcoming-fear-of-movement/videos/how-inactivity-impacts-muscles-joints"
   },
   "FR-00083": {
     "peer_reviewer": "Margaux de Noiron",
@@ -60715,10 +60732,11 @@
   },
   "EN-01870": {
     "author": "Dr. Joe Feuerstein",
-    "_at": "2026-09-04T19:07:36.779Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "language": "English",
     "peer_reviewer": "Marlee Alanis",
-    "date_created": "3/6/2026"
+    "date_created": "3/6/2026",
+    "link": "https://app.allinonewellbeing.com/videos/how-genetic-changes-can-cause-cancer"
   },
   "AR-00065": {
     "peer_reviewer": "Teriz Michael",
@@ -60875,10 +60893,11 @@
   },
   "PT-00083": {
     "peer_reviewer": "Mila Toribio",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "teacher": "Mila Toribio",
     "type": "Video",
-    "date_created": "02/02/2026"
+    "date_created": "02/02/2026",
+    "link": "https://app.allinonewellbeing.com/videos/a-importancia-da-recuperacao-para-ter-melhores-resultados-nos-exercicios-how-recovery-supports-better-results-portugues"
   },
   "EN-01916": {
     "peer_reviewer": "Katie Attubato",
@@ -61169,13 +61188,14 @@
   },
   "EN-01874": {
     "peer_reviewer": "Soja Moore",
-    "_at": "2026-09-04T19:07:36.779Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "language": "English",
     "author": "Soja Moore",
     "teacher": "Soja Moore",
     "type": "Video",
     "version": "1",
-    "date_created": "3/6/2026"
+    "date_created": "3/6/2026",
+    "link": "https://app.allinonewellbeing.com/overcoming-fear-of-movement/videos/the-difference-between-discomfort-effort-pain"
   },
   "ES-00174": {
     "peer_reviewer": "Dr. David Sanchez",
@@ -61738,11 +61758,12 @@
   },
   "EN-01889": {
     "author": "Mercedez Meza",
-    "_at": "2026-09-04T19:07:36.779Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "language": "English",
     "peer_reviewer": "Marlee Alanis",
     "category": "Brain Health",
-    "date_created": "3/19/2026"
+    "date_created": "3/19/2026",
+    "link": "https://app.allinonewellbeing.com/videos/how-concussions-affect-the-brain-1"
   },
   "EN-01863": {
     "author": "Dr. Joe Feuerstein",
@@ -61879,13 +61900,14 @@
   },
   "EN-01871": {
     "peer_reviewer": "Soja Moore",
-    "_at": "2026-09-04T19:07:36.779Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "language": "English",
     "author": "Soja Moore",
     "teacher": "Soja Moore",
     "type": "Video",
     "version": "1",
-    "date_created": "3/6/2026"
+    "date_created": "3/6/2026",
+    "link": "https://app.allinonewellbeing.com/overcoming-fear-of-movement/videos/overcoming-fear-of-movement"
   },
   "EN-01934": {
     "peer_reviewer": "Sharisse Victor-Newmam",
@@ -61952,10 +61974,11 @@
   },
   "PT-00078": {
     "peer_reviewer": "Mila Toribio",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "teacher": "Mila Toribio",
     "type": "Video",
-    "date_created": "02/02/2026"
+    "date_created": "02/02/2026",
+    "link": "https://app.allinonewellbeing.com/videos/quanto-exercicio-voce-realmente-precisa-para-ter-saude-how-much-exercise-do-you-really-need-for-health-portugues"
   },
   "TH-00010": {
     "peer_reviewer": "Nathaorn Wanganutara",
@@ -62147,10 +62170,11 @@
   },
   "PT-00081": {
     "peer_reviewer": "Mila Toribio",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "teacher": "Mila Toribio",
     "type": "Video",
-    "date_created": "02/02/2026"
+    "date_created": "02/02/2026",
+    "link": "https://app.allinonewellbeing.com/videos/exercitando-se-com-dor-nas-costas-de-forma-segura-exercising-with-back-pain-safely-portugues"
   },
   "EN-01941": {
     "peer_reviewer": "Sharisse Victor-Newmam",
@@ -62164,13 +62188,14 @@
   },
   "EN-01878": {
     "peer_reviewer": "Soja Moore",
-    "_at": "2026-09-04T19:07:36.779Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "language": "English",
     "author": "Soja Moore",
     "teacher": "Soja Moore",
     "type": "Video",
     "version": "1",
-    "date_created": "3/6/2026"
+    "date_created": "3/6/2026",
+    "link": "https://app.allinonewellbeing.com/overcoming-fear-of-movement/videos/creating-a-sense-of-safety-in-movement"
   },
   "HI-00008": {
     "peer_reviewer": "Pallavi Mohoni",
@@ -62418,13 +62443,14 @@
   },
   "EN-01899": {
     "peer_reviewer": "Shaimaine Loiacono",
-    "_at": "2026-09-04T19:07:36.779Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "language": "English",
     "author": "Shaimaine Loiacono",
     "teacher": "Shaimaine Loiacono",
     "type": "Video",
     "version": "1",
-    "date_created": "3/19/2026"
+    "date_created": "3/19/2026",
+    "link": "https://app.allinonewellbeing.com/videos/pilates-for-spinal-stability"
   },
   "PL-00009": {
     "peer_reviewer": "Margo Gladys",
@@ -62643,10 +62669,11 @@
   },
   "PT-00082": {
     "peer_reviewer": "Mila Toribio",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "teacher": "Mila Toribio",
     "type": "Video",
-    "date_created": "02/02/2026"
+    "date_created": "02/02/2026",
+    "link": "https://app.allinonewellbeing.com/videos/o-papel-do-movimento-no-controle-da-dor-portugues"
   },
   "NL-00025": {
     "peer_reviewer": "Anna-Belle Buyse",
@@ -62826,10 +62853,11 @@
   },
   "PT-00079": {
     "peer_reviewer": "Mila Toribio",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "teacher": "Mila Toribio",
     "type": "Video",
-    "date_created": "02/02/2026"
+    "date_created": "02/02/2026",
+    "link": "https://app.allinonewellbeing.com/videos/estrategias-de-movimento-para-controle-da-glicose-no-sangue-movement-strategies-for-blood-sugar-control-portugues"
   },
   "PT-00002": {
     "peer_reviewer": "Cris Di Dario",
@@ -62924,9 +62952,10 @@
   },
   "PT-00085": {
     "peer_reviewer": "Mila Toribio",
-    "_at": "2026-08-12T22:52:25.610Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "teacher": "Mila Toribio",
-    "type": "Video"
+    "type": "Video",
+    "link": "https://app.allinonewellbeing.com/videos/quanto-exercicio-voce-realmente-precisa-para-ter-saude-how-much-exercise-do-you-really-need-for-health-portugues"
   },
   "ES-00166": {
     "peer_reviewer": "Victor Pereira Sanchez",
@@ -62950,10 +62979,11 @@
   },
   "PT-00084": {
     "peer_reviewer": "Mila Toribio",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "teacher": "Mila Toribio",
     "type": "Video",
-    "date_created": "02/02/2026"
+    "date_created": "02/02/2026",
+    "link": "https://app.allinonewellbeing.com/videos/rotina-de-exercicios-equilibrada-para-controle-de-peso-balanced-fitness-routine-for-weight-management-portugues"
   },
   "ES-00003": {
     "peer_reviewer": "Mary Solis",
@@ -63117,13 +63147,14 @@
   },
   "EN-01879": {
     "peer_reviewer": "Soja Moore",
-    "_at": "2026-09-04T19:07:36.779Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "language": "English",
     "author": "Soja Moore",
     "teacher": "Soja Moore",
     "type": "Video",
     "version": "1",
-    "date_created": "3/6/2026"
+    "date_created": "3/6/2026",
+    "link": "https://app.allinonewellbeing.com/overcoming-fear-of-movement/videos/starting-slow-to-build-movement-tolerance"
   },
   "FR-00031": {
     "peer_reviewer": "Manon Hallay",
@@ -63423,13 +63454,14 @@
   },
   "EN-01898": {
     "peer_reviewer": "Shaimaine Loiacono",
-    "_at": "2026-09-04T19:07:36.779Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "language": "English",
     "author": "Shaimaine Loiacono",
     "teacher": "Shaimaine Loiacono",
     "type": "Video",
     "version": "1",
-    "date_created": "3/19/2026"
+    "date_created": "3/19/2026",
+    "link": "https://app.allinonewellbeing.com/videos/pilates-for-chronic-back-pain"
   },
   "DE-00020": {
     "peer_reviewer": "Julika Von Stackelberg",
@@ -63937,13 +63969,13 @@
   },
   "EN-01757": {
     "peer_reviewer": "Dr. David Sanchez",
-    "_at": "2026-08-18T14:20:23.775Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "teacher": "Dr. David Sanchez",
     "language": "English",
     "author": "Dr. David Sanchez",
     "type": "Video",
     "vimeo_link": "https://vimeo.com/1187375909/12201363c1?share=copy&fl=sv&fe=ci",
-    "link": "https://vimeo.com/1187375909/12201363c1?share=copy&fl=sv&fe=ci",
+    "link": "https://app.allinonewellbeing.com/videos/why-vaccination-matters-for-community-immunity",
     "date_created": "4/28/2026",
     "references": "National Health Service. (2024). Why vaccination is important and the safest way to protect yourself. NHS. https://www.nhs.uk/vaccinations/why-vaccination-is-important-and-the-safest-way-to-protect-yourself/ U.S. Department of Health and Human Services. (2024). Vaccines protect your community. HHS. https://www.hhs.gov/immunization/basics/work/protection/index.html Centers for Disease Control and Prevention. (2024). 5 reasons it is important for adults to get vaccinated. CDC. https://www.cdc.gov/vaccines-adults/reasons/index.html World Health Organization. (2024). Vaccines and immunization. WHO. https://www.who.int/health-topics/vaccines-and-immunization",
     "version": "1",
@@ -64482,21 +64514,23 @@
   },
   "EN-01900": {
     "peer_reviewer": "Shaimaine Loiacono",
-    "_at": "2026-09-04T19:07:36.779Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "language": "English",
     "author": "Shaimaine Loiacono",
     "teacher": "Shaimaine Loiacono",
     "type": "Video",
     "version": "1",
-    "date_created": "3/19/2026"
+    "date_created": "3/19/2026",
+    "link": "https://app.allinonewellbeing.com/videos/pilates-hip-pelvis-alignment"
   },
   "PT-00080": {
     "peer_reviewer": "Mila Toribio",
-    "_at": "2026-08-14T17:51:35.959Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "teacher": "Mila Toribio",
     "type": "Video",
     "author": "Mila Toribio",
-    "date_created": "02/02/2026"
+    "date_created": "02/02/2026",
+    "link": "https://app.allinonewellbeing.com/videos/entendendo-os-niveis-de-intensidade-do-cardio-portugues"
   },
   "ES-00052": {
     "peer_reviewer": "Jon Anthony (Tony) Meyer",
@@ -64516,13 +64550,14 @@
   },
   "EN-01872": {
     "peer_reviewer": "Soja Moore",
-    "_at": "2026-09-04T19:07:36.779Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "language": "English",
     "author": "Soja Moore",
     "teacher": "Soja Moore",
     "type": "Video",
     "version": "1",
-    "date_created": "3/6/2026"
+    "date_created": "3/6/2026",
+    "link": "https://app.allinonewellbeing.com/overcoming-fear-of-movement/videos/letting-go-of-fragile-body-thinking"
   },
   "EN-01903": {
     "language": "English",
@@ -64683,13 +64718,14 @@
   },
   "EN-01880": {
     "peer_reviewer": "Soja Moore",
-    "_at": "2026-09-04T19:07:36.779Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "language": "English",
     "author": "Soja Moore",
     "teacher": "Soja Moore",
     "type": "Video",
     "version": "1",
-    "date_created": "3/6/2026"
+    "date_created": "3/6/2026",
+    "link": "https://app.allinonewellbeing.com/overcoming-fear-of-movement/videos/how-to-safely-increase-exercise-intensity"
   },
   "EN-01923": {
     "peer_reviewer": "Katie Attubato",
@@ -65307,13 +65343,13 @@
   },
   "EN-01762": {
     "peer_reviewer": "Dr. David Sanchez",
-    "_at": "2026-09-01T17:08:42.913Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "teacher": "Dr. David Sanchez",
     "language": "English",
     "author": "Dr. David Sanchez",
     "type": "Video",
     "vimeo_link": "https://vimeo.com/1187375670/c9d2945907?share=copy&fl=sv&fe=ci",
-    "link": "https://app.allinonewellbeing.com/videos/vaccines-during-pregnancy-breastfeeding",
+    "link": "http://app.allinonewellbeing.com/videos/vaccines-during-pregnancy-breastfeeding",
     "date_created": "4/28/2026",
     "references": "Centers for Disease Control and Prevention. (2024). Pregnancy and vaccines. CDC. https://www.cdc.gov/vaccine-safety/about/pregnancy.html Centers for Disease Control and Prevention. (2024). Vaccine recommendations before, during, and after pregnancy. CDC. https://www.cdc.gov/vaccines-pregnancy/recommended-vaccines/index.html Centers for Disease Control and Prevention. (2024). Guidelines for vaccinating pregnant women. CDC. https://www.cdc.gov/vaccines-pregnancy/hcp/vaccination-guidelines/index.html Centers for Disease Control and Prevention. (2024). COVID-19 vaccination for women who are pregnant or breastfeeding. CDC. https://www.cdc .gov/covid/vaccines/pregnant-or-breastfeeding.html",
     "version": "1",
@@ -65709,13 +65745,14 @@
   },
   "EN-01876": {
     "peer_reviewer": "Soja Moore",
-    "_at": "2026-09-04T19:07:36.779Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "language": "English",
     "author": "Soja Moore",
     "teacher": "Soja Moore",
     "type": "Video",
     "version": "1",
-    "date_created": "3/6/2026"
+    "date_created": "3/6/2026",
+    "link": "https://app.allinonewellbeing.com/overcoming-fear-of-movement/videos/why-your-body-holds-tension-physically"
   },
   "PT-00056": {
     "peer_reviewer": "Gisele Espin",
@@ -65917,13 +65954,14 @@
   },
   "EN-01875": {
     "peer_reviewer": "Soja Moore",
-    "_at": "2026-09-04T19:07:36.779Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "language": "English",
     "author": "Soja Moore",
     "teacher": "Soja Moore",
     "type": "Video",
     "version": "1",
-    "date_created": "3/6/2026"
+    "date_created": "3/6/2026",
+    "link": "https://app.allinonewellbeing.com/overcoming-fear-of-movement/videos/understanding-protective-muscle-guarding"
   },
   "FR-00030": {
     "peer_reviewer": "Angéline Galinier-Warrain",
@@ -65936,13 +65974,14 @@
   },
   "EN-01901": {
     "peer_reviewer": "Shaimaine Loiacono",
-    "_at": "2026-09-04T19:07:36.779Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "language": "English",
     "author": "Shaimaine Loiacono",
     "teacher": "Shaimaine Loiacono",
     "type": "Video",
     "version": "1",
-    "date_created": "3/19/2026"
+    "date_created": "3/19/2026",
+    "link": "https://app.allinonewellbeing.com/videos/full-body-beginner-pilates-workout-for-men"
   },
   "PT-00041": {
     "peer_reviewer": "Mila Toribio",
@@ -66265,11 +66304,12 @@
   },
   "EN-01866": {
     "author": "Dr. Joe Feuerstein",
-    "_at": "2026-09-04T19:07:36.779Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "language": "English",
     "peer_reviewer": "Marlee Alanis",
     "category": "Fitness",
-    "date_created": "3/6/2026"
+    "date_created": "3/6/2026",
+    "link": "https://app.allinonewellbeing.com/videos/the-importance-of-active-recovery-1"
   },
   "ES-00086": {
     "peer_reviewer": "Eneida Farro",
@@ -66569,14 +66609,15 @@
   },
   "EN-01902": {
     "peer_reviewer": "Shaimaine Loiacono",
-    "_at": "2026-09-04T19:07:36.779Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "language": "English",
     "author": "Shaimaine Loiacono",
     "teacher": "Shaimaine Loiacono",
     "type": "Video",
     "version": "1",
     "review_priority": "Low",
-    "date_created": "3/19/2026"
+    "date_created": "3/19/2026",
+    "link": "https://app.allinonewellbeing.com/videos/low-impact-mat-pilates-for-beginners"
   },
   "EN-01935": {
     "peer_reviewer": "Sharisse Victor-Newmam",
@@ -66695,14 +66736,14 @@
   },
   "EN-01869": {
     "peer_reviewer": "Dr. Joe Feuerstein",
-    "_at": "2026-09-01T17:08:42.913Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "teacher": "Dr. Joe Feuerstein",
     "duration": "3",
     "type": "Video",
     "language": "English",
     "author": "Dr. Joe Feuerstein",
     "vimeo_link": "https://vimeo.com/1200521451/06aacaddb0?share=copy&fl=sv&fe=ci",
-    "link": "https://app.allinonewellbeing.com/videos/how-to-avoid-asthma-triggers",
+    "link": "https://app.allinonewellbeing.com/videos/understanding-asthma-triggers-and-how-to-avoid-them",
     "date_created": "3/4/2025",
     "version": "1"
   },
@@ -66771,13 +66812,14 @@
   },
   "EN-01877": {
     "peer_reviewer": "Soja Moore",
-    "_at": "2026-09-04T19:07:36.779Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "language": "English",
     "author": "Soja Moore",
     "teacher": "Soja Moore",
     "type": "Video",
     "version": "1",
-    "date_created": "3/6/2026"
+    "date_created": "3/6/2026",
+    "link": "https://app.allinonewellbeing.com/overcoming-fear-of-movement/videos/how-stress-changes-the-way-you-move"
   },
   "DE-00042": {
     "peer_reviewer": "Jessica Cording",
@@ -78067,307 +78109,344 @@
   },
   "HLT-0487": {
     "language": "English",
-    "_at": "2026-08-17T17:04:27.579Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "author": "Ana Gaston",
     "peer_reviewer": "Marlee Alanis",
     "category": "Financial Wellness",
-    "type": "Short-Form Snippet"
+    "type": "Short-Form Snippet",
+    "link": "https://app.allinonewellbeing.com/videos/beginner-investing-mistakes-to-avoid-highlight-9x16"
   },
   "ART-0276": {
     "category": "Women’s Health",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Emily Wilson",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1lUE5kPAhnnutLWN1qwANbWo6BnqtIXOdBRRPG6-xfAc/edit?usp=sharing"
   },
   "ART-0281": {
     "category": "Workplace Wellness",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Emily Wilson",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "4"
+    "duration": "4",
+    "link": "https://docs.google.com/document/d/1G11A1z3W-1iHB9IpMFM9F-OLKo3L7QeHcwB_6ZbCJRE/edit?usp=sharing"
   },
   "ART-0292": {
     "category": "Financial Wellness",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Emily Wilson",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://blog.caravanwellness.com/curbing-emotion-based-spending/"
   },
   "ART-0293": {
     "category": "Financial Wellness",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Emily Wilson",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://blog.caravanwellness.com/emotion-based-spending-and-its-connection-to-mental-health/"
   },
   "ART-0300": {
     "category": "Financial Wellness",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Emily Wilson",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://blog.caravanwellness.com/empowering-teens-to-build-smart-money-habits/"
   },
   "ART-0309": {
     "category": "Financial Wellness",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Emily Wilson",
     "duration": "4",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "link": "https://blog.caravanwellness.com/is-combining-finances-in-a-relationship-the-right-choice/"
   },
   "ART-0350": {
     "category": "Caregiving",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Jade Gordon",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1oF3aJPhVtzKKGPP1VeJRS-tLJmb7NPf2CeK6x__JVNI/edit?usp=sharing"
   },
   "ART-0358": {
     "category": "Inclusion",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Jade Gordon",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1CReBxxF5OxcEVk7BdJ7emsOzi-yH2MyLpHy7GF0Td4g/edit?tab=t.0#heading=h.19re4pvyjrox"
   },
   "ART-0367": {
     "category": "Nutrition",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
-    "link": "https://docs.google.com/document/d/1xMGtJvb4qu2tcLPj3Iafe1FEUhjNGvaZ7b62IPcbEcM/edit?usp=sharing",
+    "link": "https://docs.google.com/document/d/13MegXGDXHFYlfIJlWoFM-Pk5c_qcO3CMcVpDX-zIIGs/edit?tab=t.0",
     "author": "Jade Gordon",
     "peer_reviewer": "Marlee Alanis",
     "duration": "3"
   },
   "ART-0376": {
     "category": "Workplace Wellness",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Jade Gordon",
     "duration": "3",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "link": "https://docs.google.com/document/d/1TeywLV49mbE0sLrco5A5zEP1tYZ--DanIrBBdlKFqH4/edit?tab=t.0#heading=h.a61yf9k1gqnv"
   },
   "ART-0380": {
     "category": "Wellness",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Jade Gordon",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1LBYIRyQmN6bGeIyB3RaDZNrUuNLA-WaSmt7wBN8uYiA/edit?tab=t.0"
   },
   "ART-0415": {
     "category": "Dental Health",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Emily Wilson",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1WlKHdyzKIMJeOpYQhmK0FXBcoW7LRG4OojY6DLpZxFk/edit?usp=sharing"
   },
   "ART-0419": {
     "category": "Health",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Emily Wilson",
     "duration": "3",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "link": "https://docs.google.com/document/d/1_ZoQzmOH0Scx2UjxW52Du9V-F2x0Lv52EmuXkMMzFGs/edit?usp=sharing"
   },
   "ART-0449": {
     "category": "Workplace Wellness",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Jade Gordon",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1MqRW-0Xg5MPfnpcQKuwnoZbZBPtzhhI3XS8Rh7Ny2NE/edit?usp=sharing"
   },
   "ART-0453": {
     "category": "Financial Wellness",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Emily Wilson",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "4"
+    "duration": "4",
+    "link": "https://docs.google.com/document/d/19P3qbqP3Q0PQjqppuvEKpoxGp1Yk2o6PC2Ox3kzcgHk/edit?usp=sharing"
   },
   "ART-0454": {
     "category": "Financial Wellness",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Emily Wilson",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "4"
+    "duration": "4",
+    "link": "https://docs.google.com/document/d/1cCeqidSEGBVKfRnE5b37y6emRQOi8vJ4Rkbtqmg0dvU/edit?usp=sharing"
   },
   "ART-0456": {
     "category": "Financial Wellness",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Emily Wilson",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "4"
+    "duration": "4",
+    "link": "https://docs.google.com/document/d/1acnVWw2B04x5YfemuvBhSD26sC9d2K4656XxIjdHCKY/edit?usp=sharing"
   },
   "ART-0459": {
     "category": "Financial Wellness",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Emily Wilson",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "4"
+    "duration": "4",
+    "link": "https://docs.google.com/document/d/1oaenWkgWCwTguL2fS_pal_GONyCRWQu_HJsenYgdMxs/edit?usp=sharing"
   },
   "ART-0461": {
     "category": "Relationships",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Jade Gordon",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1LpHqWClVVkAqHi3fRxGI7aDkNYG3qdFDLWs2s_Q_V9U/edit?usp=sharing"
   },
   "ART-0468": {
     "category": "Financial Wellness",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Emily Wilson",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1nT5AwX51kASWRRDDRTbi6n9ayJL4AdLqnJ0HAKIC18U/edit?usp=sharing"
   },
   "ART-0472": {
     "category": "Financial Wellness",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Emily Wilson",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1Augsw7pvVDj_0oGLrPoZrAXCgL0NqtqqqgMx0XCnc14/edit?usp=sharing"
   },
   "ART-0483": {
     "category": "Financial Wellness",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Emily Wilson",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1QUToCh9-0Sy_NXcOtNmIwFT8bh_ZTOcXW1w9btmhAj4/edit?usp=sharing"
   },
   "ART-0487": {
     "category": "Financial Wellness",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Emily Wilson",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1zev7al6qgtkats-dEuai_H7J1Kfr8MSO8vqZ_EnRYNo/edit?usp=sharing"
   },
   "ART-0488": {
     "category": "Financial Wellness",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Emily Wilson",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1uygzDMX0OYS6HlUHOnMImsl1Gxw_7XrWupW8fxZxrS0/edit?usp=sharing"
   },
   "ART-0489": {
     "category": "Financial Wellness",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Emily Wilson",
     "duration": "3",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "link": "https://docs.google.com/document/d/1TmA61vh4saul1cihZybmGugIU9pKvIUbeX98BICQsL0/edit?usp=sharing"
   },
   "ART-0490": {
     "category": "Relationships",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Emily Wilson",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://blog.caravanwellness.com/how-to-be-a-supportive-ally-to-the-lgbtq-community/"
   },
   "ART-0491": {
     "category": "Relationships",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Emily Wilson",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/13ea2Y8ZSPIO-7pkpSACXotJytvGQVWLiFAkC0mtt-A4/edit?usp=sharing"
   },
   "ART-0492": {
     "category": "Parenting",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Emily Wilson",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1275KTXmvlJy90auejkeJwIp_tSUnRPV0YjVgbRZk-eA/edit?usp=sharing"
   },
   "ART-0493": {
     "category": "Relationships",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Emily Wilson",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1KLHn--oG4xOVcQVbHE517fzqsVUA_-SOUHtIXQphKZo/edit?usp=sharing"
   },
   "ART-0494": {
     "category": "Relationships",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Emily Wilson",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1bviPOVe6_e6gITzNP_FQBvQXR7aL6upUcGc4kpXbTV4/edit?usp=sharing"
   },
   "ART-0495": {
     "category": "Relationships",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Emily Wilson",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://blog.caravanwellness.com/staying-safely-informed-on-evolving-lgbtq-laws/"
   },
   "ART-0496": {
     "category": "Communication",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Emily Wilson",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "4"
+    "duration": "4",
+    "link": "https://docs.google.com/document/d/1Og-kmYops-ahiey7kr3y6qAJ7eGqnsViBbImcugILdY/edit?usp=sharing"
   },
   "ART-0497": {
     "category": "Relationships",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Emily Wilson",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1TgNwvtTPLQhqbvkoHRiZdm8jxcAQt-x5gQwep20bwj0/edit?usp=sharing"
   },
   "ART-0498": {
     "category": "Parenting",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Emily Wilson",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "4"
+    "duration": "4",
+    "link": "https://docs.google.com/document/d/1DZOj3wBBDAaREQse8m7IFomj5ENCMiIjkNts1UelR4A/edit?usp=sharing"
   },
   "ART-0499": {
     "category": "Relationships",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Emily Wilson",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1pwdxdv9QckPgGmR4aCWLXanZ0eSoxUYy86Na38CIst0/edit?usp=sharing"
   },
   "ART-0500": {
     "category": "Mental Health",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Emily Wilson",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "4"
+    "duration": "4",
+    "link": "https://docs.google.com/document/d/1co3TAQECj4pPz-ACZr2O-MHvwFPUZ1GIdFx-sdg_9Ug/edit?usp=sharing"
   },
   "ART-0569": {
     "category": "Mental Health",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "peer_reviewer": "Madeline McGuire",
-    "author": "Marlee Alanis"
+    "author": "Marlee Alanis",
+    "link": "https://blog.caravanwellness.com/how-making-your-bed-boosts-productivity/"
   },
   "ART-0603": {
     "category": "Financial Wellness",
@@ -78379,30 +78458,34 @@
   },
   "ART-0660": {
     "category": "Mental Health",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Marlee Alanis",
-    "peer_reviewer": "Jade Gordon"
+    "peer_reviewer": "Jade Gordon",
+    "link": "https://docs.google.com/document/d/1NnUIeIJQ2TokhAJaio-E_zaLXUzy-4bSjkQiOsSpRfk/edit?usp=sharing"
   },
   "ART-0667": {
     "category": "Relationships",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Madeline McGuire",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/18bYMOBso2ps5_CMY2l2dBp0ASvx4xh_m_eXKaQRS0VI/edit?usp=sharing"
   },
   "ART-0669": {
     "category": "Mental Health",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Madeline McGuire",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "link": "https://docs.google.com/document/d/1DCYbGXDNopQ6xkSERmnxuidSHQoY4kdb4m_5vB0FrnE/edit?usp=sharing"
   },
   "ART-0673": {
     "category": "Nutrition",
-    "_at": "2026-09-03T19:41:31.137Z",
-    "type": "Recipe"
+    "_at": "2026-09-08T13:39:28.792Z",
+    "type": "Recipe",
+    "link": "https://docs.google.com/document/d/1qMaIWjUnQy_yKgJ06hmDSRN3Z148dDvUCLl8HkIK-HA/edit?usp=sharing"
   },
   "ART-0772": {
     "category": "Heart Health",
@@ -78420,11 +78503,12 @@
   },
   "ART-0846": {
     "category": "Dental Health",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Emily Wilson",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1t1AUkVYWZnbwb5xZTJhBlNAix3bx6Dp6z3Zxw7GpwD4/edit?usp=sharing"
   },
   "ART-0877": {
     "category": "Allergies",
@@ -78436,298 +78520,335 @@
   },
   "ART-0878": {
     "category": "Allergies",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Emily Wilson",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/168smZKc_4_OxyqAi6gn_owTHaSTGx5GJmaUGPNhzvJg/edit?usp=sharing"
   },
   "ART-0879": {
     "category": "Allergies",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Emily Wilson",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1HEJajEaMli9pg4D-4lOUn1eUShR1jbL0qprcewcVe_k/edit?usp=sharing"
   },
   "ART-0880": {
     "category": "Allergies",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Emily Wilson",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1ws9f3jybViYPRHYPsQxg5WhFlUDTCEa83nvpWLKVjhM/edit?usp=sharing"
   },
   "ART-0881": {
     "category": "Allergies",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Emily Wilson",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/167I3iBaN5rviqccj70s-rTqvQjmEeSA-jEsA3nymH1o/edit?usp=sharing"
   },
   "ART-0882": {
     "category": "Allergies",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Emily Wilson",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1g5WRShiw4k9yhz5DAie9zAtyk8rm27kYorN1BHjNkjA/edit?usp=sharing"
   },
   "ART-0883": {
     "category": "Allergies",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Emily Wilson",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1evRXFLFiTGj71xzmTLwTHgZSSkTNSyFjutJGn6dNTTw/edit?usp=sharing"
   },
   "ART-0884": {
     "category": "Allergies",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Emily Wilson",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1ERivRX9b7BPAAs5TDIkWSD6MjjN23CmEZOU3HrsxPbU/edit?usp=sharing"
   },
   "ART-0885": {
     "category": "Allergies",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Emily Wilson",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1TyoPNvUxcXXRM1GAULGgendsIaSAdzzfFwOQ161cwks/edit?usp=sharing"
   },
   "ART-0886": {
     "category": "Allergies",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Emily Wilson",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1OvnSC_ryxDnN0NlhMD5qXLvHWbmCPXXK81s46B6aXi8/edit?usp=sharing"
   },
   "ART-0887": {
     "category": "Allergies",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Emily Wilson",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1liRG_T4J6M-z4UXm5m0RhqY522Ti4twic_Ag4V-Xoj4/edit?usp=sharing"
   },
   "ART-0888": {
     "category": "Allergies",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Emily Wilson",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "link": "https://docs.google.com/document/d/104IeUJYPVmmmb6stDZ9065A6xCqBmBRj6L0-IEgEOOk/edit?usp=sharing"
   },
   "ART-0889": {
     "category": "Allergies",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Emily Wilson",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1kSduuRmGrdIzWZ8uZ3LYzNe4TalZ1R7Q7hH-_RmgqdM/edit?usp=sharing"
   },
   "ART-0895": {
     "category": "Women’s Health",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Emily Wilson",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/11TF3zcTO0680mf5qhTHLn97_OZkjQlJSzySHx6aX1BQ/edit?usp=sharing"
   },
   "ART-0896": {
     "category": "Women’s Health",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Emily Wilson",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1zcC7pnO9DjA8Y2klfnSTByDxBFQxmroJJTm5KzFe1zY/edit?usp=sharing"
   },
   "ART-0897": {
     "category": "Women’s Health",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Emily Wilson",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1WlBOwPOOKSND_EV9yX9rTaSf3zm_PGN_7PdjZIV26TM/edit?usp=sharing"
   },
   "ART-0898": {
     "category": "Pregnancy",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Emily Wilson",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1f3ee8Kn0rqjElb57X3FElcpaJXOS0Em9pEXePlIiiLE/edit?usp=sharing"
   },
   "ART-0899": {
     "category": "Postpartum",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Emily Wilson",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/15JtEa25Fox3IhE8De9Vi-IDmxz4RlQNO0_kedlERgGc/edit?usp=sharing"
   },
   "ART-0900": {
     "category": "Postpartum",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Emily Wilson",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1RnmfKw1wsiR87NdQxpVbAn5uOv5aFD1IRqGyRS0TYNI/edit?usp=sharing"
   },
   "ART-0901": {
     "category": "Postpartum",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Emily Wilson",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/13OQ07jVb7qKEvEN5OF46EhYnqQ8tF3Z8RL7lIBQNaYk/edit?usp=sharing"
   },
   "ART-0903": {
     "category": "Postpartum",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Emily Wilson",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1B3tgjSZfi_2VLd0w7tqZwJyDQS4ZJgrbksCl61ifwdA/edit?usp=sharing"
   },
   "ART-0904": {
     "category": "Women’s Health",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Emily Wilson",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1vJLznJ7N3m5h2QG6O5rOklxroIKMuyZswb6V66U8Ozs/edit?usp=sharing"
   },
   "ART-0905": {
     "category": "Pregnancy",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Emily Wilson",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1CCjeXgjzsQwiihE8ulHZwFh8shAhWDWh5Uie-Wo7Aaw/edit?usp=sharing"
   },
   "ART-0906": {
     "category": "Pregnancy",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Emily Wilson",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1Gu5wgCWyxcna2vlmIC3RrUj_weAAhycNLGuAAmMofiw/edit?usp=sharing"
   },
   "ART-0907": {
     "category": "Pregnancy",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Emily Wilson",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1e9aPEywmtiaspUc30JOsKCwkMJUhYsDWXHp0D4YsB4E/edit?usp=sharing"
   },
   "ART-0908": {
     "category": "Pregnancy",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Emily Wilson",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1kkNYAmNLvuq3-27hbhHqWr7ZSbVdAgOI5a33xDtbFw0/edit?usp=sharing"
   },
   "ART-0909": {
     "category": "Pregnancy",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Emily Wilson",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1yEeN8nvtUhMSC9yOIiM8Sd0dsBaffMCgFHU16RGxiqE/edit?usp=sharing"
   },
   "ART-0910": {
     "category": "Postpartum",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Emily Wilson",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1cZcvhJKtxDscglP-wfQNAodCPhhT3G5FoT6QHTyFqww/edit?usp=sharing"
   },
   "ART-0911": {
     "category": "Postpartum",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Emily Wilson",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1McpLzIIx8k-wTWUgr05M-LkcruDc8x98omPdO1KTVyU/edit?usp=sharing"
   },
   "ART-0912": {
     "category": "Postpartum",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Emily Wilson",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1fjdGr0jr8BsX0OXnZAIxMeQMD_Is1Xjt7WE1p091lJw/edit?usp=sharing"
   },
   "ART-0913": {
     "category": "Postpartum",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Emily Wilson",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/12BobL-vnLruerHTD2s-X_hLQpfPwt7c3ydTK3BzWhT4/edit?usp=sharing"
   },
   "ART-0914": {
     "category": "Postpartum",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Emily Wilson",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/15mgXClFfM4-94v554qZsSQOU-xBCeG8AGaDfaTMbh4o/edit?usp=sharing"
   },
   "ART-0915": {
     "category": "Postpartum",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Emily Wilson",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://blog.caravanwellness.com/rebuilding-identity-after-childbirth/"
   },
   "ART-0916": {
     "category": "Postpartum",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Emily Wilson",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1UGI2pGWdVm-X1eeHIVut8UPfNEfTRnOYf8BQk9wrMPw/edit?usp=sharing"
   },
   "ART-0917": {
     "category": "Pregnancy",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Emily Wilson",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/10q06OPFogcY4CtKbWc14QFGxRiYVFCw4j_lucLusx-I/edit?usp=sharing"
   },
   "ART-0936": {
     "category": "Women’s Health",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Emily Wilson",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1-nVzMRd_qGeRoIPWSuPvmQkWbvMIdFrb0JXTvabvKz0/edit?usp=sharing"
   },
   "ART-0937": {
     "category": "Women’s Health",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Emily Wilson",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1kEVAtmg1JBZ9hR3jtUo2Bx-9iyQSgvPvfH4EoAle-N4/edit?usp=sharing"
   },
   "ART-0938": {
     "category": "Women’s Health",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Emily Wilson",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1_j79_u0XnsN6qeDoO_h8VWdPAJOz8usukJqeh5HSfbQ/edit?usp=sharing"
   },
   "ART-0958": {
     "category": "Nutrition",
@@ -78738,10 +78859,11 @@
   },
   "ART-0964": {
     "category": "Alcohol Use",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Marlee Alanis",
-    "peer_reviewer": "Diane McNaught"
+    "peer_reviewer": "Diane McNaught",
+    "link": "https://docs.google.com/document/d/1bWYwfkntsJ_DnfqP0TwJFMjvWjSQdnxRGbHfGjQYRNI/edit?usp=sharing"
   },
   "ART-0968": {
     "category": "Alcohol Use",
@@ -78758,94 +78880,107 @@
   },
   "ART-0984": {
     "category": "Mental Health",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Marlee Alanis",
-    "peer_reviewer": "Diane McNaught"
+    "peer_reviewer": "Diane McNaught",
+    "link": "https://blog.caravanwellness.com/understanding-common-misconceptions-about-suicide/"
   },
   "ART-0990": {
     "category": "AFib",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Marlee Alanis",
-    "peer_reviewer": "Diane McNaught"
+    "peer_reviewer": "Diane McNaught",
+    "link": "https://docs.google.com/document/d/14V3kySFHF0kc1ECnSDDeRF2QJOOd8L0TdVZx017AqR8/edit?usp=sharing"
   },
   "ART-0992": {
     "category": "AFib",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Marlee Alanis",
-    "peer_reviewer": "Diane McNaught"
+    "peer_reviewer": "Diane McNaught",
+    "link": "https://docs.google.com/document/d/1Kb24S5o00kDQSBOTGjISxh-9wRJHUu_T8TjKAVlN3LI/edit?usp=sharing"
   },
   "ART-1134": {
     "category": "Longevity",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Diane McNaught",
-    "peer_reviewer": "Chelsea Johnson"
+    "peer_reviewer": "Chelsea Johnson",
+    "link": "https://docs.google.com/document/d/1WISGUihSRkcFlj8NROY_jScn6baEnQxZHvvkRwNI80s/edit?usp=sharing"
   },
   "ART-1135": {
     "category": "Longevity",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Diane McNaught",
-    "peer_reviewer": "Chelsea Johnson"
+    "peer_reviewer": "Chelsea Johnson",
+    "link": "https://docs.google.com/document/d/1KAI3yipAwF3gBhTOoqA4_STdU0IYLzYiG5XrwOxpKu0/edit?usp=sharing"
   },
   "ART-1136": {
     "category": "Healthy Aging",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Diane McNaught",
-    "peer_reviewer": "Chelsea Johnson"
+    "peer_reviewer": "Chelsea Johnson",
+    "link": "https://docs.google.com/document/d/1085mr5UWL5IgcleglkPTr2i58Qh14wFYu9K04Q6hops/edit?usp=sharing"
   },
   "ART-1137": {
     "category": "Healthy Aging",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Diane McNaught",
-    "peer_reviewer": "Chelsea Johnson"
+    "peer_reviewer": "Chelsea Johnson",
+    "link": "https://docs.google.com/document/d/1RzX-Sn9dLBp5V3cLIfxP5Gh2VUtY-my5t2biUVC5Z_0/edit?usp=sharing"
   },
   "ART-1138": {
     "category": "Longevity",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Diane McNaught",
-    "peer_reviewer": "Chelsea Johnson"
+    "peer_reviewer": "Chelsea Johnson",
+    "link": "https://docs.google.com/document/d/1Bx81JuzWePMF4eLB8J_PdXWq1U2LIzUbIKIYyCADWIk/edit?usp=sharing"
   },
   "ART-1139": {
     "category": "Pain Management",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Diane McNaught",
-    "peer_reviewer": "Chelsea Johnson"
+    "peer_reviewer": "Chelsea Johnson",
+    "link": "https://docs.google.com/document/d/1LOB7Ojb0GGU6Bj6DKJWlpE4iopfFS7EzMp8EhF1Gyrk/edit?usp=sharing"
   },
   "ART-1140": {
     "category": "Healthy Aging",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Diane McNaught",
-    "peer_reviewer": "Chelsea Johnson"
+    "peer_reviewer": "Chelsea Johnson",
+    "link": "https://docs.google.com/document/d/1s3n4g4EsHZJSZluYj4PsJu-bUCfAbKYDJGI6AmgV1zo/edit?usp=sharing"
   },
   "ART-1141": {
     "category": "Joint Health",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Diane McNaught",
-    "peer_reviewer": "Chelsea Johnson"
+    "peer_reviewer": "Chelsea Johnson",
+    "link": "https://docs.google.com/document/d/1B9AvWf4uMHIwNgXuYT7YRe2QezlxQWzqDcE28QNlv6U/edit?usp=sharing"
   },
   "ART-1142": {
     "category": "Fitness",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Diane McNaught",
-    "peer_reviewer": "Chelsea Johnson"
+    "peer_reviewer": "Chelsea Johnson",
+    "link": "https://docs.google.com/document/d/1-8pOay0-9dtSTBRkUSoz3M5LGt2FBfO9-cVFT2XNf_o/edit?usp=sharing"
   },
   "ART-1143": {
     "category": "Pain Management",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Diane McNaught",
-    "peer_reviewer": "Chelsea Johnson"
+    "peer_reviewer": "Chelsea Johnson",
+    "link": "https://docs.google.com/document/d/1fHaoGRqEpyTA_aMjI9bXAhgUoEdvPl8406ek5bT12dQ/edit?usp=sharing"
   },
   "ART-1144": {
     "category": "Bone Health",
@@ -78856,87 +78991,99 @@
   },
   "ART-1145": {
     "category": "Posture",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Diane McNaught",
-    "peer_reviewer": "Chelsea Johnson"
+    "peer_reviewer": "Chelsea Johnson",
+    "link": "https://docs.google.com/document/d/1MYxhSSco8L6WYog8XHYUxMVNBUBJGCl_jv4mE6YN3ks/edit?usp=sharing"
   },
   "ART-1146": {
     "category": "Healthy Aging",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Diane McNaught",
-    "peer_reviewer": "Chelsea Johnson"
+    "peer_reviewer": "Chelsea Johnson",
+    "link": "https://docs.google.com/document/d/1pa0Xd08m2_msxqH3GxnQR6kW-g44CClPVH64CHmsSCM/edit?usp=sharing"
   },
   "ART-1147": {
     "category": "Nutrition",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Diane McNaught",
-    "peer_reviewer": "Chelsea Johnson"
+    "peer_reviewer": "Chelsea Johnson",
+    "link": "https://docs.google.com/document/d/1Y2T_LvYi-yE4DAFAyYT_nhjdhY96EAyU8gahU4azCPQ/edit?usp=sharing"
   },
   "ART-1148": {
     "category": "Nutrition",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Diane McNaught",
-    "peer_reviewer": "Chelsea Johnson"
+    "peer_reviewer": "Chelsea Johnson",
+    "link": "https://docs.google.com/document/d/1wZ6d4yQ9s5wsNy3BmLzBBR4K29vwSXOYpbpxMwsLPuI/edit?usp=sharing"
   },
   "ART-1149": {
     "category": "Digestive Health",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Diane McNaught",
-    "peer_reviewer": "Chelsea Johnson"
+    "peer_reviewer": "Chelsea Johnson",
+    "link": "https://blog.caravanwellness.com/gut-health-whole-body-wellness/"
   },
   "ART-1150": {
     "category": "Nutrition",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Diane McNaught",
-    "peer_reviewer": "Chelsea Johnson"
+    "peer_reviewer": "Chelsea Johnson",
+    "link": "https://docs.google.com/document/d/1af2L_j0kukh6WK99j1oCcl1evk-ktc-9yRYEr8OGbys/edit?usp=sharing"
   },
   "ART-1151": {
     "category": "Fitness",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Diane McNaught",
-    "peer_reviewer": "Chelsea Johnson"
+    "peer_reviewer": "Chelsea Johnson",
+    "link": "https://docs.google.com/document/d/1H5i5JSwoAI7E43XvopdmO-cgqwOMF4GK_11NFH_9NZQ/edit?usp=sharing"
   },
   "ART-1152": {
     "category": "Nutrition",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Diane McNaught",
-    "peer_reviewer": "Chelsea Johnson"
+    "peer_reviewer": "Chelsea Johnson",
+    "link": "https://docs.google.com/document/d/1NDv-DDnW6zjfe5sKc16QvRrpf1vrw66BigVq9bDa-GY/edit?usp=sharing"
   },
   "ART-1153": {
     "category": "Parenting",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Diane McNaught",
-    "peer_reviewer": "Chelsea Johnson"
+    "peer_reviewer": "Chelsea Johnson",
+    "link": "https://docs.google.com/document/d/1rKrTAWQVqbij1L9Af1HLS-lvDz4ytUtXUDsJDFa5sRQ/edit?usp=sharing"
   },
   "ART-1154": {
     "category": "Parenting",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Diane McNaught",
-    "peer_reviewer": "Chelsea Johnson"
+    "peer_reviewer": "Chelsea Johnson",
+    "link": "https://docs.google.com/document/d/1QV01jv1wtEv4gQz6eFasO83vQQ3L0ENBxiJ6SzFGOL8/edit?usp=sharing"
   },
   "ART-1155": {
     "category": "Asthma",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Diane McNaught",
-    "peer_reviewer": "Chelsea Johnson"
+    "peer_reviewer": "Chelsea Johnson",
+    "link": "https://docs.google.com/document/d/13m6WPbhw1VWtDbFK1ctfrzx6zs-D2_YKD4O9uTBezhw/edit?usp=sharing"
   },
   "ART-1156": {
     "category": "Metabolic Health",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "type": "Article",
     "author": "Diane McNaught",
-    "peer_reviewer": "Chelsea Johnson"
+    "peer_reviewer": "Chelsea Johnson",
+    "link": "https://docs.google.com/document/d/10eDwCUmfAL0m9dz5SL6MhtHCVTBFCn7PbIN_dJir6lo/edit?usp=sharing"
   },
   "ART-1187": {
     "category": "Asthma",
@@ -79024,36 +79171,39 @@
   },
   "HLT-0445": {
     "author": "Chandra Lee",
-    "_at": "2026-08-17T17:04:27.579Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "duration": "3 min",
     "language": "English",
     "peer_reviewer": "Marlee Alanis",
     "category": "Nutrition",
-    "type": "Short-Form Snippet"
+    "type": "Short-Form Snippet",
+    "link": "https://app.allinonewellbeing.com/videos/tips-for-mindful-portions-highlight"
   },
   "HLT-0452": {
     "language": "English",
-    "_at": "2026-08-17T17:04:27.579Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
     "category": "Nutrition",
-    "type": "Short-Form Snippet"
+    "type": "Short-Form Snippet",
+    "link": "https://app.allinonewellbeing.com/videos/top-sources-of-fiber-highlight"
   },
   "HLT-0450": {
     "duration": "1 min",
-    "_at": "2026-08-17T17:04:27.579Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "language": "English",
     "peer_reviewer": "Marlee Alanis",
     "author": "Chandra Lee",
     "category": "Nutrition",
-    "type": "Short-Form Snippet"
+    "type": "Short-Form Snippet",
+    "link": "https://app.allinonewellbeing.com/videos/the-science-of-grocery-shopping-highlight"
   },
   "HLT-0038": {
     "language": "English",
-    "_at": "2026-08-18T14:20:23.775Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
     "author": "Linda Johnson",
     "category": "Workplace Wellness",
-    "link": "https://app.allinonewellbeing.com/videos/highlight-identifying-time-management-challenges",
+    "link": "https://watch.caravanwellness.com/videos/highlight-identifying-time-management-challenges",
     "type": "Short-Form Snippet"
   },
   "HLT-0318": {
@@ -79085,22 +79235,24 @@
   },
   "HLT-0575": {
     "author": "Dr. Emma Guzman",
-    "_at": "2026-08-17T17:04:27.579Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "language": "English",
     "peer_reviewer": "Marlee Alanis",
     "category": "Dental Health",
-    "type": "Short-Form Snippet"
+    "type": "Short-Form Snippet",
+    "link": "https://app.allinonewellbeing.com/videos/tooth-sensitivity-with-age-highlight"
   },
   "EN-02011": {
     "author": "Jessica Cording",
-    "_at": "2026-09-04T19:07:36.779Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "language": "English",
     "peer_reviewer": "Marlee Alanis",
-    "date_created": "6/4/2026"
+    "date_created": "6/4/2026",
+    "link": "https://app.allinonewellbeing.com/videos/first-trimester-nutrition"
   },
   "EN-02091": {
     "author": "Dr. Joe Feuerstein",
-    "_at": "2026-08-18T18:07:47.221Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "duration": "5",
     "date_created": "3/26/2025",
     "language": "English",
@@ -79111,7 +79263,8 @@
     "vimeo_link": "https://vimeo.com/1069588873/5af4326355?share=copy&fl=cl&fe=ci",
     "description": "Empower yourself by learning about causes and treatment methods for erectile dysfunction. ☑ Regained Confidence ☑ Improved Relationships ☑ Enhanced Sexual Wellness ✎ Learn The Facts: Erectile dysfunction is a common condition, yet many individuals avoid seeking help due to feelings of embarrassment ",
     "branding": "White-Label",
-    "category": "Men's Health"
+    "category": "Men's Health",
+    "link": "https://app.allinonewellbeing.com/videos/understanding-erectile-dysfunction-1"
   },
   "EN-00381": {
     "licenses": [
@@ -79133,10 +79286,11 @@
   "ART-0257": {
     "language": "English",
     "author": "Emily Wilson",
-    "_at": "2026-09-04T19:10:37.881Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
     "duration": "2",
-    "date_created": "02/08/202"
+    "date_created": "02/08/202",
+    "link": "https://blog.caravanwellness.com/medicaid-related-programs/"
   },
   "EXT-1627": {
     "_hidden": true,
@@ -79145,10 +79299,11 @@
   "ART-0258": {
     "language": "English",
     "author": "Emily Wilson",
-    "_at": "2026-09-04T19:11:27.232Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
     "duration": "4",
-    "date_created": "110"
+    "date_created": "110",
+    "link": "https://docs.google.com/document/d/16UrTZFoptPhR9abyoKSRWkZg7mi-I8lVmR6FvDq1LPM/edit?tab=t.0"
   },
   "EXT-1628": {
     "_hidden": true,
@@ -79157,9 +79312,10 @@
   "ART-0259": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1MX6GghMST4Lr21iddZexFTqpyXPyDbRBajGqRYhKI9Q/edit?usp=sharing"
   },
   "ART-0263": {
     "type": "Article",
@@ -79171,16 +79327,18 @@
   "ART-0264": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "4"
+    "duration": "4",
+    "link": "https://docs.google.com/document/d/1YUZtVeZ7fK4jI6duOdQOkSVeka_4PxhjVjfUavT7QVg/edit?usp=sharing"
   },
   "ART-0265": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1GULDEYqIdjBGSuaqyU64C4O0RufGGG6yjMlAMpVKLlQ/edit?usp=sharing"
   },
   "ART-0266": {
     "type": "Article",
@@ -79192,9 +79350,10 @@
   "ART-0267": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1aobgR4RAJYy0l3eVQfQhe32_5Ig0WjsESFLerwp7Bc4/edit?usp=sharing"
   },
   "ART-0268": {
     "type": "Article",
@@ -79216,166 +79375,187 @@
   "ART-0282": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "4"
+    "duration": "4",
+    "link": "https://blog.caravanwellness.com/managing-credit-card-debt-while-living-paycheck-to-paycheck/"
   },
   "ART-0283": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://blog.caravanwellness.com/budget-by-separating-your-needs-from-wants/"
   },
   "ART-0285": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://blog.caravanwellness.com/managing-finances-101/"
   },
   "ART-0286": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "4"
+    "duration": "4",
+    "link": "https://blog.caravanwellness.com/resisting-the-urge-to-keep-up-with-the-latest-trends/"
   },
   "ART-0287": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://blog.caravanwellness.com/evaluating-a-good-deal/"
   },
   "ART-0288": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "4"
+    "duration": "4",
+    "link": "https://blog.caravanwellness.com/achieving-financial-freedom/"
   },
   "ART-0289": {
     "type": "Article",
     "author": "Emily Wilson",
     "peer_reviewer": "Marlee Alanis",
     "duration": "4",
-    "link": "https://docs.google.com/document/d/1kTr-wojzwgWLReWhAtbzKA6f9weFzEI4EuJurqcFEX8/edit?usp=sharing",
+    "link": "https://blog.caravanwellness.com/identify-and-overcome-financial-stress/",
     "notes": "Maybe include therapists as one of the professionals listed under seek professional support to emphasize the impact on mental health that financial strains cause",
-    "_at": "2026-09-03T22:32:52.851Z"
+    "_at": "2026-09-08T13:39:28.792Z"
   },
   "ART-0290": {
     "type": "Article",
     "author": "Emily Wilson",
     "peer_reviewer": "Marlee Alanis",
     "duration": "3",
-    "link": "https://docs.google.com/document/d/1JOOkmldOnDEJ6XxSPpHCT_GVCptN90dUCbS50ZYBR2k/edit?usp=sharing",
-    "_at": "2026-09-03T22:32:52.851Z"
+    "link": "https://blog.caravanwellness.com/spending-habits-and-their-impact-on-your-financial-freedom/",
+    "_at": "2026-09-08T13:39:28.792Z"
   },
   "ART-0294": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://blog.caravanwellness.com/avoiding-the-trap-of-lifestyle-creep-after-a-raise/"
   },
   "ART-0295": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://blog.caravanwellness.com/understanding-paychecks-in-the-u-s/"
   },
   "ART-0296": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://blog.caravanwellness.com/employer-sponsored-health-insurance/"
   },
   "ART-0297": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://blog.caravanwellness.com/salary-vs-hourly-pay/"
   },
   "ART-0301": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://blog.caravanwellness.com/understanding-u-s-credit-reports-and-their-impact/"
   },
   "ART-0302": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://blog.caravanwellness.com/navigating-debt-overwhelm/"
   },
   "ART-0303": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://blog.caravanwellness.com/staying-positive-avoiding-burnout-while-tackling-debt/"
   },
   "ART-0304": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "5"
+    "duration": "5",
+    "link": "https://blog.caravanwellness.com/what-it-means-to-co-sign-for-someone/"
   },
   "ART-0305": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "4"
+    "duration": "4",
+    "link": "https://blog.caravanwellness.com/auto-financing-101/"
   },
   "ART-0306": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://blog.caravanwellness.com/choosing-the-right-type-of-financial-institution/"
   },
   "ART-0307": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "4"
+    "duration": "4",
+    "link": "https://blog.caravanwellness.com/glossary-of-financial-terms/"
   },
   "ART-0308": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "4"
+    "duration": "4",
+    "link": "https://blog.caravanwellness.com/protecting-yourself-from-financial-scammers/"
   },
   "ART-0310": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "duration": "2",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "link": "https://blog.caravanwellness.com/drive-smart-with-these-car-maintenance-tips/"
   },
   "ART-0311": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "duration": "5",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "link": "https://blog.caravanwellness.com/managing-student-loans/"
   },
   "ART-0317": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "duration": "3",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "link": "https://blog.caravanwellness.com/handling-communication-from-a-debt-collector/"
   },
   "ART-0318": {
     "type": "Article",
@@ -79387,72 +79567,82 @@
   "ART-0319": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "duration": "4",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "link": "https://docs.google.com/document/d/1tfhaYgEaMnAesyL5yV1I-GMlRnXqj6rOPj1ilA_Qudw/edit?usp=sharing"
   },
   "ART-0320": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "duration": "4",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "link": "https://docs.google.com/document/d/1SPygG4QdFAhBsqvFVMwM4NRpFry0iw_nUS15v_Ap9uE/edit?usp=sharing"
   },
   "ART-0321": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "duration": "3",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "link": "https://docs.google.com/document/d/1Oi2Re55GXJeRLWDAH9wqu6CljjMCblOzQPETzXIV_cA/edit?usp=sharing"
   },
   "ART-0322": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "duration": "3",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "link": "https://docs.google.com/document/d/1pJZHUsh7C2C6dTy7VexuKbB-N3XblR4G-8oS1ieO0G0/edit?usp=sharing"
   },
   "ART-0326": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "duration": "4",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "link": "https://docs.google.com/document/d/1APnNu5YkCDIH-nP8JuUZjdyp7Vrbb7Ezqdc60mL3CeA/edit?usp=sharing"
   },
   "ART-0327": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "duration": "3",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "link": "https://docs.google.com/document/d/1pqLnrNSnAykK-cRFZ8IZ9OpmfHa7rzm4yYlDCtg6wlQ/edit?usp=sharing"
   },
   "ART-0340": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "duration": "5",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "link": "https://docs.google.com/document/d/1nfoUt-SwsLoPzhAdkV7UqFnDx8StDLwu7mwcXik4hjc/edit?usp=sharing"
   },
   "ART-0348": {
     "type": "Article",
     "author": "Marlee Alanis",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Madeline McGuire",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1DdW2m4s5OFmZBya3Y8GQ9MqvSOc0XCHwPzQydOYnUDA/edit?usp=sharing"
   },
   "ART-0352": {
     "type": "Article",
     "author": "Jade Gordon",
     "peer_reviewer": "Marlee Alanis",
     "duration": "3",
-    "_at": "2026-09-03T22:32:52.851Z"
+    "_at": "2026-09-08T13:39:28.792Z",
+    "link": "https://docs.google.com/document/d/1yCy7d5exawzSi2Wo5lD2DiSwNDt6jINlcXhF2r8AASo/edit?tab=t.0"
   },
   "ART-0361": {
     "type": "Article",
     "author": "Jade Gordon",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1fBm_2x0Ci2hLpfr2cGTcoxjFI6bxjGWABW_T-RIyoIo/edit?tab=t.0"
   },
   "ART-0362": {
     "type": "Article",
@@ -79464,59 +79654,66 @@
   "ART-0365": {
     "type": "Article",
     "author": "Jade Gordon",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1SlHArR4sOuHujdY1eFb1Qh0t76Qu0O88O1apFeiLpXE/edit?tab=t.0"
   },
   "ART-0369": {
     "type": "Article",
-    "link": "https://docs.google.com/document/d/14Q46qT4bUSWhISi2zq1O7lW9E_gkjTxzs5kg3RPXToM/edit?tab=t.0",
+    "link": "https://blog.caravanwellness.com/understanding-the-menstrual-cycle-phases/",
     "author": "Jade Gordon",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
     "duration": "3"
   },
   "ART-0370": {
     "type": "Article",
     "author": "Jade Gordon",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1S4ROpmOlr3C0Gwe4lN9GOXkKdmbx7c4vCiwIFbgB3Zw/edit?tab=t.0"
   },
   "ART-0372": {
     "type": "Article",
     "author": "Jade Gordon",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1KFx3Il_WLKmhEJ5OrFZjwgqmi6dGWHdvwaoCVJnqrrE/edit?tab=t.0"
   },
   "ART-0377": {
     "type": "Article",
     "author": "Jade Gordon",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "4"
+    "duration": "4",
+    "link": "https://docs.google.com/document/d/1nwveTZjxgUgbOUu3T52lMJ_mlWYG-cDctMczH14RCnA/edit?tab=t.0"
   },
   "ART-0379": {
     "type": "Article",
     "author": "Jade Gordon",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1AXS_QwmDjXgcDDawTeJZvQkGSU4BlMOul2oUDKt2kkc/edit?tab=t.0"
   },
   "ART-0382": {
     "type": "Article",
     "author": "Jade Gordon",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "4"
+    "duration": "4",
+    "link": "https://docs.google.com/document/d/1N5xz00Sq_G0WBYaoeiJ0K7FjcoSlF2bgfYsLZfnmx04/edit?tab=t.0"
   },
   "ART-0389": {
     "type": "Article",
     "author": "Jade Gordon",
     "peer_reviewer": "Marlee Alanis",
     "duration": "3",
-    "_at": "2026-09-03T22:32:52.851Z"
+    "_at": "2026-09-08T13:39:28.792Z",
+    "link": "https://docs.google.com/document/d/1GKqzA8XLuBJ68rX7t6-FA7PIYfvM5AoozNVMOsPZu5M/edit?tab=t.0"
   },
   "ART-0391": {
     "type": "Article",
@@ -79528,149 +79725,170 @@
   "ART-0396": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1Z_qA0e2zJ8AfPZ_7e1wBEbdnmF5WB1fge5OIbRxMNlQ/edit?usp=sharing"
   },
   "ART-0398": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1YkrJU1LHvCtOBqRjk9r7meSpYBnKcrTrJXLiyAas9LE/edit?usp=sharing"
   },
   "ART-0399": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1FecQxjujjQO00VSevyfPlIICHU4sqlb_aCE-kRETeQI/edit?usp=sharing"
   },
   "ART-0400": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1ofuhy-6fSFiUzYvkEAaxdcRHsgHit-gGTWYLs9rwLzU/edit?usp=sharing"
   },
   "ART-0401": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1H4if3Nh3SxMqiwg5hagI2EGH1yEh7jeJgauK3TVaITM/edit?usp=sharing"
   },
   "ART-0402": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1J1mZiV_husVcYQn9V_1qchmEBVbskz1cyjC7Tm9unBQ/edit?usp=sharing"
   },
   "ART-0405": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/18wWPMlIQkAeRzhpINXPOfhNylOinHyLzPwx6iFxYwJo/edit?usp=sharing"
   },
   "ART-0406": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1I1i-Qp7eouI8fC6CIPmaLOsvrwVtmCyRvmlFreyAhhE/edit?usp=sharing"
   },
   "ART-0408": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://blog.caravanwellness.com/understanding-sensitive-teeth-ways-to-address-it/"
   },
   "ART-0409": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1YGTp3gGxdkxjjtRG_8em1m0V0oHl2AzmguEdUmhRsqc/edit?usp=sharing"
   },
   "ART-0412": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/19dWhm-T3U48OSWAE8H2kGxppXDuSRyvEcCOnGNO9wJc/edit?usp=sharing"
   },
   "ART-0413": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1-hOMpt7b6g-9sApHRxxMaxumt23O0rXVG2b592Hf2t4/edit?usp=sharing"
   },
   "ART-0416": {
     "type": "Article",
     "author": "Jade Gordon",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1OtTRIuYwin73xUPLQ6Fxo9bz8ksuHdsfFI2_rsV1lMU/edit?tab=t.0"
   },
   "ART-0417": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1HTSuOdk-IVf4XFIIRCzVUhsSBKSVgcKH0HgDkwZGvEc/edit?usp=sharing"
   },
   "ART-0420": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "duration": "3",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "link": "https://docs.google.com/document/d/1wNfhHrfM9SSlo2Vro-edNZVbeJBD815hJ_zLpUmU29s/edit?usp=sharing"
   },
   "ART-0428": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "duration": "3",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "link": "https://docs.google.com/document/d/1dsfnyQ3SIiL3z1vl2JiVGPiW-UTb8Gs-yh4aHEFfzbU/edit?usp=sharing"
   },
   "ART-0430": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1q25jrPRP2eckY6clM2lF_6hTN2qsI_ex3X7W7W-uUN4/edit?usp=sharing"
   },
   "ART-0431": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1r-Rdp8gKt5DGBumAsMKxYoSCKs9by8FYXgYBpBneVI8/edit?usp=sharing"
   },
   "ART-0432": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1WKejdH2Ib6CNyOjBkrjN4nPIasdJvH3v7_koNiy8D5E/edit?usp=sharing"
   },
   "ART-0433": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1uc1dC50X7l3bdQtwk8qBY_cQH8W8U8QphugUxPFxuVo/edit?usp=sharing"
   },
   "ART-0436": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1aL1wSNPXeBBW45h2jnSWbZoFKmjCL-YZguiQzsJlozI/edit?usp=sharing"
   },
   "ART-0437": {
     "type": "Article",
@@ -79683,30 +79901,34 @@
   "ART-0438": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "4"
+    "duration": "4",
+    "link": "https://docs.google.com/document/d/1vPjtHovakokS67nmX_BdupF9NzfqyBp2ZglWgWWRDUc/edit?usp=sharing"
   },
   "ART-0439": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1-J1xQzARiR2aLP5C4X1AbFSh0Np62tVFUERlNFkW1_k/edit?usp=sharing"
   },
   "ART-0440": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1tZx4AH_1cwjpmLw2Cd8YiAnWtjVRtCIX2YGsWdQt5U4/edit?usp=sharing"
   },
   "ART-0441": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1lt2y_Iuv3uhPCLwUuKfg_ihTvxmoZTCyojvWsmMqQ1w/edit?usp=sharing"
   },
   "ART-0443": {
     "type": "Article",
@@ -79718,177 +79940,202 @@
   "ART-0448": {
     "type": "Article",
     "author": "Jade Gordon",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1see5ujEBFptmLyo-982ZG6GvV89-XrIhSMTkSS1GF3I/edit?usp=sharing"
   },
   "ART-0452": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "5"
+    "duration": "5",
+    "link": "https://docs.google.com/document/d/1Jq08ZH_IwSS1LxRJBAxE0ttm67aSYvckudKU3xzFv3A/edit?usp=sharing"
   },
   "ART-0455": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1UKRxlNePPVE5S3BaK73zRIQk9XfODT9JBLBf3ekd4vc/edit?usp=sharing"
   },
   "ART-0457": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1_qELWEtu3ngFlPrboa9ygrKDJLvYyf-9t24aveSemnk/edit?usp=sharing"
   },
   "ART-0458": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1rSGUFK3wC_nY0z8f4SjGmGCIKKnj7zgl6lpb6OFsTnY/edit?usp=sharing"
   },
   "ART-0464": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://blog.caravanwellness.com/understanding-financial-fraud-its-most-common-types/"
   },
   "ART-0465": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1_YAKaIxRwbe01xTNFi9PtEmxKCyQBDM0m3cqr09W7bw/edit?usp=sharing"
   },
   "ART-0466": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1xScY63EMoVy3LXrbwO_4gsoFt8D-5q9WKtIoUn12BYE/edit?usp=sharing"
   },
   "ART-0467": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://blog.caravanwellness.com/protecting-your-personal-information-from-financial-fraud/"
   },
   "ART-0469": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1oqp4PgXH0t1CorkKoRYr4V_99dvDSdfmZn1ME2woauM/edit?usp=sharing"
   },
   "ART-0470": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/122j8txaxcoR5CS_gcCpwIb6gH8OaNVPLWm0j_PMnC9c/edit?usp=sharing"
   },
   "ART-0471": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "4"
+    "duration": "4",
+    "link": "https://docs.google.com/document/d/1oZW09djSheVA8Zwdceu_r48uyOluQJ7K0GMsHnLry2s/edit?usp=sharing"
   },
   "ART-0473": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/15jiYO2ykXFelLQocq144YMOaPfSf6mVseiAG4RsSSuk/edit?usp=sharing"
   },
   "ART-0474": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1V8SmsWXNyuOn3_rIeNkUfGrWG9rjvdsrFpD1SkSJkMQ/edit?usp=sharing"
   },
   "ART-0475": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1pW7SyNUWjTlaYnzivxL1pF0AH7Hu3c9cLjqbVYm-j7s/edit?usp=sharing"
   },
   "ART-0476": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1Pcz0HNrpxnG0Qm9_I1x3XIO6bjjj3dK4thYobmhdsYE/edit?usp=sharing"
   },
   "ART-0480": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/124fyqeLGsjd6Eyu5SPpIkE03GHH1zKU9XPUKzlfoNn8/edit?usp=sharing"
   },
   "ART-0481": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1x88yg9jJXJVQoBumYTBGnpUVb-yRrCFX2dGq4jMp7z4/edit?usp=sharing"
   },
   "ART-0482": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/12RbtAqqQT6Odp9KJkv__3gTymCYKckwktakcrdwsBcM/edit?usp=sharing"
   },
   "ART-0484": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1KMQPNtPzA_G46hgLSHr2woWs5OekkpkiQ6CyhU12ew0/edit?usp=sharing"
   },
   "ART-0485": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1OltHXh55pYVagoLvLTpMc4yjVxgb6RYJyXNq-A-A1rE/edit?usp=sharing"
   },
   "ART-0486": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1Hvazq8g5fjGHBeJcueKQd1mToE2BEC0J8qKtQ0fNNwY/edit?usp=sharing"
   },
   "ART-0501": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/16nNJe7M_7CpBbKGuyjnqkKGe6q0HaVAksPgf33iZdJw/edit?usp=sharing"
   },
   "ART-0502": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1vjjJvxPeAT61oeRWwwmLUzzo7YBdKAq78BMdHvhb2NI/edit?usp=sharing"
   },
   "ART-0503": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1PWRqbViCAHfWhB9m3PGAXQ8dmFVTnsyH7jLXMVhfVZU/edit?usp=sharing"
   },
   "ART-0504": {
     "type": "Article",
@@ -79900,87 +80147,98 @@
   "ART-0505": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1uP4oCdutVVe4grBT-g1wb4z0I6-w0f_W9p0zoRDsIWA/edit?usp=sharing"
   },
   "ART-0506": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1zKgCaoucgO7cy5BS7jxfQm9GB9ta5qQmKOs_ID-m1qE/edit?usp=sharing"
   },
   "ART-0507": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1yQ7CR6WEiLKLQ0LYrFTV6h-2miZgj60KUcIGTiNIU3k/edit?usp=sharing"
   },
   "ART-0508": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "4"
+    "duration": "4",
+    "link": "https://docs.google.com/document/d/1y2yiX20DvYJHyMHeTnSh9nCsorw4KwDg3V5N5Hn0pok/edit?usp=sharing"
   },
   "ART-0509": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "4"
+    "duration": "4",
+    "link": "https://docs.google.com/document/d/1TbunV5fROWhudYzM8WepwPeBdYzoVaR46Q3FUS_W0f8/edit?usp=sharing"
   },
   "ART-0511": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1RMuY4DoqjYLRNVJ2Lqt4n4NpSz476W3h5v-z3VrhaRE/edit?usp=sharing"
   },
   "ART-0513": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "4"
+    "duration": "4",
+    "link": "https://blog.caravanwellness.com/tips-for-managing-financial-stress-in-retirement-during-a-recession/"
   },
   "ART-0514": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://blog.caravanwellness.com/tips-for-managing-financial-stress-during-an-economic-downturn/"
   },
   "ART-0516": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1VN2tHnBQSIynI2kJiyyL6Lcs-bhe3jvvRjwfzcD_A_g/edit?usp=sharing"
   },
   "ART-0522": {
     "type": "Article",
     "peer_reviewer": "Jade Gordon",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "duration": "3",
-    "author": "Marlee Alanis"
+    "author": "Marlee Alanis",
+    "link": "https://blog.caravanwellness.com/the-importance-of-urinary-health-for-women/"
   },
   "ART-0524": {
     "type": "Article",
-    "link": "https://docs.google.com/document/d/1TFsum1hxx8nPt5LZH8pRrjZtxJUKw7TWe0-ZLqlk9LI/edit?usp=sharing",
+    "link": "https://blog.caravanwellness.com/combining-sexual-health-fulfilling-intimacy/",
     "peer_reviewer": "Jade Gordon",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "duration": "2",
     "author": "Marlee Alanis"
   },
   "ART-0525": {
     "type": "Article",
     "peer_reviewer": "Jade Gordon",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "duration": "2",
-    "author": "Marlee Alanis"
+    "author": "Marlee Alanis",
+    "link": "https://blog.caravanwellness.com/understanding-managing-glaucoma/"
   },
   "ART-0526": {
     "type": "Article",
@@ -79992,193 +80250,221 @@
   "ART-0527": {
     "type": "Article",
     "peer_reviewer": "Jade Gordon",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "duration": "3",
-    "author": "Marlee Alanis"
+    "author": "Marlee Alanis",
+    "link": "https://docs.google.com/document/d/1lyKjjjpmGgHaf3ZNLIekOK2GoyCnBSWue540CC8_rXo/edit?usp=sharing"
   },
   "ART-0532": {
     "type": "Article",
     "peer_reviewer": "Jade Gordon",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "duration": "3",
-    "author": "Marlee Alanis"
+    "author": "Marlee Alanis",
+    "link": "https://docs.google.com/document/d/1x6xIC7ggCyYQE-mR0dg_d_F3-xXWwtB9Me4EuZ0I7Js/edit?usp=sharing"
   },
   "ART-0536": {
     "type": "Article",
     "peer_reviewer": "Jade Gordon",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "duration": "3",
-    "author": "Marlee Alanis"
+    "author": "Marlee Alanis",
+    "link": "https://docs.google.com/document/d/1Ba2Kx_Ri1QHoHY62vQgeareAqQHDoFXkF3sXzNEmsfg/edit?usp=sharing"
   },
   "ART-0537": {
     "type": "Article",
     "peer_reviewer": "Jade Gordon",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "duration": "2",
-    "author": "Marlee Alanis"
+    "author": "Marlee Alanis",
+    "link": "https://docs.google.com/document/d/1KrW6AFGZqojuBDriqgqL_oRPH0jR-qhqq_k5rl7OyGQ/edit?usp=sharing"
   },
   "ART-0539": {
     "type": "Article",
     "peer_reviewer": "Jade Gordon",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "duration": "3",
-    "author": "Marlee Alanis"
+    "author": "Marlee Alanis",
+    "link": "https://docs.google.com/document/d/1yKwpxk81K8Mp0J96kuz5aq8wqqwLw_eCKmZCjmyHfdc/edit?usp=sharing"
   },
   "ART-0540": {
     "type": "Article",
     "peer_reviewer": "Jade Gordon",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "duration": "3",
-    "author": "Marlee Alanis"
+    "author": "Marlee Alanis",
+    "link": "https://docs.google.com/document/d/1ct4A4MQl9h5tbf---oVqHmNidhnFsMKjua3DbkaiROk/edit?usp=sharing"
   },
   "ART-0542": {
     "type": "Article",
     "peer_reviewer": "Jade Gordon",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "duration": "2",
-    "author": "Marlee Alanis"
+    "author": "Marlee Alanis",
+    "link": "https://blog.caravanwellness.com/how-social-media-leads-to-impulse-shopping/"
   },
   "ART-0543": {
     "type": "Article",
     "peer_reviewer": "Jade Gordon",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "duration": "3",
-    "author": "Marlee Alanis"
+    "author": "Marlee Alanis",
+    "link": "https://blog.caravanwellness.com/how-to-discuss-financial-responsibilities-before-marriage/"
   },
   "ART-0544": {
     "type": "Article",
     "peer_reviewer": "Jade Gordon",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "duration": "3",
-    "author": "Marlee Alanis"
+    "author": "Marlee Alanis",
+    "link": "https://blog.caravanwellness.com/cultivating-abundance-through-financial-wellness/"
   },
   "ART-0545": {
     "type": "Article",
     "peer_reviewer": "Jade Gordon",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "duration": "2",
-    "author": "Marlee Alanis"
+    "author": "Marlee Alanis",
+    "link": "https://blog.caravanwellness.com/financial-affirmations-for-coping-with-debt/"
   },
   "ART-0546": {
     "type": "Article",
     "peer_reviewer": "Jade Gordon",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "duration": "3",
-    "author": "Marlee Alanis"
+    "author": "Marlee Alanis",
+    "link": "https://blog.caravanwellness.com/empowering-young-adults-through-financial-wellness/"
   },
   "ART-0549": {
     "type": "Article",
     "peer_reviewer": "Jade Gordon",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "duration": "3",
-    "author": "Marlee Alanis"
+    "author": "Marlee Alanis",
+    "link": "https://blog.caravanwellness.com/%e2%80%8bcelebrate-with-healthier-mocktail-alternatives/"
   },
   "ART-0551": {
     "type": "Article",
     "peer_reviewer": "Jade Gordon",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "duration": "3",
-    "author": "Marlee Alanis"
+    "author": "Marlee Alanis",
+    "link": "https://blog.caravanwellness.com/challenging-gender-stereotypes-in-relationships/"
   },
   "ART-0554": {
     "type": "Article",
     "peer_reviewer": "Jade Gordon",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "duration": "2",
-    "author": "Marlee Alanis"
+    "author": "Marlee Alanis",
+    "link": "https://blog.caravanwellness.com/family-connectedness-during-the-holidays/"
   },
   "ART-0556": {
     "type": "Article",
     "peer_reviewer": "Madeline McGuire",
-    "_at": "2026-09-04T17:02:09.929Z",
-    "author": "Marlee Alanis"
+    "_at": "2026-09-08T13:39:28.792Z",
+    "author": "Marlee Alanis",
+    "link": "https://blog.caravanwellness.com/yoga-as-a-trauma-healing-tool/"
   },
   "ART-0557": {
     "type": "Article",
     "peer_reviewer": "Madeline McGuire",
-    "_at": "2026-09-04T17:02:09.929Z",
-    "author": "Marlee Alanis"
+    "_at": "2026-09-08T13:39:28.792Z",
+    "author": "Marlee Alanis",
+    "link": "https://blog.caravanwellness.com/the-heart-opening-power-of-yoga/"
   },
   "ART-0558": {
     "type": "Article",
     "peer_reviewer": "Madeline McGuire",
-    "_at": "2026-09-04T17:02:09.929Z",
-    "author": "Marlee Alanis"
+    "_at": "2026-09-08T13:39:28.792Z",
+    "author": "Marlee Alanis",
+    "link": "https://blog.caravanwellness.com/embracing-discomfort-in-yoga/"
   },
   "ART-0559": {
     "type": "Article",
     "peer_reviewer": "Madeline McGuire",
-    "_at": "2026-09-04T17:02:09.929Z",
-    "author": "Marlee Alanis"
+    "_at": "2026-09-08T13:39:28.792Z",
+    "author": "Marlee Alanis",
+    "link": "https://blog.caravanwellness.com/nurturing-yoga-for-digestive-health/"
   },
   "ART-0565": {
     "type": "Article",
     "peer_reviewer": "Madeline McGuire",
-    "_at": "2026-09-04T17:02:09.929Z",
-    "author": "Marlee Alanis"
+    "_at": "2026-09-08T13:39:28.792Z",
+    "author": "Marlee Alanis",
+    "link": "https://blog.caravanwellness.com/how-to-become-a-strong-inclusion-advocate/"
   },
   "ART-0580": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/184bLOT8HY31Zb0GORN_uNRfxus-VhEgOz08D5vclY5s/edit?usp=sharing"
   },
   "ART-0582": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1IHYi8TVwLzZqkgpfoM6BBJYT1fyELJJVsf2TswlNlXg/edit?usp=sharing"
   },
   "ART-0583": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1k7GwT4EMOekXjqlDItFpRaUzUeojFxBcIbCXG7Y5Aa8/edit?tab=t.0#heading=h.hasdse73mdbr"
   },
   "ART-0585": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1XE4yMhFx5uZOMlrahcr1sTiFwObCzCnqr2XVAjPFcvY/edit?usp=sharing"
   },
   "ART-0586": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1TygubF0mYki37f7UOYq5w5vR_KoeQZjoS1RTxfQISzE/edit?usp=sharing"
   },
   "ART-0590": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/152f3rSLYympHGQO3dS7jiiZ1xik2wJ8YmK7gzBCCURA/edit?usp=sharing"
   },
   "ART-0592": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1z_Vjg5AbZsrlPfSa8KxKkEJTHNjCOUCPd51UOaqRZKk/edit?tab=t.0"
   },
   "ART-0593": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1_N8nHDq_clNaLsudjLJ3kh5Tpr_ctY5KuLfvvATV0Dw/edit?usp=sharing"
   },
   "ART-0595": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1EmS3etR13ciFqJ13pTLPzOelHXmKhkP0RCh6agdr26I/edit?usp=sharing"
   },
   "ART-0596": {
     "type": "Article",
@@ -80190,192 +80476,219 @@
   "ART-0597": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1T5lezeckQc3zj2kCXNBKxYWOxgiABdbvLBKB7jMavPA/edit?usp=sharing"
   },
   "ART-0598": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/13f6UFm-Po-IOOoDpM1pjRtT6KaCd-nh02wVdyYqTbk4/edit?usp=sharing"
   },
   "ART-0599": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1lOuT7C3QWc907O6n44ZQtwGiXmV3_oaAIRJzXjQ6BQE/edit?usp=sharing"
   },
   "ART-0600": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1JVDuH4SSzmMkRn1Kkj-TKUpIZFTBA2NRn3fdjUihkdI/edit?usp=sharing"
   },
   "ART-0601": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/12rAkMx9_pehbcZO_uuaggS6zpM9__DaT2TWjJPTxwbg/edit?usp=sharing"
   },
   "ART-0602": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1AIiyri2Zbjg2xjxaHCCA_vDOnl03sVW-Fce25ChlONk/edit?usp=sharing"
   },
   "ART-0605": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1IlIXnXJH6htyJQVOmfPjXbE6IEv8JdPn0shQMV1L8eA/edit?usp=sharing"
   },
   "ART-0606": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1sd85CvqlfbeqOqCf5_JugqemABF3unMFRi27QOwNCSo/edit?usp=sharing"
   },
   "ART-0607": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/17OliXcIT0JYZt8YXskOC5UnruM7lymeKhrdIzn-okhc/edit?usp=sharing"
   },
   "ART-0608": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1vUH-xokmSmNTwlZxdUAK1hPxncFZGKKrA1iXxy-xuGY/edit?usp=sharing"
   },
   "ART-0609": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1nazU97bASHqBo09hT3YGP9PmWs3H95Yegn04W4FGwGs/edit?usp=sharing"
   },
   "ART-0610": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/13f7cp7W4GsoBR2FQS16Uyh8xa04UhW4ZLQVx_OJpi5k/edit?usp=sharing"
   },
   "ART-0611": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/18qp1W4aqi8zK9GKmRqWdsfFjD2cXD6XQU3Lr6uqF57A/edit?usp=sharing"
   },
   "ART-0612": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1YlYavd4PijPpy8xr6A5vKsXBJ6kztX0_K1Y7q0nM5YY/edit?usp=sharing"
   },
   "ART-0613": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1jbdWM6fIKYrPGEF74PuTsVVaBP89o1o1vGa33zeM1o4/edit?usp=sharing"
   },
   "ART-0614": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/110T3cqWM6TtVou2MKh6C0ZpkKnhj3fJ3kXitsID-h10/edit?usp=sharing"
   },
   "ART-0615": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1yxpmVofi776nhTQWfcKGzpCxgwnqz6mmcyfUj4JNioc/edit?usp=sharing"
   },
   "ART-0616": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1w0le4Cxr4bFYC7K9XD7uvSQ5f3nNHUsCS5eUe0lY3TI/edit?usp=sharing"
   },
   "ART-0618": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1DDNcKBz0GSRiVlzvJoLQLsPfPPiXIMCGc1PdrfQFFdU/edit?usp=sharing"
   },
   "ART-0627": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1j5a_flCUgt9ITXfAH49c0IMGHosfEVuTjAgt5jyuCww/edit?usp=sharing"
   },
   "ART-0628": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1s60WK-tzfWaNmrxGFeDWYzeHDKzwj934gkycW8-yKxo/edit?usp=sharing"
   },
   "ART-0629": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1BYq7qnELwthcXNcpgNA5yTnwLh6xXVI2gV8bTZmcQxw/edit?usp=sharing"
   },
   "ART-0634": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1aJuPCp1RVEYOG7CEjvbgh5a1096Ax2-rN1ym4zUp0dM/edit?usp=sharing"
   },
   "ART-0635": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1ly9jNYj8u5T52jXLT3Pxeqp0oacNRRjYlc-3WPO3mWE/edit?usp=sharing"
   },
   "ART-0636": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1HgdeRSASG86EOz0rKZaMzB-X2VOgyRwW_GY91S4cPnI/edit?usp=sharing"
   },
   "ART-0637": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1s3RoVECbldPSjO7-jB5kwv9ka9KwNWUegpKvcqtaON8/edit?usp=sharing"
   },
   "ART-0639": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "date_created": "5/11/2025",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/19X9NQ3G-J2Z_LxNAtELZ3LhkCbEfLMQtit5d6b643_s/edit?tab=t.0"
   },
   "EXT-2011": {
     "_hidden": true,
@@ -80384,51 +80697,58 @@
   "ART-0642": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1kX3z7hcA-nwQLhfw6IXylVitD8LENXl59ufujytGFhs/edit?usp=sharing"
   },
   "ART-0643": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/179-zuGNdAHXX8NvYTOqv4rCra8tmcCoZVEFBHFhactA/edit?usp=sharing"
   },
   "ART-0646": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1EN9IhF05CPJRne0gpAcjRJu9dQUeR8fYnK5z7pYIT9g/edit?usp=sharing"
   },
   "ART-0648": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1b-h5Qv-T3-TvF9OXglx0NDrCU_Vmk8aVTooDRjxJamg/edit?usp=sharing"
   },
   "ART-0678": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1ZBcvJHhLQWbYmJUBOHEAr0x0rCnOQDH-Nruj0EPOwJw/edit?usp=sharing"
   },
   "ART-0679": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1PTBnOLZgmOb77_atgOi_pub403VmnERNEmXSCFIJzpg/edit?usp=sharing"
   },
   "ART-0680": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1bTkYG9LlKgjrbkEh7CUwfOIxyCAFQ8j8Go47XvLK5vg/edit?usp=sharing"
   },
   "ART-0688": {
     "type": "Article",
@@ -80439,44 +80759,50 @@
   "ART-0699": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1NiGpJHAROaws06llnrO5EtMLXi8XjRNg-Yb57oiRz30/edit?usp=sharing"
   },
   "ART-0700": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1oNnWpvtJj1hWy_bmRgjEcxDmqAK_Kf-wHVkivIMkHkk/edit?usp=sharing"
   },
   "ART-0702": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1veJqTVWou7IlEEMovKQJjTy-afhWUJiiVsObBZkMa8g/edit?usp=sharing"
   },
   "ART-0704": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1DNlWh5aqAchq1Nu779FyhpJ1zYVGlcCO258UNbJn0Xs/edit?usp=sharing"
   },
   "ART-0705": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1-jkpOn9_wNhr_67Yluo8rVk5fDUD9boNGPaDpBmVUjs/edit?usp=sharing"
   },
   "ART-0706": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1OGX0cFT_-9epYOHi16PHmURSQKFaFhwhv4iEFnTSoYo/edit?usp=sharing"
   },
   "ART-0707": {
     "type": "Article",
@@ -80488,80 +80814,91 @@
   "ART-0711": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "date_created": "5/18/2025",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/u/1/d/1KxLsf3d0idPqOjrEzaAil2e_nopdPZSDhZ53A6l5fuo/edit?usp=sharing"
   },
   "ART-0714": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1A73mYzkazi0S2TpDpARphX55ZOw3zICwu5bZRJNPkx4/edit?usp=sharing"
   },
   "ART-0761": {
     "type": "Article",
     "author": "Emily Wilson",
     "duration": "2",
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-09-03T22:32:52.851Z"
+    "_at": "2026-09-08T13:39:28.792Z",
+    "link": "https://docs.google.com/document/d/1z5DBb2JxSyEQvyeEm3IyvHOpFNufarH6wKDPWMmXnkQ/edit?usp=sharing"
   },
   "ART-0763": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1kOap1-ihIn0zLaKPqPqIUs0c9miEkLfdt8B6sQOU8a8/edit?usp=sharing"
   },
   "ART-0764": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1JXmxFz8WNqSHrqlDsxp0BjSW4G6K-VGrJsqL96GaCLY/edit?usp=sharing"
   },
   "ART-0765": {
     "type": "Article",
     "author": "Emily Wilson",
     "duration": "3",
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-09-03T22:32:52.851Z"
+    "_at": "2026-09-08T13:39:28.792Z",
+    "link": "https://docs.google.com/document/d/10wjCdQJ3cyc18vzVyDf4H0SM4sZXNqZMQ62ceVYyVcs/edit?usp=sharing"
   },
   "ART-0766": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1FsyQK3_rD5ChLo-IU24_8ZFu2nOIBkVxmAgE_6x7gt8/edit?usp=sharing"
   },
   "ART-0767": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1K1mDAPNwB1OgZMId13sJcbtTiN6vNrdkQcMAEkP4FEY/edit?pli=1&tab=t.0"
   },
   "ART-0768": {
     "type": "Article",
     "author": "Emily Wilson",
     "duration": "2",
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-09-03T22:32:52.851Z"
+    "_at": "2026-09-08T13:39:28.792Z",
+    "link": "https://docs.google.com/document/d/1fGNFPInzLxmEW65naVlsB2Gz0JuZZS7jsu6-Y5SQ4SU/edit?usp=sharing"
   },
   "ART-0770": {
     "type": "Article",
     "author": "Emily Wilson",
     "duration": "2",
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-09-03T22:32:52.851Z"
+    "_at": "2026-09-08T13:39:28.792Z",
+    "link": "https://docs.google.com/document/d/1MyD87ieCnQ5m-aMVUbdOopwckhGKYH9lftvFo5FahmI/edit?usp=sharing"
   },
   "ART-0771": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1sTgwr1rIKF4967yp2-m8Vu1f-HVafl1cei9m5qW-TWY/edit?usp=sharing"
   },
   "ART-0789": {
     "type": "Article",
@@ -80573,16 +80910,18 @@
   "ART-0790": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1zh85pE-mUr2soKrTtpn0IQfBP3gbETqqVZ87-AWHEjU/edit?usp=sharing"
   },
   "ART-0791": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1pYdV44UAnAKmWk2taDr1DatCFPju-XyqvLAbCQoIbx8/edit?usp=sharing"
   },
   "ART-0793": {
     "type": "Article",
@@ -80594,483 +80933,552 @@
   "ART-0794": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1_YvyAly1V7hg9lFZEKeKgzfWabPBmaDvKULTfZUHbJY/edit?usp=sharing"
   },
   "ART-0795": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1QlXk2d3YWmjEblYW-X5xZ9Ph8vXdaSu6tHhMm3c91jw/edit?usp=sharing"
   },
   "ART-0796": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1SfvazlU59YIz7yAz4a85mAqQVr74DN80hQmqE9Q_Jgw/edit?usp=sharing"
   },
   "ART-0797": {
     "type": "Article",
     "author": "Emily Wilson",
     "duration": "3",
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-09-03T22:32:52.851Z"
+    "_at": "2026-09-08T13:39:28.792Z",
+    "link": "https://docs.google.com/document/d/1AXhqGZwTCLbOLPh7U2g9JY-b4ozuGy_44_6sWei66HM/edit?usp=sharing"
   },
   "ART-0798": {
     "type": "Article",
     "author": "Emily Wilson",
     "duration": "2",
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-09-03T22:32:52.851Z"
+    "_at": "2026-09-08T13:39:28.792Z",
+    "link": "https://blog.caravanwellness.com/how-childhood-trauma-can-show-up-in-adult-life/"
   },
   "ART-0799": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/16O3xcTfO9sGiIBFEFe2BNHVzl3TvNW1hD_RxVx5SrVc/edit?usp=sharing"
   },
   "ART-0800": {
     "type": "Article",
     "author": "Emily Wilson",
     "duration": "2",
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-09-03T22:32:52.851Z"
+    "_at": "2026-09-08T13:39:28.792Z",
+    "link": "https://docs.google.com/document/d/1l8g7ptMA7jjYlWCTPQbj7VytyfrN38UQw8Eq8Vr4698/edit?usp=sharing"
   },
   "ART-0801": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1ANUX93Gq9NTblHn-J6kttXl7B-n_u98aXEBXglxSB7g/edit?usp=sharing"
   },
   "ART-0802": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1yEt-YlOHjoUQYYgdqgugvb-qj0m-prtDyS_88VdjrfA/edit?usp=sharing"
   },
   "ART-0803": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1VGmouaOVLaV56E7vC63pDhco47zQm4BWLZwl9vuja98/edit?usp=sharing"
   },
   "ART-0804": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1jTKkiZh1cRRwIzu2KlRJYkTdShzHTLs31hcxt-P6pGI/edit?usp=sharing"
   },
   "ART-0805": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1L-JeW6oqlWdBbabw_vn6GVpr57YZEMPk2i_DJm-tm3s/edit?usp=sharing"
   },
   "ART-0806": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1etOF_WgvtZfwTnRGY55YWQIJCZqhusADsFkZbQ5HEUE/edit?usp=sharing"
   },
   "ART-0807": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://blog.caravanwellness.com/tips-for-when-you-begin-to-feel-disconnected/"
   },
   "ART-0808": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://blog.caravanwellness.com/tips-for-navigating-social-anxiety-in-new-situations/"
   },
   "ART-0809": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://blog.caravanwellness.com/creating-daily-habits-to-strengthen-your-sense-of-belonging/"
   },
   "ART-0810": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1lFHFb7cOJDv79muheRSN91h_Er6FePISr9jyPqR7mFI/edit?usp=sharing"
   },
   "ART-0811": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/194acJV_XPU_JTA89kEpnlYN2bBTbNLWUhWsawvQLrNk/edit?usp=sharing"
   },
   "ART-0812": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1gtG-yLRCrnKFjU6cpEDCYzOGne84foVbizhXfzER5uQ/edit?usp=sharing"
   },
   "ART-0813": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://blog.caravanwellness.com/5-ways-to-improve-your-mood-without-your-phone/"
   },
   "ART-0816": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1c8WHLyprcHMQoT6VcnFjWNLQaTAakHiZdANUAGZKvhw/edit?usp=sharing"
   },
   "ART-0817": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1148cQDtVMN9UaMTsvjhGeTPrX892j2-I25REoqACOyA/edit?usp=sharing"
   },
   "ART-0818": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1I3TZyPGszdICCIor7NLfdhtgl-AbVa-hyMlNwc_sTm8/edit?usp=sharing"
   },
   "ART-0820": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1gjXWOVxJ1IJlKR79x-aqJwPcBSS9I_1vDmAAEuNsZ2c/edit?usp=sharing"
   },
   "ART-0821": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1tdQXshsHEd9BC_TLLgTGPfzRwp5Cv1oTgXrj2bckeyI/edit?usp=sharing"
   },
   "ART-0822": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1sG2xX3duQfSIJ_xnE6cf4KkiaT2E0x25HM1PonLVcnc/edit?usp=sharing"
   },
   "ART-0823": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1TZkEaTR_9UtTOK6bJ55Wi6ishgj-cpZLo67t3-hhzrk/edit?usp=sharing"
   },
   "ART-0825": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1kIOebQc19L-cJqN-HegEihYUnJMmL2pbe3Vr2b6uv1c/edit?usp=sharing"
   },
   "ART-0827": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1G-aER4YnI91M_jFacIpbpp3gtkmAm3UznY_gmXJ4eDw/edit?usp=sharing"
   },
   "ART-0828": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1b972xEr92YQq6eki6UvPvu4-JdJR9ZlbrYmx02goqyA/edit?usp=sharing"
   },
   "ART-0829": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1frPXaf7JMdiMa1-zVCObHi1x3VP7HFA_G4tTCZlKG4I/edit?usp=sharing"
   },
   "ART-0830": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1vI4qouh74MYBzXJuWYzqZJBknZxmcPtpO1tilsElLmw/edit?usp=sharing"
   },
   "ART-0831": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/12bz5sE89cYrjtgXsdu-Kix-PHbh20FAw1uR8x7dXhpk/edit?usp=sharing"
   },
   "ART-0832": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1Stnu6_JdmBoXuTApOBVX2YRon69wuQOouKrgvGdHP44/edit?usp=sharing"
   },
   "ART-0833": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1UkaqetZImQtXzz7K4Qzu7sLdGQc7OmzZ2cZZlvfSz4w/edit?usp=sharing"
   },
   "ART-0834": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1CQ1Bc7pddIQw_8ggY2AH_1tJdKEyoa6-7gBg7m5kbkA/edit?usp=sharing"
   },
   "ART-0835": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1gAaXDy-f1yg-IVa_FwZyXR4pP1ThvsU_jRzgdHnobcA/edit?usp=sharing"
   },
   "ART-0836": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1MxdxNr-hK-lf2_QDZRakUcQceiaZ_FePgA-miVLX6js/edit?usp=sharing"
   },
   "ART-0837": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1omaTmM_d75mcLsy3Dz8M9LmX0oLQT81Q3zo5PODCe5I/edit?usp=sharing"
   },
   "ART-0838": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1HmRr4K2OXmWtWnNAsJKMEOqmEjywQXE-j7Anct3tfNA/edit?usp=sharing"
   },
   "ART-0839": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1LqYEPmnV4tPVtf4iwrbpMq4OnbnuHqaTllt3S_xEku0/edit?usp=sharing"
   },
   "ART-0840": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/19qjiBpwgB3U3tqfun8ox8jKjo1lIHQjqT1FJMZGrp9A/edit?usp=sharing"
   },
   "ART-0841": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1VeLl6NOV6ldLVxWcRNu7gXNzpSAyVjBw7H4wu12NS6Y/edit?usp=sharing"
   },
   "ART-0842": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "4"
+    "duration": "4",
+    "link": "https://docs.google.com/document/d/1yiR60qEvYu-bqj07YvAuOXEWYmZLVLFDxi4U5AHs-4o/edit?usp=sharing"
   },
   "ART-0843": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1bdbQCkKwjv2UQRHst_8En-F0HU4qywziNQpCY7Rut_o/edit?usp=sharing"
   },
   "ART-0844": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1ETxWqywza2bXOuVtCw_rq621k_ZcWv5VoA3CFT-xXPg/edit?usp=sharing"
   },
   "ART-0845": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1KRgk1h5qnG5qWp6QdyZZRyPn6uT9HaeYdcLCH5LprHs/edit?usp=sharing"
   },
   "ART-0853": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1QEeJzhTeCJ2pQ0UlhXgteRbcFLGvWOhy9PKlc0m7u8k/edit?usp=sharing"
   },
   "ART-0854": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1MJOCczIoJF9ZDKIey0Sx2nc1nnfzumRWVJ83OW3xc0A/edit?usp=sharing"
   },
   "ART-0855": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1bzzFeABtsztmJNCRetxWPPvhj1J-UDUUrSKu_8qBTMg/edit?usp=sharing"
   },
   "ART-0860": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1TQ0Deu2a99IppzStDNuUZFLLBVC4xIEKVCwXnBqzho0/edit?usp=sharing"
   },
   "ART-0870": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1kQFyQX1FAQE1_61r02QTCN27rojUDP9c0fzGMlaKf9M/edit?usp=sharing"
   },
   "ART-0873": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1ZZLyrzUp0DlfCdZoWuP0JwNN4NEyDo5_PvNwEwxNuuc/edit?usp=sharing"
   },
   "ART-0875": {
     "type": "Article",
     "duration": "3",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "author": "Marlee Alanis",
-    "peer_reviewer": "Emily Wilson"
+    "peer_reviewer": "Emily Wilson",
+    "link": "https://blog.caravanwellness.com/offer-effective-positive-feedback/"
   },
   "ART-0876": {
     "type": "Article",
     "duration": "3",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "author": "Emily Wilson",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "link": "https://blog.caravanwellness.com/tips-for-strategic-preparation-for-performance-reviews-2/"
   },
   "ART-0890": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1lSE2LS2b89pvcYmu0D0BuDXZo-i00Z_y6VlvOjiRGyM/edit?usp=sharing"
   },
   "ART-0891": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/16-s2VfD3sMeVBZ0FQWIXaxvNY7PbeBERiiFA4XzFHSo/edit?usp=sharing"
   },
   "ART-0893": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1BFHzN0qpLNxqTj_53K7g_kdjbYCzWhZqm0umiwFNBPU/edit?usp=sharing"
   },
   "ART-0894": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://blog.caravanwellness.com/healthy-ways-to-process-anger-frustration/"
   },
   "ART-0918": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1hNvxt0AAorkCLd_HX9gy_xvKijKlVBV486aeboeTPow/edit?usp=sharing"
   },
   "ART-0919": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/17fWXdzFB4XEG6VaWn55pPXaFr1BqL5AfI574iclO8Z8/edit?usp=sharing"
   },
   "ART-0920": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1yLq6-JEVSG3JEEkYXFjjzM8bZ-25ZIHXiHOMe8ZPZ8k/edit?usp=sharing"
   },
   "ART-0921": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1ayndIVkAUpqOyt1LCthDgpjLkt9Q50eOXXENiQ__DjA/edit?usp=sharing"
   },
   "ART-0922": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1CO0iJAr2OR-p-nxfKOmGFwZO5IN8jn0CO5D-Hq148zA/edit?usp=sharing"
   },
   "ART-0923": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/18rw8MNKMzc27gJbpfcA8Jqp_usHYMrrYtbB_Fn2KxOk/edit?usp=sharing"
   },
   "ART-0924": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1_YTIQimWb-28xxl2tZwKhWGVav9DveIP2F_DKRSKFf4/edit?usp=sharing"
   },
   "ART-0925": {
     "type": "Article",
     "author": "Emily Wilson",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1bhmNM9KT1JUhbEYqHGonUrNxGLX037wSQhfHLpwIVw0/edit?usp=sharing"
   },
   "ART-0977": {
     "type": "Article",
     "author": "Marlee Alanis",
-    "_at": "2026-09-04T17:02:09.929Z",
-    "peer_reviewer": "Diane McNaught"
+    "_at": "2026-09-08T13:39:28.792Z",
+    "peer_reviewer": "Diane McNaught",
+    "link": "https://docs.google.com/document/d/1hTwLV9wnw9y2OcHGMX8wxk0NyKcXDDh9MKk3zX3-2Ss/edit?usp=sharing"
   },
   "ART-0978": {
     "type": "Article",
     "author": "Marlee Alanis",
-    "_at": "2026-09-04T17:02:09.929Z",
-    "peer_reviewer": "Diane McNaught"
+    "_at": "2026-09-08T13:39:28.792Z",
+    "peer_reviewer": "Diane McNaught",
+    "link": "https://blog.caravanwellness.com/how-a-government-shutdown-can-affect-your-paycheck-for-federal-employees/"
   },
   "ART-0965": {
     "peer_reviewer": "Diane McNaught",
@@ -81516,13 +81924,13 @@
   },
   "ART-1037": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-24T17:44:42.136Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "author": "Emily Wilson",
     "teacher": "Diane McNaught",
     "type": "Article",
     "duration": "2",
     "date_created": "06/23/2025",
-    "link": "https://docs.google.com/document/d/1SiKL8zDz1MYTmfSbdDIhDuJbyn06g88FNeogvKWjxz0/edit?usp=sharing"
+    "link": "https://docs.google.com/document/d/1757TD2LtVFMibkC-eTJz4twpKoF1sEAPr-yE011WeO8/edit?usp=sharing"
   },
   "ART-1240": {
     "peer_reviewer": "Marlee Alanis",
@@ -82035,12 +82443,12 @@
   },
   "ART-1094": {
     "peer_reviewer": "Diane McNaught",
-    "_at": "2026-08-24T17:44:42.136Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "teacher": "Diane McNaught",
     "type": "Article",
     "duration": "2",
     "date_created": "09/24/2025",
-    "link": "https://docs.google.com/document/d/1MOQ-pFGB3HpdZfyuOkenBmt2hhhuuH9JTXftPNi4aeY/edit?usp=sharing",
+    "link": "https://docs.google.com/document/d/1YTEKRJ5FR6K62YsihO5gil2hcWRnUeicRTSBGQu8X_4/edit?usp=sharing",
     "category": "Smoking Cessation",
     "author": "Emily Wilson"
   },
@@ -82890,10 +83298,11 @@
   },
   "GUD-00021": {
     "author": "Emily Wilson",
-    "_at": "2026-08-13T17:43:27.600Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "date_created": "10/29/2024",
     "category": "Financial Wellness",
-    "duration": "821"
+    "duration": "821",
+    "link": "https://docs.google.com/document/d/1Bo7pZ9TOV3LazNE4RkQ2295ne0f4AJsPeIzV9ptCOFc/edit?usp=sharing"
   },
   "ART-0280": {
     "type": "Article",
@@ -82924,10 +83333,11 @@
   },
   "GUD-00039": {
     "author": "Madeline McGuire",
-    "_at": "2026-08-18T20:42:57.464Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "date_created": "11/18/2024",
     "category": "Financial Wellness",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://docs.google.com/document/d/1bQo-mMmarhv-ggzd9SOVj1iueLpcrNlgintIxH2sgys/edit?usp=sharing"
   },
   "ART-0298": {
     "type": "Article",
@@ -82942,12 +83352,13 @@
   },
   "GUD-00013": {
     "author": "Emily Wilson",
-    "_at": "2026-08-18T20:44:51.463Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "date_created": "10/23/2024",
     "peer_reviewer": "Jemma Park",
     "date_revised": "4/30/2025",
     "category": "Financial Wellness",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/12uaOqNl38z_XOEH08v8IByNBNStVK1PMTrZWLfKhsy0/edit?usp=sharing"
   },
   "AUD-0148": {
     "author": "Madeline McGuire",
@@ -82958,12 +83369,13 @@
   },
   "GUD-00046": {
     "author": "Madeline McGuire",
-    "_at": "2026-08-18T17:43:10.189Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Jemma Park",
     "date_created": "10/23/2024",
     "review_date": "4/30/2025",
     "category": "Financial Wellness",
-    "duration": "1159"
+    "duration": "1159",
+    "link": "https://docs.google.com/document/d/11TW3fkJZyHmi0bhYtBssLj--cyn_WTlUuspGBvNsBm8/edit?usp=sharing"
   },
   "AUD-0153": {
     "category": "Financial Wellness",
@@ -82997,11 +83409,12 @@
   },
   "GUD-00010": {
     "author_creds": "",
-    "_at": "2026-08-18T17:43:10.189Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "author": "Emily Wilson",
     "date_created": "10/18/2024",
     "category": "Financial Wellness",
-    "duration": "716"
+    "duration": "716",
+    "link": "https://docs.google.com/document/d/1ssA5pOFmuas0Hi15mj0TQWgDLIWz-cUrzSRdsGvF9xs/edit?usp=sharing"
   },
   "AUD-0154": {
     "date_created": "4/2/2015",
@@ -83107,10 +83520,11 @@
   },
   "GUD-00045": {
     "author": "Madeline McGuire",
-    "_at": "2026-08-18T20:48:10.036Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "date_created": "10/21/2024",
     "category": "Retirement Planning",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/1Pkcu9UOeSxON1LINABIXnAhe5XdFvMMmvEMytXmlv5w/edit?usp=sharing"
   },
   "GUD-00040": {
     "author": "Madeline McGuire",
@@ -83121,10 +83535,11 @@
   },
   "GUD-00001": {
     "author": "Emily Wilson",
-    "_at": "2026-08-18T17:43:10.189Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "date_created": "10/15/2024",
     "category": "Financial Wellness",
-    "duration": "153"
+    "duration": "153",
+    "link": "https://docs.google.com/document/d/1WVELzuVkN-g9bbDVW4gVNt_8jF74M8huwfvWcNUXobo/edit?usp=sharing"
   },
   "AUD-0012": {
     "date_created": "9/23/2024",
@@ -83150,10 +83565,11 @@
   },
   "AUD-0155": {
     "category": "Financial Wellness",
-    "_at": "2026-08-10T20:06:24.297Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "author": "Madeline McGuire",
     "date_created": "9/23/2024",
-    "duration": "2"
+    "duration": "2",
+    "link": "https://app.allinonewellbeing.com/videos/building-savings-with-divided-deposits-animated"
   },
   "INF-0182": {
     "type": "Infographic",
@@ -83201,10 +83617,11 @@
   },
   "GUD-00019": {
     "author": "Emily Wilson",
-    "_at": "2026-08-18T17:43:10.189Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "date_created": "10/24/2024",
     "category": "Financial Wellness",
-    "duration": "685"
+    "duration": "685",
+    "link": "https://docs.google.com/document/d/1UWTJO5NlmMhukZlWAXTFnkQSvD6mKkmDeLm773ybrpk/edit?usp=sharing"
   },
   "PRE-00002": {
     "author": "Emily Wilson",
@@ -83227,10 +83644,11 @@
   },
   "GUD-00018": {
     "author": "Emily Wilson",
-    "_at": "2026-08-18T20:49:06.620Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "date_created": "10/24/2024",
     "category": "Financial Wellness",
-    "duration": "3"
+    "duration": "3",
+    "link": "https://docs.google.com/document/d/11z7507GXn5gfhbTO__7v2nmaUj4SOP2is0oCflhQhRc/edit?usp=sharing"
   },
   "PRE-00003": {
     "author": "Emily Wilson",
@@ -83411,9 +83829,10 @@
   },
   "GUD-00050": {
     "author": "Madeline McGuire",
-    "_at": "2026-08-13T17:43:27.600Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "date_created": "10/17/2024",
-    "duration": "1086"
+    "duration": "1086",
+    "link": "https://docs.google.com/document/d/1PWBjtp8tEH82b7InpDKOl6jsmPcGQQ-586yDp35hRMU/edit?usp=sharing"
   },
   "HLT-0406": {
     "duration": "1 min",
@@ -83443,10 +83862,11 @@
   },
   "GUD-00043": {
     "author": "Madeline McGuire",
-    "_at": "2026-08-18T17:43:10.189Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "date_created": "10/15/2024",
     "duration": "905",
-    "category": "Financial Wellness"
+    "category": "Financial Wellness",
+    "link": "https://docs.google.com/document/d/17OG3QEW8UPv2QlDTo2SMu6yxM9NB6BJoztqQu2H6nAM/edit?usp=sharing"
   },
   "HLT-0410": {
     "duration": "2 min",
@@ -83489,10 +83909,11 @@
   },
   "GUD-00015": {
     "author": "Emily Wilson",
-    "_at": "2026-08-18T17:43:10.189Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "date_created": "10/23/2024",
     "duration": "754",
-    "category": "Financial Wellness"
+    "category": "Financial Wellness",
+    "link": "https://docs.google.com/document/d/1aGiFINUPoOsEpzF_bDUqXvDu6pt-7XzcPTJqD7H4k6A/edit?usp=sharing"
   },
   "HLT-0157": {
     "duration": "2 min",
@@ -83537,10 +83958,11 @@
   },
   "GUD-00014": {
     "author": "Emily Wilson",
-    "_at": "2026-08-18T17:43:10.189Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "date_created": "10/23/2024",
     "duration": "927",
-    "category": "Financial Wellness"
+    "category": "Financial Wellness",
+    "link": "https://docs.google.com/document/d/1adtRa3fZe8cpZx11EaH-DrogZfNJksI6mmB3C_Hq8FA/edit?usp=sharing"
   },
   "HLT-0034": {
     "duration": "1 min",
@@ -83710,23 +84132,27 @@
   },
   "GUD-00173": {
     "type": "Guide",
-    "_at": "2026-09-04T17:04:13.247Z",
-    "category": "Cancer"
+    "_at": "2026-09-08T13:39:28.792Z",
+    "category": "Cancer",
+    "link": "https://docs.google.com/document/d/1vUUbrDRpAuPdVophBTx8yEzGn-UhO1lwn-F4qv3Vwbw/edit?usp=sharing"
   },
   "GUD-00175": {
     "type": "Guide",
-    "_at": "2026-09-04T17:04:18.157Z",
-    "category": "Cancer"
+    "_at": "2026-09-08T13:39:28.792Z",
+    "category": "Cancer",
+    "link": "https://docs.google.com/document/d/1rpbB2mu6BBWOAs_9zM2ukgwzeYtSluedZSUwSusRwrU/edit?usp=sharing"
   },
   "GUD-00177": {
     "type": "Guide",
-    "_at": "2026-09-04T17:04:23.229Z",
-    "category": "Cancer"
+    "_at": "2026-09-08T13:39:28.792Z",
+    "category": "Cancer",
+    "link": "https://docs.google.com/document/d/12W1cjmCbEa16OU0czvIbQ6Q7uOUBP5eZGu_wTCQ3vi4/edit?usp=sharing"
   },
   "GUD-00179": {
     "type": "Guide",
-    "_at": "2026-09-04T17:04:28.192Z",
-    "category": "Cancer"
+    "_at": "2026-09-08T13:39:28.792Z",
+    "category": "Cancer",
+    "link": "https://docs.google.com/document/d/1APvMq0hbP_GK8ih5r7MS6mFIoRnPJOM30uHmpPOBkhs/edit?usp=sharing"
   },
   "GUD-00174": {
     "type": "Guide",
@@ -83769,14 +84195,15 @@
   },
   "REC-0003": {
     "title": "Baked Egg Cups",
-    "_at": "2026-08-18T17:43:10.189Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "author": "Jade Gordon",
     "date_created": "1/14/2025",
     "category": "Nutrition",
     "notes": "",
     "references": "",
     "reviewed_by": "",
-    "duration": "30"
+    "duration": "30",
+    "link": "https://drive.google.com/file/d/1ptz2guUxIxdMoGHV_F98P_lDEZ6gUP_D/view?usp=sharing"
   },
   "REC-0004": {
     "title": "Baked Sweet Potato Chips",
@@ -85639,8 +86066,9 @@
   },
   "GUD-00075": {
     "type": "Guide",
-    "_at": "2026-09-04T17:05:04.862Z",
-    "category": "Diabetes"
+    "_at": "2026-09-08T13:39:28.792Z",
+    "category": "Diabetes",
+    "link": "https://docs.google.com/document/d/1-vHF_AdZ5c9LwwEvdt4OHNqlUtwSfHqVM25eUrf4rh0/edit?tab=t.0"
   },
   "ART-0814": {
     "type": "Article",
@@ -86218,11 +86646,12 @@
   },
   "GUD-00033": {
     "author": "Madeline McGuire",
-    "_at": "2026-08-18T17:43:10.189Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "date_created": "10/30/2024",
     "language": "English",
     "category": "Financial Wellness",
-    "duration": "843"
+    "duration": "843",
+    "link": "https://docs.google.com/document/d/1RPzF4vA8F37fUz-JmBaIZwwi67m26RdWnfaA1fmLWsU/edit?usp=sharing"
   },
   "ART-0561": {
     "category": "Mental Health",
@@ -86261,18 +86690,20 @@
   },
   "AUD-0039": {
     "type": "Audio",
-    "_at": "2026-08-18T20:27:15.805Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "teacher": "Madeline McGuire",
     "duration": "3",
-    "date_created": "3/31/2025"
+    "date_created": "3/31/2025",
+    "link": "https://app.allinonewellbeing.com/videos/understanding-tricare-types-and-who-s-eligible-audio"
   },
   "ART-0981": {
     "type": "Article",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "title": "Recognizing Early Signs Of Oral Cancer",
     "category": "Cancer",
     "author": "Marlee Alanis",
-    "peer_reviewer": "Diane McNaught"
+    "peer_reviewer": "Diane McNaught",
+    "link": "https://docs.google.com/document/d/1zUwLTVbv-8f8oOOLMkL2tQ2Pfj3qpCTAeKiO5MCEJ4E/edit?usp=sharing"
   },
   "ART-1010": {
     "type": "Article",
@@ -86284,12 +86715,13 @@
   },
   "ART-1031": {
     "type": "Article",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "title": "How Stress Affects the Body",
     "category": "Stress Management",
     "author": "Emily Wilson",
     "duration": "2",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "link": "https://docs.google.com/document/d/1VJiBBf9lWxbGvylHFLfE80zhrpQEO4lDFzERW1043qg/edit?usp=sharing"
   },
   "ART-1036": {
     "type": "Article",
@@ -86382,267 +86814,300 @@
   },
   "ART-1115": {
     "type": "Article",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "title": "Early Warning Signs of Heart Disease",
     "category": "Heart Health",
     "author": "Alyssa Lagasca",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "link": "https://docs.google.com/document/d/1L_az8Da9J8OGhh_Z1Gc2NU55bMuhppeCxa2b4pU7Lrc/edit?usp=sharing"
   },
   "ART-1117": {
     "type": "Article",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "title": "Reversing Metabolic Syndrome Before It Becomes Disease",
     "category": "Metabolic Health",
     "author": "Alyssa Lagasca",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "link": "https://docs.google.com/document/d/1b7ofANvYG0dzwWIf3fN0iCwzi-B9D9ySD1tRM0WUOKU/edit?usp=sharing"
   },
   "ART-1118": {
     "type": "Article",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "title": "What's the Real Connection Between Inflammation & Heart Health",
     "category": "Heart Health",
     "author": "Alyssa Lagasca",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "link": "https://docs.google.com/document/d/1jGfqbnKmaTqpTc3eTNzheyq8w8WlUA1tI0IG5V0TjBQ/edit?usp=sharing"
   },
   "ART-1119": {
     "type": "Article",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "title": "Preventing Blood Pressure Issues Beyond Medication",
     "category": "Heart Health",
     "author": "Alyssa Lagasca",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "link": "https://docs.google.com/document/d/1M3xpJgEO4eXgfgYEQkfEzJgaqJgX3OOGq5kCSDX1u_A/edit?usp=sharing"
   },
   "ART-1120": {
     "type": "Article",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "title": "Understanding Visceral Fat and Cardiometabolic Risk",
     "category": "Metabolic Health",
     "author": "Alyssa Lagasca",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "link": "https://docs.google.com/document/d/1_usA8t29yhWWC5iCv9qTWDppi5iv9UugV55icv6e2tc/edit?usp=sharing"
   },
   "ART-1121": {
     "type": "Article",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "title": "Optimizing Your Lipid Panel Naturally",
     "category": "Heart Health",
     "author": "Alyssa Lagasca",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "link": "https://docs.google.com/document/d/11CVz69Ozizu0nOX0yjJIWwvS9qtKHVY-9VbKzUF8yLs/edit?usp=sharing"
   },
   "ART-1122": {
     "type": "Article",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "title": "Insulin Resistance & Chronic Conditions",
     "category": "Metabolic Health",
     "author": "Alyssa Lagasca",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "link": "https://docs.google.com/document/d/1HLuaCHIlZGwKB7obeRFsVSDo1pPLodMlaSWCTKdAKWA/edit?usp=sharing"
   },
   "ART-1123": {
     "type": "Article",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "title": "Preventing Cognitive Decline from Stress",
     "category": "Brain Health",
     "author": "Alyssa Lagasca",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "link": "https://docs.google.com/document/d/1cx2V-32hmvStJoO5-fp2m4fAPCL6i5ZqniNrlHNHNDE/edit?usp=sharing"
   },
   "ART-1124": {
     "type": "Article",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "title": "Brain Health Across the Lifespan",
     "category": "Brain Health",
     "author": "Alyssa Lagasca",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "link": "https://docs.google.com/document/d/1Kt12bh7kA2Kbs75gu44YhFuyPyPv7vJoifEHwZ-Go9E/edit?usp=sharing"
   },
   "ART-1125": {
     "type": "Article",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "title": "Executive Brain Optimization",
     "category": "Brain Health",
     "author": "Alyssa Lagasca",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "link": "https://docs.google.com/document/d/1QDCsDgXDToxhkf8SczDznfiWLqNvqRWs-ao7kBGkhlE/edit?usp=sharing"
   },
   "ART-1126": {
     "type": "Article",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "title": "Knowing the Difference Between Burnout vs. Depression",
     "category": "Mental Health",
     "author": "Alyssa Lagasca",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "link": "https://docs.google.com/document/d/12NuVtUwTP3uo4acEuYJUVfawFz_w_R3Gm9-4aJtygRI/edit?usp=sharing"
   },
   "ART-1127": {
     "type": "Article",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "title": "Anxiety Prevention Strategies That Actually Work",
     "category": "Mental Health",
     "author": "Alyssa Lagasca",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "link": "https://docs.google.com/document/d/1EpvXWW5ZqpPZQeHmXr_5fEdvQqFX5l0oe_ymLXBe96c/edit?usp=sharing"
   },
   "ART-1128": {
     "type": "Article",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "title": "Protecting Your Brain from Dementia Risk",
     "category": "Brain Health",
     "author": "Alyssa Lagasca",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "link": "https://docs.google.com/document/d/1tYrP0TXNswBAu1hhk3vUrD6d0nOah4P3IgFzDSGYzpw/edit?usp=sharing"
   },
   "ART-1129": {
     "type": "Article",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "title": "Emotional Resilience for High Performers",
     "category": "Mental Health",
     "author": "Alyssa Lagasca",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "link": "https://docs.google.com/document/d/1nydOLMK8gURc6qU3WrjYyMzTvE-u0KGh_jXMhLyn_Ew/edit?usp=sharing"
   },
   "ART-1130": {
     "type": "Article",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "title": "The Role of Sleep in Cancer Prevention",
     "category": "Cancer",
     "author": "Alyssa Lagasca",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "link": "https://docs.google.com/document/d/1Z5hEigomxHsB47L7LxhbRDLbH-1XEA7DRYJsnofuato/edit?usp=sharing"
   },
   "ART-1131": {
     "type": "Article",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "title": "Environmental Toxins & Cancer Risk",
     "category": "Cancer",
     "author": "Alyssa Lagasca",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "link": "https://docs.google.com/document/d/1xuuO7j-WurwLolk-YOwC8jb3kvkAQ7vaaFcDkqblvLU/edit?usp=sharing"
   },
   "ART-1132": {
     "type": "Article",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "title": "Important Screening Guidelines by Age",
     "category": "Health Screenings",
     "author": "Alyssa Lagasca",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "link": "https://docs.google.com/document/d/1S6lwTfHZqQ0GmSVSe0FzeVzqGeD7edOo5JRuhQEfq6c/edit?usp=sharing"
   },
   "ART-1133": {
     "type": "Article",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "title": "Anti-Inflammatory Nutrition for Cellular Health",
     "category": "Nutrition",
     "author": "Alyssa Lagasca",
-    "peer_reviewer": "Marlee Alanis"
+    "peer_reviewer": "Marlee Alanis",
+    "link": "https://docs.google.com/document/d/1cN37sgJvgvLsgaDN9EN0xykw8ANia0UpFuyr0VVZ_ss/edit?usp=sharing"
   },
   "ART-1157": {
     "type": "Article",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "title": "The Preventative Cardiology Playbook",
     "category": "Heart Health",
     "author": "Alyssa Lagasca",
-    "peer_reviewer": "Chelsea Johnson"
+    "peer_reviewer": "Chelsea Johnson",
+    "link": "https://docs.google.com/document/d/1iFMfpLWx0h3QJANUcW-PUBF-Y326sTQmjNMah_xezE0/edit?usp=sharing"
   },
   "ART-1158": {
     "type": "Article",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "title": "VO2 Max and Longevity For Cardio Fitness",
     "category": "Fitness",
     "author": "Alyssa Lagasca",
-    "peer_reviewer": "Chelsea Johnson"
+    "peer_reviewer": "Chelsea Johnson",
+    "link": "https://docs.google.com/document/d/1PXnqCll_VATvxZBk-mCFFF-LUxqCljSGqDvxeVAv1MU/edit?usp=sharing"
   },
   "ART-1159": {
     "type": "Article",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "title": "The Window of Opportunity for Prediabetes",
     "category": "Diabetes",
     "author": "Alyssa Lagasca",
-    "peer_reviewer": "Chelsea Johnson"
+    "peer_reviewer": "Chelsea Johnson",
+    "link": "https://docs.google.com/document/d/1r6PwoIlJLPyd89FaEHcIXR9185I5clcXUGHKd0P-ibI/edit?usp=sharing"
   },
   "ART-1160": {
     "type": "Article",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "title": "The Hidden Epidemic of Fatty Liver Disease",
     "category": "Health",
     "author": "Alyssa Lagasca",
-    "peer_reviewer": "Chelsea Johnson"
+    "peer_reviewer": "Chelsea Johnson",
+    "link": "https://docs.google.com/document/d/1jE3JBfJSnZkpl7iuXzYbwqDDSnefr--v1MiiYy1fiXE/edit?usp=sharing"
   },
   "ART-1161": {
     "type": "Article",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "title": "How to Control Blood Sugar Spikes in Real Life",
     "category": "Diabetes",
     "author": "Alyssa Lagasca",
-    "peer_reviewer": "Chelsea Johnson"
+    "peer_reviewer": "Chelsea Johnson",
+    "link": "https://docs.google.com/document/d/1FaoZDrfT8m_23w-tCqMxwZVtBj1knosvxRcbMWTyoAc/edit?usp=sharing"
   },
   "ART-1162": {
     "type": "Article",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "title": "Continuous Glucose Monitoring for Non-diabetics",
     "category": "Wearables",
     "author": "Alyssa Lagasca",
-    "peer_reviewer": "Chelsea Johnson"
+    "peer_reviewer": "Chelsea Johnson",
+    "link": "https://docs.google.com/document/d/1kTWGY3L8Zb3uCNpu--qKjvXLmCMR6q5j7NuEduLdIZE/edit?usp=sharing"
   },
   "ART-1163": {
     "type": "Article",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "title": "Nutrition Strategies to Reverse Insulin Resistance",
     "category": "Diabetes",
     "author": "Alyssa Lagasca",
-    "peer_reviewer": "Chelsea Johnson"
+    "peer_reviewer": "Chelsea Johnson",
+    "link": "https://docs.google.com/document/d/1f9AndZy-1N_hRkPhwRbF99cwovXVHX5uBC-9ZPn2g1Q/edit?usp=sharing"
   },
   "ART-1164": {
     "type": "Article",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "title": "30 Days of Metabolic Reset",
     "category": "Metabolic Health",
     "author": "Alyssa Lagasca",
-    "peer_reviewer": "Chelsea Johnson"
+    "peer_reviewer": "Chelsea Johnson",
+    "link": "https://docs.google.com/document/d/10zXZybvmX6JeY6oT9411tz5hLCbcBFelU-kuQatvYgM/edit?usp=sharing"
   },
   "ART-1165": {
     "type": "Article",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "title": "Protecting Your Family's Air Quality & Lung Health",
     "category": "Lung Health",
     "author": "Alyssa Lagasca",
-    "peer_reviewer": "Chelsea Johnson"
+    "peer_reviewer": "Chelsea Johnson",
+    "link": "https://docs.google.com/document/d/1iyORgXaiTiNJbwGiiITgY6_Mett7EJyD/edit?usp=sharing&ouid=115828701979952867982&rtpof=true&sd=true"
   },
   "ART-1166": {
     "type": "Article",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "title": "Respiratory Health in a Post-COVID World",
     "category": "Lung Health",
     "author": "Alyssa Lagasca",
-    "peer_reviewer": "Chelsea Johnson"
+    "peer_reviewer": "Chelsea Johnson",
+    "link": "https://docs.google.com/document/d/1wCLARtxDXzhIsLnnd3czxLfkxrkvmGJK/edit?usp=sharing&ouid=115828701979952867982&rtpof=true&sd=true"
   },
   "ART-1167": {
     "type": "Article",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "title": "Can You Influence Your Cancer Risk With Lifestyle & Epigenetics",
     "category": "Cancer",
     "author": "Alyssa Lagasca",
-    "peer_reviewer": "Chelsea Johnson"
+    "peer_reviewer": "Chelsea Johnson",
+    "link": "https://docs.google.com/document/d/1VJXPhS2N5AXRWcnM090FzSIpwv_DidTa/edit?usp=sharing&ouid=115828701979952867982&rtpof=true&sd=true"
   },
   "ART-1168": {
     "type": "Article",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "title": "Alcohol, Liver Health & Long-Term Risk",
     "category": "Alcohol Use",
     "author": "Alyssa Lagasca",
-    "peer_reviewer": "Chelsea Johnson"
+    "peer_reviewer": "Chelsea Johnson",
+    "link": "https://docs.google.com/document/d/1HFs8PhI48qjSjgR7K_x3lASySlt7tJeU/edit?usp=sharing&ouid=115828701979952867982&rtpof=true&sd=true"
   },
   "ART-1169": {
     "type": "Article",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "title": "What Actually Makes a Difference In Cancer Risk Reduction",
     "category": "Cancer",
     "author": "Alyssa Lagasca",
-    "peer_reviewer": "Chelsea Johnson"
+    "peer_reviewer": "Chelsea Johnson",
+    "link": "https://docs.google.com/document/d/12d9WBKsy1K9iz8q8SFhc8bDUS1_bpqFm/edit?usp=sharing&ouid=115828701979952867982&rtpof=true&sd=true"
   },
   "ART-1170": {
     "type": "Article",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "title": "Safe Training Strategies For Exercise-Induced Asthma",
     "category": "Asthma",
     "author": "Alyssa Lagasca",
-    "peer_reviewer": "Chelsea Johnson"
+    "peer_reviewer": "Chelsea Johnson",
+    "link": "https://docs.google.com/document/d/1aSJQuANO2wy31dTFaNxHQxyXBY_sG1Do/edit?usp=sharing&ouid=115828701979952867982&rtpof=true&sd=true"
   },
   "ART-1171": {
     "type": "Article",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "title": "What You Should Know About Adult-Onset Asthma",
     "category": "Asthma",
     "author": "Alyssa Lagasca",
-    "peer_reviewer": "Chelsea Johnson"
+    "peer_reviewer": "Chelsea Johnson",
+    "link": "https://docs.google.com/document/d/1ta9BbjHKnnSprb5PNDak47IIr2EdGTcI/edit?usp=sharing&ouid=115828701979952867982&rtpof=true&sd=true"
   },
   "ART-0363": {
     "peer_reviewer": "Marlee Alanis",
@@ -86682,9 +87147,10 @@
   },
   "ART-0256": {
     "author": "Emily Wilson",
-    "_at": "2026-09-04T19:10:03.167Z",
+    "_at": "2026-09-08T13:39:28.792Z",
     "peer_reviewer": "Marlee Alanis",
     "duration": "2",
-    "date_created": "02/08/2026"
+    "date_created": "02/08/2026",
+    "link": "https://docs.google.com/document/d/1oBDT9xeGAGpYzzC13HxBGrX7AX13sOTmDkfLSgtMh_o/edit?usp=sharing"
   }
 }
