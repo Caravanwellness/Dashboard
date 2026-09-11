@@ -419,7 +419,8 @@
     "Walkingspree",
     "Wellics",
     "Wellsort",
-    "PagerHealth"
+    "PagerHealth",
+    "Carebook"
   ],
   "EN-00623": [
     "BSDI",
@@ -427,7 +428,10 @@
     "Hapstar",
     "Lyra Health",
     "YuLife",
-    "PagerHealth"
+    "PagerHealth",
+    "Carebook",
+    "Kardi AI",
+    "Marino Wellness"
   ],
   "EN-00624": [
     "Hapstar",
@@ -1983,7 +1987,8 @@
     "Big Yellow Fish",
     "Navigate Wellbeing",
     "Wellness360",
-    "PagerHealth"
+    "PagerHealth",
+    "BSDI"
   ],
   "EN-01330": [
     "Wellness360"
@@ -1995,7 +2000,8 @@
   ],
   "EN-01334": [
     "Wellness360",
-    "PagerHealth"
+    "PagerHealth",
+    "BSDI"
   ],
   "EN-01335": [
     "BSDI",
@@ -3356,7 +3362,9 @@
     "Curela",
     "Lyra Health",
     "Welldoc",
-    "Wellness360"
+    "Wellness360",
+    "Carebook",
+    "Kardi AI"
   ],
   "EN-00610": [
     "BSDI",
@@ -3698,7 +3706,9 @@
     "Walkingspree",
     "Wellics",
     "Wellness360",
-    "PagerHealth"
+    "PagerHealth",
+    "Carebook",
+    "Kardi AI"
   ],
   "EN-00648": [
     "YuLife",
@@ -6598,13 +6608,17 @@
   "ART-0158": [
     "GoJoe",
     "PagerHealth",
-    "BSDI"
+    "BSDI",
+    "Navigate Wellbeing",
+    "Marino Wellness"
   ],
   "JA-00006": [
     "GoJoe"
   ],
   "ART-0159": [
-    "GoJoe"
+    "GoJoe",
+    "Navigate Wellbeing",
+    "Marino Wellness"
   ],
   "JA-00007": [
     "GoJoe"
@@ -6652,7 +6666,9 @@
   "INF-0223": [
     "GoJoe",
     "Sante Group",
-    "Spectrum.life"
+    "Spectrum.life",
+    "Curela",
+    "Wellics"
   ],
   "VID-0372": [
     "GoJoe"
@@ -7558,7 +7574,12 @@
     "Spectrum.life"
   ],
   "ART-0101": [
-    "Spectrum.life"
+    "Spectrum.life",
+    "YuLife",
+    "Curela",
+    "Wellics",
+    "BSDI",
+    "Marino Wellness"
   ],
   "VID-0902": [
     "Spectrum.life"
@@ -8034,7 +8055,9 @@
   "ART-0141": [
     "Keel Mind",
     "PagerHealth",
-    "Carebook"
+    "Carebook",
+    "YuLife",
+    "BSDI"
   ],
   "VID-1046": [
     "Keel Mind"
@@ -8074,7 +8097,8 @@
   "EN-00480": [
     "PagerHealth",
     "Lyra Health",
-    "Sante Group"
+    "Sante Group",
+    "WPO"
   ],
   "EN-00533": [
     "PagerHealth"
@@ -8396,7 +8420,8 @@
     "PagerHealth"
   ],
   "EN-01643": [
-    "PagerHealth"
+    "PagerHealth",
+    "YuLife"
   ],
   "EN-01678": [
     "PagerHealth"
@@ -9459,7 +9484,8 @@
   ],
   "EN-00924": [
     "Keel Mind",
-    "Emma Health"
+    "Emma Health",
+    "BSDI"
   ],
   "EN-00511": [
     "Earn It"
@@ -9493,7 +9519,11 @@
   ],
   "EN-00437": [
     "Loune.co (needs to be confirmed",
-    "WPO"
+    "WPO",
+    "Oncology Physicians Network",
+    "Kardi AI",
+    "Wellics",
+    "BSDI"
   ],
   "EN-00253": [
     "GoJoe",
@@ -11763,5 +11793,66 @@
   ],
   "NL-00021": [
     "Lifesmart"
+  ],
+  "INF-0547": [
+    "Carebook",
+    "Wellics",
+    "BSDI"
+  ],
+  "INF-0464": [
+    "Carebook",
+    "Navigate Wellbeing",
+    "BSDI"
+  ],
+  "FR-00015": [
+    "Carebook"
+  ],
+  "INF-0498": [
+    "Carebook"
+  ],
+  "EN-00310": [
+    "YuLife",
+    "Emma Health",
+    "Big Yellow Fish",
+    "Oncology Physicians Network",
+    "Curela"
+  ],
+  "ART-0034": [
+    "YuLife"
+  ],
+  "ART-0139": [
+    "YuLife",
+    "Kardi AI",
+    "BSDI"
+  ],
+  "EN-00048": [
+    "Navigate Wellbeing"
+  ],
+  "INF-0493": [
+    "Navigate Wellbeing",
+    "Wellics"
+  ],
+  "INF-0239": [
+    "Hapstar"
+  ],
+  "INF-0298": [
+    "Hapstar"
+  ],
+  "EN-01921": [
+    "Big Yellow Fish"
+  ],
+  "INF-0326": [
+    "Kardi AI",
+    "Curela",
+    "BSDI"
+  ],
+  "INF-0755": [
+    "BSDI"
+  ],
+  "EN-00666": [
+    "BSDI"
+  ],
+  "EN-01869": [
+    "BSDI"
   ]
 }
