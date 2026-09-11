@@ -7736,7 +7736,8 @@
     "Keel Mind"
   ],
   "ART-0102": [
-    "Keel Mind"
+    "Keel Mind",
+    "BSDI"
   ],
   "ART-0116": [
     "Keel Mind",
@@ -7747,7 +7748,9 @@
     "Keel Mind"
   ],
   "ART-0230": [
-    "Keel Mind"
+    "Keel Mind",
+    "Carebook",
+    "BSDI"
   ],
   "ART-0208": [
     "Keel Mind",
@@ -7774,7 +7777,9 @@
     "Keel Mind"
   ],
   "ART-0172": [
-    "Keel Mind"
+    "Keel Mind",
+    "Wellics",
+    "BSDI"
   ],
   "ART-0117": [
     "Keel Mind",
@@ -7784,7 +7789,8 @@
     "Keel Mind"
   ],
   "ART-0114": [
-    "Keel Mind"
+    "Keel Mind",
+    "BSDI"
   ],
   "EXT-0154": [
     "Keel Mind"
@@ -7801,13 +7807,15 @@
     "Keel Mind"
   ],
   "ART-0112": [
-    "Keel Mind"
+    "Keel Mind",
+    "BSDI"
   ],
   "EXT-0163": [
     "Keel Mind"
   ],
   "ART-0248": [
-    "Keel Mind"
+    "Keel Mind",
+    "BSDI"
   ],
   "EXT-0164": [
     "Keel Mind"
@@ -7821,7 +7829,8 @@
   ],
   "ART-0105": [
     "Keel Mind",
-    "Carebook"
+    "Carebook",
+    "BSDI"
   ],
   "EXT-0166": [
     "Keel Mind"
@@ -7838,17 +7847,21 @@
   "ART-0226": [
     "Keel Mind",
     "PagerHealth",
-    "Carebook"
+    "Carebook",
+    "BSDI"
   ],
   "EXT-0177": [
     "Keel Mind"
   ],
   "ART-0210": [
     "Keel Mind",
-    "PagerHealth"
+    "PagerHealth",
+    "BSDI"
   ],
   "ART-0247": [
-    "Keel Mind"
+    "Keel Mind",
+    "Wellics",
+    "BSDI"
   ],
   "EXT-0180": [
     "Keel Mind"
@@ -9002,7 +9015,8 @@
     "PagerHealth"
   ],
   "ART-0220": [
-    "PagerHealth"
+    "PagerHealth",
+    "BSDI"
   ],
   "ALB-0063": [
     "PagerHealth"
@@ -9162,7 +9176,8 @@
     "Carebook"
   ],
   "ART-0052": [
-    "Keel Mind"
+    "Keel Mind",
+    "Wellics"
   ],
   "ART-0131": [
     "BSDI"
@@ -9196,7 +9211,8 @@
   ],
   "ART-0055": [
     "Keel Mind",
-    "Carebook"
+    "Carebook",
+    "BSDI"
   ],
   "ART-0068": [
     "Keel Mind"
@@ -9224,7 +9240,8 @@
     "Keel Mind"
   ],
   "ART-0207": [
-    "Keel Mind"
+    "Keel Mind",
+    "BSDI"
   ],
   "VID-0938": [
     "Kardi AI"
@@ -11565,10 +11582,12 @@
     "Keel Mind"
   ],
   "ART-0212": [
-    "Keel Mind"
+    "Keel Mind",
+    "BSDI"
   ],
   "ART-0213": [
-    "Keel Mind"
+    "Keel Mind",
+    "BSDI"
   ],
   "ART-0077": [
     "Keel Mind"
@@ -11594,7 +11613,8 @@
     "California Lithuanian Credit Un"
   ],
   "INF-0272": [
-    "California Lithuanian Credit Un"
+    "California Lithuanian Credit Un",
+    "Carebook"
   ],
   "INF-0174": [
     "California Lithuanian Credit Un"
@@ -11836,7 +11856,8 @@
     "Hapstar"
   ],
   "INF-0298": [
-    "Hapstar"
+    "Hapstar",
+    "BSDI"
   ],
   "EN-01921": [
     "Big Yellow Fish"
@@ -11853,6 +11874,159 @@
     "BSDI"
   ],
   "EN-01869": [
+    "BSDI"
+  ],
+  "ART-0040": [
+    "Oncology Physicians Network"
+  ],
+  "ART-0039": [
+    "Oncology Physicians Network"
+  ],
+  "ART-0041": [
+    "Oncology Physicians Network"
+  ],
+  "ART-0224": [
+    "Oncology Physicians Network"
+  ],
+  "ART-0243": [
+    "Oncology Physicians Network",
+    "BSDI"
+  ],
+  "INF-0733": [
+    "Carebook"
+  ],
+  "INF-0310": [
+    "Carebook"
+  ],
+  "INF-0709": [
+    "Carebook"
+  ],
+  "ART-0214": [
+    "Wellics",
+    "BSDI"
+  ],
+  "INF-0633": [
+    "Wellics"
+  ],
+  "INF-0155": [
+    "Wellics",
+    "BSDI"
+  ],
+  "INF-0152": [
+    "Wellics"
+  ],
+  "ART-0177": [
+    "BSDI"
+  ],
+  "ART-0057": [
+    "BSDI"
+  ],
+  "INF-0208": [
+    "BSDI"
+  ],
+  "INF-0207": [
+    "BSDI"
+  ],
+  "INF-0210": [
+    "BSDI"
+  ],
+  "ART-0211": [
+    "BSDI"
+  ],
+  "ART-0099": [
+    "BSDI"
+  ],
+  "ART-0231": [
+    "BSDI"
+  ],
+  "ART-0223": [
+    "BSDI"
+  ],
+  "ART-0221": [
+    "BSDI"
+  ],
+  "INF-0180": [
+    "BSDI"
+  ],
+  "INF-0716": [
+    "BSDI"
+  ],
+  "ART-0087": [
+    "BSDI"
+  ],
+  "ART-0119": [
+    "BSDI"
+  ],
+  "ART-0171": [
+    "BSDI"
+  ],
+  "ART-0218": [
+    "BSDI"
+  ],
+  "ART-0067": [
+    "BSDI"
+  ],
+  "ART-0167": [
+    "BSDI"
+  ],
+  "ART-0110": [
+    "BSDI"
+  ],
+  "INF-0105": [
+    "BSDI"
+  ],
+  "INF-0104": [
+    "BSDI"
+  ],
+  "INF-0206": [
+    "BSDI"
+  ],
+  "ART-0082": [
+    "BSDI"
+  ],
+  "ART-0079": [
+    "BSDI"
+  ],
+  "ART-0080": [
+    "BSDI"
+  ],
+  "ART-0193": [
+    "BSDI"
+  ],
+  "ART-0037": [
+    "BSDI"
+  ],
+  "ART-0169": [
+    "BSDI"
+  ],
+  "ART-0170": [
+    "BSDI"
+  ],
+  "ART-0199": [
+    "BSDI"
+  ],
+  "ART-0154": [
+    "BSDI"
+  ],
+  "ART-0085": [
+    "BSDI"
+  ],
+  "ART-0189": [
+    "BSDI"
+  ],
+  "INF-0805": [
+    "BSDI"
+  ],
+  "ART-0104": [
+    "BSDI"
+  ],
+  "ART-0113": [
+    "BSDI"
+  ],
+  "ART-0098": [
+    "BSDI"
+  ],
+  "ART-0227": [
     "BSDI"
   ]
 }
