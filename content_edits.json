@@ -1391,14 +1391,15 @@
   },
   "ART-0122": {
     "author": "Marlee Alanis",
-    "_at": "2026-09-03T22:32:52.851Z",
+    "_at": "2026-09-14T15:33:48.358Z",
     "peer_reviewer": "Diane McNaught",
     "language": "English",
     "duration": "3",
     "title": "Safe Sun Exposure Tips For Healthy Skin",
     "category": "Health",
     "notes": "2nd to last paragraph- I wonder if there is a word other than relish that might make more sense? Also- is it worth adding that it is a good idea to understand if there are any restrictions on certain types of sunscreens at specific vavaciot spots (like Hawaii?)",
-    "link": "https://docs.google.com/document/d/189wW8nGjhBDWsqJlrd2YhmSP8GK9o1PbWMV9-x5ujv0/edit?usp=sharing"
+    "link": "https://docs.google.com/document/d/189wW8nGjhBDWsqJlrd2YhmSP8GK9o1PbWMV9-x5ujv0/edit?usp=sharing",
+    "teacher": "Marlee Alanis"
   },
   "ART-0123": {
     "author": "Marlee Alanis",
@@ -85397,14 +85398,16 @@
   },
   "ART-0983": {
     "peer_reviewer": "Marlee Alanis",
-    "_at": "2026-09-04T17:02:09.929Z",
+    "_at": "2026-09-14T15:33:48.358Z",
     "references": "CDC. (2026). Sun safety facts. https://www.cdc.gov/skin-cancer/sun-safety/index.html\nAmerican Academy of Dermatology. (2025). How to prevent skin cancer. https://www.aad.org/public/diseases/skin-cancer/prevent/how\nCureus. (2024). Sunscreen safety and efficacy for the prevention of cutaneous neoplasm. https://pmc.ncbi.nlm.nih.gov/articles/PMC11022667/",
     "teacher": "Marlee Alanis",
     "type": "Article",
     "notes": "2nd to last paragraph- I wonder if there is a word other than relish that might make more sense? Also- is it worth adding that it is a good idea to understand if there are any restrictions on certain types of sunscreens at specific vavaciot spots (like Hawaii?)",
     "duration": "3",
     "category": "Skin Health",
-    "author": "Alyssa Lagasca"
+    "author": "Alyssa Lagasca",
+    "_hidden": true,
+    "_merged_into": "ART-0122"
   },
   "ART-0762": {
     "peer_reviewer": "Marlee Alanis",
