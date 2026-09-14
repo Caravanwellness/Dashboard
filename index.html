@@ -607,7 +607,7 @@ textarea.field-edit { resize: vertical; }
       <h3>Client</h3>
       <div class="msel" id="clientFilter"><button type="button" class="msel-btn"><span class="msel-btn-label">All Clients</span></button><div class="msel-panel"></div></div>
     </div>
-    <div class="sidebar-count">Showing <strong id="shownCount">0</strong> items</div>
+    <div class="sidebar-count" id="sidebarCountRow">Showing <strong id="shownCount">0</strong> items</div>
     </div><!-- end sidebar-content -->
   </div>
 
@@ -2223,6 +2223,7 @@ document.querySelectorAll('.tab').forEach(t => t.addEventListener('click', () =>
   document.getElementById('portalToolbar').style.display = isPortal ? 'flex' : 'none';
   document.getElementById('portalGridWrap').style.display= isPortal ? '' : 'none';
   document.getElementById('typeGroup').style.display     = isPortal ? 'none' : '';
+  document.getElementById('sidebarCountRow').style.display = isPortal ? 'none' : '';
   if (isPortal) closeDetail(); // no edit panel on this tab — make sure it isn't left open from before
   if (isLic)      renderClientBubbles();
   else if (isCur) renderSavedLists();
@@ -2352,7 +2353,7 @@ function renderMsel(id, opts, allLabel) {
     panel.querySelectorAll('input[type=checkbox]').forEach(cb => cb.checked = false);
     btn.querySelector('.msel-btn-label').textContent = mselLabel(id, allLabel);
     btn.classList.remove('active');
-    applyFilters();
+    handleFilterChange();
   });
   const search = panel.querySelector('.msel-search');
   if (search) search.addEventListener('input', () => {
@@ -2366,7 +2367,7 @@ function renderMsel(id, opts, allLabel) {
       if (cb.checked) sel.add(cb.value); else sel.delete(cb.value);
       btn.querySelector('.msel-btn-label').textContent = mselLabel(id, allLabel);
       btn.classList.toggle('active', sel.size > 0);
-      applyFilters();
+      handleFilterChange();
     });
   });
 }
@@ -2419,8 +2420,8 @@ function seedFilters() {
 
 ['titleFilter'].forEach(id=>{
   const el = document.getElementById(id);
-  el.addEventListener('input',  applyFilters);
-  el.addEventListener('change', applyFilters);
+  el.addEventListener('input',  handleFilterChange);
+  el.addEventListener('change', handleFilterChange);
 });
 
 const TWO_YEARS_MS   = 2 * 365.25 * 24 * 60 * 60 * 1000;
@@ -2489,6 +2490,15 @@ function renderDueSchedule() {
       </table>
     </div>`;
   }).join('') + `<p style="font-size:11px;color:#bbb;margin-top:8px">Review schedule is based on last reviewed date (or date created if never reviewed) + 2 years. Click any row to open the item.</p>`;
+}
+
+// Filter widgets (msel checkboxes, title box) are shared between the main
+// Content Library table and the Client Portal grid — route each change to
+// whichever one is actually visible instead of always refreshing the table,
+// which used to leave the portal grid stale until an unrelated re-render.
+function handleFilterChange() {
+  if (activeTab === 'portal') applyPortalFilters();
+  else applyFilters();
 }
 
 function applyFilters() {
