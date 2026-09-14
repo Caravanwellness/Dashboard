@@ -107,6 +107,8 @@ tr.selected td { box-shadow: inset 3px 0 0 #1a6eb5; background: #f0f6fc !importa
 .portal-card-meta { font-size: 11px; color: #888; margin-bottom: 6px; }
 .portal-card-desc { font-size: 12px; color: #666; line-height: 1.4; margin-bottom: 8px; }
 .portal-card-price { font-size: 13px; font-weight: 700; color: #00847A; }
+.portal-read-more { color: #00847A; font-weight: 600; cursor: pointer; white-space: nowrap; }
+.portal-read-more:hover { text-decoration: underline; }
 .sort-asc::after { content: ' ↑'; }
 .sort-desc::after { content: ' ↓'; }
 
@@ -402,6 +404,13 @@ textarea.field-edit { resize: vertical; }
 <div id="cartModal" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:8000;align-items:center;justify-content:center">
   <div style="background:white;border-radius:14px;padding:30px;max-width:560px;width:90%;box-shadow:0 12px 40px rgba(0,0,0,.25);max-height:90vh;overflow-y:auto">
     <div id="cartModalBody"></div>
+  </div>
+</div>
+
+<!-- Client Portal: full description popup -->
+<div id="descriptionModal" onclick="if(event.target===this)closeDescriptionModal()" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:8000;align-items:center;justify-content:center">
+  <div style="background:white;border-radius:14px;padding:28px;max-width:480px;width:90%;box-shadow:0 12px 40px rgba(0,0,0,.25);max-height:80vh;overflow-y:auto">
+    <div id="descriptionModalBody"></div>
   </div>
 </div>
 
@@ -2603,7 +2612,8 @@ function renderPortalGrid() {
   grid.innerHTML = portalVisible.map(item => {
     const inCart = cart.has(item.id);
     const desc = lv(item,'description') || '';
-    const descShort = desc.length > 100 ? esc(desc.slice(0,100)) + '…' : esc(desc);
+    const truncated = desc.length > 100;
+    const descShort = truncated ? esc(desc.slice(0,100)) + '…' : esc(desc);
     const dur = lv(item,'duration') || extractDuration(lv(item,'title')) || '';
     const thumb = lv(item,'thumbnail');
     return `<div class="portal-card${inCart?' selected':''}" onclick="togglePortalCartItem('${item.id}')">
@@ -2612,7 +2622,7 @@ function renderPortalGrid() {
       <div class="portal-card-body">
         <div class="portal-card-title">${esc(lv(item,'title'))}</div>
         <div class="portal-card-meta">${esc(lv(item,'category')||'—')} &nbsp;·&nbsp; ${esc(lv(item,'language')||'—')}${dur?` &nbsp;·&nbsp; ${esc(String(dur))} min`:''}</div>
-        ${descShort ? `<div class="portal-card-desc">${descShort}</div>` : ''}
+        ${descShort ? `<div class="portal-card-desc">${descShort}${truncated?` <span class="portal-read-more" onclick="event.stopPropagation();showFullDescription('${item.id}')">Read more</span>`:''}</div>` : ''}
         <div class="portal-card-price">$${PORTAL_PRICE}/yr</div>
       </div>
     </div>`;
@@ -2624,6 +2634,20 @@ function togglePortalCartItem(id) {
   savePortalState();
   updateCartBadge();
   renderPortalGrid();
+}
+
+function showFullDescription(id) {
+  const item = BY_ID[id];
+  if (!item) return;
+  document.getElementById('descriptionModalBody').innerHTML = `
+    <h3 style="margin:0 0 4px;font-size:15px;font-weight:700;color:#000000">${esc(lv(item,'title'))}</h3>
+    <div style="font-size:12px;color:#888;margin-bottom:14px">${esc(lv(item,'category')||'—')} &nbsp;·&nbsp; ${esc(lv(item,'language')||'—')}</div>
+    <p style="font-size:13px;color:#444;line-height:1.6;white-space:pre-wrap;margin:0 0 20px">${esc(lv(item,'description')||'')}</p>
+    <button onclick="closeDescriptionModal()" style="width:100%;padding:9px 18px;border:1px solid #e0e0e0;border-radius:7px;background:white;cursor:pointer;font-size:13px;color:#666">Close</button>`;
+  document.getElementById('descriptionModal').style.display = 'flex';
+}
+function closeDescriptionModal() {
+  document.getElementById('descriptionModal').style.display = 'none';
 }
 
 function updateCartBadge() {
