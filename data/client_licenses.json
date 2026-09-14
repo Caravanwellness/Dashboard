@@ -41,7 +41,8 @@
   "ALB-0228": [
     "Keel Mind",
     "Spectrum.life",
-    "PagerHealth"
+    "PagerHealth",
+    "YuLife"
   ],
   "VID-0943": [
     "Wellness360"
@@ -247,14 +248,18 @@
   ],
   "ILB-0430": [
     "Sante Group",
-    "Wellness360"
+    "Wellness360",
+    "Curela"
   ],
   "ILB-0457": [
     "Lyra Health",
-    "Sante Group"
+    "Sante Group",
+    "Hapstar",
+    "WPO"
   ],
   "VID-0780": [
-    "Wellness360"
+    "Wellness360",
+    "Navigate Wellbeing"
   ],
   "EN-00404": [
     "Lyra Health",
@@ -594,7 +599,8 @@
     "JAAQ",
     "Spectrum.life",
     "The Difference Card",
-    "Wellness360"
+    "Wellness360",
+    "Curela"
   ],
   "EN-00876": [
     "JAAQ",
@@ -2424,7 +2430,8 @@
     "Lyra Health",
     "Wellness360",
     "PagerHealth",
-    "GoJoe"
+    "GoJoe",
+    "Big Yellow Fish"
   ],
   "EN-00931": [
     "YuLife",
@@ -3839,7 +3846,8 @@
     "Walkingspree",
     "Wellness360",
     "Lyra Health",
-    "Keel Mind"
+    "Keel Mind",
+    "YuLife"
   ],
   "EN-00388": [
     "YuLife",
@@ -4003,7 +4011,9 @@
   "VID-0847": [
     "Earn It",
     "The Difference Card",
-    "Wellness360"
+    "Wellness360",
+    "Emma Health",
+    "YuLife"
   ],
   "EN-00380": [
     "Curela",
@@ -4038,7 +4048,10 @@
     "Earn It",
     "Walkingspree",
     "Wellness360",
-    "Wellsort"
+    "Wellsort",
+    "Hapstar",
+    "Navigate Wellbeing",
+    "YuLife"
   ],
   "EN-00649": [
     "YuLife",
@@ -5561,13 +5574,17 @@
   ],
   "ART-0158": [
     "GoJoe",
-    "PagerHealth"
+    "PagerHealth",
+    "Marino Wellness",
+    "Navigate Wellbeing"
   ],
   "JA-00006": [
     "GoJoe"
   ],
   "ART-0159": [
-    "GoJoe"
+    "GoJoe",
+    "Marino Wellness",
+    "Navigate Wellbeing"
   ],
   "JA-00007": [
     "GoJoe"
@@ -5613,7 +5630,8 @@
   "INF-0223": [
     "GoJoe",
     "Sante Group",
-    "Spectrum.life"
+    "Spectrum.life",
+    "Curela"
   ],
   "VID-0372": [
     "GoJoe"
@@ -6495,7 +6513,10 @@
     "Spectrum.life"
   ],
   "ART-0101": [
-    "Spectrum.life"
+    "Spectrum.life",
+    "Curela",
+    "Marino Wellness",
+    "YuLife"
   ],
   "VID-0902": [
     "Spectrum.life"
@@ -6957,7 +6978,8 @@
   ],
   "ART-0141": [
     "Keel Mind",
-    "PagerHealth"
+    "PagerHealth",
+    "YuLife"
   ],
   "VID-1046": [
     "Keel Mind"
@@ -7970,7 +7992,8 @@
   "ART-0056": [
     "PagerHealth",
     "Keel Mind",
-    "Spectrum.life"
+    "Spectrum.life",
+    "YuLife"
   ],
   "ART-0120": [
     "PagerHealth",
@@ -8468,7 +8491,8 @@
     "PagerHealth"
   ],
   "ART-1192": [
-    "PagerHealth"
+    "PagerHealth",
+    "YuLife"
   ],
   "ART-1193": [
     "PagerHealth"
@@ -8639,7 +8663,9 @@
     "Keel Mind",
     "Lyra Health",
     "Spectrum.life",
-    "PagerHealth"
+    "PagerHealth",
+    "Marino Wellness",
+    "YuLife"
   ],
   "ART-0395": [
     "Keel Mind",
@@ -8723,11 +8749,14 @@
   ],
   "ART-0941": [
     "Keel Mind",
-    "PagerHealth"
+    "PagerHealth",
+    "Kardi AI",
+    "YuLife"
   ],
   "ART-0939": [
     "Keel Mind",
-    "PagerHealth"
+    "PagerHealth",
+    "YuLife"
   ],
   "ART-1091": [
     "PagerHealth"
@@ -8769,10 +8798,14 @@
     "PagerHealth"
   ],
   "ART-1101": [
-    "PagerHealth"
+    "PagerHealth",
+    "Marino Wellness",
+    "Navigate Wellbeing"
   ],
   "ART-1102": [
-    "PagerHealth"
+    "PagerHealth",
+    "Marino Wellness",
+    "Navigate Wellbeing"
   ],
   "ART-0933": [
     "PagerHealth"
@@ -9251,7 +9284,8 @@
     "Keel Mind"
   ],
   "ART-0687": [
-    "Keel Mind"
+    "Keel Mind",
+    "WPO"
   ],
   "ART-0460": [
     "California Lithuanian Credit Un"
@@ -9458,7 +9492,8 @@
   ],
   "INF-0261": [
     "Sante Group",
-    "Wellness360"
+    "Wellness360",
+    "Curela"
   ],
   "EN-01928": [
     "PagerHealth",
@@ -9655,6 +9690,44 @@
     "YuLife"
   ],
   "NL-00003": [
+    "YuLife"
+  ],
+  "VID-1179": [
+    "Curela"
+  ],
+  "INF-0326": [
+    "Curela",
+    "Kardi AI"
+  ],
+  "INF-0298": [
+    "Hapstar"
+  ],
+  "INF-0239": [
+    "Hapstar"
+  ],
+  "EXT-0486": [
+    "Kardi AI"
+  ],
+  "ART-0139": [
+    "Kardi AI",
+    "YuLife"
+  ],
+  "EXT-0485": [
+    "Kardi AI"
+  ],
+  "EXT-0481": [
+    "Marino Wellness"
+  ],
+  "INF-0493": [
+    "Navigate Wellbeing"
+  ],
+  "INF-0464": [
+    "Navigate Wellbeing"
+  ],
+  "EXT-0498": [
+    "WPO"
+  ],
+  "ART-0034": [
     "YuLife"
   ]
 }
