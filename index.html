@@ -94,21 +94,6 @@ tr.selected td { box-shadow: inset 3px 0 0 #1a6eb5; background: #f0f6fc !importa
 .badge-type { background: #b2dad75c; color: #00847A; }
 .edited-dot { display: inline-block; width: 6px; height: 6px; background: #FF4874; border-radius: 50%; flex-shrink: 0; margin-top: 5px; }
 .empty-state { text-align: center; padding: 60px 20px; color: #ccc; font-size: 15px; }
-/* Client Portal */
-.portal-card { position: relative; border: 1px solid #e8e8e8; border-radius: 10px; overflow: hidden; cursor: pointer; background: white; transition: box-shadow .15s, border-color .15s; }
-.portal-card:hover { box-shadow: 0 2px 10px rgba(0,0,0,.08); }
-.portal-card.selected { border-color: #00847A; box-shadow: 0 0 0 2px rgba(0,132,122,.25); }
-.portal-card-checkbox { position: absolute; top: 8px; right: 8px; width: 20px; height: 20px; border-radius: 5px; background: white; border: 2px solid #ccc; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 700; color: white; z-index: 2; }
-.portal-card.selected .portal-card-checkbox { background: #00847A; border-color: #00847A; }
-.portal-card-thumb { width: 100%; aspect-ratio: 16/9; background: #E6E6E6; display: flex; align-items: center; justify-content: center; font-size: 28px; color: #aaa; overflow: hidden; }
-.portal-card-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
-.portal-card-body { padding: 10px 12px 12px; }
-.portal-card-title { font-size: 13px; font-weight: 700; color: #000; line-height: 1.35; margin-bottom: 4px; }
-.portal-card-meta { font-size: 11px; color: #888; margin-bottom: 6px; }
-.portal-card-desc { font-size: 12px; color: #666; line-height: 1.4; margin-bottom: 8px; }
-.portal-card-price { font-size: 13px; font-weight: 700; color: #00847A; }
-.portal-read-more { color: #FF4874; font-weight: 600; cursor: pointer; white-space: nowrap; }
-.portal-read-more:hover { text-decoration: underline; }
 .sort-asc::after { content: ' ↑'; }
 .sort-desc::after { content: ' ↓'; }
 
@@ -400,20 +385,6 @@ textarea.field-edit { resize: vertical; }
   </div>
 </div>
 
-<!-- Client Portal: cart / checkout modal — one modal, two internal views -->
-<div id="cartModal" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:8000;align-items:center;justify-content:center">
-  <div style="background:white;border-radius:14px;padding:30px;max-width:560px;width:90%;box-shadow:0 12px 40px rgba(0,0,0,.25);max-height:90vh;overflow-y:auto">
-    <div id="cartModalBody"></div>
-  </div>
-</div>
-
-<!-- Client Portal: full description popup -->
-<div id="descriptionModal" onclick="if(event.target===this)closeDescriptionModal()" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:8000;align-items:center;justify-content:center">
-  <div style="background:white;border-radius:14px;padding:28px;max-width:480px;width:90%;box-shadow:0 12px 40px rgba(0,0,0,.25);max-height:80vh;overflow-y:auto">
-    <div id="descriptionModalBody"></div>
-  </div>
-</div>
-
 <!-- Possible-duplicate confirmation (manual edit of Title/Language/Type) -->
 <div id="dupeConfirmModal" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:9000;align-items:center;justify-content:center">
   <div style="background:white;border-radius:14px;padding:24px;max-width:420px;width:90%;box-shadow:0 12px 40px rgba(0,0,0,.25)">
@@ -559,7 +530,6 @@ textarea.field-edit { resize: vertical; }
   <div class="tab" data-tab="creators">Experts</div>
   <div class="tab" data-tab="licensing">Licensed Content by Client</div>
   <div class="tab" data-tab="curation">✦ Curation</div>
-  <div class="tab" data-tab="portal">🛍 Client Portal</div>
 </div>
 
 <!-- Review / Library view -->
@@ -620,22 +590,6 @@ textarea.field-edit { resize: vertical; }
     <div class="table-wrap" id="mainTableWrap">
       <table><thead id="thead"></thead><tbody id="tbody"></tbody></table>
       <div class="empty-state" id="emptyState" style="display:none">No items match.</div>
-    </div>
-
-    <!-- Client Portal toolbar + grid — sibling panes, shown only on the portal tab -->
-    <div class="toolbar" id="portalToolbar" style="display:none">
-      <label style="font-size:12px;color:#666;display:flex;align-items:center;gap:6px">
-        Viewing as
-        <select id="portalClientSelect" style="padding:6px 10px;border:1px solid #e0e0e0;border-radius:7px;font-size:12px;outline:none" onchange="onPortalClientChange()">
-          <option value="">Select a client…</option>
-        </select>
-      </label>
-      <span id="portalCount" style="font-size:12px;color:#555;margin-left:8px"></span>
-      <button class="btn primary" onclick="openCartModal()" style="margin-left:auto">🛒 Cart (<span id="portalCartCount">0</span>)</button>
-    </div>
-    <div class="table-wrap" id="portalGridWrap" style="display:none;overflow-y:auto;padding:16px;box-sizing:border-box">
-      <div id="portalGrid" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:16px"></div>
-      <div class="empty-state" id="portalEmptyState" style="display:none">No videos match.</div>
     </div>
   </div>
 
@@ -2209,27 +2163,15 @@ document.querySelectorAll('.tab').forEach(t => t.addEventListener('click', () =>
   const isCur      = activeTab === 'curation';
   const isDue      = activeTab === 'due';
   const isCreators = activeTab === 'creators';
-  const isPortal   = activeTab === 'portal';
   document.getElementById('mainView').style.display      = (!isLic && !isCur && !isDue && !isCreators) ? 'flex' : 'none';
   document.getElementById('licenseView').style.display   = isLic      ? 'flex'  : 'none';
   document.getElementById('curationView').style.display  = isCur      ? 'flex'  : 'none';
   document.getElementById('dueView').style.display       = isDue      ? 'block' : 'none';
   document.getElementById('creatorsView').style.display  = isCreators ? 'flex'  : 'none';
-  // Client Portal reuses mainView's sidebar+content shell (same filter widgets,
-  // just a narrower group selection) rather than duplicating it — only the
-  // toolbar/content pane swaps between the admin table and the shop grid.
-  document.getElementById('mainToolbar').style.display   = isPortal ? 'none' : '';
-  document.getElementById('mainTableWrap').style.display = isPortal ? 'none' : '';
-  document.getElementById('portalToolbar').style.display = isPortal ? 'flex' : 'none';
-  document.getElementById('portalGridWrap').style.display= isPortal ? '' : 'none';
-  document.getElementById('typeGroup').style.display     = isPortal ? 'none' : '';
-  document.getElementById('sidebarCountRow').style.display = isPortal ? 'none' : '';
-  if (isPortal) closeDetail(); // no edit panel on this tab — make sure it isn't left open from before
   if (isLic)      renderClientBubbles();
   else if (isCur) renderSavedLists();
   else if (isDue) renderDueSchedule();
   else if (isCreators) renderCreators();
-  else if (isPortal) { seedFilters(); ['dueGroup','prioGroup','clientGroup'].forEach(id=>document.getElementById(id).style.display='none'); seedPortalClientSelect(); applyPortalFilters(); }
   else { seedFilters(); applyFilters(); }
 }));
 
@@ -2353,7 +2295,7 @@ function renderMsel(id, opts, allLabel) {
     panel.querySelectorAll('input[type=checkbox]').forEach(cb => cb.checked = false);
     btn.querySelector('.msel-btn-label').textContent = mselLabel(id, allLabel);
     btn.classList.remove('active');
-    handleFilterChange();
+    applyFilters();
   });
   const search = panel.querySelector('.msel-search');
   if (search) search.addEventListener('input', () => {
@@ -2367,7 +2309,7 @@ function renderMsel(id, opts, allLabel) {
       if (cb.checked) sel.add(cb.value); else sel.delete(cb.value);
       btn.querySelector('.msel-btn-label').textContent = mselLabel(id, allLabel);
       btn.classList.toggle('active', sel.size > 0);
-      handleFilterChange();
+      applyFilters();
     });
   });
 }
@@ -2420,8 +2362,8 @@ function seedFilters() {
 
 ['titleFilter'].forEach(id=>{
   const el = document.getElementById(id);
-  el.addEventListener('input',  handleFilterChange);
-  el.addEventListener('change', handleFilterChange);
+  el.addEventListener('input',  applyFilters);
+  el.addEventListener('change', applyFilters);
 });
 
 const TWO_YEARS_MS   = 2 * 365.25 * 24 * 60 * 60 * 1000;
@@ -2492,15 +2434,6 @@ function renderDueSchedule() {
   }).join('') + `<p style="font-size:11px;color:#bbb;margin-top:8px">Review schedule is based on last reviewed date (or date created if never reviewed) + 2 years. Click any row to open the item.</p>`;
 }
 
-// Filter widgets (msel checkboxes, title box) are shared between the main
-// Content Library table and the Client Portal grid — route each change to
-// whichever one is actually visible instead of always refreshing the table,
-// which used to leave the portal grid stale until an unrelated re-render.
-function handleFilterChange() {
-  if (activeTab === 'portal') applyPortalFilters();
-  else applyFilters();
-}
-
 function applyFilters() {
   const title  = document.getElementById('titleFilter').value.toLowerCase();
   const type   = filterSel.typeFilter;
@@ -2541,229 +2474,6 @@ function applyFilters() {
   if (sortKey) visibleItems.sort((a,b)=>lv(a,sortKey).localeCompare(lv(b,sortKey))*sortDir);
   renderTable();
   document.getElementById('shownCount').textContent = visibleItems.length.toLocaleString();
-}
-
-// ── Client Portal ─────────────────────────────────────────────────────────────
-// Staging build: no real client login yet, so "who's shopping" is stood in by
-// a manual "Viewing as" picker rather than session identity. Swap that for the
-// logged-in client's own account once the invite/login system exists — the
-// cart/checkout/hide-already-licensed logic underneath doesn't need to change,
-// it just needs a client name from somewhere.
-const PORTAL_PRICE = 100; // flat $/video/year
-let portalVisible = [];
-let cart = new Set();
-let viewingAsClient = '';
-try {
-  const savedCart = JSON.parse(localStorage.getItem('portal_cart') || '[]');
-  cart = new Set(Array.isArray(savedCart) ? savedCart : []);
-  viewingAsClient = localStorage.getItem('portal_viewing_as') || '';
-} catch(e) {}
-
-function savePortalState() {
-  try {
-    localStorage.setItem('portal_cart', JSON.stringify([...cart]));
-    localStorage.setItem('portal_viewing_as', viewingAsClient);
-  } catch(e) {}
-}
-
-function seedPortalClientSelect() {
-  const sel = document.getElementById('portalClientSelect');
-  const cur = viewingAsClient;
-  sel.innerHTML = '<option value="">Select a client…</option>' +
-    [...clients].sort().map(c => `<option value="${esc(c)}"${c===cur?' selected':''}>${esc(c)}</option>`).join('');
-}
-
-function onPortalClientChange() {
-  viewingAsClient = document.getElementById('portalClientSelect').value;
-  savePortalState();
-  applyPortalFilters();
-}
-
-function applyPortalFilters() {
-  const title = document.getElementById('titleFilter').value.toLowerCase();
-  const cat      = filterSel.catFilter;
-  const author   = filterSel.authorFilter;
-  const lang     = filterSel.langFilter;
-  const branding = filterSel.brandingFilter;
-  const duration = filterSel.durationFilter;
-
-  portalVisible = visibleAll().filter(item => {
-    if (lv(item,'type') !== 'Video') return false;
-    if (title && !lv(item,'title').toLowerCase().includes(title)) return false;
-    if (cat.size    && !cat.has(lv(item,'category')))  return false;
-    if (author.size) {
-      const a = lv(item,'author'), t = lv(item,'teacher')||lv(item,'peer_reviewer');
-      if (!author.has(a) && !author.has(t)) return false;
-    }
-    if (lang.size   && !lang.has(lv(item,'language'))) return false;
-    if (branding.size) {
-      const b = lv(item,'branding') || '';
-      if (!branding.has(b || 'none')) return false;
-    }
-    if (duration.size && !duration.has(durationBucket(item))) return false;
-    if (viewingAsClient) {
-      const lic = gE(item.id,'licenses',item.client_licenses||[]);
-      if (lic.includes(viewingAsClient)) return false; // already licensed — not for sale again
-    }
-    return true;
-  });
-
-  renderPortalGrid();
-  document.getElementById('portalCount').textContent = portalVisible.length.toLocaleString() + ' videos';
-  updateCartBadge();
-}
-
-function renderPortalGrid() {
-  const grid  = document.getElementById('portalGrid');
-  const empty = document.getElementById('portalEmptyState');
-  if (!portalVisible.length) { grid.innerHTML = ''; empty.style.display = ''; return; }
-  empty.style.display = 'none';
-
-  grid.innerHTML = portalVisible.map(item => {
-    const inCart = cart.has(item.id);
-    const desc = lv(item,'description') || '';
-    const truncated = desc.length > 100;
-    const descShort = truncated ? esc(desc.slice(0,100)) + '…' : esc(desc);
-    const dur = lv(item,'duration') || extractDuration(lv(item,'title')) || '';
-    const thumb = lv(item,'thumbnail');
-    return `<div class="portal-card${inCart?' selected':''}" onclick="togglePortalCartItem('${item.id}')">
-      <div class="portal-card-checkbox">${inCart?'✓':''}</div>
-      <div class="portal-card-thumb">${thumb ? `<img src="${esc(thumb)}" loading="lazy" alt="">` : '🎬'}</div>
-      <div class="portal-card-body">
-        <div class="portal-card-title">${esc(lv(item,'title'))}</div>
-        <div class="portal-card-meta">${esc(lv(item,'category')||'—')} &nbsp;·&nbsp; ${esc(lv(item,'language')||'—')}${dur?` &nbsp;·&nbsp; ${esc(String(dur))} min`:''}</div>
-        ${descShort ? `<div class="portal-card-desc">${descShort}${truncated?` <span class="portal-read-more" onclick="event.stopPropagation();showFullDescription('${item.id}')">Read more</span>`:''}</div>` : ''}
-        <div class="portal-card-price">$${PORTAL_PRICE}/yr</div>
-      </div>
-    </div>`;
-  }).join('');
-}
-
-function togglePortalCartItem(id) {
-  if (cart.has(id)) cart.delete(id); else cart.add(id);
-  savePortalState();
-  updateCartBadge();
-  renderPortalGrid();
-}
-
-function showFullDescription(id) {
-  const item = BY_ID[id];
-  if (!item) return;
-  document.getElementById('descriptionModalBody').innerHTML = `
-    <h3 style="margin:0 0 4px;font-size:15px;font-weight:700;color:#000000">${esc(lv(item,'title'))}</h3>
-    <div style="font-size:12px;color:#888;margin-bottom:14px">${esc(lv(item,'category')||'—')} &nbsp;·&nbsp; ${esc(lv(item,'language')||'—')}</div>
-    <p style="font-size:13px;color:#444;line-height:1.6;white-space:pre-wrap;margin:0 0 20px">${esc(lv(item,'description')||'')}</p>
-    <button onclick="closeDescriptionModal()" style="width:100%;padding:9px 18px;border:1px solid #e0e0e0;border-radius:7px;background:white;cursor:pointer;font-size:13px;color:#666">Close</button>`;
-  document.getElementById('descriptionModal').style.display = 'flex';
-}
-function closeDescriptionModal() {
-  document.getElementById('descriptionModal').style.display = 'none';
-}
-
-function updateCartBadge() {
-  const el = document.getElementById('portalCartCount');
-  if (el) el.textContent = cart.size;
-}
-
-function openCartModal() {
-  renderCartView();
-  document.getElementById('cartModal').style.display = 'flex';
-}
-function closeCartModal() {
-  document.getElementById('cartModal').style.display = 'none';
-}
-
-function renderCartView() {
-  const items = [...cart].map(id => BY_ID[id]).filter(Boolean);
-  const total = items.length * PORTAL_PRICE;
-  document.getElementById('cartModalBody').innerHTML = `
-    <h3 style="margin:0 0 14px;font-size:16px;font-weight:700;color:#000000">Your Cart</h3>
-    ${items.length ? items.map(item => `
-      <div style="display:flex;align-items:center;gap:10px;padding:9px 0;border-top:1px solid #eee">
-        <div style="width:36px;height:36px;border-radius:6px;background:#f0f0f0;display:flex;align-items:center;justify-content:center;font-size:16px;flex-shrink:0">🎬</div>
-        <div style="flex:1;min-width:0;font-size:13px;font-weight:600;color:#333;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${esc(lv(item,'title'))}</div>
-        <div style="font-size:13px;color:#666;flex-shrink:0">$${PORTAL_PRICE}</div>
-        <button onclick="removeFromCart('${item.id}')" style="border:none;background:none;color:#aaa;cursor:pointer;font-size:16px;padding:0 2px">×</button>
-      </div>`).join('') : '<div style="color:#999;font-size:13px;padding:14px 0">Your cart is empty.</div>'}
-    ${items.length ? `<div style="display:flex;justify-content:space-between;font-weight:700;font-size:14px;padding:14px 0 0;border-top:1px solid #eee;margin-top:6px">
-      <span>Total (1-year license)</span><span>$${total}</span>
-    </div>` : ''}
-    <div style="display:flex;gap:10px;justify-content:flex-end;margin-top:18px">
-      <button onclick="closeCartModal()" style="padding:9px 18px;border:1px solid #e0e0e0;border-radius:7px;background:white;cursor:pointer;font-size:13px;color:#666">Continue Shopping</button>
-      ${items.length ? `<button onclick="proceedToCheckout()" style="padding:9px 20px;background:#000000;color:white;border:none;border-radius:7px;font-weight:700;font-size:13px;cursor:pointer">Checkout</button>` : ''}
-    </div>`;
-}
-
-function removeFromCart(id) {
-  cart.delete(id);
-  savePortalState();
-  updateCartBadge();
-  renderCartView();
-  if (activeTab === 'portal') renderPortalGrid();
-}
-
-function proceedToCheckout() {
-  renderCheckoutView();
-}
-
-function renderCheckoutView() {
-  const items = [...cart].map(id => BY_ID[id]).filter(Boolean);
-  const total = items.length * PORTAL_PRICE;
-  const clientKnown = !!viewingAsClient;
-  document.getElementById('cartModalBody').innerHTML = `
-    <h3 style="margin:0 0 6px;font-size:16px;font-weight:700;color:#000000">Checkout</h3>
-    <p style="font-size:13px;color:#666;margin:0 0 14px">${items.length} video${items.length===1?'':'s'} · 1-year license each</p>
-    ${clientKnown ? `<div style="font-size:13px;color:#333;margin-bottom:12px">Licensing to: <strong>${esc(viewingAsClient)}</strong></div>`
-      : `<div style="font-size:12px;color:#e63946;background:rgba(230,57,70,.08);border-radius:7px;padding:9px 12px;margin-bottom:12px">Select a client (top of the page, "Viewing as") before completing checkout.</div>`}
-    <div style="max-height:220px;overflow-y:auto;border:1px solid #eee;border-radius:8px;padding:4px 12px;margin-bottom:14px">
-      ${items.map(item => `<div style="display:flex;justify-content:space-between;font-size:13px;padding:7px 0;border-bottom:1px solid #f2f2f2">
-        <span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap;margin-right:10px">${esc(lv(item,'title'))}</span>
-        <span style="flex-shrink:0;color:#666">$${PORTAL_PRICE}</span>
-      </div>`).join('')}
-    </div>
-    <div style="display:flex;justify-content:space-between;font-weight:700;font-size:15px;margin-bottom:18px">
-      <span>Total</span><span>$${total}</span>
-    </div>
-    <div id="checkoutStatus" style="font-size:12px;color:#666;min-height:16px;margin-bottom:8px"></div>
-    <div style="display:flex;gap:10px;justify-content:flex-end">
-      <button onclick="renderCartView()" style="padding:9px 18px;border:1px solid #e0e0e0;border-radius:7px;background:white;cursor:pointer;font-size:13px;color:#666">Back to Cart</button>
-      <button id="completeCheckoutBtn" onclick="completeCheckout()" ${clientKnown?'':'disabled'} style="padding:9px 20px;background:${clientKnown?'#000000':'#ccc'};color:white;border:none;border-radius:7px;font-weight:700;font-size:13px;cursor:${clientKnown?'pointer':'not-allowed'}">Complete Purchase</button>
-    </div>`;
-}
-
-async function completeCheckout() {
-  if (!viewingAsClient || !cart.size) return;
-  const btn = document.getElementById('completeCheckoutBtn');
-  const status = document.getElementById('checkoutStatus');
-  btn.disabled = true;
-  status.textContent = 'Processing…';
-  const ids = [...cart];
-  const add = {};
-  ids.forEach(id => { add[id] = [viewingAsClient]; });
-  try {
-    const r = await fetch('/api/save-licenses', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json', ...authHeader() },
-      body: JSON.stringify({ add, message: `Client Portal purchase: ${ids.length} videos licensed to ${viewingAsClient}` }),
-    });
-    const d = await r.json();
-    if (!r.ok || d.error) throw new Error(d.error || 'Save failed');
-    ids.forEach(id => {
-      const cur = _licenses[id] || [];
-      if (!cur.includes(viewingAsClient)) _licenses[id] = [...cur, viewingAsClient];
-    });
-    cart.clear();
-    savePortalState();
-    updateCartBadge();
-    document.getElementById('cartModalBody').innerHTML = `
-      <h3 style="margin:0 0 10px;font-size:16px;font-weight:700;color:#00847A">✓ Purchase Complete</h3>
-      <p style="font-size:13px;color:#666;margin:0 0 18px">${ids.length} video${ids.length===1?'':'s'} licensed to ${esc(viewingAsClient)} for 1 year.</p>
-      <button onclick="closeCartModal()" style="width:100%;padding:9px 18px;background:#000000;color:white;border:none;border-radius:7px;font-weight:700;font-size:13px;cursor:pointer">Done</button>`;
-    if (activeTab === 'portal') applyPortalFilters();
-  } catch(e) {
-    status.textContent = '⚠ ' + e.message;
-    btn.disabled = false;
-  }
 }
 
 // ── Table ─────────────────────────────────────────────────────────────────────
