@@ -2404,7 +2404,8 @@
     "JAAQ",
     "Wellness360",
     "Wellsort",
-    "PagerHealth"
+    "PagerHealth",
+    "BSDI"
   ],
   "EN-00765": [
     "BSDI",
@@ -2428,7 +2429,8 @@
     "Wellness360",
     "PagerHealth",
     "GoJoe",
-    "Big Yellow Fish"
+    "Big Yellow Fish",
+    "BSDI"
   ],
   "EN-00931": [
     "YuLife",
@@ -11314,5 +11316,8 @@
   ],
   "EXT-3226": [
     "Wellics"
+  ],
+  "NL-00002": [
+    "YuLife"
   ]
 }
