@@ -36191,5 +36191,42 @@
     "notes": "Added per Madison's Recipes/Articles list \u2014 no matching content found under the ID she gave; the only existing items with this exact title are unrelated video content in other languages. Needs a real link/author/category filled in.",
     "_addedAt": "2026-09-16T16:27:46.000Z",
     "_addedBy": "Dashboard"
+  },
+  {
+    "id": "EN-00764",
+    "title": "The First Step To Improving Insomnia",
+    "type": "Video Library",
+    "language": "English",
+    "client_licenses": [
+      "BSDI"
+    ],
+    "notes": "Recreated placeholder \u2014 original content was removed in an earlier duplicate-cleanup pass and no longer exists. Needs a real link/teacher/duration/category filled in.",
+    "_addedAt": "2026-09-17T18:14:40.000Z",
+    "_addedBy": "Dashboard"
+  },
+  {
+    "id": "EN-00768",
+    "title": "What Is Insomnia?",
+    "type": "Video Library",
+    "language": "English",
+    "client_licenses": [
+      "BSDI",
+      "Big Yellow Fish"
+    ],
+    "notes": "Recreated placeholder \u2014 original content was removed in an earlier duplicate-cleanup pass and no longer exists. A Spanish version exists (ES-00166) but this English one needed to be recreated. Needs a real link/teacher/duration/category filled in.",
+    "_addedAt": "2026-09-17T18:14:40.000Z",
+    "_addedBy": "Dashboard"
+  },
+  {
+    "id": "NL-00002",
+    "title": "Yoga voor benen",
+    "type": "Video Library",
+    "language": "Dutch",
+    "client_licenses": [
+      "YuLife"
+    ],
+    "notes": "Recreated placeholder \u2014 original content was removed in an earlier duplicate-cleanup pass and no longer exists. Needs a real link/teacher/duration/category filled in.",
+    "_addedAt": "2026-09-17T18:14:40.000Z",
+    "_addedBy": "Dashboard"
   }
 ]
