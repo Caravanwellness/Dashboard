@@ -36228,5 +36228,89 @@
     "notes": "Recreated placeholder \u2014 original content was removed in an earlier duplicate-cleanup pass and no longer exists. Needs a real link/teacher/duration/category filled in.",
     "_addedAt": "2026-09-17T18:14:40.000Z",
     "_addedBy": "Dashboard"
+  },
+  {
+    "id": "EXT-3227",
+    "title": "What a Heart Attack Looks Like",
+    "type": "Article",
+    "language": "English",
+    "client_licenses": [
+      "BSDI"
+    ],
+    "notes": "Referenced in Madison's Recipes/Articles list with no matching content anywhere in the catalog. Needs a real link/author/category filled in.",
+    "_addedAt": "2026-09-18T13:07:37.000Z",
+    "_addedBy": "Dashboard"
+  },
+  {
+    "id": "EXT-3228",
+    "title": "Nutrition for Sleep",
+    "type": "Article",
+    "language": "English",
+    "client_licenses": [
+      "BSDI"
+    ],
+    "notes": "Referenced in Madison's Recipes/Articles list with no matching content anywhere in the catalog. Needs a real link/author/category filled in.",
+    "_addedAt": "2026-09-18T13:07:37.000Z",
+    "_addedBy": "Dashboard"
+  },
+  {
+    "id": "EXT-3229",
+    "title": "How to Build a Pollen-Free Routine",
+    "type": "Article",
+    "language": "English",
+    "client_licenses": [
+      "BSDI"
+    ],
+    "notes": "Referenced in Madison's Recipes/Articles list with no matching content anywhere in the catalog. Needs a real link/author/category filled in.",
+    "_addedAt": "2026-09-18T13:07:37.000Z",
+    "_addedBy": "Dashboard"
+  },
+  {
+    "id": "EXT-3230",
+    "title": "Myths & Facts about PTSD",
+    "type": "Article",
+    "language": "English",
+    "client_licenses": [
+      "BSDI"
+    ],
+    "notes": "Referenced in Madison's Recipes/Articles list with no matching content anywhere in the catalog. Needs a real link/author/category filled in.",
+    "_addedAt": "2026-09-18T13:07:37.000Z",
+    "_addedBy": "Dashboard"
+  },
+  {
+    "id": "EXT-3231",
+    "title": "The Link Between Alcohol and Anxiety",
+    "type": "Article",
+    "language": "English",
+    "client_licenses": [
+      "BSDI"
+    ],
+    "notes": "Referenced in Madison's Recipes/Articles list with no matching content anywhere in the catalog. Needs a real link/author/category filled in.",
+    "_addedAt": "2026-09-18T13:07:37.000Z",
+    "_addedBy": "Dashboard"
+  },
+  {
+    "id": "EXT-3232",
+    "title": "Understanding Type 1 Diabetes: A Guide for Families",
+    "type": "Article",
+    "language": "English",
+    "client_licenses": [
+      "BSDI"
+    ],
+    "notes": "Referenced in Madison's Recipes/Articles list with no matching content anywhere in the catalog. Needs a real link/author/category filled in.",
+    "_addedAt": "2026-09-18T13:07:37.000Z",
+    "_addedBy": "Dashboard"
+  },
+  {
+    "id": "EXT-3233",
+    "title": "What Is PCOS?",
+    "type": "Article",
+    "language": "English",
+    "client_licenses": [
+      "BSDI"
+    ],
+    "notes": "Referenced in Madison's Recipes/Articles list with no matching content anywhere in the catalog. Needs a real link/author/category filled in.",
+    "_addedAt": "2026-09-18T13:07:37.000Z",
+    "_addedBy": "Dashboard"
   }
 ]
