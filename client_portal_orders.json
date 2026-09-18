@@ -1,0 +1,23 @@
+[
+  {
+    "id": "ord_1789749969532_q9wlh3",
+    "client": "BSDI",
+    "buyerEmail": "lisa@caravanwellness.com",
+    "buyerName": "Lisa Wang",
+    "items": [
+      {
+        "id": "EN-01863",
+        "title": "How Arthritis Progresses Over Time",
+        "price": 100
+      },
+      {
+        "id": "EN-01864",
+        "title": "Understanding Arthritis Symptoms",
+        "price": 100
+      }
+    ],
+    "total": 200,
+    "purchasedAt": "2026-09-18T16:46:09.532Z",
+    "estimatedExpiresAt": "2027-09-18T16:46:09.532Z"
+  }
+]
