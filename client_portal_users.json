@@ -5,5 +5,12 @@
     "client": null,
     "removed": false,
     "createdAt": "2026-09-16T15:57:56.690Z"
+  },
+  "lisa@caravanwellness.com": {
+    "name": "Lisa Wang",
+    "passwordHash": "680179e5ea83b810e53fbfb587fe08750d9dd094b398d18250a09c7876ec8389",
+    "client": null,
+    "removed": false,
+    "createdAt": "2026-09-18T15:37:52.877Z"
   }
 }
