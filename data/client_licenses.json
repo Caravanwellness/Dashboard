@@ -619,7 +619,8 @@
     "JAAQ",
     "The Difference Card",
     "Walkingspree",
-    "Wellness360"
+    "Wellness360",
+    "BSDI"
   ],
   "EN-00880": [
     "Hapstar",
@@ -11257,5 +11258,8 @@
   ],
   "NL-00002": [
     "YuLife"
+  ],
+  "EN-01358": [
+    "BSDI"
   ]
 }
