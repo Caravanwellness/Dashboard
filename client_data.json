@@ -1,8 +1,5 @@
 {
   "clients": [
-    "YuLife",
-    "Hapstar",
-    "Lifesmart",
     "BSDI",
     "Big Yellow Fish",
     "Bolton Hotel",
@@ -12,16 +9,17 @@
     "Earn It",
     "Emma Health",
     "GoJoe",
+    "Hapstar",
     "Healthee",
     "JAAQ",
     "Kardi AI",
     "Keel Mind",
     "LifeSmart",
+    "Lifesmart",
     "Loune.co (needs to be confirmed",
     "Luro Health",
     "Lyra Health",
     "Marino Wellness",
-    "Mobitrans (will be updated with",
     "Navigate Wellbeing",
     "Numbase",
     "Oncology Physicians Network",
@@ -39,17 +37,8 @@
     "Wellics",
     "Wellness360",
     "Wellsort",
-    "i9med",
-    "Licensed RecipesArticles"
+    "YuLife",
+    "i9med"
   ],
-  "meta": {
-    "YuLife": {
-      "delivery": "API/Portal",
-      "notes": "158 videos delivered"
-    },
-    "Hapstar": {
-      "delivery": "Portal",
-      "notes": ""
-    }
-  }
+  "meta": {}
 }
