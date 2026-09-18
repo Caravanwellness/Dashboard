@@ -41,8 +41,7 @@
   "ALB-0228": [
     "Keel Mind",
     "Spectrum.life",
-    "PagerHealth",
-    "YuLife"
+    "PagerHealth"
   ],
   "VID-0943": [
     "Wellness360"
@@ -248,14 +247,11 @@
   ],
   "ILB-0430": [
     "Sante Group",
-    "Wellness360",
-    "Curela"
+    "Wellness360"
   ],
   "ILB-0457": [
     "Lyra Health",
-    "Sante Group",
-    "Hapstar",
-    "WPO"
+    "Sante Group"
   ],
   "VID-0780": [
     "Wellness360",
@@ -599,8 +595,7 @@
     "JAAQ",
     "Spectrum.life",
     "The Difference Card",
-    "Wellness360",
-    "Curela"
+    "Wellness360"
   ],
   "EN-00876": [
     "JAAQ",
@@ -3833,8 +3828,7 @@
     "Walkingspree",
     "Wellness360",
     "Lyra Health",
-    "Keel Mind",
-    "YuLife"
+    "Keel Mind"
   ],
   "EN-00388": [
     "YuLife",
@@ -3997,8 +3991,7 @@
   "VID-0847": [
     "Earn It",
     "The Difference Card",
-    "Wellness360",
-    "YuLife"
+    "Wellness360"
   ],
   "EN-00380": [
     "Curela",
@@ -4034,9 +4027,7 @@
     "Walkingspree",
     "Wellness360",
     "Wellsort",
-    "Hapstar",
-    "Navigate Wellbeing",
-    "YuLife"
+    "Navigate Wellbeing"
   ],
   "EN-00649": [
     "YuLife",
@@ -5559,7 +5550,6 @@
   "ART-0158": [
     "GoJoe",
     "PagerHealth",
-    "Marino Wellness",
     "Navigate Wellbeing",
     "BSDI"
   ],
@@ -5568,7 +5558,6 @@
   ],
   "ART-0159": [
     "GoJoe",
-    "Marino Wellness",
     "Navigate Wellbeing",
     "BSDI"
   ],
@@ -5616,8 +5605,7 @@
   "INF-0223": [
     "GoJoe",
     "Sante Group",
-    "Spectrum.life",
-    "Curela"
+    "Spectrum.life"
   ],
   "VID-0372": [
     "GoJoe"
@@ -6500,9 +6488,6 @@
   ],
   "ART-0101": [
     "Spectrum.life",
-    "Curela",
-    "Marino Wellness",
-    "YuLife",
     "BSDI"
   ],
   "VID-0902": [
@@ -6977,7 +6962,6 @@
   "ART-0141": [
     "Keel Mind",
     "PagerHealth",
-    "YuLife",
     "Carebook"
   ],
   "VID-1046": [
@@ -8008,7 +7992,6 @@
     "PagerHealth",
     "Keel Mind",
     "Spectrum.life",
-    "YuLife",
     "BSDI",
     "Carebook"
   ],
@@ -8523,8 +8506,7 @@
     "PagerHealth"
   ],
   "ART-1192": [
-    "PagerHealth",
-    "YuLife"
+    "PagerHealth"
   ],
   "ART-1193": [
     "PagerHealth"
@@ -8709,8 +8691,6 @@
     "Lyra Health",
     "Spectrum.life",
     "PagerHealth",
-    "Marino Wellness",
-    "YuLife",
     "BSDI"
   ],
   "ART-0395": [
@@ -8799,14 +8779,11 @@
   ],
   "ART-0941": [
     "Keel Mind",
-    "PagerHealth",
-    "Kardi AI",
-    "YuLife"
+    "PagerHealth"
   ],
   "ART-0939": [
     "Keel Mind",
-    "PagerHealth",
-    "YuLife"
+    "PagerHealth"
   ],
   "ART-1091": [
     "PagerHealth"
@@ -8851,12 +8828,10 @@
   ],
   "ART-1101": [
     "PagerHealth",
-    "Marino Wellness",
     "Navigate Wellbeing"
   ],
   "ART-1102": [
     "PagerHealth",
-    "Marino Wellness",
     "Navigate Wellbeing"
   ],
   "ART-0933": [
@@ -9377,7 +9352,6 @@
   ],
   "ART-0687": [
     "Keel Mind",
-    "WPO",
     "BSDI"
   ],
   "ART-0460": [
@@ -9590,8 +9564,7 @@
   ],
   "INF-0261": [
     "Sante Group",
-    "Wellness360",
-    "Curela"
+    "Wellness360"
   ],
   "EN-01928": [
     "PagerHealth",
@@ -9790,34 +9763,12 @@
   "NL-00003": [
     "YuLife"
   ],
-  "VID-1179": [
-    "Curela"
-  ],
-  "INF-0326": [
-    "Curela",
-    "Kardi AI"
-  ],
   "INF-0298": [
-    "Hapstar",
     "BSDI"
   ],
-  "INF-0239": [
-    "Hapstar"
-  ],
-  "EXT-0486": [
-    "Kardi AI"
-  ],
   "ART-0139": [
-    "Kardi AI",
-    "YuLife",
     "BSDI",
     "Carebook"
-  ],
-  "EXT-0485": [
-    "Kardi AI"
-  ],
-  "EXT-0481": [
-    "Marino Wellness"
   ],
   "INF-0493": [
     "Navigate Wellbeing"
@@ -9825,11 +9776,7 @@
   "INF-0464": [
     "Navigate Wellbeing"
   ],
-  "EXT-0498": [
-    "WPO"
-  ],
   "ART-0034": [
-    "YuLife",
     "Wellics"
   ],
   "ART-0695": [
